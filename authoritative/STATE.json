@@ -1,0 +1,53 @@
+{
+  "project": "Almost-Stacked-Proof",
+  "as_of": "2026-10-12",
+  "last_completed_session": "S001",
+  "recommended_next_session": "S002",
+  "headline_target": "Universal Almost Stacked Hypothesis (ASH): proof OR certified counterexample",
+  "headline_status": "UNRESOLVED",
+  "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
+  "active_campaign": null,
+  "phases": {
+    "0": {
+      "name": "Governance bootstrap",
+      "status": "PASS"
+    },
+    "1": {
+      "name": "Primary-source exact statement and proof/counterexample research",
+      "status": "IN_PROGRESS"
+    },
+    "2": {
+      "name": "First prior-art / novelty audit",
+      "status": "NOT_STARTED"
+    },
+    "3": {
+      "name": "Lean formalisation",
+      "status": "NOT_STARTED"
+    },
+    "4": {
+      "name": "Final comprehensive novelty audit",
+      "status": "NOT_STARTED"
+    },
+    "5": {
+      "name": "Palomar verification and registration",
+      "status": "OWNER_GATED"
+    },
+    "6": {
+      "name": "Standalone arXiv manuscript and submission",
+      "status": "OWNER_GATED"
+    }
+  },
+  "source_inspection": "ASH 2610.09650 ABSTRACT_INSPECTED only; original PDF exact hypotheses not transcribed",
+  "counterexample_status": "NONE_CLAIMED",
+  "lean_status": "NOT_STARTED",
+  "palomar_status": "NOT_SUBMITTED",
+  "arxiv_project_status": "NOT_SUBMITTED",
+  "open_obligations": [
+    "Access and transcribe primary 2610.09650 exact ASH stack/clear statements and graph, size and convention boundaries.",
+    "Independently reconcile the 2026 TreeStack theorem and October paper estimator definitions and dates.",
+    "Select and preregister a mathematical proof or counterexample attack after primary-source statement verification.",
+    "Verify all reported workflow runs and check statuses when a session is closed; missing checks never count as PASS."
+  ],
+  "owner_action_blockers": [],
+  "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly"
+}

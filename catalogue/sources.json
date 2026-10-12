@@ -1,0 +1,69 @@
+[
+  {
+    "id": "SRC-0001",
+    "type": "PRIMARY_PAPER",
+    "title": "The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem",
+    "authors": [
+      "Tamás Csernák",
+      "Lajos Soukup"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.09650",
+    "access": "ABSTRACT_INSPECTED",
+    "note": "23-page PDF direct full-text not accessed in S001"
+  },
+  {
+    "id": "SRC-0002",
+    "type": "PRIMARY_PAPER",
+    "title": "Stacking and clearing in graph pebbling",
+    "authors": [
+      "Tamás Csernák",
+      "Lajos Soukup"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.22341",
+    "access": "ABSTRACT_INSPECTED",
+    "note": "Earlier ASH and parameters"
+  },
+  {
+    "id": "SRC-0003",
+    "type": "EARLIER_INDEPENDENT_THEOREM",
+    "title": "The stacking number of a tree",
+    "authors": [
+      "John Fairfax-Ball"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.31811",
+    "access": "STATEMENT_INSPECTED",
+    "note": "TreeStack README/Lean theorem signature; independent full Lean build not run"
+  },
+  {
+    "id": "SRC-0004",
+    "type": "REGISTRY",
+    "title": "TreeStack Palomar entry",
+    "year": 2026,
+    "url": "https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1",
+    "access": "METADATA_ONLY"
+  },
+  {
+    "id": "SRC-0005",
+    "type": "GOVERNANCE",
+    "title": "Davenport-Counterexample-Hunt",
+    "url": "https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt",
+    "access": "STATEMENT_INSPECTED"
+  },
+  {
+    "id": "SRC-0006",
+    "type": "CLASSICAL",
+    "title": "Sjöstrand cover pebbling",
+    "access": "METADATA_ONLY",
+    "url": null
+  },
+  {
+    "id": "SRC-0007",
+    "type": "ATLAS",
+    "title": "Csernák–Soukup graph atlas reports",
+    "access": "SECONDARY_ONLY",
+    "url": null
+  }
+]

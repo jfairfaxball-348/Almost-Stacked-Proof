@@ -1,0 +1,12 @@
+name: Governance integrity
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source/claim mirrors and phase statuses
+        run: python3 validation/validate_governance.py
