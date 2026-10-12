@@ -1,0 +1,13 @@
+.lake/
+lake-packages/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.env
+.DS_Store
+build/
+dist/
+*.olean
+*.ilean
+*.trace
