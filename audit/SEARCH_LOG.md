@@ -13,3 +13,9 @@
 ## S002 bounded source/frontier checks, 2026-10-12 (NOT Stage 2 novelty)
 - Exact original April arXiv:2604.22341v1 PDF pp3,20,21–26; October 2610.09650 abstract and PDF/HTML retrieval failures; TreeStack arXiv:2609.31811 abstract and exact Lean source; publisher Sjöstrand 2005 EJC DOI 10.37236/1989.
 - Queries: "2610.09650 cited by graph stacking", "Almost Stacked Hypothesis counterexample 2026", "The stacking number of a tree Fairfax-Ball", 2610.09650 alternate PDF/TeX/HTML, Sjöstrand cover pebbling theorem. No verified global ASH solution surfaced; negative search has no completeness claim.
+
+## S003 bounded source/frontier checks, 2026-10-12 (NOT Stage 2 novelty)
+- Fetched full arXiv PDFs: 2610.09650v1 (sha256 `cbc9877b…`; abstract page lists v1 only, 7 Oct 2026 08:23:38 UTC) and 2604.22341v1 (sha256 `ab34962a…`). Not mirrored.
+- Atlas provenance: read-only shallow clone of public `github.com/lajossoukup/pebbling` @ `701cdd93dd19869a9b90947edd6361efd81cfc1f` (2026-04-01): `pebbling.py`, `atlas_ash_report.py`, `atlas_ash_report.tex`. Its check is the critical form. Not mirrored; no contact.
+- Web queries (standard search): `"Almost Stacked Hypothesis" pebbling counterexample` and `Csernák Soukup stacking number clearing number almost stacked 2610.09650`. No source reporting a counterexample to, or proof of, ASH in either form was found; only a third-party summary page of the April paper surfaced. A negative search has no completeness claim.
+- Phase 2 novelty audit for the printed-form counterexample is deferred until Phase 1 passes its independent audit (S004).

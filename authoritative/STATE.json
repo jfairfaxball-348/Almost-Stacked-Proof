@@ -1,10 +1,10 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-12",
-  "last_completed_session": "S002",
-  "recommended_next_session": "S003",
+  "last_completed_session": "S003",
+  "recommended_next_session": "S004",
   "headline_target": "Universal Almost Stacked Hypothesis (ASH): proof OR certified counterexample",
-  "headline_status": "UNRESOLVED",
+  "headline_status": "PRINTED_ASH_REFUTED_PENDING_INDEPENDENT_AUDIT_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
   "active_campaign": null,
   "phases": {
@@ -14,7 +14,8 @@
     },
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
-      "status": "IN_PROGRESS"
+      "status": "IN_PROGRESS",
+      "note": "Exit candidate for printed form (certified counterexample); independent cold audit required before PASS (S004); critical form ASH* open"
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -37,17 +38,24 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "April 2604.22341 Hypothesis 9.1 STATEMENT_INSPECTED; October 2610.09650 ABSTRACT_INSPECTED only (source gate partial)",
-  "counterexample_status": "NONE_CLAIMED",
+  "source_inspection": "October 2610.09650v1 STATEMENT_INSPECTED (Lemma 4.7, Thm 5.2 PROOF_INSPECTED); April 2604.22341v1 STATEMENT_INSPECTED; authors atlas code inspected (tests critical form)",
+  "counterexample_status": "PRINTED_FORM_CERTIFIED_LEAN_AND_COLD_AUDIT_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Inspect full October 2610.09650 primary text (version, theorem numbering, estimator, edge cases); April Hypothesis 9.1 was independently transcribed.",
-    "Develop graph-wide obstruction or loss-preserving compression for universal stack ASH and non-bipartite clear ASH.",
-    "Extend preregistered bounded exact search to higher thresholds / selected 9+ vertex graphs, independent algorithms.",
-    "Do not start stage-2 novelty/Lean until an exact new global result; verify actual GitHub postmerge main/workflows."
+    "S004: independent cold audit of the printed-ASH counterexamples (fresh checker, no reuse of S003 code) and explicit Phase 1 gate decision for the printed form.",
+    "Prove or refute the critical form ASH* (stack and clear separately); trees settled; critical-layer compression is refuted as a proof route.",
+    "Bounded n=8+ exact search for ASH* counterexamples where thresholds are computable; P_n infinite-family conjecture CLM-0024.",
+    "No Stage-2 novelty, Lean, Palomar or arXiv before Phase 1 PASS; no author contact without owner authorisation."
   ],
   "owner_action_blockers": [],
-  "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly"
+  "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
+  "headline_detail": {
+    "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json",
+    "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json",
+    "critical_form_ASHstar_stack": "OPEN (true for all trees via TreeStack + October Thm 5.2; all connected n<=6 and further computed graphs)",
+    "critical_form_ASHstar_clear": "OPEN (true for all connected non-bipartite n<=6 and further computed graphs)",
+    "assurance": "two+ independent exact solvers and an independent certificate checker; human-checkable finite certificates; Lean NOT started; independent cold audit scheduled S004"
+  }
 }

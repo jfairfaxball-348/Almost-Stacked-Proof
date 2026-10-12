@@ -13,3 +13,9 @@
 Bootstrap PASS is **administrative**, not mathematical success. In particular ASH, cycle equalities under ASH, and pre-existing TreeStack statements must remain distinct.
 
 S002 review (2026-10-12): Phase 0 PASS inherited. Phase 1 IN_PROGRESS: no unconditional universal proof or certified counterexample; October PDF exact source gate PARTIAL. 1,918,566 bounded computations and two full independent cold checks are not a Phase 1 completion. Phases 2–6 NOT STARTED/OWNER_GATED, no promotion.
+
+S003 review (2026-10-12): Phase 0 PASS inherited. **Phase 1 IN_PROGRESS — literal-form exit candidate.**
+- Achieved: the printed ASH (October Hypothesis 3.2 = April 9.1) is refuted by certified finite counterexamples for both halves. Stack fails on P4 at t=12; clear fails on the bull graph at t=12. Finite certificates were checked by five (P4) / four (bull) independent tools; a human-checkable proof is in `research/S003_AS_GAP_AND_ATTACKS.md`.
+- Missing before PASS: the gate's own "independent proof audit before 2" (a cold re-check by a fresh session), scheduled for S004. Rule 7's Lean kernel proof belongs to Phase 3.
+- The critical form ASH* is OPEN.
+- Phases 2–6: NOT STARTED/OWNER_GATED; no promotion.

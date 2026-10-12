@@ -13,3 +13,9 @@
 | 2026-10-12 S002 | Original TreeStack estimator equation and exact t≥2 match April source; not universal ASH | April p26; TreeStack/Estimator.lean and Stacking.lean | PRECEDENCE VERIFIED FOR APRIL |
 | 2026-10-12 S002 | Pre-registered finite eight-vertex exact survey; no ASH gap through cutoff | 1,918,566 configs, 420 BFS, independent inverse-DP on two graphs | COMPUTED EXACT / BOUNDED |
 | 2026-10-12 S002 | Do not advance beyond Mathematics Phase 1 or execute S003 | No proof/certified counterexample; October full source gate incomplete | BINDING |
+| 2026-10-12 S003 | October 2610.09650v1 full text read; Hypothesis 3.2 identical in content to April 9.1; estim equal for \|V\|≥2 | PDF sha256 cbc9877b…; research/S003_SOURCE_RECONCILIATION.md | SOURCE GATE PASS (statements) |
+| 2026-10-12 S003 | Printed (literal) ASH is false for stacking (P4, t=12) and clearing (bull, t=12) | Finite certificates checked by five (P4) / four (bull) independent tools; research/S003_AS_GAP_AND_ATTACKS.md | CERTIFIED (Lean pending; cold audit pending) |
+| 2026-10-12 S003 | Authors' public atlas code tests the critical form ASH*, not the printed statement | lajossoukup/pebbling@701cdd93 `is_critical_stacked_almost_stacked` | PROVENANCE RECORDED; no contact |
+| 2026-10-12 S003 | Substantive open target becomes ASH* (critical/monotone form); trees settled by TreeStack + October Thm 5.2 | S003 Thm 4, Thm 8 | BINDING FOR S004 |
+| 2026-10-12 S003 | Phase 1 not silently advanced: literal-form counterexample needs independent cold audit (S004) before any Phase 1 PASS; no Phase 2/Lean/Palomar/arXiv action | AGENTS rules 7, 10 | BINDING |
+| 2026-10-12 S003 | Work on the harness-designated development branch (name recorded by the PR) instead of a `session/S003-*` name | Execution environment requirement | RECORDED DEVIATION |

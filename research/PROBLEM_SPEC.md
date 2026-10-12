@@ -24,3 +24,7 @@ A page/theorem-number indexed transcription table, a machine-readable `research/
 
 
 **S002 2026-10-12 source status update:** The exact original **April Hypothesis 9.1**, arXiv:2604.22341v1, PDF p20 and definitions p3, was independently inspected. It specifies finite connected G for stack, additionally non-bipartite G for clear, exact sizes t≥2, and at most one vertex carrying more than one pebble. See `research/ASH_SPEC.md` and JSON. **The October arXiv:2610.09650 full PDF is still inaccessible**; its numbering/rewritten details are not transcribed and the October gate is not PASS. No contradiction to original April source asserted. S002 exact eight-vertex survey is bounded to those verified original definitions and is not a proof/counterexample to universal ASH.
+
+**S003 2026-10-12 status update.**
+- The October full text was read. Its Hypothesis 3.2 has the same content as April 9.1; see `research/ASH_SPEC.md`.
+- That printed form is refuted (P4 stack, bull clear, t=12). The working open target is the critical form ASH\*: for n≥2, an AS non-g-able configuration of size g(G)−1 exists. See `research/S003_AS_GAP_AND_ATTACKS.md`.

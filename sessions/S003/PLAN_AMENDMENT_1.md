@@ -1,0 +1,9 @@
+# S003 plan amendment 1 (written and hashed BEFORE the runs it authorises)
+
+Trigger (2026-10-12, mid-session): T2/T3 data show that the **literal** Hypothesis 3.2 / 9.1 equality fails (P4 at t=12, and non-bipartite clearing examples on 5 vertices), whereas the authors' public atlas code (`lajossoukup/pebbling`, commit 701cdd93, `is_critical_stacked_almost_stacked`) tests the **critical (monotone) form** ASH*: an AS configuration is among the non-stackable (non-clearable) configurations of size stack(G)−1 (clear(G)−1). ASH* is now the substantive open target; the original plan's tiers remain unchanged and are all still executed.
+
+Additional preregistered computation (same tools, same cross-check rules, same per-layer cap 60M, total budget still ≤ 3 h):
+- **A1 (certificates):** `tools/cam_s003_cert.py` literal AS-gap certificates for the smallest stack counterexample (P4, t=12) and the smallest non-bipartite clear counterexamples found in T2 (5 vertices, t=12), each checked by the independent replay/closure checker.
+- **A2 (T2b as registered):** all 853 connected 7-vertex graphs, t ≤ 55; record literal gaps and the critical form for every graph whose threshold is found (independent replication of the authors' n≤7 claim with code sharing nothing with theirs).
+- **A3 (n=8 atlas, capped):** all 11117 connected 8-vertex graphs (self-generated; count asserted against A001349), forward solver only with reverse cold-check on every graph whose threshold is found, cap t ≤ 26 (layer C(33,7)=4.3M). Graphs with threshold > 26 are reported as cutoff only (no critical-form verdict). Budget-limited: skipped/partial if the 3 h total budget would be exceeded; partial completion is reported as such.
+Critical-form verdict per graph: ASH*-stack holds iff (n=1) or the AS loss count at t=stack(G)−1 is positive; ASH*-clear analogously for non-bipartite graphs.

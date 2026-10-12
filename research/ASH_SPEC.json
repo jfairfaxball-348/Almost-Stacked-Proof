@@ -1,17 +1,27 @@
 {
   "primary_october": {
-    "arxiv": "2610.09650",
-    "access": "ABSTRACT_INSPECTED",
+    "arxiv": "2610.09650v1",
+    "access": "STATEMENT_INSPECTED",
+    "proof_inspected": [
+      "Lemma 4.7",
+      "Theorem 5.2"
+    ],
     "submitted": "2026-10-07",
-    "updated": "2026-10-08",
+    "paper_date": "2026-10-08",
+    "versions_listed": [
+      "v1"
+    ],
     "pages": 23,
-    "internal_labels_verified": false
+    "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
+    "hypothesis": "Hypothesis 3.2",
+    "internal_labels_verified": true
   },
   "original_verified": {
     "arxiv": "2604.22341v1",
     "date": "2026-04-24",
     "pdf_date": "2026-04-27",
     "access": "STATEMENT_INSPECTED",
+    "pdf_sha256": "ab34962a77a7caa4126d07430e48ba47b04c57f5ef71c21f85803cf959cbabed",
     "definition_page": 3,
     "hypothesis": "Hypothesis 9.1",
     "hypothesis_pdf_page": 20,
@@ -24,11 +34,89 @@
     "stackable": "reachable singleton support",
     "clearable": "reachable total 1"
   },
+  "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
+  "literal_form": {
+    "statement": "g(G) = least t>=2 such that every AS configuration of exact size t is g-able",
+    "status": "FALSE_CERTIFIED_LEAN_PENDING_AUDIT_PENDING",
+    "stack_counterexample": {
+      "graph": "P4",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "t": 12,
+      "stack": 15,
+      "loser": [
+        1,
+        0,
+        2,
+        9
+      ],
+      "as_configs": 32
+    },
+    "clear_counterexample": {
+      "graph": "bull",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "t": 12,
+      "clear": 15,
+      "loser": [
+        1,
+        9,
+        0,
+        2,
+        0
+      ],
+      "as_configs": 80
+    }
+  },
+  "critical_form": {
+    "statement": "g(G) = least t0>=2 such that every AS configuration of every size t>=t0 is g-able; for n>=2 equivalent to an AS non-g-able configuration of size g(G)-1",
+    "status": "OPEN",
+    "tested_by_author_atlas_code": "lajossoukup/pebbling@701cdd93 is_critical_stacked_almost_stacked",
+    "known_true": [
+      "all trees (TreeStack theorem + October Thm 5.2)",
+      "complete bipartite K_{a,b}, a+b>=3 (S003 Thm 10 + April Thm 8.2)",
+      "g(G)=n+1",
+      "all connected graphs n<=7 and every connected 8-vertex graph with threshold <=26 (S003 computed)",
+      "S003 T1/T4 graphs with thresholds found"
+    ]
+  },
   "special_cases": {
     "K1_stack": 2,
     "K1_clear": "excluded (bipartite)",
     "empty_graph": "not asserted",
     "trees": "TreeStack independently proves stack=estim for |V|>=2"
   },
-  "gate": "PARTIAL_APRIL_VERIFIED_OCTOBER_UNREAD"
+  "gate": "SOURCE_STATEMENTS_PASS_S003"
 }

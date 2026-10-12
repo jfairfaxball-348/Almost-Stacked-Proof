@@ -1,21 +1,46 @@
-# ASH source-indexed working specification (S002)
+# ASH source-indexed specification (updated S003)
 
-**Source gate distinction:** The October paper arXiv:2610.09650v1 is **ABSTRACT_INSPECTED ONLY**, dated October 7/8 2026 (23 pp); direct original PDF and HTML inaccessible during S002. Therefore its internal numbering, full quantifiers and tree estimator equations have **not** been verified. Do not promote this document into an October transcribed specification.
+**Source gate: PASS for statements (S003).**
+- October arXiv:2610.09650v1 (submitted 2026-10-07, dated October 8, 23 pp): STATEMENT_INSPECTED, with PROOF_INSPECTED for Lemma 4.7 and Theorem 5.2.
+- April arXiv:2604.22341v1: STATEMENT_INSPECTED.
 
-**Authoritative inspected formulation:** Csernák–Soukup, *Stacking and clearing in graph pebbling*, arXiv:2604.22341v1, PDF page 3 (definitions), page 20 **Hypothesis 9.1**, pages 21–26 (Theorems 9.4–9.7, 10.1). Finite connected G; natural-number pebble configuration c; legal u→v moves subtract two at u and add one at adjacent v; exact total ∑c=t. Stackable means some reachable configuration has singleton support, with an *unspecified* survivor location. Clearable means some reachable configuration has exactly one pebble. Almost stacked iff some v0 has all c(u)≤1 for u≠v0.
+Line-by-line comparison: `research/S003_SOURCE_RECONCILIATION.md`. The two printed hypotheses are identical in content.
 
-**Hypothesis 9.1(1), paraphrase faithful to read text:** For every finite connected G, stack(G) equals the *least* integer t≥2 such that every almost-stacked configuration of exact mass t is stackable. Stack(G) itself is the least t≥2 for which **every** configuration of mass t is stackable.
+**Model.** Finite simple graph G. A configuration is c: V→ℕ of exact size ‖c‖=t. A move u⇒v along an edge requires c(u)≥2 and does c(u)−=2, c(v)+=1. *Stacked*: |supp|=1. *Cleared*: ‖c‖=1.
+- stack(G): connected G only; the least t≥2 such that every configuration of size t is stackable.
+- clear(G): connected non-bipartite G only; the analogous least t for clearable.
+- *Almost stacked*: ∃v0 ∀u≠v0, c(u)≤1.
 
-**Hypothesis 9.1(2), paraphrase faithful to read text:** For every finite connected **non-bipartite** G, clear(G) equals the least integer t≥2 such that every almost-stacked configuration of exact mass t is clearable. Clear(G) itself quantifies **all** configurations of exact mass t. The bipartite class is EXCLUDED from this second quantifier.
+**Printed (literal) ASH — October Hypothesis 3.2 = April Hypothesis 9.1.** For every finite connected G:
+- (1) stack(G) is the least integer t≥2 such that every almost stacked configuration in Conf_t(G) is stackable;
+- (2) if G is non-bipartite, clear(G) is the least integer t≥2 such that every almost stacked configuration in Conf_t(G) is clearable.
 
-**Boundaries:** For K1 stacking is 2 under t≥2; its tree estim is 1 and the TreeStack theorem accordingly assumes |V|≥2. K1 is bipartite and not in clearing. Empty graphs absent. Configuration t=0 and t=1 are not threshold candidates even if terminal property trivial. A move *strictly* reduces mass, so stacking is not the same as preserving total t at a vertex. No claims for multigraphs or loops beyond original finite-graph convention; computational campaign uses simple undirected graphs only.
+**S003 status: both (1) and (2) are FALSE as printed.** Certified finite counterexamples, Lean pending and independent cold audit pending:
+- (1) fails on P4 at t=12, with stack(P4)=15;
+- (2) fails on the bull graph at t=12, with clear=15.
 
-**Earlier tree formula independently inspected (April PDF p.26):**
-`sigma_T(r)=1+sum_{v=r or deg(v)>1} deg(v)*2^dist(r,v)`;
-`leaf_T(r)=#{v ≠ r : deg(v)=1}`;
-`estim(T)=max_r (sigma_T(r)+leaf_T(r))`.
-Exact match to inspected TreeStack/Estimator.lean, for |V(T)|≥2. The September 25 arXiv:2609.31811 and TreeStack Lean theorem `stack_eq_estim_of_two_le_card` supply independent prior result. The October abstract's conditional tree claim is not the universal ASH statement.
+**Critical (monotone) form ASH\*** — the form tested by the authors' public atlas code. For every finite connected G:
+- stack(G) = least t₀≥2 such that every AS configuration of every size t≥t₀ is stackable;
+- the same for clear when G is non-bipartite.
 
-**Source convention for cycles:** Almost-stacked C_(2n) stackability at t=2^(n+1)-1 and C_(2n+1) clearability at t=3*2^n-2 are SOURCE_STATED; obtaining unrestricted equalities requires ASH (April Theorems 9.6–9.7). Never present them as unconditional universal consequences.
+For n≥2, ASH\* ⇔ some AS configuration of size g(G)−1 is not g-able (S003 Theorem 4). **Status: OPEN.** It is true for:
+- all trees, from the earlier TreeStack theorem plus October Theorem 5.2;
+- complete bipartite graphs with ≥3 vertices (S003 Theorem 10, plus April Theorem 8.2);
+- every graph with g(G)=n+1;
+- every connected graph with ≤7 vertices whose threshold was found within t≤55, and every connected 8-vertex graph with threshold ≤26 (computed);
+- the selected larger graphs computed.
 
-Pending: independently open the actual October full text; record exact version/date, its hypothesis label, full logical prerequisites, estimator and corrected edge cases. If changed from April, update all mirrors before an October theorem/counterexample certification.
+**Boundaries.**
+- K1: stack=2. Literal and critical forms both hold. K1 is bipartite, so clearing is excluded.
+- t=0,1 are not threshold candidates. For n≥2 every t∈[2,n] has an AS terminal loser.
+- Both thresholds are ≥ n+1.
+- Monotonicity above n (October Lemma 4.7) holds for all configurations but not for AS configurations. This is exactly why the printed and critical forms differ.
+- Simple graphs only; no claims for multigraphs or loops.
+
+**Tree estimate.** estim(T) = max{2, 1 + max_r(ρ_T(r)+leaf_T(r))}, where ρ_T(r) = Σ_{v=r or deg v>1} deg(v)·2^{dist(r,v)} (October Def. 5.1). This equals April's max_r(σ_T(r)+leaf_T(r)) with σ=1+ρ, for |V|≥2.
+
+The earlier TreeStack theorem `stack_eq_estim_of_two_le_card` (arXiv:2609.31811) proves stack(T)=estim(T) for |V|≥2. October Conjecture 5.6 states the same equality.
+
+**Cycle conventions.**
+- Under ASH\* (not only under the false literal form): stack(C₂ₙ) ≤ 2^{n+1}−1 and clear(C₂ₙ₊₁) ≤ 3·2ⁿ−2, because October Theorems 4.10 and 4.11 are "‖c‖≥" statements.
+- Unconditional exact values computed in S003: stack(C6)=15, stack(C8)=31, stack(C7)=17, clear(C7)=22.
