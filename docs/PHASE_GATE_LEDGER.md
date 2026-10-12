@@ -11,3 +11,5 @@
 | 6. arXiv | OWNER_GATED | Authorised source-ready paper, references, reproducible bundle, current submission preflight |
 
 Bootstrap PASS is **administrative**, not mathematical success. In particular ASH, cycle equalities under ASH, and pre-existing TreeStack statements must remain distinct.
+
+S002 review (2026-10-12): Phase 0 PASS inherited. Phase 1 IN_PROGRESS: no unconditional universal proof or certified counterexample; October PDF exact source gate PARTIAL. 1,918,566 bounded computations and two full independent cold checks are not a Phase 1 completion. Phases 2–6 NOT STARTED/OWNER_GATED, no promotion.

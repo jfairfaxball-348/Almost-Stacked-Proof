@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-12",
-  "last_completed_session": "S001",
-  "recommended_next_session": "S002",
+  "last_completed_session": "S002",
+  "recommended_next_session": "S003",
   "headline_target": "Universal Almost Stacked Hypothesis (ASH): proof OR certified counterexample",
   "headline_status": "UNRESOLVED",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -37,16 +37,16 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "ASH 2610.09650 ABSTRACT_INSPECTED only; original PDF exact hypotheses not transcribed",
+  "source_inspection": "April 2604.22341 Hypothesis 9.1 STATEMENT_INSPECTED; October 2610.09650 ABSTRACT_INSPECTED only (source gate partial)",
   "counterexample_status": "NONE_CLAIMED",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Access and transcribe primary 2610.09650 exact ASH stack/clear statements and graph, size and convention boundaries.",
-    "Independently reconcile the 2026 TreeStack theorem and October paper estimator definitions and dates.",
-    "Select and preregister a mathematical proof or counterexample attack after primary-source statement verification.",
-    "Verify all reported workflow runs and check statuses when a session is closed; missing checks never count as PASS."
+    "Inspect full October 2610.09650 primary text (version, theorem numbering, estimator, edge cases); April Hypothesis 9.1 was independently transcribed.",
+    "Develop graph-wide obstruction or loss-preserving compression for universal stack ASH and non-bipartite clear ASH.",
+    "Extend preregistered bounded exact search to higher thresholds / selected 9+ vertex graphs, independent algorithms.",
+    "Do not start stage-2 novelty/Lean until an exact new global result; verify actual GitHub postmerge main/workflows."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly"

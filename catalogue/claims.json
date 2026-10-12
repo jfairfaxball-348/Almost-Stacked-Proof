@@ -5,7 +5,7 @@
     "sources": [
       "SRC-0001"
     ],
-    "claim": "Universal ASH is proposed; exact quantifiers await full paper"
+    "claim": "October abstract proposes ASH; exact October hypothesis numbering/quantifiers still unread; April Hypothesis 9.1 independently read"
   },
   {
     "id": "CLM-0002",
@@ -68,5 +68,43 @@
     "status": "INHERITED_UNVERIFIED",
     "sources": [],
     "claim": "ASH false via finite counterexample: open target"
+  },
+  {
+    "id": "CLM-0010",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0002"
+    ],
+    "claim": "Original April Hypothesis 9.1 exact universal stack connected and clear connected non-bipartite formulation; least exact t>=2"
+  },
+  {
+    "id": "CLM-0011",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0008"
+    ],
+    "claim": "W8 with center 0 and 7-cycle has stack=clear=11; every exact mass t=2..14 exhaustively checked by two distinct full-layer algorithms"
+  },
+  {
+    "id": "CLM-0012",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0008"
+    ],
+    "claim": "Two disjoint K4 graphs joined by 3-4 bridge have stack=clear=13; every exact mass t=2..14 independently checked"
+  },
+  {
+    "id": "CLM-0013",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "claim": "P4 c=(2,0,0,2) is nonstackable, but graph after adding edge 0-3 stacks c; arbitrary loss-preserving pile merge/general spanning-tree scoring fails"
+  },
+  {
+    "id": "CLM-0014",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0008"
+    ],
+    "claim": "Six labeled connected eight-vertex graphs, exact masses 2..14 (1,918,566 input configurations), show no ASH threshold disagreement within bounded scope; full graph atlas NOT checked"
   }
 ]
