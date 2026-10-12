@@ -10,3 +10,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate source/claim mirrors and phase statuses
         run: python3 validation/validate_governance.py
+      - name: Re-check S003 printed-ASH counterexample certificates (independent replay/closure checker)
+        run: for f in evidence/S003/cert_*.json; do python3 tools/cam_s003_cert.py check "$f"; done

@@ -1,15 +1,75 @@
-# S003 — Universal ASH: dual obstruction, cyclic completion and expanded cold-counterexample hunt (FUTURE, UNEXECUTED IN S002)
+# S004 — Independent cold audit of the printed-ASH counterexamples, Phase 1 gate decision, and the critical-form ASH* attack (FUTURE, UNEXECUTED IN S003)
 
-**This is a complete future handoff only, NOT permission to execute during S002.** One fresh explicit owner invocation is necessary. Execute ONE serious mathematical session in https://github.com/jfairfaxball-348/Almost-Stacked-Proof, allowing parallel and successive ambitious proof strategies and substantial targeted computation. **Headline success = unconditional proof of the universal connected-graph stacking ASH and eligible non-bipartite clearing ASH, OR a fully independently certified finite counterexample to at least one.** Not the already-completed tree estimator theorem or any merely restricted consequence. Do not execute S004, submit, contact authors, start Lean/Palomar or write solved claims without complete evidence.
+**This is a complete future handoff only. It is NOT permission to execute during S003.** One fresh, explicit owner invocation is required.
 
-**Entry:** Independently fetch LIVE remote main and pin S002's actual atomic outgoing branch commit, parent, tree, S002 PR, non-force two-parent merge and independently observed postmerge main; obtain all SHAs from remote, never from speculative closeout strings. Reconcile other commits and ALL open/recent PRs and S003 branches/records. Audit workflow definitions, real Actions runs, jobs, check-runs, statuses, accessible rulesets and protection. Absent checks are not CI PASS. Read all authority and ledgers, both source/claim catalogues/JSON, `research/ASH_SPEC.md`/`.json`, S002 report, plan, code, evidence output digests, TreeStack bridge, original sources, and S001/S002 records. Archive owner invocation without inventing hash. Preregister the new mathematical/computational budget and exact success criteria. One authored atomic S003 commit and ordinary PR/non-force merge at exit.
+Execute ONE serious session in https://github.com/jfairfaxball-348/Almost-Stacked-Proof. Do not execute S005, contact the authors or anyone else, start Lean or Palomar, submit anywhere, or write solved claims beyond audited evidence.
 
-**Source gate mandatory and urgent:** Get 2610.09650 CURRENT October PDF or lawful TeX/HTML/author copy and read the precise new primary version—not just its abstract. Compare line-by-line to **inspected April Hypothesis 9.1**, and record the October theorem labels, equations, graph assumptions, `t>=2`, singleton/empty graph, exact size, stacked/cleared terminal and tree estimator. Continue lawful alternate-source searches if direct arXiv refuses; if still inaccessible keep the source gate **PARTIAL**, never assert October theorem inspection. Independently re-read relevant April proofs, the authors' atlas report if available and actual TreeStack arXiv/Lean `Stacking.lean`, `Estimator.lean`, `RootScore.lean`, `UpperBound.lean`, defect-flow notes and Palomar lineage. Respect the independent September theorem chronology; avoid novelty/priority overclaims.
+## Where S003 left the programme
+The printed hypothesis (October 2610.09650v1 Hypothesis 3.2 = April 2604.22341v1 Hypothesis 9.1: "g(G) is the least t≥2 such that every almost-stacked configuration of exact size t is g-able") was refuted by S003 with finite certificates:
+- **stack:** P4 (0-1-2-3) at t=12 — all 32 AS configurations stackable, (1,0,2,9) not, stack(P4)=15;
+- **clear:** the bull graph (edges 0-4, 1-3, 2-3, 2-4, 3-4) at t=12 — all 80 AS configurations clearable, (1,9,0,2,0) not, clear=15.
 
-**Proof-first sustained flagship attempt (no arbitrary one-lemma ceiling):** Aim to derive a graph-wide necessary-and-sufficient certificate for *unrestricted* loss, for stacking and clearing separately, overcoming disjoint-branch failure on cycles. Explore and test: (A) push/cancellation in the graphic cycle space, including a canonical spanning-tree plus correction and root-independent dual obstruction; (B) minimal losing configuration compression or reverse-move expansion that produces at most one heavy vertex at the **same total mass**, not the disproved arbitrary pile merge; (C) elimination of degree-1 blocks, bridge-block composition, ear/triangle induction, with full terminal-condition bookkeeping; (D) cut/cycle/feedback-edge parameters for an inductive route on cyclomatic number, with explicit failure-mode examples. Pick the route that materially advances universal ASH; pursue multiple approaches if promising. Derive full proofs and dependency DAGs, cold-check all claims. A flawed auxiliary conjecture receives a smallest reproducible counterexample, not an ASH refutation. A paper's source result or TreeStack consequence is not an original global ASH proof.
+S003 also established:
+- The AS-gap reformulation (S003 Thm 4) and the observation that the authors' public atlas code (`lajossoukup/pebbling@701cdd93`) tests the **critical form ASH\***: an AS configuration attains the largest non-g-able size, i.e. one exists at size g(G)−1.
+- ASH\* is OPEN. It is true for:
+  - all trees (TreeStack theorem plus October Thm 5.2);
+  - every graph with g(G)=n+1;
+  - every connected graph with n≤7 whose threshold S003 found (independent replication);
+  - the selected n=8–10 graphs computed.
+- Critical-layer compression is refuted as a proof route (5-cycle, t=7).
 
-**Exact counterexample campaign:** Prior S002 CAM-S002-01 exhaustively checked six *labeled* n=8 graphs, all configurations t=2..14 (1,918,566), with 420 independent forward BFS comparisons and complete inverse-DP agreement for W8 and bridged K4s. It found no ASH gap through cutoff; W8 exact stack/clear=11 and bridged-K4s exact stack/clear=13 in that finite regime. Improve beyond it rather than re-running same samples. Preregister targeted n=8 graphs, extend 2..14 to higher thresholds where feasible (e.g. C8+chords, triangle ladder), and selected n=9/n=10 cycles/blocks to a resource bound determined *before* executing. Employ symmetry/canonical graph encoding only with a sound orbit argument. Use at least two genuinely independent exact reachability techniques (forward memo recursion and inverse predecessor fixpoint or exhaustive BFS) and save source, output hashes, graph class, bounds, complete move rules, resource limits. Clear is only for connected non-bipartite. For any apparent gap: labeled adjacency, exact t, all almost-stacked inputs at t certified winning, one general t-input certified losing, independent cold proof checker, witness/certificate; if incomplete: CANDIDATE ONLY. No claim about graphs beyond enumerated cutoff.
+Read: `research/S003_AS_GAP_AND_ATTACKS.md`, `research/S003_SOURCE_RECONCILIATION.md`, `research/ASH_SPEC.md/.json`, `evidence/S003/*`, `sessions/S003/*`, and all ledgers and catalogues.
 
-**Primary-source frontier:** test Sjöstrand cover-pebbling analogues for target families, citations to October manuscript, equivalent formulations and atlas provenance; NOT a full Stage-2 novelty audit absent a substantive exact new result. Do not contact others.
+## Entry (mandatory)
+1. Independently fetch LIVE remote main. Pin from GitHub, never from closeout strings:
+   - S003's actual session commit, its parent and tree, the S003 PR and its non-force merge commit;
+   - post-merge main and its parents.
+2. Reconcile any other commits, PRs and branches.
+3. Audit workflow definitions and real Actions runs/jobs/check-runs on the S003 PR head and post-merge main. Since S003, the workflow also replays the certificates. Absent checks are not a PASS.
+4. Check arXiv for any new version of 2610.09650 (or 2604.22341). If the printed hypothesis changed, transcribe the new wording exactly and reconcile every S003 statement against it before any gate decision.
+5. Archive the owner invocation, without inventing a hash. Preregister the S004 plan and budget, and hash the plan before computation.
 
-**Exit:** Write S003 INPUT, prereg plan, rigorous primary source reconciliation, proof/certificate and failed-assumption ledger, machine-readable computation records/code and independent check outcomes, updated ASH_SPEC, catalogues and JSON mirrors, decision/phase/session/failure ledgers, STATE, detailed closeout, and one complete strictly FUTURE S004 handoff if feasible. Explicitly state universal ASH proof status separately for stacking and clearing, certified counterexample status, source access level, first serious remaining obstruction, and whether mathematics Phase 1 passes. If major global theorem emerges, hand off Stage-2 novelty and only then Lean. Commit ONE session commit, PR, non-force merge, independently verify main and hosted checks. STOP; do not execute S004.
+## Task 1 — Independent cold audit (gate-critical)
+Without reading S003's solver or checker source first, write a fresh minimal checker (different language or different algorithm; e.g. explicit reachable-set enumeration with a different state encoding, or a SAT/ILP-free exhaustive search). Use it to re-verify:
+- (a) every AS configuration of size 12 on P4 is stackable, and (1,0,2,9) is not;
+- (b) the same for the bull graph, for clearing and for stacking;
+- (c) stack(P4)=15 and clear(bull)=15 exactly — not needed for the refutation, but recorded;
+- (d) minimality:
+  - no connected graph with ≤3 vertices fails the printed form;
+  - among 4-vertex graphs only P4 fails (stack);
+  - no non-bipartite graph with ≤4 vertices fails clear.
+
+Re-derive by hand, and cold-check, the proofs of S003 Lemma 1, Lemma 2 (October Lemma 4.7), Proposition 3, Theorem 4 and Corollary 5. Pay attention to: n=1 and n=2, t≥2, exact versus at-least sizes, and that stack is defined only for connected graphs and clear only for non-bipartite ones. Also re-read S003's quantifier transcription against the PDF text.
+
+Record the outcome in a new audit file. Only then decide the Phase 1 gate for the **printed form** explicitly (PASS / FAIL / PARTIAL), with scope wording that distinguishes the printed form from ASH\*. Lean remains Phase 3. If the audit finds any defect, fix it or downgrade claims everywhere (catalogues, STATE, ASH_SPEC, README).
+
+## Task 2 — Critical form ASH\* (proof-first, separately for stack and clear)
+Aim for an unconditional proof, or a fully certified counterexample, of ASH\*. Suggested routes, each with explicit falsification gates and smallest counterexamples for failed lemmas:
+- (A) Global obstruction certificates. Generalise the mod-3 weight argument of October Thm 5.2 and April Lemma 2.5 to graphs with cycles (spanning-tree weights with cycle corrections). Look for an extremal non-g-able configuration that can be chosen AS. Do not compress within the critical layer (FL-0015).
+- (B) Block/bridge and pendant-tree decomposition: graphs = blocks + trees; trees are settled.
+- (C) Cycles: ASH\*(C₂ₙ) ⇔ stack(C₂ₙ)=2^{n+1}−1 together with an AS loser of size 2^{n+1}−2. Identify whether April Corollary 7.5's witness is AS.
+- (D) Bounded exact search for ASH\* counterexamples where g(G) is computable but large (sparse n=8 graphs beyond the S003 cap; selected n=9/10 unicyclic/bicyclic graphs). Use symmetry reduction only with a written orbit argument, and two independent exact solvers. Any candidate needs labeled adjacency, exact g(G), all AS configurations at g(G)−1 certified g-able (replayable sequences), and one general loser certified at g(G)−1 by two independent checkers. Otherwise CANDIDATE ONLY.
+
+Optional, if time remains: attempt a proof of CLM-0024 — for every n≥4, every AS configuration of size 2ⁿ−4 on P_n is stackable, giving an infinite printed-form family.
+
+## Stage-2 boundary
+If and only if Task 1 records a Phase 1 PASS for the printed form in this session, S004 may begin a bounded **first novelty check** (Phase 2) for that exact counterexample:
+- timestamped primary-source queries;
+- citations of 2610.09650 and any errata or new versions;
+- equivalent formulations;
+- the closest prior statements.
+
+There is no worldwide-priority claim and no contact. Otherwise leave Phase 2 NOT_STARTED. Notifying the authors is owner-gated; record it as a possible owner decision only.
+
+## Exit
+- Write S004 INPUT, plan (with hash), audit report, ASH\* research report, and machine-readable records with hashes.
+- Update ASH_SPEC and its JSON, the catalogues and JSON mirrors, all ledgers, STATE, the validator, and the closeout.
+- Write ONE complete strictly FUTURE S005 handoff.
+- State explicitly:
+  - printed-form status (stack, clear);
+  - ASH\* status (stack, clear);
+  - audit outcome;
+  - source access level;
+  - the first remaining obstruction;
+  - the Phase 1 decision.
+- One atomic authored session commit, an ordinary PR, a non-force merge. Independently verify post-merge main and the hosted checks. STOP; do not execute S005.

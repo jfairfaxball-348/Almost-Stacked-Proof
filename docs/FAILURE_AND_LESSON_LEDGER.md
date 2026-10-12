@@ -14,3 +14,8 @@
 | FL-0010 | Tree-only incident branches overlap around cycles, destroying independent root-task execution | P4 + edge 0-3 changes same c from losing to winning; cyclic correction required |
 | FL-0011 | Confuse verified April Hypothesis 9.1 with unread October paper | Keep October ABSTRACT_INSPECTED, label April version, reopen October full-source gate in S003 |
 | FL-0012 | Infer universal ASH from finite order-8 evidence or one solver | Complete cutoffs only, independent inverse-DP and BFS checks, no universal claim |
+| FL-0013 | S002 labelled C8 + chord 0–4 "bipartite" by inspection; the chord closes a 5-cycle | Bipartiteness is now computed by BFS 2-colouring in every solver and asserted against the catalogue; exact stack=clear=23 recorded (S003 errata) |
+| FL-0014 | Testing only the critical layer g(G)−1 (as the authors' atlas code and S002's framing did) cannot detect failures of the *printed* pointwise least-t hypothesis, because AS-stackability is not monotone in t | Check every t in (n, g(G)); distinguish printed (literal) ASH from the critical form ASH* in every claim (S003 Thm 4) |
+| FL-0015 | Route B on the critical layer: same-mass pair transfers / even-pile merges between critical losers do not reach an AS loser in general | Smallest counterexample: the 5-cycle at t=7, loser (0,0,3,3,1); ASH* still holds there. Do not base an ASH* proof on critical-layer compression |
+| FL-0016 | Explicit-state AS memo search blows up on long paths (P9 with estim 511 exceeded 300 s / 3 GiB) | Report such trees as incomplete; never extrapolate from completed sizes |
+| FL-0017 | Treating a conditional theorem whose hypothesis is now known false as refuted | October §6 conclusions are "unsupported", not "false"; §4–5 conclusions survive under ASH* |

@@ -17,3 +17,10 @@ S002 shall perform an equation-by-equation source audit of both papers' `estim`,
 
 ## S002 checked comparison
 April arXiv:2604.22341v1 PDF p26 formula `sigma_T(r)=1+sum_{v=r OR deg(v)>1}deg(v)2^dist(r,v)` and `estim(T)=max_r(sigma_T(r)+leaf_T(r))` is exactly represented in `TreeStack/Estimator.lean` including root of degree one. Theorem `TreeStack.stack_eq_estim_of_two_le_card` in `TreeStack/Stacking.lean` uses least exact t≥2 and |V|≥2. `RootScore.lean`, `UpperBound.lean`, and `notes/defect-flow.md` inspected; no new Lean compilation. October full source not obtained, so equation-level comparison with *October* is still open. Its abstract's tree-conjecture restatement postdates the September 25 TreeStack publication, which proves the earlier source formula but NOT universal ASH. No attribution wrongdoing asserted.
+
+## S003 checked comparison (October full text)
+- October Def. 5.1 estim(T) = max{2, 1+max_r(ρ_T(r)+leaf_T(r))}, where ρ = σ−1. For |V|≥2 this is identical to the April formula and to `TreeStack/Estimator.lean`. October adds stack(K1)=2=estim(K1).
+- October Conjecture 5.6 (stack(T)=estim(T) for finite trees) is the earlier TreeStack theorem for |V|≥2; the October paper does not cite arXiv:2609.31811. No inference about awareness or priority is made, and no contact.
+- S003 consequence (credits TreeStack): with October Thm 5.2's almost-stacked witness of size estim−1 (proof checked in S003), the TreeStack theorem yields the **critical form ASH\* for every tree** (S003 Thm 8).
+- The **printed** pointwise hypothesis fails on most trees: P4 is the smallest graph, and 77 of the 88 completed trees with n≤9 fail it. The TreeStack theorem itself is unaffected.
+- No TreeStack Lean build was re-run in S003.

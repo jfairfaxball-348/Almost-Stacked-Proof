@@ -1,12 +1,13 @@
-# Source catalogue (updated S002)
+# Source catalogue (updated S003)
 
-Access taxonomy: METADATA_ONLY · ABSTRACT_INSPECTED · STATEMENT_INSPECTED · PROOF_INSPECTED · SECONDARY_ONLY. Access applies per *actual inspected material*; October 2610.09650 remains ABSTRACT_INSPECTED.
+Access taxonomy: METADATA_ONLY · ABSTRACT_INSPECTED · STATEMENT_INSPECTED · PROOF_INSPECTED · SECONDARY_ONLY. Access applies per *actual inspected material*. S003: October 2610.09650v1 full text read (statements; proofs of Lemma 4.7 and Thm 5.2 checked).
 
-- **SRC-0001** The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem — **ABSTRACT_INSPECTED**. https://arxiv.org/abs/2610.09650 — 23-page PDF direct full-text not accessed in S001
-- **SRC-0002** Stacking and clearing in graph pebbling — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2604.22341 — April v1 full PDF definitions p3, Hypothesis 9.1 p20, cycle/tree theorem statements pp21-26 independently read; not a full proof audit
+- **SRC-0001** The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2610.09650 — S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md
+- **SRC-0002** Stacking and clearing in graph pebbling — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2604.22341 — April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit
 - **SRC-0003** The stacking number of a tree — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2609.31811 — Exact Lean Stacking/Estimator/RootScore/UpperBound and defect-flow proof notes inspected; no new kernel build in S002
 - **SRC-0004** TreeStack Palomar entry — **METADATA_ONLY**. https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1 — 
 - **SRC-0005** Davenport-Counterexample-Hunt — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt — 
 - **SRC-0006** Sjöstrand cover pebbling — **ABSTRACT_INSPECTED**. https://www.combinatorics.org/ojs/index.php/eljc/article/view/v12i1n22 — Sjöstrand 2005 EJC 12(1) N22, DOI 10.37236/1989, publisher abstract inspected
-- **SRC-0007** Csernák–Soukup graph atlas reports — **SECONDARY_ONLY**. No external URL — 
+- **SRC-0007** Soukup, Computational data and reports for graph pebbling (atlas code and reports) — **STATEMENT_INSPECTED**. https://github.com/lajossoukup/pebbling — S003 read-only shallow clone at 701cdd93dd19869a9b90947edd6361efd81cfc1f (2026-04-01): is_critical_stacked_almost_stacked tests the critical form (AS witness at level stack-1), not the printed least-t equality; atlas_ash_report.tex 995/995 stack, 924/924 clear for 2<=n<=7
 - **SRC-0008** S002 CAM-S002-01 six eight-vertex exhaustive exact search and reverse cold checker — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/tools — Locally executed full forward recursion plus 420 BFS checks and reverse full W8/bridge-K4 layers; raw output hash in S002 report/attached bundle
+- **SRC-0009** S003 CAM-S003-01 exact layered solvers, atlas n<=7, trees n<=9, literal-gap certificates — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S003 — Forward C DP, independent reverse C solver, Python reverse fixpoint, AS memo solver, independent certificate checker; hashes in evidence/S003/HASHES.md

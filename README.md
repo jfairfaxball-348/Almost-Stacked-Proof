@@ -2,7 +2,11 @@
 
 **Objective:** settle the **Almost Stacked Hypothesis (ASH)** of Tamás Csernák and Lajos Soukup, by an unconditional proof or a finite, fully certified counterexample. The source is [The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem](https://arxiv.org/abs/2610.09650) (October 2026), building on [Stacking and clearing in graph pebbling](https://arxiv.org/abs/2604.22341).
 
-This is a new research programme, not a declaration that ASH has been solved. **Status after S001:** governance bootstrap complete; universal ASH unresolved; no counterexample, Lean formalisation, Palomar registration or new arXiv submission claimed.
+This is a research programme. **Status after S003:**
+- The hypothesis **as printed** (October Hypothesis 3.2 = April Hypothesis 9.1, a pointwise "least t" equality) is false for both stacking and clearing. Certified finite counterexamples: P4 at t=12, and the bull graph at t=12. Lean formalisation and an independent cold audit are still pending.
+- The authors' own computations test a *critical (monotone)* form, ASH\*. ASH\* remains **open**: it is proved for trees and computed true on every connected graph with at most 7 vertices whose threshold was found, and on every connected 8-vertex graph whose threshold is at most 26.
+- No Lean formalisation, Palomar registration, arXiv submission or author contact has been made.
+- See [research/S003_AS_GAP_AND_ATTACKS.md](research/S003_AS_GAP_AND_ATTACKS.md).
 
 ## Essential distinction: our already proved tree theorem
 
