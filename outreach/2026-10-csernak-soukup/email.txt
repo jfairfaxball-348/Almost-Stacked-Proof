@@ -1,0 +1,56 @@
+To: tamas@csernak.com, soukup@renyi.hu
+Subject: The printed Almost Stacked Hypothesis fails on P4: a small example and a suggested reformulation
+
+Dear Tamás Csernák and Lajos Soukup,
+
+I have been reading your papers "Stacking and clearing in graph pebbling" (arXiv:2604.22341, cited below as [A]) and "The Almost Stacked Hypothesis" (arXiv:2610.09650v1, cited below as [O]) with great interest. I believe there is a small gap between the Almost Stacked Hypothesis as printed ([O, Hypothesis 3.2] = [A, Hypothesis 9.1]) and the statement your atlas code checks. In case it is useful before a revision, here are the details.
+
+1. The printed statement fails on P4.
+
+[O, Hypothesis 3.2(1)] says that stack(G) is the least integer t ≥ 2 such that every almost stacked configuration in Conf_t(G) is stackable. Let P4 = v1–v2–v3–v4 and t = 12.
+- All 32 almost stacked configurations of size 12 are stackable.
+- (v1, v2, v3, v4) = (1, 0, 2, 9) is not stackable. Its reachable set has 50 configurations, is closed under moves, and contains no stacked configuration.
+- For every t with 2 ≤ t ≤ 11 some almost stacked configuration of size t is not stackable.
+
+So the least t in Hypothesis 3.2(1) is 12, while stack(P4) = 15 by [O, Theorem 4.4] (= [A, Theorem 7.4]). In fact, since 12 > |V(P4)|, the size-12 example together with [O, Lemma 4.7] and (6.1) already gives stack(P4) > 12.
+
+The same happens for clearing, [O, Hypothesis 3.2(2)], on the bull graph, which is non-bipartite: a triangle x, y, z with a pendant vertex p on y and a pendant vertex q on z.
+- All 80 almost stacked configurations of size 12 are clearable.
+- (p, q, x, y, z) = (9, 1, 0, 2, 0) is not clearable. Its reachable set has 96 configurations, is closed, and contains no cleared configuration.
+- The least t in Hypothesis 3.2(2) is again 12, while clear = 15 by exhaustive computation.
+
+2. Why the atlas did not catch it.
+
+[O, Lemma 4.7] makes "every configuration of size t is stackable" monotone in t once t > |V|. Nothing similar holds for almost stacked configurations alone: a move from an almost stacked configuration need not produce an almost stacked one. So stackability of every almost stacked configuration of size t does not carry over to size t + 1.
+
+Your functions Pebbling.is_critical_stacked_almost_stacked and Pebbling.is_critical_clear_almost_stacked (github.com/lajossoukup/pebbling) check whether the witness set returned by stacking_number() (resp. clearing_number()) contains an almost stacked configuration. That witness set is the set of non-stackable (non-clearable) configurations of size stack(G) − 1 (clear(G) − 1). This is a different statement, and I suspect it is the intended one.
+
+3. A suggested reformulation (ASH*).
+
+stack(G) is the least t₀ ≥ 2 such that every almost stacked configuration of every size t ≥ t₀ is stackable. Likewise for clear(G) when G is non-bipartite.
+
+For |V(G)| ≥ 2 this is equivalent to: some almost stacked configuration of size stack(G) − 1 is not stackable (resp. of size clear(G) − 1, not clearable). In other words, the largest size of a non-stackable configuration is attained by an almost stacked one. This seems to me to match the intuition of [O, §3.1], and it is exactly what the atlas code tests.
+
+The applications in [O, §4–5] go through unchanged under ASH*:
+- Theorems 4.10 and 4.11 apply to almost stacked configurations of every size at or above the bound.
+- For trees, Theorem 5.3 together with inequality (5.9) does the same for every size ≥ estim(T).
+
+The §6 results (Corollary 6.6 and Theorems 6.9, 6.11, 6.13) use almost stacked stackability only at size |V| + 1. As far as I can see, under ASH* they would need an additional argument covering larger sizes.
+
+4. Evidence for ASH*.
+
+I have no counterexample to ASH*. I checked stacking and clearing separately, with code independent of yours. ASH* holds on:
+- every connected graph with at most 6 vertices;
+- every connected 7-vertex graph whose threshold is at most 55. This is all but 8 of the 853 graphs for stacking, and all but 3 of the 809 non-bipartite graphs for clearing; the remaining graphs were not decided. This is consistent with your atlas report.
+- every connected 8-vertex graph whose threshold is at most 26 (10,225 graphs for stacking, 10,052 non-bipartite graphs for clearing). Graphs with larger thresholds were not decided.
+
+It also holds for every finite tree T with at least two vertices:
+- The witness in [O, Theorem 5.2] is almost stacked, of size estim(T) − 1.
+- stack(T) = estim(T) for |V(T)| ≥ 2 is proved in my paper "The stacking number of a tree" (arXiv:2609.31811, September 2026; v2 cites [O]), with a Lean formalisation. This is your tree conjecture [A, Conjecture 10.3] for trees with at least two vertices. With the convention estim = 2 for one vertex in [O, Definition 5.1], it gives [O, Conjecture 5.6] in full.
+
+It also holds for complete bipartite graphs K_{a,b} with a + b ≥ 3. Let α = max(a, b). Put 2α + 1 pebbles on one vertex w of the larger side and one pebble on each other vertex of that side. This gives an almost stacked configuration of size 3α, which is not stackable by a mod-3 weight argument with a short counting step. Together with [A, Theorem 8.2], this gives ASH*. I'd be happy to send details.
+
+I have attached the two certificates, a short standalone checker (Python, standard library only) and a readme. Each certificate lists an explicit move sequence for every almost stacked configuration of size 12, plus the full closed reachable set of the losing configuration. I'm glad to share code or anything else that would be useful. I would also be very interested to hear whether ASH* is the statement you intended, and whether you see a route to a general proof.
+
+With best regards,
+John Fairfax-Ball
