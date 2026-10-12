@@ -1,0 +1,72 @@
+[
+  {
+    "id": "CLM-0001",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0001"
+    ],
+    "claim": "Universal ASH is proposed; exact quantifiers await full paper"
+  },
+  {
+    "id": "CLM-0002",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0001"
+    ],
+    "claim": "Even-cycle almost-stacked stackability and conditional equality"
+  },
+  {
+    "id": "CLM-0003",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0001"
+    ],
+    "claim": "Odd-cycle almost-stacked clearability and conditional equality"
+  },
+  {
+    "id": "CLM-0004",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0001"
+    ],
+    "claim": "Tree estimator lower bound unconditional, upper conditional in October abstract"
+  },
+  {
+    "id": "CLM-0005",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0003"
+    ],
+    "claim": "Earlier TreeStack published/formalized tree estimator equality on nontrivial finite trees"
+  },
+  {
+    "id": "CLM-0006",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0003",
+      "SRC-0004"
+    ],
+    "claim": "TreeStack recorded arXiv and Palomar status"
+  },
+  {
+    "id": "CLM-0007",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0002",
+      "SRC-0007"
+    ],
+    "claim": "Small atlas claim of order ≤7, unverified here"
+  },
+  {
+    "id": "CLM-0008",
+    "status": "INHERITED_UNVERIFIED",
+    "sources": [],
+    "claim": "ASH universal true: open target"
+  },
+  {
+    "id": "CLM-0009",
+    "status": "INHERITED_UNVERIFIED",
+    "sources": [],
+    "claim": "ASH false via finite counterexample: open target"
+  }
+]
