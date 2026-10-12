@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed S001 governance mirror/integrity checks; not a mathematics or Lean test."""
+"""Fail-closed S002 governance mirror/integrity checks; not a mathematics or Lean test."""
 from pathlib import Path
 import json
 import re
@@ -12,8 +12,8 @@ state = load("authoritative/STATE.json")
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
 assert state["headline_status"] == "UNRESOLVED"
-assert state["last_completed_session"] == "S001"
-assert state["recommended_next_session"] == "S002"
+assert state["last_completed_session"] == "S002"
+assert state["recommended_next_session"] == "S003"
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
@@ -41,6 +41,10 @@ for sid in source_ids:
 for c in claims:
     assert c["id"] in claims_md
 next_prompt = (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text(encoding="utf-8")
-assert "S002" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
-assert (ROOT / "sessions/S001/CLOSEOUT.md").exists()
+assert "S003" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert (ROOT / "sessions/S002/CLOSEOUT.md").exists()
 print("Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).")
+
+assert (ROOT / "research/ASH_SPEC.json").exists()
+assert (ROOT / "sessions/S002/PLAN.md").exists()
+assert (ROOT / "research/S002_ASH_FOUNDATION_AND_ATTACK.md").exists()

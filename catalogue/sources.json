@@ -22,8 +22,8 @@
     ],
     "year": 2026,
     "url": "https://arxiv.org/abs/2604.22341",
-    "access": "ABSTRACT_INSPECTED",
-    "note": "Earlier ASH and parameters"
+    "access": "STATEMENT_INSPECTED",
+    "note": "April v1 full PDF definitions p3, Hypothesis 9.1 p20, cycle/tree theorem statements pp21-26 independently read; not a full proof audit"
   },
   {
     "id": "SRC-0003",
@@ -35,7 +35,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2609.31811",
     "access": "STATEMENT_INSPECTED",
-    "note": "TreeStack README/Lean theorem signature; independent full Lean build not run"
+    "note": "Exact Lean Stacking/Estimator/RootScore/UpperBound and defect-flow proof notes inspected; no new kernel build in S002"
   },
   {
     "id": "SRC-0004",
@@ -56,8 +56,9 @@
     "id": "SRC-0006",
     "type": "CLASSICAL",
     "title": "Sjöstrand cover pebbling",
-    "access": "METADATA_ONLY",
-    "url": null
+    "access": "ABSTRACT_INSPECTED",
+    "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v12i1n22",
+    "note": "Sjöstrand 2005 EJC 12(1) N22, DOI 10.37236/1989, publisher abstract inspected"
   },
   {
     "id": "SRC-0007",
@@ -65,5 +66,14 @@
     "title": "Csernák–Soukup graph atlas reports",
     "access": "SECONDARY_ONLY",
     "url": null
+  },
+  {
+    "id": "SRC-0008",
+    "type": "LOCAL_REPRODUCIBLE_COMPUTATION",
+    "title": "S002 CAM-S002-01 six eight-vertex exhaustive exact search and reverse cold checker",
+    "year": 2026,
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/tools",
+    "access": "STATEMENT_INSPECTED",
+    "note": "Locally executed full forward recursion plus 420 BFS checks and reverse full W8/bridge-K4 layers; raw output hash in S002 report/attached bundle"
   }
 ]

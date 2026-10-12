@@ -21,3 +21,6 @@ Important logical boundaries:
 ## S002 expected definitive deliverables
 
 A page/theorem-number indexed transcription table, a machine-readable `research/ASH_SPEC.json`, two precise statement families with all quantified graph assumptions, explicit edge-case verdicts, and independent equivalence proofs between the exact theorem and any computational formulation. If primary source access fails, retain unverified status and do not certify a counterexample.
+
+
+**S002 2026-10-12 source status update:** The exact original **April Hypothesis 9.1**, arXiv:2604.22341v1, PDF p20 and definitions p3, was independently inspected. It specifies finite connected G for stack, additionally non-bipartite G for clear, exact sizes t≥2, and at most one vertex carrying more than one pebble. See `research/ASH_SPEC.md` and JSON. **The October arXiv:2610.09650 full PDF is still inaccessible**; its numbering/rewritten details are not transcribed and the October gate is not PASS. No contradiction to original April source asserted. S002 exact eight-vertex survey is bounded to those verified original definitions and is not a proof/counterexample to universal ASH.

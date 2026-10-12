@@ -1,0 +1,34 @@
+{
+  "primary_october": {
+    "arxiv": "2610.09650",
+    "access": "ABSTRACT_INSPECTED",
+    "submitted": "2026-10-07",
+    "updated": "2026-10-08",
+    "pages": 23,
+    "internal_labels_verified": false
+  },
+  "original_verified": {
+    "arxiv": "2604.22341v1",
+    "date": "2026-04-24",
+    "pdf_date": "2026-04-27",
+    "access": "STATEMENT_INSPECTED",
+    "definition_page": 3,
+    "hypothesis": "Hypothesis 9.1",
+    "hypothesis_pdf_page": 20,
+    "stack_scope": "every finite connected graph",
+    "clear_scope": "every finite connected non-bipartite graph",
+    "t_min": 2,
+    "total": "exact",
+    "move": "along edge u to v, c[u]>=2, c[u]-=2,c[v]+=1",
+    "almost_stacked": "exists v0, forall u!=v0, c[u]<=1",
+    "stackable": "reachable singleton support",
+    "clearable": "reachable total 1"
+  },
+  "special_cases": {
+    "K1_stack": 2,
+    "K1_clear": "excluded (bipartite)",
+    "empty_graph": "not asserted",
+    "trees": "TreeStack independently proves stack=estim for |V|>=2"
+  },
+  "gate": "PARTIAL_APRIL_VERIFIED_OCTOBER_UNREAD"
+}
