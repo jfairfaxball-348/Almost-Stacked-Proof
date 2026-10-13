@@ -1,0 +1,22 @@
+To: tamas@csernak.com, soukup@renyi.hu
+Subject: Re: The printed Almost Stacked Hypothesis fails on P4
+Status: DRAFT ONLY — NOT SENT BY AGENT
+
+Dear Tamás,
+
+Thank you for your thoughtful reply and for explaining the algorithmic origins of the conjecture. It is extremely helpful to have confirmation that ASH* is precisely the statement you intended.
+
+I find your description of propagating the bad configurations from one pebble count to the next particularly interesting. It seems a promising starting point for understanding why an almost-stacked configuration should always appear among the largest bad configurations, rather than merely observing that this happens computationally.
+
+I will now concentrate my research on proving or disproving ASH* in its full generality, treating the counterexamples to the stronger printed formulation as a separate, settled mathematical observation.
+
+Your confirmation of the complete seven-vertex computations is also very useful. My independent calculations support ASH* across a substantial range of graphs, although some of my higher-threshold cases remain unchecked.
+
+I am particularly interested in whether the recurrence underlying your algorithm imposes some structural restriction on the final non-stackable or non-clearable configurations. If you have noticed any patterns in those extremal configurations, or any families that seem especially difficult, I would be very interested to hear your thoughts.
+
+I will continue developing the mathematics and would be delighted to share any substantial progress, whether towards a universal proof or a counterexample.
+
+Thank you again for taking the time to respond. I very much appreciate the opportunity to exchange ideas about this problem.
+
+With best regards,
+John Fairfax-Ball

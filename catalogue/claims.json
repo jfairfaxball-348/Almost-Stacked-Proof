@@ -216,5 +216,23 @@
       "SRC-0009"
     ],
     "claim": "All 11117 connected 8-vertex graphs, exact layers t<=26: stack threshold found for 10225 (892 cutoff), clear for 10052 of 10935 non-bipartite (883 cutoff), reverse solver agreeing on every graph whose threshold was found; ASH* (stack and clear) holds on all of them; printed form fails on 613 (stack) and 612 (clear) of them, plus literal gaps inside 166/169 cutoff graphs; no claim for thresholds above 26"
+  },
+  {
+    "id": "CLM-0028",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0010"
+    ],
+    "claim": "Owner-supplied 2026-10-13 message from Tamás Csernák (cc Lajos Soukup) confirms intended statement is critical form ASH* at largest bad layer, stronger printed pointwise claim false, and describes upward losing-layer propagation; not a public erratum, universal theorem, or independent certificate verification"
+  },
+  {
+    "id": "CLM-0029",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0010",
+      "SRC-0007",
+      "SRC-0009"
+    ],
+    "claim": "Tamás Csernák reports all connected graphs through 7 vertices had stack/clear thresholds computed in applicable classes and ASH* held; programme n=7 independent computation remains 845/853 stack and 806/809 clear (t<=55), so authors' uncomputed remainder is author-reported, not independently verified"
   }
 ]

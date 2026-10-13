@@ -19,3 +19,6 @@
 - Atlas provenance: read-only shallow clone of public `github.com/lajossoukup/pebbling` @ `701cdd93dd19869a9b90947edd6361efd81cfc1f` (2026-04-01): `pebbling.py`, `atlas_ash_report.py`, `atlas_ash_report.tex`. Its check is the critical form. Not mirrored; no contact.
 - Web queries (standard search): `"Almost Stacked Hypothesis" pebbling counterexample` and `Csernák Soukup stacking number clearing number almost stacked 2610.09650`. No source reporting a counterexample to, or proof of, ASH in either form was found; only a third-party summary page of the April paper surfaced. A negative search has no completeness claim.
 - Phase 2 novelty audit for the printed-form counterexample is deferred until Phase 1 passes its independent audit (S004).
+
+## 2026-10-13 provenance update, NOT a novelty search
+Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms that critical-form ASH* is the intended conjecture, that the printed stronger form is false, and that the authors' upward bad-set algorithm found ASH* throughout the <=7-vertex atlas. Registered as SRC-0010, summarized (not verbatim reproduced) in `outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md`. This **does not** update the current arXiv version list or discharge an independent novelty search, cold audit, or publication priority claim.

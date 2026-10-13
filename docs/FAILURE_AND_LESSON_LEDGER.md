@@ -19,3 +19,6 @@
 | FL-0015 | Route B on the critical layer: same-mass pair transfers / even-pile merges between critical losers do not reach an AS loser in general | Smallest counterexample: the 5-cycle at t=7, loser (0,0,3,3,1); ASH* still holds there. Do not base an ASH* proof on critical-layer compression |
 | FL-0016 | Explicit-state AS memo search blows up on long paths (P9 with estim 511 exceeded 300 s / 3 GiB) | Report such trees as incomplete; never extrapolate from completed sizes |
 | FL-0017 | Treating a conditional theorem whose hypothesis is now known false as refuted | October §6 conclusions are "unsupported", not "false"; §4–5 conclusions survive under ASH* |
+
+| FL-0018 | Mistaking a privately reported author acknowledgement for a posted correction, a validation of particular counterexample certificate files, or a universal proof | Record as SRC-0010 SOURCE_STATED with provenance and no raw email; require new paper version and independent S004 cold audit separately |
+| FL-0019 | Misusing the bad-layer predecessor recurrence as an ASH* proof, or overlooking terminal no-move configurations | Include `c not goal` and the universal quantifier over all legal successors; for t<=n handle 0/1 terminal losers explicitly; demonstrate any proposed extremal structural theorem independently |
