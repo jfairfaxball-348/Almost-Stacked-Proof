@@ -1,12 +1,12 @@
 # Almost Stacked Proof
 
-**Objective:** settle the **Almost Stacked Hypothesis (ASH)** of Tamás Csernák and Lajos Soukup, by an unconditional proof or a finite, fully certified counterexample. The source is [The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem](https://arxiv.org/abs/2610.09650) (October 2026), building on [Stacking and clearing in graph pebbling](https://arxiv.org/abs/2604.22341).
+**Objective:** settle the **intended critical-form Almost Stacked Hypothesis (ASH*)** of Tamás Csernák and Lajos Soukup, by an unconditional universal proof or a finite, fully certified counterexample (stacking and clearing separately); retain the verified counterexamples to the distinct *printed* formulation. The source is [The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem](https://arxiv.org/abs/2610.09650) (October 2026), building on [Stacking and clearing in graph pebbling](https://arxiv.org/abs/2604.22341).
 
 This is a research programme. **Status after S003:**
 - The hypothesis **as printed** (October Hypothesis 3.2 = April Hypothesis 9.1, a pointwise "least t" equality) is false for both stacking and clearing. Certified finite counterexamples: P4 at t=12, and the bull graph at t=12. Lean formalisation and an independent cold audit are still pending.
 - The authors' own computations test a *critical (monotone)* form, ASH\*. ASH\* remains **open**: it is proved for trees and computed true on every connected graph with at most 7 vertices whose threshold was found, and on every connected 8-vertex graph whose threshold is at most 26.
-- No Lean formalisation, Palomar registration, arXiv submission or author contact has been made.
-- See [research/S003_AS_GAP_AND_ATTACKS.md](research/S003_AS_GAP_AND_ATTACKS.md).
+- **Author contact:** John reports having sent the correspondence prepared on 12 October. On 13 October 2026, Tamás Csernák replied (cc Lajos Soukup), explicitly confirming **ASH* is the intended conjecture** and that the stronger printed wording is false. He described the upward bad-configuration recurrence and reported successful calculations for all graphs up to seven vertices; this is author testimony, not a published correction or independent replication of the remaining higher-threshold cases. The complete private reply is not mirrored in this public repo; see the [attributed correspondence summary](outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md). The independent cold audit, Lean, Palomar and arXiv stages are still pending.
+- See [research/S003_AS_GAP_AND_ATTACKS.md](research/S003_AS_GAP_AND_ATTACKS.md) and the [ASH* direct attack brief](research/ASHSTAR_ATTACK_BRIEF.md). **S004 remains future, unexecuted**; the 2026-10-13 correspondence update was not a research session.
 
 ## Essential distinction: our already proved tree theorem
 
@@ -14,7 +14,7 @@ The separate [TreeStack research repository](https://github.com/jfairfaxball-348
 
 ## Problem outline
 
-A pebbling move removes two pebbles at a vertex and adds one at an adjacent vertex. A configuration is *almost stacked* when at most one vertex carries more than one pebble. In the source's setting, ASH proposes that testing almost stacked configurations suffices to determine the universal **stacking** threshold for connected graphs and the **clearing** threshold for connected non-bipartite graphs. The exact original quantifiers/conventions, graph class, and two predicates must be transcribed and verified against the current primary PDF before an independent proof or counterexample is declared. Read [research/PROBLEM_SPEC.md](research/PROBLEM_SPEC.md).
+A pebbling move removes two pebbles at a vertex and adds one at an adjacent vertex. A configuration is *almost stacked* when at most one vertex carries more than one pebble. In the source's setting, ASH proposes that testing almost stacked configurations suffices to determine the universal **stacking** threshold for connected graphs and the **clearing** threshold for connected non-bipartite graphs. The exact original (now inspected in S003) and intended critical-form quantifiers are distinguished in [research/ASH_SPEC.md](research/ASH_SPEC.md); recheck the current primary paper version in S004. Read [research/PROBLEM_SPEC.md](research/PROBLEM_SPEC.md).
 
 ## Milestone pipeline
 

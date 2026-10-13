@@ -19,3 +19,5 @@ S003 review (2026-10-12): Phase 0 PASS inherited. **Phase 1 IN_PROGRESS — lite
 - Missing before PASS: the gate's own "independent proof audit before 2" (a cold re-check by a fresh session), scheduled for S004. Rule 7's Lean kernel proof belongs to Phase 3.
 - The critical form ASH* is OPEN.
 - Phases 2–6: NOT STARTED/OWNER_GATED; no promotion.
+
+2026-10-13 correspondence update (NOT a research session): Tamás Csernák confirms ASH* is the intended conjecture; the printed statement is stronger and false. **No phase advancement**. The independent cold audit and any printed-form Phase 1 exit decision remain S004 responsibilities; ASH* universal proof/counterexample remains open under Phase 1. Author's n<=7 report is SOURCE_STATED, not a completed independent rerun. Phases 2–6 unchanged.

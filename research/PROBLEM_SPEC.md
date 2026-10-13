@@ -28,3 +28,5 @@ A page/theorem-number indexed transcription table, a machine-readable `research/
 **S003 2026-10-12 status update.**
 - The October full text was read. Its Hypothesis 3.2 has the same content as April 9.1; see `research/ASH_SPEC.md`.
 - That printed form is refuted (P4 stack, bull clear, t=12). The working open target is the critical form ASH\*: for n≥2, an AS non-g-able configuration of size g(G)−1 exists. See `research/S003_AS_GAP_AND_ATTACKS.md`.
+
+**2026-10-13 intended-form clarification (private author correspondence).** The author confirms the intended conjecture is ASH*, not the refuted pointwise single-layer minimum. The definitive definitions, literal failure, and critical-form target are in `research/ASH_SPEC.md` (v1 paper) and `research/ASHSTAR_ATTACK_BRIEF.md`. The 2026-10-13 letter is author testimony, not a revised public PDF. Source-version recheck remains mandatory in S004.

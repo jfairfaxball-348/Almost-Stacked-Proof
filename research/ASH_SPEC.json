@@ -108,9 +108,10 @@
       "all trees (TreeStack theorem + October Thm 5.2)",
       "complete bipartite K_{a,b}, a+b>=3 (S003 Thm 10 + April Thm 8.2)",
       "g(G)=n+1",
-      "all connected graphs n<=7 and every connected 8-vertex graph with threshold <=26 (S003 computed)",
+      "all connected graphs n<=6; n=7 thresholds found (845/853 stack, 806/809 clear, cutoff 55); and n=8 thresholds <=26 (S003 computed)",
       "S003 T1/T4 graphs with thresholds found"
-    ]
+    ],
+    "author_reported_n_le_7": "AUTHOR_REPORTED_COMPLETE_BY_EMAIL_2026_10_13; own n=7 checks only 845/853 stack, 806/809 clear within t<=55"
   },
   "special_cases": {
     "K1_stack": 2,
@@ -118,5 +119,14 @@
     "empty_graph": "not asserted",
     "trees": "TreeStack independently proves stack=estim for |V|>=2"
   },
-  "gate": "SOURCE_STATEMENTS_PASS_S003"
+  "gate": "SOURCE_STATEMENTS_PASS_S003",
+  "author_correspondence": {
+    "date": "2026-10-13",
+    "source_id": "SRC-0010",
+    "provenance": "complete incoming message pasted by owner; raw headers unavailable; do not reproduce verbatim in public repo",
+    "claim": "Tamás Csernák confirms intended conjecture is critical form ASH*, and stronger printed form is false",
+    "atlas": "Author reports success on all graphs with at most seven vertices; NOT independently reproduced for remaining high-threshold cases",
+    "published_correction": "NOT_VERIFIED",
+    "report": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md"
+  }
 }

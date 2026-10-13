@@ -64,3 +64,15 @@ for line in (ROOT / "evidence/S003/HASHES.md").read_text(encoding="utf-8").split
         checked += 1
 assert checked >= 10, checked
 print(f"S003 evidence hashes: {checked} files match.")
+
+# The 2026-10-13 update is CORRESPONDENCE ONLY, never S004 execution.
+assert (ROOT / "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md").exists()
+assert (ROOT / "outreach/2026-10-csernak-soukup/reply_draft_2026-10-13.txt").exists()
+assert (ROOT / "research/ASHSTAR_ATTACK_BRIEF.md").exists()
+assert "S004" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert state["correspondence"]["authority"] == "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM"
+assert state["correspondence"]["next_reply"] == "DRAFT_NOT_SENT"
+assert any(x["id"] == "SRC-0010" and x["type"] == "PERSONAL_COMMUNICATION_OWNER_SUPPLIED" for x in sources)
+assert all(any(x["id"] == claimid and x["status"] == "SOURCE_STATED" for x in claims) for claimid in ("CLM-0028", "CLM-0029"))
+assert not (ROOT / "sessions/S004/CLOSEOUT.md").exists()
+print("Author correspondence provenance and unexecuted S004 handoff: PASS (administrative only).")

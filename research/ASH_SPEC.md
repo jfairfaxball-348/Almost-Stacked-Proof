@@ -44,3 +44,11 @@ The earlier TreeStack theorem `stack_eq_estim_of_two_le_card` (arXiv:2609.31811)
 **Cycle conventions.**
 - Under ASH\* (not only under the false literal form): stack(C₂ₙ) ≤ 2^{n+1}−1 and clear(C₂ₙ₊₁) ≤ 3·2ⁿ−2, because October Theorems 4.10 and 4.11 are "‖c‖≥" statements.
 - Unconditional exact values computed in S003: stack(C6)=15, stack(C8)=31, stack(C7)=17, clear(C7)=22.
+
+## 2026-10-13 author confirmation — provenance, NOT an arXiv amendment
+
+In a reply provided by the recipient (sender Tamás Csernák, cc Lajos Soukup), Tamás confirms that the intended idea is an almost-stacked **largest bad configuration**, precisely **ASH\***. He acknowledges that the stronger *printed* least-exact-t form is false because a critical-layer witness does not force the corresponding statement for every smaller size. The algorithm he describes builds losing layers upward by testing legal moves; see `research/ASHSTAR_ATTACK_BRIEF.md` for the exact elementary recurrence and attempted proof directions.
+
+The author reports successfully determining stacking and clearing thresholds for all graphs with up to 7 vertices (in the valid graph classes), and ASH* holding for that finite atlas. This is **SOURCE_STATED / AUTHOR_REPORTED** (SRC-0010), not a new independent computation: S003 independently resolved 845/853 seven-vertex stacking and 806/809 non-bipartite clearing graphs within t<=55, leaving 8/3 unresolved. The original source's 995/924 total count spans 2<=n<=7; preserve graph-order conventions.
+
+No published correction, universal proof, author verification of our particular P4/bull certificates, permission to quote the entire email, or S004 audit is inferred. S003 is still the last executed research session. Our *target* is now unambiguously universal ASH*.

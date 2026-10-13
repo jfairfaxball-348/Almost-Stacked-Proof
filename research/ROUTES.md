@@ -12,3 +12,9 @@ The **headline** is universal ASH. No route has been proved viable in S001.
 | R-F | Split stack vs clear formulations; demonstrate one follows the other or isolate potential failure | Proved logical reduction or explicit separating example | Two source quantifiers may differ |
 
 R-A through R-F can be reprioritized after transcribing the primary 2026 statement and checking source atlas reports. Mathematically ambitious work is welcome inside a numbered session: do not spend sessions on local lemmas merely to satisfy process. Before any heavy computation register a bounded CAM plan with a precise certificate and independent validator.
+
+## 2026-10-13 reprioritisation (preparatory, NOT an executed mathematics session)
+
+The exact open headline is **universal ASH\***, not the disproved printed form. Tamás Csernák confirms that his intended conjecture concerns almost-stacked configurations in the **largest bad layer**; his algorithm builds losing configurations upward by considering every legal successor (SRC-0010). The leading route is now **R-G: bad-layer predecessor/shadow structure**. Define `B_t` (all goal-losing exact size-t configurations), and for t>=2 use the precise recurrence `c ∈ B_t iff c is not a goal and M(c)⊆B_(t−1)`. Prove an **existential** AS member of `B_(g(G)-1)` or construct a threshold-complete counterexample; no unproved monotonicity or compression shortcut. See `research/ASHSTAR_ATTACK_BRIEF.md`.
+
+Keep R-A/R-C/R-D/R-E as competing strategies. **R-B's naive within-critical-layer compression is false (FL-0015), not a live lemma.** Stage-1 printed-form audit remains a separate S004 obligation. Do not mark a route proved, selected by theorem, or experimentally passed based on this correspondence alone.

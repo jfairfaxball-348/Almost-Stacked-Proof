@@ -1,9 +1,9 @@
 {
   "project": "Almost-Stacked-Proof",
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-13",
   "last_completed_session": "S003",
   "recommended_next_session": "S004",
-  "headline_target": "Universal Almost Stacked Hypothesis (ASH): proof OR certified counterexample",
+  "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_PENDING_INDEPENDENT_AUDIT_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
   "active_campaign": null,
@@ -44,10 +44,10 @@
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "S004: independent cold audit of the printed-ASH counterexamples (fresh checker, no reuse of S003 code) and explicit Phase 1 gate decision for the printed form.",
-    "Prove or refute the critical form ASH* (stack and clear separately); trees settled; critical-layer compression is refuted as a proof route.",
-    "Bounded n=8+ exact search for ASH* counterexamples where thresholds are computable; P_n infinite-family conjecture CLM-0024.",
-    "No Stage-2 novelty, Lean, Palomar or arXiv before Phase 1 PASS; no author contact without owner authorisation."
+    "S004 (not yet invoked): independent cold audit of printed-ASH P4/bull certificates, and explicit scope-limited Phase 1 gate decision.",
+    "S004: seriously attempt general ASH* proof or certified counterexample; use bad-layer recurrence, last-layer extremal structures, graph reductions and independent falsification; see research/ASHSTAR_ATTACK_BRIEF.md.",
+    "Distinguish author-reported complete n<=7 threshold survey from independently completed n=7 845/853 stacking and 806/809 clearing cases (t<=55), and reconcile any new paper version.",
+    "No Lean, Palomar or arXiv outside gates; any further author contact requires explicit owner authorisation."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
@@ -57,5 +57,18 @@
     "critical_form_ASHstar_stack": "OPEN (true for all trees via TreeStack + October Thm 5.2; all connected n<=6 and further computed graphs)",
     "critical_form_ASHstar_clear": "OPEN (true for all connected non-bipartite n<=6 and further computed graphs)",
     "assurance": "two+ independent exact solvers and an independent certificate checker; human-checkable finite certificates; Lean NOT started; independent cold audit scheduled S004"
-  }
+  },
+  "correspondence": {
+    "date": "2026-10-13",
+    "outgoing": "OWNER_REPORTED_SENT_UNVERIFIED_HEADERS_AND_TIMESTAMP",
+    "incoming": "AUTHOR_REPLY_TRANSCRIBED_BY_OWNER",
+    "author": "Tamás Csernák (cc Lajos Soukup)",
+    "authority": "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM",
+    "intended_statement": "ASH* = at least one almost-stacked loser at critical size g(G)-1",
+    "printed_form_author_comment": "Author agrees stronger printed statement is false, without specifically certifying S003 example files",
+    "atlas_completeness": "AUTHOR_REPORTS_ALL_GRAPHS_AT_MOST_7_VERTICES; NOT_INDEPENDENTLY_REPLICATED_FOR_HIGH_THRESHOLD_CASES",
+    "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
+    "next_reply": "DRAFT_NOT_SENT"
+  },
+  "next_session_context": "S004 FUTURE/UNEXECUTED. 2026-10-13 author correspondence was an administrative update only; S003 remains last completed research session."
 }

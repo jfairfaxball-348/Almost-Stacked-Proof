@@ -85,5 +85,17 @@
     "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S003",
     "access": "STATEMENT_INSPECTED",
     "note": "Forward C DP, independent reverse C solver, Python reverse fixpoint, AS memo solver, independent certificate checker; hashes in evidence/S003/HASHES.md"
+  },
+  {
+    "id": "SRC-0010",
+    "type": "PERSONAL_COMMUNICATION_OWNER_SUPPLIED",
+    "title": "Tamás Csernák reply to John Fairfax-Ball, cc Lajos Soukup (2026-10-13)",
+    "authors": [
+      "Tamás Csernák"
+    ],
+    "year": 2026,
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
+    "access": "STATEMENT_INSPECTED",
+    "note": "Owner supplied the full message text in chat, displayed received 2:59 PM, exact headers/timezone unverified; public record is attributed summary only, not verbatim message or published correction; author reports intended ASH*, printed false, all n<=7 tested."
   }
 ]
