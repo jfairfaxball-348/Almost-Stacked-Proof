@@ -1,0 +1,9100 @@
+[
+  {
+    "graph": "A7_0001",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 127,
+    "critical_as_witness": [
+      1,
+      125,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 82,
+        "losers": 65,
+        "as_losers": 65
+      },
+      {
+        "t": 4,
+        "candidates": 199,
+        "losers": 170,
+        "as_losers": 160
+      },
+      {
+        "t": 5,
+        "candidates": 442,
+        "losers": 375,
+        "as_losers": 273
+      },
+      {
+        "t": 6,
+        "candidates": 876,
+        "losers": 744,
+        "as_losers": 350
+      },
+      {
+        "t": 7,
+        "candidates": 1625,
+        "losers": 1330,
+        "as_losers": 374
+      },
+      {
+        "t": 8,
+        "candidates": 2789,
+        "losers": 2221,
+        "as_losers": 364
+      },
+      {
+        "t": 9,
+        "candidates": 4596,
+        "losers": 3447,
+        "as_losers": 341
+      },
+      {
+        "t": 10,
+        "candidates": 7175,
+        "losers": 5022,
+        "as_losers": 336
+      },
+      {
+        "t": 11,
+        "candidates": 10695,
+        "losers": 6929,
+        "as_losers": 318
+      },
+      {
+        "t": 12,
+        "candidates": 15239,
+        "losers": 9039,
+        "as_losers": 305
+      },
+      {
+        "t": 13,
+        "candidates": 20822,
+        "losers": 11213,
+        "as_losers": 300
+      },
+      {
+        "t": 14,
+        "candidates": 27076,
+        "losers": 13409,
+        "as_losers": 268
+      },
+      {
+        "t": 15,
+        "candidates": 33723,
+        "losers": 15398,
+        "as_losers": 257
+      },
+      {
+        "t": 16,
+        "candidates": 40450,
+        "losers": 17112,
+        "as_losers": 260
+      },
+      {
+        "t": 17,
+        "candidates": 46841,
+        "losers": 18681,
+        "as_losers": 233
+      },
+      {
+        "t": 18,
+        "candidates": 52492,
+        "losers": 19846,
+        "as_losers": 219
+      },
+      {
+        "t": 19,
+        "candidates": 57321,
+        "losers": 20640,
+        "as_losers": 219
+      },
+      {
+        "t": 20,
+        "candidates": 61236,
+        "losers": 21382,
+        "as_losers": 213
+      },
+      {
+        "t": 21,
+        "candidates": 64141,
+        "losers": 21751,
+        "as_losers": 203
+      },
+      {
+        "t": 22,
+        "candidates": 66102,
+        "losers": 21859,
+        "as_losers": 185
+      },
+      {
+        "t": 23,
+        "candidates": 67535,
+        "losers": 22058,
+        "as_losers": 177
+      },
+      {
+        "t": 24,
+        "candidates": 68370,
+        "losers": 21980,
+        "as_losers": 175
+      },
+      {
+        "t": 25,
+        "candidates": 68583,
+        "losers": 21704,
+        "as_losers": 159
+      },
+      {
+        "t": 26,
+        "candidates": 68565,
+        "losers": 21591,
+        "as_losers": 149
+      },
+      {
+        "t": 27,
+        "candidates": 68194,
+        "losers": 21237,
+        "as_losers": 148
+      },
+      {
+        "t": 28,
+        "candidates": 67336,
+        "losers": 20728,
+        "as_losers": 143
+      },
+      {
+        "t": 29,
+        "candidates": 66442,
+        "losers": 20416,
+        "as_losers": 132
+      },
+      {
+        "t": 30,
+        "candidates": 65330,
+        "losers": 19910,
+        "as_losers": 124
+      },
+      {
+        "t": 31,
+        "candidates": 63840,
+        "losers": 19292,
+        "as_losers": 124
+      },
+      {
+        "t": 32,
+        "candidates": 62481,
+        "losers": 18893,
+        "as_losers": 112
+      },
+      {
+        "t": 33,
+        "candidates": 61042,
+        "losers": 18328,
+        "as_losers": 106
+      },
+      {
+        "t": 34,
+        "candidates": 59285,
+        "losers": 17669,
+        "as_losers": 110
+      },
+      {
+        "t": 35,
+        "candidates": 57694,
+        "losers": 17218,
+        "as_losers": 100
+      },
+      {
+        "t": 36,
+        "candidates": 56089,
+        "losers": 16629,
+        "as_losers": 102
+      },
+      {
+        "t": 37,
+        "candidates": 54210,
+        "losers": 15964,
+        "as_losers": 108
+      },
+      {
+        "t": 38,
+        "candidates": 52505,
+        "losers": 15499,
+        "as_losers": 92
+      },
+      {
+        "t": 39,
+        "candidates": 50838,
+        "losers": 14916,
+        "as_losers": 90
+      },
+      {
+        "t": 40,
+        "candidates": 48939,
+        "losers": 14269,
+        "as_losers": 98
+      },
+      {
+        "t": 41,
+        "candidates": 47206,
+        "losers": 13796,
+        "as_losers": 82
+      },
+      {
+        "t": 42,
+        "candidates": 45507,
+        "losers": 13221,
+        "as_losers": 78
+      },
+      {
+        "t": 43,
+        "candidates": 43612,
+        "losers": 12588,
+        "as_losers": 88
+      },
+      {
+        "t": 44,
+        "candidates": 41884,
+        "losers": 12120,
+        "as_losers": 76
+      },
+      {
+        "t": 45,
+        "candidates": 40212,
+        "losers": 11570,
+        "as_losers": 72
+      },
+      {
+        "t": 46,
+        "candidates": 38370,
+        "losers": 10970,
+        "as_losers": 78
+      },
+      {
+        "t": 47,
+        "candidates": 36706,
+        "losers": 10528,
+        "as_losers": 66
+      },
+      {
+        "t": 48,
+        "candidates": 35126,
+        "losers": 10016,
+        "as_losers": 62
+      },
+      {
+        "t": 49,
+        "candidates": 33378,
+        "losers": 9458,
+        "as_losers": 66
+      },
+      {
+        "t": 50,
+        "candidates": 31808,
+        "losers": 9050,
+        "as_losers": 56
+      },
+      {
+        "t": 51,
+        "candidates": 30354,
+        "losers": 8584,
+        "as_losers": 56
+      },
+      {
+        "t": 52,
+        "candidates": 28746,
+        "losers": 8080,
+        "as_losers": 64
+      },
+      {
+        "t": 53,
+        "candidates": 27306,
+        "losers": 7718,
+        "as_losers": 56
+      },
+      {
+        "t": 54,
+        "candidates": 26002,
+        "losers": 7306,
+        "as_losers": 50
+      },
+      {
+        "t": 55,
+        "candidates": 24558,
+        "losers": 6856,
+        "as_losers": 56
+      },
+      {
+        "t": 56,
+        "candidates": 23258,
+        "losers": 6536,
+        "as_losers": 52
+      },
+      {
+        "t": 57,
+        "candidates": 22094,
+        "losers": 6170,
+        "as_losers": 42
+      },
+      {
+        "t": 58,
+        "candidates": 20798,
+        "losers": 5766,
+        "as_losers": 48
+      },
+      {
+        "t": 59,
+        "candidates": 19634,
+        "losers": 5484,
+        "as_losers": 48
+      },
+      {
+        "t": 60,
+        "candidates": 18606,
+        "losers": 5164,
+        "as_losers": 40
+      },
+      {
+        "t": 61,
+        "candidates": 17458,
+        "losers": 4808,
+        "as_losers": 42
+      },
+      {
+        "t": 62,
+        "candidates": 16432,
+        "losers": 4564,
+        "as_losers": 40
+      },
+      {
+        "t": 63,
+        "candidates": 15536,
+        "losers": 4290,
+        "as_losers": 36
+      },
+      {
+        "t": 64,
+        "candidates": 14538,
+        "losers": 3980,
+        "as_losers": 34
+      },
+      {
+        "t": 65,
+        "candidates": 13644,
+        "losers": 3772,
+        "as_losers": 32
+      },
+      {
+        "t": 66,
+        "candidates": 12876,
+        "losers": 3538,
+        "as_losers": 32
+      },
+      {
+        "t": 67,
+        "candidates": 12016,
+        "losers": 3272,
+        "as_losers": 32
+      },
+      {
+        "t": 68,
+        "candidates": 11252,
+        "losers": 3100,
+        "as_losers": 32
+      },
+      {
+        "t": 69,
+        "candidates": 10606,
+        "losers": 2902,
+        "as_losers": 32
+      },
+      {
+        "t": 70,
+        "candidates": 9870,
+        "losers": 2676,
+        "as_losers": 32
+      },
+      {
+        "t": 71,
+        "candidates": 9222,
+        "losers": 2534,
+        "as_losers": 30
+      },
+      {
+        "t": 72,
+        "candidates": 8678,
+        "losers": 2366,
+        "as_losers": 28
+      },
+      {
+        "t": 73,
+        "candidates": 8046,
+        "losers": 2170,
+        "as_losers": 30
+      },
+      {
+        "t": 74,
+        "candidates": 7494,
+        "losers": 2052,
+        "as_losers": 28
+      },
+      {
+        "t": 75,
+        "candidates": 7038,
+        "losers": 1910,
+        "as_losers": 24
+      },
+      {
+        "t": 76,
+        "candidates": 6502,
+        "losers": 1742,
+        "as_losers": 28
+      },
+      {
+        "t": 77,
+        "candidates": 6040,
+        "losers": 1646,
+        "as_losers": 28
+      },
+      {
+        "t": 78,
+        "candidates": 5664,
+        "losers": 1530,
+        "as_losers": 22
+      },
+      {
+        "t": 79,
+        "candidates": 5216,
+        "losers": 1388,
+        "as_losers": 24
+      },
+      {
+        "t": 80,
+        "candidates": 4830,
+        "losers": 1310,
+        "as_losers": 26
+      },
+      {
+        "t": 81,
+        "candidates": 4520,
+        "losers": 1214,
+        "as_losers": 20
+      },
+      {
+        "t": 82,
+        "candidates": 4144,
+        "losers": 1094,
+        "as_losers": 20
+      },
+      {
+        "t": 83,
+        "candidates": 3826,
+        "losers": 1032,
+        "as_losers": 24
+      },
+      {
+        "t": 84,
+        "candidates": 3576,
+        "losers": 954,
+        "as_losers": 20
+      },
+      {
+        "t": 85,
+        "candidates": 3266,
+        "losers": 856,
+        "as_losers": 20
+      },
+      {
+        "t": 86,
+        "candidates": 3008,
+        "losers": 808,
+        "as_losers": 22
+      },
+      {
+        "t": 87,
+        "candidates": 2804,
+        "losers": 744,
+        "as_losers": 16
+      },
+      {
+        "t": 88,
+        "candidates": 2544,
+        "losers": 662,
+        "as_losers": 18
+      },
+      {
+        "t": 89,
+        "candidates": 2334,
+        "losers": 624,
+        "as_losers": 20
+      },
+      {
+        "t": 90,
+        "candidates": 2170,
+        "losers": 572,
+        "as_losers": 12
+      },
+      {
+        "t": 91,
+        "candidates": 1956,
+        "losers": 504,
+        "as_losers": 16
+      },
+      {
+        "t": 92,
+        "candidates": 1790,
+        "losers": 476,
+        "as_losers": 20
+      },
+      {
+        "t": 93,
+        "candidates": 1664,
+        "losers": 436,
+        "as_losers": 10
+      },
+      {
+        "t": 94,
+        "candidates": 1490,
+        "losers": 380,
+        "as_losers": 12
+      },
+      {
+        "t": 95,
+        "candidates": 1356,
+        "losers": 360,
+        "as_losers": 18
+      },
+      {
+        "t": 96,
+        "candidates": 1260,
+        "losers": 328,
+        "as_losers": 8
+      },
+      {
+        "t": 97,
+        "candidates": 1118,
+        "losers": 282,
+        "as_losers": 8
+      },
+      {
+        "t": 98,
+        "candidates": 1012,
+        "losers": 268,
+        "as_losers": 16
+      },
+      {
+        "t": 99,
+        "candidates": 942,
+        "losers": 244,
+        "as_losers": 8
+      },
+      {
+        "t": 100,
+        "candidates": 832,
+        "losers": 208,
+        "as_losers": 8
+      },
+      {
+        "t": 101,
+        "candidates": 750,
+        "losers": 198,
+        "as_losers": 16
+      },
+      {
+        "t": 102,
+        "candidates": 696,
+        "losers": 180,
+        "as_losers": 8
+      },
+      {
+        "t": 103,
+        "candidates": 606,
+        "losers": 150,
+        "as_losers": 6
+      },
+      {
+        "t": 104,
+        "candidates": 540,
+        "losers": 142,
+        "as_losers": 14
+      },
+      {
+        "t": 105,
+        "candidates": 498,
+        "losers": 128,
+        "as_losers": 8
+      },
+      {
+        "t": 106,
+        "candidates": 426,
+        "losers": 104,
+        "as_losers": 4
+      },
+      {
+        "t": 107,
+        "candidates": 376,
+        "losers": 98,
+        "as_losers": 12
+      },
+      {
+        "t": 108,
+        "candidates": 346,
+        "losers": 88,
+        "as_losers": 8
+      },
+      {
+        "t": 109,
+        "candidates": 292,
+        "losers": 70,
+        "as_losers": 4
+      },
+      {
+        "t": 110,
+        "candidates": 254,
+        "losers": 66,
+        "as_losers": 10
+      },
+      {
+        "t": 111,
+        "candidates": 232,
+        "losers": 58,
+        "as_losers": 6
+      },
+      {
+        "t": 112,
+        "candidates": 190,
+        "losers": 44,
+        "as_losers": 4
+      },
+      {
+        "t": 113,
+        "candidates": 162,
+        "losers": 42,
+        "as_losers": 8
+      },
+      {
+        "t": 114,
+        "candidates": 148,
+        "losers": 36,
+        "as_losers": 4
+      },
+      {
+        "t": 115,
+        "candidates": 118,
+        "losers": 26,
+        "as_losers": 4
+      },
+      {
+        "t": 116,
+        "candidates": 100,
+        "losers": 26,
+        "as_losers": 8
+      },
+      {
+        "t": 117,
+        "candidates": 92,
+        "losers": 22,
+        "as_losers": 4
+      },
+      {
+        "t": 118,
+        "candidates": 68,
+        "losers": 14,
+        "as_losers": 2
+      },
+      {
+        "t": 119,
+        "candidates": 54,
+        "losers": 14,
+        "as_losers": 6
+      },
+      {
+        "t": 120,
+        "candidates": 50,
+        "losers": 12,
+        "as_losers": 4
+      },
+      {
+        "t": 121,
+        "candidates": 34,
+        "losers": 6,
+        "as_losers": 0
+      },
+      {
+        "t": 122,
+        "candidates": 24,
+        "losers": 6,
+        "as_losers": 4
+      },
+      {
+        "t": 123,
+        "candidates": 24,
+        "losers": 6,
+        "as_losers": 4
+      },
+      {
+        "t": 124,
+        "candidates": 16,
+        "losers": 2,
+        "as_losers": 0
+      },
+      {
+        "t": 125,
+        "candidates": 8,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 126,
+        "candidates": 8,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 127,
+        "candidates": 4,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 6.818986331000019,
+    "layer_sha256": "d647082c4761256cf3bc5970183302fdbbfe1b4b5d82bf87a9ee0def8d74315c"
+  },
+  {
+    "graph": "A7_0006",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 63,
+    "critical_as_witness": [
+      1,
+      0,
+      0,
+      0,
+      61,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 83,
+        "losers": 63,
+        "as_losers": 63
+      },
+      {
+        "t": 4,
+        "candidates": 200,
+        "losers": 160,
+        "as_losers": 152
+      },
+      {
+        "t": 5,
+        "candidates": 438,
+        "losers": 345,
+        "as_losers": 260
+      },
+      {
+        "t": 6,
+        "candidates": 851,
+        "losers": 664,
+        "as_losers": 327
+      },
+      {
+        "t": 7,
+        "candidates": 1570,
+        "losers": 1128,
+        "as_losers": 340
+      },
+      {
+        "t": 8,
+        "candidates": 2650,
+        "losers": 1778,
+        "as_losers": 321
+      },
+      {
+        "t": 9,
+        "candidates": 4264,
+        "losers": 2562,
+        "as_losers": 290
+      },
+      {
+        "t": 10,
+        "candidates": 6427,
+        "losers": 3405,
+        "as_losers": 279
+      },
+      {
+        "t": 11,
+        "candidates": 8997,
+        "losers": 4271,
+        "as_losers": 252
+      },
+      {
+        "t": 12,
+        "candidates": 11816,
+        "losers": 5031,
+        "as_losers": 231
+      },
+      {
+        "t": 13,
+        "candidates": 14695,
+        "losers": 5611,
+        "as_losers": 222
+      },
+      {
+        "t": 14,
+        "candidates": 17234,
+        "losers": 6096,
+        "as_losers": 189
+      },
+      {
+        "t": 15,
+        "candidates": 19214,
+        "losers": 6325,
+        "as_losers": 171
+      },
+      {
+        "t": 16,
+        "candidates": 20547,
+        "losers": 6353,
+        "as_losers": 161
+      },
+      {
+        "t": 17,
+        "candidates": 21251,
+        "losers": 6359,
+        "as_losers": 136
+      },
+      {
+        "t": 18,
+        "candidates": 21399,
+        "losers": 6176,
+        "as_losers": 127
+      },
+      {
+        "t": 19,
+        "candidates": 20991,
+        "losers": 5897,
+        "as_losers": 122
+      },
+      {
+        "t": 20,
+        "candidates": 20408,
+        "losers": 5701,
+        "as_losers": 114
+      },
+      {
+        "t": 21,
+        "candidates": 19745,
+        "losers": 5411,
+        "as_losers": 108
+      },
+      {
+        "t": 22,
+        "candidates": 18826,
+        "losers": 5075,
+        "as_losers": 97
+      },
+      {
+        "t": 23,
+        "candidates": 17878,
+        "losers": 4827,
+        "as_losers": 89
+      },
+      {
+        "t": 24,
+        "candidates": 16926,
+        "losers": 4502,
+        "as_losers": 79
+      },
+      {
+        "t": 25,
+        "candidates": 15791,
+        "losers": 4132,
+        "as_losers": 67
+      },
+      {
+        "t": 26,
+        "candidates": 14660,
+        "losers": 3834,
+        "as_losers": 66
+      },
+      {
+        "t": 27,
+        "candidates": 13545,
+        "losers": 3486,
+        "as_losers": 60
+      },
+      {
+        "t": 28,
+        "candidates": 12327,
+        "losers": 3135,
+        "as_losers": 54
+      },
+      {
+        "t": 29,
+        "candidates": 11226,
+        "losers": 2866,
+        "as_losers": 53
+      },
+      {
+        "t": 30,
+        "candidates": 10243,
+        "losers": 2573,
+        "as_losers": 47
+      },
+      {
+        "t": 31,
+        "candidates": 9195,
+        "losers": 2282,
+        "as_losers": 41
+      },
+      {
+        "t": 32,
+        "candidates": 8204,
+        "losers": 2036,
+        "as_losers": 33
+      },
+      {
+        "t": 33,
+        "candidates": 7305,
+        "losers": 1780,
+        "as_losers": 32
+      },
+      {
+        "t": 34,
+        "candidates": 6415,
+        "losers": 1548,
+        "as_losers": 30
+      },
+      {
+        "t": 35,
+        "candidates": 5590,
+        "losers": 1351,
+        "as_losers": 24
+      },
+      {
+        "t": 36,
+        "candidates": 4874,
+        "losers": 1169,
+        "as_losers": 30
+      },
+      {
+        "t": 37,
+        "candidates": 4251,
+        "losers": 1020,
+        "as_losers": 29
+      },
+      {
+        "t": 38,
+        "candidates": 3701,
+        "losers": 882,
+        "as_losers": 19
+      },
+      {
+        "t": 39,
+        "candidates": 3188,
+        "losers": 751,
+        "as_losers": 23
+      },
+      {
+        "t": 40,
+        "candidates": 2744,
+        "losers": 648,
+        "as_losers": 25
+      },
+      {
+        "t": 41,
+        "candidates": 2363,
+        "losers": 553,
+        "as_losers": 14
+      },
+      {
+        "t": 42,
+        "candidates": 2006,
+        "losers": 463,
+        "as_losers": 16
+      },
+      {
+        "t": 43,
+        "candidates": 1708,
+        "losers": 396,
+        "as_losers": 22
+      },
+      {
+        "t": 44,
+        "candidates": 1460,
+        "losers": 334,
+        "as_losers": 13
+      },
+      {
+        "t": 45,
+        "candidates": 1221,
+        "losers": 275,
+        "as_losers": 12
+      },
+      {
+        "t": 46,
+        "candidates": 1024,
+        "losers": 232,
+        "as_losers": 16
+      },
+      {
+        "t": 47,
+        "candidates": 861,
+        "losers": 192,
+        "as_losers": 9
+      },
+      {
+        "t": 48,
+        "candidates": 704,
+        "losers": 154,
+        "as_losers": 8
+      },
+      {
+        "t": 49,
+        "candidates": 579,
+        "losers": 129,
+        "as_losers": 10
+      },
+      {
+        "t": 50,
+        "candidates": 483,
+        "losers": 105,
+        "as_losers": 6
+      },
+      {
+        "t": 51,
+        "candidates": 388,
+        "losers": 82,
+        "as_losers": 8
+      },
+      {
+        "t": 52,
+        "candidates": 315,
+        "losers": 69,
+        "as_losers": 10
+      },
+      {
+        "t": 53,
+        "candidates": 260,
+        "losers": 54,
+        "as_losers": 5
+      },
+      {
+        "t": 54,
+        "candidates": 197,
+        "losers": 39,
+        "as_losers": 5
+      },
+      {
+        "t": 55,
+        "candidates": 152,
+        "losers": 32,
+        "as_losers": 8
+      },
+      {
+        "t": 56,
+        "candidates": 122,
+        "losers": 24,
+        "as_losers": 4
+      },
+      {
+        "t": 57,
+        "candidates": 86,
+        "losers": 15,
+        "as_losers": 2
+      },
+      {
+        "t": 58,
+        "candidates": 61,
+        "losers": 12,
+        "as_losers": 6
+      },
+      {
+        "t": 59,
+        "candidates": 49,
+        "losers": 9,
+        "as_losers": 4
+      },
+      {
+        "t": 60,
+        "candidates": 32,
+        "losers": 4,
+        "as_losers": 1
+      },
+      {
+        "t": 61,
+        "candidates": 17,
+        "losers": 3,
+        "as_losers": 3
+      },
+      {
+        "t": 62,
+        "candidates": 13,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 63,
+        "candidates": 6,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.9456125039999961,
+    "layer_sha256": "de94bd82c7974374fb9c0607db1d9950bf02e5eb45220f6884ec7b443e11b920"
+  },
+  {
+    "graph": "A7_0025",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 64,
+    "critical_as_witness": [
+      61,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 83,
+        "losers": 63,
+        "as_losers": 63
+      },
+      {
+        "t": 4,
+        "candidates": 198,
+        "losers": 164,
+        "as_losers": 155
+      },
+      {
+        "t": 5,
+        "candidates": 437,
+        "losers": 359,
+        "as_losers": 265
+      },
+      {
+        "t": 6,
+        "candidates": 867,
+        "losers": 701,
+        "as_losers": 336
+      },
+      {
+        "t": 7,
+        "candidates": 1589,
+        "losers": 1218,
+        "as_losers": 351
+      },
+      {
+        "t": 8,
+        "candidates": 2724,
+        "losers": 1934,
+        "as_losers": 333
+      },
+      {
+        "t": 9,
+        "candidates": 4420,
+        "losers": 2778,
+        "as_losers": 302
+      },
+      {
+        "t": 10,
+        "candidates": 6707,
+        "losers": 3622,
+        "as_losers": 280
+      },
+      {
+        "t": 11,
+        "candidates": 9569,
+        "losers": 4284,
+        "as_losers": 254
+      },
+      {
+        "t": 12,
+        "candidates": 12546,
+        "losers": 4615,
+        "as_losers": 238
+      },
+      {
+        "t": 13,
+        "candidates": 14970,
+        "losers": 4613,
+        "as_losers": 221
+      },
+      {
+        "t": 14,
+        "candidates": 16222,
+        "losers": 4376,
+        "as_losers": 187
+      },
+      {
+        "t": 15,
+        "candidates": 16146,
+        "losers": 4029,
+        "as_losers": 174
+      },
+      {
+        "t": 16,
+        "candidates": 15225,
+        "losers": 3704,
+        "as_losers": 167
+      },
+      {
+        "t": 17,
+        "candidates": 14229,
+        "losers": 3388,
+        "as_losers": 137
+      },
+      {
+        "t": 18,
+        "candidates": 13216,
+        "losers": 3080,
+        "as_losers": 120
+      },
+      {
+        "t": 19,
+        "candidates": 12195,
+        "losers": 2823,
+        "as_losers": 117
+      },
+      {
+        "t": 20,
+        "candidates": 11348,
+        "losers": 2606,
+        "as_losers": 107
+      },
+      {
+        "t": 21,
+        "candidates": 10615,
+        "losers": 2380,
+        "as_losers": 99
+      },
+      {
+        "t": 22,
+        "candidates": 9831,
+        "losers": 2201,
+        "as_losers": 91
+      },
+      {
+        "t": 23,
+        "candidates": 9159,
+        "losers": 2032,
+        "as_losers": 82
+      },
+      {
+        "t": 24,
+        "candidates": 8508,
+        "losers": 1836,
+        "as_losers": 78
+      },
+      {
+        "t": 25,
+        "candidates": 7779,
+        "losers": 1661,
+        "as_losers": 69
+      },
+      {
+        "t": 26,
+        "candidates": 7121,
+        "losers": 1495,
+        "as_losers": 61
+      },
+      {
+        "t": 27,
+        "candidates": 6465,
+        "losers": 1315,
+        "as_losers": 60
+      },
+      {
+        "t": 28,
+        "candidates": 5779,
+        "losers": 1172,
+        "as_losers": 58
+      },
+      {
+        "t": 29,
+        "candidates": 5215,
+        "losers": 1050,
+        "as_losers": 49
+      },
+      {
+        "t": 30,
+        "candidates": 4705,
+        "losers": 908,
+        "as_losers": 45
+      },
+      {
+        "t": 31,
+        "candidates": 4145,
+        "losers": 794,
+        "as_losers": 45
+      },
+      {
+        "t": 32,
+        "candidates": 3640,
+        "losers": 699,
+        "as_losers": 32
+      },
+      {
+        "t": 33,
+        "candidates": 3237,
+        "losers": 589,
+        "as_losers": 27
+      },
+      {
+        "t": 34,
+        "candidates": 2809,
+        "losers": 514,
+        "as_losers": 30
+      },
+      {
+        "t": 35,
+        "candidates": 2448,
+        "losers": 464,
+        "as_losers": 22
+      },
+      {
+        "t": 36,
+        "candidates": 2201,
+        "losers": 405,
+        "as_losers": 22
+      },
+      {
+        "t": 37,
+        "candidates": 1952,
+        "losers": 363,
+        "as_losers": 28
+      },
+      {
+        "t": 38,
+        "candidates": 1744,
+        "losers": 330,
+        "as_losers": 20
+      },
+      {
+        "t": 39,
+        "candidates": 1563,
+        "losers": 283,
+        "as_losers": 17
+      },
+      {
+        "t": 40,
+        "candidates": 1367,
+        "losers": 250,
+        "as_losers": 24
+      },
+      {
+        "t": 41,
+        "candidates": 1204,
+        "losers": 225,
+        "as_losers": 17
+      },
+      {
+        "t": 42,
+        "candidates": 1066,
+        "losers": 189,
+        "as_losers": 12
+      },
+      {
+        "t": 43,
+        "candidates": 921,
+        "losers": 165,
+        "as_losers": 20
+      },
+      {
+        "t": 44,
+        "candidates": 803,
+        "losers": 148,
+        "as_losers": 16
+      },
+      {
+        "t": 45,
+        "candidates": 706,
+        "losers": 123,
+        "as_losers": 10
+      },
+      {
+        "t": 46,
+        "candidates": 603,
+        "losers": 106,
+        "as_losers": 15
+      },
+      {
+        "t": 47,
+        "candidates": 517,
+        "losers": 94,
+        "as_losers": 12
+      },
+      {
+        "t": 48,
+        "candidates": 447,
+        "losers": 75,
+        "as_losers": 7
+      },
+      {
+        "t": 49,
+        "candidates": 372,
+        "losers": 64,
+        "as_losers": 10
+      },
+      {
+        "t": 50,
+        "candidates": 316,
+        "losers": 57,
+        "as_losers": 8
+      },
+      {
+        "t": 51,
+        "candidates": 273,
+        "losers": 44,
+        "as_losers": 6
+      },
+      {
+        "t": 52,
+        "candidates": 226,
+        "losers": 39,
+        "as_losers": 10
+      },
+      {
+        "t": 53,
+        "candidates": 194,
+        "losers": 35,
+        "as_losers": 8
+      },
+      {
+        "t": 54,
+        "candidates": 164,
+        "losers": 25,
+        "as_losers": 4
+      },
+      {
+        "t": 55,
+        "candidates": 128,
+        "losers": 21,
+        "as_losers": 7
+      },
+      {
+        "t": 56,
+        "candidates": 105,
+        "losers": 19,
+        "as_losers": 7
+      },
+      {
+        "t": 57,
+        "candidates": 86,
+        "losers": 12,
+        "as_losers": 2
+      },
+      {
+        "t": 58,
+        "candidates": 62,
+        "losers": 9,
+        "as_losers": 4
+      },
+      {
+        "t": 59,
+        "candidates": 48,
+        "losers": 9,
+        "as_losers": 6
+      },
+      {
+        "t": 60,
+        "candidates": 40,
+        "losers": 5,
+        "as_losers": 2
+      },
+      {
+        "t": 61,
+        "candidates": 26,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 62,
+        "candidates": 16,
+        "losers": 3,
+        "as_losers": 3
+      },
+      {
+        "t": 63,
+        "candidates": 12,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 64,
+        "candidates": 5,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.495499231999986,
+    "layer_sha256": "88f639cdbcedc9119fad56258f1f9d71ddf6ff7737a769f7f82dd7b9f46bb2bf"
+  },
+  {
+    "graph": "A7_0025",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "mode": "clear",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 94,
+    "critical_as_witness": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 83,
+        "losers": 70,
+        "as_losers": 70
+      },
+      {
+        "t": 4,
+        "candidates": 199,
+        "losers": 168,
+        "as_losers": 155
+      },
+      {
+        "t": 5,
+        "candidates": 438,
+        "losers": 370,
+        "as_losers": 273
+      },
+      {
+        "t": 6,
+        "candidates": 872,
+        "losers": 723,
+        "as_losers": 340
+      },
+      {
+        "t": 7,
+        "candidates": 1593,
+        "losers": 1253,
+        "as_losers": 354
+      },
+      {
+        "t": 8,
+        "candidates": 2745,
+        "losers": 2004,
+        "as_losers": 346
+      },
+      {
+        "t": 9,
+        "candidates": 4455,
+        "losers": 2901,
+        "as_losers": 312
+      },
+      {
+        "t": 10,
+        "candidates": 6777,
+        "losers": 3805,
+        "as_losers": 287
+      },
+      {
+        "t": 11,
+        "candidates": 9707,
+        "losers": 4572,
+        "as_losers": 269
+      },
+      {
+        "t": 12,
+        "candidates": 12813,
+        "losers": 5018,
+        "as_losers": 246
+      },
+      {
+        "t": 13,
+        "candidates": 15409,
+        "losers": 5122,
+        "as_losers": 231
+      },
+      {
+        "t": 14,
+        "candidates": 16958,
+        "losers": 5027,
+        "as_losers": 206
+      },
+      {
+        "t": 15,
+        "candidates": 17261,
+        "losers": 4789,
+        "as_losers": 185
+      },
+      {
+        "t": 16,
+        "candidates": 16654,
+        "losers": 4530,
+        "as_losers": 181
+      },
+      {
+        "t": 17,
+        "candidates": 15939,
+        "losers": 4326,
+        "as_losers": 157
+      },
+      {
+        "t": 18,
+        "candidates": 15211,
+        "losers": 4089,
+        "as_losers": 132
+      },
+      {
+        "t": 19,
+        "candidates": 14387,
+        "losers": 3866,
+        "as_losers": 133
+      },
+      {
+        "t": 20,
+        "candidates": 13739,
+        "losers": 3732,
+        "as_losers": 126
+      },
+      {
+        "t": 21,
+        "candidates": 13199,
+        "losers": 3553,
+        "as_losers": 109
+      },
+      {
+        "t": 22,
+        "candidates": 12542,
+        "losers": 3385,
+        "as_losers": 105
+      },
+      {
+        "t": 23,
+        "candidates": 12016,
+        "losers": 3276,
+        "as_losers": 99
+      },
+      {
+        "t": 24,
+        "candidates": 11508,
+        "losers": 3103,
+        "as_losers": 86
+      },
+      {
+        "t": 25,
+        "candidates": 10841,
+        "losers": 2915,
+        "as_losers": 80
+      },
+      {
+        "t": 26,
+        "candidates": 10263,
+        "losers": 2781,
+        "as_losers": 75
+      },
+      {
+        "t": 27,
+        "candidates": 9680,
+        "losers": 2599,
+        "as_losers": 67
+      },
+      {
+        "t": 28,
+        "candidates": 8987,
+        "losers": 2421,
+        "as_losers": 68
+      },
+      {
+        "t": 29,
+        "candidates": 8437,
+        "losers": 2308,
+        "as_losers": 62
+      },
+      {
+        "t": 30,
+        "candidates": 7936,
+        "losers": 2147,
+        "as_losers": 52
+      },
+      {
+        "t": 31,
+        "candidates": 7319,
+        "losers": 1986,
+        "as_losers": 55
+      },
+      {
+        "t": 32,
+        "candidates": 6779,
+        "losers": 1884,
+        "as_losers": 46
+      },
+      {
+        "t": 33,
+        "candidates": 6339,
+        "losers": 1742,
+        "as_losers": 35
+      },
+      {
+        "t": 34,
+        "candidates": 5814,
+        "losers": 1610,
+        "as_losers": 40
+      },
+      {
+        "t": 35,
+        "candidates": 5376,
+        "losers": 1542,
+        "as_losers": 36
+      },
+      {
+        "t": 36,
+        "candidates": 5058,
+        "losers": 1443,
+        "as_losers": 30
+      },
+      {
+        "t": 37,
+        "candidates": 4686,
+        "losers": 1340,
+        "as_losers": 37
+      },
+      {
+        "t": 38,
+        "candidates": 4379,
+        "losers": 1283,
+        "as_losers": 33
+      },
+      {
+        "t": 39,
+        "candidates": 4107,
+        "losers": 1193,
+        "as_losers": 24
+      },
+      {
+        "t": 40,
+        "candidates": 3776,
+        "losers": 1098,
+        "as_losers": 31
+      },
+      {
+        "t": 41,
+        "candidates": 3504,
+        "losers": 1046,
+        "as_losers": 29
+      },
+      {
+        "t": 42,
+        "candidates": 3268,
+        "losers": 967,
+        "as_losers": 18
+      },
+      {
+        "t": 43,
+        "candidates": 2986,
+        "losers": 883,
+        "as_losers": 26
+      },
+      {
+        "t": 44,
+        "candidates": 2759,
+        "losers": 839,
+        "as_losers": 27
+      },
+      {
+        "t": 45,
+        "candidates": 2568,
+        "losers": 774,
+        "as_losers": 15
+      },
+      {
+        "t": 46,
+        "candidates": 2335,
+        "losers": 702,
+        "as_losers": 20
+      },
+      {
+        "t": 47,
+        "candidates": 2147,
+        "losers": 665,
+        "as_losers": 21
+      },
+      {
+        "t": 48,
+        "candidates": 1991,
+        "losers": 610,
+        "as_losers": 11
+      },
+      {
+        "t": 49,
+        "candidates": 1798,
+        "losers": 550,
+        "as_losers": 14
+      },
+      {
+        "t": 50,
+        "candidates": 1649,
+        "losers": 521,
+        "as_losers": 16
+      },
+      {
+        "t": 51,
+        "candidates": 1530,
+        "losers": 477,
+        "as_losers": 10
+      },
+      {
+        "t": 52,
+        "candidates": 1380,
+        "losers": 430,
+        "as_losers": 14
+      },
+      {
+        "t": 53,
+        "candidates": 1268,
+        "losers": 408,
+        "as_losers": 16
+      },
+      {
+        "t": 54,
+        "candidates": 1174,
+        "losers": 372,
+        "as_losers": 8
+      },
+      {
+        "t": 55,
+        "candidates": 1050,
+        "losers": 332,
+        "as_losers": 11
+      },
+      {
+        "t": 56,
+        "candidates": 960,
+        "losers": 315,
+        "as_losers": 15
+      },
+      {
+        "t": 57,
+        "candidates": 886,
+        "losers": 286,
+        "as_losers": 6
+      },
+      {
+        "t": 58,
+        "candidates": 786,
+        "losers": 252,
+        "as_losers": 8
+      },
+      {
+        "t": 59,
+        "candidates": 717,
+        "losers": 240,
+        "as_losers": 14
+      },
+      {
+        "t": 60,
+        "candidates": 663,
+        "losers": 218,
+        "as_losers": 6
+      },
+      {
+        "t": 61,
+        "candidates": 585,
+        "losers": 190,
+        "as_losers": 6
+      },
+      {
+        "t": 62,
+        "candidates": 531,
+        "losers": 181,
+        "as_losers": 11
+      },
+      {
+        "t": 63,
+        "candidates": 490,
+        "losers": 164,
+        "as_losers": 5
+      },
+      {
+        "t": 64,
+        "candidates": 428,
+        "losers": 141,
+        "as_losers": 4
+      },
+      {
+        "t": 65,
+        "candidates": 387,
+        "losers": 134,
+        "as_losers": 8
+      },
+      {
+        "t": 66,
+        "candidates": 358,
+        "losers": 122,
+        "as_losers": 4
+      },
+      {
+        "t": 67,
+        "candidates": 312,
+        "losers": 104,
+        "as_losers": 4
+      },
+      {
+        "t": 68,
+        "candidates": 284,
+        "losers": 99,
+        "as_losers": 8
+      },
+      {
+        "t": 69,
+        "candidates": 262,
+        "losers": 90,
+        "as_losers": 4
+      },
+      {
+        "t": 70,
+        "candidates": 224,
+        "losers": 75,
+        "as_losers": 3
+      },
+      {
+        "t": 71,
+        "candidates": 202,
+        "losers": 71,
+        "as_losers": 7
+      },
+      {
+        "t": 72,
+        "candidates": 185,
+        "losers": 64,
+        "as_losers": 4
+      },
+      {
+        "t": 73,
+        "candidates": 155,
+        "losers": 52,
+        "as_losers": 2
+      },
+      {
+        "t": 74,
+        "candidates": 139,
+        "losers": 49,
+        "as_losers": 6
+      },
+      {
+        "t": 75,
+        "candidates": 127,
+        "losers": 44,
+        "as_losers": 4
+      },
+      {
+        "t": 76,
+        "candidates": 105,
+        "losers": 35,
+        "as_losers": 2
+      },
+      {
+        "t": 77,
+        "candidates": 93,
+        "losers": 33,
+        "as_losers": 5
+      },
+      {
+        "t": 78,
+        "candidates": 84,
+        "losers": 29,
+        "as_losers": 3
+      },
+      {
+        "t": 79,
+        "candidates": 67,
+        "losers": 22,
+        "as_losers": 2
+      },
+      {
+        "t": 80,
+        "candidates": 59,
+        "losers": 21,
+        "as_losers": 4
+      },
+      {
+        "t": 81,
+        "candidates": 53,
+        "losers": 18,
+        "as_losers": 2
+      },
+      {
+        "t": 82,
+        "candidates": 41,
+        "losers": 13,
+        "as_losers": 2
+      },
+      {
+        "t": 83,
+        "candidates": 37,
+        "losers": 13,
+        "as_losers": 4
+      },
+      {
+        "t": 84,
+        "candidates": 33,
+        "losers": 11,
+        "as_losers": 2
+      },
+      {
+        "t": 85,
+        "candidates": 23,
+        "losers": 7,
+        "as_losers": 1
+      },
+      {
+        "t": 86,
+        "candidates": 20,
+        "losers": 7,
+        "as_losers": 3
+      },
+      {
+        "t": 87,
+        "candidates": 18,
+        "losers": 6,
+        "as_losers": 2
+      },
+      {
+        "t": 88,
+        "candidates": 11,
+        "losers": 3,
+        "as_losers": 0
+      },
+      {
+        "t": 89,
+        "candidates": 9,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 90,
+        "candidates": 9,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 91,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 92,
+        "candidates": 3,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 93,
+        "candidates": 3,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 94,
+        "candidates": 1,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.6008560410000428,
+    "layer_sha256": "b1df0953882f2fd2b510ef0b767e97a56221710fb4dffe8c31c7236b161d4187"
+  },
+  {
+    "graph": "A7_0030",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 80,
+    "critical_as_witness": [
+      1,
+      1,
+      77,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 81,
+        "losers": 65,
+        "as_losers": 65
+      },
+      {
+        "t": 4,
+        "candidates": 194,
+        "losers": 167,
+        "as_losers": 158
+      },
+      {
+        "t": 5,
+        "candidates": 434,
+        "losers": 364,
+        "as_losers": 270
+      },
+      {
+        "t": 6,
+        "candidates": 865,
+        "losers": 721,
+        "as_losers": 347
+      },
+      {
+        "t": 7,
+        "candidates": 1590,
+        "losers": 1262,
+        "as_losers": 365
+      },
+      {
+        "t": 8,
+        "candidates": 2714,
+        "losers": 2064,
+        "as_losers": 354
+      },
+      {
+        "t": 9,
+        "candidates": 4425,
+        "losers": 3130,
+        "as_losers": 329
+      },
+      {
+        "t": 10,
+        "candidates": 6811,
+        "losers": 4428,
+        "as_losers": 317
+      },
+      {
+        "t": 11,
+        "candidates": 9926,
+        "losers": 5902,
+        "as_losers": 301
+      },
+      {
+        "t": 12,
+        "candidates": 13863,
+        "losers": 7437,
+        "as_losers": 287
+      },
+      {
+        "t": 13,
+        "candidates": 18386,
+        "losers": 8944,
+        "as_losers": 269
+      },
+      {
+        "t": 14,
+        "candidates": 23150,
+        "losers": 10314,
+        "as_losers": 242
+      },
+      {
+        "t": 15,
+        "candidates": 27945,
+        "losers": 11407,
+        "as_losers": 237
+      },
+      {
+        "t": 16,
+        "candidates": 32453,
+        "losers": 12263,
+        "as_losers": 222
+      },
+      {
+        "t": 17,
+        "candidates": 36139,
+        "losers": 12862,
+        "as_losers": 190
+      },
+      {
+        "t": 18,
+        "candidates": 38986,
+        "losers": 13122,
+        "as_losers": 189
+      },
+      {
+        "t": 19,
+        "candidates": 41085,
+        "losers": 13192,
+        "as_losers": 184
+      },
+      {
+        "t": 20,
+        "candidates": 42191,
+        "losers": 13150,
+        "as_losers": 165
+      },
+      {
+        "t": 21,
+        "candidates": 42361,
+        "losers": 12839,
+        "as_losers": 165
+      },
+      {
+        "t": 22,
+        "candidates": 42171,
+        "losers": 12514,
+        "as_losers": 153
+      },
+      {
+        "t": 23,
+        "candidates": 41573,
+        "losers": 12179,
+        "as_losers": 136
+      },
+      {
+        "t": 24,
+        "candidates": 40380,
+        "losers": 11641,
+        "as_losers": 137
+      },
+      {
+        "t": 25,
+        "candidates": 39053,
+        "losers": 11173,
+        "as_losers": 119
+      },
+      {
+        "t": 26,
+        "candidates": 37759,
+        "losers": 10696,
+        "as_losers": 105
+      },
+      {
+        "t": 27,
+        "candidates": 36083,
+        "losers": 10088,
+        "as_losers": 115
+      },
+      {
+        "t": 28,
+        "candidates": 34366,
+        "losers": 9587,
+        "as_losers": 104
+      },
+      {
+        "t": 29,
+        "candidates": 32747,
+        "losers": 9074,
+        "as_losers": 86
+      },
+      {
+        "t": 30,
+        "candidates": 31011,
+        "losers": 8468,
+        "as_losers": 97
+      },
+      {
+        "t": 31,
+        "candidates": 29348,
+        "losers": 8046,
+        "as_losers": 93
+      },
+      {
+        "t": 32,
+        "candidates": 27716,
+        "losers": 7543,
+        "as_losers": 65
+      },
+      {
+        "t": 33,
+        "candidates": 25947,
+        "losers": 6950,
+        "as_losers": 73
+      },
+      {
+        "t": 34,
+        "candidates": 24477,
+        "losers": 6611,
+        "as_losers": 78
+      },
+      {
+        "t": 35,
+        "candidates": 23032,
+        "losers": 6144,
+        "as_losers": 54
+      },
+      {
+        "t": 36,
+        "candidates": 21275,
+        "losers": 5576,
+        "as_losers": 64
+      },
+      {
+        "t": 37,
+        "candidates": 19928,
+        "losers": 5289,
+        "as_losers": 74
+      },
+      {
+        "t": 38,
+        "candidates": 18682,
+        "losers": 4907,
+        "as_losers": 49
+      },
+      {
+        "t": 39,
+        "candidates": 17077,
+        "losers": 4375,
+        "as_losers": 54
+      },
+      {
+        "t": 40,
+        "candidates": 15817,
+        "losers": 4115,
+        "as_losers": 67
+      },
+      {
+        "t": 41,
+        "candidates": 14658,
+        "losers": 3787,
+        "as_losers": 40
+      },
+      {
+        "t": 42,
+        "candidates": 13163,
+        "losers": 3289,
+        "as_losers": 40
+      },
+      {
+        "t": 43,
+        "candidates": 12012,
+        "losers": 3064,
+        "as_losers": 58
+      },
+      {
+        "t": 44,
+        "candidates": 11024,
+        "losers": 2775,
+        "as_losers": 36
+      },
+      {
+        "t": 45,
+        "candidates": 9691,
+        "losers": 2361,
+        "as_losers": 32
+      },
+      {
+        "t": 46,
+        "candidates": 8756,
+        "losers": 2187,
+        "as_losers": 47
+      },
+      {
+        "t": 47,
+        "candidates": 7992,
+        "losers": 1951,
+        "as_losers": 30
+      },
+      {
+        "t": 48,
+        "candidates": 6862,
+        "losers": 1612,
+        "as_losers": 25
+      },
+      {
+        "t": 49,
+        "candidates": 6104,
+        "losers": 1494,
+        "as_losers": 34
+      },
+      {
+        "t": 50,
+        "candidates": 5530,
+        "losers": 1316,
+        "as_losers": 22
+      },
+      {
+        "t": 51,
+        "candidates": 4632,
+        "losers": 1032,
+        "as_losers": 22
+      },
+      {
+        "t": 52,
+        "candidates": 4059,
+        "losers": 996,
+        "as_losers": 30
+      },
+      {
+        "t": 53,
+        "candidates": 3731,
+        "losers": 872,
+        "as_losers": 20
+      },
+      {
+        "t": 54,
+        "candidates": 3041,
+        "losers": 637,
+        "as_losers": 18
+      },
+      {
+        "t": 55,
+        "candidates": 2631,
+        "losers": 644,
+        "as_losers": 25
+      },
+      {
+        "t": 56,
+        "candidates": 2474,
+        "losers": 560,
+        "as_losers": 18
+      },
+      {
+        "t": 57,
+        "candidates": 1881,
+        "losers": 360,
+        "as_losers": 11
+      },
+      {
+        "t": 58,
+        "candidates": 1534,
+        "losers": 360,
+        "as_losers": 18
+      },
+      {
+        "t": 59,
+        "candidates": 1465,
+        "losers": 327,
+        "as_losers": 16
+      },
+      {
+        "t": 60,
+        "candidates": 1063,
+        "losers": 173,
+        "as_losers": 8
+      },
+      {
+        "t": 61,
+        "candidates": 777,
+        "losers": 170,
+        "as_losers": 12
+      },
+      {
+        "t": 62,
+        "candidates": 757,
+        "losers": 165,
+        "as_losers": 11
+      },
+      {
+        "t": 63,
+        "candidates": 550,
+        "losers": 66,
+        "as_losers": 6
+      },
+      {
+        "t": 64,
+        "candidates": 312,
+        "losers": 62,
+        "as_losers": 5
+      },
+      {
+        "t": 65,
+        "candidates": 289,
+        "losers": 56,
+        "as_losers": 4
+      },
+      {
+        "t": 66,
+        "candidates": 205,
+        "losers": 21,
+        "as_losers": 4
+      },
+      {
+        "t": 67,
+        "candidates": 95,
+        "losers": 18,
+        "as_losers": 2
+      },
+      {
+        "t": 68,
+        "candidates": 77,
+        "losers": 13,
+        "as_losers": 2
+      },
+      {
+        "t": 69,
+        "candidates": 63,
+        "losers": 13,
+        "as_losers": 4
+      },
+      {
+        "t": 70,
+        "candidates": 59,
+        "losers": 11,
+        "as_losers": 2
+      },
+      {
+        "t": 71,
+        "candidates": 45,
+        "losers": 7,
+        "as_losers": 1
+      },
+      {
+        "t": 72,
+        "candidates": 34,
+        "losers": 7,
+        "as_losers": 3
+      },
+      {
+        "t": 73,
+        "candidates": 32,
+        "losers": 6,
+        "as_losers": 2
+      },
+      {
+        "t": 74,
+        "candidates": 23,
+        "losers": 3,
+        "as_losers": 0
+      },
+      {
+        "t": 75,
+        "candidates": 15,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 76,
+        "candidates": 15,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 77,
+        "candidates": 11,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 78,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 79,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 80,
+        "candidates": 3,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 2.5216917710000075,
+    "layer_sha256": "1e8eedc45b222cd60468347831872cb65c9775d4c04c3897969f4096267c2c3b"
+  },
+  {
+    "graph": "A7_0052",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 63,
+    "critical_as_witness": [
+      1,
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 82,
+        "losers": 63,
+        "as_losers": 63
+      },
+      {
+        "t": 4,
+        "candidates": 197,
+        "losers": 157,
+        "as_losers": 150
+      },
+      {
+        "t": 5,
+        "candidates": 435,
+        "losers": 331,
+        "as_losers": 255
+      },
+      {
+        "t": 6,
+        "candidates": 849,
+        "losers": 628,
+        "as_losers": 318
+      },
+      {
+        "t": 7,
+        "candidates": 1531,
+        "losers": 1036,
+        "as_losers": 324
+      },
+      {
+        "t": 8,
+        "candidates": 2537,
+        "losers": 1601,
+        "as_losers": 306
+      },
+      {
+        "t": 9,
+        "candidates": 4000,
+        "losers": 2272,
+        "as_losers": 273
+      },
+      {
+        "t": 10,
+        "candidates": 5843,
+        "losers": 2966,
+        "as_losers": 247
+      },
+      {
+        "t": 11,
+        "candidates": 7939,
+        "losers": 3633,
+        "as_losers": 221
+      },
+      {
+        "t": 12,
+        "candidates": 10180,
+        "losers": 4155,
+        "as_losers": 211
+      },
+      {
+        "t": 13,
+        "candidates": 12271,
+        "losers": 4537,
+        "as_losers": 187
+      },
+      {
+        "t": 14,
+        "candidates": 13825,
+        "losers": 4767,
+        "as_losers": 148
+      },
+      {
+        "t": 15,
+        "candidates": 14964,
+        "losers": 4763,
+        "as_losers": 148
+      },
+      {
+        "t": 16,
+        "candidates": 15623,
+        "losers": 4690,
+        "as_losers": 142
+      },
+      {
+        "t": 17,
+        "candidates": 15678,
+        "losers": 4517,
+        "as_losers": 110
+      },
+      {
+        "t": 18,
+        "candidates": 15094,
+        "losers": 4206,
+        "as_losers": 104
+      },
+      {
+        "t": 19,
+        "candidates": 14384,
+        "losers": 3952,
+        "as_losers": 103
+      },
+      {
+        "t": 20,
+        "candidates": 13623,
+        "losers": 3696,
+        "as_losers": 93
+      },
+      {
+        "t": 21,
+        "candidates": 12625,
+        "losers": 3337,
+        "as_losers": 85
+      },
+      {
+        "t": 22,
+        "candidates": 11619,
+        "losers": 3095,
+        "as_losers": 71
+      },
+      {
+        "t": 23,
+        "candidates": 10788,
+        "losers": 2841,
+        "as_losers": 67
+      },
+      {
+        "t": 24,
+        "candidates": 9826,
+        "losers": 2543,
+        "as_losers": 68
+      },
+      {
+        "t": 25,
+        "candidates": 8958,
+        "losers": 2322,
+        "as_losers": 54
+      },
+      {
+        "t": 26,
+        "candidates": 8172,
+        "losers": 2095,
+        "as_losers": 49
+      },
+      {
+        "t": 27,
+        "candidates": 7325,
+        "losers": 1842,
+        "as_losers": 56
+      },
+      {
+        "t": 28,
+        "candidates": 6596,
+        "losers": 1672,
+        "as_losers": 49
+      },
+      {
+        "t": 29,
+        "candidates": 5959,
+        "losers": 1493,
+        "as_losers": 38
+      },
+      {
+        "t": 30,
+        "candidates": 5273,
+        "losers": 1293,
+        "as_losers": 43
+      },
+      {
+        "t": 31,
+        "candidates": 4706,
+        "losers": 1174,
+        "as_losers": 40
+      },
+      {
+        "t": 32,
+        "candidates": 4223,
+        "losers": 1037,
+        "as_losers": 26
+      },
+      {
+        "t": 33,
+        "candidates": 3683,
+        "losers": 881,
+        "as_losers": 33
+      },
+      {
+        "t": 34,
+        "candidates": 3259,
+        "losers": 797,
+        "as_losers": 34
+      },
+      {
+        "t": 35,
+        "candidates": 2908,
+        "losers": 701,
+        "as_losers": 21
+      },
+      {
+        "t": 36,
+        "candidates": 2512,
+        "losers": 586,
+        "as_losers": 30
+      },
+      {
+        "t": 37,
+        "candidates": 2206,
+        "losers": 529,
+        "as_losers": 33
+      },
+      {
+        "t": 38,
+        "candidates": 1955,
+        "losers": 466,
+        "as_losers": 17
+      },
+      {
+        "t": 39,
+        "candidates": 1665,
+        "losers": 380,
+        "as_losers": 22
+      },
+      {
+        "t": 40,
+        "candidates": 1445,
+        "losers": 341,
+        "as_losers": 29
+      },
+      {
+        "t": 41,
+        "candidates": 1271,
+        "losers": 296,
+        "as_losers": 14
+      },
+      {
+        "t": 42,
+        "candidates": 1059,
+        "losers": 235,
+        "as_losers": 15
+      },
+      {
+        "t": 43,
+        "candidates": 914,
+        "losers": 211,
+        "as_losers": 24
+      },
+      {
+        "t": 44,
+        "candidates": 802,
+        "losers": 181,
+        "as_losers": 13
+      },
+      {
+        "t": 45,
+        "candidates": 653,
+        "losers": 141,
+        "as_losers": 12
+      },
+      {
+        "t": 46,
+        "candidates": 557,
+        "losers": 127,
+        "as_losers": 18
+      },
+      {
+        "t": 47,
+        "candidates": 485,
+        "losers": 107,
+        "as_losers": 9
+      },
+      {
+        "t": 48,
+        "candidates": 382,
+        "losers": 78,
+        "as_losers": 9
+      },
+      {
+        "t": 49,
+        "candidates": 319,
+        "losers": 72,
+        "as_losers": 14
+      },
+      {
+        "t": 50,
+        "candidates": 282,
+        "losers": 60,
+        "as_losers": 6
+      },
+      {
+        "t": 51,
+        "candidates": 214,
+        "losers": 40,
+        "as_losers": 7
+      },
+      {
+        "t": 52,
+        "candidates": 176,
+        "losers": 40,
+        "as_losers": 13
+      },
+      {
+        "t": 53,
+        "candidates": 159,
+        "losers": 33,
+        "as_losers": 6
+      },
+      {
+        "t": 54,
+        "candidates": 111,
+        "losers": 19,
+        "as_losers": 3
+      },
+      {
+        "t": 55,
+        "candidates": 85,
+        "losers": 19,
+        "as_losers": 9
+      },
+      {
+        "t": 56,
+        "candidates": 78,
+        "losers": 16,
+        "as_losers": 6
+      },
+      {
+        "t": 57,
+        "candidates": 50,
+        "losers": 7,
+        "as_losers": 0
+      },
+      {
+        "t": 58,
+        "candidates": 33,
+        "losers": 7,
+        "as_losers": 5
+      },
+      {
+        "t": 59,
+        "candidates": 33,
+        "losers": 7,
+        "as_losers": 5
+      },
+      {
+        "t": 60,
+        "candidates": 20,
+        "losers": 2,
+        "as_losers": 0
+      },
+      {
+        "t": 61,
+        "candidates": 9,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 62,
+        "candidates": 9,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 63,
+        "candidates": 4,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.58988376100001,
+    "layer_sha256": "2f4f758e60b2ead4b9fea118308e264ed9f71c1a7125bc1e35fe85749a9b8444"
+  },
+  {
+    "graph": "A7_0083",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 72,
+    "critical_as_witness": [
+      1,
+      69,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 81,
+        "losers": 65,
+        "as_losers": 65
+      },
+      {
+        "t": 4,
+        "candidates": 196,
+        "losers": 167,
+        "as_losers": 158
+      },
+      {
+        "t": 5,
+        "candidates": 435,
+        "losers": 360,
+        "as_losers": 268
+      },
+      {
+        "t": 6,
+        "candidates": 859,
+        "losers": 700,
+        "as_losers": 343
+      },
+      {
+        "t": 7,
+        "candidates": 1586,
+        "losers": 1213,
+        "as_losers": 365
+      },
+      {
+        "t": 8,
+        "candidates": 2708,
+        "losers": 1967,
+        "as_losers": 349
+      },
+      {
+        "t": 9,
+        "candidates": 4383,
+        "losers": 2953,
+        "as_losers": 317
+      },
+      {
+        "t": 10,
+        "candidates": 6722,
+        "losers": 4146,
+        "as_losers": 315
+      },
+      {
+        "t": 11,
+        "candidates": 9799,
+        "losers": 5524,
+        "as_losers": 294
+      },
+      {
+        "t": 12,
+        "candidates": 13589,
+        "losers": 6952,
+        "as_losers": 264
+      },
+      {
+        "t": 13,
+        "candidates": 17962,
+        "losers": 8291,
+        "as_losers": 254
+      },
+      {
+        "t": 14,
+        "candidates": 22571,
+        "losers": 9536,
+        "as_losers": 228
+      },
+      {
+        "t": 15,
+        "candidates": 27098,
+        "losers": 10490,
+        "as_losers": 212
+      },
+      {
+        "t": 16,
+        "candidates": 31253,
+        "losers": 11159,
+        "as_losers": 199
+      },
+      {
+        "t": 17,
+        "candidates": 34610,
+        "losers": 11577,
+        "as_losers": 169
+      },
+      {
+        "t": 18,
+        "candidates": 36971,
+        "losers": 11626,
+        "as_losers": 167
+      },
+      {
+        "t": 19,
+        "candidates": 38378,
+        "losers": 11486,
+        "as_losers": 160
+      },
+      {
+        "t": 20,
+        "candidates": 38879,
+        "losers": 11204,
+        "as_losers": 140
+      },
+      {
+        "t": 21,
+        "candidates": 38362,
+        "losers": 10663,
+        "as_losers": 135
+      },
+      {
+        "t": 22,
+        "candidates": 37214,
+        "losers": 10115,
+        "as_losers": 122
+      },
+      {
+        "t": 23,
+        "candidates": 35737,
+        "losers": 9564,
+        "as_losers": 113
+      },
+      {
+        "t": 24,
+        "candidates": 33848,
+        "losers": 8856,
+        "as_losers": 108
+      },
+      {
+        "t": 25,
+        "candidates": 31729,
+        "losers": 8229,
+        "as_losers": 91
+      },
+      {
+        "t": 26,
+        "candidates": 29707,
+        "losers": 7637,
+        "as_losers": 90
+      },
+      {
+        "t": 27,
+        "candidates": 27533,
+        "losers": 6951,
+        "as_losers": 89
+      },
+      {
+        "t": 28,
+        "candidates": 25343,
+        "losers": 6357,
+        "as_losers": 76
+      },
+      {
+        "t": 29,
+        "candidates": 23324,
+        "losers": 5810,
+        "as_losers": 72
+      },
+      {
+        "t": 30,
+        "candidates": 21259,
+        "losers": 5199,
+        "as_losers": 68
+      },
+      {
+        "t": 31,
+        "candidates": 19255,
+        "losers": 4698,
+        "as_losers": 62
+      },
+      {
+        "t": 32,
+        "candidates": 17488,
+        "losers": 4233,
+        "as_losers": 52
+      },
+      {
+        "t": 33,
+        "candidates": 15716,
+        "losers": 3728,
+        "as_losers": 49
+      },
+      {
+        "t": 34,
+        "candidates": 14045,
+        "losers": 3334,
+        "as_losers": 49
+      },
+      {
+        "t": 35,
+        "candidates": 12591,
+        "losers": 2960,
+        "as_losers": 39
+      },
+      {
+        "t": 36,
+        "candidates": 11141,
+        "losers": 2568,
+        "as_losers": 42
+      },
+      {
+        "t": 37,
+        "candidates": 9830,
+        "losers": 2279,
+        "as_losers": 42
+      },
+      {
+        "t": 38,
+        "candidates": 8711,
+        "losers": 2001,
+        "as_losers": 29
+      },
+      {
+        "t": 39,
+        "candidates": 7607,
+        "losers": 1719,
+        "as_losers": 33
+      },
+      {
+        "t": 40,
+        "candidates": 6667,
+        "losers": 1519,
+        "as_losers": 36
+      },
+      {
+        "t": 41,
+        "candidates": 5873,
+        "losers": 1324,
+        "as_losers": 23
+      },
+      {
+        "t": 42,
+        "candidates": 5078,
+        "losers": 1121,
+        "as_losers": 26
+      },
+      {
+        "t": 43,
+        "candidates": 4412,
+        "losers": 987,
+        "as_losers": 31
+      },
+      {
+        "t": 44,
+        "candidates": 3866,
+        "losers": 852,
+        "as_losers": 20
+      },
+      {
+        "t": 45,
+        "candidates": 3303,
+        "losers": 710,
+        "as_losers": 23
+      },
+      {
+        "t": 46,
+        "candidates": 2841,
+        "losers": 622,
+        "as_losers": 26
+      },
+      {
+        "t": 47,
+        "candidates": 2472,
+        "losers": 532,
+        "as_losers": 15
+      },
+      {
+        "t": 48,
+        "candidates": 2083,
+        "losers": 434,
+        "as_losers": 18
+      },
+      {
+        "t": 49,
+        "candidates": 1768,
+        "losers": 378,
+        "as_losers": 21
+      },
+      {
+        "t": 50,
+        "candidates": 1525,
+        "losers": 320,
+        "as_losers": 11
+      },
+      {
+        "t": 51,
+        "candidates": 1262,
+        "losers": 253,
+        "as_losers": 14
+      },
+      {
+        "t": 52,
+        "candidates": 1052,
+        "losers": 220,
+        "as_losers": 19
+      },
+      {
+        "t": 53,
+        "candidates": 903,
+        "losers": 184,
+        "as_losers": 10
+      },
+      {
+        "t": 54,
+        "candidates": 731,
+        "losers": 140,
+        "as_losers": 9
+      },
+      {
+        "t": 55,
+        "candidates": 597,
+        "losers": 122,
+        "as_losers": 14
+      },
+      {
+        "t": 56,
+        "candidates": 510,
+        "losers": 100,
+        "as_losers": 9
+      },
+      {
+        "t": 57,
+        "candidates": 399,
+        "losers": 72,
+        "as_losers": 6
+      },
+      {
+        "t": 58,
+        "candidates": 314,
+        "losers": 62,
+        "as_losers": 10
+      },
+      {
+        "t": 59,
+        "candidates": 265,
+        "losers": 50,
+        "as_losers": 7
+      },
+      {
+        "t": 60,
+        "candidates": 200,
+        "losers": 33,
+        "as_losers": 5
+      },
+      {
+        "t": 61,
+        "candidates": 150,
+        "losers": 29,
+        "as_losers": 8
+      },
+      {
+        "t": 62,
+        "candidates": 127,
+        "losers": 23,
+        "as_losers": 4
+      },
+      {
+        "t": 63,
+        "candidates": 91,
+        "losers": 13,
+        "as_losers": 3
+      },
+      {
+        "t": 64,
+        "candidates": 62,
+        "losers": 12,
+        "as_losers": 5
+      },
+      {
+        "t": 65,
+        "candidates": 53,
+        "losers": 9,
+        "as_losers": 2
+      },
+      {
+        "t": 66,
+        "candidates": 34,
+        "losers": 4,
+        "as_losers": 1
+      },
+      {
+        "t": 67,
+        "candidates": 20,
+        "losers": 4,
+        "as_losers": 3
+      },
+      {
+        "t": 68,
+        "candidates": 18,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 69,
+        "candidates": 11,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 70,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 71,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 72,
+        "candidates": 3,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 1.6907625890000304,
+    "layer_sha256": "b473e25224012a52121b97300bdf81b3928a2c28e3bc388cd21d7f4c9d9be82f"
+  },
+  {
+    "graph": "A7_0252",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 63,
+    "critical_as_witness": [
+      1,
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 82,
+        "losers": 63,
+        "as_losers": 63
+      },
+      {
+        "t": 4,
+        "candidates": 197,
+        "losers": 161,
+        "as_losers": 153
+      },
+      {
+        "t": 5,
+        "candidates": 436,
+        "losers": 345,
+        "as_losers": 259
+      },
+      {
+        "t": 6,
+        "candidates": 857,
+        "losers": 661,
+        "as_losers": 325
+      },
+      {
+        "t": 7,
+        "candidates": 1560,
+        "losers": 1115,
+        "as_losers": 336
+      },
+      {
+        "t": 8,
+        "candidates": 2640,
+        "losers": 1719,
+        "as_losers": 315
+      },
+      {
+        "t": 9,
+        "candidates": 4212,
+        "losers": 2389,
+        "as_losers": 278
+      },
+      {
+        "t": 10,
+        "candidates": 6233,
+        "losers": 3016,
+        "as_losers": 251
+      },
+      {
+        "t": 11,
+        "candidates": 8553,
+        "losers": 3487,
+        "as_losers": 223
+      },
+      {
+        "t": 12,
+        "candidates": 10807,
+        "losers": 3687,
+        "as_losers": 200
+      },
+      {
+        "t": 13,
+        "candidates": 12483,
+        "losers": 3613,
+        "as_losers": 175
+      },
+      {
+        "t": 14,
+        "candidates": 13124,
+        "losers": 3366,
+        "as_losers": 145
+      },
+      {
+        "t": 15,
+        "candidates": 12711,
+        "losers": 3006,
+        "as_losers": 133
+      },
+      {
+        "t": 16,
+        "candidates": 11671,
+        "losers": 2674,
+        "as_losers": 120
+      },
+      {
+        "t": 17,
+        "candidates": 10509,
+        "losers": 2370,
+        "as_losers": 95
+      },
+      {
+        "t": 18,
+        "candidates": 9351,
+        "losers": 2055,
+        "as_losers": 85
+      },
+      {
+        "t": 19,
+        "candidates": 8251,
+        "losers": 1789,
+        "as_losers": 82
+      },
+      {
+        "t": 20,
+        "candidates": 7263,
+        "losers": 1563,
+        "as_losers": 71
+      },
+      {
+        "t": 21,
+        "candidates": 6307,
+        "losers": 1338,
+        "as_losers": 64
+      },
+      {
+        "t": 22,
+        "candidates": 5477,
+        "losers": 1161,
+        "as_losers": 58
+      },
+      {
+        "t": 23,
+        "candidates": 4775,
+        "losers": 1019,
+        "as_losers": 50
+      },
+      {
+        "t": 24,
+        "candidates": 4139,
+        "losers": 872,
+        "as_losers": 49
+      },
+      {
+        "t": 25,
+        "candidates": 3585,
+        "losers": 755,
+        "as_losers": 42
+      },
+      {
+        "t": 26,
+        "candidates": 3117,
+        "losers": 659,
+        "as_losers": 34
+      },
+      {
+        "t": 27,
+        "candidates": 2687,
+        "losers": 559,
+        "as_losers": 38
+      },
+      {
+        "t": 28,
+        "candidates": 2316,
+        "losers": 486,
+        "as_losers": 37
+      },
+      {
+        "t": 29,
+        "candidates": 2010,
+        "losers": 426,
+        "as_losers": 27
+      },
+      {
+        "t": 30,
+        "candidates": 1729,
+        "losers": 362,
+        "as_losers": 26
+      },
+      {
+        "t": 31,
+        "candidates": 1499,
+        "losers": 318,
+        "as_losers": 28
+      },
+      {
+        "t": 32,
+        "candidates": 1305,
+        "losers": 278,
+        "as_losers": 18
+      },
+      {
+        "t": 33,
+        "candidates": 1108,
+        "losers": 232,
+        "as_losers": 14
+      },
+      {
+        "t": 34,
+        "candidates": 954,
+        "losers": 206,
+        "as_losers": 18
+      },
+      {
+        "t": 35,
+        "candidates": 839,
+        "losers": 182,
+        "as_losers": 13
+      },
+      {
+        "t": 36,
+        "candidates": 713,
+        "losers": 152,
+        "as_losers": 12
+      },
+      {
+        "t": 37,
+        "candidates": 617,
+        "losers": 138,
+        "as_losers": 15
+      },
+      {
+        "t": 38,
+        "candidates": 552,
+        "losers": 123,
+        "as_losers": 9
+      },
+      {
+        "t": 39,
+        "candidates": 468,
+        "losers": 101,
+        "as_losers": 8
+      },
+      {
+        "t": 40,
+        "candidates": 402,
+        "losers": 91,
+        "as_losers": 12
+      },
+      {
+        "t": 41,
+        "candidates": 356,
+        "losers": 80,
+        "as_losers": 6
+      },
+      {
+        "t": 42,
+        "candidates": 296,
+        "losers": 64,
+        "as_losers": 4
+      },
+      {
+        "t": 43,
+        "candidates": 253,
+        "losers": 58,
+        "as_losers": 10
+      },
+      {
+        "t": 44,
+        "candidates": 226,
+        "losers": 51,
+        "as_losers": 6
+      },
+      {
+        "t": 45,
+        "candidates": 186,
+        "losers": 40,
+        "as_losers": 3
+      },
+      {
+        "t": 46,
+        "candidates": 157,
+        "losers": 36,
+        "as_losers": 7
+      },
+      {
+        "t": 47,
+        "candidates": 138,
+        "losers": 31,
+        "as_losers": 4
+      },
+      {
+        "t": 48,
+        "candidates": 109,
+        "losers": 23,
+        "as_losers": 2
+      },
+      {
+        "t": 49,
+        "candidates": 90,
+        "losers": 21,
+        "as_losers": 4
+      },
+      {
+        "t": 50,
+        "candidates": 80,
+        "losers": 18,
+        "as_losers": 2
+      },
+      {
+        "t": 51,
+        "candidates": 62,
+        "losers": 13,
+        "as_losers": 2
+      },
+      {
+        "t": 52,
+        "candidates": 53,
+        "losers": 13,
+        "as_losers": 4
+      },
+      {
+        "t": 53,
+        "candidates": 49,
+        "losers": 11,
+        "as_losers": 2
+      },
+      {
+        "t": 54,
+        "candidates": 35,
+        "losers": 7,
+        "as_losers": 1
+      },
+      {
+        "t": 55,
+        "candidates": 28,
+        "losers": 7,
+        "as_losers": 3
+      },
+      {
+        "t": 56,
+        "candidates": 26,
+        "losers": 6,
+        "as_losers": 2
+      },
+      {
+        "t": 57,
+        "candidates": 17,
+        "losers": 3,
+        "as_losers": 0
+      },
+      {
+        "t": 58,
+        "candidates": 12,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 59,
+        "candidates": 12,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 60,
+        "candidates": 8,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 61,
+        "candidates": 4,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 62,
+        "candidates": 4,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 63,
+        "candidates": 2,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.30530672899999445,
+    "layer_sha256": "567aca2ca5ee932df971fdb65e2ef407a88f6a4283c2f2f457c437ef648df22f"
+  },
+  {
+    "graph": "A7_0252",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "mode": "clear",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 63,
+    "critical_as_witness": [
+      1,
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 82,
+        "losers": 70,
+        "as_losers": 70
+      },
+      {
+        "t": 4,
+        "candidates": 197,
+        "losers": 165,
+        "as_losers": 153
+      },
+      {
+        "t": 5,
+        "candidates": 439,
+        "losers": 355,
+        "as_losers": 267
+      },
+      {
+        "t": 6,
+        "candidates": 864,
+        "losers": 678,
+        "as_losers": 329
+      },
+      {
+        "t": 7,
+        "candidates": 1565,
+        "losers": 1137,
+        "as_losers": 338
+      },
+      {
+        "t": 8,
+        "candidates": 2658,
+        "losers": 1757,
+        "as_losers": 325
+      },
+      {
+        "t": 9,
+        "candidates": 4239,
+        "losers": 2446,
+        "as_losers": 286
+      },
+      {
+        "t": 10,
+        "candidates": 6280,
+        "losers": 3082,
+        "as_losers": 255
+      },
+      {
+        "t": 11,
+        "candidates": 8637,
+        "losers": 3572,
+        "as_losers": 232
+      },
+      {
+        "t": 12,
+        "candidates": 10927,
+        "losers": 3781,
+        "as_losers": 205
+      },
+      {
+        "t": 13,
+        "candidates": 12621,
+        "losers": 3705,
+        "as_losers": 179
+      },
+      {
+        "t": 14,
+        "candidates": 13293,
+        "losers": 3466,
+        "as_losers": 154
+      },
+      {
+        "t": 15,
+        "candidates": 12891,
+        "losers": 3107,
+        "as_losers": 138
+      },
+      {
+        "t": 16,
+        "candidates": 11849,
+        "losers": 2766,
+        "as_losers": 124
+      },
+      {
+        "t": 17,
+        "candidates": 10698,
+        "losers": 2465,
+        "as_losers": 103
+      },
+      {
+        "t": 18,
+        "candidates": 9540,
+        "losers": 2147,
+        "as_losers": 89
+      },
+      {
+        "t": 19,
+        "candidates": 8430,
+        "losers": 1872,
+        "as_losers": 86
+      },
+      {
+        "t": 20,
+        "candidates": 7449,
+        "losers": 1645,
+        "as_losers": 78
+      },
+      {
+        "t": 21,
+        "candidates": 6484,
+        "losers": 1415,
+        "as_losers": 67
+      },
+      {
+        "t": 22,
+        "candidates": 5636,
+        "losers": 1228,
+        "as_losers": 61
+      },
+      {
+        "t": 23,
+        "candidates": 4933,
+        "losers": 1083,
+        "as_losers": 55
+      },
+      {
+        "t": 24,
+        "candidates": 4284,
+        "losers": 930,
+        "as_losers": 51
+      },
+      {
+        "t": 25,
+        "candidates": 3710,
+        "losers": 804,
+        "as_losers": 44
+      },
+      {
+        "t": 26,
+        "candidates": 3238,
+        "losers": 705,
+        "as_losers": 38
+      },
+      {
+        "t": 27,
+        "candidates": 2796,
+        "losers": 600,
+        "as_losers": 40
+      },
+      {
+        "t": 28,
+        "candidates": 2407,
+        "losers": 520,
+        "as_losers": 39
+      },
+      {
+        "t": 29,
+        "candidates": 2097,
+        "losers": 458,
+        "as_losers": 31
+      },
+      {
+        "t": 30,
+        "candidates": 1807,
+        "losers": 390,
+        "as_losers": 28
+      },
+      {
+        "t": 31,
+        "candidates": 1562,
+        "losers": 340,
+        "as_losers": 30
+      },
+      {
+        "t": 32,
+        "candidates": 1364,
+        "losers": 299,
+        "as_losers": 22
+      },
+      {
+        "t": 33,
+        "candidates": 1161,
+        "losers": 250,
+        "as_losers": 16
+      },
+      {
+        "t": 34,
+        "candidates": 995,
+        "losers": 219,
+        "as_losers": 20
+      },
+      {
+        "t": 35,
+        "candidates": 876,
+        "losers": 195,
+        "as_losers": 17
+      },
+      {
+        "t": 36,
+        "candidates": 746,
+        "losers": 163,
+        "as_losers": 14
+      },
+      {
+        "t": 37,
+        "candidates": 640,
+        "losers": 145,
+        "as_losers": 16
+      },
+      {
+        "t": 38,
+        "candidates": 572,
+        "losers": 130,
+        "as_losers": 12
+      },
+      {
+        "t": 39,
+        "candidates": 486,
+        "losers": 107,
+        "as_losers": 10
+      },
+      {
+        "t": 40,
+        "candidates": 413,
+        "losers": 94,
+        "as_losers": 12
+      },
+      {
+        "t": 41,
+        "candidates": 365,
+        "losers": 83,
+        "as_losers": 8
+      },
+      {
+        "t": 42,
+        "candidates": 305,
+        "losers": 67,
+        "as_losers": 6
+      },
+      {
+        "t": 43,
+        "candidates": 258,
+        "losers": 59,
+        "as_losers": 10
+      },
+      {
+        "t": 44,
+        "candidates": 229,
+        "losers": 52,
+        "as_losers": 7
+      },
+      {
+        "t": 45,
+        "candidates": 189,
+        "losers": 41,
+        "as_losers": 4
+      },
+      {
+        "t": 46,
+        "candidates": 158,
+        "losers": 36,
+        "as_losers": 7
+      },
+      {
+        "t": 47,
+        "candidates": 138,
+        "losers": 31,
+        "as_losers": 4
+      },
+      {
+        "t": 48,
+        "candidates": 109,
+        "losers": 23,
+        "as_losers": 2
+      },
+      {
+        "t": 49,
+        "candidates": 90,
+        "losers": 21,
+        "as_losers": 4
+      },
+      {
+        "t": 50,
+        "candidates": 80,
+        "losers": 18,
+        "as_losers": 2
+      },
+      {
+        "t": 51,
+        "candidates": 62,
+        "losers": 13,
+        "as_losers": 2
+      },
+      {
+        "t": 52,
+        "candidates": 53,
+        "losers": 13,
+        "as_losers": 4
+      },
+      {
+        "t": 53,
+        "candidates": 49,
+        "losers": 11,
+        "as_losers": 2
+      },
+      {
+        "t": 54,
+        "candidates": 35,
+        "losers": 7,
+        "as_losers": 1
+      },
+      {
+        "t": 55,
+        "candidates": 28,
+        "losers": 7,
+        "as_losers": 3
+      },
+      {
+        "t": 56,
+        "candidates": 26,
+        "losers": 6,
+        "as_losers": 2
+      },
+      {
+        "t": 57,
+        "candidates": 17,
+        "losers": 3,
+        "as_losers": 0
+      },
+      {
+        "t": 58,
+        "candidates": 12,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 59,
+        "candidates": 12,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 60,
+        "candidates": 8,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 61,
+        "candidates": 4,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 62,
+        "candidates": 4,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 63,
+        "candidates": 2,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.25079130300002817,
+    "layer_sha256": "ee1bdadfb3e403766d8d1f3019c015af8abfe954d13376e1918bbbcadbacfbec"
+  },
+  {
+    "graph": "A7_0506",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 63,
+    "critical_as_witness": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 83,
+        "losers": 61,
+        "as_losers": 61
+      },
+      {
+        "t": 4,
+        "candidates": 199,
+        "losers": 156,
+        "as_losers": 148
+      },
+      {
+        "t": 5,
+        "candidates": 436,
+        "losers": 338,
+        "as_losers": 253
+      },
+      {
+        "t": 6,
+        "candidates": 848,
+        "losers": 641,
+        "as_losers": 315
+      },
+      {
+        "t": 7,
+        "candidates": 1550,
+        "losers": 1063,
+        "as_losers": 319
+      },
+      {
+        "t": 8,
+        "candidates": 2609,
+        "losers": 1585,
+        "as_losers": 291
+      },
+      {
+        "t": 9,
+        "candidates": 4128,
+        "losers": 2095,
+        "as_losers": 254
+      },
+      {
+        "t": 10,
+        "candidates": 6021,
+        "losers": 2481,
+        "as_losers": 228
+      },
+      {
+        "t": 11,
+        "candidates": 8011,
+        "losers": 2672,
+        "as_losers": 199
+      },
+      {
+        "t": 12,
+        "candidates": 9532,
+        "losers": 2640,
+        "as_losers": 177
+      },
+      {
+        "t": 13,
+        "candidates": 10228,
+        "losers": 2466,
+        "as_losers": 157
+      },
+      {
+        "t": 14,
+        "candidates": 10096,
+        "losers": 2263,
+        "as_losers": 133
+      },
+      {
+        "t": 15,
+        "candidates": 9516,
+        "losers": 2032,
+        "as_losers": 119
+      },
+      {
+        "t": 16,
+        "candidates": 8701,
+        "losers": 1820,
+        "as_losers": 103
+      },
+      {
+        "t": 17,
+        "candidates": 7902,
+        "losers": 1626,
+        "as_losers": 82
+      },
+      {
+        "t": 18,
+        "candidates": 7150,
+        "losers": 1433,
+        "as_losers": 73
+      },
+      {
+        "t": 19,
+        "candidates": 6417,
+        "losers": 1263,
+        "as_losers": 67
+      },
+      {
+        "t": 20,
+        "candidates": 5763,
+        "losers": 1125,
+        "as_losers": 59
+      },
+      {
+        "t": 21,
+        "candidates": 5176,
+        "losers": 995,
+        "as_losers": 58
+      },
+      {
+        "t": 22,
+        "candidates": 4650,
+        "losers": 890,
+        "as_losers": 53
+      },
+      {
+        "t": 23,
+        "candidates": 4208,
+        "losers": 793,
+        "as_losers": 45
+      },
+      {
+        "t": 24,
+        "candidates": 3763,
+        "losers": 698,
+        "as_losers": 44
+      },
+      {
+        "t": 25,
+        "candidates": 3358,
+        "losers": 620,
+        "as_losers": 37
+      },
+      {
+        "t": 26,
+        "candidates": 3011,
+        "losers": 547,
+        "as_losers": 30
+      },
+      {
+        "t": 27,
+        "candidates": 2663,
+        "losers": 476,
+        "as_losers": 33
+      },
+      {
+        "t": 28,
+        "candidates": 2354,
+        "losers": 425,
+        "as_losers": 31
+      },
+      {
+        "t": 29,
+        "candidates": 2104,
+        "losers": 375,
+        "as_losers": 22
+      },
+      {
+        "t": 30,
+        "candidates": 1852,
+        "losers": 324,
+        "as_losers": 23
+      },
+      {
+        "t": 31,
+        "candidates": 1630,
+        "losers": 291,
+        "as_losers": 23
+      },
+      {
+        "t": 32,
+        "candidates": 1453,
+        "losers": 255,
+        "as_losers": 12
+      },
+      {
+        "t": 33,
+        "candidates": 1260,
+        "losers": 217,
+        "as_losers": 12
+      },
+      {
+        "t": 34,
+        "candidates": 1101,
+        "losers": 197,
+        "as_losers": 15
+      },
+      {
+        "t": 35,
+        "candidates": 987,
+        "losers": 174,
+        "as_losers": 8
+      },
+      {
+        "t": 36,
+        "candidates": 855,
+        "losers": 148,
+        "as_losers": 10
+      },
+      {
+        "t": 37,
+        "candidates": 749,
+        "losers": 136,
+        "as_losers": 14
+      },
+      {
+        "t": 38,
+        "candidates": 678,
+        "losers": 121,
+        "as_losers": 7
+      },
+      {
+        "t": 39,
+        "candidates": 582,
+        "losers": 100,
+        "as_losers": 7
+      },
+      {
+        "t": 40,
+        "candidates": 499,
+        "losers": 91,
+        "as_losers": 12
+      },
+      {
+        "t": 41,
+        "candidates": 447,
+        "losers": 80,
+        "as_losers": 6
+      },
+      {
+        "t": 42,
+        "candidates": 376,
+        "losers": 64,
+        "as_losers": 4
+      },
+      {
+        "t": 43,
+        "candidates": 317,
+        "losers": 58,
+        "as_losers": 10
+      },
+      {
+        "t": 44,
+        "candidates": 284,
+        "losers": 51,
+        "as_losers": 6
+      },
+      {
+        "t": 45,
+        "candidates": 237,
+        "losers": 40,
+        "as_losers": 3
+      },
+      {
+        "t": 46,
+        "candidates": 197,
+        "losers": 36,
+        "as_losers": 7
+      },
+      {
+        "t": 47,
+        "candidates": 174,
+        "losers": 31,
+        "as_losers": 4
+      },
+      {
+        "t": 48,
+        "candidates": 140,
+        "losers": 23,
+        "as_losers": 2
+      },
+      {
+        "t": 49,
+        "candidates": 113,
+        "losers": 21,
+        "as_losers": 4
+      },
+      {
+        "t": 50,
+        "candidates": 101,
+        "losers": 18,
+        "as_losers": 2
+      },
+      {
+        "t": 51,
+        "candidates": 80,
+        "losers": 13,
+        "as_losers": 2
+      },
+      {
+        "t": 52,
+        "candidates": 66,
+        "losers": 13,
+        "as_losers": 4
+      },
+      {
+        "t": 53,
+        "candidates": 62,
+        "losers": 11,
+        "as_losers": 2
+      },
+      {
+        "t": 54,
+        "candidates": 46,
+        "losers": 7,
+        "as_losers": 1
+      },
+      {
+        "t": 55,
+        "candidates": 35,
+        "losers": 7,
+        "as_losers": 3
+      },
+      {
+        "t": 56,
+        "candidates": 33,
+        "losers": 6,
+        "as_losers": 2
+      },
+      {
+        "t": 57,
+        "candidates": 23,
+        "losers": 3,
+        "as_losers": 0
+      },
+      {
+        "t": 58,
+        "candidates": 15,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 59,
+        "candidates": 15,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 60,
+        "candidates": 11,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 61,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 62,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 63,
+        "candidates": 3,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.2650709689999644,
+    "layer_sha256": "a44886744de6c7cc41a3f925f28d06a994d03433161f4e50f9bbfc05948a8364"
+  },
+  {
+    "graph": "A7_0506",
+    "n": 7,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "mode": "clear",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 63,
+    "critical_as_witness": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 7,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 21,
+        "losers": 21,
+        "as_losers": 21
+      },
+      {
+        "t": 3,
+        "candidates": 83,
+        "losers": 68,
+        "as_losers": 68
+      },
+      {
+        "t": 4,
+        "candidates": 200,
+        "losers": 159,
+        "as_losers": 148
+      },
+      {
+        "t": 5,
+        "candidates": 437,
+        "losers": 346,
+        "as_losers": 259
+      },
+      {
+        "t": 6,
+        "candidates": 852,
+        "losers": 656,
+        "as_losers": 318
+      },
+      {
+        "t": 7,
+        "candidates": 1553,
+        "losers": 1084,
+        "as_losers": 321
+      },
+      {
+        "t": 8,
+        "candidates": 2621,
+        "losers": 1622,
+        "as_losers": 300
+      },
+      {
+        "t": 9,
+        "candidates": 4147,
+        "losers": 2151,
+        "as_losers": 261
+      },
+      {
+        "t": 10,
+        "candidates": 6054,
+        "losers": 2547,
+        "as_losers": 232
+      },
+      {
+        "t": 11,
+        "candidates": 8068,
+        "losers": 2757,
+        "as_losers": 208
+      },
+      {
+        "t": 12,
+        "candidates": 9618,
+        "losers": 2734,
+        "as_losers": 182
+      },
+      {
+        "t": 13,
+        "candidates": 10327,
+        "losers": 2558,
+        "as_losers": 161
+      },
+      {
+        "t": 14,
+        "candidates": 10217,
+        "losers": 2363,
+        "as_losers": 142
+      },
+      {
+        "t": 15,
+        "candidates": 9648,
+        "losers": 2133,
+        "as_losers": 124
+      },
+      {
+        "t": 16,
+        "candidates": 8834,
+        "losers": 1912,
+        "as_losers": 107
+      },
+      {
+        "t": 17,
+        "candidates": 8042,
+        "losers": 1721,
+        "as_losers": 90
+      },
+      {
+        "t": 18,
+        "candidates": 7292,
+        "losers": 1525,
+        "as_losers": 77
+      },
+      {
+        "t": 19,
+        "candidates": 6555,
+        "losers": 1346,
+        "as_losers": 71
+      },
+      {
+        "t": 20,
+        "candidates": 5907,
+        "losers": 1207,
+        "as_losers": 66
+      },
+      {
+        "t": 21,
+        "candidates": 5315,
+        "losers": 1072,
+        "as_losers": 61
+      },
+      {
+        "t": 22,
+        "candidates": 4778,
+        "losers": 957,
+        "as_losers": 56
+      },
+      {
+        "t": 23,
+        "candidates": 4335,
+        "losers": 857,
+        "as_losers": 50
+      },
+      {
+        "t": 24,
+        "candidates": 3881,
+        "losers": 756,
+        "as_losers": 46
+      },
+      {
+        "t": 25,
+        "candidates": 3462,
+        "losers": 669,
+        "as_losers": 39
+      },
+      {
+        "t": 26,
+        "candidates": 3111,
+        "losers": 593,
+        "as_losers": 34
+      },
+      {
+        "t": 27,
+        "candidates": 2754,
+        "losers": 517,
+        "as_losers": 35
+      },
+      {
+        "t": 28,
+        "candidates": 2432,
+        "losers": 459,
+        "as_losers": 33
+      },
+      {
+        "t": 29,
+        "candidates": 2178,
+        "losers": 407,
+        "as_losers": 26
+      },
+      {
+        "t": 30,
+        "candidates": 1919,
+        "losers": 352,
+        "as_losers": 25
+      },
+      {
+        "t": 31,
+        "candidates": 1686,
+        "losers": 313,
+        "as_losers": 25
+      },
+      {
+        "t": 32,
+        "candidates": 1505,
+        "losers": 276,
+        "as_losers": 16
+      },
+      {
+        "t": 33,
+        "candidates": 1307,
+        "losers": 235,
+        "as_losers": 14
+      },
+      {
+        "t": 34,
+        "candidates": 1139,
+        "losers": 210,
+        "as_losers": 17
+      },
+      {
+        "t": 35,
+        "candidates": 1021,
+        "losers": 187,
+        "as_losers": 12
+      },
+      {
+        "t": 36,
+        "candidates": 885,
+        "losers": 159,
+        "as_losers": 12
+      },
+      {
+        "t": 37,
+        "candidates": 771,
+        "losers": 143,
+        "as_losers": 15
+      },
+      {
+        "t": 38,
+        "candidates": 697,
+        "losers": 128,
+        "as_losers": 10
+      },
+      {
+        "t": 39,
+        "candidates": 599,
+        "losers": 106,
+        "as_losers": 9
+      },
+      {
+        "t": 40,
+        "candidates": 510,
+        "losers": 94,
+        "as_losers": 12
+      },
+      {
+        "t": 41,
+        "candidates": 456,
+        "losers": 83,
+        "as_losers": 8
+      },
+      {
+        "t": 42,
+        "candidates": 385,
+        "losers": 67,
+        "as_losers": 6
+      },
+      {
+        "t": 43,
+        "candidates": 322,
+        "losers": 59,
+        "as_losers": 10
+      },
+      {
+        "t": 44,
+        "candidates": 287,
+        "losers": 52,
+        "as_losers": 7
+      },
+      {
+        "t": 45,
+        "candidates": 240,
+        "losers": 41,
+        "as_losers": 4
+      },
+      {
+        "t": 46,
+        "candidates": 198,
+        "losers": 36,
+        "as_losers": 7
+      },
+      {
+        "t": 47,
+        "candidates": 174,
+        "losers": 31,
+        "as_losers": 4
+      },
+      {
+        "t": 48,
+        "candidates": 140,
+        "losers": 23,
+        "as_losers": 2
+      },
+      {
+        "t": 49,
+        "candidates": 113,
+        "losers": 21,
+        "as_losers": 4
+      },
+      {
+        "t": 50,
+        "candidates": 101,
+        "losers": 18,
+        "as_losers": 2
+      },
+      {
+        "t": 51,
+        "candidates": 80,
+        "losers": 13,
+        "as_losers": 2
+      },
+      {
+        "t": 52,
+        "candidates": 66,
+        "losers": 13,
+        "as_losers": 4
+      },
+      {
+        "t": 53,
+        "candidates": 62,
+        "losers": 11,
+        "as_losers": 2
+      },
+      {
+        "t": 54,
+        "candidates": 46,
+        "losers": 7,
+        "as_losers": 1
+      },
+      {
+        "t": 55,
+        "candidates": 35,
+        "losers": 7,
+        "as_losers": 3
+      },
+      {
+        "t": 56,
+        "candidates": 33,
+        "losers": 6,
+        "as_losers": 2
+      },
+      {
+        "t": 57,
+        "candidates": 23,
+        "losers": 3,
+        "as_losers": 0
+      },
+      {
+        "t": 58,
+        "candidates": 15,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 59,
+        "candidates": 15,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 60,
+        "candidates": 11,
+        "losers": 1,
+        "as_losers": 0
+      },
+      {
+        "t": 61,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 62,
+        "candidates": 5,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 63,
+        "candidates": 3,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.22259247300002016,
+    "layer_sha256": "fa6993be848856b4013577d07e609b95a6a6e66582e12e96734243608abf9000"
+  },
+  {
+    "graph": "C8",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 31,
+    "critical_as_witness": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      29
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 120,
+        "losers": 96,
+        "as_losers": 96
+      },
+      {
+        "t": 4,
+        "candidates": 322,
+        "losers": 274,
+        "as_losers": 262
+      },
+      {
+        "t": 5,
+        "candidates": 776,
+        "losers": 656,
+        "as_losers": 504
+      },
+      {
+        "t": 6,
+        "candidates": 1668,
+        "losers": 1396,
+        "as_losers": 724
+      },
+      {
+        "t": 7,
+        "candidates": 3328,
+        "losers": 2648,
+        "as_losers": 840
+      },
+      {
+        "t": 8,
+        "candidates": 6175,
+        "losers": 4575,
+        "as_losers": 841
+      },
+      {
+        "t": 9,
+        "candidates": 10904,
+        "losers": 7040,
+        "as_losers": 792
+      },
+      {
+        "t": 10,
+        "candidates": 17804,
+        "losers": 9524,
+        "as_losers": 704
+      },
+      {
+        "t": 11,
+        "candidates": 26832,
+        "losers": 11456,
+        "as_losers": 616
+      },
+      {
+        "t": 12,
+        "candidates": 34784,
+        "losers": 12584,
+        "as_losers": 616
+      },
+      {
+        "t": 13,
+        "candidates": 40296,
+        "losers": 12776,
+        "as_losers": 544
+      },
+      {
+        "t": 14,
+        "candidates": 44320,
+        "losers": 11832,
+        "as_losers": 360
+      },
+      {
+        "t": 15,
+        "candidates": 46536,
+        "losers": 9720,
+        "as_losers": 384
+      },
+      {
+        "t": 16,
+        "candidates": 43936,
+        "losers": 7496,
+        "as_losers": 392
+      },
+      {
+        "t": 17,
+        "candidates": 37352,
+        "losers": 5584,
+        "as_losers": 248
+      },
+      {
+        "t": 18,
+        "candidates": 29212,
+        "losers": 3964,
+        "as_losers": 216
+      },
+      {
+        "t": 19,
+        "candidates": 21752,
+        "losers": 2776,
+        "as_losers": 232
+      },
+      {
+        "t": 20,
+        "candidates": 15792,
+        "losers": 1888,
+        "as_losers": 176
+      },
+      {
+        "t": 21,
+        "candidates": 10856,
+        "losers": 1208,
+        "as_losers": 128
+      },
+      {
+        "t": 22,
+        "candidates": 7144,
+        "losers": 744,
+        "as_losers": 104
+      },
+      {
+        "t": 23,
+        "candidates": 4592,
+        "losers": 464,
+        "as_losers": 104
+      },
+      {
+        "t": 24,
+        "candidates": 2832,
+        "losers": 296,
+        "as_losers": 80
+      },
+      {
+        "t": 25,
+        "candidates": 1760,
+        "losers": 176,
+        "as_losers": 48
+      },
+      {
+        "t": 26,
+        "candidates": 1088,
+        "losers": 112,
+        "as_losers": 56
+      },
+      {
+        "t": 27,
+        "candidates": 680,
+        "losers": 72,
+        "as_losers": 40
+      },
+      {
+        "t": 28,
+        "candidates": 400,
+        "losers": 32,
+        "as_losers": 16
+      },
+      {
+        "t": 29,
+        "candidates": 184,
+        "losers": 16,
+        "as_losers": 16
+      },
+      {
+        "t": 30,
+        "candidates": 88,
+        "losers": 8,
+        "as_losers": 8
+      },
+      {
+        "t": 31,
+        "candidates": 32,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 1.0958666329999573,
+    "layer_sha256": "3bf50270b8a8f491224304a859b93fd6775f7baa3f27fd9af102fc698b3dd487"
+  },
+  {
+    "graph": "C9",
+    "n": 9,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        0
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 37,
+    "critical_as_witness": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      34
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 9,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 36,
+        "losers": 36,
+        "as_losers": 36
+      },
+      {
+        "t": 3,
+        "candidates": 165,
+        "losers": 138,
+        "as_losers": 138
+      },
+      {
+        "t": 4,
+        "candidates": 486,
+        "losers": 432,
+        "as_losers": 414
+      },
+      {
+        "t": 5,
+        "candidates": 1269,
+        "losers": 1134,
+        "as_losers": 891
+      },
+      {
+        "t": 6,
+        "candidates": 2949,
+        "losers": 2643,
+        "as_losers": 1443
+      },
+      {
+        "t": 7,
+        "candidates": 6318,
+        "losers": 5553,
+        "as_losers": 1863
+      },
+      {
+        "t": 8,
+        "candidates": 12582,
+        "losers": 10773,
+        "as_losers": 2034
+      },
+      {
+        "t": 9,
+        "candidates": 23779,
+        "losers": 19288,
+        "as_losers": 2017
+      },
+      {
+        "t": 10,
+        "candidates": 42507,
+        "losers": 31788,
+        "as_losers": 1980
+      },
+      {
+        "t": 11,
+        "candidates": 72531,
+        "losers": 47664,
+        "as_losers": 1827
+      },
+      {
+        "t": 12,
+        "candidates": 117804,
+        "losers": 63705,
+        "as_losers": 1728
+      },
+      {
+        "t": 13,
+        "candidates": 179793,
+        "losers": 74664,
+        "as_losers": 1737
+      },
+      {
+        "t": 14,
+        "candidates": 251253,
+        "losers": 76716,
+        "as_losers": 1539
+      },
+      {
+        "t": 15,
+        "candidates": 309429,
+        "losers": 70326,
+        "as_losers": 1332
+      },
+      {
+        "t": 16,
+        "candidates": 327789,
+        "losers": 59715,
+        "as_losers": 1404
+      },
+      {
+        "t": 17,
+        "candidates": 307377,
+        "losers": 48897,
+        "as_losers": 1296
+      },
+      {
+        "t": 18,
+        "candidates": 266727,
+        "losers": 39405,
+        "as_losers": 1035
+      },
+      {
+        "t": 19,
+        "candidates": 221031,
+        "losers": 31041,
+        "as_losers": 981
+      },
+      {
+        "t": 20,
+        "candidates": 178353,
+        "losers": 24129,
+        "as_losers": 990
+      },
+      {
+        "t": 21,
+        "candidates": 141651,
+        "losers": 18612,
+        "as_losers": 792
+      },
+      {
+        "t": 22,
+        "candidates": 109935,
+        "losers": 13968,
+        "as_losers": 603
+      },
+      {
+        "t": 23,
+        "candidates": 83448,
+        "losers": 10458,
+        "as_losers": 630
+      },
+      {
+        "t": 24,
+        "candidates": 63387,
+        "losers": 7893,
+        "as_losers": 549
+      },
+      {
+        "t": 25,
+        "candidates": 47799,
+        "losers": 5751,
+        "as_losers": 387
+      },
+      {
+        "t": 26,
+        "candidates": 35370,
+        "losers": 4122,
+        "as_losers": 378
+      },
+      {
+        "t": 27,
+        "candidates": 25983,
+        "losers": 2880,
+        "as_losers": 288
+      },
+      {
+        "t": 28,
+        "candidates": 18288,
+        "losers": 1818,
+        "as_losers": 198
+      },
+      {
+        "t": 29,
+        "candidates": 11943,
+        "losers": 1107,
+        "as_losers": 207
+      },
+      {
+        "t": 30,
+        "candidates": 7614,
+        "losers": 648,
+        "as_losers": 108
+      },
+      {
+        "t": 31,
+        "candidates": 4545,
+        "losers": 324,
+        "as_losers": 63
+      },
+      {
+        "t": 32,
+        "candidates": 2466,
+        "losers": 198,
+        "as_losers": 108
+      },
+      {
+        "t": 33,
+        "candidates": 1512,
+        "losers": 126,
+        "as_losers": 54
+      },
+      {
+        "t": 34,
+        "candidates": 882,
+        "losers": 54,
+        "as_losers": 18
+      },
+      {
+        "t": 35,
+        "candidates": 414,
+        "losers": 36,
+        "as_losers": 36
+      },
+      {
+        "t": 36,
+        "candidates": 270,
+        "losers": 18,
+        "as_losers": 18
+      },
+      {
+        "t": 37,
+        "candidates": 108,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 9.837355309000031,
+    "layer_sha256": "6ed8190e2548dd008bebcd1d0329dfd6543b9cd512a6838055a78ad43e7306c4"
+  },
+  {
+    "graph": "C9",
+    "n": 9,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        0
+      ]
+    ],
+    "mode": "clear",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 46,
+    "critical_as_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 9,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 36,
+        "losers": 36,
+        "as_losers": 36
+      },
+      {
+        "t": 3,
+        "candidates": 165,
+        "losers": 147,
+        "as_losers": 147
+      },
+      {
+        "t": 4,
+        "candidates": 486,
+        "losers": 441,
+        "as_losers": 414
+      },
+      {
+        "t": 5,
+        "candidates": 1269,
+        "losers": 1161,
+        "as_losers": 909
+      },
+      {
+        "t": 6,
+        "candidates": 2958,
+        "losers": 2706,
+        "as_losers": 1452
+      },
+      {
+        "t": 7,
+        "candidates": 6327,
+        "losers": 5679,
+        "as_losers": 1872
+      },
+      {
+        "t": 8,
+        "candidates": 12609,
+        "losers": 11079,
+        "as_losers": 2070
+      },
+      {
+        "t": 9,
+        "candidates": 23824,
+        "losers": 19990,
+        "as_losers": 2044
+      },
+      {
+        "t": 10,
+        "candidates": 42615,
+        "losers": 33336,
+        "as_losers": 2007
+      },
+      {
+        "t": 11,
+        "candidates": 72765,
+        "losers": 51219,
+        "as_losers": 1881
+      },
+      {
+        "t": 12,
+        "candidates": 118488,
+        "losers": 71526,
+        "as_losers": 1764
+      },
+      {
+        "t": 13,
+        "candidates": 182124,
+        "losers": 90702,
+        "as_losers": 1809
+      },
+      {
+        "t": 14,
+        "candidates": 261027,
+        "losers": 105759,
+        "as_losers": 1638
+      },
+      {
+        "t": 15,
+        "candidates": 344937,
+        "losers": 114051,
+        "as_losers": 1413
+      },
+      {
+        "t": 16,
+        "candidates": 418194,
+        "losers": 114984,
+        "as_losers": 1548
+      },
+      {
+        "t": 17,
+        "candidates": 468405,
+        "losers": 110799,
+        "as_losers": 1431
+      },
+      {
+        "t": 18,
+        "candidates": 488481,
+        "losers": 102651,
+        "as_losers": 1161
+      },
+      {
+        "t": 19,
+        "candidates": 478449,
+        "losers": 91512,
+        "as_losers": 1215
+      },
+      {
+        "t": 20,
+        "candidates": 446778,
+        "losers": 79974,
+        "as_losers": 1188
+      },
+      {
+        "t": 21,
+        "candidates": 403506,
+        "losers": 68121,
+        "as_losers": 954
+      },
+      {
+        "t": 22,
+        "candidates": 352314,
+        "losers": 56052,
+        "as_losers": 909
+      },
+      {
+        "t": 23,
+        "candidates": 298692,
+        "losers": 45378,
+        "as_losers": 909
+      },
+      {
+        "t": 24,
+        "candidates": 247473,
+        "losers": 35829,
+        "as_losers": 747
+      },
+      {
+        "t": 25,
+        "candidates": 198810,
+        "losers": 27405,
+        "as_losers": 702
+      },
+      {
+        "t": 26,
+        "candidates": 155367,
+        "losers": 20745,
+        "as_losers": 675
+      },
+      {
+        "t": 27,
+        "candidates": 118836,
+        "losers": 15246,
+        "as_losers": 522
+      },
+      {
+        "t": 28,
+        "candidates": 87552,
+        "losers": 10728,
+        "as_losers": 495
+      },
+      {
+        "t": 29,
+        "candidates": 61659,
+        "losers": 7506,
+        "as_losers": 459
+      },
+      {
+        "t": 30,
+        "candidates": 42102,
+        "losers": 5166,
+        "as_losers": 324
+      },
+      {
+        "t": 31,
+        "candidates": 27882,
+        "losers": 3537,
+        "as_losers": 333
+      },
+      {
+        "t": 32,
+        "candidates": 18333,
+        "losers": 2538,
+        "as_losers": 306
+      },
+      {
+        "t": 33,
+        "candidates": 12024,
+        "losers": 1809,
+        "as_losers": 189
+      },
+      {
+        "t": 34,
+        "candidates": 8010,
+        "losers": 1305,
+        "as_losers": 225
+      },
+      {
+        "t": 35,
+        "candidates": 5778,
+        "losers": 990,
+        "as_losers": 189
+      },
+      {
+        "t": 36,
+        "candidates": 4023,
+        "losers": 684,
+        "as_losers": 81
+      },
+      {
+        "t": 37,
+        "candidates": 2583,
+        "losers": 459,
+        "as_losers": 90
+      },
+      {
+        "t": 38,
+        "candidates": 1818,
+        "losers": 342,
+        "as_losers": 99
+      },
+      {
+        "t": 39,
+        "candidates": 1242,
+        "losers": 225,
+        "as_losers": 36
+      },
+      {
+        "t": 40,
+        "candidates": 738,
+        "losers": 135,
+        "as_losers": 27
+      },
+      {
+        "t": 41,
+        "candidates": 513,
+        "losers": 99,
+        "as_losers": 54
+      },
+      {
+        "t": 42,
+        "candidates": 360,
+        "losers": 63,
+        "as_losers": 27
+      },
+      {
+        "t": 43,
+        "candidates": 189,
+        "losers": 27,
+        "as_losers": 9
+      },
+      {
+        "t": 44,
+        "candidates": 99,
+        "losers": 18,
+        "as_losers": 18
+      },
+      {
+        "t": 45,
+        "candidates": 63,
+        "losers": 9,
+        "as_losers": 9
+      },
+      {
+        "t": 46,
+        "candidates": 18,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 19.29162414199999,
+    "layer_sha256": "73ad6d4dff77269f1e58f292164398ea89afe62f9d4d136db522c29a06d64616"
+  },
+  {
+    "graph": "C10",
+    "n": 10,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        0
+      ]
+    ],
+    "mode": "stack",
+    "scope": "CANDIDATE_CUTOFF",
+    "threshold": null,
+    "critical_as_witness": null,
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 10,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 45,
+        "losers": 45,
+        "as_losers": 45
+      },
+      {
+        "t": 3,
+        "candidates": 220,
+        "losers": 190,
+        "as_losers": 190
+      },
+      {
+        "t": 4,
+        "candidates": 705,
+        "losers": 645,
+        "as_losers": 620
+      },
+      {
+        "t": 5,
+        "candidates": 1982,
+        "losers": 1832,
+        "as_losers": 1472
+      },
+      {
+        "t": 6,
+        "candidates": 4945,
+        "losers": 4605,
+        "as_losers": 2650
+      },
+      {
+        "t": 7,
+        "candidates": 11310,
+        "losers": 10460,
+        "as_losers": 3780
+      },
+      {
+        "t": 8,
+        "candidates": 23990,
+        "losers": 21980,
+        "as_losers": 4485
+      },
+      {
+        "t": 9,
+        "candidates": 48030,
+        "losers": 43040,
+        "as_losers": 4720
+      },
+      {
+        "t": 10,
+        "candidates": 91028,
+        "losers": 79038,
+        "as_losers": 4731
+      },
+      {
+        "t": 11,
+        "candidates": 164990,
+        "losers": 136280,
+        "as_losers": 4640
+      },
+      {
+        "t": 12,
+        "candidates": 287080,
+        "losers": 219440,
+        "as_losers": 4470
+      },
+      {
+        "t": 13,
+        "candidates": 480090,
+        "losers": 327500,
+        "as_losers": 4350
+      },
+      {
+        "t": 14,
+        "candidates": 767970,
+        "losers": 451880,
+        "as_losers": 4260
+      },
+      {
+        "t": 15,
+        "candidates": 1158724,
+        "losers": 579584,
+        "as_losers": 4070
+      },
+      {
+        "t": 16,
+        "candidates": 1619545,
+        "losers": 699235,
+        "as_losers": 3830
+      }
+    ],
+    "seconds": 38.30679159699997,
+    "layer_sha256": "c1aaae4b6314fa2213a25f3dcc9381adb344b85badc7e17c36b44fcb00a2c237"
+  },
+  {
+    "graph": "triangle_tail5",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 128,
+    "critical_as_witness": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      125
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 119,
+        "losers": 96,
+        "as_losers": 96
+      },
+      {
+        "t": 4,
+        "candidates": 317,
+        "losers": 277,
+        "as_losers": 263
+      },
+      {
+        "t": 5,
+        "candidates": 765,
+        "losers": 672,
+        "as_losers": 510
+      },
+      {
+        "t": 6,
+        "candidates": 1653,
+        "losers": 1453,
+        "as_losers": 738
+      },
+      {
+        "t": 7,
+        "candidates": 3293,
+        "losers": 2836,
+        "as_losers": 861
+      },
+      {
+        "t": 8,
+        "candidates": 6127,
+        "losers": 5126,
+        "as_losers": 878
+      },
+      {
+        "t": 9,
+        "candidates": 10812,
+        "losers": 8577,
+        "as_losers": 842
+      },
+      {
+        "t": 10,
+        "candidates": 18086,
+        "losers": 13340,
+        "as_losers": 813
+      },
+      {
+        "t": 11,
+        "candidates": 28925,
+        "losers": 19319,
+        "as_losers": 771
+      },
+      {
+        "t": 12,
+        "candidates": 44148,
+        "losers": 25978,
+        "as_losers": 738
+      },
+      {
+        "t": 13,
+        "candidates": 64085,
+        "losers": 32453,
+        "as_losers": 717
+      },
+      {
+        "t": 14,
+        "candidates": 87686,
+        "losers": 37940,
+        "as_losers": 665
+      },
+      {
+        "t": 15,
+        "candidates": 112153,
+        "losers": 41751,
+        "as_losers": 627
+      },
+      {
+        "t": 16,
+        "candidates": 133454,
+        "losers": 43866,
+        "as_losers": 615
+      },
+      {
+        "t": 17,
+        "candidates": 148684,
+        "losers": 44934,
+        "as_losers": 576
+      },
+      {
+        "t": 18,
+        "candidates": 157665,
+        "losers": 45274,
+        "as_losers": 528
+      },
+      {
+        "t": 19,
+        "candidates": 162328,
+        "losers": 45151,
+        "as_losers": 499
+      },
+      {
+        "t": 20,
+        "candidates": 164768,
+        "losers": 44998,
+        "as_losers": 488
+      },
+      {
+        "t": 21,
+        "candidates": 166174,
+        "losers": 44723,
+        "as_losers": 466
+      },
+      {
+        "t": 22,
+        "candidates": 166762,
+        "losers": 44322,
+        "as_losers": 423
+      },
+      {
+        "t": 23,
+        "candidates": 167177,
+        "losers": 44014,
+        "as_losers": 405
+      },
+      {
+        "t": 24,
+        "candidates": 167383,
+        "losers": 43655,
+        "as_losers": 398
+      },
+      {
+        "t": 25,
+        "candidates": 167142,
+        "losers": 43136,
+        "as_losers": 364
+      },
+      {
+        "t": 26,
+        "candidates": 166759,
+        "losers": 42636,
+        "as_losers": 338
+      },
+      {
+        "t": 27,
+        "candidates": 166091,
+        "losers": 41971,
+        "as_losers": 325
+      },
+      {
+        "t": 28,
+        "candidates": 164700,
+        "losers": 41114,
+        "as_losers": 309
+      },
+      {
+        "t": 29,
+        "candidates": 162997,
+        "losers": 40309,
+        "as_losers": 291
+      },
+      {
+        "t": 30,
+        "candidates": 161052,
+        "losers": 39412,
+        "as_losers": 273
+      },
+      {
+        "t": 31,
+        "candidates": 158491,
+        "losers": 38386,
+        "as_losers": 262
+      },
+      {
+        "t": 32,
+        "candidates": 155675,
+        "losers": 37424,
+        "as_losers": 246
+      },
+      {
+        "t": 33,
+        "candidates": 152696,
+        "losers": 36332,
+        "as_losers": 231
+      },
+      {
+        "t": 34,
+        "candidates": 149092,
+        "losers": 35081,
+        "as_losers": 222
+      },
+      {
+        "t": 35,
+        "candidates": 145059,
+        "losers": 33925,
+        "as_losers": 209
+      },
+      {
+        "t": 36,
+        "candidates": 140985,
+        "losers": 32739,
+        "as_losers": 205
+      },
+      {
+        "t": 37,
+        "candidates": 136668,
+        "losers": 31473,
+        "as_losers": 206
+      },
+      {
+        "t": 38,
+        "candidates": 132209,
+        "losers": 30335,
+        "as_losers": 195
+      },
+      {
+        "t": 39,
+        "candidates": 127854,
+        "losers": 29164,
+        "as_losers": 187
+      },
+      {
+        "t": 40,
+        "candidates": 123292,
+        "losers": 27881,
+        "as_losers": 188
+      },
+      {
+        "t": 41,
+        "candidates": 118525,
+        "losers": 26670,
+        "as_losers": 176
+      },
+      {
+        "t": 42,
+        "candidates": 113746,
+        "losers": 25427,
+        "as_losers": 165
+      },
+      {
+        "t": 43,
+        "candidates": 108841,
+        "losers": 24108,
+        "as_losers": 167
+      },
+      {
+        "t": 44,
+        "candidates": 103875,
+        "losers": 22895,
+        "as_losers": 158
+      },
+      {
+        "t": 45,
+        "candidates": 99048,
+        "losers": 21695,
+        "as_losers": 151
+      },
+      {
+        "t": 46,
+        "candidates": 94230,
+        "losers": 20462,
+        "as_losers": 151
+      },
+      {
+        "t": 47,
+        "candidates": 89489,
+        "losers": 19341,
+        "as_losers": 140
+      },
+      {
+        "t": 48,
+        "candidates": 84904,
+        "losers": 18219,
+        "as_losers": 132
+      },
+      {
+        "t": 49,
+        "candidates": 80244,
+        "losers": 17067,
+        "as_losers": 129
+      },
+      {
+        "t": 50,
+        "candidates": 75778,
+        "losers": 16043,
+        "as_losers": 119
+      },
+      {
+        "t": 51,
+        "candidates": 71570,
+        "losers": 15046,
+        "as_losers": 114
+      },
+      {
+        "t": 52,
+        "candidates": 67373,
+        "losers": 14046,
+        "as_losers": 118
+      },
+      {
+        "t": 53,
+        "candidates": 63403,
+        "losers": 13193,
+        "as_losers": 114
+      },
+      {
+        "t": 54,
+        "candidates": 59778,
+        "losers": 12363,
+        "as_losers": 105
+      },
+      {
+        "t": 55,
+        "candidates": 56175,
+        "losers": 11490,
+        "as_losers": 105
+      },
+      {
+        "t": 56,
+        "candidates": 52572,
+        "losers": 10739,
+        "as_losers": 101
+      },
+      {
+        "t": 57,
+        "candidates": 49279,
+        "losers": 10021,
+        "as_losers": 88
+      },
+      {
+        "t": 58,
+        "candidates": 46158,
+        "losers": 9270,
+        "as_losers": 87
+      },
+      {
+        "t": 59,
+        "candidates": 43068,
+        "losers": 8644,
+        "as_losers": 86
+      },
+      {
+        "t": 60,
+        "candidates": 40288,
+        "losers": 8067,
+        "as_losers": 78
+      },
+      {
+        "t": 61,
+        "candidates": 37719,
+        "losers": 7470,
+        "as_losers": 75
+      },
+      {
+        "t": 62,
+        "candidates": 35230,
+        "losers": 6967,
+        "as_losers": 71
+      },
+      {
+        "t": 63,
+        "candidates": 32922,
+        "losers": 6495,
+        "as_losers": 65
+      },
+      {
+        "t": 64,
+        "candidates": 30687,
+        "losers": 6007,
+        "as_losers": 58
+      },
+      {
+        "t": 65,
+        "candidates": 28650,
+        "losers": 5608,
+        "as_losers": 53
+      },
+      {
+        "t": 66,
+        "candidates": 26795,
+        "losers": 5246,
+        "as_losers": 50
+      },
+      {
+        "t": 67,
+        "candidates": 25002,
+        "losers": 4877,
+        "as_losers": 48
+      },
+      {
+        "t": 68,
+        "candidates": 23398,
+        "losers": 4595,
+        "as_losers": 48
+      },
+      {
+        "t": 69,
+        "candidates": 22003,
+        "losers": 4318,
+        "as_losers": 48
+      },
+      {
+        "t": 70,
+        "candidates": 20619,
+        "losers": 4005,
+        "as_losers": 48
+      },
+      {
+        "t": 71,
+        "candidates": 19252,
+        "losers": 3768,
+        "as_losers": 46
+      },
+      {
+        "t": 72,
+        "candidates": 18067,
+        "losers": 3534,
+        "as_losers": 43
+      },
+      {
+        "t": 73,
+        "candidates": 16890,
+        "losers": 3263,
+        "as_losers": 44
+      },
+      {
+        "t": 74,
+        "candidates": 15716,
+        "losers": 3062,
+        "as_losers": 43
+      },
+      {
+        "t": 75,
+        "candidates": 14707,
+        "losers": 2865,
+        "as_losers": 38
+      },
+      {
+        "t": 76,
+        "candidates": 13714,
+        "losers": 2633,
+        "as_losers": 40
+      },
+      {
+        "t": 77,
+        "candidates": 12720,
+        "losers": 2465,
+        "as_losers": 42
+      },
+      {
+        "t": 78,
+        "candidates": 11872,
+        "losers": 2304,
+        "as_losers": 36
+      },
+      {
+        "t": 79,
+        "candidates": 11048,
+        "losers": 2109,
+        "as_losers": 35
+      },
+      {
+        "t": 80,
+        "candidates": 10217,
+        "losers": 1969,
+        "as_losers": 38
+      },
+      {
+        "t": 81,
+        "candidates": 9506,
+        "losers": 1836,
+        "as_losers": 33
+      },
+      {
+        "t": 82,
+        "candidates": 8819,
+        "losers": 1672,
+        "as_losers": 30
+      },
+      {
+        "t": 83,
+        "candidates": 8128,
+        "losers": 1557,
+        "as_losers": 34
+      },
+      {
+        "t": 84,
+        "candidates": 7541,
+        "losers": 1449,
+        "as_losers": 32
+      },
+      {
+        "t": 85,
+        "candidates": 6978,
+        "losers": 1315,
+        "as_losers": 30
+      },
+      {
+        "t": 86,
+        "candidates": 6413,
+        "losers": 1223,
+        "as_losers": 32
+      },
+      {
+        "t": 87,
+        "candidates": 5933,
+        "losers": 1135,
+        "as_losers": 27
+      },
+      {
+        "t": 88,
+        "candidates": 5467,
+        "losers": 1023,
+        "as_losers": 26
+      },
+      {
+        "t": 89,
+        "candidates": 5000,
+        "losers": 948,
+        "as_losers": 29
+      },
+      {
+        "t": 90,
+        "candidates": 4608,
+        "losers": 877,
+        "as_losers": 22
+      },
+      {
+        "t": 91,
+        "candidates": 4229,
+        "losers": 784,
+        "as_losers": 22
+      },
+      {
+        "t": 92,
+        "candidates": 3849,
+        "losers": 725,
+        "as_losers": 28
+      },
+      {
+        "t": 93,
+        "candidates": 3538,
+        "losers": 671,
+        "as_losers": 20
+      },
+      {
+        "t": 94,
+        "candidates": 3239,
+        "losers": 595,
+        "as_losers": 17
+      },
+      {
+        "t": 95,
+        "candidates": 2930,
+        "losers": 549,
+        "as_losers": 24
+      },
+      {
+        "t": 96,
+        "candidates": 2683,
+        "losers": 507,
+        "as_losers": 17
+      },
+      {
+        "t": 97,
+        "candidates": 2447,
+        "losers": 445,
+        "as_losers": 12
+      },
+      {
+        "t": 98,
+        "candidates": 2199,
+        "losers": 409,
+        "as_losers": 20
+      },
+      {
+        "t": 99,
+        "candidates": 2005,
+        "losers": 378,
+        "as_losers": 16
+      },
+      {
+        "t": 100,
+        "candidates": 1827,
+        "losers": 330,
+        "as_losers": 12
+      },
+      {
+        "t": 101,
+        "candidates": 1636,
+        "losers": 302,
+        "as_losers": 20
+      },
+      {
+        "t": 102,
+        "candidates": 1482,
+        "losers": 279,
+        "as_losers": 16
+      },
+      {
+        "t": 103,
+        "candidates": 1341,
+        "losers": 240,
+        "as_losers": 10
+      },
+      {
+        "t": 104,
+        "candidates": 1188,
+        "losers": 217,
+        "as_losers": 17
+      },
+      {
+        "t": 105,
+        "candidates": 1064,
+        "losers": 199,
+        "as_losers": 15
+      },
+      {
+        "t": 106,
+        "candidates": 952,
+        "losers": 168,
+        "as_losers": 8
+      },
+      {
+        "t": 107,
+        "candidates": 833,
+        "losers": 150,
+        "as_losers": 14
+      },
+      {
+        "t": 108,
+        "candidates": 739,
+        "losers": 137,
+        "as_losers": 14
+      },
+      {
+        "t": 109,
+        "candidates": 656,
+        "losers": 114,
+        "as_losers": 8
+      },
+      {
+        "t": 110,
+        "candidates": 567,
+        "losers": 101,
+        "as_losers": 12
+      },
+      {
+        "t": 111,
+        "candidates": 497,
+        "losers": 91,
+        "as_losers": 11
+      },
+      {
+        "t": 112,
+        "candidates": 434,
+        "losers": 73,
+        "as_losers": 7
+      },
+      {
+        "t": 113,
+        "candidates": 366,
+        "losers": 64,
+        "as_losers": 10
+      },
+      {
+        "t": 114,
+        "candidates": 316,
+        "losers": 57,
+        "as_losers": 8
+      },
+      {
+        "t": 115,
+        "candidates": 273,
+        "losers": 44,
+        "as_losers": 6
+      },
+      {
+        "t": 116,
+        "candidates": 226,
+        "losers": 39,
+        "as_losers": 10
+      },
+      {
+        "t": 117,
+        "candidates": 194,
+        "losers": 35,
+        "as_losers": 8
+      },
+      {
+        "t": 118,
+        "candidates": 164,
+        "losers": 25,
+        "as_losers": 4
+      },
+      {
+        "t": 119,
+        "candidates": 128,
+        "losers": 21,
+        "as_losers": 7
+      },
+      {
+        "t": 120,
+        "candidates": 105,
+        "losers": 19,
+        "as_losers": 7
+      },
+      {
+        "t": 121,
+        "candidates": 86,
+        "losers": 12,
+        "as_losers": 2
+      },
+      {
+        "t": 122,
+        "candidates": 62,
+        "losers": 9,
+        "as_losers": 4
+      },
+      {
+        "t": 123,
+        "candidates": 48,
+        "losers": 9,
+        "as_losers": 6
+      },
+      {
+        "t": 124,
+        "candidates": 40,
+        "losers": 5,
+        "as_losers": 2
+      },
+      {
+        "t": 125,
+        "candidates": 26,
+        "losers": 3,
+        "as_losers": 2
+      },
+      {
+        "t": 126,
+        "candidates": 16,
+        "losers": 3,
+        "as_losers": 3
+      },
+      {
+        "t": 127,
+        "candidates": 12,
+        "losers": 1,
+        "as_losers": 1
+      },
+      {
+        "t": 128,
+        "candidates": 5,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 20.215957242,
+    "layer_sha256": "ef88668767ad54dd123b97cce6a1b513280af667c12cf7a451e085d9b21f7b7e"
+  },
+  {
+    "graph": "triangle_tail5",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "mode": "clear",
+    "scope": "MASS_CUTOFF",
+    "threshold": null,
+    "critical_as_witness": null,
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 119,
+        "losers": 104,
+        "as_losers": 104
+      },
+      {
+        "t": 4,
+        "candidates": 318,
+        "losers": 282,
+        "as_losers": 263
+      },
+      {
+        "t": 5,
+        "candidates": 766,
+        "losers": 686,
+        "as_losers": 520
+      },
+      {
+        "t": 6,
+        "candidates": 1659,
+        "losers": 1482,
+        "as_losers": 743
+      },
+      {
+        "t": 7,
+        "candidates": 3298,
+        "losers": 2885,
+        "as_losers": 865
+      },
+      {
+        "t": 8,
+        "candidates": 6149,
+        "losers": 5230,
+        "as_losers": 895
+      },
+      {
+        "t": 9,
+        "candidates": 10852,
+        "losers": 8777,
+        "as_losers": 855
+      },
+      {
+        "t": 10,
+        "candidates": 18167,
+        "losers": 13682,
+        "as_losers": 823
+      },
+      {
+        "t": 11,
+        "candidates": 29082,
+        "losers": 19927,
+        "as_losers": 792
+      },
+      {
+        "t": 12,
+        "candidates": 44446,
+        "losers": 26973,
+        "as_losers": 749
+      },
+      {
+        "t": 13,
+        "candidates": 64661,
+        "losers": 33970,
+        "as_losers": 733
+      },
+      {
+        "t": 14,
+        "candidates": 88807,
+        "losers": 40193,
+        "as_losers": 694
+      },
+      {
+        "t": 15,
+        "candidates": 114193,
+        "losers": 44868,
+        "as_losers": 644
+      },
+      {
+        "t": 16,
+        "candidates": 137035,
+        "losers": 47937,
+        "as_losers": 639
+      },
+      {
+        "t": 17,
+        "candidates": 154433,
+        "losers": 50107,
+        "as_losers": 608
+      },
+      {
+        "t": 18,
+        "candidates": 165933,
+        "losers": 51519,
+        "as_losers": 550
+      },
+      {
+        "t": 19,
+        "candidates": 173356,
+        "losers": 52454,
+        "as_losers": 531
+      },
+      {
+        "t": 20,
+        "candidates": 178745,
+        "losers": 53471,
+        "as_losers": 521
+      },
+      {
+        "t": 21,
+        "candidates": 182927,
+        "losers": 54276,
+        "as_losers": 488
+      },
+      {
+        "t": 22,
+        "candidates": 186307,
+        "losers": 54934,
+        "as_losers": 458
+      },
+      {
+        "t": 23,
+        "candidates": 189684,
+        "losers": 55830,
+        "as_losers": 439
+      },
+      {
+        "t": 24,
+        "candidates": 192681,
+        "losers": 56578,
+        "as_losers": 419
+      },
+      {
+        "t": 25,
+        "candidates": 195321,
+        "losers": 57144,
+        "as_losers": 398
+      },
+      {
+        "t": 26,
+        "candidates": 198096,
+        "losers": 57853,
+        "as_losers": 370
+      },
+      {
+        "t": 27,
+        "candidates": 200345,
+        "losers": 58269,
+        "as_losers": 346
+      },
+      {
+        "t": 28,
+        "candidates": 201893,
+        "losers": 58434,
+        "as_losers": 343
+      },
+      {
+        "t": 29,
+        "candidates": 203336,
+        "losers": 58751,
+        "as_losers": 323
+      },
+      {
+        "t": 30,
+        "candidates": 204189,
+        "losers": 58823,
+        "as_losers": 294
+      },
+      {
+        "t": 31,
+        "candidates": 204377,
+        "losers": 58690,
+        "as_losers": 295
+      },
+      {
+        "t": 32,
+        "candidates": 204475,
+        "losers": 58709,
+        "as_losers": 280
+      },
+      {
+        "t": 33,
+        "candidates": 203987,
+        "losers": 58436,
+        "as_losers": 252
+      },
+      {
+        "t": 34,
+        "candidates": 202790,
+        "losers": 57919,
+        "as_losers": 252
+      },
+      {
+        "t": 35,
+        "candidates": 201312,
+        "losers": 57570,
+        "as_losers": 242
+      },
+      {
+        "t": 36,
+        "candidates": 199315,
+        "losers": 57017,
+        "as_losers": 225
+      },
+      {
+        "t": 37,
+        "candidates": 196941,
+        "losers": 56294,
+        "as_losers": 233
+      },
+      {
+        "t": 38,
+        "candidates": 194551,
+        "losers": 55768,
+        "as_losers": 226
+      },
+      {
+        "t": 39,
+        "candidates": 191761,
+        "losers": 55031,
+        "as_losers": 207
+      },
+      {
+        "t": 40,
+        "candidates": 188603,
+        "losers": 54095,
+        "as_losers": 214
+      },
+      {
+        "t": 41,
+        "candidates": 185370,
+        "losers": 53304,
+        "as_losers": 206
+      },
+      {
+        "t": 42,
+        "candidates": 181622,
+        "losers": 52300,
+        "as_losers": 184
+      },
+      {
+        "t": 43,
+        "candidates": 177572,
+        "losers": 51137,
+        "as_losers": 191
+      },
+      {
+        "t": 44,
+        "candidates": 173608,
+        "losers": 50157,
+        "as_losers": 186
+      },
+      {
+        "t": 45,
+        "candidates": 169296,
+        "losers": 49016,
+        "as_losers": 168
+      },
+      {
+        "t": 46,
+        "candidates": 164824,
+        "losers": 47765,
+        "as_losers": 173
+      },
+      {
+        "t": 47,
+        "candidates": 160596,
+        "losers": 46711,
+        "as_losers": 166
+      },
+      {
+        "t": 48,
+        "candidates": 156072,
+        "losers": 45495,
+        "as_losers": 148
+      },
+      {
+        "t": 49,
+        "candidates": 151315,
+        "losers": 44177,
+        "as_losers": 150
+      },
+      {
+        "t": 50,
+        "candidates": 146926,
+        "losers": 43077,
+        "as_losers": 143
+      },
+      {
+        "t": 51,
+        "candidates": 142379,
+        "losers": 41856,
+        "as_losers": 129
+      },
+      {
+        "t": 52,
+        "candidates": 137705,
+        "losers": 40570,
+        "as_losers": 138
+      },
+      {
+        "t": 53,
+        "candidates": 133449,
+        "losers": 39524,
+        "as_losers": 136
+      },
+      {
+        "t": 54,
+        "candidates": 129155,
+        "losers": 38369,
+        "as_losers": 120
+      },
+      {
+        "t": 55,
+        "candidates": 124777,
+        "losers": 37121,
+        "as_losers": 126
+      },
+      {
+        "t": 56,
+        "candidates": 120603,
+        "losers": 36086,
+        "as_losers": 123
+      },
+      {
+        "t": 57,
+        "candidates": 116381,
+        "losers": 34965,
+        "as_losers": 104
+      },
+      {
+        "t": 58,
+        "candidates": 112246,
+        "losers": 33769,
+        "as_losers": 109
+      },
+      {
+        "t": 59,
+        "candidates": 108357,
+        "losers": 32789,
+        "as_losers": 108
+      },
+      {
+        "t": 60,
+        "candidates": 104446,
+        "losers": 31750,
+        "as_losers": 94
+      },
+      {
+        "t": 61,
+        "candidates": 100680,
+        "losers": 30657,
+        "as_losers": 98
+      },
+      {
+        "t": 62,
+        "candidates": 97224,
+        "losers": 29751,
+        "as_losers": 94
+      },
+      {
+        "t": 63,
+        "candidates": 93644,
+        "losers": 28777,
+        "as_losers": 81
+      },
+      {
+        "t": 64,
+        "candidates": 90081,
+        "losers": 27761,
+        "as_losers": 82
+      },
+      {
+        "t": 65,
+        "candidates": 86957,
+        "losers": 26927,
+        "as_losers": 77
+      },
+      {
+        "t": 66,
+        "candidates": 83738,
+        "losers": 26039,
+        "as_losers": 66
+      },
+      {
+        "t": 67,
+        "candidates": 80531,
+        "losers": 25124,
+        "as_losers": 72
+      },
+      {
+        "t": 68,
+        "candidates": 77762,
+        "losers": 24389,
+        "as_losers": 72
+      },
+      {
+        "t": 69,
+        "candidates": 74954,
+        "losers": 23577,
+        "as_losers": 64
+      },
+      {
+        "t": 70,
+        "candidates": 72115,
+        "losers": 22713,
+        "as_losers": 71
+      },
+      {
+        "t": 71,
+        "candidates": 69543,
+        "losers": 22018,
+        "as_losers": 69
+      },
+      {
+        "t": 72,
+        "candidates": 66930,
+        "losers": 21251,
+        "as_losers": 58
+      },
+      {
+        "t": 73,
+        "candidates": 64291,
+        "losers": 20434,
+        "as_losers": 65
+      },
+      {
+        "t": 74,
+        "candidates": 61903,
+        "losers": 19778,
+        "as_losers": 65
+      },
+      {
+        "t": 75,
+        "candidates": 59481,
+        "losers": 19058,
+        "as_losers": 52
+      },
+      {
+        "t": 76,
+        "candidates": 57049,
+        "losers": 18293,
+        "as_losers": 60
+      },
+      {
+        "t": 77,
+        "candidates": 54859,
+        "losers": 17681,
+        "as_losers": 63
+      },
+      {
+        "t": 78,
+        "candidates": 52638,
+        "losers": 17015,
+        "as_losers": 49
+      },
+      {
+        "t": 79,
+        "candidates": 50419,
+        "losers": 16308,
+        "as_losers": 54
+      },
+      {
+        "t": 80,
+        "candidates": 48431,
+        "losers": 15742,
+        "as_losers": 57
+      },
+      {
+        "t": 81,
+        "candidates": 46404,
+        "losers": 15127,
+        "as_losers": 45
+      },
+      {
+        "t": 82,
+        "candidates": 44385,
+        "losers": 14477,
+        "as_losers": 48
+      },
+      {
+        "t": 83,
+        "candidates": 42595,
+        "losers": 13959,
+        "as_losers": 52
+      },
+      {
+        "t": 84,
+        "candidates": 40763,
+        "losers": 13396,
+        "as_losers": 44
+      },
+      {
+        "t": 85,
+        "candidates": 38942,
+        "losers": 12806,
+        "as_losers": 47
+      },
+      {
+        "t": 86,
+        "candidates": 37345,
+        "losers": 12338,
+        "as_losers": 49
+      },
+      {
+        "t": 87,
+        "candidates": 35699,
+        "losers": 11825,
+        "as_losers": 38
+      },
+      {
+        "t": 88,
+        "candidates": 34053,
+        "losers": 11288,
+        "as_losers": 41
+      },
+      {
+        "t": 89,
+        "candidates": 32626,
+        "losers": 10865,
+        "as_losers": 45
+      },
+      {
+        "t": 90,
+        "candidates": 31155,
+        "losers": 10400,
+        "as_losers": 32
+      },
+      {
+        "t": 91,
+        "candidates": 29678,
+        "losers": 9913,
+        "as_losers": 36
+      },
+      {
+        "t": 92,
+        "candidates": 28412,
+        "losers": 9535,
+        "as_losers": 43
+      },
+      {
+        "t": 93,
+        "candidates": 27110,
+        "losers": 9119,
+        "as_losers": 29
+      },
+      {
+        "t": 94,
+        "candidates": 25797,
+        "losers": 8681,
+        "as_losers": 30
+      },
+      {
+        "t": 95,
+        "candidates": 24675,
+        "losers": 8345,
+        "as_losers": 37
+      },
+      {
+        "t": 96,
+        "candidates": 23524,
+        "losers": 7973,
+        "as_losers": 25
+      },
+      {
+        "t": 97,
+        "candidates": 22363,
+        "losers": 7581,
+        "as_losers": 24
+      },
+      {
+        "t": 98,
+        "candidates": 21376,
+        "losers": 7283,
+        "as_losers": 32
+      },
+      {
+        "t": 99,
+        "candidates": 20362,
+        "losers": 6953,
+        "as_losers": 24
+      },
+      {
+        "t": 100,
+        "candidates": 19343,
+        "losers": 6606,
+        "as_losers": 24
+      },
+      {
+        "t": 101,
+        "candidates": 18485,
+        "losers": 6343,
+        "as_losers": 32
+      },
+      {
+        "t": 102,
+        "candidates": 17590,
+        "losers": 6050,
+        "as_losers": 24
+      },
+      {
+        "t": 103,
+        "candidates": 16687,
+        "losers": 5741,
+        "as_losers": 22
+      },
+      {
+        "t": 104,
+        "candidates": 15938,
+        "losers": 5508,
+        "as_losers": 29
+      },
+      {
+        "t": 105,
+        "candidates": 15148,
+        "losers": 5246,
+        "as_losers": 23
+      },
+      {
+        "t": 106,
+        "candidates": 14346,
+        "losers": 4971,
+        "as_losers": 20
+      },
+      {
+        "t": 107,
+        "candidates": 13694,
+        "losers": 4766,
+        "as_losers": 26
+      },
+      {
+        "t": 108,
+        "candidates": 13003,
+        "losers": 4533,
+        "as_losers": 22
+      },
+      {
+        "t": 109,
+        "candidates": 12295,
+        "losers": 4290,
+        "as_losers": 20
+      },
+      {
+        "t": 110,
+        "candidates": 11730,
+        "losers": 4112,
+        "as_losers": 24
+      },
+      {
+        "t": 111,
+        "candidates": 11130,
+        "losers": 3905,
+        "as_losers": 19
+      },
+      {
+        "t": 112,
+        "candidates": 10506,
+        "losers": 3689,
+        "as_losers": 19
+      },
+      {
+        "t": 113,
+        "candidates": 10015,
+        "losers": 3535,
+        "as_losers": 22
+      },
+      {
+        "t": 114,
+        "candidates": 9495,
+        "losers": 3352,
+        "as_losers": 16
+      },
+      {
+        "t": 115,
+        "candidates": 8949,
+        "losers": 3161,
+        "as_losers": 18
+      },
+      {
+        "t": 116,
+        "candidates": 8525,
+        "losers": 3029,
+        "as_losers": 22
+      },
+      {
+        "t": 117,
+        "candidates": 8077,
+        "losers": 2869,
+        "as_losers": 16
+      },
+      {
+        "t": 118,
+        "candidates": 7600,
+        "losers": 2700,
+        "as_losers": 16
+      },
+      {
+        "t": 119,
+        "candidates": 7232,
+        "losers": 2585,
+        "as_losers": 19
+      },
+      {
+        "t": 120,
+        "candidates": 6843,
+        "losers": 2445,
+        "as_losers": 15
+      },
+      {
+        "t": 121,
+        "candidates": 6427,
+        "losers": 2296,
+        "as_losers": 14
+      },
+      {
+        "t": 122,
+        "candidates": 6111,
+        "losers": 2196,
+        "as_losers": 16
+      },
+      {
+        "t": 123,
+        "candidates": 5774,
+        "losers": 2074,
+        "as_losers": 14
+      },
+      {
+        "t": 124,
+        "candidates": 5413,
+        "losers": 1944,
+        "as_losers": 14
+      },
+      {
+        "t": 125,
+        "candidates": 5145,
+        "losers": 1858,
+        "as_losers": 14
+      },
+      {
+        "t": 126,
+        "candidates": 4853,
+        "losers": 1751,
+        "as_losers": 11
+      },
+      {
+        "t": 127,
+        "candidates": 4539,
+        "losers": 1638,
+        "as_losers": 13
+      },
+      {
+        "t": 128,
+        "candidates": 4313,
+        "losers": 1565,
+        "as_losers": 12
+      },
+      {
+        "t": 129,
+        "candidates": 4063,
+        "losers": 1471,
+        "as_losers": 8
+      },
+      {
+        "t": 130,
+        "candidates": 3789,
+        "losers": 1373,
+        "as_losers": 12
+      },
+      {
+        "t": 131,
+        "candidates": 3599,
+        "losers": 1312,
+        "as_losers": 12
+      },
+      {
+        "t": 132,
+        "candidates": 3389,
+        "losers": 1230,
+        "as_losers": 8
+      },
+      {
+        "t": 133,
+        "candidates": 3149,
+        "losers": 1144,
+        "as_losers": 12
+      },
+      {
+        "t": 134,
+        "candidates": 2987,
+        "losers": 1093,
+        "as_losers": 12
+      },
+      {
+        "t": 135,
+        "candidates": 2808,
+        "losers": 1022,
+        "as_losers": 7
+      },
+      {
+        "t": 136,
+        "candidates": 2599,
+        "losers": 946,
+        "as_losers": 11
+      },
+      {
+        "t": 137,
+        "candidates": 2460,
+        "losers": 903,
+        "as_losers": 12
+      },
+      {
+        "t": 138,
+        "candidates": 2307,
+        "losers": 842,
+        "as_losers": 6
+      },
+      {
+        "t": 139,
+        "candidates": 2127,
+        "losers": 775,
+        "as_losers": 10
+      },
+      {
+        "t": 140,
+        "candidates": 2009,
+        "losers": 739,
+        "as_losers": 12
+      }
+    ],
+    "seconds": 30.712754126999926,
+    "layer_sha256": "0a33d25597450e5fbb789368fc0827deefe885a9f21b557ed213d47ec735c7ca"
+  },
+  {
+    "graph": "two_triangles_path3",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        5
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 36,
+    "critical_as_witness": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 120,
+        "losers": 94,
+        "as_losers": 94
+      },
+      {
+        "t": 4,
+        "candidates": 316,
+        "losers": 271,
+        "as_losers": 258
+      },
+      {
+        "t": 5,
+        "candidates": 760,
+        "losers": 656,
+        "as_losers": 502
+      },
+      {
+        "t": 6,
+        "candidates": 1644,
+        "losers": 1410,
+        "as_losers": 724
+      },
+      {
+        "t": 7,
+        "candidates": 3258,
+        "losers": 2718,
+        "as_losers": 836
+      },
+      {
+        "t": 8,
+        "candidates": 6058,
+        "losers": 4769,
+        "as_losers": 839
+      },
+      {
+        "t": 9,
+        "candidates": 10626,
+        "losers": 7526,
+        "as_losers": 786
+      },
+      {
+        "t": 10,
+        "candidates": 17585,
+        "losers": 10558,
+        "as_losers": 726
+      },
+      {
+        "t": 11,
+        "candidates": 27442,
+        "losers": 12926,
+        "as_losers": 658
+      },
+      {
+        "t": 12,
+        "candidates": 39179,
+        "losers": 13710,
+        "as_losers": 610
+      },
+      {
+        "t": 13,
+        "candidates": 49110,
+        "losers": 12862,
+        "as_losers": 564
+      },
+      {
+        "t": 14,
+        "candidates": 52473,
+        "losers": 11134,
+        "as_losers": 490
+      },
+      {
+        "t": 15,
+        "candidates": 48622,
+        "losers": 9390,
+        "as_losers": 442
+      },
+      {
+        "t": 16,
+        "candidates": 41633,
+        "losers": 8061,
+        "as_losers": 414
+      },
+      {
+        "t": 17,
+        "candidates": 35778,
+        "losers": 7016,
+        "as_losers": 352
+      },
+      {
+        "t": 18,
+        "candidates": 31458,
+        "losers": 6140,
+        "as_losers": 290
+      },
+      {
+        "t": 19,
+        "candidates": 28024,
+        "losers": 5370,
+        "as_losers": 258
+      },
+      {
+        "t": 20,
+        "candidates": 25154,
+        "losers": 4720,
+        "as_losers": 232
+      },
+      {
+        "t": 21,
+        "candidates": 22540,
+        "losers": 4196,
+        "as_losers": 206
+      },
+      {
+        "t": 22,
+        "candidates": 20182,
+        "losers": 3782,
+        "as_losers": 186
+      },
+      {
+        "t": 23,
+        "candidates": 18258,
+        "losers": 3378,
+        "as_losers": 172
+      },
+      {
+        "t": 24,
+        "candidates": 16390,
+        "losers": 2948,
+        "as_losers": 160
+      },
+      {
+        "t": 25,
+        "candidates": 14340,
+        "losers": 2530,
+        "as_losers": 140
+      },
+      {
+        "t": 26,
+        "candidates": 12412,
+        "losers": 2114,
+        "as_losers": 124
+      },
+      {
+        "t": 27,
+        "candidates": 10512,
+        "losers": 1710,
+        "as_losers": 112
+      },
+      {
+        "t": 28,
+        "candidates": 8568,
+        "losers": 1374,
+        "as_losers": 100
+      },
+      {
+        "t": 29,
+        "candidates": 6966,
+        "losers": 1092,
+        "as_losers": 88
+      },
+      {
+        "t": 30,
+        "candidates": 5638,
+        "losers": 806,
+        "as_losers": 76
+      },
+      {
+        "t": 31,
+        "candidates": 4244,
+        "losers": 552,
+        "as_losers": 64
+      },
+      {
+        "t": 32,
+        "candidates": 2880,
+        "losers": 354,
+        "as_losers": 44
+      },
+      {
+        "t": 33,
+        "candidates": 1906,
+        "losers": 170,
+        "as_losers": 28
+      },
+      {
+        "t": 34,
+        "candidates": 1066,
+        "losers": 44,
+        "as_losers": 16
+      },
+      {
+        "t": 35,
+        "candidates": 312,
+        "losers": 4,
+        "as_losers": 4
+      },
+      {
+        "t": 36,
+        "candidates": 24,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 1.3804749549999542,
+    "layer_sha256": "5ed3c8c93931f9c7ababadaee95e70051a6ac7a0071d5c12cf0623fc80be95d0"
+  },
+  {
+    "graph": "two_triangles_path3",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        5
+      ]
+    ],
+    "mode": "clear",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 36,
+    "critical_as_witness": [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 120,
+        "losers": 102,
+        "as_losers": 102
+      },
+      {
+        "t": 4,
+        "candidates": 318,
+        "losers": 274,
+        "as_losers": 258
+      },
+      {
+        "t": 5,
+        "candidates": 760,
+        "losers": 664,
+        "as_losers": 508
+      },
+      {
+        "t": 6,
+        "candidates": 1648,
+        "losers": 1424,
+        "as_losers": 726
+      },
+      {
+        "t": 7,
+        "candidates": 3260,
+        "losers": 2738,
+        "as_losers": 838
+      },
+      {
+        "t": 8,
+        "candidates": 6073,
+        "losers": 4803,
+        "as_losers": 847
+      },
+      {
+        "t": 9,
+        "candidates": 10654,
+        "losers": 7574,
+        "as_losers": 792
+      },
+      {
+        "t": 10,
+        "candidates": 17635,
+        "losers": 10609,
+        "as_losers": 730
+      },
+      {
+        "t": 11,
+        "candidates": 27526,
+        "losers": 12980,
+        "as_losers": 664
+      },
+      {
+        "t": 12,
+        "candidates": 39297,
+        "losers": 13749,
+        "as_losers": 612
+      },
+      {
+        "t": 13,
+        "candidates": 49208,
+        "losers": 12882,
+        "as_losers": 566
+      },
+      {
+        "t": 14,
+        "candidates": 52555,
+        "losers": 11144,
+        "as_losers": 494
+      },
+      {
+        "t": 15,
+        "candidates": 48674,
+        "losers": 9392,
+        "as_losers": 444
+      },
+      {
+        "t": 16,
+        "candidates": 41643,
+        "losers": 8061,
+        "as_losers": 414
+      },
+      {
+        "t": 17,
+        "candidates": 35778,
+        "losers": 7016,
+        "as_losers": 352
+      },
+      {
+        "t": 18,
+        "candidates": 31458,
+        "losers": 6140,
+        "as_losers": 290
+      },
+      {
+        "t": 19,
+        "candidates": 28024,
+        "losers": 5370,
+        "as_losers": 258
+      },
+      {
+        "t": 20,
+        "candidates": 25154,
+        "losers": 4720,
+        "as_losers": 232
+      },
+      {
+        "t": 21,
+        "candidates": 22540,
+        "losers": 4196,
+        "as_losers": 206
+      },
+      {
+        "t": 22,
+        "candidates": 20182,
+        "losers": 3782,
+        "as_losers": 186
+      },
+      {
+        "t": 23,
+        "candidates": 18258,
+        "losers": 3378,
+        "as_losers": 172
+      },
+      {
+        "t": 24,
+        "candidates": 16390,
+        "losers": 2948,
+        "as_losers": 160
+      },
+      {
+        "t": 25,
+        "candidates": 14340,
+        "losers": 2530,
+        "as_losers": 140
+      },
+      {
+        "t": 26,
+        "candidates": 12412,
+        "losers": 2114,
+        "as_losers": 124
+      },
+      {
+        "t": 27,
+        "candidates": 10512,
+        "losers": 1710,
+        "as_losers": 112
+      },
+      {
+        "t": 28,
+        "candidates": 8568,
+        "losers": 1374,
+        "as_losers": 100
+      },
+      {
+        "t": 29,
+        "candidates": 6966,
+        "losers": 1092,
+        "as_losers": 88
+      },
+      {
+        "t": 30,
+        "candidates": 5638,
+        "losers": 806,
+        "as_losers": 76
+      },
+      {
+        "t": 31,
+        "candidates": 4244,
+        "losers": 552,
+        "as_losers": 64
+      },
+      {
+        "t": 32,
+        "candidates": 2880,
+        "losers": 354,
+        "as_losers": 44
+      },
+      {
+        "t": 33,
+        "candidates": 1906,
+        "losers": 170,
+        "as_losers": 28
+      },
+      {
+        "t": 34,
+        "candidates": 1066,
+        "losers": 44,
+        "as_losers": 16
+      },
+      {
+        "t": 35,
+        "candidates": 312,
+        "losers": 4,
+        "as_losers": 4
+      },
+      {
+        "t": 36,
+        "candidates": 24,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 1.2495117810000238,
+    "layer_sha256": "f497066d5cf59d3e10540e09d60ef6a80e5922073053b2a9d7fe1c34b10994bd"
+  },
+  {
+    "graph": "C8_chord04",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "mode": "stack",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 23,
+    "critical_as_witness": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      21,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 120,
+        "losers": 94,
+        "as_losers": 94
+      },
+      {
+        "t": 4,
+        "candidates": 322,
+        "losers": 259,
+        "as_losers": 252
+      },
+      {
+        "t": 5,
+        "candidates": 778,
+        "losers": 582,
+        "as_losers": 474
+      },
+      {
+        "t": 6,
+        "candidates": 1650,
+        "losers": 1151,
+        "as_losers": 674
+      },
+      {
+        "t": 7,
+        "candidates": 3232,
+        "losers": 1956,
+        "as_losers": 728
+      },
+      {
+        "t": 8,
+        "candidates": 5838,
+        "losers": 2889,
+        "as_losers": 691
+      },
+      {
+        "t": 9,
+        "candidates": 9782,
+        "losers": 3450,
+        "as_losers": 576
+      },
+      {
+        "t": 10,
+        "candidates": 14145,
+        "losers": 3150,
+        "as_losers": 442
+      },
+      {
+        "t": 11,
+        "candidates": 16136,
+        "losers": 2306,
+        "as_losers": 308
+      },
+      {
+        "t": 12,
+        "candidates": 13406,
+        "losers": 1508,
+        "as_losers": 220
+      },
+      {
+        "t": 13,
+        "candidates": 9188,
+        "losers": 928,
+        "as_losers": 154
+      },
+      {
+        "t": 14,
+        "candidates": 5803,
+        "losers": 535,
+        "as_losers": 88
+      },
+      {
+        "t": 15,
+        "candidates": 3376,
+        "losers": 286,
+        "as_losers": 66
+      },
+      {
+        "t": 16,
+        "candidates": 1830,
+        "losers": 156,
+        "as_losers": 46
+      },
+      {
+        "t": 17,
+        "candidates": 996,
+        "losers": 80,
+        "as_losers": 24
+      },
+      {
+        "t": 18,
+        "candidates": 499,
+        "losers": 37,
+        "as_losers": 20
+      },
+      {
+        "t": 19,
+        "candidates": 228,
+        "losers": 20,
+        "as_losers": 12
+      },
+      {
+        "t": 20,
+        "candidates": 116,
+        "losers": 8,
+        "as_losers": 4
+      },
+      {
+        "t": 21,
+        "candidates": 46,
+        "losers": 4,
+        "as_losers": 4
+      },
+      {
+        "t": 22,
+        "candidates": 22,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 23,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.17019524800002728,
+    "layer_sha256": "64a07dab10e360d1111b89199592c4b7187ae69e2de7188510f3625a781fd3bc"
+  },
+  {
+    "graph": "C8_chord04",
+    "n": 8,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "mode": "clear",
+    "scope": "EXACT_THRESHOLD",
+    "threshold": 23,
+    "critical_as_witness": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      21,
+      0
+    ],
+    "rows": [
+      {
+        "t": 1,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      },
+      {
+        "t": 2,
+        "candidates": 28,
+        "losers": 28,
+        "as_losers": 28
+      },
+      {
+        "t": 3,
+        "candidates": 120,
+        "losers": 102,
+        "as_losers": 102
+      },
+      {
+        "t": 4,
+        "candidates": 322,
+        "losers": 268,
+        "as_losers": 252
+      },
+      {
+        "t": 5,
+        "candidates": 778,
+        "losers": 612,
+        "as_losers": 492
+      },
+      {
+        "t": 6,
+        "candidates": 1662,
+        "losers": 1214,
+        "as_losers": 682
+      },
+      {
+        "t": 7,
+        "candidates": 3242,
+        "losers": 2048,
+        "as_losers": 740
+      },
+      {
+        "t": 8,
+        "candidates": 5923,
+        "losers": 3028,
+        "as_losers": 723
+      },
+      {
+        "t": 9,
+        "candidates": 9926,
+        "losers": 3612,
+        "as_losers": 590
+      },
+      {
+        "t": 10,
+        "candidates": 14415,
+        "losers": 3290,
+        "as_losers": 452
+      },
+      {
+        "t": 11,
+        "candidates": 16746,
+        "losers": 2398,
+        "as_losers": 328
+      },
+      {
+        "t": 12,
+        "candidates": 14056,
+        "losers": 1551,
+        "as_losers": 234
+      },
+      {
+        "t": 13,
+        "candidates": 9518,
+        "losers": 930,
+        "as_losers": 154
+      },
+      {
+        "t": 14,
+        "candidates": 5815,
+        "losers": 535,
+        "as_losers": 88
+      },
+      {
+        "t": 15,
+        "candidates": 3376,
+        "losers": 286,
+        "as_losers": 66
+      },
+      {
+        "t": 16,
+        "candidates": 1830,
+        "losers": 156,
+        "as_losers": 46
+      },
+      {
+        "t": 17,
+        "candidates": 996,
+        "losers": 80,
+        "as_losers": 24
+      },
+      {
+        "t": 18,
+        "candidates": 499,
+        "losers": 37,
+        "as_losers": 20
+      },
+      {
+        "t": 19,
+        "candidates": 228,
+        "losers": 20,
+        "as_losers": 12
+      },
+      {
+        "t": 20,
+        "candidates": 116,
+        "losers": 8,
+        "as_losers": 4
+      },
+      {
+        "t": 21,
+        "candidates": 46,
+        "losers": 4,
+        "as_losers": 4
+      },
+      {
+        "t": 22,
+        "candidates": 22,
+        "losers": 2,
+        "as_losers": 2
+      },
+      {
+        "t": 23,
+        "candidates": 8,
+        "losers": 0,
+        "as_losers": 0
+      }
+    ],
+    "seconds": 0.13727872199990543,
+    "layer_sha256": "fe321ea2005eec332e63334e119d5a5e30a02ed8807711f8752c2a8f6e64f3dc"
+  }
+]

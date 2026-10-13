@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-13",
+  "versions": {
+    "2610.09650": {
+      "listed": [
+        "v1"
+      ],
+      "pdf_bytes": 390157,
+      "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
+      "abs_sha256": "d0d80046036c91b04ded101be149190d79b63bee89f45c2d978db415a7be63db",
+      "statement_unchanged": true
+    },
+    "2604.22341": {
+      "listed": [
+        "v1"
+      ],
+      "pdf_bytes": 652580,
+      "pdf_sha256": "ab34962a77a7caa4126d07430e48ba47b04c57f5ef71c21f85803cf959cbabed",
+      "abs_sha256": "4d0f5ec6622445bfdbac25464809373d5d118892569d81f7f3bae55494c66cff",
+      "statement_unchanged": true
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "pdfs_redistributed": false
+}

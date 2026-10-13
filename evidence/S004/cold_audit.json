@@ -1,0 +1,699 @@
+{
+  "algorithm": "fresh full reverse winning DP + forward closure",
+  "core": [
+    {
+      "graph": "P4",
+      "mode": "stack",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "bipartite": true,
+      "threshold": 15,
+      "as12_count": 32,
+      "loser": [
+        1,
+        0,
+        2,
+        9
+      ],
+      "reachable_count": 50,
+      "reachable_sha256": "41eba1e2d8a5e5f6646b60d6006d2a2af10de466f065117841f96316e1c95d2e",
+      "layers": [
+        {
+          "t": 1,
+          "total": 4,
+          "losers": 0,
+          "as_losers": 0
+        },
+        {
+          "t": 2,
+          "total": 10,
+          "losers": 6,
+          "as_losers": 6
+        },
+        {
+          "t": 3,
+          "total": 20,
+          "losers": 10,
+          "as_losers": 10
+        },
+        {
+          "t": 4,
+          "total": 35,
+          "losers": 16,
+          "as_losers": 15
+        },
+        {
+          "t": 5,
+          "total": 56,
+          "losers": 20,
+          "as_losers": 14
+        },
+        {
+          "t": 6,
+          "total": 84,
+          "losers": 24,
+          "as_losers": 12
+        },
+        {
+          "t": 7,
+          "total": 120,
+          "losers": 22,
+          "as_losers": 10
+        },
+        {
+          "t": 8,
+          "total": 165,
+          "losers": 21,
+          "as_losers": 6
+        },
+        {
+          "t": 9,
+          "total": 220,
+          "losers": 14,
+          "as_losers": 2
+        },
+        {
+          "t": 10,
+          "total": 286,
+          "losers": 11,
+          "as_losers": 6
+        },
+        {
+          "t": 11,
+          "total": 364,
+          "losers": 8,
+          "as_losers": 4
+        },
+        {
+          "t": 12,
+          "total": 455,
+          "losers": 4,
+          "as_losers": 0
+        },
+        {
+          "t": 13,
+          "total": 560,
+          "losers": 2,
+          "as_losers": 2
+        },
+        {
+          "t": 14,
+          "total": 680,
+          "losers": 2,
+          "as_losers": 2
+        },
+        {
+          "t": 15,
+          "total": 816,
+          "losers": 0,
+          "as_losers": 0
+        }
+      ]
+    },
+    {
+      "graph": "bull",
+      "mode": "stack",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bipartite": false,
+      "threshold": 15,
+      "as12_count": 80,
+      "loser": [
+        1,
+        9,
+        0,
+        2,
+        0
+      ],
+      "reachable_count": 96,
+      "reachable_sha256": "3a80a6401781488274f96bcf11852843a7c542d70a8957566094c06f0303f88b",
+      "layers": [
+        {
+          "t": 1,
+          "total": 5,
+          "losers": 0,
+          "as_losers": 0
+        },
+        {
+          "t": 2,
+          "total": 15,
+          "losers": 10,
+          "as_losers": 10
+        },
+        {
+          "t": 3,
+          "total": 35,
+          "losers": 20,
+          "as_losers": 20
+        },
+        {
+          "t": 4,
+          "total": 70,
+          "losers": 35,
+          "as_losers": 34
+        },
+        {
+          "t": 5,
+          "total": 126,
+          "losers": 47,
+          "as_losers": 38
+        },
+        {
+          "t": 6,
+          "total": 210,
+          "losers": 58,
+          "as_losers": 32
+        },
+        {
+          "t": 7,
+          "total": 330,
+          "losers": 52,
+          "as_losers": 24
+        },
+        {
+          "t": 8,
+          "total": 495,
+          "losers": 47,
+          "as_losers": 15
+        },
+        {
+          "t": 9,
+          "total": 715,
+          "losers": 29,
+          "as_losers": 5
+        },
+        {
+          "t": 10,
+          "total": 1001,
+          "losers": 15,
+          "as_losers": 8
+        },
+        {
+          "t": 11,
+          "total": 1365,
+          "losers": 11,
+          "as_losers": 6
+        },
+        {
+          "t": 12,
+          "total": 1820,
+          "losers": 4,
+          "as_losers": 0
+        },
+        {
+          "t": 13,
+          "total": 2380,
+          "losers": 2,
+          "as_losers": 2
+        },
+        {
+          "t": 14,
+          "total": 3060,
+          "losers": 2,
+          "as_losers": 2
+        },
+        {
+          "t": 15,
+          "total": 3876,
+          "losers": 0,
+          "as_losers": 0
+        }
+      ]
+    },
+    {
+      "graph": "bull",
+      "mode": "clear",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bipartite": false,
+      "threshold": 15,
+      "as12_count": 80,
+      "loser": [
+        1,
+        9,
+        0,
+        2,
+        0
+      ],
+      "reachable_count": 96,
+      "reachable_sha256": "3a80a6401781488274f96bcf11852843a7c542d70a8957566094c06f0303f88b",
+      "layers": [
+        {
+          "t": 1,
+          "total": 5,
+          "losers": 0,
+          "as_losers": 0
+        },
+        {
+          "t": 2,
+          "total": 15,
+          "losers": 10,
+          "as_losers": 10
+        },
+        {
+          "t": 3,
+          "total": 35,
+          "losers": 25,
+          "as_losers": 25
+        },
+        {
+          "t": 4,
+          "total": 70,
+          "losers": 37,
+          "as_losers": 34
+        },
+        {
+          "t": 5,
+          "total": 126,
+          "losers": 51,
+          "as_losers": 42
+        },
+        {
+          "t": 6,
+          "total": 210,
+          "losers": 62,
+          "as_losers": 34
+        },
+        {
+          "t": 7,
+          "total": 330,
+          "losers": 54,
+          "as_losers": 24
+        },
+        {
+          "t": 8,
+          "total": 495,
+          "losers": 49,
+          "as_losers": 17
+        },
+        {
+          "t": 9,
+          "total": 715,
+          "losers": 31,
+          "as_losers": 7
+        },
+        {
+          "t": 10,
+          "total": 1001,
+          "losers": 15,
+          "as_losers": 8
+        },
+        {
+          "t": 11,
+          "total": 1365,
+          "losers": 11,
+          "as_losers": 6
+        },
+        {
+          "t": 12,
+          "total": 1820,
+          "losers": 4,
+          "as_losers": 0
+        },
+        {
+          "t": 13,
+          "total": 2380,
+          "losers": 2,
+          "as_losers": 2
+        },
+        {
+          "t": 14,
+          "total": 3060,
+          "losers": 2,
+          "as_losers": 2
+        },
+        {
+          "t": 15,
+          "total": 3876,
+          "losers": 0,
+          "as_losers": 0
+        }
+      ]
+    }
+  ],
+  "minimality": [
+    {
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 3,
+      "gaps": []
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 7,
+      "gaps": []
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 4,
+      "gaps": []
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "mode": "clear",
+      "threshold": 4,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 10,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 15,
+      "gaps": [
+        12
+      ]
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 8,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "mode": "clear",
+      "threshold": 10,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 7,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 7,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "mode": "clear",
+      "threshold": 7,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "mode": "stack",
+      "threshold": 5,
+      "gaps": []
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "mode": "clear",
+      "threshold": 5,
+      "gaps": []
+    }
+  ],
+  "boundaries": {
+    "K1_stack": 2,
+    "K1_all_positive_stacked": true,
+    "K2_stack": 3,
+    "zero_goal_stack": false,
+    "zero_goal_clear": false,
+    "one_goal_both": true
+  },
+  "seconds": 0.1525540709999973
+}

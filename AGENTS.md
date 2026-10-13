@@ -1,7 +1,7 @@
 # Binding research and repository rules
 
 1. **Authority:** live remote main SHA, this file, authoritative/START_HERE.md, STATE.json, phase gates, session protocol, then catalogues and evidence. Reconcile conflicting files explicitly.
-2. One **numbered research session** per fresh owner invocation; a future handoff is never permission to execute it in the current session. This S001 is bootstrap only.
+2. One **numbered research session** per fresh owner invocation; a future handoff is never permission to execute it in the current session. The S001 bootstrap-only scope is historical; the current explicit invocation selects its own numbered session.
 3. Headline: prove or disprove the **universal** Almost Stacked Hypothesis in its **exact cited form**, not just a cycle formula or a tree consequence. Separate stack for connected graphs and clear for connected non-bipartite graphs; never conflate them.
 4. The pre-existing TreeStack result `stack(T)=estim(T)` (nontrivial trees) is an **earlier result**. Properly credit arXiv:2609.31811 and registered Lean package. No rediscovery or unqualified novelty claim. Check exact estimator/threshold conventions.
 5. Primary-source access statuses: METADATA_ONLY, ABSTRACT_INSPECTED, STATEMENT_INSPECTED, PROOF_INSPECTED, SECONDARY_ONLY. A paper's abstract is not the full theorem. Source citations carry stable SRC identifiers; no copyrighted PDF mirrored here without rights.

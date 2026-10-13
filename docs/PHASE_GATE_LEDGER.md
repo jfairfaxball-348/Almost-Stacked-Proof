@@ -21,3 +21,5 @@ S003 review (2026-10-12): Phase 0 PASS inherited. **Phase 1 IN_PROGRESS — lite
 - Phases 2–6: NOT STARTED/OWNER_GATED; no promotion.
 
 2026-10-13 correspondence update (NOT a research session): Tamás Csernák confirms ASH* is the intended conjecture; the printed statement is stronger and false. **No phase advancement**. The independent cold audit and any printed-form Phase 1 exit decision remain S004 responsibilities; ASH* universal proof/counterexample remains open under Phase 1. Author's n<=7 report is SOURCE_STATED, not a completed independent rerun. Phases 2–6 unchanged.
+
+S004 review (2026-10-13): **Printed-form mathematics Phase1 PASS**, cold independent full-DP/closure/sequence audit completed. **Universal ASH* Phase1 IN_PROGRESS** for both goals. Independent-set AS witness and complete multipartite family consequence proved; full order-seven atlas computed. No universal proof/counterexample. Phase2 NOT_STARTED (permitted only as separate printed-result audit if invoked), Lean NOT_STARTED, other stages unchanged. Evidence: sessions/S004/AUDIT.md; research/S004_ASHSTAR_ATTACK.md; complete layers and independent replay in evidence/S004.

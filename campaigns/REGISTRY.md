@@ -21,3 +21,7 @@ Six specified labeled simple connected order-8 graphs, all exact configuration s
 - Headline: the printed ASH fails (stack on P4 at t=12; clear on the bull graph at t=12). The critical form ASH* holds on every graph whose threshold was found.
 - Not claimed: no statement beyond the enumerated graphs and caps; graphs over their cap are cutoff only.
 - A3 outcome: completed in full for all 11117 graphs (≈34 min). Thresholds ≤26 were found for 10225 (stack) and 10052 (clear) graphs, the reverse solver agreed on all of them, and there were zero ASH* failures. Totals used ≈71 min of the 180-min budget.
+
+## CAM-S004-01 — completed within registered cutoffs
+
+Plan sessions/S004/PLAN.md (hash in PLAN.sha256), 21 graph/goal runs, no configuration symmetry. All 8 stack/3 clear unresolved n7 cases exact; selected larger graphs completed in19/21 runs. C10 candidate cutoff before t17, triangle-tail clear mass cutoff140. Primary tuple all-predecessor losing recurrence; independent packed canonical-first-parent complete layer replay; cold full reverse-winning base DP on all21 cases. Evidence hashes in evidence/S004/HASHES.md. Total producer computation137.1s excluding serialization; resources stayed within per-case/campaign bounds. Cold audit n<=4 and structural n<=5 campaigns also completed; 233 independent-set witness challenges. No universal verdict.

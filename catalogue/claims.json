@@ -72,7 +72,7 @@
     "sources": [
       "SRC-0009"
     ],
-    "claim": "ASH false via finite counterexample: achieved for the printed (literal) form, both halves; see CLM-0016/CLM-0017 (Lean pending, independent cold audit pending)"
+    "claim": "ASH false via finite counterexample: achieved for the printed (literal) form, both halves; see CLM-0016/CLM-0017 (Lean pending; S004 cold audit PASS)"
   },
   {
     "id": "CLM-0010",
@@ -127,7 +127,7 @@
     "sources": [
       "SRC-0009"
     ],
-    "claim": "Printed ASH stacking half is false: on P4 (0-1-2-3) every one of the 32 AS configurations of size 12 is stackable while (1,0,2,9) is not, so least AS threshold <=12 < stack(P4)=15; finite certificate evidence/S003/cert_P4_stack_t12.json checked by independent tools (Lean pending, cold audit pending)"
+    "claim": "Printed ASH stacking half is false: on P4 (0-1-2-3) every one of the 32 AS configurations of size 12 is stackable while (1,0,2,9) is not, so least AS threshold <=12 < stack(P4)=15; finite certificate evidence/S003/cert_P4_stack_t12.json checked by independent tools (Lean pending; S004 cold audit PASS)"
   },
   {
     "id": "CLM-0017",
@@ -135,7 +135,7 @@
     "sources": [
       "SRC-0009"
     ],
-    "claim": "Printed ASH clearing half is false: on the non-bipartite bull graph (triangle 2-3-4, pendants 1-3, 0-4) every one of the 80 AS configurations of size 12 is clearable while (1,9,0,2,0) is not, so least AS threshold <=12 < clear=15; certificate evidence/S003/cert_bull_clear_t12.json (Lean pending, cold audit pending)"
+    "claim": "Printed ASH clearing half is false: on the non-bipartite bull graph (triangle 2-3-4, pendants 1-3, 0-4) every one of the 80 AS configurations of size 12 is clearable while (1,9,0,2,0) is not, so least AS threshold <=12 < clear=15; certificate evidence/S003/cert_bull_clear_t12.json (Lean pending; S004 cold audit PASS)"
   },
   {
     "id": "CLM-0018",
@@ -207,7 +207,7 @@
     "sources": [
       "SRC-0009"
     ],
-    "claim": "All 853 connected 7-vertex graphs, exact layers t<=55, forward and independent reverse solvers agreeing on every graph: stack threshold found for 845 (8 cutoff), clear for 806 of 809 non-bipartite (3 cutoff); critical form ASH* holds for every graph whose threshold was found; printed form fails on 112 (stack) and 123 (clear) -- independent replication of the authors' n<=7 atlas claim under its critical reading"
+    "claim": "All 853 connected 7-vertex graphs, exact layers t<=55, forward and independent reverse solvers agreeing on every graph: stack threshold found for 845 (8 cutoff), clear for 806 of 809 non-bipartite (3 cutoff); critical form ASH* holds for every graph whose threshold was found; printed form fails on 112 (stack) and 123 (clear) -- independent replication of the authors' n<=7 atlas claim under its critical reading Historical S003 cutoff; S004 independently completes the remaining 8/3 cases (CLM-0033)."
   },
   {
     "id": "CLM-0027",
@@ -233,6 +233,82 @@
       "SRC-0007",
       "SRC-0009"
     ],
-    "claim": "Tamás Csernák reports all connected graphs through 7 vertices had stack/clear thresholds computed in applicable classes and ASH* held; programme n=7 independent computation remains 845/853 stack and 806/809 clear (t<=55), so authors' uncomputed remainder is author-reported, not independently verified"
+    "claim": "Tamás Csernák reports complete n<=7 computations and ASH* holding (SOURCE_STATED). S004 separately independently completes S003's missing 8 stack/3 clear cases, so combined programme order-seven coverage is now 853/853 and 809/809; author testimony is not itself the computation."
+  },
+  {
+    "id": "CLM-0030",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0011"
+    ],
+    "claim": "Complete sparse losing recurrence: inverse predecessors plus terminal 0/1 seeds, filtered by non-goal and all-successor loss, certify every exact layer and its first empty threshold (S004 Theorem11)."
+  },
+  {
+    "id": "CLM-0031",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0012"
+    ],
+    "claim": "For any finite simple graph and independent I of size k>=2, (2k+1)e_r + sum_{x in I minus r}e_x is almost stacked of size3k and non-stackable, including graphs with internal edges outside I (S004 Theorem12; no novelty or Lean claim)."
+  },
+  {
+    "id": "CLM-0032",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0012",
+      "SRC-0002"
+    ],
+    "claim": "ASH* holds for all connected complete multipartite graphs for stack and all non-bipartite such graphs for clear; S004 AS witness plus cited April Thms8.1-8.3 exact thresholds. More generally g=n+1 or g=3alpha+1 gives ASH* (Corollaries13-14)."
+  },
+  {
+    "id": "CLM-0033",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0011",
+      "SRC-0009"
+    ],
+    "claim": "S004 complete certificates close all eight missing n7 stack and three clear thresholds; combined S003+S004 order-seven coverage 853/853 stack and 809/809 clear, AS critical losers throughout. No universal extrapolation."
+  },
+  {
+    "id": "CLM-0034",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0011"
+    ],
+    "claim": "Selected labelled larger graphs: C9 stack37 clear46; triangle with length-five tail stack128; two triangles joined by length-three path stack=clear36. C10 cutoff after exact t16, triangle-tail clear>140 but undetermined. All completed layers independently replayed."
+  },
+  {
+    "id": "CLM-0035",
+    "status": "HEURISTIC",
+    "sources": [
+      "SRC-0011",
+      "SRC-0012"
+    ],
+    "claim": "Every global square-potential maximizer on the critical losing layer might be AS; all maximizers are AS in 50 n<=5 graph/goal cases and19 S004 complete frontier cases. No proof. Local convexity and minimum-support-all-AS fail on P3."
+  },
+  {
+    "id": "CLM-0036",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0012",
+      "SRC-0001"
+    ],
+    "claim": "On connected edge-triangulated graphs, every mass>=4 configuration is stackable iff clearable; hence the two ASH* questions are equivalent there. Pointwise form of credited October Lemma6.4 proof (S004 Proposition15)."
+  },
+  {
+    "id": "CLM-0037",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0012"
+    ],
+    "claim": "Additive legal-move invariants on connected graphs with edges are signed 3-torsion bipartite weights and are trivial on non-bipartite graphs (S004 Proposition16)."
+  },
+  {
+    "id": "CLM-0038",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0012"
+    ],
+    "claim": "Rooted clear configurations are exactly binary ancestry-language vectors; rooted stack configurations are finite nonempty sums of them, with legal postorder realization (S004 Proposition17). Balance equations alone are insufficient (K3 terminal all ones)."
   }
 ]

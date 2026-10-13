@@ -22,3 +22,7 @@
 
 ## 2026-10-13 provenance update, NOT a novelty search
 Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms that critical-form ASH* is the intended conjecture, that the printed stronger form is false, and that the authors' upward bad-set algorithm found ASH* throughout the <=7-vertex atlas. Registered as SRC-0010, summarized (not verbatim reproduced) in `outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md`. This **does not** update the current arXiv version list or discharge an independent novelty search, cold audit, or publication priority claim.
+
+## S004 current source check, not Phase2 novelty
+
+2026-10-13 direct current arXiv abs/PDF fetches for2610.09650 and2604.22341; bothv1 only and exact previous PDF digests. October Hyp3.2 / April Hyp9.1 re-read, unchanged. Web verification query `arxiv 2610.09650 Almost Stacked Hypothesis Csernak Soukup` with recent filter surfaced the primary current source. No comprehensive erratum/priority search was performed. Author summary remains SRC0010, not a posted erratum. The new AS witness/family result has no novelty claim.

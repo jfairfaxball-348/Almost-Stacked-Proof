@@ -22,3 +22,9 @@
 
 | FL-0018 | Mistaking a privately reported author acknowledgement for a posted correction, a validation of particular counterexample certificate files, or a universal proof | Record as SRC-0010 SOURCE_STATED with provenance and no raw email; require new paper version and independent S004 cold audit separately |
 | FL-0019 | Misusing the bad-layer predecessor recurrence as an ASH* proof, or overlooking terminal no-move configurations | Include `c not goal` and the universal quantifier over all legal successors; for t<=n handle 0/1 terminal losers explicitly; demonstrate any proposed extremal structural theorem independently |
+
+| FL-0020 | Selecting minimum critical support need not select AS; pair-direction loss is not interval-convex | P3 centre0 c=(0,3,3) critical loser, (0,4,2)/(0,2,4) winners, (0,5,1) loser; global square-extremal conjecture remains open |
+| FL-0021 | Unrooted block thresholds/list do not determine union threshold | K3 with two K2 blocks arranged as same-vertex leaves gives11/13, as length2 tail gives16/22; rooted interfaces essential |
+| FL-0022 | Nonzero additive/mod3 invariant cannot persist on a connected non-bipartite graph | both edge directions force3-torsion, odd cycle also2-torsion, hencezero; weight-loss budget plus chronology needed |
+| FL-0023 | Nonnegative integer firing balance does not ensure a legal schedule | terminal K3 (1,1,1) balances formally to e2 by a two-cycle but cannot move |
+| FL-0024 | Sparse candidate explosion or mass cutoff is not an exact threshold | C10 completed only through16; triangle-tail clear>140; no ASH* verdict for these cases |

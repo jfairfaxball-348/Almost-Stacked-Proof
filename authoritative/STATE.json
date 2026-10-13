@@ -1,10 +1,10 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-13",
-  "last_completed_session": "S003",
-  "recommended_next_session": "S004",
+  "last_completed_session": "S004",
+  "recommended_next_session": "S005",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
-  "headline_status": "PRINTED_ASH_REFUTED_PENDING_INDEPENDENT_AUDIT_CRITICAL_FORM_OPEN",
+  "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
   "active_campaign": null,
   "phases": {
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Exit candidate for printed form (certified counterexample); independent cold audit required before PASS (S004); critical form ASH* open"
+      "note": "Universal ASH* IN_PROGRESS; printed-form mathematics separately PASS after S004 cold audit. AS independent-set witness proves ASH* at independence-bound saturation; complete multipartite family settled using source thresholds."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,25 +38,25 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "October 2610.09650v1 STATEMENT_INSPECTED (Lemma 4.7, Thm 5.2 PROOF_INSPECTED); April 2604.22341v1 STATEMENT_INSPECTED; authors atlas code inspected (tests critical form)",
-  "counterexample_status": "PRINTED_FORM_CERTIFIED_LEAN_AND_COLD_AUDIT_PENDING",
+  "source_inspection": "Fresh October/April v1 PDFs and version lists verified S004; hashes unchanged; exact printed statements inspected; October Lemmas 4.7/6.4 proofs inspected; April 8.2/8.3 threshold statements inspected",
+  "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "S004 (not yet invoked): independent cold audit of printed-ASH P4/bull certificates, and explicit scope-limited Phase 1 gate decision.",
-    "S004: seriously attempt general ASH* proof or certified counterexample; use bad-layer recurrence, last-layer extremal structures, graph reductions and independent falsification; see research/ASHSTAR_ATTACK_BRIEF.md.",
-    "Distinguish author-reported complete n<=7 threshold survey from independently completed n=7 845/853 stacking and 806/809 clearing cases (t<=55), and reconcile any new paper version.",
-    "No Lean, Palomar or arXiv outside gates; any further author contact requires explicit owner authorisation."
+    "S005: solve universal ASH* beyond max(n+1,3alpha+1); global square extrema, rooted cost/blocks and exact ancestry-language routes remain unproved.",
+    "Novelty of S004 independent-set AS witness/family consequence not audited; do not claim priority.",
+    "C10 exact through t=16 only; triangle-tail clear>140 but undetermined threshold; no ASH* verdict for either.",
+    "Printed-form Phase1 PASS is separate; no Lean/Palomar/arXiv/contact outside gates."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
-    "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json",
-    "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json",
-    "critical_form_ASHstar_stack": "OPEN (true for all trees via TreeStack + October Thm 5.2; all connected n<=6 and further computed graphs)",
-    "critical_form_ASHstar_clear": "OPEN (true for all connected non-bipartite n<=6 and further computed graphs)",
-    "assurance": "two+ independent exact solvers and an independent certificate checker; human-checkable finite certificates; Lean NOT started; independent cold audit scheduled S004"
+    "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
+    "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
+    "critical_form_ASHstar_stack": "OPEN universally; proved for trees (prior TreeStack), complete multipartite graphs, and bound-saturation classes; computed n<=7 complete",
+    "critical_form_ASHstar_clear": "OPEN universally; proved for eligible complete multipartite graphs and bound-saturation classes; computed n<=7 complete",
+    "assurance": "S004 independent cold audit PASS; complete sparse certificates checked by independent packed canonical-parent checker and full reverse-winning base DP; symbolic family proof; no Lean"
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -70,5 +70,21 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S004 FUTURE/UNEXECUTED. 2026-10-13 author correspondence was an administrative update only; S003 remains last completed research session."
+  "next_session_context": "S005 FUTURE/UNEXECUTED. S004 completed proof-first research, cold audit and exact frontier campaign; no universal solution.",
+  "printed_form_phase1": {
+    "status": "PASS",
+    "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
+    "scope": "Printed pointwise form only; Lean pending; no universal target promotion"
+  },
+  "independent_atlas_n7": {
+    "stack": {
+      "complete": 853,
+      "total": 853
+    },
+    "clear": {
+      "complete": 809,
+      "total": 809
+    },
+    "evidence": "S003 + S004; S004 completes 8 stack/3 clear missing cases"
+  }
 }
