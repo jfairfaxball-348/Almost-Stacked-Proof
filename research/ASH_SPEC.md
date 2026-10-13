@@ -52,3 +52,9 @@ In a reply provided by the recipient (sender Tamás Csernák, cc Lajos Soukup), 
 The author reports successfully determining stacking and clearing thresholds for all graphs with up to 7 vertices (in the valid graph classes), and ASH* holding for that finite atlas. This is **SOURCE_STATED / AUTHOR_REPORTED** (SRC-0010), not a new independent computation: S003 independently resolved 845/853 seven-vertex stacking and 806/809 non-bipartite clearing graphs within t<=55, leaving 8/3 unresolved. The original source's 995/924 total count spans 2<=n<=7; preserve graph-order conventions.
 
 No published correction, universal proof, author verification of our particular P4/bull certificates, permission to quote the entire email, or S004 audit is inferred. S003 is still the last executed research session. Our *target* is now unambiguously universal ASH*.
+
+## Current S004 update (supersedes pending-audit/finite-cutoff prose above)
+
+Printed stack/clear: FALSE, independently cold-audited PASS, Lean pending. Universal ASH* remains OPEN for both goals. Theorem12 supplies an AS non-stackable witness at mass3k for every independent set of size k>=2 on any simple graph. Consequently ASH* holds at g=3alpha+1 or n+1 and for all complete multipartite graphs using cited source threshold equalities.
+
+Order-seven finite coverage is now complete: 853/853 stack and 809/809 eligible clear, by S003 plus S004 independent certificate replay; still finite only. C9 37/46, triangle-tail stack128 and two-triangles-path 36/36 exact. C10 through t16 only; triangle-tail clear>140 with no threshold. See research/S004_ASHSTAR_ATTACK.md and sessions/S004/AUDIT.md. Source PDFs freshly inspected, v1 only and hashes unchanged. Printed-form Phase1 PASS is scoped; universal Phase1 IN_PROGRESS.

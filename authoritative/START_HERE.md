@@ -17,3 +17,7 @@ Research status: **ASH is unresolved in this programme**. The 2026-10-07/08 sour
 - Read `research/S003_AS_GAP_AND_ATTACKS.md` first.
 
 **2026-10-13 correspondence update (NOT S004).** John reports that the audited outgoing email was sent, and supplied the incoming reply from Tamás Csernák (cc Lajos Soukup). Tamás explicitly confirmed the intended conjecture is **ASH\*** (critical last-losing-layer form), and acknowledges the stronger exact-layer wording is false. The author also describes the upward bad-configuration recurrence and reports full calculations through seven vertices. This is author testimony, **not a public erratum or formal proof**; our own n=7 cutoff remains smaller. See `outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md` and `research/ASHSTAR_ATTACK_BRIEF.md`. **Last completed research session remains S003; S004 is FUTURE and requires a fresh owner invocation.**
+
+## Current authority — S004 completed
+
+The S001-S003 notes above are historical. The live-main-first precedence in AGENTS.md governs; the explicit owner S004 invocation superseded the old bootstrap-only sentence. Current last session S004, next strictly FUTURE S005. Printed-form cold audit PASS; universal ASH* OPEN. Read STATE.json and research/S004_ASHSTAR_ATTACK.md first. Complete multipartite ASH* and independent-set AS witness are proved with source thresholds credited. Finite n7 coverage now complete; two larger searches remain cutoff. No Lean or novelty promotion.

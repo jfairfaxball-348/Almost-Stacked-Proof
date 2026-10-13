@@ -13,3 +13,9 @@ Access taxonomy: METADATA_ONLY · ABSTRACT_INSPECTED · STATEMENT_INSPECTED · P
 - **SRC-0009** S003 CAM-S003-01 exact layered solvers, atlas n<=7, trees n<=9, literal-gap certificates — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S003 — Forward C DP, independent reverse C solver, Python reverse fixpoint, AS memo solver, independent certificate checker; hashes in evidence/S003/HASHES.md
 
 - **SRC-0010** Tamás Csernák, email reply to John Fairfax-Ball (cc Lajos Soukup), received **2026-10-13** — **STATEMENT_INSPECTED** (transcribed in full by recipient in conversation, no original SMTP headers independently obtained). Source type PERSONAL_COMMUNICATION_OWNER_SUPPLIED; public repository contains an attributed factual summary only, not the private original. Confirms ASH* is the intended conjecture, stronger printed form false, and author reports complete <=7-vertex thresholds/ASH* tests. See outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md. NOT a published erratum or proof.
+
+## S004 fresh evidence
+
+- SRC-0011 — PROOF_INSPECTED: cold audit and complete sparse losing certificates, evidence/S004; independent canonical-parent packed replay and full reverse-winning base cross-check.
+- SRC-0012 — PROOF_INSPECTED: research/S004_ASHSTAR_ATTACK.md, symbolic independent-set AS witness and exact family consequences. No novelty or Lean claim.
+- SRC-0001/0002: fresh 2026-10-13 version lists v1 only, PDF hashes unchanged; statements inspected, no changed printed hypothesis in fetched text.

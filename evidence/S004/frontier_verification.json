@@ -1,0 +1,170 @@
+[
+  {
+    "file": "evidence/S004/A7_0001_stack.json.xz",
+    "layers": 127,
+    "certified_loser_states": 799074,
+    "threshold": 127,
+    "critical_as": true,
+    "seconds": 8.216941327999962
+  },
+  {
+    "file": "evidence/S004/A7_0006_stack.json.xz",
+    "layers": 63,
+    "certified_loser_states": 124432,
+    "threshold": 63,
+    "critical_as": true,
+    "seconds": 1.308143264000023
+  },
+  {
+    "file": "evidence/S004/A7_0025_clear.json.xz",
+    "layers": 94,
+    "certified_loser_states": 112689,
+    "threshold": 94,
+    "critical_as": true,
+    "seconds": 0.988865369999985
+  },
+  {
+    "file": "evidence/S004/A7_0025_stack.json.xz",
+    "layers": 64,
+    "certified_loser_states": 70590,
+    "threshold": 64,
+    "critical_as": true,
+    "seconds": 0.6809991909999553
+  },
+  {
+    "file": "evidence/S004/A7_0030_stack.json.xz",
+    "layers": 80,
+    "certified_loser_states": 319054,
+    "threshold": 80,
+    "critical_as": true,
+    "seconds": 3.12943506900001
+  },
+  {
+    "file": "evidence/S004/A7_0052_stack.json.xz",
+    "layers": 63,
+    "certified_loser_states": 83118,
+    "threshold": 63,
+    "critical_as": true,
+    "seconds": 0.7964301770000475
+  },
+  {
+    "file": "evidence/S004/A7_0083_stack.json.xz",
+    "layers": 72,
+    "certified_loser_states": 226473,
+    "threshold": 72,
+    "critical_as": true,
+    "seconds": 2.188287857999967
+  },
+  {
+    "file": "evidence/S004/A7_0252_clear.json.xz",
+    "layers": 63,
+    "certified_loser_states": 48812,
+    "threshold": 63,
+    "critical_as": true,
+    "seconds": 0.4295738089999759
+  },
+  {
+    "file": "evidence/S004/A7_0252_stack.json.xz",
+    "layers": 63,
+    "certified_loser_states": 47049,
+    "threshold": 63,
+    "critical_as": true,
+    "seconds": 0.4272482769999897
+  },
+  {
+    "file": "evidence/S004/A7_0506_clear.json.xz",
+    "layers": 63,
+    "certified_loser_states": 37900,
+    "threshold": 63,
+    "critical_as": true,
+    "seconds": 0.3562352339999961
+  },
+  {
+    "file": "evidence/S004/A7_0506_stack.json.xz",
+    "layers": 63,
+    "certified_loser_states": 36145,
+    "threshold": 63,
+    "critical_as": true,
+    "seconds": 0.3566676570000027
+  },
+  {
+    "file": "evidence/S004/C10_stack.json.xz",
+    "layers": 16,
+    "certified_loser_states": 2575754,
+    "threshold": null,
+    "critical_as": null,
+    "seconds": 36.133374355
+  },
+  {
+    "file": "evidence/S004/C8_chord04_clear.json.xz",
+    "layers": 23,
+    "certified_loser_states": 20209,
+    "threshold": 23,
+    "critical_as": true,
+    "seconds": 0.193197500999986
+  },
+  {
+    "file": "evidence/S004/C8_chord04_stack.json.xz",
+    "layers": 23,
+    "certified_loser_states": 19429,
+    "threshold": 23,
+    "critical_as": true,
+    "seconds": 0.20133526500001153
+  },
+  {
+    "file": "evidence/S004/C8_stack.json.xz",
+    "layers": 31,
+    "certified_loser_states": 109441,
+    "threshold": 31,
+    "critical_as": true,
+    "seconds": 1.3184552700000722
+  },
+  {
+    "file": "evidence/S004/C9_clear.json.xz",
+    "layers": 46,
+    "certified_loser_states": 1312168,
+    "threshold": 46,
+    "critical_as": true,
+    "seconds": 18.18515413800003
+  },
+  {
+    "file": "evidence/S004/C9_stack.json.xz",
+    "layers": 37,
+    "certified_loser_states": 676060,
+    "threshold": 37,
+    "critical_as": true,
+    "seconds": 9.781618805999983
+  },
+  {
+    "file": "evidence/S004/triangle_tail5_clear.json.xz",
+    "layers": 140,
+    "certified_loser_states": 3217699,
+    "threshold": null,
+    "critical_as": null,
+    "seconds": 37.165284843999984
+  },
+  {
+    "file": "evidence/S004/triangle_tail5_stack.json.xz",
+    "layers": 128,
+    "certified_loser_states": 1601312,
+    "threshold": 128,
+    "critical_as": true,
+    "seconds": 22.137440749000007
+  },
+  {
+    "file": "evidence/S004/two_triangles_path3_clear.json.xz",
+    "layers": 36,
+    "certified_loser_states": 144724,
+    "threshold": 36,
+    "critical_as": true,
+    "seconds": 1.5436564340000132
+  },
+  {
+    "file": "evidence/S004/two_triangles_path3_stack.json.xz",
+    "layers": 36,
+    "certified_loser_states": 144413,
+    "threshold": 36,
+    "critical_as": true,
+    "seconds": 1.6515295880000167
+  }
+]

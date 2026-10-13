@@ -1,0 +1,150 @@
+{
+  "graph": "C10",
+  "n": 10,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "mode": "stack",
+  "scope": "CANDIDATE_CUTOFF",
+  "threshold": null,
+  "critical_as_witness": null,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 10,
+      "losers": 0,
+      "as_losers": 0
+    },
+    {
+      "t": 2,
+      "candidates": 45,
+      "losers": 45,
+      "as_losers": 45
+    },
+    {
+      "t": 3,
+      "candidates": 220,
+      "losers": 190,
+      "as_losers": 190
+    },
+    {
+      "t": 4,
+      "candidates": 705,
+      "losers": 645,
+      "as_losers": 620
+    },
+    {
+      "t": 5,
+      "candidates": 1982,
+      "losers": 1832,
+      "as_losers": 1472
+    },
+    {
+      "t": 6,
+      "candidates": 4945,
+      "losers": 4605,
+      "as_losers": 2650
+    },
+    {
+      "t": 7,
+      "candidates": 11310,
+      "losers": 10460,
+      "as_losers": 3780
+    },
+    {
+      "t": 8,
+      "candidates": 23990,
+      "losers": 21980,
+      "as_losers": 4485
+    },
+    {
+      "t": 9,
+      "candidates": 48030,
+      "losers": 43040,
+      "as_losers": 4720
+    },
+    {
+      "t": 10,
+      "candidates": 91028,
+      "losers": 79038,
+      "as_losers": 4731
+    },
+    {
+      "t": 11,
+      "candidates": 164990,
+      "losers": 136280,
+      "as_losers": 4640
+    },
+    {
+      "t": 12,
+      "candidates": 287080,
+      "losers": 219440,
+      "as_losers": 4470
+    },
+    {
+      "t": 13,
+      "candidates": 480090,
+      "losers": 327500,
+      "as_losers": 4350
+    },
+    {
+      "t": 14,
+      "candidates": 767970,
+      "losers": 451880,
+      "as_losers": 4260
+    },
+    {
+      "t": 15,
+      "candidates": 1158724,
+      "losers": 579584,
+      "as_losers": 4070
+    },
+    {
+      "t": 16,
+      "candidates": 1619545,
+      "losers": 699235,
+      "as_losers": 3830
+    }
+  ],
+  "seconds": 38.30679159699997,
+  "layer_sha256": "c1aaae4b6314fa2213a25f3dcc9381adb344b85badc7e17c36b44fcb00a2c237"
+}

@@ -10,7 +10,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.09650",
     "access": "STATEMENT_INSPECTED",
-    "note": "S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md"
+    "note": "S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text."
   },
   {
     "id": "SRC-0002",
@@ -23,7 +23,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2604.22341",
     "access": "STATEMENT_INSPECTED",
-    "note": "April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit"
+    "note": "April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text."
   },
   {
     "id": "SRC-0003",
@@ -97,5 +97,23 @@
     "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "access": "STATEMENT_INSPECTED",
     "note": "Owner supplied the full message text in chat, displayed received 2:59 PM, exact headers/timezone unverified; public record is attributed summary only, not verbatim message or published correction; author reports intended ASH*, printed false, all n<=7 tested."
+  },
+  {
+    "id": "SRC-0011",
+    "type": "LOCAL_REPRODUCIBLE_COMPUTATION",
+    "title": "S004 cold audit, sparse frontier layers, packed canonical-parent replay, structural atlas",
+    "year": 2026,
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S004",
+    "access": "PROOF_INSPECTED",
+    "note": "Fresh cold reverse-winning DP, independent packed-state complete sparse certificate replay, base layer cross-check; full scope and cutoffs in S004 PLAN/AUDIT/report; no Lean."
+  },
+  {
+    "id": "SRC-0012",
+    "type": "LOCAL_MATHEMATICAL_PROOF",
+    "title": "S004 independent-set almost-stacked obstruction and structural proof attacks",
+    "year": 2026,
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S004_ASHSTAR_ATTACK.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Complete symbolic proofs; lower-bound witness and complete multipartite consequence; universally unresolved. Novelty not audited; source exact thresholds credited."
   }
 ]

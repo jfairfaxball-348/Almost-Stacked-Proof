@@ -2,7 +2,7 @@
 
 **Objective:** settle the **intended critical-form Almost Stacked Hypothesis (ASH*)** of Tamás Csernák and Lajos Soukup, by an unconditional universal proof or a finite, fully certified counterexample (stacking and clearing separately); retain the verified counterexamples to the distinct *printed* formulation. The source is [The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem](https://arxiv.org/abs/2610.09650) (October 2026), building on [Stacking and clearing in graph pebbling](https://arxiv.org/abs/2604.22341).
 
-This is a research programme. **Status after S003:**
+This is a research programme. **Historical status after S003 (superseded by S004 below):**
 - The hypothesis **as printed** (October Hypothesis 3.2 = April Hypothesis 9.1, a pointwise "least t" equality) is false for both stacking and clearing. Certified finite counterexamples: P4 at t=12, and the bull graph at t=12. Lean formalisation and an independent cold audit are still pending.
 - The authors' own computations test a *critical (monotone)* form, ASH\*. ASH\* remains **open**: it is proved for trees and computed true on every connected graph with at most 7 vertices whose threshold was found, and on every connected 8-vertex graph whose threshold is at most 26.
 - **Author contact:** John reports having sent the correspondence prepared on 12 October. On 13 October 2026, Tamás Csernák replied (cc Lajos Soukup), explicitly confirming **ASH* is the intended conjecture** and that the stronger printed wording is false. He described the upward bad-configuration recurrence and reported successful calculations for all graphs up to seven vertices; this is author testimony, not a published correction or independent replication of the remaining higher-threshold cases. The complete private reply is not mirrored in this public repo; see the [attributed correspondence summary](outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md). The independent cold audit, Lean, Palomar and arXiv stages are still pending.
@@ -38,3 +38,13 @@ A negative result or counterexample may require adapting the formal proof packag
 4. Keep independent proof, computation, source-stated facts and Lean results separate. Do not mistake absent hosted CI for passing tests.
 
 Borrowed methodology and staged assurance are inspired by [Davenport-Counterexample-Hunt](https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt), but the mathematical target and release gates belong to this repository.
+
+## Current result after S004
+
+**Universal intended ASH* remains open for both stacking and clearing.** Printed-form counterexamples are independently cold-audited (mathematics PASS; Lean pending).
+
+A symbolic theorem now produces an almost-stacked non-stackable state of mass3k for every independent set of size k>=2, even with edges outside the independent set. This proves ASH* for all complete multipartite graphs using the authors' exact threshold formulas, and more generally at g=n+1 or3alpha+1. This is a family result; novelty has not been audited.
+
+The complete order-seven atlas now has independently computed thresholds: 853/853 stack,809/809 clear. Selected new values include C9 37/46 and triangle-tail stack128. C10 only through t16 and triangle-tail clear>140 are cutoff cases with no ASH* verdict.
+
+See [S004 proof report](research/S004_ASHSTAR_ATTACK.md), [cold audit](sessions/S004/AUDIT.md), [closeout](sessions/S004/CLOSEOUT.md) and the strictly [future S005 prompt](authoritative/NEXT_SESSION_PROMPT.md). No Lean, Palomar or arXiv action.

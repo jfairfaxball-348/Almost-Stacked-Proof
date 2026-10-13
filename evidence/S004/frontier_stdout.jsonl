@@ -1,0 +1,21 @@
+{"graph": "A7_0001", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 127, "critical_as_witness": [1, 125, 0, 0, 0, 0, 0], "seconds": 6.818986331000019}
+{"graph": "A7_0006", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 63, "critical_as_witness": [1, 0, 0, 0, 61, 0, 0], "seconds": 0.9456125039999961}
+{"graph": "A7_0025", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 64, "critical_as_witness": [61, 0, 1, 1, 0, 0, 0], "seconds": 0.495499231999986}
+{"graph": "A7_0025", "mode": "clear", "scope": "EXACT_THRESHOLD", "threshold": 94, "critical_as_witness": [93, 0, 0, 0, 0, 0, 0], "seconds": 0.6008560410000428}
+{"graph": "A7_0030", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 80, "critical_as_witness": [1, 1, 77, 0, 0, 0, 0], "seconds": 2.5216917710000075}
+{"graph": "A7_0052", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 63, "critical_as_witness": [1, 61, 0, 0, 0, 0, 0], "seconds": 0.58988376100001}
+{"graph": "A7_0083", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 72, "critical_as_witness": [1, 69, 1, 0, 0, 0, 0], "seconds": 1.6907625890000304}
+{"graph": "A7_0252", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 63, "critical_as_witness": [1, 61, 0, 0, 0, 0, 0], "seconds": 0.30530672899999445}
+{"graph": "A7_0252", "mode": "clear", "scope": "EXACT_THRESHOLD", "threshold": 63, "critical_as_witness": [1, 61, 0, 0, 0, 0, 0], "seconds": 0.25079130300002817}
+{"graph": "A7_0506", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 63, "critical_as_witness": [61, 1, 0, 0, 0, 0, 0], "seconds": 0.2650709689999644}
+{"graph": "A7_0506", "mode": "clear", "scope": "EXACT_THRESHOLD", "threshold": 63, "critical_as_witness": [61, 1, 0, 0, 0, 0, 0], "seconds": 0.22259247300002016}
+{"graph": "C8", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 31, "critical_as_witness": [0, 0, 0, 1, 0, 0, 0, 29], "seconds": 1.0958666329999573}
+{"graph": "C9", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 37, "critical_as_witness": [0, 0, 0, 1, 0, 1, 0, 0, 34], "seconds": 9.837355309000031}
+{"graph": "C9", "mode": "clear", "scope": "EXACT_THRESHOLD", "threshold": 46, "critical_as_witness": [0, 0, 0, 0, 0, 0, 0, 0, 45], "seconds": 19.29162414199999}
+{"graph": "C10", "mode": "stack", "scope": "CANDIDATE_CUTOFF", "threshold": null, "critical_as_witness": null, "seconds": 38.30679159699997}
+{"graph": "triangle_tail5", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 128, "critical_as_witness": [1, 1, 0, 0, 0, 0, 0, 125], "seconds": 20.215957242}
+{"graph": "triangle_tail5", "mode": "clear", "scope": "MASS_CUTOFF", "threshold": null, "critical_as_witness": null, "seconds": 30.712754126999926}
+{"graph": "two_triangles_path3", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 36, "critical_as_witness": [0, 33, 0, 0, 0, 0, 1, 1], "seconds": 1.3804749549999542}
+{"graph": "two_triangles_path3", "mode": "clear", "scope": "EXACT_THRESHOLD", "threshold": 36, "critical_as_witness": [0, 33, 0, 0, 0, 0, 1, 1], "seconds": 1.2495117810000238}
+{"graph": "C8_chord04", "mode": "stack", "scope": "EXACT_THRESHOLD", "threshold": 23, "critical_as_witness": [0, 0, 1, 0, 0, 0, 21, 0], "seconds": 0.17019524800002728}
+{"graph": "C8_chord04", "mode": "clear", "scope": "EXACT_THRESHOLD", "threshold": 23, "critical_as_witness": [0, 0, 1, 0, 0, 0, 21, 0], "seconds": 0.13727872199990543}

@@ -22,3 +22,14 @@ python3 tools/cam_s003_trees.py ./as T3.json 9 300 out_T2/summary_T2.json
 python3 tools/cam_s003_cert.py check evidence/S003/cert_P4_stack_t12.json
 ```
 The certificate checks also run in hosted CI (`.github/workflows/governance.yml`).
+
+## S004
+
+- `s004_cold.py`: fresh full reverse-winning DP and forward closure; printed audit, boundaries and n<=4 minimality.
+- `s004_frontier.py`: all-parent sparse losing recurrence, preregistered21-case campaign.
+- `s004_verify_frontier.py --check-only`: independent packed canonical-parent complete replay of all21 compressed certificates; no producer import.
+- `s004_check_base.py --check-only`: cold full reverse-winning DP base-layer comparison for all21 cases.
+- `s004_structure.py --check-only`: original sequence/closure replay and complete n<=5 structural extrema.
+- `s004_witness_tests.py --check-only`: every independent set/root on connected n<=5 (233 tests).
+
+Run from repository root. `--check-only` avoids rewriting evidence; regeneration without it creates runtime timing fields. Mathematical proofs in research/S004_ASHSTAR_ATTACK.md. No external packages required.

@@ -23,3 +23,8 @@
 
 | 2026-10-13 (correspondence, not S004) | Owner reported outgoing email sent and supplied a response from Tamás Csernák, cc Lajos Soukup; author confirms **ASH\*** is intended and acknowledges stronger printed statement is false; algorithm propagates bad sets by size | outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md; SRC-0010; no raw SMTP headers | AUTHOR_REPORTED; PREPUBLICATION / NOT AN ERRATUM |
 | 2026-10-13 (handoff-only) | Retain S004 FUTURE; elevate universal ASH* as headline, add bad-layer recurrence as direct proof route; keep printed-form independent cold audit and Phase 1 gate; no numerical results or claim statuses promoted | research/ASHSTAR_ATTACK_BRIEF.md; authoritative/NEXT_SESSION_PROMPT.md | BINDING FOR S004; NOT_EXECUTED |
+
+| 2026-10-13 S004 | Cold audit independently rechecks P4/bull and smallest-order boundaries; printed mathematics PASS only | sessions/S004/AUDIT.md | SCOPED PASS |
+| 2026-10-13 S004 | Prove independent-set AS witness despite outside-I cycle edges; derive complete multipartite ASH* using source thresholds | S004 Thm12, Cor13-14; 233 finite challenges | PROGRAMME_PROVED; NOVELTY UNAUDITED |
+| 2026-10-13 S004 | Complete missing n7 8/3 thresholds using complete losing-layer certificates, independent canonical-parent replay and base full-DP | evidence/S004 | COMPUTED_EXACT; FINITE ONLY |
+| 2026-10-13 S004 | Keep universal ASH* OPEN; no Phase2/Lean/contact; S005 is strictly future | no universal theorem or counterexample | BINDING |

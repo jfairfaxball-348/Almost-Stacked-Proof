@@ -37,7 +37,7 @@
   "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
   "literal_form": {
     "statement": "g(G) = least t>=2 such that every AS configuration of exact size t is g-able",
-    "status": "FALSE_CERTIFIED_LEAN_PENDING_AUDIT_PENDING",
+    "status": "FALSE_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
     "stack_counterexample": {
       "graph": "P4",
       "edges": [
@@ -105,13 +105,13 @@
     "status": "OPEN",
     "tested_by_author_atlas_code": "lajossoukup/pebbling@701cdd93 is_critical_stacked_almost_stacked",
     "known_true": [
-      "all trees (TreeStack theorem + October Thm 5.2)",
-      "complete bipartite K_{a,b}, a+b>=3 (S003 Thm 10 + April Thm 8.2)",
-      "g(G)=n+1",
-      "all connected graphs n<=6; n=7 thresholds found (845/853 stack, 806/809 clear, cutoff 55); and n=8 thresholds <=26 (S003 computed)",
-      "S003 T1/T4 graphs with thresholds found"
+      "all trees (earlier TreeStack + October Thm5.2)",
+      "all complete multipartite graphs (S004 Thm12 + April Thms8.1-8.3; eligible clearing separately)",
+      "g=n+1 or g=3alpha+1 (alpha>=2)",
+      "all connected n<=7 (S003 + S004 exact computations); earlier n8 threshold<=26 cases",
+      "selected complete S004 larger cases"
     ],
-    "author_reported_n_le_7": "AUTHOR_REPORTED_COMPLETE_BY_EMAIL_2026_10_13; own n=7 checks only 845/853 stack, 806/809 clear within t<=55"
+    "author_reported_n_le_7": "Author report retained SOURCE_STATED; S004 independently closes remaining 8/3 cases, total 853/853 and 809/809 at n7."
   },
   "special_cases": {
     "K1_stack": 2,
@@ -125,8 +125,17 @@
     "source_id": "SRC-0010",
     "provenance": "complete incoming message pasted by owner; raw headers unavailable; do not reproduce verbatim in public repo",
     "claim": "Tamás Csernák confirms intended conjecture is critical form ASH*, and stronger printed form is false",
-    "atlas": "Author reports success on all graphs with at most seven vertices; NOT independently reproduced for remaining high-threshold cases",
+    "atlas": "Author report retained; complete n7 programme replication now S003+S004, not a proof beyond finite atlas.",
     "published_correction": "NOT_VERIFIED",
     "report": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md"
+  },
+  "s004": {
+    "cold_audit": "PASS",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "printed_phase1": "PASS",
+    "universal_phase1": "IN_PROGRESS",
+    "independent_witness": "(2k+1)e_r + singleton pebbles on independent I minus r, |I|=k>=2, mass3k, not stackable",
+    "research": "research/S004_ASHSTAR_ATTACK.md"
   }
 }

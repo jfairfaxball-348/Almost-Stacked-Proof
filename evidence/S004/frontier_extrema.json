@@ -1,0 +1,787 @@
+[
+  {
+    "file": "evidence/S004/A7_0001_stack.json.xz",
+    "t": 126,
+    "max_square": 15626,
+    "maximizers": [
+      [
+        1,
+        125,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        125,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0006_stack.json.xz",
+    "t": 62,
+    "max_square": 3722,
+    "maximizers": [
+      [
+        1,
+        0,
+        0,
+        0,
+        61,
+        0,
+        0
+      ],
+      [
+        61,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0025_clear.json.xz",
+    "t": 93,
+    "max_square": 8649,
+    "maximizers": [
+      [
+        93,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0025_stack.json.xz",
+    "t": 63,
+    "max_square": 3723,
+    "maximizers": [
+      [
+        61,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0030_stack.json.xz",
+    "t": 79,
+    "max_square": 5931,
+    "maximizers": [
+      [
+        1,
+        1,
+        77,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0052_stack.json.xz",
+    "t": 62,
+    "max_square": 3722,
+    "maximizers": [
+      [
+        1,
+        61,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        61,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0083_stack.json.xz",
+    "t": 71,
+    "max_square": 4763,
+    "maximizers": [
+      [
+        1,
+        69,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0252_clear.json.xz",
+    "t": 62,
+    "max_square": 3722,
+    "maximizers": [
+      [
+        1,
+        61,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0252_stack.json.xz",
+    "t": 62,
+    "max_square": 3722,
+    "maximizers": [
+      [
+        1,
+        61,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0506_clear.json.xz",
+    "t": 62,
+    "max_square": 3722,
+    "maximizers": [
+      [
+        61,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/A7_0506_stack.json.xz",
+    "t": 62,
+    "max_square": 3722,
+    "maximizers": [
+      [
+        61,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/C8_chord04_clear.json.xz",
+    "t": 22,
+    "max_square": 442,
+    "maximizers": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/C8_chord04_stack.json.xz",
+    "t": 22,
+    "max_square": 442,
+    "maximizers": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/C8_stack.json.xz",
+    "t": 30,
+    "max_square": 842,
+    "maximizers": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        29
+      ],
+      [
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      [
+        0,
+        0,
+        29,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0
+      ],
+      [
+        0,
+        29,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0
+      ],
+      [
+        29,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/C9_clear.json.xz",
+    "t": 45,
+    "max_square": 2025,
+    "maximizers": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        45,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/C9_stack.json.xz",
+    "t": 36,
+    "max_square": 1158,
+    "maximizers": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        34
+      ],
+      [
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        34
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        34,
+        0
+      ],
+      [
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        34,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        34,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        34,
+        0,
+        0
+      ],
+      [
+        0,
+        34,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        34,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        34,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        34,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/triangle_tail5_stack.json.xz",
+    "t": 127,
+    "max_square": 15627,
+    "maximizers": [
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        125
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/two_triangles_path3_clear.json.xz",
+    "t": 35,
+    "max_square": 1091,
+    "maximizers": [
+      [
+        0,
+        33,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        33
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        33,
+        0
+      ],
+      [
+        33,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "all_maximizers_AS": true
+  },
+  {
+    "file": "evidence/S004/two_triangles_path3_stack.json.xz",
+    "t": 35,
+    "max_square": 1091,
+    "maximizers": [
+      [
+        0,
+        33,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        33
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        33,
+        0
+      ],
+      [
+        33,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "all_maximizers_AS": true
+  }
+]
