@@ -1,0 +1,284 @@
+# Run S010 — Sustained universal ASH* proof/disproof research across multiple milestones
+
+This is the explicit owner invocation to execute S010 locally in:
+
+C:\Almost-Stacked-Proof
+https://github.com/jfairfaxball-348/Almost-Stacked-Proof
+
+Execute exactly S010. Stop before S011.
+
+## Overriding project goal
+
+Aim directly at resolving universal critical Almost Stacked Hypothesis ASH*, rather than accumulating intermediate results.
+
+For a finite connected simple graph G with n>=2, let stack(G) be the least t>=2 such that every configuration of exact mass t can be stacked. For connected non-bipartite G, define clear(G) analogously for reaching exactly one pebble. A legal move removes two pebbles from one vertex and places one at an adjacent vertex. A configuration is almost stacked if all but at most one vertex contain at most one pebble.
+
+The universal target is:
+
+- STACK: every eligible G has an almost-stacked non-stackable configuration of mass stack(G)-1.
+- CLEAR: every eligible non-bipartite G has an almost-stacked non-clearable configuration of mass clear(G)-1.
+
+Seek either an unconditional universal proof, with STACK and CLEAR resolved separately, or a fully certified mathematical counterexample to either assertion. A resolution of only one assertion must be reported with its exact scope.
+
+The stronger printed exact-layer statement has already been refuted. Its PASS evidence does not resolve critical ASH*. Do not substitute a cycle formula, family theorem, grammar, algorithm, finite atlas, conditional reduction, or novelty assessment for the universal target.
+
+Work significantly across multiple milestones within S010. Do not stop after entry checks, one audit, one lemma, one graph family, one computational campaign, or the first promising observation. Continue developing, challenging and connecting promising routes while substantial progress remains possible within this session and available resources. Do not manufacture progress or claim a solution when an implication remains unproved.
+
+No Lean, Palomar, manuscript, arXiv or journal submission, separate family publication programme, or correspondence with anyone. All final-stage activities remain deferred.
+
+## Milestone 1 — Establish live authority, integrity and a research plan
+
+Pin live remote main/ref/commit/tree/parents. Reconcile S009’s one atomic authored commit, ordinary PR, non-force two-parent merge, and every intervening commit, competing branch or PR.
+
+S009 integration baseline, to verify rather than assume:
+
+- PR11: https://github.com/jfairfaxball-348/Almost-Stacked-Proof/pull/11
+- Authored head: 34d7e2e28925026db4dbd99e15f8007f4037ed68
+- Session tree: 9e80a3c538a233b3d320013a808635eff0edd8d6
+- Entry parent: 325f39d3448b6a0dfa092ea16196c56c3cc04673
+- Merge/main: a1a38d79003a7081b8e14b59003d4d4641fb05fb
+- Merge parents: entry parent, then authored head
+- Head run38615416701 and main run38642283863 each had five completed successful jobs.
+
+Inspect actual current protections/rulesets, workflows, runs, jobs, check-runs and commit statuses. A zero-context aggregate pending status is not evidence that real jobs are pending; inspect the actual objects. Reconcile any divergence explicitly before writes.
+
+Read AGENTS, authoritative/START_HERE.md, STATE.json, phase/session/release protocols, all catalogue/spec/route mirrors, S009 INPUT/AUTHORISED_PROMPT/PLAN/Amendments1-2 including retained initial corrections/AUDIT/CLOSEOUT, and:
+
+- research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md
+- research/S009_UNIVERSAL_RESEARCH.md
+- all S009 code/evidence and necessary S004-S008 dependencies.
+
+Verify manifests with S007’s frozen S006 index and S008’s frozen S007 index. S008/S009 immutable manifests do not authenticate current mutable mirrors. Never rewrite old hashes to match newer files. Preserve LF.
+
+Archive the actual invocation accurately and hash a bounded S010 plan before computation. Distinguish the owner’s expanded invocation from the older prospective handoff.
+
+Create a milestone/obligation ledger containing, for each route:
+
+- exact conjectured statement and quantifiers;
+- audited dependencies;
+- the implication it would supply toward universal ASH*;
+- current proof or obstruction;
+- next decisive mathematical test;
+- status and evidence.
+
+Milestones are internal checkpoints, not separate numbered sessions, commits or permission requests.
+
+## Milestone 2 — Cold mathematical challenge and dependency repair
+
+Audit before reuse. Do not merely repeat earlier explanations or accept passing computations as a proof.
+
+### Exact excursions: S009 Theorem38
+
+Challenge the least finite-derivation equations, actual boundary singleton versus external holes, every proper boundary cut, disjoint exact-input substitution, even hole count, h=0 constants and h>=2 recursion, and h<=input mass.
+
+Check prescribed versus existential final roots and nonempty stacking forests. Preserve arbitrary returning excursions. Overlapping cycles remain inside a whole component unless a further decomposition is proved.
+
+The existing infinite fragment language is exact; it is not yet a constant-size conductor message. No scalar export or clearing number may replace it without an equivalence proof.
+
+### Marked ancestry: Lemmas39–40
+
+Audit complete marked-path sibling partitions and every unmarked final tree. Every-site insertion includes empty sites; occupied-site +3 tightness is a separate statement.
+
+Removing three inputs can damage three final forest components. One damaged path can expose arbitrarily many frontier tokens. The critical P3 example is not Q-maximal and does not refute Q-selection or ASH*.
+
+Do not assume two components, short frontiers, compatible site spines, or fixed final roots.
+
+### Legal credit: Proposition41 and Corollary42
+
+Check empty/even/odd1/odd3/positive paths, theta(empty)=0, strict B>0, all legal exports/sweeps/returns, gains E-1 and credit ordering.
+
+Check the identity:
+
+2B = |c| + c(a) - |O| - 2theta
+
+and full versus proper O, adjacent/disjoint neighbor edges, n=3 exceptions, and the independence-saturated star-neighbor STACK subcase.
+
+The criterion is sufficient, not necessary. Added edges may invalidate inherited AS lower witnesses.
+
+### Protected clearing: Proposition43
+
+Audit t=max(D(H)+3,3r+7), integrality B>=2, the B=3 nonisolated-input argument and protection of a completed triangular output.
+
+A positive odd-path task must complete launch/sweep/return before protection. Later positive tasks need two unprotected launch tokens; later nonpositive tasks must preserve sufficient root credit. A chosen nonpositive triangular task must be scheduled last.
+
+Check disjoint final-forest replay and the 2a+2v triangle repair, all roots/parities/final piles, r=0 and K3. Pure3 at the root cannot clear without the specified repair. Retain upper-only scope.
+
+### Replay and verdicts
+
+Rerun the four S009 producer/checker scripts in check-only mode, preserving historical outputs:
+
+- 318 named port cases, n<=5, mass<=18;
+- 33 complete credit layers and 13,088 configurations;
+- 3,860 upper traces, 41,800 moves and 795 protected B3 trees.
+
+Rerun inherited checks as required without expanding old cutoffs. Record proved/conditional/computational/refuted/unresolved verdicts and repair all affected dependencies before reuse.
+
+Fresh automated replay or another analytical pass is not independent human or kernel certification. If an inherited result is wrong, refute or repair it even if earlier audits passed.
+
+## Milestone 3 — Attack the global extremal gap by competing proof routes
+
+After the audit, perform sustained mathematical work on at least the following competing routes. Develop each far enough to establish a meaningful theorem, a precise obstruction, or an explicit remaining proof obligation. Allocate effort adaptively; this is not a quota for superficial attempts.
+
+### Route A — Global conductor and ancestry comparison
+
+Prove or refute, with the repository’s exact notation,
+
+|b| + min_q A_goal(s,b,q,r) - 3 <= L_AS(G)
+
+for every arbitrary-buffer support/residue class having a positive last loser.
+
+Retain:
+
+- final-root minimum in the correct place;
+- separate clearing trees and nonempty common-root stacking forests;
+- zero-source bits;
+- positive-representative carry0/1;
+- exact consumption of all inputs;
+- every support/residue class, not one selected ideal or ray.
+
+K3’s rooted residue2 obstruction already rules out rootwise domination. A binary-buffer lower certificate does not establish arbitrary-buffer upper domination. Abstract monomial-ideal concentration is insufficient without graph-realizability constraints.
+
+Seek a graph-constrained largest-hole selection theorem, an exact dual, or another universal comparison. Every proposed universal lemma needs full quantifiers and legal attaining constructions or complete lower certificates.
+
+Do not import cover-pebbling concentration, no-cycle simplification or target-demand theorems while silently allowing leftover pebbles.
+
+### Route B — Critical extremizers and complete forest reconstruction
+
+Combine global Q/lex selection, every-site insertion and simultaneous occupied-site conductor tightness U=c(s)+3.
+
+Try to prove the existence of an AS critical extremizer using legal exchange or reconstruction. Preserve the distinction between:
+
+- every Q maximizer being AS;
+- some Q maximizer being AS;
+- mixed AS/non-AS ties;
+- ASH* itself.
+
+Reconstruct all affected final trees and all exposed sibling frontiers, allowing changing roots. Explicitly account for the three-component removal problem and compatibility of sitewise ancestry witnesses.
+
+Fixed-class concentration, local interval convexity and compression of every critical loser are already false. Do not reuse them in disguised form.
+
+The closest target-pebbling lex/no-merging arguments may omit inputs. Supply the missing exact-consumption argument or explain precisely why it fails.
+
+### Required synthesis checkpoint
+
+Compare Routes A and B:
+
+- Can critical tightness constrain the generators or holes needed by Route A?
+- Can exact port composition supply the reconstruction missing from Route B?
+- Does an obstruction concern an auxiliary claim, a sufficient criterion, or ASH* itself?
+- Which additional lemma would actually bridge to the universal conclusion?
+
+Do not present disconnected partial results as a completed strategy.
+
+## Milestone 4 — Exact cyclic composition and minimal-counterexample structure
+
+Use audited Theorem38 to seek a sufficient exact interface retaining credit, excursions, residues, zero support and tree/forest targets.
+
+Investigate whether an infinite excursion language admits a finite sufficient summary for the universal extremal question. Prove preservation and reconstruction in both directions. A finite evaluator for bounded inputs is not a uniform mathematical compression theorem.
+
+Work on articulation joins, cactus structure and overlapping cyclic blocks where they test an explicit universal obstruction. Do not assume independently minimized roots can be combined.
+
+Seek consequences for a genuinely minimal universal counterexample:
+
+- identify a well-founded minimality order;
+- justify each reduction;
+- preserve the relevant threshold and critical AS comparison;
+- track how AS witnesses behave under deletion, contraction, attachment and adding edges;
+- retain both goal domains and exceptional small graphs.
+
+Existing dominated bounds and the independence-saturated subcase do not settle all dominated graphs or CLEAR. General odd-cycle uppers remain unresolved. C5/C7-tail conclusions retain computed core dependencies; S007 Theorem33 retains its sharp-core, boundary-height and M<2g hypotheses.
+
+A new family result is worthwhile only when its contribution to the universal obstruction is explicit. Do not launch a separate family research or publication programme.
+
+End this milestone with either a proved structural restriction, an exact composition theorem with a clear universal use, or a precisely demonstrated failure that informs the next route.
+
+## Milestone 5 — Precision counterexample challenges driven by failed obligations
+
+Use computation only to decide a concrete failed inequality, exchange, reconstruction or composition obligation. Do not perform blanket atlas expansion or finish old cutoffs merely to collect observations.
+
+Before every new campaign or amendment, write and hash:
+
+- labelled graph/configuration class and explicit inputs or generation rule;
+- size, mass, time, state and memory caps;
+- symmetry proof or an explicit statement of no symmetry;
+- two separately written complete validators/certificates;
+- exact completeness scope;
+- environment, code, input, output and log hashes;
+- outcomes that would refute the targeted claim.
+
+Default bounds: <=10 minutes producer, <=10 minutes checker, <=300,000 states per layer and <=2GB. A bounded revised plan must precede any increase.
+
+Prefer challenges capable of separating the competing universal routes. Distinguish:
+
+1. failure of a sufficient criterion;
+2. failure of an auxiliary conjecture;
+3. failure of a proposed proof;
+4. a genuine ASH* counterexample.
+
+For a genuine counterexample, provide exact labelled adjacency, exact g, a general critical loser at g-1, verified legal winners for EVERY AS configuration at g-1, and two full independent reachability/optimality validators or logically complete certificates. Establish the threshold using complete winners/losers and justified monotonicity, not an assumed cutoff.
+
+A failed move sequence, relaxed balance, bare solver result, timeout or partial layer is not impossibility or an exact threshold.
+
+Preserve all failures and cutoffs. Mathematical certification here does not imply Lean FORMALLY_CERTIFIED status; later formalisation and cold release remain deferred.
+
+## Milestone 6 — Integrate, strengthen and challenge the strongest route
+
+Return from local results to the universal target.
+
+If a promising route survives, continue through its next substantial implications instead of stopping at the first lemma or campaign. Attempt to discharge the remaining bridge: arbitrary buffers, all roots, support changes, carries, exact consumption, forest reconstruction or uniform cyclic composition.
+
+If a route fails, formulate the strongest corrected statement and use the failure to redirect another route. Do not repeatedly rediscover recorded obstructions.
+
+For every candidate universal proof:
+
+- state the entire dependency chain;
+- verify all quantifiers and graph domains;
+- challenge zero/boundary/residue cases;
+- challenge exact versus at-least threshold conventions;
+- challenge attainment and every legal reconstruction;
+- conduct a fresh adversarial mathematical review distinct from the original derivation;
+- explicitly identify anything still conditional, computed or unaudited.
+
+For every candidate universal disproof, complete the certification package rather than stopping at a plausible losing configuration.
+
+A conditional reduction counts as progress only when its hypotheses and missing implication are explicit. It does not pass the universal gate.
+
+Do not impose an artificial one-result stopping rule. Conversely, do not continue empty repetition or unregistered computation. If universal resolution remains beyond the session, close honestly after substantial competing work with exact remaining obligations and the strongest justified next attack.
+
+## Primary-source and originality discipline throughout
+
+S009’s foundational investigation occurred inside Phase1, not as a Phase2 promotion. Reuse its exact comparisons and refresh primary versions where relevant.
+
+TreeStack arXiv:2609.31811 and its registered package are earlier work. No rediscovery or unqualified originality claim. The private author reply is owner-supplied testimony, not a public erratum.
+
+Known ancestry/token tracking, source lower bounds, pullback/+3, elementary algebra and familiar scheduling require attribution. Selected original Chung/Moews/Pachter proof access and equivalence remain unresolved; investigate directly where feasible.
+
+For every substantial new or materially strengthened result, record exact hypotheses, conclusion, proof mechanism, closest primary theorem, source proof actually inspected, and known/equivalent/possible-new/unresolved classification. Separate a new proof from a new theorem.
+
+Refresh targeted primary-source comparisons for newly selected machinery. Do not replace proof inspection with abstracts or keyword searches. Record dated queries, identifiers, access levels and exact theorem/page comparisons without mirroring copyrighted PDFs. Negative searches establish bounded uncertainty, not worldwide priority. Make no claims about awareness or wrongdoing.
+
+## Milestone 7 — Complete closeout, integration and clean stop
+
+Deliver:
+
+- milestone ledger showing actual work and outcomes;
+- hostile audit verdicts and repaired dependencies;
+- full substantial proofs, counterexamples to auxiliary claims and failed approaches;
+- updated primary/dependency/originality assessment;
+- exact campaign completeness scopes and certificates;
+- synthesis showing what each result contributes to universal ASH*;
+- strongest surviving scopes;
+- exact unresolved universal obligations;
+- ranked next routes with their first decisive proof obligations.
+
+Update every relevant state/spec/catalogue/decision/failure/session/gate/search/campaign/tool mirror and hashes. Never rewrite historical evidence to erase a failure.
+
+Universal Phase1 passes only the fully resolved and independently audited universal mathematical target, with STACK/CLEAR scope explicit. No intermediate grammar, family theorem, finite confirmation or novelty assessment advances Lean/publication gates. If a candidate solution lacks the necessary audit, record that limitation and keep the gate unpassed.
+
+Prepare one COMPLETE, ambitious, strictly FUTURE/UNEXECUTED S011 prompt, copied verbatim into the next-session mirror and S010 closeout. Do not execute S011.
+
+Use one branch and one atomic authored S010 session commit, an ordinary PR and a non-force two-parent merge if GitHub permits. No auto-merge or force. Pin actual authored head/tree/parents, actual hosted jobs/check-runs/statuses, actual merge/tree/parents, and independently reread remote and local main. Put post-commit integration identifiers in PR metadata, never an invented committed self-hash.
+
+Continue autonomously through authorized reversible work and routine implementation choices. Do not request routine milestone approvals. Report genuine authority conflicts or external blockers precisely.
+
+Stop before S011 and every deferred final-stage activity.

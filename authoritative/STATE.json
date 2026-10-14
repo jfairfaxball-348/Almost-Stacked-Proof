@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-14",
-  "last_completed_session": "S009",
-  "recommended_next_session": "S010",
+  "last_completed_session": "S010",
+  "recommended_next_session": "S011",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal ASH* OPEN. S009 foundational prior-art/cold audit completed, exact excursion interfaces and dominated path-cover bounds proved; no universal resolution or final gate promotion."
+      "note": "Universal STACK/CLEAR OPEN. S010 exact counts/ports, critical STACK insertion trees and bipartite signed0 proved; global AS selection and separate CLEAR bridge unresolved."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,27 +38,28 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "S009 full April/October v1 primary comparison/digests unchanged; current TreeStack v2/earlier registered package credited; predecessor proofs scoped in SRC catalogues; classical access gaps explicit.",
+  "source_inspection": "April/Octoberv1/TreeStackv2 unchanged; original selected grammar/Parikh proofs inspected; Chung selected original proof web-access improved with direct403/precise-equivalence limits. S010 primary report scopes assurance.",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Cold-audit S009 first-return38, marked-frontier39-40, legal path-cover41 and protected triangular-output clearing43 before reuse.",
-    "Prove arbitrary-versus-binary global conductor/maximum-hole comparison over all classes and final-root minima, or certify a threshold-complete critical ASH* counterexample.",
-    "Reconstruct all three damaged forest components and arbitrarily long sibling frontiers under global Q/lex selection; site spines may be incompatible.",
-    "Compress exact first-return excursion languages into a sufficient exact universal extremal message/dual; no general odd-cycle/cactus threshold theorem.",
-    "Retain prior-art equivalence/access uncertainty and historical finite cutoffs; new bounds remain scoped tools.",
-    "Lean, Palomar, manuscript/arXiv/journal/contact remain deferred until universal resolution and necessary audits."
+    "Cold-audit S01044-52 and original grammar dependencies before reuse; no independent human/kernel claim.",
+    "Prove AS global selection using simultaneous critical insertion trees/tightness; roots/donor2/support/carries/three-mark reconstruction remain.",
+    "Prove arbitrary-vs-binary all-class conductor/connected-cone maximum-hole comparison with final-root minimum and zero-source bits.",
+    "Separate CLEAR critical extremizers already stackable; STACK-loser51 does not apply.",
+    "Derive threshold/critical-AS-preserving cyclic/quotient comparison from finite exact messages; strict quotient drop alone is not elimination.",
+    "Or certify genuine ASH* disproof with exact g/general critical loser/EVERY critical AS winner and two complete independent validators.",
+    "S011 needs fresh owner invocation; Lean, Palomar, manuscript/arXiv/journal/contact remain deferred."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
-    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family",
-    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family",
-    "assurance": "S009 fresh hostile audit/scoped prior-art comparison and two registered independent challenges; no independent human/kernel or worldwide novelty certification."
+    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN",
+    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN",
+    "assurance": "S010 hostile pass and three registered distinct checker campaigns; no independent human/kernel assurance or universal candidate/gate promotion."
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -72,7 +73,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S010 strictly FUTURE/UNEXECUTED: cold-audit S00938-43, then sustained universal conductor/extremizer/excursion proof/disproof research.",
+  "next_session_context": "S011 strictly FUTURE/UNEXECUTED: cold-audit44-52 then solve global extremal bridge using insertion trees/connected cones and separate CLEAR.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -273,12 +274,12 @@
     "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme",
     "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
-  "owner_addendum": "Fresh explicit S009 invocation executes exactly S009, foundational prior-art first and sustained universal research; all final-stage activities deferred.",
+  "owner_addendum": "Expanded explicit S010 invocation executed only S010 across multiple milestones; S011 and final stages remain unexecuted.",
   "s009": {
     "prior_art": "research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md",
     "research": "research/S009_UNIVERSAL_RESEARCH.md",
     "cold_s008_audit": "PASS_S009_AT_STATED_SCOPES",
-    "cold_new_proofs": "FUTURE_S010",
+    "cold_new_proofs": "PASS_S010_AT_STATED_SCOPES",
     "universal_stack": "OPEN",
     "universal_clear": "OPEN",
     "foundational_novelty": "SCOPED_PRIMARY_COMPARISON_NO_WORLDWIDE_PRIORITY",
@@ -300,6 +301,40 @@
       "protected_B3_trees": 795,
       "new_threshold_claims": 0,
       "symmetry": "none",
+      "inherited_cutoffs_unchanged": true
+    }
+  },
+  "s010": {
+    "research": "research/S010_UNIVERSAL_RESEARCH.md",
+    "prior_art": "research/S010_PRIMARY_AND_DEPENDENCY_COMPARISON.md",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "cold_s009_audit": "PASS_S010_AT_STATED_SCOPES",
+    "cold_new_proofs": "FUTURE_S011",
+    "formal_status": "NOT_STARTED",
+    "novelty": "SCOPED_PRIMARY_COMPARISON_NO_WORLDWIDE_PRIORITY",
+    "exact_counts": "PROGRAMME_PROVED known reverse grammar specialization; all cycles/input/root counts retained",
+    "finite_ports": "PROGRAMME_PROVED uniform finite graph-dependent representation, no scalar/extremal implication",
+    "critical_stack_insertions": "PROGRAMME_PROVED consuming TREES at every insertion, roots may vary, three-mark forests still unresolved",
+    "bipartite_critical": "PROGRAMME_PROVED constructive nonzero-I losing extension and signed0 critical necessity, no AS selection",
+    "finite_verification": {
+      "count_certificates": 37556,
+      "exact_count_traces": 26274,
+      "weak_connectivity_failures": 3856,
+      "root_goal_cases": 14,
+      "root_layers": 136,
+      "root_configurations": 125481,
+      "root_insertion_traces": 930,
+      "root_literal_moves": 7703,
+      "three_pile_traces": 7289,
+      "reflection_marked_cases": 21707,
+      "reflection_moves": 98878,
+      "empty_marked_paths": 2642,
+      "deleted_inputs": 1447,
+      "deleted_closure_states": 60868,
+      "maximum_deleted_closure": 122,
+      "symmetry": "none",
+      "new_atlas_threshold_claims": 0,
       "inherited_cutoffs_unchanged": true
     }
   }

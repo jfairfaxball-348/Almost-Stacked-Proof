@@ -63,3 +63,9 @@ Closeout administrative correction: implicit Windows cp1252 reads failed on UTF-
 | FL-0050 | Protecting an odd-path credit export before completing its launch can make the construction illegal | Retained producer failure; protect completed path-return output or even export; independent full traces then PASS |
 | FL-0051 | A first-return port hole treated as free or a standalone boundary base | Least nonempty substitution, even holes and actual e_a input separately; complete318-case challenge |
 | FL-0052 | Pre-registration labels accidentally overlap source or fail universal-port assumption | Both corrected/rehashed before computation, initial text/digests retained; no scope expansion |
+
+| FL-0053 | Weak undirected count connectivity borrows illegal moves | K3(0,1,3), q2; require directed used-vertex root paths |
+| FL-0054 | Root minimum cannot interchange with input maximum | C5 no graph-wide fixed STACK root at g8, per-input root existential retained |
+| FL-0055 | Draft K2 analysis stopped at intermediate2e1 and falsely rejected root0 | (2,1)->(0,2)->(1,0), corrected before acceptance, full tables retained |
+| FL-0056 | Critical one-insertion TREE theorem mistaken for three-mark repair or CLEAR-stackable result | 50/51 exact hypotheses, roots/support/full reconstruction obligations retained |
+| FL-0057 | Finite exact description mistaken for constant-scalar extremal proof |45 both-direction predicates proved, graph-dependent size/max-hole gap explicit |

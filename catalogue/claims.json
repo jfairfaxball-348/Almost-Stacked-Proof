@@ -621,7 +621,8 @@
       "SRC-0012",
       "SRC-0002"
     ],
-    "claim": "Exact first-return ancestry composition at any distinguished vertex: least finite substitution of consuming fragments, actual boundary singleton distinct from holes, even holes, arbitrary excursions and all rooted goals; nonempty common-root forest sum for stack. S009 Thm38."
+    "claim": "Exact first-return ancestry composition at any distinguished vertex: least finite substitution of consuming fragments, actual boundary singleton distinct from holes, even holes, arbitrary excursions and all rooted goals; nonempty common-root forest sum for stack. S009 Thm38.",
+    "cold_audit": "PASS_S010_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0072",
@@ -630,7 +631,8 @@
       "SRC-0034",
       "SRC-0002"
     ],
-    "claim": "One-pebble insertion gives a marked walk, full sibling-input partition and unmarked final forest; every-site insertion for global largest losers. Marked deletion damages <=p final trees but can expose arbitrarily many frontier siblings. S009 Lemmas39-40, no AS selection implication."
+    "claim": "One-pebble insertion gives a marked walk, full sibling-input partition and unmarked final forest; every-site insertion for global largest losers. Marked deletion damages <=p final trees but can expose arbitrarily many frontier siblings. S009 Lemmas39-40, no AS selection implication.",
+    "cold_audit": "PASS_S010_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0073",
@@ -649,7 +651,8 @@
       "SRC-0001",
       "SRC-0003"
     ],
-    "claim": "For universal vertex a, B=c(a)+sum floor(c(v)/2)-theta((G-a)[odd])>0 gives legal rooted stack of exactlyB, by positive credit then zero/negative path tasks; sufficient only. Thus stack<=1+max_O(|O|+2theta). S009 Prop41."
+    "claim": "For universal vertex a, B=c(a)+sum floor(c(v)/2)-theta((G-a)[odd])>0 gives legal rooted stack of exactlyB, by positive credit then zero/negative path tasks; sufficient only. Thus stack<=1+max_O(|O|+2theta). S009 Prop41.",
+    "cold_audit": "PASS_S010_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0075",
@@ -658,7 +661,8 @@
       "SRC-0034",
       "SRC-0019"
     ],
-    "claim": "Dominated nonbipartite n>=4 graphs have stack<=3n-4/clear<=3n-2 via spanning S008F; if G-a has >=2 edges, stack<=3n-5 and clear<=3n-3. Sharpness/class scopes separate; n3 K3=4. S009 Cor42/Prop43."
+    "claim": "Dominated nonbipartite n>=4 graphs have stack<=3n-4/clear<=3n-2 via spanning S008F; if G-a has >=2 edges, stack<=3n-5 and clear<=3n-3. Sharpness/class scopes separate; n3 K3=4. S009 Cor42/Prop43.",
+    "cold_audit": "PASS_S010_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0076",
@@ -668,7 +672,8 @@
       "SRC-0012",
       "SRC-0002"
     ],
-    "claim": "If G has universal a and G-a is a star with >=2 edges plus isolates, alpha=n-2 and stack=3n-5, with S004 AS independent-set critical witness. ASH*-stack saturation subcase only; no universal or new clear equality."
+    "claim": "If G has universal a and G-a is a star with >=2 edges plus isolates, alpha=n-2 and stack=3n-5, with S004 AS independent-set critical witness. ASH*-stack saturation subcase only; no universal or new clear equality.",
+    "cold_audit": "PASS_S010_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0077",
@@ -678,7 +683,8 @@
       "SRC-0001",
       "SRC-0003"
     ],
-    "claim": "For universal a with neighbor graphH containing an edge and r isolates, clear<=max(D(H)+3,3r+7), D=max_O(|O|+2theta(H[O])); B3 case needs completed/protected triangular output and exact disjoint final-forest repair. S009 Prop43, new cold audit futureS010."
+    "claim": "For universal a with neighbor graphH containing an edge and r isolates, clear<=max(D(H)+3,3r+7), D=max_O(|O|+2theta(H[O])); B3 case needs completed/protected triangular output and exact disjoint final-forest repair. S009 Prop43, cold audit S010 PASS at stated scope.",
+    "cold_audit": "PASS_S010_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0078",
@@ -696,5 +702,133 @@
       "SRC-0002"
     ],
     "claim": "Correct direction of surjective simple-graph homomorphism threshold comparison is g(G0)>=g(G1), via arbitrary configuration lift and pushed legal sequences; April7.1(2) prints the reversed inequality while Cor7.5 uses the correct lower direction. This is programme reconciliation, not a posted erratum."
+  },
+  {
+    "id": "CLM-0080",
+    "status": "COMPUTED_EXACT",
+    "claim": "S01019 inherited check-only commands PASS at unchanged scopes and S003-S009 manifests pass with frozen indexes; hostile S00938-43 audit survives. Not human/kernel certification.",
+    "sources": [
+      "SRC-0040",
+      "SRC-0034"
+    ]
+  },
+  {
+    "id": "CLM-0081",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01044: prescribed q,k>=1,m legally realizes c to k e_q with exactly those counts iff c=k e_q+2out-in and every used vertex reaches q on positive arcs. Known one-input grammar theorem in reverse ancestry, not bare forward balance.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0036",
+      "SRC-0002"
+    ],
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+  },
+  {
+    "id": "CLM-0082",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01045 finite graph-dependent arithmetic predicates describe exact first-return/interior fragments at ALL masses with paired holes/actual singleton distinct and both-direction reconstruction. Credited Parikh alternative; no constant-scalar/extremal theorem.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0036",
+      "SRC-0037",
+      "SRC-0034"
+    ],
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+  },
+  {
+    "id": "CLM-0083",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01046 rooted winners exactly equal arborescence-seeded integer cone unions with nonnegative input/positive pile; root existential outside whole certificate. Maximum-hole AS selection remains open.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0036"
+    ],
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+  },
+  {
+    "id": "CLM-0084",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01047-48 root padding k>p cancellation and available3-token path reversals with exact root connection; Q thin-cut/no-return and anti-excision restrictions. Donor2/root alignment/three-mark reconstruction unresolved.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0036",
+      "SRC-0001"
+    ],
+    "originality_assessment": "EQUIVALENCE_UNRESOLVED_EXACT_REFINEMENT_S010"
+  },
+  {
+    "id": "CLM-0085",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01049 equal-threshold eligible simple homomorphic quotient AS critical loser lifts; vertex-minimal counterexample strictly drops threshold at every proper nonadjacent quotient. Contraction/deletion/attachment not licensed.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0002",
+      "SRC-0033"
+    ],
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+  },
+  {
+    "id": "CLM-0086",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01050: on ANY finite undirected graph, if d reaches3e_r, EVERY occupied-site deletion d-e_w reaches exactly2e_w consuming all remaining labels. Full marked reflection and distinct connected-count derivation; no human/kernel claim.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0002",
+      "SRC-0036"
+    ],
+    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010"
+  },
+  {
+    "id": "CLM-0087",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01051: for a STACK loser c on connected n>=2 G, every stackable one-insertion c+e_w clears; EVERY critical STACK insertion has a consuming TREE. Individual bipartite clearing only; no fixed root, clearing threshold or three-mark inference.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0001"
+    ],
+    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010"
+  },
+  {
+    "id": "CLM-0088",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01052 bipartite STACK loser with nonzero signed3 admits a larger losing insertion; every global critical STACK loser signed0 and opposite-part unit transfers at its mass win. No AS selection/non-bipartite sign inference.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0002"
+    ],
+    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010"
+  },
+  {
+    "id": "CLM-0089",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S010-01 complete six-graph count sum<=5/root/pile1..4 box:37556 certificates/26274 exact legal traces/3856 weak-connectivity failures; independent fixed-count chronology/full closures. No threshold/universal claim.",
+    "sources": [
+      "SRC-0040"
+    ]
+  },
+  {
+    "id": "CLM-0090",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S010-02 eight labelled graphs/fourteen inherited goal baselines:136 complete rooted layers/125481 inputs/930 insertion-root traces/7703 moves, independently forward/reverse equal. C5 no graph-wide STACK root at g8; not ASH* failure.",
+    "sources": [
+      "SRC-0040"
+    ]
+  },
+  {
+    "id": "CLM-0091",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S010-03 all7289 k3 traces/all21707 occupied markings from frozen01:98878 reflected moves/2642 empty paths,1447 deleted inputs/60868 complete closure states/max122; full independent partition/count/root/literal checks.",
+    "sources": [
+      "SRC-0040"
+    ]
+  },
+  {
+    "id": "CLM-0092",
+    "status": "HEURISTIC",
+    "claim": "Common insertion root and occupied self-site tests pass every critical loser in fourteen registered cases, including non-AS examples; universal compatibility/AS selection unproved. Graph-wide fixed-root replacement separately refuted.",
+    "sources": [
+      "SRC-0038",
+      "SRC-0040"
+    ]
   }
 ]

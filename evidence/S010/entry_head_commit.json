@@ -1,0 +1,39 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "34d7e2e28925026db4dbd99e15f8007f4037ed68",
+    "node_id": "C_kwDOVF-kW9oAKDM0ZDdlMmUyODkyNTAyNmRiNGRiZDk5ZTE1ZjgwMDdmNDAzN2VkNjg",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/34d7e2e28925026db4dbd99e15f8007f4037ed68",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/34d7e2e28925026db4dbd99e15f8007f4037ed68",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T18:27:41Z"
+    },
+    "committer": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T18:27:41Z"
+    },
+    "tree": {
+      "sha": "9e80a3c538a233b3d320013a808635eff0edd8d6",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/9e80a3c538a233b3d320013a808635eff0edd8d6"
+    },
+    "message": "S009: validate prior art and develop exact universal ASH tools",
+    "parents": [
+      {
+        "sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/325f39d3448b6a0dfa092ea16196c56c3cc04673",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/325f39d3448b6a0dfa092ea16196c56c3cc04673"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "stderr": ""
+}

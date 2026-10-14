@@ -54,3 +54,7 @@
 | 2026-10-14 S009 | Hostile S008 challenge and all old manifests/check-only scopes PASS; frozen indexes retained | S009 AUDIT/cold_checks | NO HISTORICAL HASH REWRITE |
 | 2026-10-14 S009 | Exact first-return languages and marked input frontiers; three-component shortcut refuted; continued path-cover/protected triangle upper | S00938–43 and CAM01/02 | UNIVERSAL ASH* OPEN |
 | 2026-10-14 S009 | Stop before complete future S010 and all final-stage activity; one atomic authored PR/non-force merge only | S009 CLOSEOUT/FUTURE_S010 | BINDING |
+
+| 2026-10-14 S010 | Reconcile actual S009 head/merge/jobs and expanded invocation, plan hashed first, historical frozen indexes unchanged | entry/INPUT/PLAN/AUDIT | PASS |
+| 2026-10-14 S010 | Exact reverse grammar counts/finite ports/cuts/quotients, then full reflection/critical insertion trees/zero-I extension | 44-52 and three registered campaigns | PROGRAMME_PROVED scoped, universal OPEN |
+| 2026-10-14 S010 | Keep CLEAR stackable critical losers and roots/donor2/three-mark bridge separate; S011 future only | MILESTONES/FUTURE_S011 | No gate/final-stage advance |

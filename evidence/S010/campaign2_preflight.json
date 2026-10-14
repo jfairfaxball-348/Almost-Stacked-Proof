@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-14T22:11:21.152647+00:00",
+  "campaign": "CAM-S010-02",
+  "execution": "NOT_YET_RUN",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "files": {
+    "sessions/S010/PLAN_AMENDMENT_2.md": "351d6bd8ea3d5a97d67a9a305ace8e65cae3d27f507fa515373e05faa6a491fc",
+    "tools/s010_roots.py": "99f2accccb1bb4c2f91b1b65c7cffd2d912dcd6eac1a02e614388a2b3e6d3a78",
+    "tools/s010_roots_verify.py": "cec7d545b587004447d95ec82196c0d6e0bf8acd3193b074ee33e2e88a259fc3"
+  }
+}

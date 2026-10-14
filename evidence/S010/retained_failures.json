@@ -1,0 +1,18 @@
+{
+  "administrative_patch_rejections": [
+    {
+      "error": "invalid patch: multiple operations target sessions/S010/MILESTONES.md",
+      "effect": "Atomic patch rejected; no files changed; split into valid independent updates."
+    },
+    {
+      "error": "Failed to find expected lines for partial date prefix",
+      "effect": "No file changed; exact substring replacement used."
+    }
+  ],
+  "draft_mathematical_failure": {
+    "rejected_claim": "K2 (2,1) wins only at vertex1",
+    "error": "Stopped at intermediate stack (0,2); the next move (1,0) wins at0.",
+    "resolution": "Corrected before accepting theorem or compatibility verdict; full rooted tables retained."
+  },
+  "campaign_failures": []
+}

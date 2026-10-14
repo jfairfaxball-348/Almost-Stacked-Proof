@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s010_counts_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 2.7030000000013388,
+  "peak_working_set_bytes": 111226880,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S010-01\", \"all_verified\": true, \"certificates\": 37556, \"legal_exact_count_traces\": 26274, \"weak_failures\": 3856, \"trace_raw_sha256\": \"63a2541586387014046fc21241877f3c0c9fe9d66958f4aabf2cf6566b1082d5\", \"closure_raw_sha256\": \"ea2cab800f79aa2f3b5bc79ef78d348274d84c479cb0d990d1ab207f6baf7b2e\", \"explicit_K3_weak_counterexample\": {\"c\": [0, 1, 3], \"q\": 2, \"k\": 1, \"m\": [1, 1, 0, 1, 0, 0], \"closure\": {\"states\": 7, \"clear_mask\": 3, \"stack_mask\": 7, \"sha256\": \"f0ad606927074734da700aa1ad3124b8c7d05cc9129b0aab6021f12b9f9028db\"}}, \"threshold_claims\": 0, \"seconds\": 1.7809999999954016}\r\n",
+  "stderr": "",
+  "code_sha256": "0a86b5d4c3e0b975c4d0d9e5dc56acbb374f63a665734afd1c0050611628de8d"
+}

@@ -1,0 +1,138 @@
+{
+  "campaign": "CAM-S010-02",
+  "all_verified": true,
+  "cases": [
+    {
+      "graph": "K2",
+      "goal": "stack",
+      "threshold": 3,
+      "layers": 3,
+      "configurations": 9,
+      "critical_losers": 1,
+      "whole_threshold_common_roots": 0
+    },
+    {
+      "graph": "K3",
+      "goal": "stack",
+      "threshold": 4,
+      "layers": 4,
+      "configurations": 34,
+      "critical_losers": 1,
+      "whole_threshold_common_roots": 7
+    },
+    {
+      "graph": "K3",
+      "goal": "clear",
+      "threshold": 4,
+      "layers": 4,
+      "configurations": 34,
+      "critical_losers": 4,
+      "whole_threshold_common_roots": 0
+    },
+    {
+      "graph": "P4",
+      "goal": "stack",
+      "threshold": 15,
+      "layers": 15,
+      "configurations": 3875,
+      "critical_losers": 2,
+      "whole_threshold_common_roots": 6
+    },
+    {
+      "graph": "C5",
+      "goal": "stack",
+      "threshold": 8,
+      "layers": 8,
+      "configurations": 1286,
+      "critical_losers": 10,
+      "whole_threshold_common_roots": 0
+    },
+    {
+      "graph": "C5",
+      "goal": "clear",
+      "threshold": 10,
+      "layers": 10,
+      "configurations": 3002,
+      "critical_losers": 5,
+      "whole_threshold_common_roots": 0
+    },
+    {
+      "graph": "triangle_tail2",
+      "goal": "stack",
+      "threshold": 16,
+      "layers": 16,
+      "configurations": 20348,
+      "critical_losers": 1,
+      "whole_threshold_common_roots": 25
+    },
+    {
+      "graph": "triangle_tail2",
+      "goal": "clear",
+      "threshold": 22,
+      "layers": 22,
+      "configurations": 80729,
+      "critical_losers": 1,
+      "whole_threshold_common_roots": 6
+    },
+    {
+      "graph": "F2",
+      "goal": "stack",
+      "threshold": 11,
+      "layers": 11,
+      "configurations": 4367,
+      "critical_losers": 4,
+      "whole_threshold_common_roots": 1
+    },
+    {
+      "graph": "F2",
+      "goal": "clear",
+      "threshold": 13,
+      "layers": 13,
+      "configurations": 8567,
+      "critical_losers": 6,
+      "whole_threshold_common_roots": 6
+    },
+    {
+      "graph": "bowtie",
+      "goal": "stack",
+      "threshold": 8,
+      "layers": 8,
+      "configurations": 1286,
+      "critical_losers": 4,
+      "whole_threshold_common_roots": 1
+    },
+    {
+      "graph": "bowtie",
+      "goal": "clear",
+      "threshold": 8,
+      "layers": 8,
+      "configurations": 1286,
+      "critical_losers": 4,
+      "whole_threshold_common_roots": 1
+    },
+    {
+      "graph": "diamond",
+      "goal": "stack",
+      "threshold": 7,
+      "layers": 7,
+      "configurations": 329,
+      "critical_losers": 3,
+      "whole_threshold_common_roots": 15
+    },
+    {
+      "graph": "diamond",
+      "goal": "clear",
+      "threshold": 7,
+      "layers": 7,
+      "configurations": 329,
+      "critical_losers": 3,
+      "whole_threshold_common_roots": 5
+    }
+  ],
+  "complete_layers": 136,
+  "complete_configurations": 125481,
+  "literal_insertion_root_traces": 930,
+  "literal_moves": 7703,
+  "trace_raw_sha256": "a12239ac497da29bc678a8ef33fbbfbe804c3ab348569dff92fd52b8dc36c3f7",
+  "seconds": 0.5469999999986612
+}

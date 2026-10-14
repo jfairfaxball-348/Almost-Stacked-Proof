@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s010_reflect_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 1.312999999994645,
+  "peak_working_set_bytes": 195190784,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S010-03\", \"all_verified\": true, \"marked_cases\": 21707, \"reflected_literal_moves\": 98878, \"distinct_deleted_inputs\": 1447, \"complete_closure_states\": 60868, \"maximum_closure_states\": 122, \"seconds\": 1.0940000000045984}\r\n",
+  "stderr": "",
+  "code_sha256": "358cf37dddba46f278f41b8f28675b01ba0535652dee6cb3fc0bb4bb6af860e0"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s010_roots_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.7189999999973224,
+  "peak_working_set_bytes": 62832640,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S010-02\", \"all_verified\": true, \"complete_layers\": 136, \"complete_configurations\": 125481, \"literal_insertion_root_traces\": 930, \"literal_moves\": 7703, \"trace_raw_sha256\": \"a12239ac497da29bc678a8ef33fbbfbe804c3ab348569dff92fd52b8dc36c3f7\", \"seconds\": 0.5469999999986612}\r\n",
+  "stderr": "",
+  "code_sha256": "cec7d545b587004447d95ec82196c0d6e0bf8acd3193b074ee33e2e88a259fc3"
+}

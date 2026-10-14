@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-14T22:00:25.647047+00:00",
+  "campaign": "CAM-S010-01",
+  "execution": "NOT_YET_RUN",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "files": {
+    "sessions/S010/PLAN.md": "60e84004a54b6803d77c5f357626ae03d7233f75c0fd3ad5f7dd6986aca12c0d",
+    "sessions/S010/PLAN_AMENDMENT_1.md": "b4891edb2ce1a94b55c0d75e904a7ab3c7bfec2f03d3b2e940089fa14a2381cb",
+    "tools/s010_counts.py": "17d8ebafecd758a8f5af35ded9f09f3dcf32ee0f030dac80588e1b7b810534fe",
+    "tools/s010_counts_verify.py": "0a86b5d4c3e0b975c4d0d9e5dc56acbb374f63a665734afd1c0050611628de8d",
+    "tools/s010_replay.py": "67a4ea0b3a9d96a5d2eead323342ea282bd0b1eb137e0d2a1e4595aa7c6601b4"
+  },
+  "input": "Exact labelled graphs and complete generation rule in hashed amendment; no symmetry; sum arc counts<=5,k1..4,all roots,nonnegative inputs."
+}
