@@ -1,0 +1,35 @@
+[
+  {
+    "action": "append CLM-0068 Markdown mirror",
+    "error": "UnicodeDecodeError from implicit cp1252 read of UTF-8 Markdown",
+    "effect": "JSON entry appended, Markdown missing; caught by governance validation; fixed explicit encoding=utf-8"
+  },
+  {
+    "action": "initial closeout check log collection",
+    "error": "subprocess cp1252 reader failed on UTF-8 git diff output; collector AttributeError",
+    "effect": "three mathematical checkers passed; local_checks file not written; rerun with explicit UTF-8"
+  },
+  {
+    "action": "initial final governance validation",
+    "exit_code": 1,
+    "error": "AssertionError c[id] in claims_md",
+    "effect": "failed closed on missing CLM-0068 Markdown; no mathematical failure or gate promotion"
+  },
+  {
+    "action": "review UTF-8 changed documents",
+    "error": "implicit cp1252 reads silently re-encoded Unicode in catalogue mirrors and copied handoff; git diff caught original trailing spaces as changed lines",
+    "effect": "restored original UTF-8 catalogues from pinned main, reapplied updates with explicit UTF-8, recopied authoritative/closeout handoff exactly; no old evidence changed"
+  },
+  {
+    "action": "prospective governance check after final AUDIT edit",
+    "exit_code": 1,
+    "error": "S008 current manifest stale for sessions/S008/AUDIT.md",
+    "effect": "caught by hash validation; regenerated S008 manifest before final validation, historical hashes unchanged"
+  },
+  {
+    "action": "staged whitespace check",
+    "exit_code": 1,
+    "error": "two trailing spaces in frozen historical S007 source catalogue rows",
+    "effect": "original byte hashes require retaining both; authored staged changes pass with only frozen snapshots excluded"
+  }
+]

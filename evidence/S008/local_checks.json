@@ -1,0 +1,51 @@
+[
+  {
+    "command": "python tools/s008_tip_verify.py --check-only",
+    "exit_code": 0,
+    "stdout": "{\"all_verified\": true, \"grammar_cases\": 9, \"closures\": [{\"length\": 0, \"configuration\": [1, 1, 1], \"complete_reachable_states\": 1, \"stack_goals\": 0, \"closure_sha256\": \"693897180985b98b9374f47e754bf66e4bfb65ce547668a046fcdfefbca1f748\"}, {\"length\": 1, \"configuration\": [0, 1, 1, 5], \"complete_reachable_states\": 14, \"stack_goals\": 0, \"closure_sha256\": \"d62a65158cf05cfcec80fae3e5d1de4e300649b479498c26343ea9a99309c1c1\"}, {\"length\": 2, \"configuration\": [0, 1, 1, 0, 13], \"complete_reachable_states\": 101, \"stack_goals\": 0, \"closure_sha256\": \"584960483aa3b1bd935c2aa8e5c1421e4ec5b0596a645f5ef940e04a32b41653\"}, {\"length\": 3, \"configuration\": [0, 1, 1, 0, 0, 29], \"complete_reachable_states\": 891, \"stack_goals\": 0, \"closure_sha256\": \"b724c70cf803b7361c83aee086058227422571c27610a3746e486a284d87ec82\"}], \"forest_finite\": 774, \"seconds\": 0.5}\n",
+    "stderr": "",
+    "seconds": 0.5629999999982829
+  },
+  {
+    "command": "python tools/s008_symbolic.py --check-only",
+    "exit_code": 0,
+    "stdout": "{\"universally_nonnegative_linear_differences\": 4376, \"bases\": 5, \"all_verified\": true}\n",
+    "stderr": "",
+    "seconds": 0.07800000000133878
+  },
+  {
+    "command": "python tools/s008_branches_verify.py --check-only",
+    "exit_code": 0,
+    "stdout": "{\"campaign\": \"CAM-S008-02\", \"complete_layers\": 72, \"complete_configurations\": 127799, \"independent_traces\": 36173, \"legal_moves\": 479591, \"all_verified\": true, \"seconds\": 0.8909999999996217}\n",
+    "stderr": "",
+    "seconds": 1.0
+  },
+  {
+    "command": "git diff --check",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.06199999999807915
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 1,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\nS003 evidence hashes: 20 files match.\nAuthor correspondence provenance and unexecuted S009 handoff: PASS (administrative only).\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\nS006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).\nS007 scope and 72 historical hashes: PASS (cold audit S008; universal ASH* OPEN).\n",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Almost-Stacked-Proof\\validation\\validate_governance.py\", line 302, in <module>\n    assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: sessions/S008/AUDIT.md\n",
+    "seconds": 18.93699999999808
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 0,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\nS003 evidence hashes: 20 files match.\nAuthor correspondence provenance and unexecuted S009 handoff: PASS (administrative only).\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\nS006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).\nS007 scope and 72 historical hashes: PASS (cold audit S008; universal ASH* OPEN).\nS008 scopes and 70 immutable hashes: PASS (universal ASH* OPEN; S009 FUTURE).\n",
+    "stderr": "",
+    "seconds": 19.60899999999674
+  },
+  {
+    "command": "git diff --cached --check -- . :(exclude)evidence/S008/frozen_s007_*",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "scope": "authored changes; frozen historical bytes deliberately retained verbatim"
+  }
+]

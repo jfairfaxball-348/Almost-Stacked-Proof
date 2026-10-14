@@ -1,4 +1,4 @@
-# Source catalogue — current after S007
+# Source catalogue — current after S008
 
 Per-material access levels retained; inspection of selected proofs is not a full-paper audit.
 
@@ -8,9 +8,9 @@ Per-material access levels retained; inspection of selected proofs is not a full
 
 - **SRC-0003** The stacking number of a tree — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2609.31811 — Exact Lean Stacking/Estimator/RootScore/UpperBound and defect-flow proof notes inspected; no new kernel build in S002
 
-- **SRC-0004** TreeStack Palomar entry — **METADATA_ONLY**. https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1 — 
+- **SRC-0004** TreeStack Palomar entry — **METADATA_ONLY**. https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1 —
 
-- **SRC-0005** Davenport-Counterexample-Hunt — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt — 
+- **SRC-0005** Davenport-Counterexample-Hunt — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt —
 
 - **SRC-0006** Sjöstrand cover pebbling — **ABSTRACT_INSPECTED**. https://www.combinatorics.org/ojs/index.php/eljc/article/view/v12i1n22 — Sjöstrand 2005 EJC 12(1) N22, DOI 10.37236/1989, publisher abstract inspected
 
@@ -39,3 +39,9 @@ Per-material access levels retained; inspection of selected proofs is not a full
 - **SRC-0018** S007 full forward/reverse triangle-tail layers and independent constructive trace replay — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S007 — Exact labelled l=0,1,2 only, complete full set hashes/counts, all constructive winning traces independently replayed; no universal certification.
 
 S007 source refresh: SRC-0001/0002 remain current v1 with unchanged PDF digests; selected April6.1 and October4.7/pullback/+3 proofs re-inspected. No public correction or novelty claim.
+
+- **SRC-0019** S008 hostile audit, symbolic ancestry dual, exact triangle-tail stacking and common-root leaf thresholds — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S008_HOSTILE_AUDIT_AND_UNIVERSAL_ROUTES.md — Complete scopes/dependencies/production case proofs and universal ideal/tightness reformulation; universal comparison OPEN, novelty unaudited, no Lean.
+
+- **SRC-0020** S008 exact buffer certificates, universal symbolic inequalities and independent branch layer/trace checks — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S008 — Registered l0..8 named buffer/l0..3 closures and F_k k1..3 layers;4376 universal symbolic differences; precise counts/scopes in AUDIT, no universal/kernel certification.
+
+S008 source refresh: SRC-0001/0002 remain v1 with unchanged PDF digests; selected source proofs inspected. S007 claims hostile-audited at exact scopes. No primary paper mirrored and no priority verdict; deep prior-art investigation is S009 FUTURE.

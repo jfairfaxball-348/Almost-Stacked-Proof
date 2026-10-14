@@ -1,0 +1,89 @@
+{
+  "base_commit": "a21ce4702f2d888bd5e6a417a17df0f2095f0b0a",
+  "files": {
+    ".github/workflows/governance.yml": {
+      "snapshot": "evidence/S008/frozen_s007_.github__workflows__governance.yml",
+      "sha256": "b32f65c281abbe6de95bbba2c4b85625160feeb37a77764ce09a78bf807ed68d"
+    },
+    "audit/SEARCH_LOG.md": {
+      "snapshot": "evidence/S008/frozen_s007_audit__SEARCH_LOG.md",
+      "sha256": "9f4cb395ac8846a55f2ad62af0e939f16fdd849df7b0fb9356ed0580854d22af"
+    },
+    "authoritative/DECISION_LOG.md": {
+      "snapshot": "evidence/S008/frozen_s007_authoritative__DECISION_LOG.md",
+      "sha256": "96195c7ef77d5e0f2705fddcfc797ef8928391c82565525b2036ac110e8df4f3"
+    },
+    "authoritative/NEXT_SESSION_PROMPT.md": {
+      "snapshot": "evidence/S008/frozen_s007_authoritative__NEXT_SESSION_PROMPT.md",
+      "sha256": "d8f24dd1bb31b8a6929a8a083b7f3454449a8f033651871a2da10abdbe7fee90"
+    },
+    "authoritative/START_HERE.md": {
+      "snapshot": "evidence/S008/frozen_s007_authoritative__START_HERE.md",
+      "sha256": "eb5491cf4ccaab1778435e2024c5cadfb6608a8c5306f8ca5570055b4df0e7b7"
+    },
+    "authoritative/STATE.json": {
+      "snapshot": "evidence/S008/frozen_s007_authoritative__STATE.json",
+      "sha256": "c97a02ade9b2935c78b4543f3529d2759934667f26b3f7a6fa4de6bfcf21a802"
+    },
+    "campaigns/REGISTRY.md": {
+      "snapshot": "evidence/S008/frozen_s007_campaigns__REGISTRY.md",
+      "sha256": "4fd8db7ecea73bb25ff54b527c0f028826204a63fb568ce24f0803de1c0fce5f"
+    },
+    "catalogue/claims.json": {
+      "snapshot": "evidence/S008/frozen_s007_catalogue__claims.json",
+      "sha256": "917d28048e2e78123defb12f588019609e002f6647c641b24f4b192e1cece8d9"
+    },
+    "catalogue/CLAIMS.md": {
+      "snapshot": "evidence/S008/frozen_s007_catalogue__CLAIMS.md",
+      "sha256": "d49f2e6c8f6b4a341d342bd51c272b9a9343b86ff22ba596e81c8138d2cfe0b2"
+    },
+    "catalogue/sources.json": {
+      "snapshot": "evidence/S008/frozen_s007_catalogue__sources.json",
+      "sha256": "cfd06c602e4330cf6db13d8721b182c752a7cf630cd7627c3baa12dfd9dffa54"
+    },
+    "catalogue/SOURCES.md": {
+      "snapshot": "evidence/S008/frozen_s007_catalogue__SOURCES.md",
+      "sha256": "a94e1397a3d2beb07e8676785286f890896d162bcc70ab32385f78828a5f747e"
+    },
+    "docs/FAILURE_AND_LESSON_LEDGER.md": {
+      "snapshot": "evidence/S008/frozen_s007_docs__FAILURE_AND_LESSON_LEDGER.md",
+      "sha256": "0286e5b5a33b0f317c71c4440732086c72fcfa1c9cbd5141d5d9d7f252b79dca"
+    },
+    "docs/PHASE_GATE_LEDGER.md": {
+      "snapshot": "evidence/S008/frozen_s007_docs__PHASE_GATE_LEDGER.md",
+      "sha256": "90fc8ee4f4b1ed3e4041e80986a0c13ea8368ca6af42af6a30fcb2c9a31fbd55"
+    },
+    "docs/SESSION_LEDGER.md": {
+      "snapshot": "evidence/S008/frozen_s007_docs__SESSION_LEDGER.md",
+      "sha256": "24eca881b6aa14c215d2412707f645402273aa823c8dbccf84ab86442d27d61e"
+    },
+    "research/ASH_SPEC.json": {
+      "snapshot": "evidence/S008/frozen_s007_research__ASH_SPEC.json",
+      "sha256": "68347054b5ca4e44940e00b5068b22cff2bc30b41d4f0b63b7126b984868a9d5"
+    },
+    "research/ASH_SPEC.md": {
+      "snapshot": "evidence/S008/frozen_s007_research__ASH_SPEC.md",
+      "sha256": "22428d7ce0244c21be6337ba33a4a80fee8e89e0398270cfb8772cc873f2d0e8"
+    },
+    "research/ASHSTAR_ATTACK_BRIEF.md": {
+      "snapshot": "evidence/S008/frozen_s007_research__ASHSTAR_ATTACK_BRIEF.md",
+      "sha256": "3e24ee83fc9a5e4dd0a399686d1f7e862abca9518077e23772bc08d4ee0328a1"
+    },
+    "research/PROBLEM_SPEC.md": {
+      "snapshot": "evidence/S008/frozen_s007_research__PROBLEM_SPEC.md",
+      "sha256": "8b32719b5046c4fc5b321c0932bb871defb7700fd9ecbb644e086069db8416b3"
+    },
+    "research/ROUTES.md": {
+      "snapshot": "evidence/S008/frozen_s007_research__ROUTES.md",
+      "sha256": "e1a390b85d2e4f14fc9fee921a802e769d55f49470bc4321a59ad94a6a60ebaf"
+    },
+    "tools/README.md": {
+      "snapshot": "evidence/S008/frozen_s007_tools__README.md",
+      "sha256": "977a2c9c4fc9356310ca1d2dda9a9d97aa3017c02445c8bdb39697b33fbeeee4"
+    },
+    "validation/validate_governance.py": {
+      "snapshot": "evidence/S008/frozen_s007_validation__validate_governance.py",
+      "sha256": "3f63ef0d854920f8cc8352eb0b5e1398ccb08bb95f4d836e00fc7b174f31bdb6"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# Claim catalogue — current after S007
+# Claim catalogue — current after S008
 
 Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and exact finite scopes retained.
 
@@ -62,7 +62,21 @@ Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and ex
 | CLM-0055 | PROGRAMME_PROVED | Rooted spanning-tree selected ancestry credit: mass>M=sum 2^(h-depth) produces two root pebbles from K<=2^(h+1) designated inputs; replay only chosen trees, leaving other inputs untouched. S007 Lemma28. | SRC-0017, SRC-0012 |
 | CLM-0056 | PROGRAMME_PROVED | Legal leaf clearing/stacking extension bounds under explicit rooted-tree credit/M/g hypotheses; separate odd self-credit, leaf1/3 debt and core-singleton winning pullback. S007 Lemmas29/31. | SRC-0017, SRC-0015, SRC-0001 |
 | CLM-0057 | PROGRAMME_PROVED | For every l>=0, triangle with pendant l-edge path has clear=6*2^l-2 and an AS pure tip loser at the critical layer; prior April6.1 lower credited, complete unconditional all-configuration upper. S007 Theorem30. | SRC-0017, SRC-0002, SRC-0013 |
-| CLM-0058 | PROGRAMME_PROVED | For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack remains unproved. S007 Corollary32. | SRC-0017, SRC-0015 |
+| CLM-0058 | PROGRAMME_PROVED | For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack was unproved in S007; S008 Theorem35 supplies it separately (CLM-0063). S007 Corollary32. | SRC-0017, SRC-0015 |
 | CLM-0059 | PROGRAMME_PROVED | Sharp odd-bound non-bipartite cores with boundary spanning height h and M<2g retain exact clear=3*2^(h+l)-2 under pendant path extension; explicit conditional hypotheses in S007 Theorem33. | SRC-0017, SRC-0002 |
 | CLM-0060 | COMPUTED_EXACT | Independent S007 full layer hashes/counts: clear l0..2 thresholds4/10/22,81763 states/36 layers; stack4/8/16,20876 states/28 layers.15251 clear and5025 stack traces,316569/73132 moves legally replayed. Finite only. | SRC-0018 |
 | CLM-0061 | PROGRAMME_PROVED | Move-monotone additive scalar weights cannot separate the K3 pure3 clearing loser; exact three-state closure nonclearing. Universal general/binary conductor inequality remains unproved. | SRC-0017 |
+
+| CLM-0062 | PROGRAMME_PROVED | For every triangle-tail length l>=0, the explicit tree/forest lower labels for a tip pile and two core singleton inputs satisfy all bases/productions, including zero kind and every final root; S008 Lemma34, no novelty/kernel claim. | SRC-0019, SRC-0012, SRC-0015 |
+
+| CLM-0063 | PROGRAMME_PROVED | Exact stack(G_l)=4*2^l for every triangle-tail l>=0: S007 upper plus S008 AS loser (4*2^l-3)e_tip+e1+e2, ruled out at every final forest root by Lemma34. ASH*-stack holds for this family only. | SRC-0019, SRC-0017 |
+
+| CLM-0064 | PROGRAMME_PROVED | For triangle F_k with k>=1 leaves all attached at vertex0, stack=3k+5 and clear=3k+7; complete separate legal normalization uppers and weight/mod3/chronology AS critical lowers. S008 Theorem36, universal ASH* OPEN. | SRC-0019 |
+
+| CLM-0065 | PROGRAMME_PROVED | Winning configurations in each fixed nonempty support/residue class form a finite-complement monomial ideal via occupied +3; rooted ideals sum for unrooted goals; every globally largest loser has U=c(s)+3 at every occupied s. S008 Proposition37, no cross-class AS domination proved. | SRC-0019, SRC-0015, SRC-0001 |
+
+| CLM-0066 | COMPUTED_EXACT | S008 registered named-buffer l0..8 optimality/legality certificates,774 finite forest witnesses; complete candidate closures l0..3 with1/14/101/891 states;4376 universally nonnegative symbolic production differences. No whole-graph threshold census or universal ASH* certificate. | SRC-0020 |
+
+| CLM-0067 | COMPUTED_EXACT | S008 F_k,k1..3 only, both goals:72 complete labelled layers/127799 states; full forward/reverse set hashes/counts agree;36173 upper traces/479591 legal moves independently replayed and both critical AS patterns checked. Infinite Theorem36 rests on written proof. | SRC-0020 |
+
+| CLM-0068 | PROGRAMME_PROVED | Conditional consequence of audited S007 Theorem33 and retained COMPUTED_EXACT core thresholds: C5 and C7 with a pendant l-edge path have clear=12*2^l-2 and24*2^l-2, respectively, for l>=0, with prior pure-tip AS lower. Not an all-odd-cycle core theorem; finite core dependencies remain explicit. | SRC-0019, SRC-0017, SRC-0009 |

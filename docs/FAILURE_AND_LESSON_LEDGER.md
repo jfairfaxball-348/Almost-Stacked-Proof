@@ -46,3 +46,12 @@
 | FL-0038 | A scalar move-monotone weight dual cannot separate all exact-clearing losers | K3 pure3 exact three-state closure; richer chronology/residue certificates needed |
 | FL-0039 | New symbolic threshold does not complete an old truncated certificate | S007 proves triangle-tail6 clear382, old S005 certificate still stops at47 |
 | FL-0040 | Triangle-tail stacking upper does not imply exact formula or ASH*-stack | S007 <=4*2^l; matching AS lower remains future |
+
+| FL-0041 | A binary-buffer lower dual or a finite-complement ideal does not establish arbitrary-buffer upper domination | S00834 solves one buffer; abstract (X^3,Y^3) axis inference fails, with no graph counterexample inferred |
+| FL-0042 | Simultaneous U=c(s)+3 tightness is necessary for largest losers, not a sufficient global threshold certificate | Keep exact threshold/critical AS layer verification separate |
+| FL-0043 | Theorem33 cannot extend sharp odd-bound clearing to arbitrary simultaneous branches | F_k clear3k+7 exceeds odd-walk10 and independence3k+4 for k>=2; separate weight/credit proof needed |
+| FL-0044 | Historical manifests also hash mutable mirrors in S007 | Freeze21 pinned S007 byte snapshots and explicitly remap only these paths; never rewrite old digests |
+| FL-0045 | PowerShell/Python nested quote escaping can truncate a code-generation command | Initial provenance-copy command failed before creating any script; replaced by literal here-string, no mathematical result affected |
+
+
+Closeout administrative correction: implicit Windows cp1252 reads failed on UTF-8 text, interrupting CLM-0068 Markdown update and check-log collection. Governance failed closed on the missing claim mirror. Explicit UTF-8 reads/output capture repaired both; mathematical checks had passed, failures retained in evidence/S008/administrative_failures.json.

@@ -1,0 +1,58 @@
+[
+  {
+    "command": "python tools/s007_tail_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.5940000000009604,
+    "stdout": "{\"campaign\": \"CAM-S007-01\", \"goal\": \"clear\", \"full_reverse_layer_matches\": 36, \"complete_configurations\": 81763, \"independent_legal_traces\": 15251, \"legal_moves\": 316569, \"exact_thresholds\": [4, 10, 22], \"all_verified\": true, \"seconds\": 0.5}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s007_tail_verify.py --check-only --stack",
+    "exit_code": 0,
+    "seconds": 0.2029999999977008,
+    "stdout": "{\"campaign\": \"CAM-S007-02\", \"goal\": \"stack\", \"full_reverse_layer_matches\": 28, \"complete_configurations\": 20876, \"independent_legal_traces\": 5025, \"legal_moves\": 73132, \"exact_thresholds\": [4, 8, 16], \"all_verified\": true, \"seconds\": 0.11000000000058208}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.15599999999903957,
+    "stdout": "{\"cases\": 153, \"pure_finite_values\": 1788, \"attaining_derivations\": 2145, \"production_inequalities\": 30347, \"all_verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_stack_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.2040000000015425,
+    "stdout": "{\"finite_forest_cells\": 367, \"concatenation_inequalities\": 9161, \"buffer_source_target_tests\": 1508, \"all_legal_and_optimal\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_challenges.py --check-only",
+    "exit_code": 0,
+    "seconds": 21.32800000000134,
+    "stdout": "{\"graph\": \"A2_0000\", \"last_layer\": 5, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A3_0000\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A3_0001\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0000\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0001\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0002\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0003\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0004\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0005\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0000\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0001\", \"last_layer\": 19, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0002\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0003\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0004\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0005\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0006\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0007\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0008\", \"last_layer\": 32, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0009\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0010\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0011\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0012\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0013\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0014\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0015\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0016\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0017\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0018\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0019\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0020\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail1\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail2\", \"last_layer\": 32, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail3\", \"last_layer\": 29, \"scope\": \"STATE_LIMIT\"}\n{\"graph\": \"triangle_tail0\", \"last_layer\": 16, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail4\", \"last_layer\": 10, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"pure_tests\": 11750, \"buffer_tests\": 1508, \"scalar\": [{\"graph\": \"triangle_tail1\", \"tested\": 4844, \"false_positive\": 4, \"false_negative\": 123}, {\"graph\": \"triangle_tail2\", \"tested\": 20348, \"false_positive\": 44, \"false_negative\": 719}, {\"graph\": \"triangle_tail3\", \"tested\": 74612, \"false_positive\": 358, \"false_negative\": 2905}, {\"graph\": \"triangle_tail4\", \"tested\": 19447, \"false_positive\": 1020, \"false_negative\": 120}], \"seconds\": 21.25}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_extrema.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.18699999999807915,
+    "stdout": "{\"cases\": 257, \"failed_nonAS_class_maxima\": 618, \"first_failure\": {\"graph\": \"A3_0000\", \"n\": 3, \"edges\": [[0, 2], [1, 2]], \"mode\": \"stack\", \"critical_mass\": 6, \"configuration\": [3, 3, 0], \"support_residue\": [3, 3, 0], \"class_Qmax\": 18, \"global_Qmax\": 26, \"class_has_AS\": false, \"class_states\": [[3, 3, 0]], \"global_AS_maximizer\": [1, 5, 0]}, \"seconds\": 0.09400000000096043}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_obstruction_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.06300000000192085,
+    "stdout": "{\"auxiliary_closures_verified\": 5, \"closed_states\": 26, \"P3_critical_loser_closure\": 8, \"all_verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 0,
+    "seconds": 19.40599999999904,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\nS003 evidence hashes: 20 files match.\nAuthor correspondence provenance and unexecuted S008 handoff: PASS (administrative only).\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\nS006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).\nS007 mirrors, scope and 72 hashes: PASS (family proof; universal ASH* OPEN; S008 FUTURE).\n",
+    "stderr": ""
+  }
+]

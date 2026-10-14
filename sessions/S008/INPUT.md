@@ -1,0 +1,9 @@
+# S008 owner invocation — 2026-10-14
+
+OWNER_INVOCATION_SUMMARY (not a verbatim transcript/hash): the owner explicitly requested execution of the live main authoritative/NEXT_SESSION_PROMPT.md at https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/authoritative/NEXT_SESSION_PROMPT.md, with an S008 addendum.
+
+The addendum requires an adversarial independent mathematical examination of S007 Lemmas28/29/31, Theorem30, Corollary32 and conditional Theorem33; accurate verdicts; substantial continued competing universal ASH* proof/disproof work after audit; no stopping merely upon an intermediate result; precise surviving scopes/dependencies, unresolved universal obligations and ranked routes. The ultimate milestone is universal critical ASH*, separately stacking and clearing. No intermediate theorem substitutes for it.
+
+S009's first substantive priority must be deep primary-source prior-art/originality investigation of surviving results, including Csernak-Soukup, cited predecessors, graph/cover/rooted pebbling, graph extensions and ancestry methods. Distinguish known theorem/new proof/new theorem and unresolved equivalences. Follow this foundational investigation with ambitious continued universal proof/counterexample research. No manuscript or separate intermediate-result publication programme. Do not execute S009 during S008. No Lean, Palomar, arXiv, submissions or correspondence.
+
+The original S008 objectives, verification, integrity and GitHub closeout remain authorized. Full addendum words are preserved in OWNER_ADDENDUM.md with Markdown escapes normalized and no raw-chat-byte hash claim. Exact accepted prospective prompt is preserved in AUTHORISED_PROMPT.md from pinned entry main 3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4. AGENTS/live-main precedence supersedes historical START_HERE session prose; authoritative/STATE.json is controlling (no root STATE.json).

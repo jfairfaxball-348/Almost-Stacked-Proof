@@ -38,3 +38,9 @@ Universal critical ASH* remains OPEN for both goals; printed mathematics PASS an
 ## Current S007 update
 
 Universal ASH* remains OPEN, both goals. S007 proves clear(G_l)=6*2^l-2 for every triangle-tail l>=0, with prior April6.1 pure AS lower and a complete legal selected-ancestry credit upper. Proves stack(G_l)<=4*2^l only; no infinite stacking equality/AS lower. Theorem33 extends sharp odd-bound cores under explicit rooted-tree hypotheses, not arbitrary cactus composition. S006 cold audit PASS; all inherited finite cutoffs retained. See research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md and S007 AUDIT. No novelty/Lean/later promotion; S008 strictly FUTURE/UNEXECUTED.
+
+## Current S008 update (2026-10-14)
+
+Universal ASH* remains OPEN, both goals. S008 hostile audit of S007 PASS at stated scopes (Theorem33 conditional). New exact all-length triangle-tail stacking4*2^l with AS lower, and triangle with k common-root leaves stack3k+5/clear3k+7 with separate AS witnesses. Exact support/residue ideal and simultaneous conductor tightness do not close the global comparison. Independent registered certificates/layers/traces passed; all old cutoffs retained. Novelty NOT_AUDITED, Lean NOT_STARTED, all final activities deferred. S009 strictly FUTURE/UNEXECUTED, first deep prior-art/dependency investigation then sustained universal research.
+
+See research/S008_HOSTILE_AUDIT_AND_UNIVERSAL_ROUTES.md and sessions/S008/AUDIT.md. Historical session/future paragraphs above are superseded by this section and STATE.
