@@ -1,0 +1,2639 @@
+{
+  "campaign": "CAM-S010-02",
+  "cases": [
+    {
+      "graph": "K2",
+      "goal": "stack",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "threshold": 3,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 2,
+          "losers": 0,
+          "root_mask_sha256": "9d7e37bcecea071f47b79606b8d894a79738c727621b2682491e1bb088e68c87"
+        },
+        {
+          "mass": 2,
+          "configurations": 3,
+          "losers": 1,
+          "root_mask_sha256": "48dc7871366ab4ead13b53b332bc04c85f00980c87bf902cb06de203f8f744b1"
+        },
+        {
+          "mass": 3,
+          "configurations": 4,
+          "losers": 0,
+          "root_mask_sha256": "a8b375c19e7efa94fd27ff8792b28f9b4a0a196339a7ba8a4fec94ffc73b45ab"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 2,
+          "insertion_masks": [
+            3,
+            3
+          ],
+          "common_roots": 3,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 0,
+      "whole_threshold_missing_root_witnesses": {
+        "0": [
+          0,
+          3
+        ],
+        "1": [
+          3,
+          0
+        ]
+      },
+      "critical_losers": 1,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 2,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "K3",
+      "goal": "stack",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "threshold": 4,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 3,
+          "losers": 0,
+          "root_mask_sha256": "fc9eb17f85d51fbc7798d52bc501452d270cf8a709d9739c25a2d17319c78d56"
+        },
+        {
+          "mass": 2,
+          "configurations": 6,
+          "losers": 3,
+          "root_mask_sha256": "bb578a9001d251f8e77512345fca70b29ec9429ba27230701f528fb8d82bfb53"
+        },
+        {
+          "mass": 3,
+          "configurations": 10,
+          "losers": 1,
+          "root_mask_sha256": "64590c87b23d3861b680ebe01689229108c791911488b1c84ed6b777a10c5154"
+        },
+        {
+          "mass": 4,
+          "configurations": 15,
+          "losers": 0,
+          "root_mask_sha256": "b971e77ce08865e62ce3a2874fcc681469004be13af670d15a19a8025d1ac509"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            1,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 3,
+          "insertion_masks": [
+            7,
+            7,
+            7
+          ],
+          "common_roots": 7,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 7,
+      "whole_threshold_missing_root_witnesses": {},
+      "critical_losers": 1,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 3,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "K3",
+      "goal": "clear",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "threshold": 4,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 3,
+          "losers": 0,
+          "root_mask_sha256": "fc9eb17f85d51fbc7798d52bc501452d270cf8a709d9739c25a2d17319c78d56"
+        },
+        {
+          "mass": 2,
+          "configurations": 6,
+          "losers": 3,
+          "root_mask_sha256": "e581aeabce9281d0d686ad75a99a5da8698e2927b7b6944364620cbe1b214fc9"
+        },
+        {
+          "mass": 3,
+          "configurations": 10,
+          "losers": 4,
+          "root_mask_sha256": "15bd08a049ca73b2919212012bb932b24d20c5b10d951a0db3af0c4fa55be6d9"
+        },
+        {
+          "mass": 4,
+          "configurations": 15,
+          "losers": 0,
+          "root_mask_sha256": "1c15255202071adbd287970dc1058696f8b69e786891125dbcb4ed7be048864c"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            0,
+            3
+          ],
+          "AS": true,
+          "Q": 9,
+          "insertion_masks": [
+            3,
+            3,
+            7
+          ],
+          "common_roots": 3,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            3,
+            0
+          ],
+          "AS": true,
+          "Q": 9,
+          "insertion_masks": [
+            5,
+            7,
+            5
+          ],
+          "common_roots": 5,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            1,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 3,
+          "insertion_masks": [
+            7,
+            7,
+            7
+          ],
+          "common_roots": 7,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            3,
+            0,
+            0
+          ],
+          "AS": true,
+          "Q": 9,
+          "insertion_masks": [
+            7,
+            6,
+            6
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 0,
+      "whole_threshold_missing_root_witnesses": {
+        "2": [
+          0,
+          1,
+          3
+        ],
+        "0": [
+          0,
+          2,
+          2
+        ],
+        "1": [
+          0,
+          3,
+          1
+        ]
+      },
+      "critical_losers": 4,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 9,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "P4",
+      "goal": "stack",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 15,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "losers": 0,
+          "root_mask_sha256": "7eb12514e8577a9e85b9585e8a828079fd735fad373925c025cceea354fd3781"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "losers": 6,
+          "root_mask_sha256": "71cd60e5e9d05d1e59cfc66777061d8335f21872fbc27850d361fad339d8d6a9"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "losers": 10,
+          "root_mask_sha256": "44ea6585124a02ef92f8adbf6f6fcb2a037614f5b21d3cd5838193c340f2b5bf"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "losers": 16,
+          "root_mask_sha256": "e5f3d7e2378003ffe2b0785d2712517b3917aa8d365a01d7c2747e0deb34e1e0"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "losers": 20,
+          "root_mask_sha256": "2727197bc8ee8fcd0d94d325d215a69033b39bfab9e134ec5c0ae1b8c6e56a58"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "losers": 24,
+          "root_mask_sha256": "6bdabf1ff3f70481aead62161326881eba1a3234389ca5b35d1d831374ac6583"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "losers": 22,
+          "root_mask_sha256": "ee8cb01a232f0bc91c620e88bdbc71b3e2b29ef56355374222ec89df4178cd51"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "losers": 21,
+          "root_mask_sha256": "3e755b2813bee19895b0f4c5dd269554daf78cf43fb63fb78ea3f56a36b0be3b"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "losers": 14,
+          "root_mask_sha256": "b07440e70e735920a539ef2876bbadea0a82a6ee2be91031daab6d63b0b3777b"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "losers": 11,
+          "root_mask_sha256": "ffa75cad5c5a72ff8d68ba274fac9b8b3ac5faf247cc54ce705a667882eafa45"
+        },
+        {
+          "mass": 11,
+          "configurations": 364,
+          "losers": 8,
+          "root_mask_sha256": "bd21ad33dcf94e0964537b8ccbe5280811c365695fad03d47fee026e9f32189f"
+        },
+        {
+          "mass": 12,
+          "configurations": 455,
+          "losers": 4,
+          "root_mask_sha256": "a1b72127862de65d241c5fedbc84b65cd7094b3589f422ad282b9cf92674ea66"
+        },
+        {
+          "mass": 13,
+          "configurations": 560,
+          "losers": 2,
+          "root_mask_sha256": "42a649a32c31b2f7a5469809a3b71e2f0d4ea5d87e8069a06817c78b810e0e17"
+        },
+        {
+          "mass": 14,
+          "configurations": 680,
+          "losers": 2,
+          "root_mask_sha256": "d29417931f2a8a391cd5f7de568170d8b5a7c781b91f579a2a37c6b91fb95683"
+        },
+        {
+          "mass": 15,
+          "configurations": 816,
+          "losers": 0,
+          "root_mask_sha256": "b7aee40362c91a2ed54e9cc669203956d0fd15cbaa2d739fa7a82bd8772c0124"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            1,
+            0,
+            0,
+            13
+          ],
+          "AS": true,
+          "Q": 170,
+          "insertion_masks": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "common_roots": 15,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            13,
+            0,
+            0,
+            1
+          ],
+          "AS": true,
+          "Q": 170,
+          "insertion_masks": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "common_roots": 15,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 6,
+      "whole_threshold_missing_root_witnesses": {
+        "0": [
+          0,
+          0,
+          0,
+          15
+        ],
+        "3": [
+          9,
+          6,
+          0,
+          0
+        ]
+      },
+      "critical_losers": 2,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 170,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "C5",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 8,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "1c1f8505812b12c9e0bf8c416a0e2ffc5921667e5275dfb6a2a6dc658490d114"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 20,
+          "root_mask_sha256": "3bb3880976ba9b4fc48f984b5c1bf6006e4062a4d7fcdd987857da7f130b3127"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 35,
+          "root_mask_sha256": "0084082e326a699d1fe6d30daf2f11a8b7f3a41e03bf30dd6b79ce161ef03bff"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 41,
+          "root_mask_sha256": "8c4e4f8aa83e64b9c651b4ea2c41d1198ef66509204c8894fb449a96aaaa632e"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 35,
+          "root_mask_sha256": "a26d7bcdb185852140b3b62b075511b9a9a7ef9d7dbdd2ae3fe74972dd4b3d6b"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 10,
+          "root_mask_sha256": "2345650cf454fdb084c648a12888a574a4fe53dc72eb29972d8b93b05606aee7"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 0,
+          "root_mask_sha256": "9ead15d72a9f9f76db821c59b1b85db496c954a76f39f9bc839a5ab13fa82a6b"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            1,
+            0,
+            3,
+            3
+          ],
+          "AS": false,
+          "Q": 19,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            0,
+            5
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            3,
+            3,
+            0,
+            1
+          ],
+          "AS": false,
+          "Q": 19,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            5,
+            0,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            1,
+            0,
+            3,
+            3,
+            0
+          ],
+          "AS": false,
+          "Q": 19,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            1,
+            0,
+            5,
+            0,
+            1
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            1,
+            1,
+            0,
+            5,
+            0
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            3,
+            0,
+            1,
+            0,
+            3
+          ],
+          "AS": false,
+          "Q": 19,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            3,
+            3,
+            0,
+            1,
+            0
+          ],
+          "AS": false,
+          "Q": 19,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            5,
+            0,
+            1,
+            1,
+            0
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 0,
+      "whole_threshold_missing_root_witnesses": {
+        "1": [
+          0,
+          0,
+          0,
+          1,
+          7
+        ],
+        "2": [
+          0,
+          0,
+          0,
+          1,
+          7
+        ],
+        "0": [
+          0,
+          0,
+          0,
+          7,
+          1
+        ],
+        "4": [
+          0,
+          0,
+          7,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          1,
+          0,
+          2,
+          5
+        ]
+      },
+      "critical_losers": 10,
+      "non_AS_critical": 5,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 27,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "C5",
+      "goal": "clear",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 10,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "f6509913210a7c8f9ac107e60a1873ac62d26b6aaa64ed687e729fdf8db92c30"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 25,
+          "root_mask_sha256": "766479303b8d4968e3d78e7c57deea30e9bfd6608817bce2df56100cb8687347"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 40,
+          "root_mask_sha256": "6202eb2a807296d733a7fd9f24c4f3a9cd41b9202d3eb417a57970421d5778e2"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 56,
+          "root_mask_sha256": "efacf4c548badb20b8f9a9543e8f1cf1a2977c5fd5c2f749090e6e83c71a0b82"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 60,
+          "root_mask_sha256": "67c062ae7e985b9590a413b68c01586c450db7126f48b57953b5c3a192b177ea"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 30,
+          "root_mask_sha256": "d9e1677b1f619110f9f71eea0539723e2a7d5d6dca4bc38b630d6318d84fe853"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 15,
+          "root_mask_sha256": "50d3ac1ac4e88cbd77a28816dc7b0c3c5af52e47acd4907b5e1d6c7d822d6346"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "losers": 5,
+          "root_mask_sha256": "f37d4175ae3d0e31120d9e7ec56df428ed7ab9ead67075fce94b1339e2463df1"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "losers": 0,
+          "root_mask_sha256": "fc60d5e7d5db1379e8c695f21b991ff956dd1baeaa2dae931eb44b38826da3dd"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            0,
+            0,
+            0,
+            9
+          ],
+          "AS": true,
+          "Q": 81,
+          "insertion_masks": [
+            15,
+            22,
+            22,
+            15,
+            22
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            0,
+            9,
+            0
+          ],
+          "AS": true,
+          "Q": 81,
+          "insertion_masks": [
+            11,
+            11,
+            23,
+            11,
+            23
+          ],
+          "common_roots": 3,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          "AS": true,
+          "Q": 81,
+          "insertion_masks": [
+            21,
+            27,
+            21,
+            27,
+            21
+          ],
+          "common_roots": 17,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            9,
+            0,
+            0,
+            0
+          ],
+          "AS": true,
+          "Q": 81,
+          "insertion_masks": [
+            29,
+            26,
+            29,
+            26,
+            26
+          ],
+          "common_roots": 24,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "AS": true,
+          "Q": 81,
+          "insertion_masks": [
+            13,
+            30,
+            13,
+            13,
+            30
+          ],
+          "common_roots": 12,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 0,
+      "whole_threshold_missing_root_witnesses": {
+        "0": [
+          0,
+          0,
+          0,
+          0,
+          10
+        ],
+        "3": [
+          0,
+          0,
+          0,
+          0,
+          10
+        ],
+        "4": [
+          0,
+          0,
+          0,
+          1,
+          9
+        ],
+        "1": [
+          0,
+          0,
+          0,
+          5,
+          5
+        ],
+        "2": [
+          0,
+          0,
+          0,
+          7,
+          3
+        ]
+      },
+      "critical_losers": 5,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 81,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 16,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "b40f0443e47b97f0fcc280653224305112f93aef736e5a07c1ce5d9e8b9da7c6"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 20,
+          "root_mask_sha256": "7c2434e01707048dc3f110a84db75d1e10597cd8303121fc4457c18a2bf65957"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 38,
+          "root_mask_sha256": "b1c84778eb92bc9f8a4039622f4de69cdbe8287462d563169fb8ecda99df6335"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 57,
+          "root_mask_sha256": "8a8e580d2cf902bd8fe7c438431c58f92d1f195cfcdfe6cd5a1b9638d8010ff2"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 72,
+          "root_mask_sha256": "14e22389cbef47ffcf58b99d645449e3cb029017612b2ac941c89ecdf5b593bb"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 70,
+          "root_mask_sha256": "6b82b2d8cb6125a7d9b11f643e69d242712f8d390a6d744b35f6a74c6f01419d"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 57,
+          "root_mask_sha256": "9ed20ebed35e41d86952a69e466fb8c713c5765df0cb6a452395dd0c6386d08b"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "losers": 31,
+          "root_mask_sha256": "860cfa4f93bfcef0f966eb5da6dc5946feec0bfe336fb73e1dbfc71ecc4c3e31"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "losers": 18,
+          "root_mask_sha256": "985a36aabde407030f69542cb436e6d43a8419211ebb3076e805baef7a82fc81"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "losers": 12,
+          "root_mask_sha256": "d21b06eb00083bdc8025510ead1ab681d0b7f6687f28dfae5739b4aa42a1e64d"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "losers": 7,
+          "root_mask_sha256": "87bb7752da37491be17b9a9f5d1890b7ced841fff4e04786f26dd6d8c4c154dc"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "losers": 3,
+          "root_mask_sha256": "29e8206f8ee92b7cc846f906fa17dc3f9f3f9b16c191655206434ac815b75efb"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "losers": 3,
+          "root_mask_sha256": "33025cd5d101dcdb108593d90669f0321eab9066844dbbe666f709d1db3cff03"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "losers": 1,
+          "root_mask_sha256": "3e61a1000e9ad26d07b0be688e8455f470a8af78c9e84839ac369378404e950b"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "losers": 0,
+          "root_mask_sha256": "1b5e1f0a9dcaa4ad9410627d86f0d84cf077a995882573f5624f7db8896dd188"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            1,
+            1,
+            0,
+            13
+          ],
+          "AS": true,
+          "Q": 171,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 25,
+      "whole_threshold_missing_root_witnesses": {
+        "1": [
+          0,
+          0,
+          0,
+          2,
+          14
+        ],
+        "2": [
+          0,
+          0,
+          0,
+          2,
+          14
+        ]
+      },
+      "critical_losers": 1,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 171,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "goal": "clear",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 22,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "b83168c865009e3e219163c541ea1c7c7f972fc44505e3545eb8e3443a517f24"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 25,
+          "root_mask_sha256": "7c12cd6fb155259560f02d32530c5e2f65117ee27cddd608990157471899e3f1"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 40,
+          "root_mask_sha256": "349fecc5d486f725ba0db3bf611cd44ba5079dcb7464715492ffcfa6e46c9167"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 62,
+          "root_mask_sha256": "3776905d8f7279e5ab3917f6c42e13b70fd0e112d8719582fc4a2e03e5670c04"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 80,
+          "root_mask_sha256": "cc74d27f94a16211bd7f1d43ce683d3a0579497ca9efe3ae187020d618328d4b"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 78,
+          "root_mask_sha256": "abf308c3b5c204f1b9195c83a3d2edc4ff1a39ee1b04ff07eef1ba0821effd87"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 69,
+          "root_mask_sha256": "0def040346e329d589eac5d3376e18d4308d01193714eeb5564b3f0fb52acfc3"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "losers": 46,
+          "root_mask_sha256": "aa292161da4973b7d05be8a88687a20999dcd0212e1d4297019028b00dd6cbd4"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "losers": 27,
+          "root_mask_sha256": "ab23b936c21f1ed26c0d97580c0b94a5f2ab702a659d24f2328046cc29ddd786"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "losers": 22,
+          "root_mask_sha256": "fa6e433b0c78aded33c6fc12aad1e6c7af315b3b6d63fbdd315fde8bd69dd7e0"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "losers": 17,
+          "root_mask_sha256": "c6eb0ce6c53c651f9bab58bd34ef1168199302fb6c0372b90deca85f52c41d23"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "losers": 9,
+          "root_mask_sha256": "331bbb93724f1e1082f5b1e0c57fcc2ed1fa481220b027200ffb12b087275f7f"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "losers": 9,
+          "root_mask_sha256": "3bb8d3b80dd0941cbd50a79c6191ec5ca2b5d24c2b573b49048de4200901f3c6"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "losers": 7,
+          "root_mask_sha256": "c4cfbfa47c85f36e31b93c924392ee5caf61cb131d182468ef7b242b042195c3"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "losers": 3,
+          "root_mask_sha256": "e49ec1c02e7fc80643d610c424803993411296e406e17a81d6c72b7e5fa4813b"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "losers": 3,
+          "root_mask_sha256": "35ff6c152cec4e5680976b3eac4e72d1b43bd39f84bc1499d21ade7689ab678e"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "losers": 3,
+          "root_mask_sha256": "bcbe1af4a0d0e3681f4d8dcb3d61882fabcc361fedd07f29f471d51a016d2724"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "losers": 1,
+          "root_mask_sha256": "85e731411acb146b56ee2b1e4a58899c2c273ba61e14f99116f1117b4505d207"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "losers": 1,
+          "root_mask_sha256": "6a5db08205fc75c344365c0446fed7be4ac7b388155a4bb57eaaa17d6b470083"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "losers": 1,
+          "root_mask_sha256": "b278c984e12968ea7b3464bd8db38736724c152b8c1292b7e3915b9ef2b853a9"
+        },
+        {
+          "mass": 22,
+          "configurations": 14950,
+          "losers": 0,
+          "root_mask_sha256": "107d53c2ec9ceba7bd0d65bf23dd096c1cda7a79318bf1ad0b0133c240d3dfa3"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            0,
+            0,
+            0,
+            21
+          ],
+          "AS": true,
+          "Q": 441,
+          "insertion_masks": [
+            23,
+            14,
+            14,
+            14,
+            23
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 6,
+      "whole_threshold_missing_root_witnesses": {
+        "3": [
+          0,
+          0,
+          0,
+          0,
+          22
+        ],
+        "0": [
+          0,
+          0,
+          0,
+          1,
+          21
+        ],
+        "4": [
+          0,
+          0,
+          0,
+          1,
+          21
+        ]
+      },
+      "critical_losers": 1,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 441,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "F2",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 11,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "ec521fa37f8dd3be88dd3ad84d5a78b59edbec4fe474181cc3c929bd160363b1"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 20,
+          "root_mask_sha256": "50e0970672feb2bf068647947fe8842497e44f7c8bf2b749a8135d43a360c148"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 32,
+          "root_mask_sha256": "8a223b89cff3c1b090fe554edda74fc788f2a42c808fb879d509b29f9a0b8d12"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 37,
+          "root_mask_sha256": "eb1a50083ff8448500baa9e27343a3af5ece623c54015d28fe95246ccda5e817"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 53,
+          "root_mask_sha256": "cf150af5ab328ff86c831b5c0d862ee263f927989bdb0e83cde3127dfc90aaeb"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 37,
+          "root_mask_sha256": "26dbbfe2a7eec8650509104f924906bc41b368b0ade7e24d309d73cee52b3bab"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 24,
+          "root_mask_sha256": "35ff5df6c4f526af2f924846a5bd9acf8ff38d1303f94b4eb138f2f48fcfbfc5"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "losers": 23,
+          "root_mask_sha256": "37f0f0c1f8a57a8797caebca8b866f6219a7ce00a7e5e03908296fc9cc508821"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "losers": 4,
+          "root_mask_sha256": "271988cb06028cf7cdbb4f5ed285350f2dd0134253ac04528a0dcc1482dd4d1c"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "losers": 0,
+          "root_mask_sha256": "c74a97d3160bc1fb219f803a22984c8abcae5a5e92b74b378a2e32ec787e3e5c"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            1,
+            1,
+            1,
+            7
+          ],
+          "AS": true,
+          "Q": 52,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            3,
+            5
+          ],
+          "AS": false,
+          "Q": 36,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            5,
+            3
+          ],
+          "AS": false,
+          "Q": 36,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            7,
+            1
+          ],
+          "AS": true,
+          "Q": 52,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 31,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 1,
+      "whole_threshold_missing_root_witnesses": {
+        "1": [
+          1,
+          0,
+          0,
+          1,
+          9
+        ],
+        "2": [
+          1,
+          0,
+          0,
+          1,
+          9
+        ],
+        "3": [
+          1,
+          0,
+          1,
+          0,
+          9
+        ],
+        "4": [
+          1,
+          0,
+          1,
+          9,
+          0
+        ]
+      },
+      "critical_losers": 4,
+      "non_AS_critical": 2,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 52,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "F2",
+      "goal": "clear",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 13,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "a6559251f370e72f40e31e21004bb3b3736270096844469d19ab364104d34a7f"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 25,
+          "root_mask_sha256": "c706242a7499b895e0f29f9f5feec07a797992db8daac7708c6ad27a17180853"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 34,
+          "root_mask_sha256": "f403cc7996440b40d87d033b1268d26101c6907f7b57f7207c800a874c8bbd9c"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 42,
+          "root_mask_sha256": "d318b1393280d0a8676ab3df3276ea9c9f1d3b984bef338b82a72503fcc5a582"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 61,
+          "root_mask_sha256": "043ba6cb49c7ee3eb21ac81c9e5b7c9d53eca67c25b66901feef6862a0839778"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 44,
+          "root_mask_sha256": "8be3ea9bd1171572e4b8de21b35caeae1220835e1f846ed2418ca27f03f4ed19"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 34,
+          "root_mask_sha256": "bfbd8cad090a57f0e877109fb54a23f6944cf1713b2f3ab03a9f62e69f2ac30d"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "losers": 36,
+          "root_mask_sha256": "7cdc216aaad82529d0c3c07b394c6a0f7d3be57d6383fa5e1d6266dd7eeb2e1b"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "losers": 8,
+          "root_mask_sha256": "05c71e5a4ce883685c7dedc090bf30124d4fd7452d14632768d756d80ec51d78"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "losers": 5,
+          "root_mask_sha256": "94f385389dbf63e87d6b1a3a44c21930100cfaa367665f10ed49ba088b0539ab"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "losers": 6,
+          "root_mask_sha256": "a3c6c90ae188f0346a34c204acf488eebf52f939dcbe4dcebeeed8022af91324"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "losers": 0,
+          "root_mask_sha256": "acdc4c1137b99dec86d915e9f7ee020440d53b33bd9a8b1b03f0815fc2593325"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            0,
+            0,
+            1,
+            11
+          ],
+          "AS": true,
+          "Q": 122,
+          "insertion_masks": [
+            7,
+            30,
+            30,
+            30,
+            30
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            0,
+            3,
+            9
+          ],
+          "AS": false,
+          "Q": 90,
+          "insertion_masks": [
+            7,
+            30,
+            30,
+            30,
+            30
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            0,
+            5,
+            7
+          ],
+          "AS": false,
+          "Q": 74,
+          "insertion_masks": [
+            7,
+            30,
+            30,
+            30,
+            30
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            0,
+            7,
+            5
+          ],
+          "AS": false,
+          "Q": 74,
+          "insertion_masks": [
+            7,
+            30,
+            30,
+            30,
+            30
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            0,
+            9,
+            3
+          ],
+          "AS": false,
+          "Q": 90,
+          "insertion_masks": [
+            7,
+            30,
+            30,
+            30,
+            30
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            0,
+            0,
+            11,
+            1
+          ],
+          "AS": true,
+          "Q": 122,
+          "insertion_masks": [
+            7,
+            30,
+            30,
+            30,
+            30
+          ],
+          "common_roots": 6,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 6,
+      "whole_threshold_missing_root_witnesses": {
+        "0": [
+          0,
+          0,
+          0,
+          0,
+          13
+        ],
+        "3": [
+          1,
+          0,
+          0,
+          1,
+          11
+        ],
+        "4": [
+          1,
+          0,
+          0,
+          1,
+          11
+        ]
+      },
+      "critical_losers": 6,
+      "non_AS_critical": 4,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 122,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "bowtie",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 8,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "bd7941fa14669df77fe68cddee8b616b0a05c0c1262fd4969f38b74b646bbb9e"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 18,
+          "root_mask_sha256": "2a08b9a0b1a83b0f676fe51d40f243a89d9b7ac4644df7f5c4104decb8686480"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 29,
+          "root_mask_sha256": "b8b40a0c5ec7a6f0d6a2b88bf259e221400cec5a7b19222852e87c63b372d36f"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 29,
+          "root_mask_sha256": "3710e78dd79243a535636dca129d7b6d12ec0e0ba11749b3942e5a2f3d17f868"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 21,
+          "root_mask_sha256": "8b78a013b0396dba9876a32b21d66e4764b821347b78738da3f51c66a94b9af7"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 4,
+          "root_mask_sha256": "ddf9c8371e76123cf661e7720953a138db3914c7e161285c5d0644ec1b1496bd"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 0,
+          "root_mask_sha256": "c5ca815db77354140d7cb1d7afaffad726f21ef0c8e5e1860812c7e240450af4"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            0,
+            5,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            25,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 25,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            0,
+            5
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            7,
+            31
+          ],
+          "common_roots": 7,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            5,
+            0
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            31,
+            31,
+            7
+          ],
+          "common_roots": 7,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            5,
+            0,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            31,
+            31,
+            25,
+            31,
+            31
+          ],
+          "common_roots": 25,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 1,
+      "whole_threshold_missing_root_witnesses": {
+        "3": [
+          0,
+          1,
+          1,
+          1,
+          5
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          1,
+          5
+        ],
+        "1": [
+          0,
+          1,
+          5,
+          1,
+          1
+        ],
+        "2": [
+          0,
+          1,
+          5,
+          1,
+          1
+        ]
+      },
+      "critical_losers": 4,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 27,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "bowtie",
+      "goal": "clear",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 8,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "losers": 0,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "losers": 10,
+          "root_mask_sha256": "fbad084b5334ea8338fe2a85888120440b86e90a56cbf2885576056a08b11c11"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "losers": 23,
+          "root_mask_sha256": "474e5ac07789223f0fb8eca5651b8870249d06fb2efb7120fbc12460ef4978aa"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "losers": 29,
+          "root_mask_sha256": "893c6be92777feb1941c0633fa7a4aaed84e0d12f8c39e86deb5157d546fe1e0"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "losers": 29,
+          "root_mask_sha256": "f4ec0dbda6449f8b5999b09917a5a02417d2fe358733f11857405771123ebaf0"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "losers": 21,
+          "root_mask_sha256": "e33a7a841fdb04e13905061273047ee910afacca9169d88d561d959e7c70d080"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "losers": 4,
+          "root_mask_sha256": "ced9c9890fa1fab2dcf48750286702190f1b54a0ae6eb68bbd285819ac13f4d3"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "losers": 0,
+          "root_mask_sha256": "d9600d6e6f0fa16331bc8bbc51900f8b521076827351850f5faba425b6a75001"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            0,
+            5,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            27,
+            25,
+            31,
+            31,
+            31
+          ],
+          "common_roots": 25,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            0,
+            5
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            15,
+            31,
+            31,
+            7,
+            31
+          ],
+          "common_roots": 7,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            1,
+            1,
+            5,
+            0
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            23,
+            31,
+            31,
+            31,
+            7
+          ],
+          "common_roots": 7,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            5,
+            0,
+            1,
+            1
+          ],
+          "AS": true,
+          "Q": 27,
+          "insertion_masks": [
+            29,
+            31,
+            25,
+            31,
+            31
+          ],
+          "common_roots": 25,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 1,
+      "whole_threshold_missing_root_witnesses": {
+        "2": [
+          0,
+          0,
+          1,
+          0,
+          7
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          0,
+          7
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          7,
+          0
+        ],
+        "1": [
+          0,
+          1,
+          0,
+          0,
+          7
+        ]
+      },
+      "critical_losers": 4,
+      "non_AS_critical": 0,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 27,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "diamond",
+      "goal": "stack",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 7,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "losers": 0,
+          "root_mask_sha256": "7eb12514e8577a9e85b9585e8a828079fd735fad373925c025cceea354fd3781"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "losers": 6,
+          "root_mask_sha256": "9b0699a39778b1885af89724d976154ffa45ac45aa46593b47c5ca4ddac7938f"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "losers": 6,
+          "root_mask_sha256": "98e8b869053a3c50cc3de6295b5769226ec2344de5a4e9dc98c1ca2f332c0252"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "losers": 5,
+          "root_mask_sha256": "2a1ed940e1cc9c13e2c5f746fd747460b4fa2b60a56292670ac9362cb436cf80"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "losers": 4,
+          "root_mask_sha256": "6ef6e0cf9dd2356e122d5e01eb51f08b465c417529eaecfd7532780a419d48f8"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "losers": 3,
+          "root_mask_sha256": "603aa23ea13306169b9789b0d782995577523b8d7e1ac36fbadf93bd929193c1"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "losers": 0,
+          "root_mask_sha256": "4f132f6ff54cb78688b396f647718d12cca0ae774f35f28b55fb4671087cca3d"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            1,
+            0,
+            5
+          ],
+          "AS": true,
+          "Q": 26,
+          "insertion_masks": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "common_roots": 15,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            3,
+            0,
+            3
+          ],
+          "AS": false,
+          "Q": 18,
+          "insertion_masks": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "common_roots": 15,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            5,
+            0,
+            1
+          ],
+          "AS": true,
+          "Q": 26,
+          "insertion_masks": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "common_roots": 15,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 15,
+      "whole_threshold_missing_root_witnesses": {},
+      "critical_losers": 3,
+      "non_AS_critical": 1,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 26,
+      "Q_max_all_AS": true
+    },
+    {
+      "graph": "diamond",
+      "goal": "clear",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 7,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "losers": 0,
+          "root_mask_sha256": "7eb12514e8577a9e85b9585e8a828079fd735fad373925c025cceea354fd3781"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "losers": 6,
+          "root_mask_sha256": "a4633b5f2ff90b578294f693be1c7373a5c1b13577b5710e58d0cd95101e3d4e"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "losers": 10,
+          "root_mask_sha256": "d67fa1199720ccf1a8a0074edf3edd97c4c74ed411f4f17feb350f393eafe20f"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "losers": 5,
+          "root_mask_sha256": "9015357ebd95671da41b5edfbd856954faed48fa8876044054981b566ddd9acf"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "losers": 4,
+          "root_mask_sha256": "ba2b5d8c4122854f6d34fcd2e6fe67a9bfb1ef4251830437629db52ee941f14c"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "losers": 3,
+          "root_mask_sha256": "e72af18971189d3cabe4ac3f1cb9bf6560ab3d65f1e3badd5510cc25ed36879e"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "losers": 0,
+          "root_mask_sha256": "062f44d184aef191386035587810de3fd2f39047b1551ae094bf5c0a124cb4e7"
+        }
+      ],
+      "critical": [
+        {
+          "c": [
+            0,
+            1,
+            0,
+            5
+          ],
+          "AS": true,
+          "Q": 26,
+          "insertion_masks": [
+            5,
+            15,
+            5,
+            15
+          ],
+          "common_roots": 5,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            3,
+            0,
+            3
+          ],
+          "AS": false,
+          "Q": 18,
+          "insertion_masks": [
+            5,
+            15,
+            5,
+            15
+          ],
+          "common_roots": 5,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        },
+        {
+          "c": [
+            0,
+            5,
+            0,
+            1
+          ],
+          "AS": true,
+          "Q": 26,
+          "insertion_masks": [
+            5,
+            15,
+            5,
+            15
+          ],
+          "common_roots": 5,
+          "occupied_self_failures": [],
+          "heavy_self_failures": []
+        }
+      ],
+      "whole_threshold_common_roots": 5,
+      "whole_threshold_missing_root_witnesses": {
+        "1": [
+          0,
+          1,
+          1,
+          5
+        ],
+        "3": [
+          0,
+          1,
+          1,
+          5
+        ]
+      },
+      "critical_losers": 3,
+      "non_AS_critical": 1,
+      "critical_empty_insertion_intersection": 0,
+      "non_AS_empty_insertion_intersection": 0,
+      "occupied_self_failure_configs": 0,
+      "heavy_self_failure_configs": 0,
+      "Q_max": 26,
+      "Q_max_all_AS": true
+    }
+  ],
+  "case_count": 14,
+  "complete_layers": 136,
+  "complete_configurations": 125481,
+  "table_raw_sha256": "3ad1d432527d504c1d4d29dbd3e9c4ddabc2282301c62cfc92aeb91084a86037",
+  "seconds": 0.4219999999986612,
+  "scope": "EXPLICIT_EIGHT_GRAPHS_FOURTEEN_GOAL_CASES_ONLY"
+}

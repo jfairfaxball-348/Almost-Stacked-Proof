@@ -1,0 +1,1200 @@
+{
+  "campaign": "CAM-S010-01",
+  "graphs": [
+    {
+      "graph": "K2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "certificates": 90,
+      "connected": 90,
+      "weak_only": 0,
+      "reversals": {
+        "NEGATIVE_INPUT": 60,
+        "CONNECTED_REVERSAL": 84
+      }
+    },
+    {
+      "graph": "P3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "certificates": 538,
+      "connected": 458,
+      "weak_only": 32,
+      "reversals": {
+        "NEGATIVE_INPUT": 580,
+        "CONNECTED_REVERSAL": 528,
+        "ROOT_CONNECTION_LOST": 32
+      }
+    },
+    {
+      "graph": "K3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "certificates": 2025,
+      "connected": 1845,
+      "weak_only": 108,
+      "reversals": {
+        "NEGATIVE_INPUT": 2760,
+        "CONNECTED_REVERSAL": 2850,
+        "ROOT_CONNECTION_LOST": 120
+      }
+    },
+    {
+      "graph": "triangle_leaf",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "certificates": 5028,
+      "connected": 3760,
+      "weak_only": 464,
+      "reversals": {
+        "NEGATIVE_INPUT": 7138,
+        "CONNECTED_REVERSAL": 5170,
+        "ROOT_CONNECTION_LOST": 416
+      }
+    },
+    {
+      "graph": "bowtie",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "certificates": 18457,
+      "connected": 11315,
+      "weak_only": 2000,
+      "reversals": {
+        "NEGATIVE_INPUT": 26388,
+        "CONNECTED_REVERSAL": 14200,
+        "ROOT_CONNECTION_LOST": 1560
+      }
+    },
+    {
+      "graph": "diamond",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "certificates": 11418,
+      "connected": 8806,
+      "weak_only": 1252,
+      "reversals": {
+        "NEGATIVE_INPUT": 18372,
+        "CONNECTED_REVERSAL": 12940,
+        "ROOT_CONNECTION_LOST": 1140
+      }
+    }
+  ],
+  "certificates": 37556,
+  "connected": 26274,
+  "weak_only": 3856,
+  "certificate_raw_sha256": "0fe3f7b03bc855290bd9b03dfee669bc06659cd9238c3905b5ede500ca6a603e",
+  "reversal_examples": [
+    {
+      "graph": "K2",
+      "tag": "NEGATIVE_INPUT",
+      "before": {
+        "m": [
+          0,
+          1
+        ],
+        "q": 0,
+        "k": 1,
+        "c": [
+          0,
+          2
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          1
+        ]
+      },
+      "arc": [
+        1,
+        0
+      ],
+      "after_m": [
+        1,
+        0
+      ],
+      "after_c": [
+        3,
+        -1
+      ]
+    },
+    {
+      "graph": "K2",
+      "tag": "CONNECTED_REVERSAL",
+      "before": {
+        "m": [
+          0,
+          2
+        ],
+        "q": 0,
+        "k": 2,
+        "c": [
+          0,
+          4
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          1
+        ]
+      },
+      "arc": [
+        1,
+        0
+      ],
+      "after_m": [
+        1,
+        1
+      ],
+      "after_c": [
+        3,
+        1
+      ]
+    },
+    {
+      "graph": "P3",
+      "tag": "NEGATIVE_INPUT",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "q": 0,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          2
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          -1,
+          1
+        ]
+      },
+      "arc": [
+        2,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "after_c": [
+        3,
+        0,
+        -1
+      ]
+    },
+    {
+      "graph": "P3",
+      "tag": "CONNECTED_REVERSAL",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "q": 0,
+        "k": 2,
+        "c": [
+          0,
+          0,
+          4
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          -1,
+          1
+        ]
+      },
+      "arc": [
+        2,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "graph": "P3",
+      "tag": "ROOT_CONNECTION_LOST",
+      "before": {
+        "m": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "q": 1,
+        "k": 1,
+        "c": [
+          3,
+          0,
+          1
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          1,
+          0,
+          2
+        ]
+      },
+      "arc": [
+        0,
+        1
+      ],
+      "after_m": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "after_c": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "graph": "K3",
+      "tag": "NEGATIVE_INPUT",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "q": 1,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          2
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          0,
+          1
+        ]
+      },
+      "arc": [
+        2,
+        1
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "after_c": [
+        0,
+        3,
+        -1
+      ]
+    },
+    {
+      "graph": "K3",
+      "tag": "CONNECTED_REVERSAL",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "q": 1,
+        "k": 2,
+        "c": [
+          0,
+          0,
+          4
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          0,
+          1
+        ]
+      },
+      "arc": [
+        2,
+        1
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "graph": "K3",
+      "tag": "ROOT_CONNECTION_LOST",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "q": 0,
+        "k": 1,
+        "c": [
+          0,
+          1,
+          3
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          2,
+          1
+        ]
+      },
+      "arc": [
+        2,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "graph": "triangle_leaf",
+      "tag": "NEGATIVE_INPUT",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "q": 0,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          -1,
+          -1,
+          1
+        ]
+      },
+      "arc": [
+        3,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "after_c": [
+        3,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "graph": "triangle_leaf",
+      "tag": "CONNECTED_REVERSAL",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "q": 0,
+        "k": 2,
+        "c": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          -1,
+          -1,
+          1
+        ]
+      },
+      "arc": [
+        3,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        3,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "graph": "triangle_leaf",
+      "tag": "ROOT_CONNECTION_LOST",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "q": 0,
+        "k": 1,
+        "c": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          2,
+          1,
+          -1
+        ]
+      },
+      "arc": [
+        2,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "after_c": [
+        3,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "graph": "bowtie",
+      "tag": "NEGATIVE_INPUT",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "q": 3,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          -1,
+          -1,
+          0,
+          1
+        ]
+      },
+      "arc": [
+        4,
+        3
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "after_c": [
+        0,
+        0,
+        0,
+        3,
+        -1
+      ]
+    },
+    {
+      "graph": "bowtie",
+      "tag": "CONNECTED_REVERSAL",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "q": 3,
+        "k": 2,
+        "c": [
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          -1,
+          -1,
+          0,
+          1
+        ]
+      },
+      "arc": [
+        4,
+        3
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        0,
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "graph": "bowtie",
+      "tag": "ROOT_CONNECTION_LOST",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "q": 0,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          0,
+          -1,
+          -1,
+          2,
+          1
+        ]
+      },
+      "arc": [
+        4,
+        0
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        3,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "graph": "diamond",
+      "tag": "NEGATIVE_INPUT",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "q": 2,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          -1,
+          0,
+          1
+        ]
+      },
+      "arc": [
+        3,
+        2
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "after_c": [
+        0,
+        0,
+        3,
+        -1
+      ]
+    },
+    {
+      "graph": "diamond",
+      "tag": "CONNECTED_REVERSAL",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "q": 2,
+        "k": 2,
+        "c": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          -1,
+          0,
+          1
+        ]
+      },
+      "arc": [
+        3,
+        2
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "graph": "diamond",
+      "tag": "ROOT_CONNECTION_LOST",
+      "before": {
+        "m": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "q": 1,
+        "k": 1,
+        "c": [
+          0,
+          0,
+          3,
+          1
+        ],
+        "connected": true,
+        "weak": true,
+        "ranks": [
+          -1,
+          0,
+          1,
+          2
+        ]
+      },
+      "arc": [
+        2,
+        1
+      ],
+      "after_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "after_c": [
+        0,
+        3,
+        0,
+        1
+      ]
+    }
+  ],
+  "scope": "ALL_COUNTS_SUM_LE_5_ROOTS_AND_FINAL_PILES_1_TO_4_NONNEGATIVE_INPUTS_ONLY",
+  "threshold_claims": 0,
+  "seconds": 0.625
+}

@@ -45,3 +45,7 @@ Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms
 ## S009 foundational validation and targeted research — 2026-10-14
 
 Full dated queries, per-SRC access/theorem/page comparisons and every substantial dependency/originality verdict are in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md (SRC0033). April/October currentv1 digests unchanged; TreeStackv2 inspected and credited. Sjostrand/Crull/Hurlbert/Sieben/Haynes-Keaton/target-tree/lollipop/block primary proofs or stated limitations recorded. Ordinary target domination and rubbling are not exact consumption. Negative searches bounded, no worldwide priority/contact/gate promotion. CAM01/02 selected from exact excursion and protected-output reconstruction obligations; plans hashed before computation, initial label corrections retained. All original computational cutoffs unchanged.
+
+## S010 — 2026-10-14
+
+Full dated primary queries/page/access/dependency comparisons in S010_PRIMARY_AND_DEPENDENCY_COMPARISON.md. Known original grammar/Parikh proofs inspected before use, prior primary versions unchanged, Chung selected web proof improves access but direct403/equivalence/Moews/Pachter limits retained. Three prior-hashed proof-driven campaigns; no copyright mirror/priority/contact or old cutoff expansion.

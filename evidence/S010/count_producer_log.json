@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s010_counts.py"
+  ],
+  "exit_code": 0,
+  "seconds": 1.5159999999959837,
+  "peak_working_set_bytes": 91500544,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S010-01\", \"certificates\": 37556, \"connected\": 26274, \"weak_only\": 3856, \"certificate_raw_sha256\": \"0fe3f7b03bc855290bd9b03dfee669bc06659cd9238c3905b5ede500ca6a603e\", \"scope\": \"ALL_COUNTS_SUM_LE_5_ROOTS_AND_FINAL_PILES_1_TO_4_NONNEGATIVE_INPUTS_ONLY\", \"threshold_claims\": 0, \"seconds\": 0.625}\r\n",
+  "stderr": "",
+  "code_sha256": "17d8ebafecd758a8f5af35ded9f09f3dcf32ee0f030dac80588e1b7b810534fe"
+}

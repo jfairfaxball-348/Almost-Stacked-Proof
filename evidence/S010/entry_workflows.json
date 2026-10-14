@@ -1,0 +1,21 @@
+{
+  "exit_code": 0,
+  "body": {
+    "total_count": 1,
+    "workflows": [
+      {
+        "id": 382128184,
+        "node_id": "W_kwDOVF-kW84WxtA4",
+        "name": "Governance integrity",
+        "path": ".github/workflows/governance.yml",
+        "state": "active",
+        "created_at": "2026-10-12T13:28:12.000+01:00",
+        "updated_at": "2026-10-12T13:28:54.000+01:00",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/workflows/382128184",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/.github/workflows/governance.yml",
+        "badge_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/workflows/Governance%20integrity/badge.svg"
+      }
+    ]
+  },
+  "stderr": ""
+}

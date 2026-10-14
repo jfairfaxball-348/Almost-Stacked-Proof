@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-14T22:18:36.991865+00:00",
+  "campaign": "CAM-S010-03",
+  "execution": "NOT_YET_RUN",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "files": {
+    "sessions/S010/PLAN_AMENDMENT_3.md": "b6df2e83d455142cfc8a497ff3ab26911e408802de0fa4b7c90c59d83bed210f",
+    "tools/s010_reflect.py": "62fa33e4252d36723e531c0ae9ad75ddd7a038d856868f4cdad4b4ddf69ca5c1",
+    "tools/s010_reflect_verify.py": "358cf37dddba46f278f41b8f28675b01ba0535652dee6cb3fc0bb4bb6af860e0",
+    "evidence/S010/count_traces.json.xz": "ff35b7ade0ab9c6f1457d1756e87e4496afa6d7110ee6410fe032d3b761a8890"
+  }
+}

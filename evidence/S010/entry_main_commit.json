@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+    "node_id": "C_kwDOVF-kW9oAKGExYTM4ZDc5MDAzYTcwODFiOGUxNGI1OTAwM2Q0ZDQ2NDFmYjA1ZmI",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T21:42:14Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T21:42:14Z"
+    },
+    "tree": {
+      "sha": "9e80a3c538a233b3d320013a808635eff0edd8d6",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/9e80a3c538a233b3d320013a808635eff0edd8d6"
+    },
+    "message": "Merge S009: validate prior art and develop exact universal ASH tools\n\nS009: validate prior art and develop exact universal ASH tools",
+    "parents": [
+      {
+        "sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/325f39d3448b6a0dfa092ea16196c56c3cc04673",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/325f39d3448b6a0dfa092ea16196c56c3cc04673"
+      },
+      {
+        "sha": "34d7e2e28925026db4dbd99e15f8007f4037ed68",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/34d7e2e28925026db4dbd99e15f8007f4037ed68",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/34d7e2e28925026db4dbd99e15f8007f4037ed68"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz/c2CRC1aQ7uu5UhlAAAW78QABYfsg5bo2TFSVauffiJgpIG\nIXvdKcH+HMIocWdHXcw1vis+Z8g7QAlaDkwdZyVrw+0ZHFtWa8IBkUiKgKn5GWs4\nh+GwV2oBU0zzfT+gP0uOXI2lOrELcvsDY+k4/TedUqQOXIrYSNDlEbo7BwUIY9im\nT27sCc9MNQBNZ2kMmqkNcD+z1LA1v6Z16Iqzzh+YDV/JQYc9VAmGtn8MqOxwBrw4\n/wPOFzZPufFoe1W2/jaYhF0pPMvpbboc/hYEnekanG6pn6VW3E7s6DxP1C3FSj/r\nhPNCKcvS0bwZZPFLOtF72vEC6sIBmNLAXSYAdQY1y2K48rdhfrS5oCgRFYv7mFum\n65/bwfd310q8wLQVxEdIqfc5IOLHjIRP3NH2G7OeutxmppSsD8xYwe294fEyh8lL\naZdfC5vmizy5evAyvx6MM4fyvGzdJxRYatMXWkbIgXAOZCt7WPu38mtUN21lfVHM\n6jdZM20tDpUdvlWgDCJVU6fkLcMp2+E9CWu6owMaspbg5DkRb6AdROQ4OVoh+0WR\nuqK7oMebo2M/1xcVLoXczmX9QPUpcfaOTeI6fkSo7L/CqXQ709o57RWl+shWMkJ3\nZuDauxS8HrqRTHAOZ2tGR2EO1BPp1OcrCB4lu5u9LtXPFC4azVJmbYvT6N2RRls+\n72RqTDrVCygUvCU4IRZL\n=wISR\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 9e80a3c538a233b3d320013a808635eff0edd8d6\nparent 325f39d3448b6a0dfa092ea16196c56c3cc04673\nparent 34d7e2e28925026db4dbd99e15f8007f4037ed68\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792014134 +0100\ncommitter GitHub <noreply@github.com> 1792014134 +0100\n\nMerge S009: validate prior art and develop exact universal ASH tools\n\nS009: validate prior art and develop exact universal ASH tools",
+      "verified_at": "2026-10-14T21:42:14Z"
+    }
+  },
+  "stderr": ""
+}

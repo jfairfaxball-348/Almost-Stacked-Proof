@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s010_reflect.py"
+  ],
+  "exit_code": 0,
+  "seconds": 2.313000000001921,
+  "peak_working_set_bytes": 212721664,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S010-03\", \"input_trace_raw_sha256\": \"63a2541586387014046fc21241877f3c0c9fe9d66958f4aabf2cf6566b1082d5\", \"marked_cases\": 21707, \"original_three_pile_traces\": 7289, \"reflected_moves\": 98878, \"empty_marked_paths\": 2642, \"output_raw_sha256\": \"439a835afe62e37c54080d6ee77b6c42b0fe96a7b7ee389260b32f442a3a4f5e\", \"seconds\": 0.625}\r\n",
+  "stderr": "",
+  "code_sha256": "62fa33e4252d36723e531c0ae9ad75ddd7a038d856868f4cdad4b4ddf69ca5c1"
+}

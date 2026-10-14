@@ -43,6 +43,14 @@ jobs:
           python3 tools/s009_ports_verify.py --check-only
           python3 tools/s009_credit.py --check-only
           python3 tools/s009_credit_verify.py --check-only
+      - name: S010 independent exact counts, critical root compatibility and full marked reflection
+        run: |
+          python3 tools/s010_counts.py --check-only
+          python3 tools/s010_counts_verify.py --check-only
+          python3 tools/s010_roots.py --check-only
+          python3 tools/s010_roots_verify.py --check-only
+          python3 tools/s010_reflect.py --check-only
+          python3 tools/s010_reflect_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

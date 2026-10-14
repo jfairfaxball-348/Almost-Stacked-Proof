@@ -28,3 +28,7 @@ April arXiv:2604.22341v1 PDF p26 formula `sigma_T(r)=1+sum_{v=r OR deg(v)>1}deg(
 ## S009 current primary refresh
 
 arXiv2609.31811 now lists v1/v2. Currentv2 digest79f1d8e4ea707206e72fce3e43fabcf8803376987f6b4da6d5fa9b5a16b4b720,13pages, branch flux/scheduling/defect proof inspected. Nontrivial-tree equality and registered package are earlier work; no new build or registry audit. EMPTY versus zero, positive-before-debt tasks and ambient cancellation are explicitly attributed in S009. No universal ASH* inference.
+
+## S010 boundary
+
+Currentv2 unchanged; earlier nontrivial-tree equality/registered package credited, no build/registration. Generic grammar/ancestry primitives attributed; exact cyclic cancellation/selected-cost equivalence scoped/unresolved, no rediscovery or universal substitution.
