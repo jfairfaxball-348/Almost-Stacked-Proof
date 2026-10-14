@@ -1,12 +1,13 @@
 {
   "primary_october": {
     "arxiv": "2610.09650v1",
-    "access": "STATEMENT_INSPECTED",
+    "access": "PROOF_INSPECTED",
     "proof_inspected": [
       "Lemma 4.7",
       "Theorem 5.2",
       "equation4.10 and three-pebble reduction observation",
-      "Lemma4.8 pullback proof"
+      "Lemma4.8 pullback proof",
+      "S009 Theorems4.10-4.11/5.2-5.4 and Lemmas6.4/6.8, selected section6 proofs"
     ],
     "submitted": "2026-10-07",
     "paper_date": "2026-10-08",
@@ -17,13 +18,13 @@
     "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
     "hypothesis": "Hypothesis 3.2",
     "internal_labels_verified": true,
-    "last_refresh": "2026-10-14 S008: current v1, PDF digest unchanged; selected relevant source proofs re-inspected"
+    "last_refresh": "2026-10-14 S009 full primary foundational comparison, currentv1 unchanged; source slips reconciled with per-proof scopes."
   },
   "original_verified": {
     "arxiv": "2604.22341v1",
     "date": "2026-04-24",
     "pdf_date": "2026-04-27",
-    "access": "STATEMENT_INSPECTED",
+    "access": "PROOF_INSPECTED",
     "pdf_sha256": "ab34962a77a7caa4126d07430e48ba47b04c57f5ef71c21f85803cf959cbabed",
     "definition_page": 3,
     "hypothesis": "Hypothesis 9.1",
@@ -37,9 +38,10 @@
     "stackable": "reachable singleton support",
     "clearable": "reachable total 1",
     "proof_inspected": [
-      "Theorem6.1 rooted odd-walk lower bound and internal claim (S005 continuation)"
+      "Theorem6.1 rooted odd-walk lower bound and internal claim (S005 continuation)",
+      "S009 Theorems2.1-2.10/3.1/5.1/6.1/7.3-7.4/8.1-8.5 and ancestry4.3; older path formula slips reconciled"
     ],
-    "last_refresh": "2026-10-14 S008: current v1, PDF digest unchanged; selected relevant source proofs re-inspected"
+    "last_refresh": "2026-10-14 S009 full primary foundational comparison, currentv1 unchanged; source slips reconciled with per-proof scopes."
   },
   "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
   "literal_form": {
@@ -135,7 +137,7 @@
     "date": "2026-10-13",
     "source_id": "SRC-0010",
     "provenance": "complete incoming message pasted by owner; raw headers unavailable; do not reproduce verbatim in public repo",
-    "claim": "Tam\u00e1s Csern\u00e1k confirms intended conjecture is critical form ASH*, and stronger printed form is false",
+    "claim": "Tamás Csernák confirms intended conjecture is critical form ASH*, and stronger printed form is false",
     "atlas": "Author report retained; complete n7 programme replication now S003+S004, not a proof beyond finite atlas.",
     "published_correction": "NOT_VERIFIED",
     "report": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md"
@@ -236,7 +238,8 @@
       "inherited_critical_cases": 257,
       "nonAS_class_Qmaxima": 618,
       "new_global_threshold_claims": 0
-    }
+    },
+    "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
   "s007": {
     "research": "research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md",
@@ -276,7 +279,8 @@
       "comparison": "full ordered set hashes and counts; independent literal trace arithmetic",
       "symmetry": "none",
       "inherited_cutoffs_unchanged": true
-    }
+    },
+    "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
   "s008": {
     "research": "research/S008_HOSTILE_AUDIT_AND_UNIVERSAL_ROUTES.md",
@@ -289,7 +293,7 @@
     "universal_clear": "OPEN",
     "novelty": "NOT_AUDITED",
     "formal_status": "NOT_STARTED",
-    "cold_fresh_session_audit": "FUTURE_S009",
+    "cold_fresh_session_audit": "PASS_S009_AT_STATED_SCOPES",
     "finite_verification": {
       "tip_lengths": [
         0,
@@ -328,6 +332,36 @@
       "symmetry": "none",
       "inherited_cutoffs_unchanged": true
     },
-    "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme"
+    "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme",
+    "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
+  },
+  "s009": {
+    "prior_art": "research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md",
+    "research": "research/S009_UNIVERSAL_RESEARCH.md",
+    "cold_s008_audit": "PASS_S009_AT_STATED_SCOPES",
+    "cold_new_proofs": "FUTURE_S010",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "foundational_novelty": "SCOPED_PRIMARY_COMPARISON_NO_WORLDWIDE_PRIORITY",
+    "formal_status": "NOT_STARTED",
+    "first_return_interface": "PROGRAMME_PROVED exact finite-derivation excursion grammar, not constant-size messages",
+    "marked_surgery": "Three inputs can damage three final forest components; Q/global frontier reconstruction unresolved",
+    "dominated_credit": "PROGRAMME_PROVED sufficient path-cover stacking and protected-triangle clearing upper; saturated star-neighbor STACK consequence only",
+    "finite_verification": {
+      "port_cases": 318,
+      "port_mass_cap": 18,
+      "port_n_cap": 5,
+      "closure_states_with_duplicates": 53924,
+      "maximum_closure": 3409,
+      "rooted_traces": 1694,
+      "credit_layers": 33,
+      "credit_configurations": 13088,
+      "upper_traces": 3860,
+      "literal_moves": 41800,
+      "protected_B3_trees": 795,
+      "new_threshold_claims": 0,
+      "symmetry": "none",
+      "inherited_cutoffs_unchanged": true
+    }
   }
 }

@@ -41,3 +41,7 @@ Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms
 ## S008 research/source refresh, no Phase2 promotion
 
 2026-10-14 refreshed October/April abs/PDF digests, bothv1 unchanged; opened primary HTML and inspected definitions, monotonicity/pullback/+3 and April6.1 proof. CAM-S008-01 and02/amendments hashed before dependent tests; symbolic lower table and independent finite certificate/layer/trace checks recorded. No comprehensive prior-art/novelty search or priority assertion. Owner requires S009 first deep primary-source comparison of surviving results/dependencies, then universal research; no publication activity.
+
+## S009 foundational validation and targeted research — 2026-10-14
+
+Full dated queries, per-SRC access/theorem/page comparisons and every substantial dependency/originality verdict are in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md (SRC0033). April/October currentv1 digests unchanged; TreeStackv2 inspected and credited. Sjostrand/Crull/Hurlbert/Sieben/Haynes-Keaton/target-tree/lollipop/block primary proofs or stated limitations recorded. Ordinary target domination and rubbling are not exact consumption. Negative searches bounded, no worldwide priority/contact/gate promotion. CAM01/02 selected from exact excursion and protected-output reconstruction obligations; plans hashed before computation, initial label corrections retained. All original computational cutoffs unchanged.

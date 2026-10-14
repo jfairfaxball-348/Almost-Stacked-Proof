@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s009_ports_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.4069999999992433,
+  "peak_working_set_bytes": 20267008,
+  "resource_failure": null,
+  "stdout": "{\"independent_cases\": 1, \"seconds\": 0.014999999999417923}\r\n{\"independent_cases\": 41, \"seconds\": 0.014999999999417923}\r\n{\"independent_cases\": 81, \"seconds\": 0.014999999999417923}\r\n{\"independent_cases\": 121, \"seconds\": 0.0470000000022992}\r\n{\"independent_cases\": 161, \"seconds\": 0.07800000000133878}\r\n{\"independent_cases\": 201, \"seconds\": 0.09400000000096043}\r\n{\"independent_cases\": 241, \"seconds\": 0.13999999999941792}\r\n{\"independent_cases\": 281, \"seconds\": 0.21900000000096043}\r\n{\"campaign\": \"CAM-S009-01\", \"all_verified\": true, \"complete_cases\": 318, \"total_closure_states\": 53924, \"maximum_closure_states\": 3409, \"rooted_winning_traces\": 1694, \"seconds\": 0.2649999999994179}\r\n",
+  "stderr": "",
+  "code_sha256": "232e5cfb10444ae351b39ecd506263ccaceec391ceede46d161eef0c9c0021c4"
+}

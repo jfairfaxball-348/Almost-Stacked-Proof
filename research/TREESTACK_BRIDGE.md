@@ -24,3 +24,7 @@ April arXiv:2604.22341v1 PDF p26 formula `sigma_T(r)=1+sum_{v=r OR deg(v)>1}deg(
 - S003 consequence (credits TreeStack): with October Thm 5.2's almost-stacked witness of size estim−1 (proof checked in S003), the TreeStack theorem yields the **critical form ASH\* for every tree** (S003 Thm 8).
 - The **printed** pointwise hypothesis fails on most trees: P4 is the smallest graph, and 77 of the 88 completed trees with n≤9 fail it. The TreeStack theorem itself is unaffected.
 - No TreeStack Lean build was re-run in S003.
+
+## S009 current primary refresh
+
+arXiv2609.31811 now lists v1/v2. Currentv2 digest79f1d8e4ea707206e72fce3e43fabcf8803376987f6b4da6d5fa9b5a16b4b720,13pages, branch flux/scheduling/defect proof inspected. Nontrivial-tree equality and registered package are earlier work; no new build or registry audit. EMPTY versus zero, positive-before-debt tasks and ambient cancellation are explicitly attributed in S009. No universal ASH* inference.

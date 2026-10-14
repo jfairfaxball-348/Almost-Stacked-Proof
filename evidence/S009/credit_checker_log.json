@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s009_credit_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.21900000000096043,
+  "peak_working_set_bytes": 32083968,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S009-02\", \"all_verified\": true, \"complete_layers\": 33, \"complete_configurations\": 13088, \"upper_traces\": 3860, \"literal_moves\": 41800, \"protected_B3_trees\": 795, \"threshold_claims\": 0, \"seconds\": 0.125}\r\n",
+  "stderr": "",
+  "code_sha256": "6cd5e1e3c2ea8948966e542b6be4ed10f8cc29873acc4a43e992dbd8fd0a021a"
+}

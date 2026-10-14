@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-14T17:43:53.020967+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "research_execution": "local Windows",
+  "symmetry": "none",
+  "input_note": "INPUT.md preserves accessible message text as UTF-8 LF; no claim about raw chat transport bytes",
+  "input_sha256": "b5cd73d265f9a3250d3712b024f76613a4b5de929e8a176f1bb17093f4e67fd1",
+  "plan_sha256": "6e09d40fb769c5e0e6ec472eaf666e5947f66b32c5a9ac9507674d1a3fdcf362",
+  "pypdf": "6.14.2",
+  "resource_monitor": "local Windows process peak working-set counters observed during execution, with600s/2GiB guards"
+}

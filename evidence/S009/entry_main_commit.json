@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+    "node_id": "C_kwDOVF-kW9oAKDMyNWYzOWQzNDQ4YjZhMGRmYTA5MmVhMTYxOTZjNTZjM2NjMDQ2NzM",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/325f39d3448b6a0dfa092ea16196c56c3cc04673",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/325f39d3448b6a0dfa092ea16196c56c3cc04673",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T17:23:52Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T17:23:52Z"
+    },
+    "tree": {
+      "sha": "902a6b524667d9fb3690102faf8e867da350af4c",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/902a6b524667d9fb3690102faf8e867da350af4c"
+    },
+    "message": "Merge S008: hostile audit and exact cyclic family thresholds\n\nOne atomic S008 authored commit. Hosted run 38605528753 has five successful actual jobs and five successful check-runs, independently reread before merge. Universal critical ASH* remains open for both goals; S009 is strictly future and unexecuted.",
+    "parents": [
+      {
+        "sha": "3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4"
+      },
+      {
+        "sha": "8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz7qoCRC1aQ7uu5UhlAAAH5MQAKTRGZTh/ngRkH0IE2y37NGn\nSMaxtDU+nw0CdSuMkprTngqjPr1R/OZwaWldlkuGhnUL89vOyEbnyMuI6jksrFXQ\nq2QQsOQz61hLDaJcQujnNxqu82L4Zy/sF6gDilf5g/pKj+k4FQaZv6S1aNSsLTHs\nIgZn7GIskukcztNtuj0GpRD26S8NCFG+cbQ7Uf3WPGQMJbyHig/RNrYsgKcDj4Zp\nZVc5/cGEaSpKpuus7niC2al1bq+/KksqNtdGhlPgjhd6at314LRfSbaoorTeKBxW\nzcu8MRn0hj58a4InLfgMleB5wabEVLIL0TmgkDOEXAtMFZL6lMXAh+6jWzfT+sCZ\nwF4cptewh9Fs8ighbaXN7QHmveXLZHB/p6zIsK8EcPPw5eBVCM7LI2zpfj41Pnww\nr7g84g3txEZXxyXfe2EZeFuYvJn9tYpHFz0Dk6/3+q5HTRonolKQSrjvigBeRYYS\nmE1y+2l5VOmEhyendQxbBGlZ+Q9GKRzASfU8WrqwHb8z1gKT5l56pbi8+B0D9Mld\ngC0gNAUPZXBsjhZH54MSpKtuLa3VgVjWttm9QrBPIwKSoTwDLNlR4e9RGdP3PKsN\nsMBO73GvJ8sSwV9j+wKYiMfYI9HYUr8we6kuybjx76sCm5fX6pDFnSWF3as4TMH4\nTlOUMbZQYjNpdzzqGHfz\n=vDrO\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 902a6b524667d9fb3690102faf8e867da350af4c\nparent 3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4\nparent 8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1791998632 +0100\ncommitter GitHub <noreply@github.com> 1791998632 +0100\n\nMerge S008: hostile audit and exact cyclic family thresholds\n\nOne atomic S008 authored commit. Hosted run 38605528753 has five successful actual jobs and five successful check-runs, independently reread before merge. Universal critical ASH* remains open for both goals; S009 is strictly future and unexecuted.",
+      "verified_at": "2026-10-14T17:23:53Z"
+    }
+  },
+  "stderr": ""
+}

@@ -37,6 +37,12 @@ jobs:
           python3 tools/s008_tip_verify.py --check-only
           python3 tools/s008_symbolic.py --check-only
           python3 tools/s008_branches_verify.py --check-only
+      - name: S009 exact excursions, independent closures and protected triangle credit
+        run: |
+          python3 tools/s009_ports.py --check-only
+          python3 tools/s009_ports_verify.py --check-only
+          python3 tools/s009_credit.py --check-only
+          python3 tools/s009_credit_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40
