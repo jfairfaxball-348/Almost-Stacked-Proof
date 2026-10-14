@@ -1,0 +1,132 @@
+{
+  "graph": "A6_0004",
+  "n": 6,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 11,
+  "last_layer": 11,
+  "seconds": 0.000589325,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 15,
+      "losers": 15,
+      "as_losers": 15,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 56,
+      "losers": 36,
+      "as_losers": 36,
+      "Qmax": 5,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 119,
+      "losers": 71,
+      "as_losers": 71,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 236,
+      "losers": 102,
+      "as_losers": 94,
+      "Qmax": 11,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 370,
+      "losers": 114,
+      "as_losers": 91,
+      "Qmax": 26,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 480,
+      "losers": 74,
+      "as_losers": 36,
+      "Qmax": 27,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 8,
+      "candidates": 419,
+      "losers": 42,
+      "as_losers": 20,
+      "Qmax": 28,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 302,
+      "losers": 26,
+      "as_losers": 10,
+      "Qmax": 51,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 175,
+      "losers": 4,
+      "as_losers": 2,
+      "Qmax": 52,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 11,
+      "candidates": 32,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "certificate_sha256": "b8f66e2d4c9ddba0ac92bc6f2665d475902f3165b60c0e89b6ca8c97243ecf2d"
+}

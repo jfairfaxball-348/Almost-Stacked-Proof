@@ -1,0 +1,144 @@
+{
+  "graph": "A6_0102",
+  "n": 6,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 11,
+  "last_layer": 11,
+  "seconds": 0.000420792,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 15,
+      "losers": 15,
+      "as_losers": 15,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 56,
+      "losers": 30,
+      "as_losers": 30,
+      "Qmax": 5,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 115,
+      "losers": 47,
+      "as_losers": 47,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 178,
+      "losers": 62,
+      "as_losers": 62,
+      "Qmax": 11,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 261,
+      "losers": 73,
+      "as_losers": 55,
+      "Qmax": 26,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 338,
+      "losers": 56,
+      "as_losers": 30,
+      "Qmax": 27,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 8,
+      "candidates": 370,
+      "losers": 40,
+      "as_losers": 18,
+      "Qmax": 28,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 332,
+      "losers": 26,
+      "as_losers": 10,
+      "Qmax": 51,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 205,
+      "losers": 4,
+      "as_losers": 2,
+      "Qmax": 52,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 11,
+      "candidates": 40,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "certificate_sha256": "9e26530ade2575507e0d5f482a4d57cd38135bf850c0602a808a5c19abca2cb6"
+}

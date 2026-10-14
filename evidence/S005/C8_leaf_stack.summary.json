@@ -1,0 +1,556 @@
+{
+  "graph": "C8_leaf",
+  "n": 9,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 63,
+  "last_layer": 63,
+  "seconds": 2.50944,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 9,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 36,
+      "losers": 36,
+      "as_losers": 36,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 164,
+      "losers": 138,
+      "as_losers": 138,
+      "Qmax": 5,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 483,
+      "losers": 429,
+      "as_losers": 412,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 1265,
+      "losers": 1119,
+      "as_losers": 886,
+      "Qmax": 17,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 2941,
+      "losers": 2594,
+      "as_losers": 1434,
+      "Qmax": 26,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 6300,
+      "losers": 5389,
+      "as_losers": 1846,
+      "Qmax": 37,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 8,
+      "candidates": 12528,
+      "losers": 10289,
+      "as_losers": 2005,
+      "Qmax": 50,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 23564,
+      "losers": 17953,
+      "as_losers": 1987,
+      "Qmax": 65,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 41753,
+      "losers": 28625,
+      "as_losers": 1885,
+      "Qmax": 82,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 11,
+      "candidates": 69885,
+      "losers": 41977,
+      "as_losers": 1759,
+      "Qmax": 101,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 12,
+      "candidates": 109013,
+      "losers": 56867,
+      "as_losers": 1705,
+      "Qmax": 122,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 13,
+      "candidates": 158241,
+      "losers": 71433,
+      "as_losers": 1585,
+      "Qmax": 145,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 14,
+      "candidates": 213982,
+      "losers": 83669,
+      "as_losers": 1345,
+      "Qmax": 170,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 15,
+      "candidates": 269718,
+      "losers": 91434,
+      "as_losers": 1318,
+      "Qmax": 197,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 16,
+      "candidates": 317498,
+      "losers": 94774,
+      "as_losers": 1246,
+      "Qmax": 226,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 17,
+      "candidates": 352110,
+      "losers": 93983,
+      "as_losers": 1038,
+      "Qmax": 257,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 18,
+      "candidates": 370459,
+      "losers": 88695,
+      "as_losers": 976,
+      "Qmax": 290,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 19,
+      "candidates": 371245,
+      "losers": 81184,
+      "as_losers": 906,
+      "Qmax": 325,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 20,
+      "candidates": 354793,
+      "losers": 72972,
+      "as_losers": 786,
+      "Qmax": 362,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 21,
+      "candidates": 325016,
+      "losers": 64055,
+      "as_losers": 728,
+      "Qmax": 401,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 22,
+      "candidates": 290303,
+      "losers": 55772,
+      "as_losers": 624,
+      "Qmax": 442,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 23,
+      "candidates": 255517,
+      "losers": 48394,
+      "as_losers": 554,
+      "Qmax": 485,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 24,
+      "candidates": 221015,
+      "losers": 41361,
+      "as_losers": 526,
+      "Qmax": 530,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 25,
+      "candidates": 189175,
+      "losers": 35232,
+      "as_losers": 445,
+      "Qmax": 577,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 26,
+      "candidates": 161455,
+      "losers": 30088,
+      "as_losers": 392,
+      "Qmax": 626,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 27,
+      "candidates": 136887,
+      "losers": 25418,
+      "as_losers": 362,
+      "Qmax": 677,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 28,
+      "candidates": 115700,
+      "losers": 21379,
+      "as_losers": 313,
+      "Qmax": 730,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 29,
+      "candidates": 97614,
+      "losers": 18012,
+      "as_losers": 273,
+      "Qmax": 785,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 30,
+      "candidates": 81846,
+      "losers": 14971,
+      "as_losers": 239,
+      "Qmax": 842,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 31,
+      "candidates": 68222,
+      "losers": 12390,
+      "as_losers": 210,
+      "Qmax": 901,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 32,
+      "candidates": 56651,
+      "losers": 10268,
+      "as_losers": 182,
+      "Qmax": 962,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 33,
+      "candidates": 46694,
+      "losers": 8400,
+      "as_losers": 164,
+      "Qmax": 963,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 34,
+      "candidates": 38305,
+      "losers": 6899,
+      "as_losers": 151,
+      "Qmax": 1090,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 35,
+      "candidates": 31522,
+      "losers": 5681,
+      "as_losers": 124,
+      "Qmax": 1157,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 36,
+      "candidates": 25799,
+      "losers": 4616,
+      "as_losers": 118,
+      "Qmax": 1158,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 37,
+      "candidates": 21073,
+      "losers": 3799,
+      "as_losers": 117,
+      "Qmax": 1297,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 38,
+      "candidates": 17371,
+      "losers": 3130,
+      "as_losers": 85,
+      "Qmax": 1370,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 39,
+      "candidates": 14238,
+      "losers": 2545,
+      "as_losers": 79,
+      "Qmax": 1371,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 40,
+      "candidates": 11674,
+      "losers": 2107,
+      "as_losers": 88,
+      "Qmax": 1522,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 41,
+      "candidates": 9680,
+      "losers": 1735,
+      "as_losers": 64,
+      "Qmax": 1601,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 42,
+      "candidates": 7950,
+      "losers": 1400,
+      "as_losers": 55,
+      "Qmax": 1602,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 43,
+      "candidates": 6499,
+      "losers": 1149,
+      "as_losers": 62,
+      "Qmax": 1765,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 44,
+      "candidates": 5337,
+      "losers": 932,
+      "as_losers": 49,
+      "Qmax": 1850,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 45,
+      "candidates": 4322,
+      "losers": 739,
+      "as_losers": 42,
+      "Qmax": 1851,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 46,
+      "candidates": 3474,
+      "losers": 598,
+      "as_losers": 41,
+      "Qmax": 2026,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 47,
+      "candidates": 2798,
+      "losers": 475,
+      "as_losers": 32,
+      "Qmax": 2117,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 48,
+      "candidates": 2224,
+      "losers": 365,
+      "as_losers": 34,
+      "Qmax": 2118,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 49,
+      "candidates": 1748,
+      "losers": 292,
+      "as_losers": 30,
+      "Qmax": 2211,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 50,
+      "candidates": 1377,
+      "losers": 225,
+      "as_losers": 20,
+      "Qmax": 2402,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 51,
+      "candidates": 1058,
+      "losers": 165,
+      "as_losers": 26,
+      "Qmax": 2403,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 52,
+      "candidates": 808,
+      "losers": 131,
+      "as_losers": 24,
+      "Qmax": 2502,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 53,
+      "candidates": 617,
+      "losers": 97,
+      "as_losers": 13,
+      "Qmax": 2705,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 54,
+      "candidates": 446,
+      "losers": 65,
+      "as_losers": 13,
+      "Qmax": 2706,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 55,
+      "candidates": 323,
+      "losers": 50,
+      "as_losers": 16,
+      "Qmax": 2811,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 56,
+      "candidates": 239,
+      "losers": 36,
+      "as_losers": 9,
+      "Qmax": 3026,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 57,
+      "candidates": 159,
+      "losers": 20,
+      "as_losers": 4,
+      "Qmax": 3027,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 58,
+      "candidates": 102,
+      "losers": 15,
+      "as_losers": 9,
+      "Qmax": 3138,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 59,
+      "candidates": 76,
+      "losers": 11,
+      "as_losers": 6,
+      "Qmax": 3365,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 60,
+      "candidates": 44,
+      "losers": 4,
+      "as_losers": 1,
+      "Qmax": 3254,
+      "nonAS_Qmax": 3
+    },
+    {
+      "t": 61,
+      "candidates": 20,
+      "losers": 3,
+      "as_losers": 3,
+      "Qmax": 3483,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 62,
+      "candidates": 15,
+      "losers": 2,
+      "as_losers": 2,
+      "Qmax": 3722,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 63,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "certificate_sha256": "c223d6d7a533ab503cfbf717825c8df1d052bf9fc7cf5125592101a57c3ac6dd"
+}

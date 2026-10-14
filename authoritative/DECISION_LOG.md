@@ -28,3 +28,9 @@
 | 2026-10-13 S004 | Prove independent-set AS witness despite outside-I cycle edges; derive complete multipartite ASH* using source thresholds | S004 Thm12, Cor13-14; 233 finite challenges | PROGRAMME_PROVED; NOVELTY UNAUDITED |
 | 2026-10-13 S004 | Complete missing n7 8/3 thresholds using complete losing-layer certificates, independent canonical-parent replay and base full-DP | evidence/S004 | COMPUTED_EXACT; FINITE ONLY |
 | 2026-10-13 S004 | Keep universal ASH* OPEN; no Phase2/Lean/contact; S005 is strictly future | no universal theorem or counterexample | BINDING |
+| 2026-10-13/14 S005 | Universal ASH* remains headline; exact pure-pile classification is a source-credited synthesis, not a new universal threshold | S005 Theorem19; April6.1/October4.10 | NO GATE/Priority promotion |
+| 2026-10-14 S005 | Continue same interrupted session; regenerate missing executable, exclude incomplete outputs, independently replay every retained layer | CONTINUATION.md; evidence/S005 | NUMERICAL CLAIMS REQUIRE REPLAY |
+| 2026-10-14 S005 | Retire geodesic and acyclic-exact shortcuts; retain global residue-hole/cyclic debt routes | S005 report and legal traces | BINDING FOR S006 |
+| 2026-10-14 S005 | Next prompt is S006 FUTURE/UNEXECUTED; no Lean/contact/manuscript | authoritative/NEXT_SESSION_PROMPT.md | STOP BEFORE S006 |
+| 2026-10-14 S005 | Correct C8-leaf clearing eligibility before run; retain only n+1 bipartite reachability sanity check, exclude from threshold/ASH* counts | PLAN_AMENDMENT_5/6 | CLEAR THRESHOLD UNDEFINED |
+| 2026-10-14 S005 | Add independent streamed array-state canonical replay for large retained cutoff layers; full set equality and reverse bases retained | PLAN_AMENDMENT_7; tools/s005_stream_check.cpp | VALIDATION CHANGE, NO NEW SCIENTIFIC SEARCH |

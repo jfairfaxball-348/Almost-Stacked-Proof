@@ -1,0 +1,208 @@
+{
+  "graph": "A6_0049",
+  "n": 6,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 21,
+  "last_layer": 21,
+  "seconds": 0.00185342,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 15,
+      "losers": 15,
+      "as_losers": 15,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 54,
+      "losers": 38,
+      "as_losers": 38,
+      "Qmax": 5,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 111,
+      "losers": 81,
+      "as_losers": 78,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 215,
+      "losers": 138,
+      "as_losers": 111,
+      "Qmax": 17,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 377,
+      "losers": 219,
+      "as_losers": 121,
+      "Qmax": 26,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 602,
+      "losers": 285,
+      "as_losers": 106,
+      "Qmax": 37,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 8,
+      "candidates": 858,
+      "losers": 335,
+      "as_losers": 81,
+      "Qmax": 50,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 1096,
+      "losers": 330,
+      "as_losers": 59,
+      "Qmax": 51,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 1240,
+      "losers": 294,
+      "as_losers": 53,
+      "Qmax": 82,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 11,
+      "candidates": 1240,
+      "losers": 234,
+      "as_losers": 36,
+      "Qmax": 101,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 12,
+      "candidates": 1060,
+      "losers": 150,
+      "as_losers": 21,
+      "Qmax": 102,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 13,
+      "candidates": 755,
+      "losers": 95,
+      "as_losers": 21,
+      "Qmax": 123,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 14,
+      "candidates": 487,
+      "losers": 58,
+      "as_losers": 14,
+      "Qmax": 170,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 15,
+      "candidates": 292,
+      "losers": 31,
+      "as_losers": 8,
+      "Qmax": 171,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 16,
+      "candidates": 169,
+      "losers": 18,
+      "as_losers": 9,
+      "Qmax": 198,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 17,
+      "candidates": 105,
+      "losers": 12,
+      "as_losers": 4,
+      "Qmax": 227,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 18,
+      "candidates": 61,
+      "losers": 4,
+      "as_losers": 2,
+      "Qmax": 228,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 19,
+      "candidates": 25,
+      "losers": 3,
+      "as_losers": 3,
+      "Qmax": 291,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 20,
+      "candidates": 15,
+      "losers": 1,
+      "as_losers": 1,
+      "Qmax": 292,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 21,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "certificate_sha256": "28a4719b22c84592f17ef0dd622928ad6d7947e2142fad2f09c3f27f206e5053"
+}

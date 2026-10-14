@@ -39,7 +39,7 @@ A negative result or counterexample may require adapting the formal proof packag
 
 Borrowed methodology and staged assurance are inspired by [Davenport-Counterexample-Hunt](https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt), but the mathematical target and release gates belong to this repository.
 
-## Current result after S004
+## Historical result after S004
 
 **Universal intended ASH* remains open for both stacking and clearing.** Printed-form counterexamples are independently cold-audited (mathematics PASS; Lean pending).
 
@@ -47,4 +47,10 @@ A symbolic theorem now produces an almost-stacked non-stackable state of mass3k 
 
 The complete order-seven atlas now has independently computed thresholds: 853/853 stack,809/809 clear. Selected new values include C9 37/46 and triangle-tail stack128. C10 only through t16 and triangle-tail clear>140 are cutoff cases with no ASH* verdict.
 
-See [S004 proof report](research/S004_ASHSTAR_ATTACK.md), [cold audit](sessions/S004/AUDIT.md), [closeout](sessions/S004/CLOSEOUT.md) and the strictly [future S005 prompt](authoritative/NEXT_SESSION_PROMPT.md). No Lean, Palomar or arXiv action.
+See [S004 proof report](research/S004_ASHSTAR_ATTACK.md), [cold audit](sessions/S004/AUDIT.md), [closeout](sessions/S004/CLOSEOUT.md) and the strictly [current next-session prompt](authoritative/NEXT_SESSION_PROMPT.md). No Lean, Palomar or arXiv action.
+
+## Current result after S005
+
+**Universal ASH* remains open**, separately stacking and clearing. Exact clearing of a pure pile is classified by its residue modulo3 and the rooted odd-walk height; the source lower bound and reduction operation are credited, with no novelty claim. Global square/extremum selection remains unproved.
+
+C10 stack63 and triangle with five-edge tail clear190 now have complete independently replayed layers. All finite counts and explicit remaining cutoffs are in [S005 audit](sessions/S005/AUDIT.md). See the [proof report](research/S005_ASHSTAR_EXTREMA_AND_ROOTED_CLEARING.md) and [closeout](sessions/S005/CLOSEOUT.md). [S006](authoritative/NEXT_SESSION_PROMPT.md) is future/unexecuted. No Lean, registration, submission or new contact.

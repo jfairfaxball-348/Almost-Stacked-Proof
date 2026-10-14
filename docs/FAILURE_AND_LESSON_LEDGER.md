@@ -28,3 +28,10 @@
 | FL-0022 | Nonzero additive/mod3 invariant cannot persist on a connected non-bipartite graph | both edge directions force3-torsion, odd cycle also2-torsion, hencezero; weight-loss budget plus chronology needed |
 | FL-0023 | Nonnegative integer firing balance does not ensure a legal schedule | terminal K3 (1,1,1) balances formally to e2 by a two-cycle but cannot move |
 | FL-0024 | Sparse candidate explosion or mass cutoff is not an exact threshold | C10 completed only through16; triangle-tail clear>140; no ASH* verdict for these cases |
+| FL-0025 | Distance-only two-site AS stacking witness ignores cyclic residue adjustments | Triangle1-2-4 tail4-3-0 stacks(1,13,0,0,0); independent legal trace, 506 bounded pair tests. Auxiliary failure, not ASH*. |
+| FL-0026 | Deleting an odd leaf with negative boundary score can reject a legal clearing state | Path(1,0,4) clears; retain deferred debt and schedule, not nonnegative-only normalization. |
+| FL-0027 | Erasing directed move cycles may destroy exact consumption and final singleton support | K3 pure6 clears but no acyclic balance certificate; cyclic grammar essential. |
+| FL-0028 | Treating a pure pile as a stacking obstruction, or the rooted odd-walk lower bound as new | Pure pile is already stacked; April Thm6.1 lower bound and October4.10 already known. Exact classification has no priority claim. |
+| FL-0029 | Three-pebble monotonicity alone cannot force AS extreme holes | Fixed support/residue lower sets need cross-class graph constraints; general lower sets can have interior degree maxima. |
+| FL-0030 | Interrupted scratch producer outputs are not complete certificate pairs | Continuation reruns invalid/unfinished jobs; preserve valid pairs, exclude orphan raw files and empty summaries. |
+| FL-0031 | C8 plus a leaf remains bipartite; named both-goals plan overlooked clearing eligibility | Correct before its run: treat clear as bounded reachability sanity check only, never clear threshold or ASH* verdict; exclude from eligible counts. |

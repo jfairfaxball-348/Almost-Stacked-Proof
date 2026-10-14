@@ -1,0 +1,40 @@
+{
+  "total_cases": 341,
+  "eligible_cases": 340,
+  "exact_threshold_cases": 337,
+  "cutoff_cases": [
+    {
+      "graph": "A8_00004",
+      "mode": "stack",
+      "last_complete_mass": 82,
+      "scope": "TIME_CUTOFF"
+    },
+    {
+      "graph": "triangle_tail6",
+      "mode": "stack",
+      "last_complete_mass": 54,
+      "scope": "TIME_CUTOFF"
+    },
+    {
+      "graph": "triangle_tail6",
+      "mode": "clear",
+      "last_complete_mass": 47,
+      "scope": "CANDIDATE_CUTOFF"
+    }
+  ],
+  "ineligible_cases": [
+    {
+      "graph": "C8_leaf",
+      "mode": "clear",
+      "last_complete_mass": 10,
+      "scope": "BIPARTITE_REACHABILITY_ONLY"
+    }
+  ],
+  "certified_losing_states": 133405188,
+  "completed_critical_Q_cases": 337,
+  "Q_counterexamples": 0,
+  "lex_counterexamples": 0,
+  "ASHstar_counterexamples": 0,
+  "producer_compute_seconds": 646.044730536,
+  "replay_seconds": 1317.0716501880004
+}

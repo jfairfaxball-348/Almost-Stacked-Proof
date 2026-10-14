@@ -1,0 +1,9921 @@
+[
+  {
+    "file": "evidence/S005/A2_0000_stack.bin.xz",
+    "layers": 3,
+    "threshold": 3,
+    "certified_losers": 1,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1
+    ],
+    "Qmax": 2,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 3,
+    "seconds": 0.0005085859999951481
+  },
+  {
+    "file": "evidence/S005/A3_0000_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 14,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 4,
+    "seconds": 0.00030720299997710754
+  },
+  {
+    "file": "evidence/S005/A3_0001_stack.bin.xz",
+    "layers": 4,
+    "threshold": 4,
+    "certified_losers": 4,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1
+    ],
+    "Qmax": 3,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 4,
+    "seconds": 0.00021252999999887834
+  },
+  {
+    "file": "evidence/S005/A3_0001_clear.bin.xz",
+    "layers": 4,
+    "threshold": 4,
+    "certified_losers": 7,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      3
+    ],
+    "Qmax": 9,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      3,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 4,
+    "seconds": 0.0001901869999869632
+  },
+  {
+    "file": "evidence/S005/A4_0000_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 37,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      5
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0007006059999810077
+  },
+  {
+    "file": "evidence/S005/A4_0001_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 160,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0014305870000157483
+  },
+  {
+    "file": "evidence/S005/A4_0002_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 89,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0008466859999884946
+  },
+  {
+    "file": "evidence/S005/A4_0003_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 40,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.000608607000003758
+  },
+  {
+    "file": "evidence/S005/A4_0003_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 52,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      9,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0006263850000038929
+  },
+  {
+    "file": "evidence/S005/A4_0004_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 24,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0005478159999938725
+  },
+  {
+    "file": "evidence/S005/A4_0004_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 28,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0005017060000227502
+  },
+  {
+    "file": "evidence/S005/A4_0005_stack.bin.xz",
+    "layers": 5,
+    "threshold": 5,
+    "certified_losers": 11,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 4,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0005122620000008737
+  },
+  {
+    "file": "evidence/S005/A4_0005_clear.bin.xz",
+    "layers": 5,
+    "threshold": 5,
+    "certified_losers": 15,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 4,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 5,
+    "seconds": 0.0018214750000140612
+  },
+  {
+    "file": "evidence/S005/A5_0000_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 151,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      5
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0023603470000068683
+  },
+  {
+    "file": "evidence/S005/A5_0000_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 241,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      9
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.002977677999979278
+  },
+  {
+    "file": "evidence/S005/A5_0001_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 2048,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.01746686499998873
+  },
+  {
+    "file": "evidence/S005/A5_0002_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 358,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      13,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.004011825999981511
+  },
+  {
+    "file": "evidence/S005/A5_0003_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 151,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.002350191999994422
+  },
+  {
+    "file": "evidence/S005/A5_0004_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 79,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0021837010000069768
+  },
+  {
+    "file": "evidence/S005/A5_0004_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 102,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0018785219999983838
+  },
+  {
+    "file": "evidence/S005/A5_0005_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1006,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      17,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.008611439000020482
+  },
+  {
+    "file": "evidence/S005/A5_0006_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 109,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      0,
+      5,
+      0,
+      1
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.002085902999994005
+  },
+  {
+    "file": "evidence/S005/A5_0006_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 147,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0024243839999940064
+  },
+  {
+    "file": "evidence/S005/A5_0007_stack.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 492,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.006773369000001139
+  },
+  {
+    "file": "evidence/S005/A5_0008_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 399,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.007438731000007692
+  },
+  {
+    "file": "evidence/S005/A5_0008_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 513,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.007998034000024745
+  },
+  {
+    "file": "evidence/S005/A5_0009_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 111,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      5,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0034975210000141033
+  },
+  {
+    "file": "evidence/S005/A5_0009_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 116,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      5,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0031490659999917625
+  },
+  {
+    "file": "evidence/S005/A5_0010_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 58,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      5,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0031412350000152856
+  },
+  {
+    "file": "evidence/S005/A5_0010_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 63,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      5,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0028970660000027237
+  },
+  {
+    "file": "evidence/S005/A5_0011_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 332,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.006151892000019643
+  },
+  {
+    "file": "evidence/S005/A5_0011_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 353,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.005678789000000961
+  },
+  {
+    "file": "evidence/S005/A5_0012_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 221,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.004680123000014191
+  },
+  {
+    "file": "evidence/S005/A5_0012_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 234,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.004499792000018488
+  },
+  {
+    "file": "evidence/S005/A5_0013_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 240,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0040293429999849195
+  },
+  {
+    "file": "evidence/S005/A5_0013_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 305,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      11,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.004830361000017547
+  },
+  {
+    "file": "evidence/S005/A5_0014_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 84,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0020568300000149975
+  },
+  {
+    "file": "evidence/S005/A5_0014_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 89,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.001893814999988308
+  },
+  {
+    "file": "evidence/S005/A5_0015_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 157,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.002466076999979805
+  },
+  {
+    "file": "evidence/S005/A5_0015_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 170,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0022896910000156367
+  },
+  {
+    "file": "evidence/S005/A5_0016_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 135,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0022997860000089076
+  },
+  {
+    "file": "evidence/S005/A5_0016_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 140,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.002165042999990874
+  },
+  {
+    "file": "evidence/S005/A5_0017_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 94,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.002091272000001254
+  },
+  {
+    "file": "evidence/S005/A5_0017_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 107,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0019671850000122504
+  },
+  {
+    "file": "evidence/S005/A5_0018_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 63,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0019078550000131145
+  },
+  {
+    "file": "evidence/S005/A5_0018_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 68,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0017392410000240943
+  },
+  {
+    "file": "evidence/S005/A5_0019_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 42,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0018115099999818085
+  },
+  {
+    "file": "evidence/S005/A5_0019_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 47,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0017159659999776977
+  },
+  {
+    "file": "evidence/S005/A5_0020_stack.bin.xz",
+    "layers": 6,
+    "threshold": 6,
+    "certified_losers": 26,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 5,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.0018862420000118618
+  },
+  {
+    "file": "evidence/S005/A5_0020_clear.bin.xz",
+    "layers": 6,
+    "threshold": 6,
+    "certified_losers": 31,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 5,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 6,
+    "seconds": 0.001652480000018386
+  },
+  {
+    "file": "evidence/S005/A6_0000_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 1560,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      13
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.020096518999991986
+  },
+  {
+    "file": "evidence/S005/A6_0001_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 347,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      7
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00908791699998801
+  },
+  {
+    "file": "evidence/S005/A6_0002_stack.bin.xz",
+    "layers": 63,
+    "threshold": 63,
+    "certified_losers": 33617,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      61,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 3722,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.3558346330000006
+  },
+  {
+    "file": "evidence/S005/A6_0003_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 1297,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.016419876999975713
+  },
+  {
+    "file": "evidence/S005/A6_0003_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 1753,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.019617015999983778
+  },
+  {
+    "file": "evidence/S005/A6_0004_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 484,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00884259800000109
+  },
+  {
+    "file": "evidence/S005/A6_0004_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 720,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010228976000007606
+  },
+  {
+    "file": "evidence/S005/A6_0005_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 213,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      5
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00733432399999856
+  },
+  {
+    "file": "evidence/S005/A6_0005_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 231,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      5
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.006822252000006301
+  },
+  {
+    "file": "evidence/S005/A6_0006_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 336,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00864183400000229
+  },
+  {
+    "file": "evidence/S005/A6_0006_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 407,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      9
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007874598000000788
+  },
+  {
+    "file": "evidence/S005/A6_0007_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 717,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.01115932899998029
+  },
+  {
+    "file": "evidence/S005/A6_0007_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 940,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012525246999985029
+  },
+  {
+    "file": "evidence/S005/A6_0008_stack.bin.xz",
+    "layers": 32,
+    "threshold": 32,
+    "certified_losers": 4636,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 843,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.05139576100000909
+  },
+  {
+    "file": "evidence/S005/A6_0008_clear.bin.xz",
+    "layers": 46,
+    "threshold": 46,
+    "certified_losers": 6390,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2025,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.06379069199999776
+  },
+  {
+    "file": "evidence/S005/A6_0009_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 916,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      13,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.014564159999991944
+  },
+  {
+    "file": "evidence/S005/A6_0009_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 1360,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      21,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.017667646999996123
+  },
+  {
+    "file": "evidence/S005/A6_0010_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 5586,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      0,
+      29,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.06622092499998189
+  },
+  {
+    "file": "evidence/S005/A6_0011_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 287,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008101148999998031
+  },
+  {
+    "file": "evidence/S005/A6_0011_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 341,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      9,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008613381999992953
+  },
+  {
+    "file": "evidence/S005/A6_0012_stack.bin.xz",
+    "layers": 40,
+    "threshold": 40,
+    "certified_losers": 15080,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      37,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 1371,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      37,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.15101898699998628
+  },
+  {
+    "file": "evidence/S005/A6_0013_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 898,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.013568219999996245
+  },
+  {
+    "file": "evidence/S005/A6_0013_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 1179,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.014880527999991955
+  },
+  {
+    "file": "evidence/S005/A6_0014_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 420,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008500752000003331
+  },
+  {
+    "file": "evidence/S005/A6_0014_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 584,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.01021391399999061
+  },
+  {
+    "file": "evidence/S005/A6_0015_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 666,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.01217092400000297
+  },
+  {
+    "file": "evidence/S005/A6_0016_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 4231,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.047064111999986835
+  },
+  {
+    "file": "evidence/S005/A6_0017_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 408,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 82,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009557744999995066
+  },
+  {
+    "file": "evidence/S005/A6_0017_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 422,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 82,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008103634000008242
+  },
+  {
+    "file": "evidence/S005/A6_0018_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 2187,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      0,
+      0,
+      17,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.02576312800002256
+  },
+  {
+    "file": "evidence/S005/A6_0019_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1893,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0235005590000128
+  },
+  {
+    "file": "evidence/S005/A6_0020_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 1085,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      0,
+      13,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.015236904000005325
+  },
+  {
+    "file": "evidence/S005/A6_0021_stack.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 758,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010818585999999186
+  },
+  {
+    "file": "evidence/S005/A6_0022_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 238,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007272770000014361
+  },
+  {
+    "file": "evidence/S005/A6_0022_clear.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 248,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007934078000005229
+  },
+  {
+    "file": "evidence/S005/A6_0023_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 182,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007444509999999127
+  },
+  {
+    "file": "evidence/S005/A6_0023_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 188,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007836822000001575
+  },
+  {
+    "file": "evidence/S005/A6_0024_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 114,
+    "all_equal": true,
+    "critical_AS_count": 7,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007299080999985108
+  },
+  {
+    "file": "evidence/S005/A6_0024_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 120,
+    "all_equal": true,
+    "critical_AS_count": 7,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008151204999990114
+  },
+  {
+    "file": "evidence/S005/A6_0025_stack.bin.xz",
+    "layers": 23,
+    "threshold": 23,
+    "certified_losers": 2115,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 442,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.02418388899999968
+  },
+  {
+    "file": "evidence/S005/A6_0025_clear.bin.xz",
+    "layers": 23,
+    "threshold": 23,
+    "certified_losers": 2137,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 442,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.022094189000000597
+  },
+  {
+    "file": "evidence/S005/A6_0026_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 314,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      5,
+      1,
+      1,
+      0,
+      1
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007704222000000982
+  },
+  {
+    "file": "evidence/S005/A6_0026_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 353,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007589037000002463
+  },
+  {
+    "file": "evidence/S005/A6_0027_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 568,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009861282999992227
+  },
+  {
+    "file": "evidence/S005/A6_0027_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 670,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010131118999993305
+  },
+  {
+    "file": "evidence/S005/A6_0028_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 372,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008420361000020193
+  },
+  {
+    "file": "evidence/S005/A6_0028_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 514,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009977797999994209
+  },
+  {
+    "file": "evidence/S005/A6_0029_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 147,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007903692000013507
+  },
+  {
+    "file": "evidence/S005/A6_0029_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 153,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007911364000023013
+  },
+  {
+    "file": "evidence/S005/A6_0030_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 250,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007495116999990614
+  },
+  {
+    "file": "evidence/S005/A6_0030_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 274,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008280189999993581
+  },
+  {
+    "file": "evidence/S005/A6_0031_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 161,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007464661000000206
+  },
+  {
+    "file": "evidence/S005/A6_0031_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 185,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007865723999998409
+  },
+  {
+    "file": "evidence/S005/A6_0032_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 622,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010400905000011562
+  },
+  {
+    "file": "evidence/S005/A6_0032_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 677,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010814458999988119
+  },
+  {
+    "file": "evidence/S005/A6_0033_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 247,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007720574999979135
+  },
+  {
+    "file": "evidence/S005/A6_0033_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 285,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008318245999987539
+  },
+  {
+    "file": "evidence/S005/A6_0034_stack.bin.xz",
+    "layers": 23,
+    "threshold": 23,
+    "certified_losers": 6453,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      19,
+      0,
+      0
+    ],
+    "Qmax": 364,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      19,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.06458840400000554
+  },
+  {
+    "file": "evidence/S005/A6_0035_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 980,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.015388954000002286
+  },
+  {
+    "file": "evidence/S005/A6_0036_stack.bin.xz",
+    "layers": 19,
+    "threshold": 19,
+    "certified_losers": 2578,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      15,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 228,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      15,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.02946723100001236
+  },
+  {
+    "file": "evidence/S005/A6_0036_clear.bin.xz",
+    "layers": 25,
+    "threshold": 25,
+    "certified_losers": 3578,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      23,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 530,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      23,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.03529995200000258
+  },
+  {
+    "file": "evidence/S005/A6_0037_stack.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 996,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      9,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 83,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.015936559000010675
+  },
+  {
+    "file": "evidence/S005/A6_0037_clear.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 1006,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      9,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 83,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.015170674000017925
+  },
+  {
+    "file": "evidence/S005/A6_0038_stack.bin.xz",
+    "layers": 25,
+    "threshold": 25,
+    "certified_losers": 5852,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      21,
+      0,
+      0
+    ],
+    "Qmax": 444,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.05792371900000148
+  },
+  {
+    "file": "evidence/S005/A6_0039_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 2841,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      17,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.03274588299998982
+  },
+  {
+    "file": "evidence/S005/A6_0040_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 785,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012840692999986913
+  },
+  {
+    "file": "evidence/S005/A6_0040_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 908,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012663304999989577
+  },
+  {
+    "file": "evidence/S005/A6_0041_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 419,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00959616299999766
+  },
+  {
+    "file": "evidence/S005/A6_0041_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 458,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008026717999996436
+  },
+  {
+    "file": "evidence/S005/A6_0042_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 180,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      0,
+      5,
+      0,
+      1
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008261761999989403
+  },
+  {
+    "file": "evidence/S005/A6_0042_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 190,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      0,
+      5,
+      0,
+      1
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.006899248000024727
+  },
+  {
+    "file": "evidence/S005/A6_0043_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 3472,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.037971819000006235
+  },
+  {
+    "file": "evidence/S005/A6_0043_clear.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 3595,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.03733216499998093
+  },
+  {
+    "file": "evidence/S005/A6_0044_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 291,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00773082100002398
+  },
+  {
+    "file": "evidence/S005/A6_0044_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 315,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008185797000010098
+  },
+  {
+    "file": "evidence/S005/A6_0045_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 451,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009919058999997787
+  },
+  {
+    "file": "evidence/S005/A6_0045_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 465,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009465667000000622
+  },
+  {
+    "file": "evidence/S005/A6_0046_stack.bin.xz",
+    "layers": 36,
+    "threshold": 36,
+    "certified_losers": 12334,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      1,
+      33,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 1091,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      33,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.12260466300000417
+  },
+  {
+    "file": "evidence/S005/A6_0047_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 361,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008069100999989587
+  },
+  {
+    "file": "evidence/S005/A6_0047_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 385,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007934447999986105
+  },
+  {
+    "file": "evidence/S005/A6_0048_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 2657,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      11,
+      0
+    ],
+    "Qmax": 125,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.025663199000007353
+  },
+  {
+    "file": "evidence/S005/A6_0049_stack.bin.xz",
+    "layers": 21,
+    "threshold": 21,
+    "certified_losers": 2341,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      17,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 292,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.026127077000012378
+  },
+  {
+    "file": "evidence/S005/A6_0049_clear.bin.xz",
+    "layers": 27,
+    "threshold": 27,
+    "certified_losers": 2980,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      25,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 626,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      25,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0291958930000078
+  },
+  {
+    "file": "evidence/S005/A6_0050_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 880,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012592839999996386
+  },
+  {
+    "file": "evidence/S005/A6_0050_clear.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 894,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011420652999987624
+  },
+  {
+    "file": "evidence/S005/A6_0051_stack.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 643,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      7,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 53,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010436699999985422
+  },
+  {
+    "file": "evidence/S005/A6_0051_clear.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 657,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      7,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 53,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009891828999997188
+  },
+  {
+    "file": "evidence/S005/A6_0052_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 420,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008399700000012444
+  },
+  {
+    "file": "evidence/S005/A6_0052_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 426,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00790096700001186
+  },
+  {
+    "file": "evidence/S005/A6_0053_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 239,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007634856999999329
+  },
+  {
+    "file": "evidence/S005/A6_0053_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 263,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0073092060000021775
+  },
+  {
+    "file": "evidence/S005/A6_0054_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 187,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007674076000000696
+  },
+  {
+    "file": "evidence/S005/A6_0054_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 193,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0067702339999868855
+  },
+  {
+    "file": "evidence/S005/A6_0055_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1494,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.018165237000005163
+  },
+  {
+    "file": "evidence/S005/A6_0055_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 1609,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.018345228000015368
+  },
+  {
+    "file": "evidence/S005/A6_0056_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 643,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010631162999999333
+  },
+  {
+    "file": "evidence/S005/A6_0056_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 675,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010075494999995271
+  },
+  {
+    "file": "evidence/S005/A6_0057_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 715,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.01147868999998991
+  },
+  {
+    "file": "evidence/S005/A6_0057_clear.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 729,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010975211000015861
+  },
+  {
+    "file": "evidence/S005/A6_0058_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 295,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007857983000008062
+  },
+  {
+    "file": "evidence/S005/A6_0058_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 301,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007268976000005978
+  },
+  {
+    "file": "evidence/S005/A6_0059_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 362,
+    "all_equal": true,
+    "critical_AS_count": 7,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      1,
+      7,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00827327900000796
+  },
+  {
+    "file": "evidence/S005/A6_0059_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 376,
+    "all_equal": true,
+    "critical_AS_count": 8,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      1,
+      7,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008131674999987126
+  },
+  {
+    "file": "evidence/S005/A6_0060_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 257,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007769518999992897
+  },
+  {
+    "file": "evidence/S005/A6_0060_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 263,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007333282999979929
+  },
+  {
+    "file": "evidence/S005/A6_0061_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 221,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007911653000007846
+  },
+  {
+    "file": "evidence/S005/A6_0061_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 227,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007292451000012079
+  },
+  {
+    "file": "evidence/S005/A6_0062_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 121,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0073335719999931825
+  },
+  {
+    "file": "evidence/S005/A6_0062_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 127,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007081653999989612
+  },
+  {
+    "file": "evidence/S005/A6_0063_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 2357,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      17,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.025478680000020404
+  },
+  {
+    "file": "evidence/S005/A6_0063_clear.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 2387,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      17,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.024593103999990262
+  },
+  {
+    "file": "evidence/S005/A6_0064_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 974,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.013309660000004442
+  },
+  {
+    "file": "evidence/S005/A6_0064_clear.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 1021,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012735404000011386
+  },
+  {
+    "file": "evidence/S005/A6_0065_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 529,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      0,
+      13,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010066741999992246
+  },
+  {
+    "file": "evidence/S005/A6_0065_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 568,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      0,
+      13,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009362771000013481
+  },
+  {
+    "file": "evidence/S005/A6_0066_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 2491,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.02794686999999385
+  },
+  {
+    "file": "evidence/S005/A6_0066_clear.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 2606,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.026753821999989214
+  },
+  {
+    "file": "evidence/S005/A6_0067_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1998,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      17,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.021157246999990775
+  },
+  {
+    "file": "evidence/S005/A6_0067_clear.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 2072,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      17,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.021137226999996983
+  },
+  {
+    "file": "evidence/S005/A6_0068_stack.bin.xz",
+    "layers": 18,
+    "threshold": 18,
+    "certified_losers": 1392,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      15,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 227,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      15,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.016561900999988666
+  },
+  {
+    "file": "evidence/S005/A6_0068_clear.bin.xz",
+    "layers": 18,
+    "threshold": 18,
+    "certified_losers": 1458,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      15,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 227,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      15,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.01611555899998507
+  },
+  {
+    "file": "evidence/S005/A6_0069_stack.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 550,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      9,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 83,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010054253999982166
+  },
+  {
+    "file": "evidence/S005/A6_0069_clear.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 556,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      9,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 83,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009388400000005959
+  },
+  {
+    "file": "evidence/S005/A6_0070_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 319,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007622208000015007
+  },
+  {
+    "file": "evidence/S005/A6_0070_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 325,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007249164999990398
+  },
+  {
+    "file": "evidence/S005/A6_0071_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 198,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007233200999991141
+  },
+  {
+    "file": "evidence/S005/A6_0071_clear.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 204,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.006693478000016739
+  },
+  {
+    "file": "evidence/S005/A6_0072_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 590,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010030768000007129
+  },
+  {
+    "file": "evidence/S005/A6_0072_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 604,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009307198000016115
+  },
+  {
+    "file": "evidence/S005/A6_0073_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 198,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007213181999986773
+  },
+  {
+    "file": "evidence/S005/A6_0073_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 222,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007085769000013897
+  },
+  {
+    "file": "evidence/S005/A6_0074_stack.bin.xz",
+    "layers": 14,
+    "threshold": 14,
+    "certified_losers": 1328,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      9,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 85,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.015538397999989684
+  },
+  {
+    "file": "evidence/S005/A6_0074_clear.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 1710,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      13,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.016952008999993495
+  },
+  {
+    "file": "evidence/S005/A6_0075_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1363,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      17,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.016362170000007836
+  },
+  {
+    "file": "evidence/S005/A6_0075_clear.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1385,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      17,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.016378615000007812
+  },
+  {
+    "file": "evidence/S005/A6_0076_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 495,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00910904799999912
+  },
+  {
+    "file": "evidence/S005/A6_0076_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 509,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008542304000002332
+  },
+  {
+    "file": "evidence/S005/A6_0077_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 382,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00869195999999306
+  },
+  {
+    "file": "evidence/S005/A6_0077_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 388,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008010042000023532
+  },
+  {
+    "file": "evidence/S005/A6_0078_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 154,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      0,
+      5,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007270989000005557
+  },
+  {
+    "file": "evidence/S005/A6_0078_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 160,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      0,
+      5,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.006773027999997794
+  },
+  {
+    "file": "evidence/S005/A6_0079_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 485,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009662012000006825
+  },
+  {
+    "file": "evidence/S005/A6_0079_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 509,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009152303999997002
+  },
+  {
+    "file": "evidence/S005/A6_0080_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 1003,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012470775999986472
+  },
+  {
+    "file": "evidence/S005/A6_0080_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 1025,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012319907999994939
+  },
+  {
+    "file": "evidence/S005/A6_0081_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 343,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 82,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008549935999980107
+  },
+  {
+    "file": "evidence/S005/A6_0081_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 349,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 82,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007943773000022247
+  },
+  {
+    "file": "evidence/S005/A6_0082_stack.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 888,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011858582000002116
+  },
+  {
+    "file": "evidence/S005/A6_0082_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 954,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011526912999983097
+  },
+  {
+    "file": "evidence/S005/A6_0083_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1216,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.015699591999975837
+  },
+  {
+    "file": "evidence/S005/A6_0083_clear.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 1230,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.014395647000014833
+  },
+  {
+    "file": "evidence/S005/A6_0084_stack.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 767,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011202042999997275
+  },
+  {
+    "file": "evidence/S005/A6_0084_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 781,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010358362000005172
+  },
+  {
+    "file": "evidence/S005/A6_0085_stack.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 739,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011316605000018853
+  },
+  {
+    "file": "evidence/S005/A6_0085_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 745,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.012728094000010515
+  },
+  {
+    "file": "evidence/S005/A6_0086_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 598,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010754007999992155
+  },
+  {
+    "file": "evidence/S005/A6_0086_clear.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 612,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.01029551600001355
+  },
+  {
+    "file": "evidence/S005/A6_0087_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 203,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007447724000002154
+  },
+  {
+    "file": "evidence/S005/A6_0087_clear.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 209,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007101263000009794
+  },
+  {
+    "file": "evidence/S005/A6_0088_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 163,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00770472199999972
+  },
+  {
+    "file": "evidence/S005/A6_0088_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 169,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007038256999976511
+  },
+  {
+    "file": "evidence/S005/A6_0089_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 95,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007369947999990245
+  },
+  {
+    "file": "evidence/S005/A6_0089_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 101,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      5,
+      0,
+      0
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007412211000001889
+  },
+  {
+    "file": "evidence/S005/A6_0090_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 304,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 82,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008283083999998553
+  },
+  {
+    "file": "evidence/S005/A6_0090_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 310,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 82,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007832744000012326
+  },
+  {
+    "file": "evidence/S005/A6_0091_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 147,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      5,
+      0,
+      0,
+      1,
+      1
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007503248000006124
+  },
+  {
+    "file": "evidence/S005/A6_0091_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 157,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      5,
+      0,
+      0,
+      1,
+      1
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.006959540000025299
+  },
+  {
+    "file": "evidence/S005/A6_0092_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 753,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011867456000004495
+  },
+  {
+    "file": "evidence/S005/A6_0092_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 775,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.010964104000009911
+  },
+  {
+    "file": "evidence/S005/A6_0093_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 255,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      5,
+      1,
+      1,
+      0,
+      1
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007338099000008924
+  },
+  {
+    "file": "evidence/S005/A6_0093_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 294,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0072568670000237034
+  },
+  {
+    "file": "evidence/S005/A6_0094_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 492,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.011592191000005414
+  },
+  {
+    "file": "evidence/S005/A6_0094_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 506,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008888837000000649
+  },
+  {
+    "file": "evidence/S005/A6_0095_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 374,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008802717000008897
+  },
+  {
+    "file": "evidence/S005/A6_0095_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 388,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008860303999995267
+  },
+  {
+    "file": "evidence/S005/A6_0096_stack.bin.xz",
+    "layers": 17,
+    "threshold": 17,
+    "certified_losers": 988,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 172,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.013690473999986352
+  },
+  {
+    "file": "evidence/S005/A6_0096_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 1103,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.013707088999979078
+  },
+  {
+    "file": "evidence/S005/A6_0097_stack.bin.xz",
+    "layers": 12,
+    "threshold": 12,
+    "certified_losers": 565,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 53,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009736895000003187
+  },
+  {
+    "file": "evidence/S005/A6_0097_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 631,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.009136409999996431
+  },
+  {
+    "file": "evidence/S005/A6_0098_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 258,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      5,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007618982999986201
+  },
+  {
+    "file": "evidence/S005/A6_0098_clear.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 264,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      5,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007203916999998228
+  },
+  {
+    "file": "evidence/S005/A6_0099_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 261,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007697420999988935
+  },
+  {
+    "file": "evidence/S005/A6_0099_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 267,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007268745000004628
+  },
+  {
+    "file": "evidence/S005/A6_0100_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 168,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007873646999996708
+  },
+  {
+    "file": "evidence/S005/A6_0100_clear.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 174,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.006807468999994626
+  },
+  {
+    "file": "evidence/S005/A6_0101_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 390,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008355773999994653
+  },
+  {
+    "file": "evidence/S005/A6_0101_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 404,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0083549919999939
+  },
+  {
+    "file": "evidence/S005/A6_0102_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 353,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008655115000010483
+  },
+  {
+    "file": "evidence/S005/A6_0102_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 359,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      7,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007947277999988955
+  },
+  {
+    "file": "evidence/S005/A6_0103_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 128,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007549529000016264
+  },
+  {
+    "file": "evidence/S005/A6_0103_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 134,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      5,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0070707059999790545
+  },
+  {
+    "file": "evidence/S005/A6_0104_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 285,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00809668299999089
+  },
+  {
+    "file": "evidence/S005/A6_0104_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 299,
+    "all_equal": true,
+    "critical_AS_count": 5,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007540785000003325
+  },
+  {
+    "file": "evidence/S005/A6_0105_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 231,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.00791825300001392
+  },
+  {
+    "file": "evidence/S005/A6_0105_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 237,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007166731000012305
+  },
+  {
+    "file": "evidence/S005/A6_0106_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 202,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.008000517999988688
+  },
+  {
+    "file": "evidence/S005/A6_0106_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 208,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 51,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007133571999986543
+  },
+  {
+    "file": "evidence/S005/A6_0107_stack.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 208,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 29,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007573865000011892
+  },
+  {
+    "file": "evidence/S005/A6_0107_clear.bin.xz",
+    "layers": 10,
+    "threshold": 10,
+    "certified_losers": 222,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 81,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007292840999980399
+  },
+  {
+    "file": "evidence/S005/A6_0108_stack.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 142,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0086565969999981
+  },
+  {
+    "file": "evidence/S005/A6_0108_clear.bin.xz",
+    "layers": 9,
+    "threshold": 9,
+    "certified_losers": 148,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 28,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007030695999986847
+  },
+  {
+    "file": "evidence/S005/A6_0109_stack.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 102,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.0076111810000156765
+  },
+  {
+    "file": "evidence/S005/A6_0109_clear.bin.xz",
+    "layers": 8,
+    "threshold": 8,
+    "certified_losers": 108,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 27,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007120811999982379
+  },
+  {
+    "file": "evidence/S005/A6_0110_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 76,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007254243999994969
+  },
+  {
+    "file": "evidence/S005/A6_0110_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 82,
+    "all_equal": true,
+    "critical_AS_count": 3,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 26,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007140200999998569
+  },
+  {
+    "file": "evidence/S005/A6_0111_stack.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 57,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 6,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007886315999996896
+  },
+  {
+    "file": "evidence/S005/A6_0111_clear.bin.xz",
+    "layers": 7,
+    "threshold": 7,
+    "certified_losers": 63,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Qmax": 6,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 7,
+    "seconds": 0.007400502999985292
+  },
+  {
+    "file": "evidence/S005/A7_0000_stack.bin.xz",
+    "layers": 17,
+    "threshold": 17,
+    "certified_losers": 8016,
+    "all_equal": true,
+    "critical_AS_count": 14,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      14,
+      1
+    ],
+    "Qmax": 198,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      14,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.10708403099999941
+  },
+  {
+    "file": "evidence/S005/A7_0000_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 13483,
+    "all_equal": true,
+    "critical_AS_count": 7,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.15946937399999683
+  },
+  {
+    "file": "evidence/S005/A7_0002_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 15582,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.18921734700001025
+  },
+  {
+    "file": "evidence/S005/A7_0003_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 5073,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      0,
+      0,
+      17,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.07455239199998687
+  },
+  {
+    "file": "evidence/S005/A7_0006_stack.bin.xz",
+    "layers": 63,
+    "threshold": 63,
+    "certified_losers": 124432,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      0,
+      61,
+      0,
+      0
+    ],
+    "Qmax": 3722,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 1.4657694859999992
+  },
+  {
+    "file": "evidence/S005/A7_0007_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 12026,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      29,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.17366048399998135
+  },
+  {
+    "file": "evidence/S005/A7_0009_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 2788,
+    "all_equal": true,
+    "critical_AS_count": 6,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      13
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04846632600001044
+  },
+  {
+    "file": "evidence/S005/A7_0010_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 10521,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.13829072699999756
+  },
+  {
+    "file": "evidence/S005/A7_0017_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 2411,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04432166000000848
+  },
+  {
+    "file": "evidence/S005/A7_0017_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 2943,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      0,
+      13,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04685276500001123
+  },
+  {
+    "file": "evidence/S005/A7_0018_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 10484,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      17,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.13916753800000947
+  },
+  {
+    "file": "evidence/S005/A7_0018_clear.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 10530,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      0,
+      17,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.12931521999999518
+  },
+  {
+    "file": "evidence/S005/A7_0019_stack.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 1303,
+    "all_equal": true,
+    "critical_AS_count": 9,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      7,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.03410073499998134
+  },
+  {
+    "file": "evidence/S005/A7_0019_clear.bin.xz",
+    "layers": 11,
+    "threshold": 11,
+    "certified_losers": 1408,
+    "all_equal": true,
+    "critical_AS_count": 9,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      7,
+      0
+    ],
+    "Qmax": 52,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      7,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.032586633999983405
+  },
+  {
+    "file": "evidence/S005/A7_0022_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 5737,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.07737927299999114
+  },
+  {
+    "file": "evidence/S005/A7_0022_clear.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 6088,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.07485275499999489
+  },
+  {
+    "file": "evidence/S005/A7_0023_stack.bin.xz",
+    "layers": 17,
+    "threshold": 17,
+    "certified_losers": 2630,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 172,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04688991999998393
+  },
+  {
+    "file": "evidence/S005/A7_0023_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 2915,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04737556200001336
+  },
+  {
+    "file": "evidence/S005/A7_0024_stack.bin.xz",
+    "layers": 35,
+    "threshold": 35,
+    "certified_losers": 36809,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      31,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 964,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      31,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.40998504600000274
+  },
+  {
+    "file": "evidence/S005/A7_0024_clear.bin.xz",
+    "layers": 49,
+    "threshold": 49,
+    "certified_losers": 59691,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      47,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2210,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      47,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.6575960100000202
+  },
+  {
+    "file": "evidence/S005/A7_0025_stack.bin.xz",
+    "layers": 64,
+    "threshold": 64,
+    "certified_losers": 70590,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      61,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 3723,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.7967608040000016
+  },
+  {
+    "file": "evidence/S005/A7_0025_clear.bin.xz",
+    "layers": 94,
+    "threshold": 94,
+    "certified_losers": 112689,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 8649,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 1.1858086160000028
+  },
+  {
+    "file": "evidence/S005/A7_0026_stack.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 3474,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      13,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.060869241000006014
+  },
+  {
+    "file": "evidence/S005/A7_0026_clear.bin.xz",
+    "layers": 16,
+    "threshold": 16,
+    "certified_losers": 3560,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      13,
+      0
+    ],
+    "Qmax": 171,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.05606857500001183
+  },
+  {
+    "file": "evidence/S005/A7_0027_stack.bin.xz",
+    "layers": 32,
+    "threshold": 32,
+    "certified_losers": 15404,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "Qmax": 843,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.18869257100001846
+  },
+  {
+    "file": "evidence/S005/A7_0027_clear.bin.xz",
+    "layers": 46,
+    "threshold": 46,
+    "certified_losers": 20267,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2025,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.2510901060000208
+  },
+  {
+    "file": "evidence/S005/A7_0029_stack.bin.xz",
+    "layers": 18,
+    "threshold": 18,
+    "certified_losers": 2731,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      15,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 227,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      15,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.049185931000010896
+  },
+  {
+    "file": "evidence/S005/A7_0029_clear.bin.xz",
+    "layers": 18,
+    "threshold": 18,
+    "certified_losers": 2920,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      15,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 227,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      15,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04744351499999766
+  },
+  {
+    "file": "evidence/S005/A7_0031_stack.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 1660,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.043201791999990746
+  },
+  {
+    "file": "evidence/S005/A7_0031_clear.bin.xz",
+    "layers": 15,
+    "threshold": 15,
+    "certified_losers": 2159,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      1,
+      13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 170,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04680958500000543
+  },
+  {
+    "file": "evidence/S005/A7_0032_stack.bin.xz",
+    "layers": 14,
+    "threshold": 14,
+    "certified_losers": 2075,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      1,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 123,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.04224024300000906
+  },
+  {
+    "file": "evidence/S005/A7_0032_clear.bin.xz",
+    "layers": 14,
+    "threshold": 14,
+    "certified_losers": 2104,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      1,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 123,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.039686314000022094
+  },
+  {
+    "file": "evidence/S005/A7_0033_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 4539,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      17,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.06462861600002157
+  },
+  {
+    "file": "evidence/S005/A7_0033_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 5252,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.06892682500000546
+  },
+  {
+    "file": "evidence/S005/A7_0034_stack.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 1659,
+    "all_equal": true,
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      1,
+      1,
+      1,
+      9,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 84,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      9,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.03728510400000573
+  },
+  {
+    "file": "evidence/S005/A7_0034_clear.bin.xz",
+    "layers": 13,
+    "threshold": 13,
+    "certified_losers": 2060,
+    "all_equal": true,
+    "critical_AS_count": 8,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      11,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 122,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      11,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.038532334999985096
+  },
+  {
+    "file": "evidence/S005/A7_0038_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 11847,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.15392868600000043
+  },
+  {
+    "file": "evidence/S005/A7_0038_clear.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 13324,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      29,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.1512372800000037
+  },
+  {
+    "file": "evidence/S005/A7_0039_stack.bin.xz",
+    "layers": 20,
+    "threshold": 20,
+    "certified_losers": 7963,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      17,
+      0
+    ],
+    "Qmax": 291,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.09958670399998937
+  },
+  {
+    "file": "evidence/S005/A7_0039_clear.bin.xz",
+    "layers": 25,
+    "threshold": 25,
+    "certified_losers": 10918,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 530,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      23,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.1237527469999975
+  },
+  {
+    "file": "evidence/S005/A7_0040_stack.bin.xz",
+    "layers": 17,
+    "threshold": 17,
+    "certified_losers": 3415,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      13,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 172,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      13,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.0543312359999959
+  },
+  {
+    "file": "evidence/S005/A7_0040_clear.bin.xz",
+    "layers": 22,
+    "threshold": 22,
+    "certified_losers": 4706,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 441,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.07075821499998369
+  },
+  {
+    "file": "evidence/S005/A8_00000_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 109441,
+    "all_equal": true,
+    "critical_AS_count": 8,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      29,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.5516217389999838
+  },
+  {
+    "file": "evidence/S005/A8_00004_stack.bin.xz",
+    "layers": 82,
+    "threshold": null,
+    "certified_losers": 23151314,
+    "all_equal": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 354.39541275700003
+  },
+  {
+    "file": "evidence/S005/A8_00005_stack.bin.xz",
+    "layers": 34,
+    "threshold": 34,
+    "certified_losers": 72789,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      31,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Qmax": 963,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      31,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.0095961380000062
+  },
+  {
+    "file": "evidence/S005/A8_00005_clear.bin.xz",
+    "layers": 46,
+    "threshold": 46,
+    "certified_losers": 108849,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2025,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.398326609000037
+  },
+  {
+    "file": "evidence/S005/A8_00012_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 12502,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.23111007700003938
+  },
+  {
+    "file": "evidence/S005/A8_00012_clear.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 14600,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.23795317000008254
+  },
+  {
+    "file": "evidence/S005/A8_00013_stack.bin.xz",
+    "layers": 64,
+    "threshold": 64,
+    "certified_losers": 231538,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      61,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 3723,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 3.1264034609999953
+  },
+  {
+    "file": "evidence/S005/A8_00013_clear.bin.xz",
+    "layers": 94,
+    "threshold": 94,
+    "certified_losers": 321532,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 8649,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 4.022250671999927
+  },
+  {
+    "file": "evidence/S005/A8_00014_stack.bin.xz",
+    "layers": 32,
+    "threshold": 32,
+    "certified_losers": 37858,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      29,
+      0
+    ],
+    "Qmax": 843,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.6098796599999332
+  },
+  {
+    "file": "evidence/S005/A8_00014_clear.bin.xz",
+    "layers": 46,
+    "threshold": 46,
+    "certified_losers": 60875,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0
+    ],
+    "Qmax": 2025,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.873454870000046
+  },
+  {
+    "file": "evidence/S005/A8_00015_stack.bin.xz",
+    "layers": 127,
+    "threshold": 127,
+    "certified_losers": 4465557,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      125,
+      0
+    ],
+    "Qmax": 15626,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      125,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 65.83327613199992
+  },
+  {
+    "file": "evidence/S005/A8_00021_stack.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 13926,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.267120324000075
+  },
+  {
+    "file": "evidence/S005/A8_00021_clear.bin.xz",
+    "layers": 31,
+    "threshold": 31,
+    "certified_losers": 14960,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 842,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.253272002000017
+  },
+  {
+    "file": "evidence/S005/A8_00026_stack.bin.xz",
+    "layers": 64,
+    "threshold": 64,
+    "certified_losers": 306800,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      61,
+      0,
+      0
+    ],
+    "Qmax": 3723,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 4.396605536999914
+  },
+  {
+    "file": "evidence/S005/A8_00026_clear.bin.xz",
+    "layers": 94,
+    "threshold": 94,
+    "certified_losers": 714578,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      93,
+      0,
+      0
+    ],
+    "Qmax": 8649,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 9.469990136999968
+  },
+  {
+    "file": "evidence/S005/A8_00027_clear.bin.xz",
+    "layers": 27,
+    "threshold": 27,
+    "certified_losers": 23345,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      25,
+      0,
+      0
+    ],
+    "Qmax": 626,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      25,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.35008322499993483
+  },
+  {
+    "file": "evidence/S005/A8_00031_stack.bin.xz",
+    "layers": 40,
+    "threshold": 40,
+    "certified_losers": 78065,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      37,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 1371,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      37,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.0832614099999773
+  },
+  {
+    "file": "evidence/S005/A8_00034_stack.bin.xz",
+    "layers": 80,
+    "threshold": 80,
+    "certified_losers": 993496,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      77,
+      0,
+      0
+    ],
+    "Qmax": 5931,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      77,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 13.416501855999968
+  },
+  {
+    "file": "evidence/S005/A8_00036_stack.bin.xz",
+    "layers": 32,
+    "threshold": 32,
+    "certified_losers": 22075,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      29,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 843,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.3392777090000436
+  },
+  {
+    "file": "evidence/S005/A8_00036_clear.bin.xz",
+    "layers": 46,
+    "threshold": 46,
+    "certified_losers": 31154,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2025,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.43356593199996496
+  },
+  {
+    "file": "evidence/S005/A8_00038_stack.bin.xz",
+    "layers": 35,
+    "threshold": 35,
+    "certified_losers": 68457,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      31,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 964,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      31,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.0312773410000773
+  },
+  {
+    "file": "evidence/S005/A8_00038_clear.bin.xz",
+    "layers": 49,
+    "threshold": 49,
+    "certified_losers": 106352,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      47,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2210,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      47,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.2780282889998489
+  },
+  {
+    "file": "evidence/S005/A8_00040_stack.bin.xz",
+    "layers": 128,
+    "threshold": 128,
+    "certified_losers": 1601312,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      125,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 15627,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      125,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 21.594945874000132
+  },
+  {
+    "file": "evidence/S005/A8_00040_clear.bin.xz",
+    "layers": 190,
+    "threshold": 190,
+    "certified_losers": 3226144,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      189,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 35721,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      189,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 41.036745162000216
+  },
+  {
+    "file": "evidence/S005/A8_00041_stack.bin.xz",
+    "layers": 32,
+    "threshold": 32,
+    "certified_losers": 37397,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      1,
+      1,
+      29,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 843,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      29,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.5815427350000846
+  },
+  {
+    "file": "evidence/S005/A8_00041_clear.bin.xz",
+    "layers": 46,
+    "threshold": 46,
+    "certified_losers": 69769,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 2025,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 0.967262269999992
+  },
+  {
+    "file": "evidence/S005/A8_00042_stack.bin.xz",
+    "layers": 63,
+    "threshold": 63,
+    "certified_losers": 381255,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      0,
+      0,
+      0,
+      61,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 3722,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 5.572719206999864
+  },
+  {
+    "file": "evidence/S005/A8_00045_stack.bin.xz",
+    "layers": 160,
+    "threshold": 160,
+    "certified_losers": 10861873,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      157,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 24651,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      157,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 153.94894903099998
+  },
+  {
+    "file": "evidence/S005/A8_00049_stack.bin.xz",
+    "layers": 42,
+    "threshold": 42,
+    "certified_losers": 160136,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      1,
+      39,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Qmax": 1523,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      39,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 2.2359845370001494
+  },
+  {
+    "file": "evidence/S005/A8_00050_stack.bin.xz",
+    "layers": 40,
+    "threshold": 40,
+    "certified_losers": 103902,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      0,
+      0,
+      37,
+      0,
+      0,
+      0
+    ],
+    "Qmax": 1371,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      37,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 1.3299777160000303
+  },
+  {
+    "file": "evidence/S005/C10_stack.bin.xz",
+    "layers": 63,
+    "threshold": 63,
+    "certified_losers": 13340529,
+    "all_equal": true,
+    "critical_AS_count": 10,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      61
+    ],
+    "Qmax": 3722,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 11,
+    "seconds": 262.2563834770001
+  },
+  {
+    "file": "evidence/S005/triangle_tail5_clear.bin.xz",
+    "layers": 190,
+    "threshold": 190,
+    "certified_losers": 3226144,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      189
+    ],
+    "Qmax": 35721,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      189,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 41.93235170599996
+  },
+  {
+    "file": "evidence/S005/triangle_tail4_stack.bin.xz",
+    "layers": 64,
+    "threshold": 64,
+    "certified_losers": 70590,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      61
+    ],
+    "Qmax": 3723,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 0.8866982799997913
+  },
+  {
+    "file": "evidence/S005/triangle_tail4_clear.bin.xz",
+    "layers": 94,
+    "threshold": 94,
+    "certified_losers": 112689,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      93
+    ],
+    "Qmax": 8649,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 8,
+    "seconds": 1.1993562239999846
+  },
+  {
+    "file": "evidence/S005/triangle_tail6_stack.bin.xz",
+    "layers": 54,
+    "threshold": null,
+    "certified_losers": 29434242,
+    "all_equal": true,
+    "algorithm": "independent array-state streamed canonical replay",
+    "reverse_winning_base_layers": 10,
+    "seconds": 131.4522831029999
+  },
+  {
+    "file": "evidence/S005/triangle_tail6_clear.bin.xz",
+    "layers": 47,
+    "threshold": null,
+    "certified_losers": 31056385,
+    "all_equal": true,
+    "algorithm": "independent array-state streamed canonical replay",
+    "reverse_winning_base_layers": 10,
+    "seconds": 135.1131931750001
+  },
+  {
+    "file": "evidence/S005/C5_tail3_stack.bin.xz",
+    "layers": 64,
+    "threshold": 64,
+    "certified_losers": 231538,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      61
+    ],
+    "Qmax": 3723,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 3.2753362480000305
+  },
+  {
+    "file": "evidence/S005/C5_tail3_clear.bin.xz",
+    "layers": 94,
+    "threshold": 94,
+    "certified_losers": 321532,
+    "all_equal": true,
+    "critical_AS_count": 1,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      93
+    ],
+    "Qmax": 8649,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 9,
+    "seconds": 4.1494245720000436
+  },
+  {
+    "file": "evidence/S005/two_triangles_path4_stack.bin.xz",
+    "layers": 68,
+    "threshold": 68,
+    "certified_losers": 2994386,
+    "all_equal": true,
+    "algorithm": "independent array-state streamed canonical replay",
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "Qmax": 4227,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      65,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 10,
+    "seconds": 5.344831415000044
+  },
+  {
+    "file": "evidence/S005/two_triangles_path4_clear.bin.xz",
+    "layers": 68,
+    "threshold": 68,
+    "certified_losers": 2997210,
+    "all_equal": true,
+    "algorithm": "independent array-state streamed canonical replay",
+    "critical_AS_count": 4,
+    "critical_AS_witness": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "Qmax": 4227,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      65,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 10,
+    "seconds": 5.6697242580000875
+  },
+  {
+    "file": "evidence/S005/C8_leaf_stack.bin.xz",
+    "layers": 63,
+    "threshold": 63,
+    "certified_losers": 1266586,
+    "all_equal": true,
+    "critical_AS_count": 2,
+    "critical_AS_witness": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      61
+    ],
+    "Qmax": 3722,
+    "nonAS_Qmax": 0,
+    "lex_max_sorted_piles": [
+      61,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lex_max_is_AS": true,
+    "reverse_winning_base_layers": 10,
+    "seconds": 20.798990165000077
+  },
+  {
+    "file": "evidence/S005/C8_leaf_clear.bin.xz",
+    "layers": 10,
+    "threshold": null,
+    "certified_losers": 70036,
+    "all_equal": true,
+    "reverse_winning_base_layers": 10,
+    "seconds": 0.9840918190000139
+  }
+]

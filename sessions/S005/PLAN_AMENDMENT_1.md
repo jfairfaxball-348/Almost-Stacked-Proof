@@ -1,0 +1,2 @@
+# S005 amendment 1 — before CAM-S005-01 computation
+The producer uses eight-bit fields in a 128-bit word. Set tail6 cap250 (instead of400); tail4 cap200. Every tested mass<=250, inverse coordinates<=252<256, n<=10. No carry/borrow crosses a field. All other bounds retained. The limit may leave tail6 clearing incomplete; report it as such. Python verifier decodes independently and checks exact mass and fields. No experiment has run yet.

@@ -33,3 +33,7 @@ The certificate checks also run in hosted CI (`.github/workflows/governance.yml`
 - `s004_witness_tests.py --check-only`: every independent set/root on connected n<=5 (233 tests).
 
 Run from repository root. `--check-only` avoids rewriting evidence; regeneration without it creates runtime timing fields. Mathematical proofs in research/S004_ASHSTAR_ATTACK.md. No external packages required.
+
+S005: s005_sparse.cpp complete all-parent packed losing recurrence; s005_campaign.py exact graph inputs, caps and certificate serialization; s005_verify.py independent canonical-parent set equality and full reverse-winning bases; s005_geodesic.py bounded BFS witness challenge; s005_pure.py pure-pile theorem prediction; s005_check_traces.py independent arithmetic replay. See S005 PLAN/amendments for exact scopes. Binary certificate format is little-endian mass/count then uint128 states with8-bit coordinates; raw decoded hashes in summaries. No state symmetry and no Lean certification.
+
+S005 additional streamed checker: s005_stream_check.cpp uses decoded coordinate arrays and canonical candidates, streaming one layer at a time; s005_stream_verify.py verifies hashes/per-layer extrema and independently recomputes winning base layers. It reduces replay memory without weakening full-set completeness. PLAN_AMENDMENT_7 records the implementation change; original Python replay remains in the evidence.

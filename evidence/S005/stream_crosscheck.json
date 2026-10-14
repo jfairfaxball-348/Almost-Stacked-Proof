@@ -1,0 +1,90 @@
+{
+  "comparison": "array-stream versus Python canonical full replay",
+  "all_agree": true,
+  "cases": [
+    {
+      "file": "evidence/S005/A2_0000_stack.bin.xz",
+      "layers": 3,
+      "threshold": 3,
+      "certified_losers": 1,
+      "all_equal": true,
+      "algorithm": "independent array-state streamed canonical replay",
+      "critical_AS_count": 1,
+      "critical_AS_witness": [
+        1,
+        1
+      ],
+      "Qmax": 2,
+      "nonAS_Qmax": 0,
+      "lex_max_sorted_piles": [
+        1,
+        1
+      ],
+      "lex_max_is_AS": true,
+      "reverse_winning_base_layers": 3,
+      "seconds": 0.002349692000052528
+    },
+    {
+      "file": "evidence/S005/A3_0001_clear.bin.xz",
+      "layers": 4,
+      "threshold": 4,
+      "certified_losers": 7,
+      "all_equal": true,
+      "algorithm": "independent array-state streamed canonical replay",
+      "critical_AS_count": 4,
+      "critical_AS_witness": [
+        0,
+        0,
+        3
+      ],
+      "Qmax": 9,
+      "nonAS_Qmax": 0,
+      "lex_max_sorted_piles": [
+        3,
+        0,
+        0
+      ],
+      "lex_max_is_AS": true,
+      "reverse_winning_base_layers": 4,
+      "seconds": 0.0015469520001261117
+    },
+    {
+      "file": "evidence/S005/C10_stack.bin.xz",
+      "layers": 63,
+      "threshold": 63,
+      "certified_losers": 13340529,
+      "all_equal": true,
+      "algorithm": "independent array-state streamed canonical replay",
+      "critical_AS_count": 10,
+      "critical_AS_witness": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        61
+      ],
+      "Qmax": 3722,
+      "nonAS_Qmax": 0,
+      "lex_max_sorted_piles": [
+        61,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lex_max_is_AS": true,
+      "reverse_winning_base_layers": 11,
+      "seconds": 52.73374683299994
+    }
+  ]
+}

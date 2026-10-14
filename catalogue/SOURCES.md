@@ -1,21 +1,31 @@
-# Source catalogue (updated S003)
+# Source catalogue — current after S005
 
-Access taxonomy: METADATA_ONLY · ABSTRACT_INSPECTED · STATEMENT_INSPECTED · PROOF_INSPECTED · SECONDARY_ONLY. Access applies per *actual inspected material*. S003: October 2610.09650v1 full text read (statements; proofs of Lemma 4.7 and Thm 5.2 checked).
+Per-material access levels retained; a proof of one lemma is not a full-paper audit.
 
-- **SRC-0001** The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2610.09650 — S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md
-- **SRC-0002** Stacking and clearing in graph pebbling — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2604.22341 — April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit
+- **SRC-0001** The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2610.09650 — S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 same v1 PDF hash; equation4.10 proof operation freshly inspected.
+
+- **SRC-0002** Stacking and clearing in graph pebbling — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2604.22341 — April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 continuation freshly inspects full Theorem6.1 proof/internal rooted claim; root odd-walk bound is prior source work.
+
 - **SRC-0003** The stacking number of a tree — **STATEMENT_INSPECTED**. https://arxiv.org/abs/2609.31811 — Exact Lean Stacking/Estimator/RootScore/UpperBound and defect-flow proof notes inspected; no new kernel build in S002
+
 - **SRC-0004** TreeStack Palomar entry — **METADATA_ONLY**. https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1 — 
+
 - **SRC-0005** Davenport-Counterexample-Hunt — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Davenport-Counterexample-Hunt — 
+
 - **SRC-0006** Sjöstrand cover pebbling — **ABSTRACT_INSPECTED**. https://www.combinatorics.org/ojs/index.php/eljc/article/view/v12i1n22 — Sjöstrand 2005 EJC 12(1) N22, DOI 10.37236/1989, publisher abstract inspected
+
 - **SRC-0007** Soukup, Computational data and reports for graph pebbling (atlas code and reports) — **STATEMENT_INSPECTED**. https://github.com/lajossoukup/pebbling — S003 read-only shallow clone at 701cdd93dd19869a9b90947edd6361efd81cfc1f (2026-04-01): is_critical_stacked_almost_stacked tests the critical form (AS witness at level stack-1), not the printed least-t equality; atlas_ash_report.tex 995/995 stack, 924/924 clear for 2<=n<=7
+
 - **SRC-0008** S002 CAM-S002-01 six eight-vertex exhaustive exact search and reverse cold checker — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/tools — Locally executed full forward recursion plus 420 BFS checks and reverse full W8/bridge-K4 layers; raw output hash in S002 report/attached bundle
+
 - **SRC-0009** S003 CAM-S003-01 exact layered solvers, atlas n<=7, trees n<=9, literal-gap certificates — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S003 — Forward C DP, independent reverse C solver, Python reverse fixpoint, AS memo solver, independent certificate checker; hashes in evidence/S003/HASHES.md
 
-- **SRC-0010** Tamás Csernák, email reply to John Fairfax-Ball (cc Lajos Soukup), received **2026-10-13** — **STATEMENT_INSPECTED** (transcribed in full by recipient in conversation, no original SMTP headers independently obtained). Source type PERSONAL_COMMUNICATION_OWNER_SUPPLIED; public repository contains an attributed factual summary only, not the private original. Confirms ASH* is the intended conjecture, stronger printed form false, and author reports complete <=7-vertex thresholds/ASH* tests. See outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md. NOT a published erratum or proof.
+- **SRC-0010** Tamás Csernák reply to John Fairfax-Ball, cc Lajos Soukup (2026-10-13) — **STATEMENT_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md — Owner supplied the full message text in chat, displayed received 2:59 PM, exact headers/timezone unverified; public record is attributed summary only, not verbatim message or published correction; author reports intended ASH*, printed false, all n<=7 tested.
 
-## S004 fresh evidence
+- **SRC-0011** S004 cold audit, sparse frontier layers, packed canonical-parent replay, structural atlas — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S004 — Fresh cold reverse-winning DP, independent packed-state complete sparse certificate replay, base layer cross-check; full scope and cutoffs in S004 PLAN/AUDIT/report; no Lean.
 
-- SRC-0011 — PROOF_INSPECTED: cold audit and complete sparse losing certificates, evidence/S004; independent canonical-parent packed replay and full reverse-winning base cross-check.
-- SRC-0012 — PROOF_INSPECTED: research/S004_ASHSTAR_ATTACK.md, symbolic independent-set AS witness and exact family consequences. No novelty or Lean claim.
-- SRC-0001/0002: fresh 2026-10-13 version lists v1 only, PDF hashes unchanged; statements inspected, no changed printed hypothesis in fetched text.
+- **SRC-0012** S004 independent-set almost-stacked obstruction and structural proof attacks — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S004_ASHSTAR_ATTACK.md — Complete symbolic proofs; lower-bound witness and complete multipartite consequence; universally unresolved. Novelty not audited; source exact thresholds credited.
+
+- **SRC-0013** S005 exact pure-pile clearing, ancestry lower proof and structural failures — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S005_ASHSTAR_EXTREMA_AND_ROOTED_CLEARING.md — Exact classification with prior odd-walk lower bound and +3 operation credited; no novelty or Lean claim. Universal target OPEN.
+
+- **SRC-0014** S005 all-parent binary layers, canonical-parent replay and auxiliary legal traces — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S005 — Explicit graph scopes, complete/cutoff layers and independent set replay; Q and pure-pile challenge; no universal or kernel certification.

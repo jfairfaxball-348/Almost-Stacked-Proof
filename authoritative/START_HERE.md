@@ -21,3 +21,6 @@ Research status: **ASH is unresolved in this programme**. The 2026-10-07/08 sour
 ## Current authority — S004 completed
 
 The S001-S003 notes above are historical. The live-main-first precedence in AGENTS.md governs; the explicit owner S004 invocation superseded the old bootstrap-only sentence. Current last session S004, next strictly FUTURE S005. Printed-form cold audit PASS; universal ASH* OPEN. Read STATE.json and research/S004_ASHSTAR_ATTACK.md first. Complete multipartite ASH* and independent-set AS witness are proved with source thresholds credited. Finite n7 coverage now complete; two larger searches remain cutoff. No Lean or novelty promotion.
+
+## Current authority — S005 completed (2026-10-14)
+Prior session notes above are historical. Last S005, next strictly FUTURE S006. Universal ASH* OPEN. Read S005 report/AUDIT/STATE first. Exact pure-pile clearing classification has complete ancestry necessity and matching construction; April rooted odd-walk lower bound and October +3 operation credited. Finite square/extremum tests remain heuristic support. No universal or infinite tail-family upper theorem; no novelty/Lean/contact promotion. Actual integration metadata is in the S005 PR.

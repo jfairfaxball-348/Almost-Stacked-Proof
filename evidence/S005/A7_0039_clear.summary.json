@@ -1,0 +1,244 @@
+{
+  "graph": "A7_0039",
+  "n": 7,
+  "mode": "clear",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 25,
+  "last_layer": 25,
+  "seconds": 0.00926315,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 7,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 21,
+      "losers": 21,
+      "as_losers": 21,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 82,
+      "losers": 70,
+      "as_losers": 70,
+      "Qmax": 9,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 194,
+      "losers": 159,
+      "as_losers": 148,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 435,
+      "losers": 323,
+      "as_losers": 260,
+      "Qmax": 17,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 853,
+      "losers": 594,
+      "as_losers": 318,
+      "Qmax": 36,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 1478,
+      "losers": 864,
+      "as_losers": 300,
+      "Qmax": 37,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 8,
+      "candidates": 2350,
+      "losers": 1184,
+      "as_losers": 286,
+      "Qmax": 50,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 3501,
+      "losers": 1439,
+      "as_losers": 221,
+      "Qmax": 81,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 4557,
+      "losers": 1398,
+      "as_losers": 177,
+      "Qmax": 82,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 11,
+      "candidates": 5246,
+      "losers": 1357,
+      "as_losers": 156,
+      "Qmax": 101,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 12,
+      "candidates": 5783,
+      "losers": 1196,
+      "as_losers": 115,
+      "Qmax": 144,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 13,
+      "candidates": 5297,
+      "losers": 747,
+      "as_losers": 69,
+      "Qmax": 125,
+      "nonAS_Qmax": 2
+    },
+    {
+      "t": 14,
+      "candidates": 3863,
+      "losers": 544,
+      "as_losers": 70,
+      "Qmax": 170,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 15,
+      "candidates": 2909,
+      "losers": 406,
+      "as_losers": 52,
+      "Qmax": 225,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 16,
+      "candidates": 1820,
+      "losers": 167,
+      "as_losers": 18,
+      "Qmax": 200,
+      "nonAS_Qmax": 2
+    },
+    {
+      "t": 17,
+      "candidates": 890,
+      "losers": 142,
+      "as_losers": 26,
+      "Qmax": 257,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 18,
+      "candidates": 690,
+      "losers": 134,
+      "as_losers": 22,
+      "Qmax": 324,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 19,
+      "candidates": 417,
+      "losers": 43,
+      "as_losers": 2,
+      "Qmax": 293,
+      "nonAS_Qmax": 2
+    },
+    {
+      "t": 20,
+      "candidates": 207,
+      "losers": 46,
+      "as_losers": 8,
+      "Qmax": 362,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 21,
+      "candidates": 223,
+      "losers": 51,
+      "as_losers": 8,
+      "Qmax": 441,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 22,
+      "candidates": 117,
+      "losers": 10,
+      "as_losers": 0,
+      "Qmax": 366,
+      "nonAS_Qmax": 2
+    },
+    {
+      "t": 23,
+      "candidates": 51,
+      "losers": 11,
+      "as_losers": 2,
+      "Qmax": 443,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 24,
+      "candidates": 56,
+      "losers": 12,
+      "as_losers": 2,
+      "Qmax": 530,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 25,
+      "candidates": 24,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "certificate_sha256": "3ed339c77cae36eee002a1542231bf96db1c7ad75eae4b0d508482969c811666"
+}

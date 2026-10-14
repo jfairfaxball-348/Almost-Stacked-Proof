@@ -1,0 +1,60 @@
+{
+  "graph": "A3_0001",
+  "n": 3,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 4,
+  "last_layer": 4,
+  "seconds": 3.0966e-05,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 3,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 3,
+      "losers": 3,
+      "as_losers": 3,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 10,
+      "losers": 1,
+      "as_losers": 1,
+      "Qmax": 3,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "certificate_sha256": "b547a12fe7dbe3b3aa0f8481deff8241268391131b0798389d202202356d9c52"
+}

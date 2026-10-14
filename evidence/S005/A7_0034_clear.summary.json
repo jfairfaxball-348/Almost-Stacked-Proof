@@ -1,0 +1,156 @@
+{
+  "graph": "A7_0034",
+  "n": 7,
+  "mode": "clear",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 13,
+  "last_layer": 13,
+  "seconds": 0.00221791,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 7,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 21,
+      "losers": 21,
+      "as_losers": 21,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 84,
+      "losers": 66,
+      "as_losers": 66,
+      "Qmax": 9,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 201,
+      "losers": 141,
+      "as_losers": 132,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 439,
+      "losers": 257,
+      "as_losers": 228,
+      "Qmax": 17,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 820,
+      "losers": 382,
+      "as_losers": 249,
+      "Qmax": 36,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 1259,
+      "losers": 374,
+      "as_losers": 175,
+      "Qmax": 29,
+      "nonAS_Qmax": 18
+    },
+    {
+      "t": 8,
+      "candidates": 1750,
+      "losers": 329,
+      "as_losers": 152,
+      "Qmax": 50,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 1930,
+      "losers": 243,
+      "as_losers": 67,
+      "Qmax": 81,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 1480,
+      "losers": 120,
+      "as_losers": 28,
+      "Qmax": 54,
+      "nonAS_Qmax": 8
+    },
+    {
+      "t": 11,
+      "candidates": 996,
+      "losers": 80,
+      "as_losers": 20,
+      "Qmax": 83,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 12,
+      "candidates": 677,
+      "losers": 47,
+      "as_losers": 8,
+      "Qmax": 122,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 13,
+      "candidates": 328,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "certificate_sha256": "c47958e3595094c61258439882f0f82f425132ceaf5aa47186b0a9aff296734c"
+}

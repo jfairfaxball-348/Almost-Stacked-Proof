@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
-  "as_of": "2026-10-13",
-  "last_completed_session": "S004",
-  "recommended_next_session": "S005",
+  "as_of": "2026-10-14",
+  "last_completed_session": "S005",
+  "recommended_next_session": "S006",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal ASH* IN_PROGRESS; printed-form mathematics separately PASS after S004 cold audit. AS independent-set witness proves ASH* at independence-bound saturation; complete multipartite family settled using source thresholds."
+      "note": "Universal ASH* IN_PROGRESS; printed mathematics separately PASS. Exact pure-pile clearing classification proved with prior rooted odd-walk lower bound credited; no universal hole-selection theorem."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -44,10 +44,12 @@
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "S005: solve universal ASH* beyond max(n+1,3alpha+1); global square extrema, rooted cost/blocks and exact ancestry-language routes remain unproved.",
-    "Novelty of S004 independent-set AS witness/family consequence not audited; do not claim priority.",
-    "C10 exact through t=16 only; triangle-tail clear>140 but undetermined threshold; no ASH* verdict for either.",
-    "Printed-form Phase1 PASS is separate; no Lean/Palomar/arXiv/contact outside gates."
+    "S006: prove universal extremal-hole selection across support/residue classes, or certify a threshold-complete counterexample.",
+    "Global Q and sorted-pile selection remain HEURISTIC despite completed finite challenges; no compression or local convexity assumed.",
+    "Exact pure-pile classification uses April Thm6.1 lower bound and October4.10; no priority claim or new global threshold upper.",
+    "Rooted signed leaf debt and cyclic scheduling require necessary-and-sufficient interfaces; no infinite triangle-tail/cactus theorem.",
+    "Read S005 audit for exact finite thresholds and explicit cutoffs; never infer a verdict from incomplete cases.",
+    "No novelty/Lean/Palomar/arXiv/contact stage promotion."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
@@ -56,13 +58,13 @@
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
     "critical_form_ASHstar_stack": "OPEN universally; proved for trees (prior TreeStack), complete multipartite graphs, and bound-saturation classes; computed n<=7 complete",
     "critical_form_ASHstar_clear": "OPEN universally; proved for eligible complete multipartite graphs and bound-saturation classes; computed n<=7 complete",
-    "assurance": "S004 independent cold audit PASS; complete sparse certificates checked by independent packed canonical-parent checker and full reverse-winning base DP; symbolic family proof; no Lean"
+    "assurance": "S005 complete layer replay, reverse-winning bases, symbolic ancestry proof, independent trace replay; no Lean or universal certificate."
   },
   "correspondence": {
     "date": "2026-10-13",
     "outgoing": "OWNER_REPORTED_SENT_UNVERIFIED_HEADERS_AND_TIMESTAMP",
     "incoming": "AUTHOR_REPLY_TRANSCRIBED_BY_OWNER",
-    "author": "Tamás Csernák (cc Lajos Soukup)",
+    "author": "Tam\u00e1s Csern\u00e1k (cc Lajos Soukup)",
     "authority": "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM",
     "intended_statement": "ASH* = at least one almost-stacked loser at critical size g(G)-1",
     "printed_form_author_comment": "Author agrees stronger printed statement is false, without specifically certifying S003 example files",
@@ -70,7 +72,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S005 FUTURE/UNEXECUTED. S004 completed proof-first research, cold audit and exact frontier campaign; no universal solution.",
+  "next_session_context": "S006 FUTURE/UNEXECUTED. S005 proof and exact frontier session complete; universal ASH* OPEN.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -86,5 +88,53 @@
       "total": 809
     },
     "evidence": "S003 + S004; S004 completes 8 stack/3 clear missing cases"
+  },
+  "s005": {
+    "research": "research/S005_ASHSTAR_EXTREMA_AND_ROOTED_CLEARING.md",
+    "pure_clearing": "N e_r clears iff N%3!=0 or N>=3*2^h(r); h=(odd(r,G)-1)/2, lower bound already April Thm6.1",
+    "acyclic_balance": "sufficient for legal schedule, not necessary for exact clearing (K3 at6e0)",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "finite_campaign": {
+      "total_cases": 341,
+      "eligible_cases": 340,
+      "exact_threshold_cases": 337,
+      "cutoff_cases": [
+        {
+          "graph": "A8_00004",
+          "mode": "stack",
+          "last_complete_mass": 82,
+          "scope": "TIME_CUTOFF"
+        },
+        {
+          "graph": "triangle_tail6",
+          "mode": "stack",
+          "last_complete_mass": 54,
+          "scope": "TIME_CUTOFF"
+        },
+        {
+          "graph": "triangle_tail6",
+          "mode": "clear",
+          "last_complete_mass": 47,
+          "scope": "CANDIDATE_CUTOFF"
+        }
+      ],
+      "ineligible_cases": [
+        {
+          "graph": "C8_leaf",
+          "mode": "clear",
+          "last_complete_mass": 10,
+          "scope": "BIPARTITE_REACHABILITY_ONLY"
+        }
+      ],
+      "certified_losing_states": 133405188,
+      "completed_critical_Q_cases": 337,
+      "Q_counterexamples": 0,
+      "lex_counterexamples": 0,
+      "ASHstar_counterexamples": 0,
+      "producer_compute_seconds": 646.044730536,
+      "replay_seconds": 1317.0716501880004
+    }
   }
 }

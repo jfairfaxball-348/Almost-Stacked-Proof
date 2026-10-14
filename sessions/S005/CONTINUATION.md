@@ -1,0 +1,6 @@
+# Continuation — 2026-10-14
+Owner: "Continue". Same S005, not a fresh numbered session. Remote main still9af432b717a1c742a9bed4708980ba7adf2da08d. Scratch executable/process handles no longer available. 312 complete producer summary/certificate pairs remain; 311 thresholds and one cutoff. Three interrupted raw files are not certificates and carry no claims; rebuild producer and rerun unfinished jobs within original bounds. Preserve all valid completed pairs. Incomplete summary detection repaired before restart. Dates distinguish original preregistration from continuation.
+
+After the streamed array checker independently completed the large clearing cutoff, redundant slow Python replay processes were stopped. Their completed JSON lines remain valid evidence; unfinished cases carry no Python replay claim. Streamed full-set equality completes the remaining large certificates, with reverse-winning base comparison.
+
+Post-staging integrity check detected a remaining redundant verifier log write: the initial stop pattern did not match its process wrapper. All such wrappers were then stopped, the completed log prefix rehashed, and the still-unpublished local commit amended. No scientific certificate/claim changed and the remote authored history still contains one session commit.

@@ -1,0 +1,80 @@
+{
+  "graph": "A3_0000",
+  "n": 3,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 7,
+  "last_layer": 7,
+  "seconds": 3.4932e-05,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 3,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 3,
+      "losers": 3,
+      "as_losers": 3,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 8,
+      "losers": 3,
+      "as_losers": 3,
+      "Qmax": 5,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 7,
+      "losers": 3,
+      "as_losers": 3,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 8,
+      "losers": 2,
+      "as_losers": 2,
+      "Qmax": 11,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 7,
+      "losers": 3,
+      "as_losers": 2,
+      "Qmax": 26,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 6,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "certificate_sha256": "8bcaac02c62e257cc31fbdcc6f887bc290fd41b79f20c058cec916d0caf04222"
+}
