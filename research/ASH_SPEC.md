@@ -61,3 +61,7 @@ Order-seven finite coverage is now complete: 853/853 stack and 809/809 eligible 
 
 ## Current S005 update
 Universal ASH* remains OPEN, both goals. Exact pure-pile clearing theorem19 uses h(r)=(odd(r,G)-1)/2: clearable iff N%3!=0 or N>=3*2^h(r), with bipartite multiples3 excluded. The rooted lower bound is prior April Theorem6.1; novelty unaudited. This gives ASH*-clear only when that lower bound is attained and supplies no stacking loser. S005 independently finishes C10 stack63 and triangle-tail5 clear190; see audit/campaign for full labelled finite scopes and cutoffs. Global square selection remains HEURISTIC. S006 future/unexecuted.
+
+## Current S006 update
+
+Universal critical ASH* remains OPEN for both goals; printed mathematics PASS and earlier TreeStack credit retained. S006 proves exact rooted pure-pile/buffer conductor interfaces using clearing trees versus stacking forests, with a separate zero-source bit; source pullback and +3 operations credited. Exact AS-ray largest-loser formula and a coarse finite rooted bound do not establish general-versus-binary extremal domination. No infinite triangle-tail threshold upper. See research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md and S006 AUDIT for full proofs, certificate/finite scopes and cutoff. S007 FUTURE/UNEXECUTED; no phase promotion.

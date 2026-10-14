@@ -1,0 +1,88 @@
+{
+  "finite_forest_cells": 367,
+  "concatenation_inequalities": 9161,
+  "buffer_source_target_tests": 1508,
+  "layers": [
+    {
+      "mass": 1,
+      "full_forward_reverse_equal": true,
+      "winning": 4
+    },
+    {
+      "mass": 2,
+      "full_forward_reverse_equal": true,
+      "winning": 4
+    },
+    {
+      "mass": 3,
+      "full_forward_reverse_equal": true,
+      "winning": 12
+    },
+    {
+      "mass": 4,
+      "full_forward_reverse_equal": true,
+      "winning": 25
+    },
+    {
+      "mass": 5,
+      "full_forward_reverse_equal": true,
+      "winning": 48
+    },
+    {
+      "mass": 6,
+      "full_forward_reverse_equal": true,
+      "winning": 77
+    },
+    {
+      "mass": 7,
+      "full_forward_reverse_equal": true,
+      "winning": 119
+    },
+    {
+      "mass": 8,
+      "full_forward_reverse_equal": true,
+      "winning": 165
+    },
+    {
+      "mass": 9,
+      "full_forward_reverse_equal": true,
+      "winning": 220
+    },
+    {
+      "mass": 10,
+      "full_forward_reverse_equal": true,
+      "winning": 286
+    },
+    {
+      "mass": 11,
+      "full_forward_reverse_equal": true,
+      "winning": 364
+    },
+    {
+      "mass": 12,
+      "full_forward_reverse_equal": true,
+      "winning": 455
+    },
+    {
+      "mass": 13,
+      "full_forward_reverse_equal": true,
+      "winning": 560
+    },
+    {
+      "mass": 14,
+      "full_forward_reverse_equal": true,
+      "winning": 680
+    },
+    {
+      "mass": 15,
+      "full_forward_reverse_equal": true,
+      "winning": 816
+    },
+    {
+      "mass": 16,
+      "full_forward_reverse_equal": true,
+      "winning": 969
+    }
+  ],
+  "all_legal_and_optimal": true
+}

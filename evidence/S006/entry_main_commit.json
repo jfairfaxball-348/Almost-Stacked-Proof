@@ -1,0 +1,46 @@
+{
+  "endpoint": "repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+  "exit_code": 0,
+  "data": {
+    "sha": "876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+    "node_id": "C_kwDOVF-kW9oAKDg3NmUyYTM2YTFmZTE1YzgyZTNmNzA4NWMyMzNmM2Y5ZjQ5ZWQyZDU",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T08:53:05Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T08:53:05Z"
+    },
+    "tree": {
+      "sha": "6279be36cfa7b1fa5060ad72a0f2c74d3b27ef7a",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/6279be36cfa7b1fa5060ad72a0f2c74d3b27ef7a"
+    },
+    "message": "Merge S005: pure-pile clearing theorem and audited finite ASH* frontiers\n\nS005: exact rooted pure-pile clearing, global extremal challenges, independently replayed 337 exact thresholds; universal ASH* remains open. S006 is future/unexecuted.\n\nPR #7 pre-merge validation completed SUCCESS: hosted run 38537788522 (validate plus four independent S005 replay shards).",
+    "parents": [
+      {
+        "sha": "9af432b717a1c742a9bed4708980ba7adf2da08d",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/9af432b717a1c742a9bed4708980ba7adf2da08d",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/9af432b717a1c742a9bed4708980ba7adf2da08d"
+      },
+      {
+        "sha": "35efa0a818a5bc79f75b29ec8f36f8eb0149f089",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/35efa0a818a5bc79f75b29ec8f36f8eb0149f089",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/35efa0a818a5bc79f75b29ec8f36f8eb0149f089"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz0LxCRC1aQ7uu5UhlAAATjMQALCF/T7W+5qNceNB/MfrZS+3\nrlfnFGKmZxjwqV/c23CUmIe8At1uIGiIasNTdsq76UhWaJvCoG4QwZgrt0eOjARE\nfo4DPiEQ3IZleMp/OIcxjDvdk2G7inZgmlEmuaKjaqj/VWW6FbVuFH9AsFkkQyZh\n0kNi3VIn0R5QOZrYd3c9n1AZV9AyBjWqTxGFAD5SLZOGdZYZf0lGuSDYePrlCkGc\nXUT29U955h4nWwpkbtLXweTdGXaqSdW+ZxbZulTZItttNfRA4ea9cpb6kq910nyq\nPr494aPPqBaSaaml81Stq/W7OmCD9Y0FrJQY9hGntcaFJlIYBFfaaQbRvMj6KKpr\nYu1Axj4yZS4kRCnzghThJ+BPjw0jgZw61diuEqzXJXzu5uiYVrYrCrF8FH1Q5Y53\nopXQinrWILcYW+S0qMIjid4ukYIWr82bGXw5Ib4GjkGkimqi9u7wBVXJvjJwad4o\nyohcU6d8TpYg4Ut95n9nR/JnGMSRTtzVtEYZEgOPs3lLSJnCz1lP459stLZfWQk0\nYlyKlsrlngbURwR9Z16AB0khMROd+XLQ8+Yzbqh+h+qDcD++q+nistqLHN5Bqf/n\nt3IKwtQYtsh/YVtZX83b5+mP4uBcztz1Wg7JWOUfu/GwSsM8NHYDC8tqw6NYfudg\nEvDCJ76BEssggi+whtIS\n=Q5yf\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 6279be36cfa7b1fa5060ad72a0f2c74d3b27ef7a\nparent 9af432b717a1c742a9bed4708980ba7adf2da08d\nparent 35efa0a818a5bc79f75b29ec8f36f8eb0149f089\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1791967985 +0100\ncommitter GitHub <noreply@github.com> 1791967985 +0100\n\nMerge S005: pure-pile clearing theorem and audited finite ASH* frontiers\n\nS005: exact rooted pure-pile clearing, global extremal challenges, independently replayed 337 exact thresholds; universal ASH* remains open. S006 is future/unexecuted.\n\nPR #7 pre-merge validation completed SUCCESS: hosted run 38537788522 (validate plus four independent S005 replay shards).",
+      "verified_at": "2026-10-14T08:53:05Z"
+    }
+  },
+  "stderr": "",
+  "retrieved_utc": "2026-10-14T11:39:34.029837+00:00"
+}

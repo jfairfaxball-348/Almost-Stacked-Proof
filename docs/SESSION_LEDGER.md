@@ -12,3 +12,5 @@ Detailed S001 scope and caveats: [closeout](../sessions/S001/CLOSEOUT.md).
 
 | S004 | 2026-10-13 | Cold printed audit; universal independent-set AS witness; complete multipartite consequence; recurrence/structural/ancestry attacks; exact sparse losing campaign | printed mathematics PASS; universal ASH* OPEN; all missing order-seven thresholds resolved; S005 FUTURE |
 | S005 | 2026-10-13/14 | Exact rooted pure-pile clearing; ancestry/acyclic/leaf/extremal-hole attacks; global critical extrema and named sparse frontiers | Universal ASH* OPEN; prior lower bound credited; complete finite scopes/cutoffs in AUDIT; S006 FUTURE |
+
+| S006 | 2026-10-14 | Cold pure-pile audit; exact rooted pure/buffer conductors and stacking forests; finite rooted bound; AS-ray formula and competing extremal/leaf challenges | Universal ASH* OPEN; full independent bounded certificates/DP; no infinite family upper or gate promotion; S007 FUTURE |

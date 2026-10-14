@@ -1,0 +1,1 @@
+{"cases": 257, "failed_nonAS_class_maxima": 618, "first_failure": {"graph": "A3_0000", "n": 3, "edges": [[0, 2], [1, 2]], "mode": "stack", "critical_mass": 6, "configuration": [3, 3, 0], "support_residue": [3, 3, 0], "class_Qmax": 18, "global_Qmax": 26, "class_has_AS": false, "class_states": [[3, 3, 0]], "global_AS_maximizer": [1, 5, 0]}, "seconds": 3.313000000000102}

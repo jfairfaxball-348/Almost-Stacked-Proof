@@ -30,3 +30,7 @@ A page/theorem-number indexed transcription table, a machine-readable `research/
 - That printed form is refuted (P4 stack, bull clear, t=12). The working open target is the critical form ASH\*: for n≥2, an AS non-g-able configuration of size g(G)−1 exists. See `research/S003_AS_GAP_AND_ATTACKS.md`.
 
 **2026-10-13 intended-form clarification (private author correspondence).** The author confirms the intended conjecture is ASH*, not the refuted pointwise single-layer minimum. The definitive definitions, literal failure, and critical-form target are in `research/ASH_SPEC.md` (v1 paper) and `research/ASHSTAR_ATTACK_BRIEF.md`. The 2026-10-13 letter is author testimony, not a revised public PDF. Source-version recheck remains mandatory in S004.
+
+## Current S006 update
+
+Universal critical ASH* remains OPEN for both goals; printed mathematics PASS and earlier TreeStack credit retained. S006 proves exact rooted pure-pile/buffer conductor interfaces using clearing trees versus stacking forests, with a separate zero-source bit; source pullback and +3 operations credited. Exact AS-ray largest-loser formula and a coarse finite rooted bound do not establish general-versus-binary extremal domination. No infinite triangle-tail threshold upper. See research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md and S006 AUDIT for full proofs, certificate/finite scopes and cutoff. S007 FUTURE/UNEXECUTED; no phase promotion.

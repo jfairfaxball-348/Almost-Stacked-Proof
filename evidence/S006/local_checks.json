@@ -1,0 +1,114 @@
+[
+  {
+    "command": "python tools/s006_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.25,
+    "stdout": "{\"cases\": 153, \"pure_finite_values\": 1788, \"attaining_derivations\": 2145, \"production_inequalities\": 30347, \"all_verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_stack_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.28099999999994907,
+    "stdout": "{\"finite_forest_cells\": 367, \"concatenation_inequalities\": 9161, \"buffer_source_target_tests\": 1508, \"all_legal_and_optimal\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_challenges.py --check-only",
+    "exit_code": 0,
+    "seconds": 30.46900000000005,
+    "stdout": "{\"graph\": \"A2_0000\", \"last_layer\": 5, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A3_0000\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A3_0001\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0000\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0001\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0002\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0003\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0004\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A4_0005\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0000\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0001\", \"last_layer\": 19, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0002\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0003\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0004\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0005\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0006\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0007\", \"last_layer\": 7, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0008\", \"last_layer\": 32, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0009\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0010\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0011\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0012\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0013\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0014\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0015\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0016\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0017\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0018\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0019\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"A5_0020\", \"last_layer\": 11, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail1\", \"last_layer\": 21, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail2\", \"last_layer\": 32, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail3\", \"last_layer\": 29, \"scope\": \"STATE_LIMIT\"}\n{\"graph\": \"triangle_tail0\", \"last_layer\": 16, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"graph\": \"triangle_tail4\", \"last_layer\": 10, \"scope\": \"BOUNDED_COMPLETE\"}\n{\"pure_tests\": 11750, \"buffer_tests\": 1508, \"scalar\": [{\"graph\": \"triangle_tail1\", \"tested\": 4844, \"false_positive\": 4, \"false_negative\": 123}, {\"graph\": \"triangle_tail2\", \"tested\": 20348, \"false_positive\": 44, \"false_negative\": 719}, {\"graph\": \"triangle_tail3\", \"tested\": 74612, \"false_positive\": 358, \"false_negative\": 2905}, {\"graph\": \"triangle_tail4\", \"tested\": 19447, \"false_positive\": 1020, \"false_negative\": 120}], \"seconds\": 30.32800000000043}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_extrema.py --check-only",
+    "exit_code": 0,
+    "seconds": 4.719000000000051,
+    "stdout": "{\"cases\": 257, \"failed_nonAS_class_maxima\": 618, \"first_failure\": {\"graph\": \"A3_0000\", \"n\": 3, \"edges\": [[0, 2], [1, 2]], \"mode\": \"stack\", \"critical_mass\": 6, \"configuration\": [3, 3, 0], \"support_residue\": [3, 3, 0], \"class_Qmax\": 18, \"global_Qmax\": 26, \"class_has_AS\": false, \"class_states\": [[3, 3, 0]], \"global_AS_maximizer\": [1, 5, 0]}, \"seconds\": 4.530999999999949}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s006_obstruction_verify.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.10900000000037835,
+    "stdout": "{\"auxiliary_closures_verified\": 5, \"closed_states\": 26, \"P3_critical_loser_closure\": 8, \"all_verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s005_pure.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.28099999999994907,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s005_check_traces.py",
+    "exit_code": 0,
+    "seconds": 0.17199999999957072,
+    "stdout": "PASS: all 3 geodesic failures, K3 pure6 and deferred leaf debt traces\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/cam_s003_cert.py check evidence/S003/cert_P4_stack_t12.json",
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "stdout": "{\"checked\": \"evidence/S003/cert_P4_stack_t12.json\", \"graph\": \"P4\", \"goal\": \"stack\", \"t\": 12, \"as_configs_replayed\": 32, \"loser\": [1, 0, 2, 9], \"reachable_closed_goal_free\": 50, \"verdict\": \"LITERAL_AS_GAP_CERTIFIED\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/cam_s003_cert.py check evidence/S003/cert_bull_clear_t12.json",
+    "exit_code": 0,
+    "seconds": 0.13999999999941792,
+    "stdout": "{\"checked\": \"evidence/S003/cert_bull_clear_t12.json\", \"graph\": \"bull\", \"goal\": \"clear\", \"t\": 12, \"as_configs_replayed\": 80, \"loser\": [1, 9, 0, 2, 0], \"reachable_closed_goal_free\": 96, \"verdict\": \"LITERAL_AS_GAP_CERTIFIED\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s004_cold.py --check-only",
+    "exit_code": 0,
+    "seconds": 0.3280000000004293,
+    "stdout": "{\"core\": [[\"P4\", \"stack\", 15, 32, 50], [\"bull\", \"stack\", 15, 80, 96], [\"bull\", \"clear\", 15, 80, 96]], \"minimality_failures\": [{\"n\": 4, \"edges\": [[0, 1], [0, 2], [1, 3]], \"mode\": \"stack\", \"threshold\": 15, \"gaps\": [12]}], \"seconds\": 0.18800000000010186}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s004_structure.py --check-only",
+    "exit_code": 0,
+    "seconds": 3.8599999999996726,
+    "stdout": "{\"graphs_and_goals\": 50, \"failures\": {\"max_square_has_AS\": 0, \"max_square_all_AS\": 0, \"min_support_has_AS\": 0, \"min_support_all_AS\": 18}, \"seconds\": 3.67200000000048}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s004_witness_tests.py --check-only",
+    "exit_code": 0,
+    "seconds": 3.17200000000048,
+    "stdout": "PASS: 233 witnesses on 30 graphs\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s004_verify_frontier.py --check-only",
+    "exit_code": 0,
+    "seconds": 240.10899999999947,
+    "stdout": "{\"file\": \"evidence\\\\S004\\\\A7_0001_stack.json.xz\", \"layers\": 127, \"certified_loser_states\": 799074, \"threshold\": 127, \"critical_as\": true, \"seconds\": 12.985000000000582}\n{\"file\": \"evidence\\\\S004\\\\A7_0006_stack.json.xz\", \"layers\": 63, \"certified_loser_states\": 124432, \"threshold\": 63, \"critical_as\": true, \"seconds\": 2.0}\n{\"file\": \"evidence\\\\S004\\\\A7_0025_clear.json.xz\", \"layers\": 94, \"certified_loser_states\": 112689, \"threshold\": 94, \"critical_as\": true, \"seconds\": 1.5159999999996217}\n{\"file\": \"evidence\\\\S004\\\\A7_0025_stack.json.xz\", \"layers\": 64, \"certified_loser_states\": 70590, \"threshold\": 64, \"critical_as\": true, \"seconds\": 1.0630000000001019}\n{\"file\": \"evidence\\\\S004\\\\A7_0030_stack.json.xz\", \"layers\": 80, \"certified_loser_states\": 319054, \"threshold\": 80, \"critical_as\": true, \"seconds\": 5.094000000000051}\n{\"file\": \"evidence\\\\S004\\\\A7_0052_stack.json.xz\", \"layers\": 63, \"certified_loser_states\": 83118, \"threshold\": 63, \"critical_as\": true, \"seconds\": 1.280999999999949}\n{\"file\": \"evidence\\\\S004\\\\A7_0083_stack.json.xz\", \"layers\": 72, \"certified_loser_states\": 226473, \"threshold\": 72, \"critical_as\": true, \"seconds\": 3.5150000000003274}\n{\"file\": \"evidence\\\\S004\\\\A7_0252_clear.json.xz\", \"layers\": 63, \"certified_loser_states\": 48812, \"threshold\": 63, \"critical_as\": true, \"seconds\": 0.6559999999999491}\n{\"file\": \"evidence\\\\S004\\\\A7_0252_stack.json.xz\", \"layers\": 63, \"certified_loser_states\": 47049, \"threshold\": 63, \"critical_as\": true, \"seconds\": 0.6880000000001019}\n{\"file\": \"evidence\\\\S004\\\\A7_0506_clear.json.xz\", \"layers\": 63, \"certified_loser_states\": 37900, \"threshold\": 63, \"critical_as\": true, \"seconds\": 0.5940000000000509}\n{\"file\": \"evidence\\\\S004\\\\A7_0506_stack.json.xz\", \"layers\": 63, \"certified_loser_states\": 36145, \"threshold\": 63, \"critical_as\": true, \"seconds\": 0.625}\n{\"file\": \"evidence\\\\S004\\\\C10_stack.json.xz\", \"layers\": 16, \"certified_loser_states\": 2575754, \"threshold\": null, \"critical_as\": null, \"seconds\": 54.92200000000048}\n{\"file\": \"evidence\\\\S004\\\\C8_chord04_clear.json.xz\", \"layers\": 23, \"certified_loser_states\": 20209, \"threshold\": 23, \"critical_as\": true, \"seconds\": 0.2969999999995707}\n{\"file\": \"evidence\\\\S004\\\\C8_chord04_stack.json.xz\", \"layers\": 23, \"certified_loser_states\": 19429, \"threshold\": 23, \"critical_as\": true, \"seconds\": 0.34400000000005093}\n{\"file\": \"evidence\\\\S004\\\\C8_stack.json.xz\", \"layers\": 31, \"certified_loser_states\": 109441, \"threshold\": 31, \"critical_as\": true, \"seconds\": 1.9839999999994689}\n{\"file\": \"evidence\\\\S004\\\\C9_clear.json.xz\", \"layers\": 46, \"certified_loser_states\": 1312168, \"threshold\": 46, \"critical_as\": true, \"seconds\": 28.25}\n{\"file\": \"evidence\\\\S004\\\\C9_stack.json.xz\", \"layers\": 37, \"certified_loser_states\": 676060, \"threshold\": 37, \"critical_as\": true, \"seconds\": 15.280999999999949}\n{\"file\": \"evidence\\\\S004\\\\triangle_tail5_clear.json.xz\", \"layers\": 140, \"certified_loser_states\": 3217699, \"threshold\": null, \"critical_as\": null, \"seconds\": 56.39099999999962}\n{\"file\": \"evidence\\\\S004\\\\triangle_tail5_stack.json.xz\", \"layers\": 128, \"certified_loser_states\": 1601312, \"threshold\": 128, \"critical_as\": true, \"seconds\": 35.3119999999999}\n{\"file\": \"evidence\\\\S004\\\\two_triangles_path3_clear.json.xz\", \"layers\": 36, \"certified_loser_states\": 144724, \"threshold\": 36, \"critical_as\": true, \"seconds\": 2.375}\n{\"file\": \"evidence\\\\S004\\\\two_triangles_path3_stack.json.xz\", \"layers\": 36, \"certified_loser_states\": 144413, \"threshold\": 36, \"critical_as\": true, \"seconds\": 2.8900000000003274}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python tools/s004_check_base.py --check-only",
+    "exit_code": 0,
+    "seconds": 17.45300000000043,
+    "stdout": "PASS: complete reverse-winning base layers agree on 21 cases\n",
+    "stderr": ""
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 1,
+    "seconds": 13.82799999999952,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\nS003 evidence hashes: 20 files match.\nAuthor correspondence provenance and unexecuted S007 handoff: PASS (administrative only).\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\n",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Almost-Stacked-Proof\\validation\\validate_governance.py\", line 127, in <module>\n    assert next_prompt in (ROOT/\"sessions/S005/CLOSEOUT.md\").read_text(encoding=\"utf-8\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 0,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\nS003 evidence hashes: 20 files match.\nAuthor correspondence provenance and unexecuted S007 handoff: PASS (administrative only).\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\nS006 mirrors, scope and 59 hashes: PASS (universal ASH* OPEN; S007 FUTURE).\n",
+    "stderr": "",
+    "note": "Successful rerun after replacing stale current-handoff assertion with archived S006 prompt."
+  }
+]

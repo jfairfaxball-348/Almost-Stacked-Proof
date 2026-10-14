@@ -21,6 +21,13 @@ jobs:
         run: |
           python3 tools/s004_verify_frontier.py --check-only
           python3 tools/s004_check_base.py --check-only
+      - name: S006 exact rooted grammar, forests and complete bounded dual traversals
+        run: |
+          python3 tools/s006_verify.py --check-only
+          python3 tools/s006_stack_verify.py --check-only
+          python3 tools/s006_challenges.py --check-only
+          python3 tools/s006_extrema.py --check-only
+          python3 tools/s006_obstruction_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

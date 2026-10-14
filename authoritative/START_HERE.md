@@ -24,3 +24,7 @@ The S001-S003 notes above are historical. The live-main-first precedence in AGEN
 
 ## Current authority — S005 completed (2026-10-14)
 Prior session notes above are historical. Last S005, next strictly FUTURE S006. Universal ASH* OPEN. Read S005 report/AUDIT/STATE first. Exact pure-pile clearing classification has complete ancestry necessity and matching construction; April rooted odd-walk lower bound and October +3 operation credited. Finite square/extremum tests remain heuristic support. No universal or infinite tail-family upper theorem; no novelty/Lean/contact promotion. Actual integration metadata is in the S005 PR.
+
+## Current authority — S006 completed (2026-10-14)
+
+Earlier current-session sections are historical. Last S006; next strictly FUTURE S007. Universal ASH* OPEN, printed-form mathematics PASS separate. Read STATE, research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md and sessions/S006/AUDIT.md first. Exact rooted pure/buffer clearing and stacking interfaces plus finite bounds are proved; their general-versus-binary extremal comparison is not. No infinite tail threshold upper, novelty/Lean/contact/registration/submission. Actual integration SHAs/jobs are in the S006 PR. Canonical LF .gitattributes prevents Windows evidence-hash drift.

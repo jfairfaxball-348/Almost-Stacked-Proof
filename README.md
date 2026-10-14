@@ -54,3 +54,9 @@ See [S004 proof report](research/S004_ASHSTAR_ATTACK.md), [cold audit](sessions/
 **Universal ASH* remains open**, separately stacking and clearing. Exact clearing of a pure pile is classified by its residue modulo3 and the rooted odd-walk height; the source lower bound and reduction operation are credited, with no novelty claim. Global square/extremum selection remains unproved.
 
 C10 stack63 and triangle with five-edge tail clear190 now have complete independently replayed layers. All finite counts and explicit remaining cutoffs are in [S005 audit](sessions/S005/AUDIT.md). See the [proof report](research/S005_ASHSTAR_EXTREMA_AND_ROOTED_CLEARING.md) and [closeout](sessions/S005/CLOSEOUT.md). [S006](authoritative/NEXT_SESSION_PROMPT.md) is future/unexecuted. No Lean, registration, submission or new contact.
+
+## Current result after S006
+
+Universal ASH* remains OPEN separately for stacking and clearing. Exact rooted pure-pile and arbitrary fixed-buffer conductors are proved via binary clearing trees and nonempty stacking forests; positive-source residues and zero-source inputs are distinct. A constructive finite rooted bound and exact AS-ray last-loser formula do not prove the missing general-versus-binary extremal comparison. Scalar leaf attachment is refuted in both directions by complete legal closures/traces.
+
+Independent grammar/certificate checkers and full distinct forward/reverse rooted masks validate the registered finite scopes; no new threshold frontier or infinite family upper was claimed. Read [S006 report](research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md), [audit](sessions/S006/AUDIT.md), and [closeout](sessions/S006/CLOSEOUT.md). S007 is strictly FUTURE/UNEXECUTED. Printed-form PASS remains separate; no novelty, Lean, contact or submission promotion.

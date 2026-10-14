@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-14",
-  "last_completed_session": "S005",
-  "recommended_next_session": "S006",
+  "last_completed_session": "S006",
+  "recommended_next_session": "S007",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal ASH* IN_PROGRESS; printed mathematics separately PASS. Exact pure-pile clearing classification proved with prior rooted odd-walk lower bound credited; no universal hole-selection theorem."
+      "note": "Universal ASH* IN_PROGRESS; printed mathematics PASS separate. Exact rooted buffer conductors/forests proved; general-versus-binary extremal comparison unproved."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,17 +38,17 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "Fresh October/April v1 PDFs and version lists verified S004; hashes unchanged; exact printed statements inspected; October Lemmas 4.7/6.4 proofs inspected; April 8.2/8.3 threshold statements inspected",
+  "source_inspection": "S006 fresh October/April v1 version lists/PDF hashes unchanged; relevant statements, April6.1 and October4.10 proof portions re-inspected; TreeStack source read, no new build",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "S006: prove universal extremal-hole selection across support/residue classes, or certify a threshold-complete counterexample.",
-    "Global Q and sorted-pile selection remain HEURISTIC despite completed finite challenges; no compression or local convexity assumed.",
-    "Exact pure-pile classification uses April Thm6.1 lower bound and October4.10; no priority claim or new global threshold upper.",
-    "Rooted signed leaf debt and cyclic scheduling require necessary-and-sufficient interfaces; no infinite triangle-tail/cactus theorem.",
-    "Read S005 audit for exact finite thresholds and explicit cutoffs; never infer a verdict from incomplete cases.",
+    "S007 cold-audit S006 Theorems23-27, zero-source distinction, ancestry/forest exactness, finiteness and AS-ray formula.",
+    "Prove general off-source maximum-hole domination by binary off-source conductors, or certify an exact-threshold ASH* counterexample.",
+    "Global Q/lex selection remains HEURISTIC; fixed-support/residue concentration false on P3.",
+    "No symbolic infinite triangle-tail/cactus threshold upper or fixed-size compositional cyclic-block interface.",
+    "Preserve S005 A8_00004/tail6 cutoffs and S006 rooted-mask caps; no extrapolated thresholds.",
     "No novelty/Lean/Palomar/arXiv/contact stage promotion."
   ],
   "owner_action_blockers": [],
@@ -58,7 +58,7 @@
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
     "critical_form_ASHstar_stack": "OPEN universally; proved for trees (prior TreeStack), complete multipartite graphs, and bound-saturation classes; computed n<=7 complete",
     "critical_form_ASHstar_clear": "OPEN universally; proved for eligible complete multipartite graphs and bound-saturation classes; computed n<=7 complete",
-    "assurance": "S005 complete layer replay, reverse-winning bases, symbolic ancestry proof, independent trace replay; no Lean or universal certificate."
+    "assurance": "S006 complete grammar optimality/attaining legal certificates and independent full forward/reverse masks; no universal ASH* proof or Lean certification."
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -68,11 +68,11 @@
     "authority": "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM",
     "intended_statement": "ASH* = at least one almost-stacked loser at critical size g(G)-1",
     "printed_form_author_comment": "Author agrees stronger printed statement is false, without specifically certifying S003 example files",
-    "atlas_completeness": "AUTHOR_REPORTS_ALL_GRAPHS_AT_MOST_7_VERTICES; NOT_INDEPENDENTLY_REPLICATED_FOR_HIGH_THRESHOLD_CASES",
+    "atlas_completeness": "Author report SOURCE_STATED; independently complete order-seven programme coverage achieved separately in S003+S004 (853 stack/809 clear).",
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S006 FUTURE/UNEXECUTED. S005 proof and exact frontier session complete; universal ASH* OPEN.",
+  "next_session_context": "S007 FUTURE/UNEXECUTED. S006 rooted conductor interface session complete; universal ASH* OPEN.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -135,6 +135,47 @@
       "ASHstar_counterexamples": 0,
       "producer_compute_seconds": 646.044730536,
       "replay_seconds": 1317.0716501880004
+    }
+  },
+  "s006": {
+    "research": "research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md",
+    "rooted_pure": "Exact three positive-residue minima from binary min-plus grammar; polynomial-size pure certificate; arbitrary final target retained",
+    "buffer_interface": "Exact rooted clearing trees and nonempty stacking forests for fixed arbitrary off-source vector; positive residues plus separate zero-source bit",
+    "finite_bound": "Constructive rooted buffer finiteness; global bound from off-source representatives0/1/2/3, no sharpness assertion",
+    "ASH_ray_formula": "L_AS=max(|b|+min_q A(s,b,q,r)-3) over binary b with positive last loser; universal comparison at L_AS+1 unproved",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "formal_status": "NOT_STARTED",
+    "cold_fresh_session_audit": "FUTURE_S007",
+    "finite_verification": {
+      "pure_source_graph_cases": 152,
+      "clearing_certificate_cases": 153,
+      "clearing_attaining_trees": 2145,
+      "clearing_production_inequalities": 30347,
+      "pure_finite_entries": 1788,
+      "buffer_cells": 432,
+      "buffer_clear_finite": 357,
+      "buffer_stack_finite": 367,
+      "stack_concatenation_inequalities": 9161,
+      "rooted_DP_graphs": 35,
+      "rooted_DP_layers": 531,
+      "rooted_DP_configurations": 3155536,
+      "pure_source_target_comparisons": 11750,
+      "clear_buffer_comparisons": 1508,
+      "stack_buffer_comparisons": 1508,
+      "stack_buffer_DP_layers": 16,
+      "state_cutoff": {
+        "graph": "triangle_tail3",
+        "last_complete_mass": 29,
+        "next_layer_configurations": 324632,
+        "limit": 300000,
+        "threshold_claim": false
+      },
+      "length4_tail_cap": 10,
+      "inherited_critical_cases": 257,
+      "nonAS_class_Qmaxima": 618,
+      "new_global_threshold_claims": 0
     }
   }
 }

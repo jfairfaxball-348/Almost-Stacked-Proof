@@ -15,7 +15,8 @@
     "pages": 23,
     "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
     "hypothesis": "Hypothesis 3.2",
-    "internal_labels_verified": true
+    "internal_labels_verified": true,
+    "last_refresh": "2026-10-14 S006: current v1, PDF digest unchanged"
   },
   "original_verified": {
     "arxiv": "2604.22341v1",
@@ -36,7 +37,8 @@
     "clearable": "reachable total 1",
     "proof_inspected": [
       "Theorem6.1 rooted odd-walk lower bound and internal claim (S005 continuation)"
-    ]
+    ],
+    "last_refresh": "2026-10-14 S006: current v1, PDF digest unchanged; Theorem6.1 proof re-inspected"
   },
   "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
   "literal_form": {
@@ -188,6 +190,47 @@
       "ASHstar_counterexamples": 0,
       "producer_compute_seconds": 646.044730536,
       "replay_seconds": 1317.0716501880004
+    }
+  },
+  "s006": {
+    "research": "research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md",
+    "rooted_pure": "Exact three positive-residue minima from binary min-plus grammar; polynomial-size pure certificate; arbitrary final target retained",
+    "buffer_interface": "Exact rooted clearing trees and nonempty stacking forests for fixed arbitrary off-source vector; positive residues plus separate zero-source bit",
+    "finite_bound": "Constructive rooted buffer finiteness; global bound from off-source representatives0/1/2/3, no sharpness assertion",
+    "ASH_ray_formula": "L_AS=max(|b|+min_q A(s,b,q,r)-3) over binary b with positive last loser; universal comparison at L_AS+1 unproved",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "formal_status": "NOT_STARTED",
+    "cold_fresh_session_audit": "FUTURE_S007",
+    "finite_verification": {
+      "pure_source_graph_cases": 152,
+      "clearing_certificate_cases": 153,
+      "clearing_attaining_trees": 2145,
+      "clearing_production_inequalities": 30347,
+      "pure_finite_entries": 1788,
+      "buffer_cells": 432,
+      "buffer_clear_finite": 357,
+      "buffer_stack_finite": 367,
+      "stack_concatenation_inequalities": 9161,
+      "rooted_DP_graphs": 35,
+      "rooted_DP_layers": 531,
+      "rooted_DP_configurations": 3155536,
+      "pure_source_target_comparisons": 11750,
+      "clear_buffer_comparisons": 1508,
+      "stack_buffer_comparisons": 1508,
+      "stack_buffer_DP_layers": 16,
+      "state_cutoff": {
+        "graph": "triangle_tail3",
+        "last_complete_mass": 29,
+        "next_layer_configurations": 324632,
+        "limit": 300000,
+        "threshold_claim": false
+      },
+      "length4_tail_cap": 10,
+      "inherited_critical_cases": 257,
+      "nonAS_class_Qmaxima": 618,
+      "new_global_threshold_claims": 0
     }
   }
 }

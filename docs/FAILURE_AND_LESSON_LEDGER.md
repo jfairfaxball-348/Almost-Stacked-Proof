@@ -35,3 +35,9 @@
 | FL-0029 | Three-pebble monotonicity alone cannot force AS extreme holes | Fixed support/residue lower sets need cross-class graph constraints; general lower sets can have interior degree maxima. |
 | FL-0030 | Interrupted scratch producer outputs are not complete certificate pairs | Continuation reruns invalid/unfinished jobs; preserve valid pairs, exclude orphan raw files and empty summaries. |
 | FL-0031 | C8 plus a leaf remains bipartite; named both-goals plan overlooked clearing eligibility | Correct before its run: treat clear as bounded reachability sanity check only, never clear threshold or ASH* verdict; exclude from eligible counts. |
+
+| FL-0032 | Unrooted clearing does not supply a prescribed final boundary vertex | K3 pure5 clears somewhere but cannot finish at its source; exact rooted residue minima required. |
+| FL-0033 | Scalar leaf net plus unrooted core clearing loses legal credit/target and can fail in both directions | Triangle-leaf (0,1,0,3) false positive, (0,0,4,1) false negative; use exact tree/forest input-dependent interface. |
+| FL-0034 | Zero source count is not the positive residue0 class and +3 cannot be applied to an empty site | Keep a distinct zero-source bit in every buffer grammar and validator. |
+| FL-0035 | Exact AS-ray conductor computation or coarse global finiteness is not ASH* | Prove general-versus-binary maximum-mass domination separately. |
+| FL-0036 | Windows CRLF checkout changes bytes of hashed historical evidence | Enforce canonical LF text and binary exclusions; verify manifests on committed bytes. |
