@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+    "node_id": "C_kwDOVF-kW9oAKDNmMmFiYTM1ZGEwYWM0OGI3ZDkzZWYwZGY3ZDg0YWY1ZWYyNDc1YjQ",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T13:07:55Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T13:07:55Z"
+    },
+    "tree": {
+      "sha": "8b131edd8973e093f309a58977d29300bb6df7b3",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/8b131edd8973e093f309a58977d29300bb6df7b3"
+    },
+    "message": "Merge S007: sharp triangle-tail clearing and legal leaf credit\n\nOne atomic authored S007 commit. All five jobs and five check-runs in hosted run 38568682601 completed success. Universal ASH remains open; S008 is strictly future and unexecuted.",
+    "parents": [
+      {
+        "sha": "e320a3c80da3807beb031c8b2dab69bfb807805c",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/e320a3c80da3807beb031c8b2dab69bfb807805c",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/e320a3c80da3807beb031c8b2dab69bfb807805c"
+      },
+      {
+        "sha": "a21ce4702f2d888bd5e6a417a17df0f2095f0b0a",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/a21ce4702f2d888bd5e6a417a17df0f2095f0b0a",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/a21ce4702f2d888bd5e6a417a17df0f2095f0b0a"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz36rCRC1aQ7uu5UhlAAAEv4QAB7H8paXsuYKp/fCY6AkN9wV\nfslvcohl7b0tfIJ4O9hKnmXnzwm+rrC9pwOqGA5IriXYg6zhXwxsI+taaHJmckRk\n+b8XL+4H1ncNmgJZO7swBe9pDgbQj24Nos2bYggO3boycni5uoafHB+giaq5dhSb\nGEyuwfg+qgYw75VPjbQWEFrYdUqNC1tofq3LDPl5qJm3fUC/zKu1Plg2VSV9AEX3\n4x9z0tCl3a2bEASiBayP7eWamrr53iPoCOML91KCqUbkRPvq0fGkxWsm/hQwGv+X\nEmMA32S6NySFH8Ss5vbGX38+pQD1Qd0eEsH2s2m+3JDIhM+IVbv7WRXPQu1x+RaK\neM5aBp/Yl5ZqyShpe5KWidekacjv28sKpxveMIGU7CTvm/LNvfpVdXZpzxw5oz7c\nazQylfze9FHO1joz2Uc4x4dasBl3kpw++rPUEcBij6fXmlQu6Hqqk5Lwa2icIzBa\npLhRBzLHsZc1nb0NWU3rIqUTscWQoEopfK/Y150NTC6MkrMMk3M06Nz3ev+N8axq\n83/fR9h8o4wGUsZb2HCSNdADwIEWQFnAFHKmwfb4kWOcxqJlNqG+2t6d7TrpifVA\n8pEdeLEz4SkDICENf1QtmQ2kmaj+ZCTeB46G6w/QwfMZa9UuoIZ55DQCwB+xfUce\nL+13wK/hHRZoRUiYSSzc\n=638j\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 8b131edd8973e093f309a58977d29300bb6df7b3\nparent e320a3c80da3807beb031c8b2dab69bfb807805c\nparent a21ce4702f2d888bd5e6a417a17df0f2095f0b0a\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1791983275 +0100\ncommitter GitHub <noreply@github.com> 1791983275 +0100\n\nMerge S007: sharp triangle-tail clearing and legal leaf credit\n\nOne atomic authored S007 commit. All five jobs and five check-runs in hosted run 38568682601 completed success. Universal ASH remains open; S008 is strictly future and unexecuted.",
+      "verified_at": "2026-10-14T13:07:55Z"
+    }
+  },
+  "stderr": ""
+}

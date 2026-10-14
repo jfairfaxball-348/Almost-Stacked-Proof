@@ -5,7 +5,8 @@
     "proof_inspected": [
       "Lemma 4.7",
       "Theorem 5.2",
-      "equation4.10 and three-pebble reduction observation"
+      "equation4.10 and three-pebble reduction observation",
+      "Lemma4.8 pullback proof"
     ],
     "submitted": "2026-10-07",
     "paper_date": "2026-10-08",
@@ -16,7 +17,7 @@
     "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
     "hypothesis": "Hypothesis 3.2",
     "internal_labels_verified": true,
-    "last_refresh": "2026-10-14 S007: current v1, PDF digest unchanged; relevant proofs re-inspected"
+    "last_refresh": "2026-10-14 S008: current v1, PDF digest unchanged; selected relevant source proofs re-inspected"
   },
   "original_verified": {
     "arxiv": "2604.22341v1",
@@ -38,7 +39,7 @@
     "proof_inspected": [
       "Theorem6.1 rooted odd-walk lower bound and internal claim (S005 continuation)"
     ],
-    "last_refresh": "2026-10-14 S007: current v1, PDF digest unchanged; relevant proofs re-inspected"
+    "last_refresh": "2026-10-14 S008: current v1, PDF digest unchanged; selected relevant source proofs re-inspected"
   },
   "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
   "literal_form": {
@@ -116,7 +117,10 @@
       "g=n+1 or g=3alpha+1 (alpha>=2)",
       "all connected n<=7 (S003 + S004 exact computations); earlier n8 threshold<=26 cases",
       "selected complete S004 larger cases",
-      "all triangle tails for clearing (S007 Theorem30); sharp-core pendant path class under Theorem33 hypotheses"
+      "all triangle tails for clearing (S007 Theorem30); sharp-core pendant path class under Theorem33 hypotheses",
+      "all triangle tails for stacking (S008 Theorem35, complete symbolic AS lower)",
+      "triangle with k>=1 leaves attached at one triangle vertex, both goals (S008 Theorem36)",
+      "C5/C7 pendant paths for clearing, conditional on retained computed core thresholds and S007 Theorem33"
     ],
     "author_reported_n_le_7": "Author report retained SOURCE_STATED; S004 independently closes remaining 8/3 cases, total 853/853 and 809/809 at n7."
   },
@@ -244,7 +248,7 @@
     "universal_clear": "OPEN",
     "novelty": "NOT_AUDITED",
     "formal_status": "NOT_STARTED",
-    "cold_fresh_session_audit": "FUTURE_S008",
+    "cold_fresh_session_audit": "PASS_S008",
     "finite_verification": {
       "clear_layers": 36,
       "clear_configurations": 81763,
@@ -273,5 +277,57 @@
       "symmetry": "none",
       "inherited_cutoffs_unchanged": true
     }
+  },
+  "s008": {
+    "research": "research/S008_HOSTILE_AUDIT_AND_UNIVERSAL_ROUTES.md",
+    "cold_s007_audit": "PASS_S008_AT_STATED_SCOPES",
+    "triangle_tail_stack": "PROGRAMME_PROVED: stack(G_l)=4*2^l for all l>=0; new two-core-singleton AS lower via symbolic all-root tree/forest certificate",
+    "triangle_tail_clear": "PROGRAMME_PROVED: S007 clear(G_l)=6*2^l-2 survives hostile audit; prior April6.1 lower credited",
+    "triangle_common_root_leaves": "PROGRAMME_PROVED: for k>=1 stack(F_k)=3k+5 and clear(F_k)=3k+7; separate all-distribution normalization and AS weight/chronology lower",
+    "universal_algebra": "PROGRAMME_PROVED exact support/residue finite monomial-ideal encoding and simultaneous critical U=c(s)+3; cross-class extremal comparison UNPROVED",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "formal_status": "NOT_STARTED",
+    "cold_fresh_session_audit": "FUTURE_S009",
+    "finite_verification": {
+      "tip_lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tip_forest_finite_witnesses": 774,
+      "candidate_closure_lengths": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "candidate_closure_states": [
+        1,
+        14,
+        101,
+        891
+      ],
+      "symbolic_production_inequalities": 4376,
+      "branch_k": [
+        1,
+        2,
+        3
+      ],
+      "branch_complete_layers": 72,
+      "branch_complete_configurations": 127799,
+      "branch_constructive_traces": 36173,
+      "branch_legal_moves": 479591,
+      "symmetry": "none",
+      "inherited_cutoffs_unchanged": true
+    },
+    "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme"
   }
 }

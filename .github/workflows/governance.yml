@@ -32,6 +32,11 @@ jobs:
         run: |
           python3 tools/s007_tail_verify.py --check-only
           python3 tools/s007_tail_verify.py --check-only --stack
+      - name: S008 independent ancestry, universal symbolic inequalities and complete branch traces
+        run: |
+          python3 tools/s008_tip_verify.py --check-only
+          python3 tools/s008_symbolic.py --check-only
+          python3 tools/s008_branches_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

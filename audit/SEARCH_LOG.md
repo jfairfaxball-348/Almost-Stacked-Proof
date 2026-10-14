@@ -37,3 +37,7 @@ Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms
 ## S007 proof/campaign and primary refresh — not Phase2 novelty
 
 2026-10-14 October/April abs/PDF digests unchanged/v1; April6.1 and October4.7,pullback,+3 selected proofs re-inspected. CAM-S007-01/02 preregistered/hashed l=0,1,2 all-layer challenges, no symmetry. Symbolic routes A-C yield legal selected credit, exact infinite clearing and conditional core extension; scalar dual obstruction explicit. No novelty/priority/contact/later-stage action.
+
+## S008 research/source refresh, no Phase2 promotion
+
+2026-10-14 refreshed October/April abs/PDF digests, bothv1 unchanged; opened primary HTML and inspected definitions, monotonicity/pullback/+3 and April6.1 proof. CAM-S008-01 and02/amendments hashed before dependent tests; symbolic lower table and independent finite certificate/layer/trace checks recorded. No comprehensive prior-art/novelty search or priority assertion. Owner requires S009 first deep primary-source comparison of surviving results/dependencies, then universal research; no publication activity.

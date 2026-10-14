@@ -485,7 +485,7 @@
   {
     "id": "CLM-0058",
     "status": "PROGRAMME_PROVED",
-    "claim": "For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack remains unproved. S007 Corollary32.",
+    "claim": "For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack remains unproved. S007 Corollary32. Historical S007 scope; S008 Theorem35 independently adds a matching all-length AS lower (CLM-0063).",
     "sources": [
       "SRC-0017",
       "SRC-0015"
@@ -515,5 +515,68 @@
     "sources": [
       "SRC-0017"
     ]
+  },
+  {
+    "id": "CLM-0062",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0019",
+      "SRC-0012",
+      "SRC-0015"
+    ],
+    "claim": "For every triangle-tail length l>=0, the explicit tree/forest lower labels for a tip pile and two core singleton inputs satisfy all bases/productions, including zero kind and every final root; S008 Lemma34, no novelty/kernel claim."
+  },
+  {
+    "id": "CLM-0063",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0019",
+      "SRC-0017"
+    ],
+    "claim": "Exact stack(G_l)=4*2^l for every triangle-tail l>=0: S007 upper plus S008 AS loser (4*2^l-3)e_tip+e1+e2, ruled out at every final forest root by Lemma34. ASH*-stack holds for this family only."
+  },
+  {
+    "id": "CLM-0064",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0019"
+    ],
+    "claim": "For triangle F_k with k>=1 leaves all attached at vertex0, stack=3k+5 and clear=3k+7; complete separate legal normalization uppers and weight/mod3/chronology AS critical lowers. S008 Theorem36, universal ASH* OPEN."
+  },
+  {
+    "id": "CLM-0065",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0019",
+      "SRC-0015",
+      "SRC-0001"
+    ],
+    "claim": "Winning configurations in each fixed nonempty support/residue class form a finite-complement monomial ideal via occupied +3; rooted ideals sum for unrooted goals; every globally largest loser has U=c(s)+3 at every occupied s. S008 Proposition37, no cross-class AS domination proved."
+  },
+  {
+    "id": "CLM-0066",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0020"
+    ],
+    "claim": "S008 registered named-buffer l0..8 optimality/legality certificates,774 finite forest witnesses; complete candidate closures l0..3 with1/14/101/891 states;4376 universally nonnegative symbolic production differences. No whole-graph threshold census or universal ASH* certificate."
+  },
+  {
+    "id": "CLM-0067",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0020"
+    ],
+    "claim": "S008 F_k,k1..3 only, both goals:72 complete labelled layers/127799 states; full forward/reverse set hashes/counts agree;36173 upper traces/479591 legal moves independently replayed and both critical AS patterns checked. Infinite Theorem36 rests on written proof."
+  },
+  {
+    "id": "CLM-0068",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0019",
+      "SRC-0017",
+      "SRC-0009"
+    ],
+    "claim": "Conditional consequence of audited S007 Theorem33 and retained COMPUTED_EXACT core thresholds: C5 and C7 with a pendant l-edge path have clear=12*2^l-2 and24*2^l-2, respectively, for l>=0, with prior pure-tip AS lower. Not an all-odd-cycle core theorem; finite core dependencies remain explicit."
   }
 ]

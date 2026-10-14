@@ -45,3 +45,7 @@ S005 additional streamed checker: s005_stream_check.cpp uses decoded coordinate 
 ## S007
 
 `python tools/s007_provenance.py` reads entry APIs/current primary digests and hashes (entry-specific, not for repinning later sessions). `python tools/s007_tail.py` generates CAM-S007-01 full forward layers and selected-ancestry traces; `--stack` selects CAM-S007-02. `python tools/s007_tail_verify.py --check-only` recomputes complete independent reverse layers and every legal trace; `--stack` for the separate goal. No producer import. Symbolic proof in S007 report; finite scope l=0,1,2 only.
+
+## S008
+
+`python tools/s008_tip.py` generates registered l0..8 named-buffer tree/forest certificates. `python tools/s008_tip_verify.py --check-only` checks every optimality inequality/attaining tree/forest and complete candidate closures l0..3; imports the independent S006 tree checker, no optimizer import. `python tools/s008_symbolic.py --check-only` verifies universally nonnegative linear production differences by exact integer coefficients/domains, not sampled graph lengths. `python tools/s008_branches.py` generates registered F_k k1..3 forward layers/constructive traces; `python tools/s008_branches_verify.py --check-only` recomputes full reverse sets and literal legal trace arithmetic. All check-only commands preserve stored evidence. `s008_provenance.py` is pinned entry-specific, not a future repinner. No universal ASH*/Lean/novelty test.

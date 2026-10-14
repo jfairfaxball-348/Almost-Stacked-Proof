@@ -1,0 +1,807 @@
+{
+  "campaign": "CAM-S008-02",
+  "graphs": [
+    {
+      "k": 1,
+      "n": 4,
+      "goal": "stack",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 8,
+      "critical_AS_candidate": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "winning": 4,
+          "losing": 0,
+          "winning_sha256": "ffa98c68c8d8a368b5858ed860fdc2f74fa4c057a4b762061815a243a41db8ab",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "winning": 4,
+          "losing": 6,
+          "winning_sha256": "69c1cae062822bcc66f03b2819a055ecd90da6b45df6bbc34f3aa096bf61c78a",
+          "losing_sha256": "263cec9513b809155272b5138265b777d84f225d026a03cd08251d9b113d934c"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "winning": 12,
+          "losing": 8,
+          "winning_sha256": "f6f12da5101bca5d9b196399dd5e449964c3baf9bf4c61ee16e36306b317106c",
+          "losing_sha256": "3bdaa49bb4309fe6d17612b1f04bc81a7826e077002af5aecae8d850231ff7ad"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "winning": 25,
+          "losing": 10,
+          "winning_sha256": "bf085522b9e11dbc944c6ad82356076ba8954ec4334814c2b2152deed7056c35",
+          "losing_sha256": "e2a5e2beb3f43a31667326246a41fd4cf957c4883adba19c571c92ec6e1052c0"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "winning": 48,
+          "losing": 8,
+          "winning_sha256": "26df2cc656b7fde5723bd3d1f5146c7d258d637052378458bbc33611b85ec672",
+          "losing_sha256": "c33d10de18a570968faed692a91d4c6faa14854fbdd3dd12f160f8685f838c7a"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "winning": 77,
+          "losing": 7,
+          "winning_sha256": "819f89a4b2b1b38f9b61722cdf0be41cc3dae04d4e3a63a49e0c369a5957ff06",
+          "losing_sha256": "e3c776aaf8229a8f467850dd0012a6b481e0b386847c790ac0b2e1cdeb0eca98"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "winning": 119,
+          "losing": 1,
+          "winning_sha256": "95e65a22431ba28d7688e4ad2641dda9312a76bd1a9f52afb4f830ea7e5d9109",
+          "losing_sha256": "ebe3adda3f40eb82d119c6049efb576f49ac13763b4778dde569dd8e0c879fa1"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "winning": 165,
+          "losing": 0,
+          "winning_sha256": "30afec608ae95bc9efefab6e1658d2009ec18d2556af9cafc4459cf3f467efce",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "k": 1,
+      "n": 4,
+      "goal": "clear",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 10,
+      "critical_AS_candidate": [
+        0,
+        0,
+        0,
+        9
+      ],
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "winning": 4,
+          "losing": 0,
+          "winning_sha256": "ffa98c68c8d8a368b5858ed860fdc2f74fa4c057a4b762061815a243a41db8ab",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "winning": 4,
+          "losing": 6,
+          "winning_sha256": "69c1cae062822bcc66f03b2819a055ecd90da6b45df6bbc34f3aa096bf61c78a",
+          "losing_sha256": "263cec9513b809155272b5138265b777d84f225d026a03cd08251d9b113d934c"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "winning": 8,
+          "losing": 12,
+          "winning_sha256": "00f1378fcb6e4083248e2805254832ac33891a3b2f22c26dd6f37c6a41409e3c",
+          "losing_sha256": "610bf088ed81749c3501d901bdc802810045a6d0a83ab80489e9ce9d10128603"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "winning": 24,
+          "losing": 11,
+          "winning_sha256": "475c8908c4b5d9f480da9407e8b1ba988df71be77aed328dec4b8602702a3df1",
+          "losing_sha256": "c375bd677006789ba23da210c785e4b08207d827fd49a9f23d297571815f080d"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "winning": 46,
+          "losing": 10,
+          "winning_sha256": "820bdda9322fbf2c4b5d3345b974b0b6e7583023678b4689c2e2697bc9e80a89",
+          "losing_sha256": "36c3b67569bf4be954903db8b9bbc2dbe7377bab450e24604ebc1c62fa18e4c4"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "winning": 75,
+          "losing": 9,
+          "winning_sha256": "de69f0b9941fae13fda203d5bc69775af373028b29878488a5e02776af7f82e2",
+          "losing_sha256": "786382ad171e73fd814bb47dbf044f1c4c811f03ee46c5918493521420efc6c1"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "winning": 118,
+          "losing": 2,
+          "winning_sha256": "58ace03d12707c5f67808386791bd3d0352ae98cb66a1f9bf029affde37a5ce1",
+          "losing_sha256": "f1e0d0158387bc381380d17b9f2284f77d6a7484026a0b6efcbfb04019966c15"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "winning": 164,
+          "losing": 1,
+          "winning_sha256": "922088dc223d793fd52d76e8f64dcd968a1aada5dfd721ff68320142e5cb2ebd",
+          "losing_sha256": "24982d9640ae62d4b0e0c5bfcf05270ead267c33a84d65de80604fc9fbbf69be"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "winning": 219,
+          "losing": 1,
+          "winning_sha256": "1f84ad4f136dd6254b9ec02de194477d2b6df8e05198abe9f69a1ab1a407602f",
+          "losing_sha256": "3c5460a2825756933ae9e12eb469582086c02ca6a4fe271b179eca24897eb041"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "winning": 286,
+          "losing": 0,
+          "winning_sha256": "ec605a8fab98b313809f53d06f05b07736e798a98351099f594afd7e8f8e6b63",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "k": 2,
+      "n": 5,
+      "goal": "stack",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 11,
+      "critical_AS_candidate": [
+        0,
+        1,
+        1,
+        7,
+        1
+      ],
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "winning": 5,
+          "losing": 0,
+          "winning_sha256": "0c24a2c54406f644f9752ce27d24adb67fa9f2df0f0afb2798e9d46433fffe5e",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "winning": 5,
+          "losing": 10,
+          "winning_sha256": "15540c1c03939479be2699332af5bad8618078b1c5a07fd33d1adcad110fe743",
+          "losing_sha256": "b6f43f4a1d28e85fad5296212a14bdc1270405cbcdcfbe2aea1c25f5f05c677c"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "winning": 15,
+          "losing": 20,
+          "winning_sha256": "eb563d879195fdc333700a650e6b3ab8f3764340a7b12971230209ef8534c782",
+          "losing_sha256": "795537241153d0498c1926d1fc8d5845053f50996a24a1ca80b5d24710b140a7"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "winning": 38,
+          "losing": 32,
+          "winning_sha256": "f9c1d64722e8ee199188330ccd2313d1a303c01842a47b57e29b339eff932d0d",
+          "losing_sha256": "d45dbabe672890c4b315c54f608b54951dd99cbf0fab211af9f5bf17a2ab36f3"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "winning": 89,
+          "losing": 37,
+          "winning_sha256": "f1fb0c82ccf045462d671f6f51ad822c02641c65f12e63be7e5602e5ccebb327",
+          "losing_sha256": "d1df7fcb7fdfc26b10021f32e29efcd7adf34207d4e1df101db1858bf0a5b549"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "winning": 157,
+          "losing": 53,
+          "winning_sha256": "399318b3b6707ddd4d0da3a0f7289ac68722662c23303a51c4df9f619e7cece3",
+          "losing_sha256": "3def514eafc2977c904215889a22b5fbaf60a37565dc01464a5661c8456349d1"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "winning": 293,
+          "losing": 37,
+          "winning_sha256": "78d74ef9ac406de3a5951be1c7a089c4f2684548f38feba311b59f21d29ba2a4",
+          "losing_sha256": "ecd7ebb6ea20f9a283fe62a1a7733180efac045179124534590e94dd0fe75ab8"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "winning": 471,
+          "losing": 24,
+          "winning_sha256": "a456a1cae24c02abbb26d215e5e4e2b63a65343259058fce36abadb67b3b508a",
+          "losing_sha256": "f61bd944c7407d1ac71367975251bea79c73ab879f7296033d935cd59b2262b7"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "winning": 692,
+          "losing": 23,
+          "winning_sha256": "c78f0f91ea9e1a209ed7254ccc8787340728fbfcb8dff87b5d1c3be260c193d6",
+          "losing_sha256": "655a4c01788f9a3b205bc596fed951d483a31f927ddc8a85c30cec501b3c78c5"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "winning": 997,
+          "losing": 4,
+          "winning_sha256": "664421623f79cd23da697f72779fa1c800cbef49eb87ecb3b2d1ea5a4ed41eba",
+          "losing_sha256": "bacbb925c5d8dbddf26904ca4652eb050c22c4f3acc0a53edee64a2f5fb1fbea"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "winning": 1365,
+          "losing": 0,
+          "winning_sha256": "c8310b69c3ec96efa735daf6ace88876209bce23b7b624d78cfe50be05bddd7e",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "k": 2,
+      "n": 5,
+      "goal": "clear",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 13,
+      "critical_AS_candidate": [
+        0,
+        0,
+        0,
+        11,
+        1
+      ],
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "winning": 5,
+          "losing": 0,
+          "winning_sha256": "0c24a2c54406f644f9752ce27d24adb67fa9f2df0f0afb2798e9d46433fffe5e",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "winning": 5,
+          "losing": 10,
+          "winning_sha256": "15540c1c03939479be2699332af5bad8618078b1c5a07fd33d1adcad110fe743",
+          "losing_sha256": "b6f43f4a1d28e85fad5296212a14bdc1270405cbcdcfbe2aea1c25f5f05c677c"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "winning": 10,
+          "losing": 25,
+          "winning_sha256": "baf1bb94f14aec43de65bc222bd420722dff36dd72fc221ca4c35bceec1b5b81",
+          "losing_sha256": "bc8f2ccd65cfb0acaf17519c4fdfd5f6b76399918d6bb99d60e24994e201faf1"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "winning": 36,
+          "losing": 34,
+          "winning_sha256": "685d385be4c48571f357a4432c49fe01047143d19713421f6a19c9ed8f2ee5f9",
+          "losing_sha256": "b98bc7730fa9e34be6984859de8f00d2d56db5b08f2552c060da98dfa1936c32"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "winning": 84,
+          "losing": 42,
+          "winning_sha256": "1e4b043fe73699e960d06d4693373b6c3005a2744b962b4221c2bda7a1102556",
+          "losing_sha256": "9e5b2887defcde71b86b4c80df2474f12757450298c6a14b5e710620c77ace2d"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "winning": 149,
+          "losing": 61,
+          "winning_sha256": "039a73789582e7c7fde811960804fb2826e3d61f3b2c4cb4cdb695483c68dacf",
+          "losing_sha256": "7fc2b629146695165f2e7cf0e8926efcd3713cdc676ba748373e702bdc9cde42"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "winning": 286,
+          "losing": 44,
+          "winning_sha256": "fa9e742b1709bba375b94710afe108671aaa08e94456d155a461bcc9e5293095",
+          "losing_sha256": "187e78f36f3c7ae60b1aea8b4b01fba656ba88d2589897640bfec085472bf1d8"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "winning": 461,
+          "losing": 34,
+          "winning_sha256": "c807840c6c4c2830089d359522f8e24c60cd52b50fe9beaa00294c5290955ae5",
+          "losing_sha256": "ee90d52e4ac9a0c8f8863df21dac0547115f6d265d424c5e95928609a27a678e"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "winning": 679,
+          "losing": 36,
+          "winning_sha256": "87012aae46bd029248ebb5f507c4882a4d62542e7d22130c22298ba7f8a1bcc0",
+          "losing_sha256": "0208ffe9ffcf359ef2e6b539e611d944dd0026881c3fff1277124ce2d17bce37"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "winning": 993,
+          "losing": 8,
+          "winning_sha256": "077c9f042af6c5a3a580cd6a3ff490837f036590eba712d4983dd2b848508e9b",
+          "losing_sha256": "97e811304dabf8ef4a5d1dc5721bf24275eada90685d8e37f5e1493e36686673"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "winning": 1360,
+          "losing": 5,
+          "winning_sha256": "3b3e958d17e3eea36ea237a8ed3ebaf9f3115b3e32d92fc6099900f628a8d0d0",
+          "losing_sha256": "9184405396dc03c1385e72eb48b0962133f172622ebcc49d67c738a724557647"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "winning": 1814,
+          "losing": 6,
+          "winning_sha256": "7b932b0b6c59c4ecd4e8bf6241b89b0dc9b2ca82609e21318800f7a014ea7611",
+          "losing_sha256": "1f7520e624eb07fac0905c8b74dfd393aa787b813cc0fe4bdd42999653804ed8"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "winning": 2380,
+          "losing": 0,
+          "winning_sha256": "8a03e1a70dfe2ba9a9e694cf407b6a5bfc94cb9cddab23dd76dc0624d6d8606a",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "k": 3,
+      "n": 6,
+      "goal": "stack",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "threshold": 14,
+      "critical_AS_candidate": [
+        0,
+        1,
+        1,
+        9,
+        1,
+        1
+      ],
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 6,
+          "winning": 6,
+          "losing": 0,
+          "winning_sha256": "57a683e0cbba429c0bfcfa7c10b86f4658274bf74b57d9f3eca8e1dd0b2c14af",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 21,
+          "winning": 6,
+          "losing": 15,
+          "winning_sha256": "20456d00a2e5bf4266170ad768007e8315c285d9ae3ecce819c87fabbc44858e",
+          "losing_sha256": "3f5242bf5c1ba61a3b47b618be19afe59639be16d79f9fe0db20fc2ce155a601"
+        },
+        {
+          "mass": 3,
+          "configurations": 56,
+          "winning": 18,
+          "losing": 38,
+          "winning_sha256": "b46f91b744204e53deec9b9141eaa86440be7a7b5eca31ff8d706e50c19b1db8",
+          "losing_sha256": "4c8015033cacdc0d836ec7c81bbc68801c246856eb5404129825a2a4d29a3c8a"
+        },
+        {
+          "mass": 4,
+          "configurations": 126,
+          "winning": 54,
+          "losing": 72,
+          "winning_sha256": "52ec8b8e4d9ece18133b2f580e35d9400b0266005ddc8fce10676752fd010fe3",
+          "losing_sha256": "f494c778e8184e1c3b649c8c9cd5b000bf85d8f11e1cc70ca8508d7b67a34894"
+        },
+        {
+          "mass": 5,
+          "configurations": 252,
+          "winning": 147,
+          "losing": 105,
+          "winning_sha256": "dc33eedd50690bd9cf15da12539b765be3478f00e2a592fa5d54bfff5b308d5b",
+          "losing_sha256": "1d12e9d450fbfb574a811314bbe8d4624bde1254ef511d5e89200aa8dbeca15c"
+        },
+        {
+          "mass": 6,
+          "configurations": 462,
+          "winning": 275,
+          "losing": 187,
+          "winning_sha256": "7c91b86b2b588e873343446b808c3c114c9dbaab3be3836affb3691878ce42a3",
+          "losing_sha256": "eee2f75fd4522a15e4808eed2c653669435529e5b8f227acc4f4cf33285d0b61"
+        },
+        {
+          "mass": 7,
+          "configurations": 792,
+          "winning": 604,
+          "losing": 188,
+          "winning_sha256": "61a0c3dc10279b4853067ea4e774a146d463da89520fa74778f4020f846c0b7c",
+          "losing_sha256": "5ab64a484895f4e0ecf62f627e3ed41af484008238d21c377cf4bba127fbbe9a"
+        },
+        {
+          "mass": 8,
+          "configurations": 1287,
+          "winning": 1110,
+          "losing": 177,
+          "winning_sha256": "53567db9fafe11de648837996735ee4c38c6ada6a4c8e440fd2de7a90867f5ee",
+          "losing_sha256": "411b0fcd95fab5e01eaf9e785073c0cb4f2047579b7e2d20531066a21e0927f7"
+        },
+        {
+          "mass": 9,
+          "configurations": 2002,
+          "winning": 1770,
+          "losing": 232,
+          "winning_sha256": "8f7379e01472cd1e8ed89317e0e862377870339a8657a078200f39157bc3befa",
+          "losing_sha256": "b44466fe6486e5f36838d9985962cb9e224001fc7ca8e482a83d1d03b3dcb309"
+        },
+        {
+          "mass": 10,
+          "configurations": 3003,
+          "winning": 2865,
+          "losing": 138,
+          "winning_sha256": "d18ae61e8ca79dcc3fe5f9b68776fe586e76b1ef6e4de9639eb414c6c93c2e44",
+          "losing_sha256": "634ee37b53fd5ddaa412c91f97c9c94eaf9fe25a0699b437c194bbf99f842f56"
+        },
+        {
+          "mass": 11,
+          "configurations": 4368,
+          "winning": 4287,
+          "losing": 81,
+          "winning_sha256": "374020816d82c1eff3939e69bb4b44ae727d40b5cbfe35c65e03109e77ce8dd5",
+          "losing_sha256": "ccd8540dc9f20ab62c1ef0c3ab52d301ceb744309384213eccddcc6ae5654fac"
+        },
+        {
+          "mass": 12,
+          "configurations": 6188,
+          "winning": 6108,
+          "losing": 80,
+          "winning_sha256": "e86dd15e590368aa654c7268f13a0bf8f3df886ba1167fad0ef3df9bbeba8b76",
+          "losing_sha256": "d7e9c0391baba60a6f018e9e3bc5e39d98aad2e0e73aaa0f56308f701c880650"
+        },
+        {
+          "mass": 13,
+          "configurations": 8568,
+          "winning": 8553,
+          "losing": 15,
+          "winning_sha256": "33326301ebe8eeb2d1dd5caee3c267656e525059d6fed2551e0945e420d41366",
+          "losing_sha256": "0360ae19035ac866ef0c2fe6429bd0c0bd87345a777dcb0f7be5c752bf7cb954"
+        },
+        {
+          "mass": 14,
+          "configurations": 11628,
+          "winning": 11628,
+          "losing": 0,
+          "winning_sha256": "1369219b1828702a848b2e16e8d4ec6f7c507997e37f0ad13454af9db64c2024",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "k": 3,
+      "n": 6,
+      "goal": "clear",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "threshold": 16,
+      "critical_AS_candidate": [
+        0,
+        0,
+        0,
+        13,
+        1,
+        1
+      ],
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 6,
+          "winning": 6,
+          "losing": 0,
+          "winning_sha256": "57a683e0cbba429c0bfcfa7c10b86f4658274bf74b57d9f3eca8e1dd0b2c14af",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 21,
+          "winning": 6,
+          "losing": 15,
+          "winning_sha256": "20456d00a2e5bf4266170ad768007e8315c285d9ae3ecce819c87fabbc44858e",
+          "losing_sha256": "3f5242bf5c1ba61a3b47b618be19afe59639be16d79f9fe0db20fc2ce155a601"
+        },
+        {
+          "mass": 3,
+          "configurations": 56,
+          "winning": 12,
+          "losing": 44,
+          "winning_sha256": "a59ad5d9c7141e46b74567a1b5b6034cc99b7d5602212ceb638bb942ba35416c",
+          "losing_sha256": "d72efdce3e5d8fa80ec285c0d49afb7182048e95013340016cb189150da8768b"
+        },
+        {
+          "mass": 4,
+          "configurations": 126,
+          "winning": 51,
+          "losing": 75,
+          "winning_sha256": "e613dedaffbf49578a4785b77e32c935ffa7f7c826512cac0a1e0b6c2b7d31d5",
+          "losing_sha256": "a3a10831e3f8f1c53551cbe51e5a701a03225a4238f92080ce639854b671fa67"
+        },
+        {
+          "mass": 5,
+          "configurations": 252,
+          "winning": 138,
+          "losing": 114,
+          "winning_sha256": "663b3a49f10752bea7f6ecbcd5de5674acda2b87107a2195ebb428f3fa5100f7",
+          "losing_sha256": "179d770993fcf45143552ae3ad9c2bcb81b9aac10e1e7a81e85f9580df82b488"
+        },
+        {
+          "mass": 6,
+          "configurations": 462,
+          "winning": 256,
+          "losing": 206,
+          "winning_sha256": "f4c6f98841fb7ab35850774f9cc08dcd0792a02ad4e268fd38435fa0b443a3de",
+          "losing_sha256": "19e43bb29273865ad555be4f37acc904f165078a14ccd933a30744c91c819c5a"
+        },
+        {
+          "mass": 7,
+          "configurations": 792,
+          "winning": 583,
+          "losing": 209,
+          "winning_sha256": "5a34f2e379622d7659f24d0f4661d91904baa876d7c84301770c6d2aa6a9a896",
+          "losing_sha256": "44bea4dec8c04b7938789d8024396b711f7476bc6b380d0b09f922e52b3806ee"
+        },
+        {
+          "mass": 8,
+          "configurations": 1287,
+          "winning": 1071,
+          "losing": 216,
+          "winning_sha256": "d7346ae9ab97854875a175e3a2584958ace5183fa70af64072fa4fb9793ea0bc",
+          "losing_sha256": "7d01c6837fd27e841338a6a20735da0efb307ef77e33b466b52ec24422288c85"
+        },
+        {
+          "mass": 9,
+          "configurations": 2002,
+          "winning": 1706,
+          "losing": 296,
+          "winning_sha256": "6aa2d2813383d8eb49de1709356df7dd7efe8058686de25ab69b1ae2e5d47ac9",
+          "losing_sha256": "88a1c3a42a8d95d0f352e53e6b514e75316295cfb8714b0930e7c8adde04622f"
+        },
+        {
+          "mass": 10,
+          "configurations": 3003,
+          "winning": 2832,
+          "losing": 171,
+          "winning_sha256": "6f05a9f526b318172f1a82bf67f361f6a3381df11132bc1258a5c543c7e28b1e",
+          "losing_sha256": "85b53d17155c42d6b1722f3a3c651453fa12be77ed99ff0259252db8fa26dde6"
+        },
+        {
+          "mass": 11,
+          "configurations": 4368,
+          "winning": 4236,
+          "losing": 132,
+          "winning_sha256": "36ca6878180a40dcbb47f6a97c890e2faa355bf02b34b42c56ed64a00961c959",
+          "losing_sha256": "fa9771f4df8537d5cc45d70e25f47948fe1cc9f4dfada5ee60e832b6477bba44"
+        },
+        {
+          "mass": 12,
+          "configurations": 6188,
+          "winning": 6035,
+          "losing": 153,
+          "winning_sha256": "948449ff01949c9462147c8ead2e9efb2e15e38a4e5e993977b537f4d40fd09b",
+          "losing_sha256": "89c4887cb0ff8db459d818be18f1b7643988226eacbe4c8441c50398ef8fa603"
+        },
+        {
+          "mass": 13,
+          "configurations": 8568,
+          "winning": 8538,
+          "losing": 30,
+          "winning_sha256": "0082b84ee4d440aa5f6f13d1e4bbf9c9e4dbfa6b7620908f34d2bb4d7899f7c2",
+          "losing_sha256": "f817d00676dada3fe4d4bae7f8d01cb6b151ab2af40d7491e6d0249f111b74e2"
+        },
+        {
+          "mass": 14,
+          "configurations": 11628,
+          "winning": 11607,
+          "losing": 21,
+          "winning_sha256": "0f2077a189cf09d9f6b68a04c8db596f595e775b251ae58dfe6d3790f9b342cd",
+          "losing_sha256": "20dec60b2c06c3639b8aba5d14532e589ab94fabc9924ecdc6baa969db3ec167"
+        },
+        {
+          "mass": 15,
+          "configurations": 15504,
+          "winning": 15476,
+          "losing": 28,
+          "winning_sha256": "198bbf2352ffa707a2d84bd84a00878c936c706716a64e44f219ef059d6f0573",
+          "losing_sha256": "7a28a36375528f4177dc4959ec5c186733aecc92323b913b892da7079df9f379"
+        },
+        {
+          "mass": 16,
+          "configurations": 20349,
+          "winning": 20349,
+          "losing": 0,
+          "winning_sha256": "a3be5111899a4c9e717d7ea10d00d733833d1037988f9055d54df9da44bbeaa5",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    }
+  ],
+  "trace_raw_sha256": "33bcc1f1c82fd6215a17cef60ec11117ba9a3beaddd5d8ca3f6e12b7c4ae3cd3",
+  "construction_traces": 36173,
+  "construction_moves": 479591,
+  "seconds": 1.6090000000003783
+}

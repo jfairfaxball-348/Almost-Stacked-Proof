@@ -44,3 +44,8 @@
 | 2026-10-14 S007 | Keep stacking upper separate from unproved matching AS lower and universal conductor comparison; scalar dual fails K3 pure3 | S007 Lemma31/Cor32/routes | Universal ASH* OPEN; no gate promotion |
 | 2026-10-14 S007 | Preserve historical S006 mutable-mirror hash bytes as frozen snapshots; no historical manifest rewrite | evidence/S007/frozen_s006_* | LF evidence integrity |
 | 2026-10-14 S007 | Complete S008 handoff future/unexecuted; ordinary atomic PR/merge only | S007 CLOSEOUT | STOP BEFORE S008 |
+
+| 2026-10-14 S008 | Hostile S007 audit PASS; exact all-length triangle-tail stacking and common-root leaf thresholds proved; universal ASH* OPEN | S008 report/Theorems35-36, AUDIT | No universal gate promotion |
+| 2026-10-14 S008 | Owner requires S009 deep primary-source originality/dependency investigation before continued universal research | S008 INPUT/addendum; S009 FUTURE prompt | Foundational Phase1 work, no Lean/publication trigger |
+| 2026-10-14 S008 | Preserve21 S007 mutable mirror bytes in explicit frozen index; old manifests unchanged | evidence/S008/frozen_s007_index.json | Integrity PASS, no history rewrite |
+| 2026-10-14 S008 | Complete S009 handoff; stop before S009 and all final-stage actions | S008 CLOSEOUT/FUTURE_S009 | FUTURE/UNEXECUTED |

@@ -36,3 +36,7 @@ PLAN and three hashed amendments, local Windows, no new atlas census/threshold f
 ## CAM-S007-01/02 — complete registered small family challenges
 
 S007 PLAN and Amendments1-2 hashed before execution. Triangle-tail l=0,1,2 only, labelled/no symmetry. Clearing masses1..4/10/22; stacking1..4/8/16. Independent forward/reverse full set hashes/counts plus literal constructive trace arithmetic; counts in S007 AUDIT/evidence. No larger atlas/cutoff expansion. Infinite clearing rests on symbolic proof, not extrapolation.
+
+## CAM-S008-01/02 — complete registered scopes
+
+S008 PLAN and Amendments1-2 hashed before runs. Tip-source two-singleton exact tree/forest buffer certificates l0..8,774 finite forest witnesses, independent optimality/legality; full candidate closures l0..3 with1/14/101/891 states. Symbolic universal algebra4376 production inequalities (not graph-size sampling). F_k k1..3, both goals,72 full layers/127799 configurations,36173 constructive traces/479591 legal moves; independent forward/reverse hashes/counts and literal replay. No symmetry/stochastic/atlas/cutoff expansion. Infinite theorems are written proofs. Scope/code/input/output hashes in evidence/S008; universal target OPEN.

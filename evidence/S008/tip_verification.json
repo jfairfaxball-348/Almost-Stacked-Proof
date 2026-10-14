@@ -1,0 +1,212 @@
+{
+  "grammar": [
+    {
+      "graph": "triangle_tail0",
+      "source": 0,
+      "cells": 48,
+      "finite_cells": 38,
+      "production_inequalities": 534,
+      "attaining_derivations_legally_replayed": 38,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail1",
+      "source": 3,
+      "cells": 64,
+      "finite_cells": 50,
+      "production_inequalities": 696,
+      "attaining_derivations_legally_replayed": 50,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "source": 4,
+      "cells": 80,
+      "finite_cells": 62,
+      "production_inequalities": 858,
+      "attaining_derivations_legally_replayed": 62,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 5,
+      "cells": 96,
+      "finite_cells": 74,
+      "production_inequalities": 1020,
+      "attaining_derivations_legally_replayed": 74,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail4",
+      "source": 6,
+      "cells": 112,
+      "finite_cells": 86,
+      "production_inequalities": 1182,
+      "attaining_derivations_legally_replayed": 86,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail5",
+      "source": 7,
+      "cells": 128,
+      "finite_cells": 98,
+      "production_inequalities": 1344,
+      "attaining_derivations_legally_replayed": 98,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail6",
+      "source": 8,
+      "cells": 144,
+      "finite_cells": 110,
+      "production_inequalities": 1506,
+      "attaining_derivations_legally_replayed": 110,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail7",
+      "source": 9,
+      "cells": 160,
+      "finite_cells": 122,
+      "production_inequalities": 1668,
+      "attaining_derivations_legally_replayed": 122,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail8",
+      "source": 10,
+      "cells": 176,
+      "finite_cells": 134,
+      "production_inequalities": 1830,
+      "attaining_derivations_legally_replayed": 134,
+      "all_equal": true
+    }
+  ],
+  "forest": [
+    {
+      "length": 0,
+      "forest_finite": 38,
+      "forest_inequalities": 267,
+      "forest_replay_moves": 104,
+      "candidate_source": 1,
+      "candidate_minimum": 4
+    },
+    {
+      "length": 1,
+      "forest_finite": 50,
+      "forest_inequalities": 348,
+      "forest_replay_moves": 274,
+      "candidate_source": 5,
+      "candidate_minimum": 8
+    },
+    {
+      "length": 2,
+      "forest_finite": 62,
+      "forest_inequalities": 429,
+      "forest_replay_moves": 694,
+      "candidate_source": 13,
+      "candidate_minimum": 16
+    },
+    {
+      "length": 3,
+      "forest_finite": 74,
+      "forest_inequalities": 510,
+      "forest_replay_moves": 1690,
+      "candidate_source": 29,
+      "candidate_minimum": 32
+    },
+    {
+      "length": 4,
+      "forest_finite": 86,
+      "forest_inequalities": 591,
+      "forest_replay_moves": 3982,
+      "candidate_source": 61,
+      "candidate_minimum": 64
+    },
+    {
+      "length": 5,
+      "forest_finite": 98,
+      "forest_inequalities": 672,
+      "forest_replay_moves": 9154,
+      "candidate_source": 125,
+      "candidate_minimum": 128
+    },
+    {
+      "length": 6,
+      "forest_finite": 110,
+      "forest_inequalities": 753,
+      "forest_replay_moves": 20662,
+      "candidate_source": 253,
+      "candidate_minimum": 256
+    },
+    {
+      "length": 7,
+      "forest_finite": 122,
+      "forest_inequalities": 834,
+      "forest_replay_moves": 45994,
+      "candidate_source": 509,
+      "candidate_minimum": 512
+    },
+    {
+      "length": 8,
+      "forest_finite": 134,
+      "forest_inequalities": 915,
+      "forest_replay_moves": 101278,
+      "candidate_source": 1021,
+      "candidate_minimum": 1024
+    }
+  ],
+  "closures": [
+    {
+      "length": 0,
+      "configuration": [
+        1,
+        1,
+        1
+      ],
+      "complete_reachable_states": 1,
+      "stack_goals": 0,
+      "closure_sha256": "693897180985b98b9374f47e754bf66e4bfb65ce547668a046fcdfefbca1f748"
+    },
+    {
+      "length": 1,
+      "configuration": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "complete_reachable_states": 14,
+      "stack_goals": 0,
+      "closure_sha256": "d62a65158cf05cfcec80fae3e5d1de4e300649b479498c26343ea9a99309c1c1"
+    },
+    {
+      "length": 2,
+      "configuration": [
+        0,
+        1,
+        1,
+        0,
+        13
+      ],
+      "complete_reachable_states": 101,
+      "stack_goals": 0,
+      "closure_sha256": "584960483aa3b1bd935c2aa8e5c1421e4ec5b0596a645f5ef940e04a32b41653"
+    },
+    {
+      "length": 3,
+      "configuration": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        29
+      ],
+      "complete_reachable_states": 891,
+      "stack_goals": 0,
+      "closure_sha256": "b724c70cf803b7361c83aee086058227422571c27610a3746e486a284d87ec82"
+    }
+  ],
+  "all_verified": true
+}
