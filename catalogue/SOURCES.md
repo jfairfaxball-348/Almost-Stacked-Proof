@@ -1,4 +1,4 @@
-# Source catalogue — current after S006
+# Source catalogue — current after S007
 
 Per-material access levels retained; inspection of selected proofs is not a full-paper audit.
 
@@ -33,3 +33,9 @@ Per-material access levels retained; inspection of selected proofs is not a full
 - **SRC-0015** S006 exact rooted pure/buffer conductors, stacking forests and finite bounds — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md — Complete tree/forest/interface/finiteness proofs; universal ASH* comparison remains OPEN, novelty unaudited, no Lean.
 
 - **SRC-0016** S006 independent grammar optimality/legality certificates and dual rooted DP challenges — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S006 — All production inequalities/infinities and attaining derivations checked; complete bounded forward/reverse mask equality, explicit state cutoff and auxiliary closures. No universal ASH* certificate.
+
+- **SRC-0017** S007 selected ancestry credit, sharp triangle-tail clearing and leaf extensions — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md — Complete symbolic proofs, prior odd-walk lower credited; universal ASH* OPEN; no novelty or Lean.
+
+- **SRC-0018** S007 full forward/reverse triangle-tail layers and independent constructive trace replay — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S007 — Exact labelled l=0,1,2 only, complete full set hashes/counts, all constructive winning traces independently replayed; no universal certification.
+
+S007 source refresh: SRC-0001/0002 remain current v1 with unchanged PDF digests; selected April6.1 and October4.7/pullback/+3 proofs re-inspected. No public correction or novelty claim.

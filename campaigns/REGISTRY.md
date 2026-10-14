@@ -32,3 +32,7 @@ Plan sessions/S004/PLAN.md (hash in PLAN.sha256), 21 graph/goal runs, no configu
 ## CAM-S006-01 — completed exact interface challenges, explicit state cutoff
 
 PLAN and three hashed amendments, local Windows, no new atlas census/threshold frontier. 152 pure source cases plus one buffer box, all grammar production/infinity/attaining-tree checks; separate stacking forest box. 35 graphs/531 full rooted layers/3155536 labelled configurations compared by independently written forward/reverse traversals, no symmetry;11750 pure and1508 clear/1508 stack comparisons. Tail3 stops at29 before324632-state next layer; tail4 cap10. Existing257 n<=6 critical sets challenge fixed-residue concentration. Scalar closures/traces independently checked. Full scope/hashes in evidence/S006 and AUDIT. No new global threshold or ASH* certificate.
+
+## CAM-S007-01/02 — complete registered small family challenges
+
+S007 PLAN and Amendments1-2 hashed before execution. Triangle-tail l=0,1,2 only, labelled/no symmetry. Clearing masses1..4/10/22; stacking1..4/8/16. Independent forward/reverse full set hashes/counts plus literal constructive trace arithmetic; counts in S007 AUDIT/evidence. No larger atlas/cutoff expansion. Infinite clearing rests on symbolic proof, not extrapolation.

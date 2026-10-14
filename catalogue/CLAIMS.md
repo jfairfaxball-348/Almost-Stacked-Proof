@@ -1,4 +1,4 @@
-# Claim catalogue — current after S006
+# Claim catalogue — current after S007
 
 Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and exact finite scopes retained.
 
@@ -58,3 +58,11 @@ Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and ex
 | CLM-0052 | COMPUTED_EXACT | S006 independent optimum/legality checks:153 clearing certificates,2145 attaining trees,30347 production inequalities;367 finite stacking forest cells and9161 concatenation inequalities; scopes in AUDIT, no Lean. | SRC-0016 |
 | CLM-0053 | COMPUTED_EXACT | Full independent forward/reverse rooted masks agree on3155536 labelled configurations in531 layers/35 graphs;11750 pure and1508 clear-buffer comparisons plus1508 stack-buffer comparisons. Tail3 state cutoff after29, tail4 cap10; no new global threshold claims. | SRC-0016 |
 | CLM-0054 | COMPUTED_EXACT | 257 inherited n<=6 critical sets have618 non-AS support/residue-class Q maxima, first P3(3,3,0) Q18 vs global AS Q26. Fixed-residue concentration fails; all global Q maxima remain AS in this finite scope only. | SRC-0016, SRC-0014 |
+
+| CLM-0055 | PROGRAMME_PROVED | Rooted spanning-tree selected ancestry credit: mass>M=sum 2^(h-depth) produces two root pebbles from K<=2^(h+1) designated inputs; replay only chosen trees, leaving other inputs untouched. S007 Lemma28. | SRC-0017, SRC-0012 |
+| CLM-0056 | PROGRAMME_PROVED | Legal leaf clearing/stacking extension bounds under explicit rooted-tree credit/M/g hypotheses; separate odd self-credit, leaf1/3 debt and core-singleton winning pullback. S007 Lemmas29/31. | SRC-0017, SRC-0015, SRC-0001 |
+| CLM-0057 | PROGRAMME_PROVED | For every l>=0, triangle with pendant l-edge path has clear=6*2^l-2 and an AS pure tip loser at the critical layer; prior April6.1 lower credited, complete unconditional all-configuration upper. S007 Theorem30. | SRC-0017, SRC-0002, SRC-0013 |
+| CLM-0058 | PROGRAMME_PROVED | For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack remains unproved. S007 Corollary32. | SRC-0017, SRC-0015 |
+| CLM-0059 | PROGRAMME_PROVED | Sharp odd-bound non-bipartite cores with boundary spanning height h and M<2g retain exact clear=3*2^(h+l)-2 under pendant path extension; explicit conditional hypotheses in S007 Theorem33. | SRC-0017, SRC-0002 |
+| CLM-0060 | COMPUTED_EXACT | Independent S007 full layer hashes/counts: clear l0..2 thresholds4/10/22,81763 states/36 layers; stack4/8/16,20876 states/28 layers.15251 clear and5025 stack traces,316569/73132 moves legally replayed. Finite only. | SRC-0018 |
+| CLM-0061 | PROGRAMME_PROVED | Move-monotone additive scalar weights cannot separate the K3 pure3 clearing loser; exact three-state closure nonclearing. Universal general/binary conductor inequality remains unproved. | SRC-0017 |

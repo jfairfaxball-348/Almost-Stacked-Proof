@@ -452,5 +452,68 @@
       "SRC-0016",
       "SRC-0014"
     ]
+  },
+  {
+    "id": "CLM-0055",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Rooted spanning-tree selected ancestry credit: mass>M=sum 2^(h-depth) produces two root pebbles from K<=2^(h+1) designated inputs; replay only chosen trees, leaving other inputs untouched. S007 Lemma28.",
+    "sources": [
+      "SRC-0017",
+      "SRC-0012"
+    ]
+  },
+  {
+    "id": "CLM-0056",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Legal leaf clearing/stacking extension bounds under explicit rooted-tree credit/M/g hypotheses; separate odd self-credit, leaf1/3 debt and core-singleton winning pullback. S007 Lemmas29/31.",
+    "sources": [
+      "SRC-0017",
+      "SRC-0015",
+      "SRC-0001"
+    ]
+  },
+  {
+    "id": "CLM-0057",
+    "status": "PROGRAMME_PROVED",
+    "claim": "For every l>=0, triangle with pendant l-edge path has clear=6*2^l-2 and an AS pure tip loser at the critical layer; prior April6.1 lower credited, complete unconditional all-configuration upper. S007 Theorem30.",
+    "sources": [
+      "SRC-0017",
+      "SRC-0002",
+      "SRC-0013"
+    ]
+  },
+  {
+    "id": "CLM-0058",
+    "status": "PROGRAMME_PROVED",
+    "claim": "For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack remains unproved. S007 Corollary32.",
+    "sources": [
+      "SRC-0017",
+      "SRC-0015"
+    ]
+  },
+  {
+    "id": "CLM-0059",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Sharp odd-bound non-bipartite cores with boundary spanning height h and M<2g retain exact clear=3*2^(h+l)-2 under pendant path extension; explicit conditional hypotheses in S007 Theorem33.",
+    "sources": [
+      "SRC-0017",
+      "SRC-0002"
+    ]
+  },
+  {
+    "id": "CLM-0060",
+    "status": "COMPUTED_EXACT",
+    "claim": "Independent S007 full layer hashes/counts: clear l0..2 thresholds4/10/22,81763 states/36 layers; stack4/8/16,20876 states/28 layers.15251 clear and5025 stack traces,316569/73132 moves legally replayed. Finite only.",
+    "sources": [
+      "SRC-0018"
+    ]
+  },
+  {
+    "id": "CLM-0061",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Move-monotone additive scalar weights cannot separate the K3 pure3 clearing loser; exact three-state closure nonclearing. Universal general/binary conductor inequality remains unproved.",
+    "sources": [
+      "SRC-0017"
+    ]
   }
 ]

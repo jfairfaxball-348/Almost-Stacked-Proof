@@ -1,0 +1,32 @@
+[
+  {
+    "command": "python tools/s006_verify.py --check-only",
+    "exit_code": 0,
+    "scope": "fresh S007 inherited check-only replay"
+  },
+  {
+    "command": "python tools/s006_stack_verify.py --check-only",
+    "exit_code": 0,
+    "scope": "fresh S007 inherited check-only replay"
+  },
+  {
+    "command": "python tools/s006_challenges.py --check-only",
+    "exit_code": 0,
+    "scope": "fresh S007 inherited check-only replay"
+  },
+  {
+    "command": "python tools/s006_extrema.py --check-only",
+    "exit_code": 0,
+    "scope": "fresh S007 inherited check-only replay"
+  },
+  {
+    "command": "python tools/s006_obstruction_verify.py --check-only",
+    "exit_code": 0,
+    "scope": "fresh S007 inherited check-only replay"
+  },
+  {
+    "command": "python tools/s005_check_traces.py",
+    "exit_code": 0,
+    "scope": "fresh S007 inherited check-only replay"
+  }
+]

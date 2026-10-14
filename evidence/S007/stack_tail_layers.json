@@ -1,0 +1,312 @@
+{
+  "campaign": "CAM-S007-02",
+  "goal": "stack",
+  "graphs": [
+    {
+      "length": 0,
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "threshold": 4,
+      "scope": "COMPLETE_LABELLED_LAYERS",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 3,
+          "winning": 3,
+          "losing": 0,
+          "winning_sha256": "640d2c26546bba0b9c8be6777d0768ccd698eaf7d9c4babd4bad621b26a43d52",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 6,
+          "winning": 3,
+          "losing": 3,
+          "winning_sha256": "ae5d4477de18afb15252be8b4b1935f9a74ff63207368332aa055d15991c6a02",
+          "losing_sha256": "e32d66aa33fb1fa701c3179d84450fd170ec61ba04c05cfd7df1a791267658b8"
+        },
+        {
+          "mass": 3,
+          "configurations": 10,
+          "winning": 9,
+          "losing": 1,
+          "winning_sha256": "15146c1124d484cb2688cf38b313fee90a96e52497ae7f5d07be1fb73f03fdc6",
+          "losing_sha256": "693897180985b98b9374f47e754bf66e4bfb65ce547668a046fcdfefbca1f748"
+        },
+        {
+          "mass": 4,
+          "configurations": 15,
+          "winning": 15,
+          "losing": 0,
+          "winning_sha256": "41fa1246f4527d86501f3499b1b1e2cbf2bcf3851cf5efe6d093961736cbeeb1",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "length": 1,
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 8,
+      "scope": "COMPLETE_LABELLED_LAYERS",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "winning": 4,
+          "losing": 0,
+          "winning_sha256": "ffa98c68c8d8a368b5858ed860fdc2f74fa4c057a4b762061815a243a41db8ab",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "winning": 4,
+          "losing": 6,
+          "winning_sha256": "69c1cae062822bcc66f03b2819a055ecd90da6b45df6bbc34f3aa096bf61c78a",
+          "losing_sha256": "263cec9513b809155272b5138265b777d84f225d026a03cd08251d9b113d934c"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "winning": 12,
+          "losing": 8,
+          "winning_sha256": "f6f12da5101bca5d9b196399dd5e449964c3baf9bf4c61ee16e36306b317106c",
+          "losing_sha256": "3bdaa49bb4309fe6d17612b1f04bc81a7826e077002af5aecae8d850231ff7ad"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "winning": 25,
+          "losing": 10,
+          "winning_sha256": "bf085522b9e11dbc944c6ad82356076ba8954ec4334814c2b2152deed7056c35",
+          "losing_sha256": "e2a5e2beb3f43a31667326246a41fd4cf957c4883adba19c571c92ec6e1052c0"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "winning": 48,
+          "losing": 8,
+          "winning_sha256": "26df2cc656b7fde5723bd3d1f5146c7d258d637052378458bbc33611b85ec672",
+          "losing_sha256": "c33d10de18a570968faed692a91d4c6faa14854fbdd3dd12f160f8685f838c7a"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "winning": 77,
+          "losing": 7,
+          "winning_sha256": "819f89a4b2b1b38f9b61722cdf0be41cc3dae04d4e3a63a49e0c369a5957ff06",
+          "losing_sha256": "e3c776aaf8229a8f467850dd0012a6b481e0b386847c790ac0b2e1cdeb0eca98"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "winning": 119,
+          "losing": 1,
+          "winning_sha256": "95e65a22431ba28d7688e4ad2641dda9312a76bd1a9f52afb4f830ea7e5d9109",
+          "losing_sha256": "ebe3adda3f40eb82d119c6049efb576f49ac13763b4778dde569dd8e0c879fa1"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "winning": 165,
+          "losing": 0,
+          "winning_sha256": "30afec608ae95bc9efefab6e1658d2009ec18d2556af9cafc4459cf3f467efce",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "length": 2,
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 16,
+      "scope": "COMPLETE_LABELLED_LAYERS",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "winning": 5,
+          "losing": 0,
+          "winning_sha256": "0c24a2c54406f644f9752ce27d24adb67fa9f2df0f0afb2798e9d46433fffe5e",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "winning": 5,
+          "losing": 10,
+          "winning_sha256": "15540c1c03939479be2699332af5bad8618078b1c5a07fd33d1adcad110fe743",
+          "losing_sha256": "b6f43f4a1d28e85fad5296212a14bdc1270405cbcdcfbe2aea1c25f5f05c677c"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "winning": 15,
+          "losing": 20,
+          "winning_sha256": "69f7f7cb733f681db9ddf76c098a30adccbcc7dc6e3bd982eb2a2d5ec34d8a7d",
+          "losing_sha256": "e4620dff901d28606be563f2002982ee65d240d660f2ff18708c887c85f8c1dc"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "winning": 32,
+          "losing": 38,
+          "winning_sha256": "0fc0e1ddfa6baf416e8d79df1dc13b49dffef2fa9544e208d8a9931b87746832",
+          "losing_sha256": "d61e2aed7f782776da3903173445918b05bcfe2e1ccfb183e6526f0d52d7cde5"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "winning": 69,
+          "losing": 57,
+          "winning_sha256": "6ca565c59112d00dfff777d8b0ddd40995f868f5bebf24c1def46f83dc0693f4",
+          "losing_sha256": "881b650037a1d7329d941f8e66be880a318c089f57624b7b5b1554f70ba8d9ac"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "winning": 138,
+          "losing": 72,
+          "winning_sha256": "07db20ada8dfeda2955fc991712794a4ca6ebce548afef0268cbba0979fde36d",
+          "losing_sha256": "2068d2e95476188899b4e34959d7df3a2bba4345cdca7a43b3519da2736baf13"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "winning": 260,
+          "losing": 70,
+          "winning_sha256": "365ad3bbad193e2cd2f35c2552ff3a37a98feadb82c8f65d2696f04fde48d074",
+          "losing_sha256": "ddc02fd8eb9ed3fca778680afd86352d1a677f0d0505f838e78cbfb7802ce692"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "winning": 438,
+          "losing": 57,
+          "winning_sha256": "223609c9f70a79dcf095ccb050144f242ce4730d6949ae4816975c591508a487",
+          "losing_sha256": "66c8cdbda41bfacf1900170c6dd37a3ffc25daa1dd53ca87f12eaf7e68c776d2"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "winning": 684,
+          "losing": 31,
+          "winning_sha256": "d3cc25f000903528114ecb8b8cbec4e7e5e02b83e16564dabcdb15a8236d2217",
+          "losing_sha256": "074f4b1ec4de2c937fbc20afc2a197c9285948df9b801b6f21270fd91f82532c"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "winning": 983,
+          "losing": 18,
+          "winning_sha256": "45f8d3d8176e88f4a5f99b17666162f33d9a9f829982e18ac4665041ed36b60f",
+          "losing_sha256": "95a9a0cbc3884440a8dbea78a4885a30fb8c6fb0b21f7541338c20ae976940fa"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "winning": 1353,
+          "losing": 12,
+          "winning_sha256": "ca464807478cf3557cdf2a8f9ab9a54e4d4cc24ebe432eba5b03d841d0bf473b",
+          "losing_sha256": "a360c687df70bc7230df55f1bb25bdeb023a0f10f15ea97ea25218667ba15fad"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "winning": 1813,
+          "losing": 7,
+          "winning_sha256": "cdf773cc88b2379a2fe822808f3893fe26e6b1d23b88e719d26b4cbbb7d5a0e2",
+          "losing_sha256": "247b148a4ce655bda6e29530b5d08e83b01d1ad807edbdb5ebe2991ed532a30d"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "winning": 2377,
+          "losing": 3,
+          "winning_sha256": "a82da74d82f2b9ca6a52addefbcbbd85feca71dac32e9148494912ff364ed9ab",
+          "losing_sha256": "a6f84d9faf7ea0e6b98903de1aba5e50fd313264042c1f3c6255b89751a3e794"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "winning": 3057,
+          "losing": 3,
+          "winning_sha256": "c232aa09d4c9706d82515b37641780b41bf9d1ab03b5a4c75fbc3d6bc1b705b4",
+          "losing_sha256": "e0a785cee660eb5e202ca37a2099488719c9948efb7be3d38a32aa3402dc882a"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "winning": 3875,
+          "losing": 1,
+          "winning_sha256": "977f3311fd8cd47374b6feb6c667d817c1e1da5a7c057a4d0c9aa0668fcbaa45",
+          "losing_sha256": "46eadd4430801c059131fdfafd26ba32175de1e8daa0f77884b5775d3eb55ab7"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "winning": 4845,
+          "losing": 0,
+          "winning_sha256": "8a561ce6861c95eddbdcb0972fb741c2fbfbbb67b58d71d6ff96762d3a03139b",
+          "losing_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    }
+  ],
+  "construction_traces": 5025,
+  "construction_moves": 73132,
+  "trace_raw_sha256": "f3ee55f830fc509f2b7caee842bcc903ce2ba0d48667ca0b1c0b2e51c3ada9fa",
+  "seconds": 0.3430000000007567
+}

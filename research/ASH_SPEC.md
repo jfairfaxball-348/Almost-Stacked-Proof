@@ -65,3 +65,7 @@ Universal ASH* remains OPEN, both goals. Exact pure-pile clearing theorem19 uses
 ## Current S006 update
 
 Universal critical ASH* remains OPEN for both goals; printed mathematics PASS and earlier TreeStack credit retained. S006 proves exact rooted pure-pile/buffer conductor interfaces using clearing trees versus stacking forests, with a separate zero-source bit; source pullback and +3 operations credited. Exact AS-ray largest-loser formula and a coarse finite rooted bound do not establish general-versus-binary extremal domination. No infinite triangle-tail threshold upper. See research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md and S006 AUDIT for full proofs, certificate/finite scopes and cutoff. S007 FUTURE/UNEXECUTED; no phase promotion.
+
+## Current S007 update
+
+Universal ASH* remains OPEN, both goals. S007 proves clear(G_l)=6*2^l-2 for every triangle-tail l>=0, with prior April6.1 pure AS lower and a complete legal selected-ancestry credit upper. Proves stack(G_l)<=4*2^l only; no infinite stacking equality/AS lower. Theorem33 extends sharp odd-bound cores under explicit rooted-tree hypotheses, not arbitrary cactus composition. S006 cold audit PASS; all inherited finite cutoffs retained. See research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md and S007 AUDIT. No novelty/Lean/later promotion; S008 strictly FUTURE/UNEXECUTED.

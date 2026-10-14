@@ -14,3 +14,5 @@ Detailed S001 scope and caveats: [closeout](../sessions/S001/CLOSEOUT.md).
 | S005 | 2026-10-13/14 | Exact rooted pure-pile clearing; ancestry/acyclic/leaf/extremal-hole attacks; global critical extrema and named sparse frontiers | Universal ASH* OPEN; prior lower bound credited; complete finite scopes/cutoffs in AUDIT; S006 FUTURE |
 
 | S006 | 2026-10-14 | Cold pure-pile audit; exact rooted pure/buffer conductors and stacking forests; finite rooted bound; AS-ray formula and competing extremal/leaf challenges | Universal ASH* OPEN; full independent bounded certificates/DP; no infinite family upper or gate promotion; S007 FUTURE |
+
+| S007 | 2026-10-14 | Cold S006 audit; cross-class/dual challenge; selected ancestry credit and legal leaf extensions; exact infinite triangle-tail clearing, stacking upper and sharp-core path theorem; bounded dual validation | Universal ASH* OPEN; family clearing proved, prior lower credited; no novelty/Lean; S008 FUTURE |

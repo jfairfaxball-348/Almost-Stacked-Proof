@@ -10,7 +10,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.09650",
     "access": "STATEMENT_INSPECTED",
-    "note": "S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 same v1 PDF hash; equation4.10 proof operation freshly inspected. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected."
+    "note": "S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 same v1 PDF hash; equation4.10 proof operation freshly inspected. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected. S007 current v1/PDF digest unchanged; April6.1 and October4.7/pullback/+3 selected proof portions re-inspected."
   },
   {
     "id": "SRC-0002",
@@ -23,7 +23,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2604.22341",
     "access": "STATEMENT_INSPECTED",
-    "note": "April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 continuation freshly inspects full Theorem6.1 proof/internal rooted claim; root odd-walk bound is prior source work. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected."
+    "note": "April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 continuation freshly inspects full Theorem6.1 proof/internal rooted claim; root odd-walk bound is prior source work. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected. S007 current v1/PDF digest unchanged; April6.1 and October4.7/pullback/+3 selected proof portions re-inspected."
   },
   {
     "id": "SRC-0003",
@@ -151,5 +151,23 @@
     "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S006",
     "access": "PROOF_INSPECTED",
     "note": "All production inequalities/infinities and attaining derivations checked; complete bounded forward/reverse mask equality, explicit state cutoff and auxiliary closures. No universal ASH* certificate."
+  },
+  {
+    "id": "SRC-0017",
+    "type": "LOCAL_MATHEMATICAL_PROOF",
+    "title": "S007 selected ancestry credit, sharp triangle-tail clearing and leaf extensions",
+    "year": 2026,
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Complete symbolic proofs, prior odd-walk lower credited; universal ASH* OPEN; no novelty or Lean."
+  },
+  {
+    "id": "SRC-0018",
+    "type": "LOCAL_REPRODUCIBLE_COMPUTATION",
+    "title": "S007 full forward/reverse triangle-tail layers and independent constructive trace replay",
+    "year": 2026,
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S007",
+    "access": "PROOF_INSPECTED",
+    "note": "Exact labelled l=0,1,2 only, complete full set hashes/counts, all constructive winning traces independently replayed; no universal certification."
   }
 ]
