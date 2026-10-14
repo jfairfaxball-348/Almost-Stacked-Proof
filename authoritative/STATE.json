@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-14",
-  "last_completed_session": "S006",
-  "recommended_next_session": "S007",
+  "last_completed_session": "S007",
+  "recommended_next_session": "S008",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal ASH* IN_PROGRESS; printed mathematics PASS separate. Exact rooted buffer conductors/forests proved; general-versus-binary extremal comparison unproved."
+      "note": "Universal ASH* IN_PROGRESS; printed mathematics PASS separate. Infinite triangle-tail clearing and sharp-core path extension proved; universal conductor comparison open."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,17 +38,17 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "S006 fresh October/April v1 version lists/PDF hashes unchanged; relevant statements, April6.1 and October4.10 proof portions re-inspected; TreeStack source read, no new build",
+  "source_inspection": "S007 current October/April v1 versions/PDF hashes unchanged; April6.1 and October4.7/pullback/+3 proofs re-inspected; no TreeStack build",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "S007 cold-audit S006 Theorems23-27, zero-source distinction, ancestry/forest exactness, finiteness and AS-ray formula.",
-    "Prove general off-source maximum-hole domination by binary off-source conductors, or certify an exact-threshold ASH* counterexample.",
-    "Global Q/lex selection remains HEURISTIC; fixed-support/residue concentration false on P3.",
-    "No symbolic infinite triangle-tail/cactus threshold upper or fixed-size compositional cyclic-block interface.",
-    "Preserve S005 A8_00004/tail6 cutoffs and S006 rooted-mask caps; no extrapolated thresholds.",
+    "S008 cold-audit S007 selected ancestry credit, leaf extensions, infinite triangle-tail clearing and conditional sharp-core path theorem.",
+    "Prove universal arbitrary-versus-binary conductor inequality, or certify a critical ASH* counterexample with exact thresholds.",
+    "Complete infinite triangle-tail stacking matching AS lower; <=4*2^l upper alone is not ASHstar-stack.",
+    "Extend sharp clearing beyond verified core hypotheses; arbitrary cactus/odd-cycle composition remains unproved.",
+    "Preserve all inherited computational cutoffs separately from symbolic family theorem.",
     "No novelty/Lean/Palomar/arXiv/contact stage promotion."
   ],
   "owner_action_blockers": [],
@@ -57,8 +57,8 @@
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
     "critical_form_ASHstar_stack": "OPEN universally; proved for trees (prior TreeStack), complete multipartite graphs, and bound-saturation classes; computed n<=7 complete",
-    "critical_form_ASHstar_clear": "OPEN universally; proved for eligible complete multipartite graphs and bound-saturation classes; computed n<=7 complete",
-    "assurance": "S006 complete grammar optimality/attaining legal certificates and independent full forward/reverse masks; no universal ASH* proof or Lean certification."
+    "critical_form_ASHstar_clear": "OPEN universally; proved for eligible complete multipartite graphs and bound-saturation classes; computed n<=7 complete; S007 proves all triangle tails and conditional sharp-core pendant-path class",
+    "assurance": "S007 complete symbolic family proof, independent bounded full layer hashes and exact legal traces; fresh-session cold audit future S008, no kernel/novelty certification."
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -72,7 +72,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S007 FUTURE/UNEXECUTED. S006 rooted conductor interface session complete; universal ASH* OPEN.",
+  "next_session_context": "S008 FUTURE/UNEXECUTED. S007 complete; universal ASH* OPEN, infinite triangle-tail clearing proved.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -147,7 +147,7 @@
     "universal_clear": "OPEN",
     "novelty": "NOT_AUDITED",
     "formal_status": "NOT_STARTED",
-    "cold_fresh_session_audit": "FUTURE_S007",
+    "cold_fresh_session_audit": "PASS_S007",
     "finite_verification": {
       "pure_source_graph_cases": 152,
       "clearing_certificate_cases": 153,
@@ -176,6 +176,46 @@
       "inherited_critical_cases": 257,
       "nonAS_class_Qmaxima": 618,
       "new_global_threshold_claims": 0
+    }
+  },
+  "s007": {
+    "research": "research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md",
+    "cold_s006_audit": "PASS_S007",
+    "triangle_tail_clear": "PROGRAMME_PROVED: clear(G_l)=6*2^l-2 for all l>=0; prior April6.1 AS pure-pile lower, complete leaf-credit upper",
+    "triangle_tail_stack": "PROGRAMME_PROVED upper <=4*2^l; infinite matching lower/ASHstar-stack unproved",
+    "sharp_core_path_transfer": "PROGRAMME_PROVED conditional Theorem33 with exact sharp-core/odd-walk/tree-height/M hypotheses",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "formal_status": "NOT_STARTED",
+    "cold_fresh_session_audit": "FUTURE_S008",
+    "finite_verification": {
+      "clear_layers": 36,
+      "clear_configurations": 81763,
+      "clear_traces": 15251,
+      "clear_moves": 316569,
+      "stack_layers": 28,
+      "stack_configurations": 20876,
+      "stack_traces": 5025,
+      "stack_moves": 73132,
+      "lengths": [
+        0,
+        1,
+        2
+      ],
+      "clear_thresholds": [
+        4,
+        10,
+        22
+      ],
+      "stack_thresholds": [
+        4,
+        8,
+        16
+      ],
+      "comparison": "full ordered set hashes and counts; independent literal trace arithmetic",
+      "symmetry": "none",
+      "inherited_cutoffs_unchanged": true
     }
   }
 }

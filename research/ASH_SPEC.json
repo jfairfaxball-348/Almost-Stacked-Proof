@@ -16,7 +16,7 @@
     "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
     "hypothesis": "Hypothesis 3.2",
     "internal_labels_verified": true,
-    "last_refresh": "2026-10-14 S006: current v1, PDF digest unchanged"
+    "last_refresh": "2026-10-14 S007: current v1, PDF digest unchanged; relevant proofs re-inspected"
   },
   "original_verified": {
     "arxiv": "2604.22341v1",
@@ -38,7 +38,7 @@
     "proof_inspected": [
       "Theorem6.1 rooted odd-walk lower bound and internal claim (S005 continuation)"
     ],
-    "last_refresh": "2026-10-14 S006: current v1, PDF digest unchanged; Theorem6.1 proof re-inspected"
+    "last_refresh": "2026-10-14 S007: current v1, PDF digest unchanged; relevant proofs re-inspected"
   },
   "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
   "literal_form": {
@@ -115,7 +115,8 @@
       "all complete multipartite graphs (S004 Thm12 + April Thms8.1-8.3; eligible clearing separately)",
       "g=n+1 or g=3alpha+1 (alpha>=2)",
       "all connected n<=7 (S003 + S004 exact computations); earlier n8 threshold<=26 cases",
-      "selected complete S004 larger cases"
+      "selected complete S004 larger cases",
+      "all triangle tails for clearing (S007 Theorem30); sharp-core pendant path class under Theorem33 hypotheses"
     ],
     "author_reported_n_le_7": "Author report retained SOURCE_STATED; S004 independently closes remaining 8/3 cases, total 853/853 and 809/809 at n7."
   },
@@ -202,7 +203,7 @@
     "universal_clear": "OPEN",
     "novelty": "NOT_AUDITED",
     "formal_status": "NOT_STARTED",
-    "cold_fresh_session_audit": "FUTURE_S007",
+    "cold_fresh_session_audit": "PASS_S007",
     "finite_verification": {
       "pure_source_graph_cases": 152,
       "clearing_certificate_cases": 153,
@@ -231,6 +232,46 @@
       "inherited_critical_cases": 257,
       "nonAS_class_Qmaxima": 618,
       "new_global_threshold_claims": 0
+    }
+  },
+  "s007": {
+    "research": "research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md",
+    "cold_s006_audit": "PASS_S007",
+    "triangle_tail_clear": "PROGRAMME_PROVED: clear(G_l)=6*2^l-2 for all l>=0; prior April6.1 AS pure-pile lower, complete leaf-credit upper",
+    "triangle_tail_stack": "PROGRAMME_PROVED upper <=4*2^l; infinite matching lower/ASHstar-stack unproved",
+    "sharp_core_path_transfer": "PROGRAMME_PROVED conditional Theorem33 with exact sharp-core/odd-walk/tree-height/M hypotheses",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "formal_status": "NOT_STARTED",
+    "cold_fresh_session_audit": "FUTURE_S008",
+    "finite_verification": {
+      "clear_layers": 36,
+      "clear_configurations": 81763,
+      "clear_traces": 15251,
+      "clear_moves": 316569,
+      "stack_layers": 28,
+      "stack_configurations": 20876,
+      "stack_traces": 5025,
+      "stack_moves": 73132,
+      "lengths": [
+        0,
+        1,
+        2
+      ],
+      "clear_thresholds": [
+        4,
+        10,
+        22
+      ],
+      "stack_thresholds": [
+        4,
+        8,
+        16
+      ],
+      "comparison": "full ordered set hashes and counts; independent literal trace arithmetic",
+      "symmetry": "none",
+      "inherited_cutoffs_unchanged": true
     }
   }
 }

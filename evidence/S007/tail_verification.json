@@ -1,0 +1,15 @@
+{
+  "campaign": "CAM-S007-01",
+  "goal": "clear",
+  "full_reverse_layer_matches": 36,
+  "complete_configurations": 81763,
+  "independent_legal_traces": 15251,
+  "legal_moves": 316569,
+  "exact_thresholds": [
+    4,
+    10,
+    22
+  ],
+  "all_verified": true,
+  "seconds": 0.6560000000008586
+}

@@ -1,0 +1,47 @@
+name: Governance integrity
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source/claim mirrors and phase statuses
+        run: python3 validation/validate_governance.py
+      - name: Re-check S003 printed-ASH counterexample certificates (independent replay/closure checker)
+        run: for f in evidence/S003/cert_*.json; do python3 tools/cam_s003_cert.py check "$f"; done
+      - name: Cold S004 printed audit, structural tests and AS independent-set witnesses
+        run: |
+          python3 tools/s004_cold.py --check-only
+          python3 tools/s004_structure.py --check-only
+          python3 tools/s004_witness_tests.py --check-only
+      - name: Independent complete S004 frontier replay and full winning-base comparison
+        run: |
+          python3 tools/s004_verify_frontier.py --check-only
+          python3 tools/s004_check_base.py --check-only
+      - name: S006 exact rooted grammar, forests and complete bounded dual traversals
+        run: |
+          python3 tools/s006_verify.py --check-only
+          python3 tools/s006_stack_verify.py --check-only
+          python3 tools/s006_challenges.py --check-only
+          python3 tools/s006_extrema.py --check-only
+          python3 tools/s006_obstruction_verify.py --check-only
+  s005-replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Independent S005 complete losing-layer replay and winning-base check
+        run: |
+          g++ -O3 -std=c++17 tools/s005_stream_check.cpp -o /tmp/s005_stream_check
+          python3 tools/s005_stream_verify.py --check-only --shard=${{ matrix.shard }}/4
+      - name: S005 pure-pile theorem challenges and independent winning traces
+        run: |
+          python3 tools/s005_pure.py --check-only
+          python3 tools/s005_check_traces.py

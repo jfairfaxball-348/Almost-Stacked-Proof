@@ -1,0 +1,33 @@
+{
+  "base_commit": "74feae2559af1ddc855febbd0da9693faf51ef22",
+  "files": {
+    ".github/workflows/governance.yml": {
+      "snapshot": "evidence/S007/frozen_s006_workflow.yml",
+      "sha256": "5819524552da5a0569ae14c184a2d33a5356078457137f5a041e316a898f55f2"
+    },
+    "authoritative/NEXT_SESSION_PROMPT.md": {
+      "snapshot": "evidence/S007/frozen_s006_NEXT_SESSION_PROMPT.md",
+      "sha256": "4308bc3690b9af7eb16b736409226f8770c584035cbde2e8b8fbcd7d7fbe2ece"
+    },
+    "authoritative/STATE.json": {
+      "snapshot": "evidence/S007/frozen_s006_STATE.json",
+      "sha256": "de4d7da1573ecae01d3c508ca496ab2b2f42d18c0bfb3976fa2fea01480d7cfc"
+    },
+    "catalogue/claims.json": {
+      "snapshot": "evidence/S007/frozen_s006_claims.json",
+      "sha256": "d60c4859e1b4d2acf1e6b21d79b98422b8e7a7e225bfc0b5719ec912cafd1386"
+    },
+    "catalogue/sources.json": {
+      "snapshot": "evidence/S007/frozen_s006_sources.json",
+      "sha256": "4dd29b742e8ff85909a5b8c6efe1e12ca3c2ea0f304f4900bb5f7d8bfdac018b"
+    },
+    "research/ASH_SPEC.json": {
+      "snapshot": "evidence/S007/frozen_s006_ASH_SPEC.json",
+      "sha256": "75a96815285bc6f58154439b56d5fd004037145ab85e93a50774653985962854"
+    },
+    "validation/validate_governance.py": {
+      "snapshot": "evidence/S007/frozen_s006_validate_governance.py",
+      "sha256": "87f0abe56d87db463de36ba7fb372347e029565f55b7ed866926b3abe5e2eac9"
+    }
+  }
+}

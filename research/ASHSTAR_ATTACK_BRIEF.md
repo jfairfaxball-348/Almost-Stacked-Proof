@@ -43,3 +43,7 @@ For each `t`, define `A_t=B_t ∩ AS_t`; `s` is the first mass with `B_s=∅`, u
 ## S004 success criterion
 
 **Preferred:** an unconditional universal ASH* proof with complete self-contained lemmas and independent challenge, or a certified finite counterexample with exact threshold and two independent solvers. **Second best:** a genuine non-tree infinite-family theorem that materially constrains universal counterexamples, not a sequence of minor lemmas. **Honest fallback:** one structural route eliminated by its minimal concrete counterexample, a precise remaining obstruction, preserved reproducible tests, and a complete strictly future S005 handoff. The owner must explicitly invoke S004 separately.
+
+## Current S007 update
+
+Universal ASH* remains OPEN, both goals. S007 proves clear(G_l)=6*2^l-2 for every triangle-tail l>=0, with prior April6.1 pure AS lower and a complete legal selected-ancestry credit upper. Proves stack(G_l)<=4*2^l only; no infinite stacking equality/AS lower. Theorem33 extends sharp odd-bound cores under explicit rooted-tree hypotheses, not arbitrary cactus composition. S006 cold audit PASS; all inherited finite cutoffs retained. See research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md and S007 AUDIT. No novelty/Lean/later promotion; S008 strictly FUTURE/UNEXECUTED.

@@ -41,3 +41,8 @@
 | FL-0034 | Zero source count is not the positive residue0 class and +3 cannot be applied to an empty site | Keep a distinct zero-source bit in every buffer grammar and validator. |
 | FL-0035 | Exact AS-ray conductor computation or coarse global finiteness is not ASH* | Prove general-versus-binary maximum-mass domination separately. |
 | FL-0036 | Windows CRLF checkout changes bytes of hashed historical evidence | Enforce canonical LF text and binary exclusions; verify manifests on committed bytes. |
+
+| FL-0037 | Entire greedy production can spend extra mass in unused residual histories beyond selected K-2 | Extract and replay only two disjoint selected ancestry trees; final S007 proof/producer agree |
+| FL-0038 | A scalar move-monotone weight dual cannot separate all exact-clearing losers | K3 pure3 exact three-state closure; richer chronology/residue certificates needed |
+| FL-0039 | New symbolic threshold does not complete an old truncated certificate | S007 proves triangle-tail6 clear382, old S005 certificate still stops at47 |
+| FL-0040 | Triangle-tail stacking upper does not imply exact formula or ASH*-stack | S007 <=4*2^l; matching AS lower remains future |

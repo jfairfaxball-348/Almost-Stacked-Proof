@@ -28,3 +28,7 @@ Prior session notes above are historical. Last S005, next strictly FUTURE S006. 
 ## Current authority — S006 completed (2026-10-14)
 
 Earlier current-session sections are historical. Last S006; next strictly FUTURE S007. Universal ASH* OPEN, printed-form mathematics PASS separate. Read STATE, research/S006_ROOTED_CONDUCTORS_AND_EXTREMAL_GAP.md and sessions/S006/AUDIT.md first. Exact rooted pure/buffer clearing and stacking interfaces plus finite bounds are proved; their general-versus-binary extremal comparison is not. No infinite tail threshold upper, novelty/Lean/contact/registration/submission. Actual integration SHAs/jobs are in the S006 PR. Canonical LF .gitattributes prevents Windows evidence-hash drift.
+
+## Current authority — S007 completed (2026-10-14)
+
+Universal ASH* remains OPEN, both goals. S007 proves clear(G_l)=6*2^l-2 for every triangle-tail l>=0, with prior April6.1 pure AS lower and a complete legal selected-ancestry credit upper. Proves stack(G_l)<=4*2^l only; no infinite stacking equality/AS lower. Theorem33 extends sharp odd-bound cores under explicit rooted-tree hypotheses, not arbitrary cactus composition. S006 cold audit PASS; all inherited finite cutoffs retained. See research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md and S007 AUDIT. No novelty/Lean/later promotion; S008 strictly FUTURE/UNEXECUTED.

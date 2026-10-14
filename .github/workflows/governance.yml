@@ -28,6 +28,10 @@ jobs:
           python3 tools/s006_challenges.py --check-only
           python3 tools/s006_extrema.py --check-only
           python3 tools/s006_obstruction_verify.py --check-only
+      - name: S007 independent full triangle-tail layers and legal constructive traces
+        run: |
+          python3 tools/s007_tail_verify.py --check-only
+          python3 tools/s007_tail_verify.py --check-only --stack
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

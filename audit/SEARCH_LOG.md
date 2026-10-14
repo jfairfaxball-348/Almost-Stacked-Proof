@@ -33,3 +33,7 @@ Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms
 ## S006 source refresh — not Phase2 novelty
 
 2026-10-14 fresh current arXiv abs/PDF fetches bothv1 and identical hashes. Re-inspected April6.1 rooted proof and October4.10 reduction; pullback Lemma4.8 credited. TreeStack rooted source/defect notes read, no build or registry audit. New rooted grammar/conductor synthesis has no priority assertion or comprehensive prior-art search. Private correspondence provenance unchanged; no contact.
+
+## S007 proof/campaign and primary refresh — not Phase2 novelty
+
+2026-10-14 October/April abs/PDF digests unchanged/v1; April6.1 and October4.7,pullback,+3 selected proofs re-inspected. CAM-S007-01/02 preregistered/hashed l=0,1,2 all-layer challenges, no symmetry. Symbolic routes A-C yield legal selected credit, exact infinite clearing and conditional core extension; scalar dual obstruction explicit. No novelty/priority/contact/later-stage action.

@@ -1,0 +1,52 @@
+[
+  {
+    "command": "python tools/s007_tail.py",
+    "exit_code": 0,
+    "result": "15251 final selected-ancestry clearing traces;316569 moves; raw hash101fb6ced82fcc48483b99f72e11798424cd2c255ef36a02876733af20c398ab"
+  },
+  {
+    "command": "python tools/s007_tail_verify.py",
+    "exit_code": 0,
+    "result": "36 layers,81763 configurations,15251 independent legal traces, all_verified=true"
+  },
+  {
+    "command": "python tools/s007_tail.py --stack",
+    "exit_code": 0,
+    "result": "5025 traces;73132 moves; raw hashf3ee55f830fc509f2b7caee842bcc903ce2ba0d48667ca0b1c0b2e51c3ada9fa"
+  },
+  {
+    "command": "python tools/s007_tail_verify.py --stack",
+    "exit_code": 0,
+    "result": "28 layers,20876 configurations,5025 independent legal traces, all_verified=true"
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 1,
+    "result": "First validation found inherited S006 workflow entry also requires a frozen historical snapshot. Extended explicit snapshot map to all seven changed mutable entries; no old manifest altered."
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 1,
+    "result": "Second validation found pre-extension clearing verification metadata lacked goal; regenerate independent verifier summary with explicit clear goal."
+  },
+  {
+    "command": "python validation/validate_governance.py",
+    "exit_code": 0,
+    "result": "All S003/S004/S005/S006 historical and S007 current mirrors/scopes/hashes PASS after two administrative repairs"
+  },
+  {
+    "command": "python tools/s007_tail_verify.py --check-only",
+    "exit_code": 0,
+    "result": "36 full reverse layer matches;81763 states;15251 traces;all_verified=true"
+  },
+  {
+    "command": "python tools/s007_tail_verify.py --check-only --stack",
+    "exit_code": 0,
+    "result": "28 full reverse layer matches;20876 states;5025 traces;all_verified=true"
+  },
+  {
+    "command": "git diff --check",
+    "exit_code": 0,
+    "result": "No whitespace errors"
+  }
+]

@@ -41,3 +41,7 @@ S005 additional streamed checker: s005_stream_check.cpp uses decoded coordinate 
 ## S006 exact rooted interfaces (local and hosted replay)
 
 `python tools/s006_grammar.py` creates pure/buffer minimum-source certificates; `python tools/s006_verify.py --check-only` independently checks every local inequality, infinity and attaining legal tree. `python tools/s006_stack.py` creates the separate forest certificate; `python tools/s006_stack_verify.py --check-only` independently checks forests and full dual rooted-stacking layers. `python tools/s006_challenges.py --check-only` replays registered full forward/reverse rooted-clearing masks; `python tools/s006_extrema.py --check-only` challenges inherited critical support/residue classes; `python tools/s006_obstruction_verify.py --check-only` checks complete auxiliary closures/traces. Check-only commands preserve evidence. Exact scopes/cutoff in S006 AUDIT; none is a universal ASH* or Lean test.
+
+## S007
+
+`python tools/s007_provenance.py` reads entry APIs/current primary digests and hashes (entry-specific, not for repinning later sessions). `python tools/s007_tail.py` generates CAM-S007-01 full forward layers and selected-ancestry traces; `--stack` selects CAM-S007-02. `python tools/s007_tail_verify.py --check-only` recomputes complete independent reverse layers and every legal trace; `--stack` for the separate goal. No producer import. Symbolic proof in S007 report; finite scope l=0,1,2 only.

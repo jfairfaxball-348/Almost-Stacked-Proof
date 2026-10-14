@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed governance mirror/integrity checks (updated S006); not a mathematics or Lean test."""
+"""Fail-closed governance mirror/integrity checks (updated S007); not a mathematics or Lean test."""
 from pathlib import Path
 import hashlib
 import json
@@ -13,8 +13,8 @@ state = load("authoritative/STATE.json")
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
 assert state["headline_status"] == "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN"
-assert state["last_completed_session"] == "S006"
-assert state["recommended_next_session"] == "S007"
+assert state["last_completed_session"] == "S007"
+assert state["recommended_next_session"] == "S008"
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
@@ -42,7 +42,7 @@ for sid in source_ids:
 for c in claims:
     assert c["id"] in claims_md
 next_prompt = (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text(encoding="utf-8")
-assert "S007" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert "S008" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
 for sess in ("S001", "S002", "S003", "S004"):
     assert (ROOT / f"sessions/{sess}/CLOSEOUT.md").exists()
 print("Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).")
@@ -69,13 +69,13 @@ print(f"S003 evidence hashes: {checked} files match.")
 assert (ROOT / "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md").exists()
 assert (ROOT / "outreach/2026-10-csernak-soukup/reply_draft_2026-10-13.txt").exists()
 assert (ROOT / "research/ASHSTAR_ATTACK_BRIEF.md").exists()
-assert "S007" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert "S008" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
 assert state["correspondence"]["authority"] == "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM"
 assert state["correspondence"]["next_reply"] == "DRAFT_NOT_SENT"
 assert any(x["id"] == "SRC-0010" and x["type"] == "PERSONAL_COMMUNICATION_OWNER_SUPPLIED" for x in sources)
 assert all(any(x["id"] == claimid and x["status"] == "SOURCE_STATED" for x in claims) for claimid in ("CLM-0028", "CLM-0029"))
 assert (ROOT / "sessions/S004/CLOSEOUT.md").exists()
-print("Author correspondence provenance and unexecuted S007 handoff: PASS (administrative only).")
+print("Author correspondence provenance and unexecuted S008 handoff: PASS (administrative only).")
 
 # S004 scope and machine mirrors: printed PASS must never promote universal ASH*.
 assert state["printed_form_phase1"]["status"] == "PASS"
@@ -169,7 +169,7 @@ for name in ("PLAN", "PLAN_AMENDMENT_1", "PLAN_AMENDMENT_2", "PLAN_AMENDMENT_3")
     assert hashlib.sha256((ROOT/f"sessions/S006/{name}.md").read_bytes()).hexdigest() == (ROOT/f"sessions/S006/{name}.sha256").read_text(encoding="utf-8").split()[0]
 for name in ("INPUT.md", "OWNER_INVOCATION.txt", "AUTHORISED_PROMPT.md", "AUDIT.md", "CLOSEOUT.md"):
     assert (ROOT/"sessions/S006"/name).is_file()
-assert next_prompt in (ROOT/"sessions/S006/CLOSEOUT.md").read_text(encoding="utf-8")
+assert (ROOT/"sessions/S007/AUTHORISED_PROMPT.md").read_text(encoding="utf-8") in (ROOT/"sessions/S006/CLOSEOUT.md").read_text(encoding="utf-8")
 assert (ROOT/"sessions/S006/AUTHORISED_PROMPT.md").read_text(encoding="utf-8") in (ROOT/"sessions/S005/CLOSEOUT.md").read_text(encoding="utf-8")
 grammar=load("evidence/S006/grammar_verification.json")
 assert len(grammar["cases"]) == 153 and grammar["all_grammar_bounds_and_legal_derivations"]
@@ -191,10 +191,18 @@ extrema6=load("evidence/S006/extremal_challenge.json")
 assert len(extrema6["cases"]) == 257 and extrema6["failed_nonAS_class_maxima"] == 618
 assert load("evidence/S006/obstruction_verification.json")["all_verified"]
 checked6=set()
+frozen_index=load('evidence/S007/frozen_s006_index.json')
+assert frozen_index['base_commit']=='74feae2559af1ddc855febbd0da9693faf51ef22'
+assert set(frozen_index['files'])=={'.github/workflows/governance.yml','authoritative/NEXT_SESSION_PROMPT.md','authoritative/STATE.json','catalogue/claims.json','catalogue/sources.json','research/ASH_SPEC.json','validation/validate_governance.py'}
+frozen6={p:info['snapshot'] for p,info in frozen_index['files'].items()}
+for p,info in frozen_index['files'].items():
+    assert info['snapshot'].startswith('evidence/S007/frozen_s006_')
+    assert hashlib.sha256((ROOT/info['snapshot']).read_bytes()).hexdigest()==info['sha256']
 for line in (ROOT/"evidence/S006/HASHES.md").read_text(encoding="utf-8").splitlines():
     m=re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`",line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m.group(2)).read_bytes()).hexdigest()==m.group(1),m.group(2)
+        historical=ROOT/frozen6.get(m.group(2),m.group(2))
+        assert hashlib.sha256(historical.read_bytes()).hexdigest()==m.group(1),m.group(2)
         checked6.add(m.group(2))
 required6={p.relative_to(ROOT).as_posix() for folder in ("sessions/S006","evidence/S006") for p in (ROOT/folder).glob("*") if p.is_file() and p.name != "HASHES.md"}
 required6 |= {p.relative_to(ROOT).as_posix() for p in (ROOT/"tools").glob("s006*.py")}
@@ -206,4 +214,41 @@ assert 'eol=lf' in (ROOT/'.gitattributes').read_text(encoding="utf-8")
 local6=load('evidence/S006/local_checks.json')
 effective6={r['command']:r['exit_code'] for r in local6}
 assert len(effective6)>=15 and all(code==0 for code in effective6.values())
-print(f"S006 mirrors, scope and {len(checked6)} hashes: PASS (universal ASH* OPEN; S007 FUTURE).")
+print(f"S006 mirrors, scope and {len(checked6)} historical hashes: PASS (cold audit S007; universal ASH* OPEN).")
+
+# S007 full closure; family proof must never be promoted to universal ASH*.
+assert state['s007']==spec['s007']
+assert state['s007']['universal_stack']==state['s007']['universal_clear']=='OPEN'
+assert state['s007']['novelty']=='NOT_AUDITED' and state['s007']['formal_status']=='NOT_STARTED'
+assert state['s006']['cold_fresh_session_audit']=='PASS_S007'
+assert next_prompt==(ROOT/'sessions/S007/FUTURE_S008.md').read_text(encoding='utf-8')
+assert next_prompt in (ROOT/'sessions/S007/CLOSEOUT.md').read_text(encoding='utf-8')
+assert (ROOT/'sessions/S007/OWNER_INVOCATION.txt').read_text(encoding='utf-8').strip()=='Run S007 locally using authoritative/NEXT_SESSION_PROMPT.md. Execute exactly S007 and stop before S008.'
+for name in ('PLAN','PLAN_AMENDMENT_1','PLAN_AMENDMENT_2'):
+    assert hashlib.sha256((ROOT/f'sessions/S007/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S007/{name}.sha256').read_text().split()[0]
+for stem,goal,counts in [('tail','clear',(36,81763,15251,316569,[4,10,22])),('stack_tail','stack',(28,20876,5025,73132,[4,8,16]))]:
+    data=load(f'evidence/S007/{stem}_layers.json');verified=load(f'evidence/S007/{stem}_verification.json')
+    layers,states,traces,moves,thresholds=counts
+    assert [r['length'] for r in data['graphs']]==[0,1,2]
+    assert [r['threshold'] for r in data['graphs']]==thresholds
+    assert sum(len(r['layers']) for r in data['graphs'])==layers
+    assert sum(t['configurations'] for r in data['graphs'] for t in r['layers'])==states
+    assert verified['all_verified'] and verified['goal']==goal
+    assert (verified['full_reverse_layer_matches'],verified['complete_configurations'],verified['independent_legal_traces'],verified['legal_moves'])==(layers,states,traces,moves)
+    assert hashlib.sha256(lzma.decompress((ROOT/f'evidence/S007/{stem}_traces.json.xz').read_bytes())).hexdigest()==data['trace_raw_sha256']
+for c in claims:
+    if c['id'] in ('CLM-0055','CLM-0056','CLM-0057','CLM-0058','CLM-0059','CLM-0061'):
+        assert c['status']=='PROGRAMME_PROVED'
+    if c['id']=='CLM-0060': assert c['status']=='COMPUTED_EXACT'
+checked7=set()
+for line in (ROOT/'evidence/S007/HASHES.md').read_text(encoding='utf-8').splitlines():
+    m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
+    if m:
+        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        checked7.add(m[2])
+required7={p.relative_to(ROOT).as_posix() for folder in ('sessions/S007','evidence/S007') for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
+required7|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s007*.py')}
+assert required7<=checked7
+for rel in required7:
+    if not rel.endswith('.xz'): assert b'\r\n' not in (ROOT/rel).read_bytes(),rel
+print(f'S007 mirrors, scope and {len(checked7)} hashes: PASS (family proof; universal ASH* OPEN; S008 FUTURE).')

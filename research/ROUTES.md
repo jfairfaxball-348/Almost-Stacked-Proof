@@ -29,3 +29,7 @@ R-A/R-D: exact pure-pile clearing classification via rooted odd-walk height and 
 ## S006 outcome and remaining routes
 
 Rooted min-plus unary grammar, arbitrary fixed-buffer tree/forest interface and finite rooted bound proved; general-versus-binary extremal domination remains the first unsolved universal implication. Fixed-residue concentration fails on P3; scalar leaf balance/core clearing fails both ways. A symbolic uniform cyclic-family upper and cross-class grammar dual are still PROPOSED. Exact whole-graph interfaces are not constant-size compositional block messages. S007 is FUTURE, not authorised by this note.
+
+## Current S007 update
+
+Universal ASH* remains OPEN, both goals. S007 proves clear(G_l)=6*2^l-2 for every triangle-tail l>=0, with prior April6.1 pure AS lower and a complete legal selected-ancestry credit upper. Proves stack(G_l)<=4*2^l only; no infinite stacking equality/AS lower. Theorem33 extends sharp odd-bound cores under explicit rooted-tree hypotheses, not arbitrary cactus composition. S006 cold audit PASS; all inherited finite cutoffs retained. See research/S007_LEAF_CREDIT_AND_TRIANGLE_TAILS.md and S007 AUDIT. No novelty/Lean/later promotion; S008 strictly FUTURE/UNEXECUTED.

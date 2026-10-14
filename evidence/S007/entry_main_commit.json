@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "e320a3c80da3807beb031c8b2dab69bfb807805c",
+    "node_id": "C_kwDOVF-kW9oAKGUzMjBhM2M4MGRhMzgwN2JlYjAzMWM4YjJkYWI2OWJmYjgwNzgwNWM",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/e320a3c80da3807beb031c8b2dab69bfb807805c",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/e320a3c80da3807beb031c8b2dab69bfb807805c",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T12:21:31Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T12:21:31Z"
+    },
+    "tree": {
+      "sha": "532ef8c7244a345b02a507387168909bc076ad9b",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/532ef8c7244a345b02a507387168909bc076ad9b"
+    },
+    "message": "Merge S006: exact rooted interfaces and scoped ASH evidence\n\nOne atomic authored S006 commit. All five jobs in hosted run 38562657615 completed success. Universal ASH remains open; S007 is strictly future and unexecuted.",
+    "parents": [
+      {
+        "sha": "876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5"
+      },
+      {
+        "sha": "74feae2559af1ddc855febbd0da9693faf51ef22",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/74feae2559af1ddc855febbd0da9693faf51ef22",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/74feae2559af1ddc855febbd0da9693faf51ef22"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz3PLCRC1aQ7uu5UhlAAARF8QAAkGzNjY1qM8zsyeP97prN/o\n2Nu5qgY76rIXWsekyi5tENKXa4SyJZHMGiCIyV0BNIt7LflOOykbbYzltTqQHH07\nxPtSG80/e4NaQH8XMZ+HR5jKxoL/k53W0Cbl0rbeE2fDlEMUsaJTA4K0LHlKP0Bi\nYlfc0wbfY7UQNUndTf2R5xugqtB68wIIZjZcRieHRlYVABoWwPrgaeDIhKec3/ZY\ngClTneJQeEq1B6CUd1cjfkkqxJ1T2Da5PN8hSbDhdUeiTtMIr79wYle/Xpcc9Fa1\nG93kDQJMdiWfXyt4d+EPA0c6YrZCPC0hU6m2Ke0uP/0uxxDAgMJN2sDrwc28C7NS\nUsDVh4G06yPwi6jLQyjqUPDgd6rQok1Q5ktj+vxFkuJ9I5MERmQn8QyOZPI2syfQ\nlXpNSNQa7G23l/UHcUcAfip4SjJq6PqHo340pB61deaeddY/MDkCeIBEsTudWviV\njktfOOJ/PiKSvpuJXj7qK5tBqiyiP4WX/GjO7gxYz0xtPzzr/2RCcQAT94xgDOTE\nYz+qVH3ZrUsdaS81x9kkvnJldNMB16ATQySH3UcpNC+G8l0wtvm4M/HL8SSFP4WV\nXlZofSc0z8/mNQt1WuyMMoYOYdWqHrCIcx00t9hHTUEcsWiZMWDbZvSSW1OewHml\nu+ZhsO+qJE8iAJcCPjra\n=fV+Z\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 532ef8c7244a345b02a507387168909bc076ad9b\nparent 876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5\nparent 74feae2559af1ddc855febbd0da9693faf51ef22\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1791980491 +0100\ncommitter GitHub <noreply@github.com> 1791980491 +0100\n\nMerge S006: exact rooted interfaces and scoped ASH evidence\n\nOne atomic authored S006 commit. All five jobs in hosted run 38562657615 completed success. Universal ASH remains open; S007 is strictly future and unexecuted.",
+      "verified_at": "2026-10-14T12:21:31Z"
+    }
+  },
+  "stderr": ""
+}
