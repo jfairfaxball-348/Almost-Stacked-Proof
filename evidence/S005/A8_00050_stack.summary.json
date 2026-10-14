@@ -1,0 +1,368 @@
+{
+  "graph": "A8_00050",
+  "n": 8,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 40,
+  "last_layer": 40,
+  "seconds": 0.104649,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 8,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 28,
+      "losers": 28,
+      "as_losers": 28,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 118,
+      "losers": 96,
+      "as_losers": 96,
+      "Qmax": 5,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 4,
+      "candidates": 313,
+      "losers": 265,
+      "as_losers": 256,
+      "Qmax": 10,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 5,
+      "candidates": 760,
+      "losers": 612,
+      "as_losers": 491,
+      "Qmax": 17,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 6,
+      "candidates": 1636,
+      "losers": 1270,
+      "as_losers": 703,
+      "Qmax": 26,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 7,
+      "candidates": 3229,
+      "losers": 2253,
+      "as_losers": 805,
+      "Qmax": 37,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 8,
+      "candidates": 5785,
+      "losers": 3683,
+      "as_losers": 766,
+      "Qmax": 50,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 9,
+      "candidates": 9473,
+      "losers": 5429,
+      "as_losers": 694,
+      "Qmax": 65,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 10,
+      "candidates": 14795,
+      "losers": 7200,
+      "as_losers": 644,
+      "Qmax": 82,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 11,
+      "candidates": 21335,
+      "losers": 8875,
+      "as_losers": 553,
+      "Qmax": 101,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 12,
+      "candidates": 27464,
+      "losers": 9989,
+      "as_losers": 460,
+      "Qmax": 122,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 13,
+      "candidates": 33587,
+      "losers": 10358,
+      "as_losers": 431,
+      "Qmax": 145,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 14,
+      "candidates": 38996,
+      "losers": 10192,
+      "as_losers": 345,
+      "Qmax": 170,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 15,
+      "candidates": 40048,
+      "losers": 9139,
+      "as_losers": 267,
+      "Qmax": 197,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 16,
+      "candidates": 38348,
+      "losers": 7725,
+      "as_losers": 269,
+      "Qmax": 226,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 17,
+      "candidates": 35957,
+      "losers": 6519,
+      "as_losers": 210,
+      "Qmax": 227,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 18,
+      "candidates": 30655,
+      "losers": 5035,
+      "as_losers": 148,
+      "Qmax": 290,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 19,
+      "candidates": 24126,
+      "losers": 3731,
+      "as_losers": 151,
+      "Qmax": 325,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 20,
+      "candidates": 18922,
+      "losers": 2970,
+      "as_losers": 129,
+      "Qmax": 326,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 21,
+      "candidates": 14849,
+      "losers": 2287,
+      "as_losers": 90,
+      "Qmax": 401,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 22,
+      "candidates": 11230,
+      "losers": 1602,
+      "as_losers": 77,
+      "Qmax": 442,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 23,
+      "candidates": 8424,
+      "losers": 1252,
+      "as_losers": 75,
+      "Qmax": 443,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 24,
+      "candidates": 6505,
+      "losers": 1013,
+      "as_losers": 57,
+      "Qmax": 530,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 25,
+      "candidates": 4950,
+      "losers": 651,
+      "as_losers": 38,
+      "Qmax": 531,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 26,
+      "candidates": 3524,
+      "losers": 518,
+      "as_losers": 45,
+      "Qmax": 578,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 27,
+      "candidates": 2793,
+      "losers": 428,
+      "as_losers": 35,
+      "Qmax": 677,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 28,
+      "candidates": 2034,
+      "losers": 233,
+      "as_losers": 17,
+      "Qmax": 678,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 29,
+      "candidates": 1303,
+      "losers": 187,
+      "as_losers": 24,
+      "Qmax": 731,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 30,
+      "candidates": 1057,
+      "losers": 157,
+      "as_losers": 17,
+      "Qmax": 842,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 31,
+      "candidates": 725,
+      "losers": 68,
+      "as_losers": 7,
+      "Qmax": 843,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 32,
+      "candidates": 384,
+      "losers": 55,
+      "as_losers": 11,
+      "Qmax": 844,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 33,
+      "candidates": 313,
+      "losers": 43,
+      "as_losers": 6,
+      "Qmax": 963,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 34,
+      "candidates": 197,
+      "losers": 15,
+      "as_losers": 3,
+      "Qmax": 906,
+      "nonAS_Qmax": 2
+    },
+    {
+      "t": 35,
+      "candidates": 84,
+      "losers": 11,
+      "as_losers": 6,
+      "Qmax": 1027,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 36,
+      "candidates": 60,
+      "losers": 7,
+      "as_losers": 3,
+      "Qmax": 1158,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 37,
+      "candidates": 34,
+      "losers": 3,
+      "as_losers": 1,
+      "Qmax": 1095,
+      "nonAS_Qmax": 2
+    },
+    {
+      "t": 38,
+      "candidates": 17,
+      "losers": 2,
+      "as_losers": 2,
+      "Qmax": 1228,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 39,
+      "candidates": 11,
+      "losers": 1,
+      "as_losers": 1,
+      "Qmax": 1371,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 40,
+      "candidates": 4,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "certificate_sha256": "ec44f41d6525288e330785beb52d5101053febd1915f11b1f2681f5bf5359256"
+}

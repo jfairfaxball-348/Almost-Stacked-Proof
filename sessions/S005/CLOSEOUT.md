@@ -1,0 +1,41 @@
+# S005 closeout — 2026-10-13/14
+
+**Universal critical ASH*: OPEN for stacking and clearing.** No universal proof/counterexample or phase promotion. Printed-form mathematics PASS is separate; Lean pending.
+
+Proved exact pure-pile clearing criterion using a matching equal-level path construction and ancestry proof; April6.1 rooted odd-walk lower bound and October4.10 reduction credited, no novelty claim. Proved acyclic balance scheduling but refuted its necessity for exact clearing on K3 pure6. The distance-only geodesic stacking witness fails on a five-vertex triangle-tail; legal traces and deferred leaf-debt failure archived. Residue-frontier and global square selection remain serious open routes.
+
+Independent full-set replay certifies337 exact thresholds among340 eligible cases; all critical layers contain AS losers and all Q/lex maximizers tested are AS. Exact C10 stack63, triangle-tail5 clear190, tail4 64/94, C5-tail3 64/94, two-triangles-path4 68/68 and C8-leaf stack63. Three eligible cutoffs and one bipartite clearing sanity run explicitly separated; no general family formula inferred. See AUDIT and analysis.json for counts, labelled adjacency, scope and resources.
+
+One atomic authored commit on session/S005-extrema-rooted-costs, ordinary reviewable PR and verified non-force two-parent merge are the authorised closeout. Actual immutable head/tree/check/merge/main metadata lives in that PR, written after verification; no invented self-hash. No S006, Lean, novelty audit, manuscript, contact or submission executed.
+
+## Complete future handoff (NOT executed)
+
+# S006 — Solve the universal ASH* extremal-hole problem
+
+**FUTURE, UNEXECUTED.** Requires a fresh explicit owner invocation. Execute exactly S006 in https://github.com/jfairfaxball-348/Almost-Stacked-Proof. Stop before S007; no author contact, Lean, novelty-stage promotion, Palomar, manuscript or external submission. The headline remains an unconditional proof or certified counterexample to universal critical ASH*, separately stacking on connected finite simple graphs and clearing on connected non-bipartite graphs, n>=2. The false printed least-exact-t wording is already refuted and cold-audited.
+
+## Entry and obligations
+
+Pin LIVE main/ref/tree/parents. Independently verify actual S005 atomic head, ordinary PR, two-parent non-force merge, all intervening commits/competing branches and hosted workflow runs/jobs/checks/statuses/protections. Read AGENTS, START_HERE, STATE, phase/session/release protocols, all mirrors, S005 INPUT/PLAN/amendments/CONTINUATION/AUDIT/CLOSEOUT, research/S005_ASHSTAR_EXTREMA_AND_ROOTED_CLEARING.md and full campaign evidence. Archive exact invocation and hash a bounded proof/search plan before computation. Source v1 checks are historical; refresh current versions and preserve private correspondence provenance.
+
+Cold challenge Theorem19 before reuse: h(r) is the first equal-distance edge height and odd(r,G)=2h+1. Pure N e_r clears exactly when N mod3!=0 or N>=3*2^h in non-bipartite graphs; multiples3 never clear in bipartite graphs. Audit arbitrary final root, no-equal-level residue induction, minimum2^distance leaf count, the deepest equal-level ancestry node and its parent/sibling, and overlapping-path legal construction. Lower bound is already April Theorem6.1; +3 reduction is October4.10. Do not claim new independence/odd-walk bounds or priority. A pure pile is already stacked, so this theorem only obstructs clearing.
+
+Maintain S004 independent-set AS witnesses, complete multipartite consequences using source equalities, earlier TreeStack credit, and finite certificate scopes. Read S005 actual campaign_summary/verification for all exact values and cutoffs. Neither finite atlas success, tested square maximizers, nor triangle-tail numerical patterns proves an infinite family.
+
+## Substantial competing proof-first attacks
+
+Aim to finish a major universal theorem or decisive counterexample, not stop at one useful lemma.
+
+**A. Residue-frontier / global extremum.** By legal +3 reduction, winning configurations at fixed positive support/residue class b+3z are upper sets and losing z are finite lower sets. ASH* asks whether the largest hole across all graph-generated classes lies on an AS ray. Prove a constraint arising from the exact graph grammar/all-successor recurrence that compares classes; arbitrary lower sets need not have axis maxima. Global Q or sorted-pile selection is a stronger possible theorem, not an assumption. Distinguish every Q-maximizer AS, existence of an AS maximizer, mixed ties and ASH* itself. Local pair convexity/minimum support still fail on P3. Seek an explicit cross-class operation or quantitative dual bound rather than repeat those false shortcuts.
+
+**B. Legal rooted debt and cyclic block interfaces.** Leaf normalization has even output m/2 and odd net (m-3)/2 but an odd leaf needs two boundary pebbles before firing. Negative boundary scores require deferred debt, not rejection: path (1,0,4) clears although early elimination records -1. Establish a necessary-and-sufficient interface with arbitrary pile/residue, target and excursions. Try to prove a full triangle-tail, odd-cycle-with-tree, cactus or unicyclic threshold theorem with both global upper and AS lower, strictly above independence/singleton bounds. Theorem19 supplies an exact pure-pile clearing lower bound but no general upper. The tempting two-site geodesic stacking witness is false on the five-vertex triangle-tail; replay its legal trace before any distance-only extension. Same-level detours must be accounted for.
+
+**C. Exact ancestry and cyclic schedules.** Rooted clear vectors form the exact binary grammar; stack vectors are finite nonempty sums at one root. Acyclic nonnegative move balance is legally schedulable, but exact clearing may require cycles: K3 at6e0 clears and has no acyclic balance certificate. Terminal K3 all ones has a formal cyclic balance and no legal first move. Develop grammar/conductor or cycle-budget structure that retains all initial pebbles and exact final support, not relaxed flow or an unqualified cycle-erasure theorem. If a universal proof arises, close every dependency and run cold adversarial challenges.
+
+**D. Targeted certified counterexample challenge.** Let proof failures select graphs, with an explicit bounded plan before each experiment. Complete losing layers and independently replayed first empty layer are required for exact thresholds. A genuine ASH* candidate needs labelled adjacency, exact g, a critical general loser, legal winning sequences for every AS state at g-1 and two independent complete validators. Cutoff graphs carry lower bounds only. Do not rerun the finite census merely to accumulate observations; prioritize a falsifiable structural hypothesis, a minimal failure or a remaining frontier suggested by A-C. Any increase in resources/representation needs hashed amendment before execution.
+
+Reject an approach only with an explicit obstruction or meaningful bounded challenge. Keep the first unsolved implication precise and continue another serious route if the first fails. Universal Phase1 passes only a complete independently audited universal proof or certified counterexample. Printed-form PASS remains separate; no unaudited novelty or formal-certification label.
+
+## Closeout
+
+Complete S006 input/preregistration, substantial proof report, audit and truthfully scoped certificates/hashes; update all Markdown/JSON state/spec/source/claim mirrors, decisions, failures, session/gate ledgers and campaigns. Install one complete strictly FUTURE/UNEXECUTED S007 handoff unless a genuine owner-action blocker prevents it. One atomic authored session commit, ordinary reviewable PR, non-force ordinary two-parent merge, independent main/tree/parent re-read and actual hosted checks. Record post-commit SHAs through PR metadata without guessing self-referential hashes. Stop before S007 and all gated later stages.

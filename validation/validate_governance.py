@@ -13,8 +13,8 @@ state = load("authoritative/STATE.json")
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
 assert state["headline_status"] == "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN"
-assert state["last_completed_session"] == "S004"
-assert state["recommended_next_session"] == "S005"
+assert state["last_completed_session"] == "S005"
+assert state["recommended_next_session"] == "S006"
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
@@ -42,7 +42,7 @@ for sid in source_ids:
 for c in claims:
     assert c["id"] in claims_md
 next_prompt = (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text(encoding="utf-8")
-assert "S005" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert "S006" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
 for sess in ("S001", "S002", "S003", "S004"):
     assert (ROOT / f"sessions/{sess}/CLOSEOUT.md").exists()
 print("Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).")
@@ -69,13 +69,13 @@ print(f"S003 evidence hashes: {checked} files match.")
 assert (ROOT / "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md").exists()
 assert (ROOT / "outreach/2026-10-csernak-soukup/reply_draft_2026-10-13.txt").exists()
 assert (ROOT / "research/ASHSTAR_ATTACK_BRIEF.md").exists()
-assert "S005" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert "S006" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
 assert state["correspondence"]["authority"] == "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM"
 assert state["correspondence"]["next_reply"] == "DRAFT_NOT_SENT"
 assert any(x["id"] == "SRC-0010" and x["type"] == "PERSONAL_COMMUNICATION_OWNER_SUPPLIED" for x in sources)
 assert all(any(x["id"] == claimid and x["status"] == "SOURCE_STATED" for x in claims) for claimid in ("CLM-0028", "CLM-0029"))
 assert (ROOT / "sessions/S004/CLOSEOUT.md").exists()
-print("Author correspondence provenance and unexecuted S005 handoff: PASS (administrative only).")
+print("Author correspondence provenance and unexecuted S006 handoff: PASS (administrative only).")
 
 # S004 scope and machine mirrors: printed PASS must never promote universal ASH*.
 assert state["printed_form_phase1"]["status"] == "PASS"
@@ -89,7 +89,7 @@ plan=(ROOT/"sessions/S004/PLAN.md").read_bytes()
 assert hashlib.sha256(plan).hexdigest() == (ROOT/"sessions/S004/PLAN.sha256").read_text().split()[0]
 for name in ("INPUT.md","PLAN.md","AUDIT.md","CLOSEOUT.md"):
     assert (ROOT/"sessions/S004"/name).is_file()
-assert next_prompt in (ROOT/"sessions/S004/CLOSEOUT.md").read_text()
+assert (ROOT/"sessions/S005/AUTHORISED_PROMPT.md").read_text() in (ROOT/"sessions/S004/CLOSEOUT.md").read_text()
 checked4=0
 for line in (ROOT/"evidence/S004/HASHES.md").read_text().splitlines():
     m=re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`",line.strip())
@@ -121,3 +121,40 @@ assert sum(r["graph"].startswith("A7_") and r["mode"]=="clear" for r in rows)==3
 assert all(r["all_agree"] for r in load("evidence/S004/base_verification.json"))
 assert sum(r["independent_set_root_tests"] for r in load("evidence/S004/independent_witness_tests.json"))==233
 print(f"S004 scope, complete certificate metadata and {checked4} hashes: PASS (no universal or Lean certification).")
+
+# S005 precise completed scopes and full metadata closure.
+assert spec["s005"]["universal_stack"] == spec["s005"]["universal_clear"] == "OPEN"
+assert next_prompt in (ROOT/"sessions/S005/CLOSEOUT.md").read_text()
+for name in ("PLAN","PLAN_AMENDMENT_1","PLAN_AMENDMENT_2","PLAN_AMENDMENT_3","PLAN_AMENDMENT_4","PLAN_AMENDMENT_5","PLAN_AMENDMENT_6","PLAN_AMENDMENT_7"):
+    assert hashlib.sha256((ROOT/f"sessions/S005/{name}.md").read_bytes()).hexdigest() == (ROOT/f"sessions/S005/{name}.sha256").read_text().split()[0]
+for name in ("INPUT.md","AUDIT.md","CLOSEOUT.md","CONTINUATION.md","AUTHORISED_PROMPT.md"):
+    assert (ROOT/"sessions/S005"/name).exists()
+rows5=load("evidence/S005/campaign_summary.json")
+v5=load("evidence/S005/verification.json")
+assert len(rows5)==len(v5)==len(load("evidence/S005/graphs.json"))
+by5={r["file"]:r for r in v5}
+for r in rows5:
+    path=f"evidence/S005/{r['graph']}_{r['mode']}.bin.xz"
+    v=by5[path];assert v["threshold"]==r["threshold"] and v["layers"]==r["last_layer"] and v["all_equal"]
+    assert hashlib.sha256(lzma.decompress((ROOT/path).read_bytes())).hexdigest()==r["certificate_sha256"]
+    if r["threshold"]:
+        assert r["eligible"] and v["critical_AS_count"]>0 and v["nonAS_Qmax"]==0 and v["lex_max_is_AS"]
+        c=v["critical_AS_witness"];assert sum(c)==r["threshold"]-1 and sum(x>1 for x in c)<=1
+    if not r["eligible"]:
+        assert r["graph"]=="C8_leaf" and r["mode"]=="clear" and r["threshold"] is None
+assert sum(not r["eligible"] for r in rows5)==1
+summary5=load("evidence/S005/analysis.json")
+assert summary5["total_cases"]==len(rows5) and summary5["eligible_cases"]==len(rows5)-1
+assert summary5["exact_threshold_cases"]==sum(r["threshold"] is not None for r in rows5)
+assert summary5["Q_counterexamples"]==summary5["ASHstar_counterexamples"]==0
+pure=load("evidence/S005/pure_theorem_tests.json")
+assert pure["pure_tests"]==8619 and pure["root_graph_cases"]==665 and all(r["all_agree"] for r in pure["rows"])
+checked5=0
+for line in (ROOT/"evidence/S005/HASHES.md").read_text().splitlines():
+    m=re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`",line.strip())
+    if m:
+        assert hashlib.sha256((ROOT/m.group(2)).read_bytes()).hexdigest()==m.group(1),m.group(2)
+        checked5+=1
+assert checked5>=2*len(rows5),checked5
+assert not list((ROOT/"evidence/S005").glob("*.bin"))
+print(f"S005 metadata, source scopes, {len(rows5)} certificates and {checked5} hashes: PASS (universal ASH* OPEN).")

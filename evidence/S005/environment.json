@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "seconds": 1173.6120338469998,
+  "continuation_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "continuation_platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "compiler": "g++13.3.0 Ubuntu24.04",
+  "producer_source_versions": {
+    "original_reconstructed_after_eligibility_insertion": "a8b69cb85c8c15b87e53daadfdcb969876c6c00637934e4f469ddcf5ddab277c",
+    "eligibility_detection_version": "31ffd769a0044f16ffac54859d69f8a9ca22f6e9c9d36e29a5baa430ceeb5000"
+  },
+  "binary_format": "little endian uint32 mass / uint64 count / uint128 states, 8-bit vertex fields",
+  "original_run_date": "2026-10-13",
+  "continuation_date": "2026-10-14"
+}

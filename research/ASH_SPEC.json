@@ -4,7 +4,8 @@
     "access": "STATEMENT_INSPECTED",
     "proof_inspected": [
       "Lemma 4.7",
-      "Theorem 5.2"
+      "Theorem 5.2",
+      "equation4.10 and three-pebble reduction observation"
     ],
     "submitted": "2026-10-07",
     "paper_date": "2026-10-08",
@@ -32,7 +33,10 @@
     "move": "along edge u to v, c[u]>=2, c[u]-=2,c[v]+=1",
     "almost_stacked": "exists v0, forall u!=v0, c[u]<=1",
     "stackable": "reachable singleton support",
-    "clearable": "reachable total 1"
+    "clearable": "reachable total 1",
+    "proof_inspected": [
+      "Theorem6.1 rooted odd-walk lower bound and internal claim (S005 continuation)"
+    ]
   },
   "october_vs_april": "identical hypothesis content; estim equal for |V|>=2 (sigma=1+rho), October adds K1 value 2",
   "literal_form": {
@@ -124,7 +128,7 @@
     "date": "2026-10-13",
     "source_id": "SRC-0010",
     "provenance": "complete incoming message pasted by owner; raw headers unavailable; do not reproduce verbatim in public repo",
-    "claim": "Tamás Csernák confirms intended conjecture is critical form ASH*, and stronger printed form is false",
+    "claim": "Tam\u00e1s Csern\u00e1k confirms intended conjecture is critical form ASH*, and stronger printed form is false",
     "atlas": "Author report retained; complete n7 programme replication now S003+S004, not a proof beyond finite atlas.",
     "published_correction": "NOT_VERIFIED",
     "report": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md"
@@ -137,5 +141,53 @@
     "universal_phase1": "IN_PROGRESS",
     "independent_witness": "(2k+1)e_r + singleton pebbles on independent I minus r, |I|=k>=2, mass3k, not stackable",
     "research": "research/S004_ASHSTAR_ATTACK.md"
+  },
+  "s005": {
+    "research": "research/S005_ASHSTAR_EXTREMA_AND_ROOTED_CLEARING.md",
+    "pure_clearing": "N e_r clears iff N%3!=0 or N>=3*2^h(r); h=(odd(r,G)-1)/2, lower bound already April Thm6.1",
+    "acyclic_balance": "sufficient for legal schedule, not necessary for exact clearing (K3 at6e0)",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "novelty": "NOT_AUDITED",
+    "finite_campaign": {
+      "total_cases": 341,
+      "eligible_cases": 340,
+      "exact_threshold_cases": 337,
+      "cutoff_cases": [
+        {
+          "graph": "A8_00004",
+          "mode": "stack",
+          "last_complete_mass": 82,
+          "scope": "TIME_CUTOFF"
+        },
+        {
+          "graph": "triangle_tail6",
+          "mode": "stack",
+          "last_complete_mass": 54,
+          "scope": "TIME_CUTOFF"
+        },
+        {
+          "graph": "triangle_tail6",
+          "mode": "clear",
+          "last_complete_mass": 47,
+          "scope": "CANDIDATE_CUTOFF"
+        }
+      ],
+      "ineligible_cases": [
+        {
+          "graph": "C8_leaf",
+          "mode": "clear",
+          "last_complete_mass": 10,
+          "scope": "BIPARTITE_REACHABILITY_ONLY"
+        }
+      ],
+      "certified_losing_states": 133405188,
+      "completed_critical_Q_cases": 337,
+      "Q_counterexamples": 0,
+      "lex_counterexamples": 0,
+      "ASHstar_counterexamples": 0,
+      "producer_compute_seconds": 646.044730536,
+      "replay_seconds": 1317.0716501880004
+    }
   }
 }

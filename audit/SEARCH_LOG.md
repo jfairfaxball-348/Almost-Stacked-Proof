@@ -26,3 +26,6 @@ Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms
 ## S004 current source check, not Phase2 novelty
 
 2026-10-13 direct current arXiv abs/PDF fetches for2610.09650 and2604.22341; bothv1 only and exact previous PDF digests. October Hyp3.2 / April Hyp9.1 re-read, unchanged. Web verification query `arxiv 2610.09650 Almost Stacked Hypothesis Csernak Soukup` with recent filter surfaced the primary current source. No comprehensive erratum/priority search was performed. Author summary remains SRC0010, not a posted erratum. The new AS witness/family result has no novelty claim.
+
+## S005 source reconciliation — not Phase2 novelty
+2026-10-13 current abs/PDF fetches bothv1, same hashes. 2026-10-14 fresh PDF retrieval and proof inspection of April Theorem6.1's rooted odd-walk claim and October equation4.10. The proposed exact pure-pile theorem's lower half is this prior claim, and residue1/2 clearing is the October observation; credited explicitly. Matching equal-level construction and alternative ancestry proof recorded without novelty assertion. No comprehensive prior-art search or published erratum inference.

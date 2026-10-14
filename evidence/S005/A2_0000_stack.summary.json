@@ -1,0 +1,44 @@
+{
+  "graph": "A2_0000",
+  "n": 2,
+  "mode": "stack",
+  "cap": 200,
+  "field_bits": 8,
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 3,
+  "last_layer": 3,
+  "seconds": 9.8628e-05,
+  "rows": [
+    {
+      "t": 1,
+      "candidates": 2,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 2,
+      "candidates": 1,
+      "losers": 1,
+      "as_losers": 1,
+      "Qmax": 2,
+      "nonAS_Qmax": 0
+    },
+    {
+      "t": 3,
+      "candidates": 2,
+      "losers": 0,
+      "as_losers": 0,
+      "Qmax": -1,
+      "nonAS_Qmax": 0
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ]
+  ],
+  "certificate_sha256": "250084381f36b2dff4706b414f8637cf92445817b5be57f3165da9178b76b06f"
+}

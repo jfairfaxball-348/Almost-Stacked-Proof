@@ -223,7 +223,7 @@
     "sources": [
       "SRC-0010"
     ],
-    "claim": "Owner-supplied 2026-10-13 message from Tamás Csernák (cc Lajos Soukup) confirms intended statement is critical form ASH* at largest bad layer, stronger printed pointwise claim false, and describes upward losing-layer propagation; not a public erratum, universal theorem, or independent certificate verification"
+    "claim": "Owner-supplied 2026-10-13 message from Tam\u00e1s Csern\u00e1k (cc Lajos Soukup) confirms intended statement is critical form ASH* at largest bad layer, stronger printed pointwise claim false, and describes upward losing-layer propagation; not a public erratum, universal theorem, or independent certificate verification"
   },
   {
     "id": "CLM-0029",
@@ -233,7 +233,7 @@
       "SRC-0007",
       "SRC-0009"
     ],
-    "claim": "Tamás Csernák reports complete n<=7 computations and ASH* holding (SOURCE_STATED). S004 separately independently completes S003's missing 8 stack/3 clear cases, so combined programme order-seven coverage is now 853/853 and 809/809; author testimony is not itself the computation."
+    "claim": "Tam\u00e1s Csern\u00e1k reports complete n<=7 computations and ASH* holding (SOURCE_STATED). S004 separately independently completes S003's missing 8 stack/3 clear cases, so combined programme order-seven coverage is now 853/853 and 809/809; author testimony is not itself the computation."
   },
   {
     "id": "CLM-0030",
@@ -275,16 +275,17 @@
     "sources": [
       "SRC-0011"
     ],
-    "claim": "Selected labelled larger graphs: C9 stack37 clear46; triangle with length-five tail stack128; two triangles joined by length-three path stack=clear36. C10 cutoff after exact t16, triangle-tail clear>140 but undetermined. All completed layers independently replayed."
+    "claim": "Selected labelled larger graphs: C9 stack37 clear46; triangle with length-five tail stack128; two triangles joined by length-three path stack=clear36. C10 cutoff after exact t16, triangle-tail clear>140 but undetermined. All completed layers independently replayed. Historical S004 cutoff C10 and triangle-tail clear completed independently in S005; see CLM-0046/AUDIT."
   },
   {
     "id": "CLM-0035",
     "status": "HEURISTIC",
     "sources": [
       "SRC-0011",
-      "SRC-0012"
+      "SRC-0012",
+      "SRC-0014"
     ],
-    "claim": "Every global square-potential maximizer on the critical losing layer might be AS; all maximizers are AS in 50 n<=5 graph/goal cases and19 S004 complete frontier cases. No proof. Local convexity and minimum-support-all-AS fail on P3."
+    "claim": "Global critical-layer square-potential selection is unproved: every Q maximizer AS survived S004 and completed S005 finite challenges, including every connected n<=6 graph. Strongest, existential and mixed-tie variants distinguished; ASH* itself OPEN."
   },
   {
     "id": "CLM-0036",
@@ -310,5 +311,75 @@
       "SRC-0012"
     ],
     "claim": "Rooted clear configurations are exactly binary ancestry-language vectors; rooted stack configurations are finite nonempty sums of them, with legal postorder realization (S004 Proposition17). Balance equations alone are insufficient (K3 terminal all ones)."
+  },
+  {
+    "id": "CLM-0039",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0001",
+      "SRC-0002",
+      "SRC-0013"
+    ],
+    "claim": "Exact pure-pile clearing: on connected non-bipartite G, N e_r clears iff N%3!=0 or N>=3*2^h(r), first equal-distance edge height h. Prior rooted odd-walk lower bound credited; matching path/edge ancestry construction; no novelty/Lean claim. Bipartite multiples3 never clear."
+  },
+  {
+    "id": "CLM-0040",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0002",
+      "SRC-0013"
+    ],
+    "claim": "First equal-distance edge height h(r) satisfies odd(r,G)=2h(r)+1; ASH*-clear holds when the cited odd-walk lower bound clear=3*2^max(h)-2 is attained. No arbitrary upper bound or odd-cycle equality inferred."
+  },
+  {
+    "id": "CLM-0041",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0013",
+      "SRC-0014"
+    ],
+    "claim": "Nonnegative integer move balance with acyclic support is legally schedulable, but acyclic certificates are not necessary for exact clearing: K3 at6e0 clears and admits no such balance certificate."
+  },
+  {
+    "id": "CLM-0042",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0013",
+      "SRC-0014"
+    ],
+    "claim": "Two-site geodesic stacking obstruction is false: triangle1-2-4 with tail4-3-0 stacks (1,13,0,0,0), distance(root1,singleton0)=3; legal trace independently replayed. Bounded test506 ordered pairs n<=5 found3 failures, none at smaller orders; not ASH* counterexamples."
+  },
+  {
+    "id": "CLM-0043",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0001",
+      "SRC-0013"
+    ],
+    "claim": "Support-preserving +3 closure: winning c with c(w)>=1 implies winning c+3e_w via source equation4.10; fixed positive support/residue losing sets are finite lower sets. This alone does not force AS extreme holes."
+  },
+  {
+    "id": "CLM-0044",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014"
+    ],
+    "claim": "Complete S005 critical-layer square/sorted-pile extremum tests on every connected n=2..6 graph and the explicitly completed larger sample; all Q maximizers and lexicographic pile maxima AS. Finite scope only; conjecture HEURISTIC."
+  },
+  {
+    "id": "CLM-0045",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014"
+    ],
+    "claim": "Independently replayed finite S005 pure-pile clearing tests: 8619 piles on665 root/graph cases, all agree with theorem prediction; this supports but does not prove the universal classification."
+  },
+  {
+    "id": "CLM-0046",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014"
+    ],
+    "claim": "Exact S005 C10 stack63; triangle-tail5 clear190; tail4 64/94; C5-tail3 64/94; two-triangles-path4 68/68; C8-leaf stack63. 337 threshold-complete cases, three eligible cutoffs and one ineligible bipartite sanity run; complete labelled layers independently replayed; no Lean/universal certification."
   }
 ]
