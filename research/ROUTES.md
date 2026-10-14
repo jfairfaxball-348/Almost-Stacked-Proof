@@ -25,3 +25,7 @@ R-G complete sparse recurrence produces certifiable thresholds but does not forc
 
 ## S005 outcomes
 R-A/R-D: exact pure-pile clearing classification via rooted odd-walk height and ancestry, with prior lower bound credited; no general threshold upper. R-C signed leaf normalization needs deferred legal debt. The stronger two-site geodesic stack witness is refuted on triangle-tail n5. R-D/C acyclic balance schedules legally but K3 pure6 proves exact clearing may require cycles. Support/residue +3 lower sets give an exact extremal-hole formulation; general lower-set axis arguments fail abstractly. R-B global Q and lexicographic pile extrema survive the complete finite sample, no proof. R-E exact C10 and five-tail clearing frontiers completed; larger explicit cutoffs retained. S006 targets universal cross-class hole selection and genuine rooted interfaces.
+
+## S006 outcome and remaining routes
+
+Rooted min-plus unary grammar, arbitrary fixed-buffer tree/forest interface and finite rooted bound proved; general-versus-binary extremal domination remains the first unsolved universal implication. Fixed-residue concentration fails on P3; scalar leaf balance/core clearing fails both ways. A symbolic uniform cyclic-family upper and cross-class grammar dual are still PROPOSED. Exact whole-graph interfaces are not constant-size compositional block messages. S007 is FUTURE, not authorised by this note.

@@ -1,0 +1,29 @@
+{
+  "inherited_pairs": 341,
+  "eligible": 340,
+  "exact": 337,
+  "cutoffs": [
+    {
+      "graph": "A8_00004",
+      "mode": "stack",
+      "last_layer": 82,
+      "scope": "TIME_CUTOFF"
+    },
+    {
+      "graph": "triangle_tail6",
+      "mode": "stack",
+      "last_layer": 54,
+      "scope": "TIME_CUTOFF"
+    },
+    {
+      "graph": "triangle_tail6",
+      "mode": "clear",
+      "last_layer": 47,
+      "scope": "CANDIDATE_CUTOFF"
+    }
+  ],
+  "all_inherited_scope_metadata_agree": true,
+  "previous_atomic_head_and_ordinary_merge_verified": true,
+  "all_entry_branch_heads_ancestors_of_main": true,
+  "source_entry_prompt_matches_git_blob": true
+}

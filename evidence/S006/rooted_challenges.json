@@ -1,0 +1,5106 @@
+{
+  "graphs": [
+    {
+      "graph": "A2_0000",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "cap": 5,
+      "last_layer": 5,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 2,
+          "rooted_winning_configurations": 2,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "161272f4b49891b6a662f49ebe8d363745d9eee38456c8473c36988b399815da"
+        },
+        {
+          "mass": 2,
+          "configurations": 3,
+          "rooted_winning_configurations": 2,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "aeb095b078b43ba378430ad910c2e4f51eb85f37299a1b25c06560d61528ba33"
+        },
+        {
+          "mass": 3,
+          "configurations": 4,
+          "rooted_winning_configurations": 2,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c9f57b8f3b9780980896c34741dc283cbf9141ff7186d5422cba6a6200bc9c89"
+        },
+        {
+          "mass": 4,
+          "configurations": 5,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f9c8222aac86cc345b1d16fdb8518b616c5841c118bff0943ff3c0284c51a448"
+        },
+        {
+          "mass": 5,
+          "configurations": 6,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1fc1a174161c9964101ea44c1f68a898c296359c5abc03710a5e9dbb6f42db4d"
+        }
+      ]
+    },
+    {
+      "graph": "A3_0000",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cap": 7,
+      "last_layer": 7,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 3,
+          "rooted_winning_configurations": 3,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d4131273e8435333eae3a840ebcac5d5cf50e005ff7ab1e229487c9212a4636d"
+        },
+        {
+          "mass": 2,
+          "configurations": 6,
+          "rooted_winning_configurations": 3,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ea68c2ad3dbb614cc03f27663463792f06e3120c39fc9b8e6d2a38c5b962153b"
+        },
+        {
+          "mass": 3,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "dab64ab6cad8754a2d6d4eb431f8de7dcdf1cbe165169ae59c89b3d4b917f9e0"
+        },
+        {
+          "mass": 4,
+          "configurations": 15,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "30280101f1e55a63ac668c821aa8a9c0a150406e75421f62d6e281dae4c3c92c"
+        },
+        {
+          "mass": 5,
+          "configurations": 21,
+          "rooted_winning_configurations": 14,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6879dbc6dbe8259441420b28fb30e895e01e250569ce4553909b8275ead8affd"
+        },
+        {
+          "mass": 6,
+          "configurations": 28,
+          "rooted_winning_configurations": 16,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4d688e46c8c09a70bd1a958c0a9578c73e87590d2615ed19fa05c43b0cde7958"
+        },
+        {
+          "mass": 7,
+          "configurations": 36,
+          "rooted_winning_configurations": 27,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5aec25eec69f7b487f7bd5dd71971c16f4fa094ed791cd89b66fc52461d89c67"
+        }
+      ]
+    },
+    {
+      "graph": "A3_0001",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 3,
+          "rooted_winning_configurations": 3,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d4131273e8435333eae3a840ebcac5d5cf50e005ff7ab1e229487c9212a4636d"
+        },
+        {
+          "mass": 2,
+          "configurations": 6,
+          "rooted_winning_configurations": 3,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "41a5b9b7aaca12cb174abb0fdda17bfead34f5681feaabdff0f8470b1dbb7f9a"
+        },
+        {
+          "mass": 3,
+          "configurations": 10,
+          "rooted_winning_configurations": 6,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ff33b4f6a1f44039158596d1a930266a16a551186a745cc222ed111df083be08"
+        },
+        {
+          "mass": 4,
+          "configurations": 15,
+          "rooted_winning_configurations": 15,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a5ee91d6f6f80846ff47d038fd003cbf0aab725e2a2cc6d0a1b1277ee0eb4d9d"
+        },
+        {
+          "mass": 5,
+          "configurations": 21,
+          "rooted_winning_configurations": 21,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4b0f6168eb418f3e9c73f516850f8d2938630897106f7658d81d9303188f32c4"
+        },
+        {
+          "mass": 6,
+          "configurations": 28,
+          "rooted_winning_configurations": 28,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f18623e942478729d0c5159ce563c5adc6df1ce282bcb4cd74680a7400f9a204"
+        },
+        {
+          "mass": 7,
+          "configurations": 36,
+          "rooted_winning_configurations": 36,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "edefb65cad26b86d3cfb790582357e5dc0e11a449e6d73800e54325b0cea8e9c"
+        },
+        {
+          "mass": 8,
+          "configurations": 45,
+          "rooted_winning_configurations": 45,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "96f3bf1a5ad07ef04ae3aff9224f76c7f6df122d85546b51d91ae16d48732162"
+        },
+        {
+          "mass": 9,
+          "configurations": 55,
+          "rooted_winning_configurations": 55,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "22885201d8f23c5f653d195766075cd8de76c47ec8c1d691e5de1ba5464170d2"
+        },
+        {
+          "mass": 10,
+          "configurations": 66,
+          "rooted_winning_configurations": 66,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f3371f645cc98f10c6fa4c87942aa13d4c086441864191fbfea6534d7c634fd3"
+        },
+        {
+          "mass": 11,
+          "configurations": 78,
+          "rooted_winning_configurations": 78,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f67a71d15ebef67c5b8fdf00f46cb855e00834617f0333c6fe01f337f1d27ad6"
+        }
+      ]
+    },
+    {
+      "graph": "A4_0000",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cap": 7,
+      "last_layer": 7,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "53aaf5f5cba466e560ee4ebbabdbfea2f7babd400a579b39ef88c46d41d75468"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 8,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a0297c41bafcac9736b153f9e94321a0d6580dd125ab6e22ff02b8f42f317c34"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 22,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "090617265d0294e6b35dc31c92ab87e3100a6a14667d176012c9d0659421606b"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 36,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "06d4bb88349dcf76763a640339cb934ab81d2222b3dac9cf4e78dad1a110261f"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 54,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2ffd97a53d0cff37e89c74902784187c2db381135e5a058580541816fcd283a7"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 84,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "65d15cdfb893266d92ab11db097adcb1e165e554339198f112491e96198712f4"
+        }
+      ]
+    },
+    {
+      "graph": "A4_0001",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b55c40384610c94764b82353bbb49b30c395083359844d801190ce5f193e6cd8"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 6,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d4af9fcb298e028266db7d15cc0c0a7c246b60d3e3815cb0c5dde507b65d2621"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 16,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5bc5ee7896b11aea09d35def514d2bd60d4f9c0a00ed97cb998ba9c8298519e4"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 28,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "15161645ed27a4b697f1dc3693e75fd2e225153882932a0c5687a89f5f6a1e1d"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 44,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e73c1a4beb58ca796b01f4eba530bb8487203391fc551d166f0ad7cd5d3c63ea"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 76,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04af88d331f0eb3f766a9e86a3041b6ab25d5a970fed17dc35954cad5a736cbf"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "rooted_winning_configurations": 104,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9b29e65c5e3639fb40afc86de3b0658fa340c762de683f7d3a079067f32d9e82"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "rooted_winning_configurations": 142,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bdae3fcf2de0989d69e4fada341de2e3b72a63bf656ac9a8f43efb20ad9b8831"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "rooted_winning_configurations": 194,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c34316a51e9f75ed8e0d2c54b3f3cd3b1cb197a61a5c66a8a7061ef54a05ec0e"
+        },
+        {
+          "mass": 11,
+          "configurations": 364,
+          "rooted_winning_configurations": 240,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0912092601ef209ee752c6b00f5f079ca59f7c106bda07fc5fd2edffc6b60c50"
+        }
+      ]
+    },
+    {
+      "graph": "A4_0002",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cap": 7,
+      "last_layer": 7,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "50c8e2b6116e4addfb88320d62584b78549853bad906057569d15634cfc38bcb"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 6,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1a32c9e29d5b2a7000638dddfa9c85d1babcb8830bf04442af1886311f131e97"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 19,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c6a6bd2567e79d158139da5b1ef867bf8e3c89acb70d2ed2a8bc7be9ac6bf909"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 34,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "eb946cf3ed94a89d2c341c7be41d1a8fedd3d770dbdfded9200f9d8ed7f381f4"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 42,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "01f82cbc47729a7fca6926aa6e74fe17a3318ef10de1b75c7a5501bc9274b66e"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 87,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "dcffaf4aaca2114435caef8ae8df21647ca5a988a716d8e66ea89e717263adc4"
+        }
+      ]
+    },
+    {
+      "graph": "A4_0003",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2ef64de5ba7049d1176481cc6e5177c73351bf86f77ab46386c2258c574c4087"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 8,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9a7bb6986152b1c533ff7a801a63b6a171ede046c5d52f46586a6b59aa60b0d5"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 24,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ed3032342101b20decfdf0b8330c52686145b1ed491dc6055dc107ec9473643d"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 46,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e49a3a9934442e6fdb08a0cea9a0aed183998c5e57585b3e7cc06c2f569ef212"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 75,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9276b5566570af7b0d0b5d149d66da2c7685c22ee033e5a88fdc13ee03301e73"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 118,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d3089cdbc2dc9339839125fdc5909546fe53a8169ff37da045aca5986e8813a"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "rooted_winning_configurations": 164,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f7ef28b13d8b95f859eb83606b88f36d3d67056369cf679939a9cf91f0eb8193"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "rooted_winning_configurations": 219,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1ca2209e14773e9873fc1badebea06b73e191e8931eb80bb2663ff97cf86c1fb"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "rooted_winning_configurations": 286,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e27cf2c2c0c0e14db4db5988bc555f43f4cfd9ac4d2f790a1e148eecae0f0359"
+        },
+        {
+          "mass": 11,
+          "configurations": 364,
+          "rooted_winning_configurations": 364,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "21c2aff93f8c2ab5a4ae319fc24d7068ef9229969e52c7ab22f7a23b73087a2e"
+        },
+        {
+          "mass": 12,
+          "configurations": 455,
+          "rooted_winning_configurations": 455,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6f3bf7222d34ea74b02d5aa5fedfabc197b5ee7932a06e97c0e617b92c889388"
+        },
+        {
+          "mass": 13,
+          "configurations": 560,
+          "rooted_winning_configurations": 560,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "15e1a5122ef69e2b5f7227575c3c7c0eb07c5df5760f3bfce2fe057f5c8b57b5"
+        },
+        {
+          "mass": 14,
+          "configurations": 680,
+          "rooted_winning_configurations": 680,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bc1fed0bf26c6933ee844d92db97231d8b9ca5f445bd9e084e19be5b5b0424d3"
+        },
+        {
+          "mass": 15,
+          "configurations": 816,
+          "rooted_winning_configurations": 816,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "01903195f15092e9c1d9778611285a940e0811b9015110811d20c554900ef988"
+        },
+        {
+          "mass": 16,
+          "configurations": 969,
+          "rooted_winning_configurations": 969,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ae1968d28e5f1682050a4965a87ffc714187a26d8130b4c8d672554d50907f91"
+        },
+        {
+          "mass": 17,
+          "configurations": 1140,
+          "rooted_winning_configurations": 1140,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c50a7c8c8cc4971c81dc3fce473246e95e19e2509309eb37c0dff5ba6c6c593c"
+        },
+        {
+          "mass": 18,
+          "configurations": 1330,
+          "rooted_winning_configurations": 1330,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9e73f9889cbc97aa6ad91a7f60df5ae3ca66561b6de7609ac17890c0bc4c696c"
+        },
+        {
+          "mass": 19,
+          "configurations": 1540,
+          "rooted_winning_configurations": 1540,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "19e818f041f6b044e5f459434ea9fc1e8df6a6d4f19a5899112fa14dff855054"
+        },
+        {
+          "mass": 20,
+          "configurations": 1771,
+          "rooted_winning_configurations": 1771,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d45c3bfa4cc6b61a9d8b9892512f6372fe4f15c9619a3f95e38be78d64bb2ae5"
+        },
+        {
+          "mass": 21,
+          "configurations": 2024,
+          "rooted_winning_configurations": 2024,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3c07acbaa678a533cb7baa436bbd3e0fb90f1ac60ca5d9f09eb5bac7dcc9f41a"
+        }
+      ]
+    },
+    {
+      "graph": "A4_0004",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fb0a43b12bd8474e951ea70f4ff9dba90540b2d6259a8647ce2796690255586d"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "750358322f01e02d6cbedd6e57bd7c8a82b88072f4f780085d1a2299f35c6cbc"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 30,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "67389d9bba259f01cde277cb1ffd87f34c7f28e40c4771b767d25d0c0ea74a7d"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 52,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "300517eb8e7906f1836c325181377a70ebfbfb25ed1ccba7a7089a46e831ab07"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 81,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "107517792663c6ad5ba4fe13022d530bc2a7a9ce5130f69ce58796b38cf542d0"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 120,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9d460e7ca555a5f3b120278c4338e539a5507834a1e336843a5c2241b42c4069"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "rooted_winning_configurations": 165,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b3a623d10f441d60b914726f5322f1bd66aaf8498a7a128715c4220b5a3d4c94"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "rooted_winning_configurations": 220,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1fa229164992867fec84d6205151f88fee2e886500ada056591de1b563f87bd7"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "rooted_winning_configurations": 286,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a959876b13ef7cca641f45ebb3a6f029a38e5727276abef15713d146d9525897"
+        },
+        {
+          "mass": 11,
+          "configurations": 364,
+          "rooted_winning_configurations": 364,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7c73ae51c4a07ee3602256160fbd75a97ffb433385e17a881c7129bc03c461c3"
+        }
+      ]
+    },
+    {
+      "graph": "A4_0005",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "40b672ee1424678a455f3b71f012e69e0240bbba0ab8dd9ee7801821835b2c95"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "72e4dac0892c5c7dbcca8241c150882579a01bbee97196a38a0c87b857dd8c75"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 34,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7126ba350d19045d4bd15ead4bf499308350467046020b21b181a7d3bb516b81"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 56,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4649809e73e25bfe70494919a2744a164713012dc209a58e560abdf82d73abdc"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 84,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "553bf8c726207e9ce388e657e44b3fa18a2ad66c6f3242851d3cc74ee93631d9"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 120,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "57978f2aa27d35a9a1a74141ea77e1379271d6bade3b5fd0152ce5137e390c85"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "rooted_winning_configurations": 165,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3265c4ad357cbee49fe436139309361f190dcadd252397e3e2f2356adaed7372"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "rooted_winning_configurations": 220,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1fa229164992867fec84d6205151f88fee2e886500ada056591de1b563f87bd7"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "rooted_winning_configurations": 286,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a959876b13ef7cca641f45ebb3a6f029a38e5727276abef15713d146d9525897"
+        },
+        {
+          "mass": 11,
+          "configurations": 364,
+          "rooted_winning_configurations": 364,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7c73ae51c4a07ee3602256160fbd75a97ffb433385e17a881c7129bc03c461c3"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0000",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f9646715e343b558060064218a8927905ef9b443a1e06c17c8bbfb914c9c855b"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "408eec676b8880e0630ba16fc9e6b7658009c894206e8fc200ac4ac3a8bc7980"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 30,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "256fca838eb8dac93e04c0419feac83a2d57638456e7ed716752e28abacd245a"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 70,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0323daca809961f911508999957f3bd09bb0b10883bf15be710bcae467944fcd"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 150,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4d3a62355e2c36c7d9a6571db9f42b3d3edd0882ac5539e7d2bfe806790b618a"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 300,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a05be193b16e963eccd948c43076f6bf1950c70cdd82796c214401c8d8c0cda3"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 480,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f48487f0079e742d80404e8f6a7fcf9fdd23b88da08f019525b4a021e176fad3"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 710,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "651df002a0ad124ff0f321e06ac98930fa955babd5c27830403829d8f44a6a56"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8b25bbc08b29bf1adcbea5453ad3fda331e24c638a9095f425e488f4cf682f2b"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "dc56d6b61d9bba27cc872b93286025978510020bba89a1d2aeaf6166d8a72c78"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1820,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fec19ec3126da24963612eb9b3a946c5fff340de25ea1e9f90c320565137ed46"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2380,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3ef6d3fdbbdfc00daf5b6f670e22bb51b91bf9690ed67397b58ef216cd02d346"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3060,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2e7fb35fd689dbb1c7112b87580d223e529c564e6427a6720f7b29b1c90107d9"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "44d88328f5d4101ecca3cd6527ab6e9dd8aa247720249ff2c7797e7a1194b624"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b9dae91f5be0ec5076092e96f667e5aee13fab6898f0103417cdd4d07ab2e120"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ed29ca519e893897e45e2cd089cc54b263faecf4e9aa7d47e2f2ad016e29597"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "02fc14f81606adf33d6091fc9c55d83c8441f290491807140618979f92f502fb"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a921400a18a99602e999b8647df96754fd46b46c3e1155c3689419fab467510"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "39ad2a79bed36889827ef0859d10fd09d1e638dbe9f2208e6d1253c1dc34faf6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0001",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "cap": 19,
+      "last_layer": 19,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "15db5c284c1be3d2ad0c814b36517656d43729461dbab6ae0e7cd9ee644fa820"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 8,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "15427a7628b12c4fc82d58744c82583d59c09340363e43765ae3dbb345d3e943"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 22,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b8c254252ce76f2216d799697aacd9d29686d5658cb2622ba5f451041fe2d525"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 42,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "05ac47909c4281fccec8e71ca244862d6a0b12038835e6ea9e14d54271a197a5"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 77,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4538cc79c30678bb1e5f2646259d2cef2c34b73cf04bc99b6a48facd4b0b9d3d"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 154,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ae8ccb9b840573cf812978c2b162ecc425cfec9a17f985cd150bd62c2c74bc17"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 250,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c1050c0e260fda37c47a48e9d875442cd2c9de0b8318d5c5812c8475dcda7863"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 395,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7d53d84faa304624fa53b4d904f9049694352e92ff5d7096a37e60b4b08c6e92"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 615,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5eaee82d34cf00522860b1de9c9bf5f1d5ea011a01870e2e8dfe60d43d5492ee"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 853,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e809224f778ab799bed6ea4d151897c64a87d9f6141e5b73d4c686fbd9931ca9"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1160,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "faa7b1ffdfc9220bc1d4426443a663af8461843f9aafac09af480edfb28f9de0"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 1581,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ad98565e6ed425569fad60d84accf93be44404083f52652cf16e4fd75671f755"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 2005,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "81be7f44f9946dbb615700d3195e33f1709f7ba50fe8bdaa8a5d291234a763af"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 2549,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2e2170bb92480dbedcfcfe629d78794675fd538766594c925f22a3574f2aeecb"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 3256,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0e0080cc6d6b7be4fb2e47723deb19d618e1da0365f018cafd95fa7f1940ea8e"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 3963,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4596fb9bbe9846ea0d2d25172e09feca8c6cfd81de544a52722ac0b332ab40aa"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1f751e5637e636d366a0d40741ab0ee7829c21dfab0e311cf68702da3ba4c46a"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 5951,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d273e09bb4988efd7c8db696d5c71541f2806bd3ebcdc6655ffb9043de901ffe"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0002",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "caab4426e81fa481c247e6577e40a7f1cdffe72723a088a10276abb7f4c79ad8"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e2129131950ab4e1fc3e2d614671dba28f582e9de27626ab1231973f1bb5f079"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 31,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "43a7b04ae10f0cd8f51705650c9bc7e8927d1e6e2e6e20b9525b28525f2218b0"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 63,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8c5a90b77be88f080c31f179abeff5ea2d5378eb941e3c8dd73cd097a8a01808"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 113,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "61e5708afcb1f3b37a03c16a35db3e1217db4f58ce3858d9fd25b88d209c87bb"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 212,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d95ea1182b61309df82302f40b5b22908622c22e61d61af196610de3ddfcd096"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 318,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3e5739953cbfc5450b30195ef6872d87a8e728b904ca827e1051cda22075331d"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 465,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "25a0d371bb17c35a34dff392712cbf3ab0f3b482ee0276e5604cb90d73ff63ae"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 684,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1f7b5adf9746edc22ea33ab0a10b016bdc104c2a6aba7351b5632afc34722ccd"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 900,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7abb744a4b596efd89621502875691b72d10af3419bbd7c79009e3a939beec41"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0003",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "cap": 7,
+      "last_layer": 7,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c31d1ee50675b49a407d805f7be65c7d019124e0ee7848cf4bc20bdf554efc5f"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9d42f075b015cbd439235d753d5fc5a34df5bc1b3fbadf5eeb2be34358745b10"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 39,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3c2e4c613bf68204b970ba9c4051aa0c9f1bf1f1dc91816e253dd4c73f925119"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 75,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9955f751738833f4e3e657259701b4b74251f8a7d574b9e05eac1f490c2ea47f"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 129,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "64187a10bd3fc4e763db269434cd59d59ab3528bd97fb3cf30e090a4981444c2"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 225,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "269162b0db8ba53fa70d03eb9f3590869b67205a67d194296ad127ceb49496fc"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0004",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1604e9069d915e218a6e37d087d3caa5a3d32f98c59d8e84334d0bc7e9ffa8e9"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 14,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8745f12ab8e62e0f3b276ea5cd996913af5c874d587402ceb437abbdeef57858"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 47,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "15f414e29d9e725c85bae8a164f29ce4f1bdf7fb82c8fcf5ff87570b09f83905"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 101,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "acf167213b4516852667796a4a27da8a729546d01ae765d3cf07e5e2eb9e84f6"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 194,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b369e37755be964c9d89a09e0bcb24f3e9a18a40321c461a29f825f0146bc886"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 326,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4f2bcb223d8987b502dd0d8ad18a56c2d5268997989fda2652b6a49be52336be"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 493,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "100097731f4a05ad1ae0018dc5c9d8af15a7ac13526e03cc82c0e7ac71313a6e"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 714,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1de22bfe245c00b3ed1437d49420cff470f79ab718836412eac6a49de7a8f3e4"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ed053319733a65ec29cf590bdd6c4ba90269cbeb066cf619b015a9fa02133352"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "edd62acb534911c49fac0a63caa5ef3cf242456196b0c11dab259a220fea7fbb"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1820,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c008e91aff69577f6f2859b4f693a25e9ffbc4e949ecca7b0df08431c8737f3f"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2380,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ae4fa17c90980038153356f453aa6f43660e10a3137669eb4571c8ae2964e33"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3060,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "715074ce15202e6b0865d0156fb9bc71cb45207c76dc90259c11cb2c1965c4be"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a0770bd8c5f80abea6a2c4122248e38f8d4d74a19651e2a1731ed41911d411a3"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b9dae91f5be0ec5076092e96f667e5aee13fab6898f0103417cdd4d07ab2e120"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ed29ca519e893897e45e2cd089cc54b263faecf4e9aa7d47e2f2ad016e29597"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "02fc14f81606adf33d6091fc9c55d83c8441f290491807140618979f92f502fb"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a921400a18a99602e999b8647df96754fd46b46c3e1155c3689419fab467510"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "39ad2a79bed36889827ef0859d10fd09d1e638dbe9f2208e6d1253c1dc34faf6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0005",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "778acfb953758ba4ee091583d2e191622d0a9ad10afe596e3cc40d0de84b757f"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 8,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "34ea730e23883832f13b1dafffda57b900b7bc72a8793628219ded9f4b22a444"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 25,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1c95656dfc3f442ab58abbd739111d3fd091ccf6e33e37b8af76b6c6da15df5a"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 52,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9e31326d720038e5fea5228c964f32e90b15b90c3542b7024f683a5af48cec0f"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 90,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4d1510174cee4b522f977e9c0429b51a86c3379a1f6a62a16159d7198d641f08"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 179,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "56e7a6d4d51b154ab00ead65ffb599f87369fa83f6756280bd0eff2af1876419"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 282,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d24bdc7e64d66d3c51ce45f6646a616f3a4d8abd994070cc88c3623349bcdb7a"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 429,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "33f08e150c901af6833b58003d887215f8c56b1711ff1f7a9caf07633292bdda"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 651,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e70016dd6255982127f501253c8b833b01666515a56548e0f7005cfea8945525"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 883,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fc352787cb879ad6b4cd7631d101d1bfe1e49cccd331f73b8ac864595aeb5e58"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0006",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6eda4ed62ceb34915c4386f165311b8fc5a2312a622a1d18a4f255e24180a110"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "55af839ff90897b6acdcebe6d4cf05ca477580dd3ce826b46d3ce6027c809011"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 39,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b2dfc6f1bfee72ec7a293ecd013d24ab2bb9cab523e5c657aa068586c36e7bb1"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 89,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "28d91c4414a0efe4295b159fc7614f2301ac0d0d386a485918092559d7127547"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 180,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "826f2ae80124fb94c8335515ffd05df715d1dedf159fcb6d6e79e3a455df18d9"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 320,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0390df7037fc7ddb0c018ad5e371380c87495612caf1beb673508c69f0c6a7e3"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 491,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bb439c6b5d7270a6619dd3a8a1712edf6b8f5f3462e781531e15c8fe96d69a26"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 713,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "cdd08ae1a8bb9ca77476d7903486ac125ce98f0e219a377b9fbf16001419afdb"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4b2edcc0d8dec76160bad83b10c14eba994aef8cf2f110bc643878b17317c471"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "00af3eab6bc404e6375cf2d9d8782b503ef1c49c26aee5b198ebe9907bcd5ea8"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1820,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2caee204e11cbde47108d0e4c5ecd002985bf7a8f0b24c0ee7f231b9f6b8d513"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2380,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a4f8321b18a249ec5e74e3d126d1f9e3028486feeccd29a98ac5420de21aa72b"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3060,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b0ed9b4ffece82edc6830082c3fa67689a94d215c8a91740c46a8effe73a5f95"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "86e6d112c13396cf0a62c3d7782f70f1e0eafb5ccc55f721a0e5cf85b820381e"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b9dae91f5be0ec5076092e96f667e5aee13fab6898f0103417cdd4d07ab2e120"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ed29ca519e893897e45e2cd089cc54b263faecf4e9aa7d47e2f2ad016e29597"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "02fc14f81606adf33d6091fc9c55d83c8441f290491807140618979f92f502fb"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a921400a18a99602e999b8647df96754fd46b46c3e1155c3689419fab467510"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "39ad2a79bed36889827ef0859d10fd09d1e638dbe9f2208e6d1253c1dc34faf6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0007",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 7,
+      "last_layer": 7,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7a4bf30bdb44c402a3783119274758968369dc1d7ae345e2537be0888a7388e1"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 8,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0c5011302a8e78f0457772d31471feea21707b8a43a523d8cc6ff396bbd7ad9e"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 31,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7aa235deb32f502702afdf2a29b5211974e2ce14b1438aea8b99b184b3e97071"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 67,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "59bcd1f6c3b284b2360ade10864624ea46442d985bbd5b5716e94dfe66b6d791"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 88,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a2ca73f00a946cc4cafeb266c4d19083a6d9f4f7db9906b34e9292dd2350046"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 219,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a288c0a8af025813bb7a0c00e48a72bd2f6928fc6aaa6c88283f38b0cedf765"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0008",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 32,
+      "last_layer": 32,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a16219b32fea5de41ce64df504db33c72b4a9e64906a4b7d04fa4538d96d0a2d"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6426ff32ff54d01df7083bbc7eec4ab4f7fb5ce333113ac71efce5c7d3f36f20"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 30,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ca7a8f272477fee055e762cda36ad0745a8ae84c93e803909e68c0b6d3e31769"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 64,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5a8d6116cef1dee1fc49a25a79be3335d2d7e6e0a766628625900af75e97b074"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 130,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0cee51e5a60290f05878a6df0b5ed3c5ea54c0afa09f9b74aa0eb7de424cb608"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 252,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "82e11a8cd482094446159d02b53d03b03b473819f6f8326be0b12b87179c8583"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 426,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "55975c0b8a3e527dc4fbe4faff0ba1ecab315dde4546fbf3ee1a629ef7bf25a0"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 669,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "152dc75368feb918eb128d142f8bed2f40f261c919430f3fc6be23650f310978"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 974,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2967d2c16ede4517f5ad5c516d6dfd1dd727a505694a03c574fb9fd064f2457a"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1343,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f62313a920d8ab5178c7d932f291b9b337d3cc0fc410eb70ae8a39e01dd3c822"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1803,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "55f30ce2944558d82b9bf64e432b09e245332ad08128c95127bd8588c09f79c3"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2371,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "cdb7b985e3e16c6e9660e01782e2a2ac29837fc4d0dcabcf7407b43f0f1c0f04"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3051,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "71cbe6bbf9178e4c4935d80829d59131f36ef6313296bfc1abf0d43c21ba5e0f"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3869,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f34edef7e5715baf69e941658a1d2777f629e886bea514078d43b31e79e14f21"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4842,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6276042d343620b61d6e55bc44fe0b4f7c1d06c950443473944203f2cdbf4566"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5982,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1f8688aa23b085e6a0e2b33157f636f564de9a874965033a5b107d80e66c7a6c"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7312,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "177fbcee0df9e31443d8baa9ba309a909d8d1cd513f00c533b0b681f37f02d5c"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8854,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2138cbdfb155ea721a2f46a1dfd76e25422ff63473ce461593b89b4f9de2c0b3"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10625,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7f376f55883ad29e0cc30fd31c15383f02f7b78e4e9bb52a0cfe2da09d82ca49"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12649,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "323d9f7cac4a8d22cfbc767ceb2c7690f8ef4492e0fb5a20787454b029f9acee"
+        },
+        {
+          "mass": 22,
+          "configurations": 14950,
+          "rooted_winning_configurations": 14950,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d8b97a8417365ea0af2ccf848be254ead31e56a56b1f0828bd362e9a69588716"
+        },
+        {
+          "mass": 23,
+          "configurations": 17550,
+          "rooted_winning_configurations": 17550,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d53eff43b9c010aa5489e45eba191f75fee80f935665d8bcb20d1ab5dc882863"
+        },
+        {
+          "mass": 24,
+          "configurations": 20475,
+          "rooted_winning_configurations": 20475,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c18a79afe4c98f4ac4258625d53f7ca6dca926c3554c10d9ddb231c1802f1d2e"
+        },
+        {
+          "mass": 25,
+          "configurations": 23751,
+          "rooted_winning_configurations": 23751,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fa4ff75cc3ad1931e118104c524f6a99ca0fa1e8484b4031be6ed86f60960cf9"
+        },
+        {
+          "mass": 26,
+          "configurations": 27405,
+          "rooted_winning_configurations": 27405,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d8f49124d0f1aadafb85924a8882061f870fb8b7abb04eacf0d71597d4564965"
+        },
+        {
+          "mass": 27,
+          "configurations": 31465,
+          "rooted_winning_configurations": 31465,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "af8f18c852fb7ba5c4bb5574f0b610b1531b62ad68baca5ccceb459ef768fb36"
+        },
+        {
+          "mass": 28,
+          "configurations": 35960,
+          "rooted_winning_configurations": 35960,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fea7b0f03c579b862826e71c90dec1b08600c09312c11d7d1ca73cd5a2a1e7f4"
+        },
+        {
+          "mass": 29,
+          "configurations": 40920,
+          "rooted_winning_configurations": 40920,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "78e71c496ae9d5fd30cbd4fd41f5f4c47a5469aeefff2024916ed0ebfe67b044"
+        },
+        {
+          "mass": 30,
+          "configurations": 46376,
+          "rooted_winning_configurations": 46376,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a132005864d43c10f5d932a0e7511b695b81a80a267bb4e0a1dfd5b917a5ff7f"
+        },
+        {
+          "mass": 31,
+          "configurations": 52360,
+          "rooted_winning_configurations": 52360,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1bb54bd4b36fcc78e8cfc8aabe1926dd7cd5b220120186d04fb3ed3a460c3d9a"
+        },
+        {
+          "mass": 32,
+          "configurations": 58905,
+          "rooted_winning_configurations": 58905,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a18de3f2eed59e70d6c2ae6e7752cacb4d18545b1578cf12b500eca7a39152c1"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0009",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8520303563b4636e37137f3c2c004295ac893adc288b0f264b89f0a7ebdd4184"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b5c259fb33952cbbeef89cdae5fe5782166f414107458c49127403c006efe62e"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 41,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ac711e963248e4b9e259c4ebb1632d4196a0f9f04d620bd634e951bab19fa77a"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 97,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "cfee6616dabceca7f900de0759f3a5e9c697c5dcd2445e062894e28aee35d869"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 189,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "60e27b19d97841824bf62bd2e56dd1a97cbfd3250b3cf8d28f069b6b53e3a1ac"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 326,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "86db76bde4148c8cd659e897c4f0b64b56c874dec4ec9071db41481f096efa64"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 495,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2b3c7b8ba65e22eaab51c44ba25ce405d0533ff7c2fe706d59aa214a76d37933"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 715,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e6b26a71697bd56a2268c70b886cbfbcf6be0ff47e7fc475fcaa6df22335ee51"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8f854dc9ad5fa1c42d2912a7c040276e509820acbc720e12e0c0016b34b649f9"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4e45bbd5d1bcdc523584703a8db6d8908c164062b78e0d3c32e27b0473a289a3"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0010",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "96d1dd1db9ecf4ade277a5860da312beff80b03887fed234a25ca5b94276874a"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 16,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d881499ae93938a19c90022175afe83be450836548dd34cd4bcfdf7730940260"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 55,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a54dce9067e3dd4b750961aa3f0139f43d7eae5c8148276110143071946e1850"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 113,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a9cc44ef887e9abea3a1ff8e9f8bb881cf49da13746ae265593612a3bf562d8a"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 204,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b373a92c87f76ac9d443904777af7444c040e00f7128196506c91447969468b0"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 330,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b712f9bb41d2ed9ba5d97cba35e011dd414aea397e1c6250f1f2e0ea0b0dc6e8"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 495,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "90321883157df4fd38e25d21e403c75ccdfb20757110ef13193dfd941a0eaed8"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 715,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "45e7e2a8c98c7a555766d64c92985d4bd88138d8b88f223295c6cbc3d75ada19"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8f854dc9ad5fa1c42d2912a7c040276e509820acbc720e12e0c0016b34b649f9"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4e45bbd5d1bcdc523584703a8db6d8908c164062b78e0d3c32e27b0473a289a3"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0011",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4d37fc60d7cd363d9bfeaab0beffa95f83f7bd5af20d4e34bf0428d086bb7a29"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b01e91ce8e6330696706b0ad03a620028a3416e6502e3a7615a605a58cbd2390"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 33,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b91af70f9d5d42870dd23b34b3a3eeb1f3e790f18db54395d9e26843603d341c"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 75,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7d24976a05330aebd5be17b6e4ebc6b6523d2bad32e272e0285aeef93356c4e4"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 148,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4300dcdba8012416aed209ca6d9e214a7988a2626776a12d7ffb00c74abb3d42"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 276,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1f27802d850ddc6c203da93e550ca2987930d9f11c4613818a90e2cf68bf6a84"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 446,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "576fe8a625058e05eed8ec3a858ad832f13ca3062804127f016ff86a050609cf"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 684,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4c8ffd60d7c50eaa29598513870d10734cebff69b9ef7a090bbb9348f1c9c781"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 986,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9f1bceb24feef740584069f63467fdaf0f20c964e05f70cb2c20f7bbe3c36d8a"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1354,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2d9e5c92655307594f171172e8efd3aa7ca19db633ee7b92e2374593d77f67d8"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1816,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "37bdba48bfa116e3f2b24ea3cdfc1315e45e3bab83cbd8bafc1b963086d8c05b"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2378,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fc3868639e7365114c90f63635fb8f6bd57f157ddfc086e6a7868ca4a92b0f42"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3058,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "caccc2fcc489dcf7571aa41ff9c98f1f9eaf0eccf735ae29d40499ed7efbc5e6"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "825456925221ea68b5ea42aeda5c698ae602bdaa5135a05cdc171697bcf554ec"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b8b85df09a4f6d7c0c49f4e1df585cf442b2f3b6e8f1b5a42f23efaf15975250"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7f721bd0a3d75fe7ce5cbd17a48bca2665db69573c0cef0c2cdd72d9350ea6da"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "21534469946b392051b071603075080ad16d321917083b6b4d2c6af2efd430ec"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "173f11d8ccc10b9f70f5ce65d1f33fbf67535d7e9c57b404bbff32da9c3680a6"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e4f9c5033322cb5ac47ecb8d8d4b77163be57ce04fa42cc2f775333dba003284"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0012",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b0766654b158c359ec48b0438efb20c88c90b3d28089d6001732c1d16513739b"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "96f831a4de35d30fa900fe68e75ab9ab1b489346bfdaff1d5b99d34920416c32"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 39,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "72255d666154777df0a2ce736b6629154ba45e102502f844c40453328d4ff21f"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 84,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "38e503406d7b61e85f465b82722d450d6384a1a1f5cd3f489d654097ce947d26"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 166,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f1bba4861f4f18bcacbf998ca33319aab78429ace91ed11dccc4a253c6e7213d"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 299,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9212db1383fb504ecb09293f1651d22cba39646eb2f721a0c7fd5ffee62861b8"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 472,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4dd44dfe89aa700a332572fe7b8408a077afcbc2c839c19338954e3e7c8f2418"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 702,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fe7c89c3a3ad5fed18f6e20971154c1a27934d00e0bdc3dc453d01d5d22eec3e"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 993,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4f58aa0d3f3534739eea298e13ea368237b0ccfb628502b5ec06a445c336f699"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1360,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c80843afefbc4626daead96a509d3c68407a026872c1790f5da46090013ca589"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1818,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a3745d3fc7e45830e89e36c13ffba183b13fe5e2bfed5a1a5a0bda5c3c05209a"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2379,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3140f80c02411bed7d45adc41f7be51372b39014603300d85a58e935e909bbd8"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3059,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d4a700e74c8c9999cb24c33d226c70ba142587930c3bc4677d534d19c3931beb"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a73333668b5800c40730f8fde20e69e9f014132d6725e18842e88526c9e1ce9e"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "61fb5a4969d0ead82bb5cbe3464640f3309730e9b9404dba443b90e06ac41b97"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "68fb48ffebb129d090b3d59debc2fca871ff36292af14ad4308777d6ee9e89b2"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f08eda4ca6d29ec3177ee222206c22ca16367aa4460dd132dd75a3c82c3fafa0"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "58b6744fae9816b20cd01722334c7bcde6f20c9e576c2cc2c4868babb93df24e"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "abe809bdcacec388fc8a146e42211733db35d480342e1b769af70127299c43c6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0013",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d2df46526f357253a7a329cde21eff8bf44f280c6f53a2d28640985acbd822fe"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fd58db08f269e58cabf0161c6fe8e81ff00d25605780a1e0646cffb141e83882"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 36,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c6616144ef4317a4757cc9ea9cc6ee69d37019db10800fdf5eff240cfb431cd0"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 84,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "769f4ef43137aeba8e986dd65ac638747aba5cc89ea9a954d70f2b455f391bd9"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 149,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "455385c680151bccc8e32cfa2acd5c09e6460c0ab6183f06c747e31b0799c968"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 286,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f26f38afc78562d24b4e139965442473ebe4263ef7caca75f7cbee730c84d42f"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 461,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b2631a8efdc9d935caf4a52dac32312032f696bc7272e6cc52c94a285ac46633"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 679,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fe4143629dd3e8dd023f4a94184de05dca12e79314325e187f06fd732fac11e2"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 993,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b420a430b620bbdbba44de22877295d2c3993b462ab999615dffc95164cbd5e1"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1360,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "96303163897ef93e2f657cb8978a377deac575d16f89defe87018fcbc47af6f5"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1814,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9ede0ed4f4dbfaa90a6935adc7deb15b908a8fb5cd21103c00c2a0e158cbcec5"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2380,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "da4573d1702ea1e948aade08ae506cea9cdc38135208db08942104d524bae4be"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3060,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0854dfd51252c9e8857d1a62f8dd1046828c7f24c6d515ca6a5be83cc9ad9c8d"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "68dcca6fc56b3c020ae2cdc5dfbb422e4dbbe039dc221627c8872fd8ee6af238"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f431d8f83e5a75aa47647c0c74b05073236b9e5e6bed03422cd088f8d7612114"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "50a0263eebe6d4f8c01164df30da48ec13f5a2ab66650195c2e692c3c4386ad2"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d16375419a6b4ab8b6d8b94de0551a67ef64ac2d62b4584acdd586dbde9ae130"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a921400a18a99602e999b8647df96754fd46b46c3e1155c3689419fab467510"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "39ad2a79bed36889827ef0859d10fd09d1e638dbe9f2208e6d1253c1dc34faf6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0014",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "68abe4f23338f4f331e25ccfab63e73546dc978c09a2c668a5d3ebf032a18a2e"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 14,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "75d802a6494cfcb0099a07988e1ecf463fb101201845119acc9e227dfcfaf147"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 48,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6e763d53eb54892457ac5f7af6ba1696f8348d5570f257f37534c7c84e7797a4"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 105,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1614aae03615a257d18f3236e5102f34be52973bbed1f9f917806f2377623c0b"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 197,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "00352727f953688359d3b6ce70c12887eda9b089c063c6444c6466f19081ee98"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 328,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1533a355a222ab2edb51e3679edf8e8371ecf22df2f83d10d8e380a0b939d8f0"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 495,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2c09c7d3144f30d9903dce92711a283398f57c01a559b49934a52e840355fcb4"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 715,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1cf96461a5abd006922fdc8832d8d3ff5a61ad7bd3483f6361e76d2e361b957c"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8f854dc9ad5fa1c42d2912a7c040276e509820acbc720e12e0c0016b34b649f9"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4e45bbd5d1bcdc523584703a8db6d8908c164062b78e0d3c32e27b0473a289a3"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0015",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a118a67ec11eaf1057e93d0a8acd86151ce6531a9013bd3772f92941224b9db6"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a45d11804fcd4b3a09afced16c5a5f416d2dab0c721622db753826b1c0bcf1eb"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 42,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9568826210f5d167a0fb479292a14f208671a2319c1d7916fe4ab44f59d46375"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 94,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7d6972901d12712104374d052e8a2043fb108cc66b191277e188df9de14f69fc"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 175,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "681940cb6058b93bc90fa9aa68b4016d1c82b0491383cc1afd775e67bdc54c56"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 312,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d8de341a7d71e6e98b7b47a7d31b51daa7d565b10fa55da2954d13c5ae839669"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 482,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "21e7af60d54d62eb80030b1abbd40af198e064397cf0acad1350f2c3e0f98eff"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 704,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e0255a85d633a18ebe4a6214a7ad307b9c5b50d0b3d3e23152564331a9af4ad0"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bda9033171f17657732f4971b05a3935de9f5de61310c75c300ec2790693ab1e"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7fa66a2150efcbcad125295a0b37a1657bff50e839fe587d131c4420f7d9842e"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1820,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "40e99105702245aea3096590822d00b721e56de13295082af7aa001eee804703"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2380,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7b28002e3ab8f4d76a14284eb3b437cb4888988c017e814b3f96e62cc274840f"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3060,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b1da26f06f212abe359420a8bc5698da97fbee0fc4593431e1d68bd6f99f3a9a"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a0770bd8c5f80abea6a2c4122248e38f8d4d74a19651e2a1731ed41911d411a3"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b9dae91f5be0ec5076092e96f667e5aee13fab6898f0103417cdd4d07ab2e120"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ed29ca519e893897e45e2cd089cc54b263faecf4e9aa7d47e2f2ad016e29597"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "02fc14f81606adf33d6091fc9c55d83c8441f290491807140618979f92f502fb"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a921400a18a99602e999b8647df96754fd46b46c3e1155c3689419fab467510"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "39ad2a79bed36889827ef0859d10fd09d1e638dbe9f2208e6d1253c1dc34faf6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0016",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "eaa3446d06ba0f91321df73b45ac737f888e089019886e7573d47e0275f3437c"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 14,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a0fd4dac9386e725d91c12dffbd9621903f058bda6ba0c6349d4f6a1593e9dbb"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 50,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "10a929f39d4dd7f23ce593a952bbb00f523921db0d8db420d94d0622b667a038"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 102,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a53710c99af1e29697a44595b07877c9072c29496a490b6d6e90b20fa18c9592"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 182,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9076407c3ab2c0c0ba5d2dc62e72566764a5b8e7930ca4597efb4916dadc4451"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b202eed47e8f881bedf332c2faa79a6c54c85c705d3e4cfd7ceb97ac3ec14ab0"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 483,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "23291fa16420ad5467d87be1989eeb376f466350dbec9fc9f13b66fb901abf5b"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 705,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "92fd6f88ef59303d4320d5c768402ff03f2d73fe2fd951d93f8ed612eac87e7a"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c6b8785d0d8129c925a60e8069e19d5ac1833c26baeff9f70c63e98a2390facd"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d0bdff81d76cfa0d3c4d7f7b160866f63c416ba0d7029e2142160925b9c8f1a5"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0017",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b729ae444065ef7999cdac42f3d3e21e1fd34451053535937ec1177dc41281c7"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 14,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2e48e194720495c0e53e1570c4cd5094a10b68021c79d189d12aa71450e5d4f8"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 46,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4c3b2eb77b36f9e3e4800a17525d073c161282bb2daee5c211029ffe28489082"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 101,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2f97a58a9af784df571ea724f70b2da125d44a2577871d76bdf7417cb70b9bfc"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 191,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f2800d59237516f261def72fda3658e734c10da7365ecd179a227f925cea6620"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 325,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "68eeaafa591262fd7346afa77c2bc6072132c9e311c40377b30cd1535dcab0c9"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 493,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "86eccb7035c12467dbc56febeaeb3843a85dfb2f146df428b535e484834b1989"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 714,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8c1daee8b177a2a16887233eb40659f1f8312b6e31cef3ebb616514064fd0d3a"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "08ab3185672ad2b55aeec52b4bcf0b985efaac7de7a4bec1c3c20c64f30582cc"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1687e2f9be95d8230ecd3798c9cf5e3faed60b81c9d7e985c1100db22e9c4f9e"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1820,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "40e99105702245aea3096590822d00b721e56de13295082af7aa001eee804703"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2380,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7b28002e3ab8f4d76a14284eb3b437cb4888988c017e814b3f96e62cc274840f"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3060,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b1da26f06f212abe359420a8bc5698da97fbee0fc4593431e1d68bd6f99f3a9a"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3876,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a0770bd8c5f80abea6a2c4122248e38f8d4d74a19651e2a1731ed41911d411a3"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4845,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b9dae91f5be0ec5076092e96f667e5aee13fab6898f0103417cdd4d07ab2e120"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5985,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ed29ca519e893897e45e2cd089cc54b263faecf4e9aa7d47e2f2ad016e29597"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7315,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "02fc14f81606adf33d6091fc9c55d83c8441f290491807140618979f92f502fb"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8855,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6a921400a18a99602e999b8647df96754fd46b46c3e1155c3689419fab467510"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10626,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "39ad2a79bed36889827ef0859d10fd09d1e638dbe9f2208e6d1253c1dc34faf6"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12650,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d064d799e582e458e377b3dbbb61890f17d48f9620341a19259dc19cd889c05"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0018",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9053d0ef9f7e4d148e21bd800905301d2de6378122ee54ca240f73f2ed1c2b6b"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 16,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8e41ed6ecd4c4183355f61f45cdfc30b6361eec23c703c2fef9ea34916d3f0f3"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 54,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04636a8fd2c7a4f71e3e9ebf09768ed25f370797c4fb3dc56d8fc43d95adc5eb"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 112,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0519b28fd6091dd1c06c4057b3a70d9af858feec3023c0e2bee0036afa6ec0d6"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 202,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5294a6c7a236897be3888c4ada83a3f25ca9aa336d4ecbbe69a67a1940d12721"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 329,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c3d4b5f6f1f7b142fd94f9b011accbc8388c8a4c5e43ebcc7f26dc5a3c9dabf0"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 495,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1f310433d9d20a3402ab98887d5c52365adf02cf57f67fc2b065f579d2b8c681"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 715,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "89bd51bd74015b9c8ac8a08311d4183ffcd1f14ab0d32c939dc5a2d018364ef5"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8f854dc9ad5fa1c42d2912a7c040276e509820acbc720e12e0c0016b34b649f9"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4e45bbd5d1bcdc523584703a8db6d8908c164062b78e0d3c32e27b0473a289a3"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0019",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2169c88ffffaca94bf2140b22f4df5a56667e9997ee8464e59995d3ab5955cb0"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 18,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7027ddb00f77c5cbcca04748aadb570b7d24861c3b7955f99f65c81b6f110ede"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 60,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "27fbbf9c043f7e3121593f5784fd43632883d3eeb82e7bcd4b68965fb1d03497"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 119,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "aafc9a1f64e9ebccd8c6d00793f13fb0ed3fbf6253306aabf6421ba3688d8172"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 207,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3b38ec45944966b855de1e1464ee2bea1fbff6573aaf58ca329a8fdcf1271cf9"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 330,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0e1de1f2371734164a07197de1b80a77646a0b8467abd1389a0c9c930a3fe220"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 495,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bf46d99f8d39102f7c40123e8614b9eee7d5f5f36e75e0e013393231cb378dea"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 715,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "45e7e2a8c98c7a555766d64c92985d4bd88138d8b88f223295c6cbc3d75ada19"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8f854dc9ad5fa1c42d2912a7c040276e509820acbc720e12e0c0016b34b649f9"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4e45bbd5d1bcdc523584703a8db6d8908c164062b78e0d3c32e27b0473a289a3"
+        }
+      ]
+    },
+    {
+      "graph": "A5_0020",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 11,
+      "last_layer": 11,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3d25d3329b1aa93f3da989e3fd4c8f1b09a11cae2f752846184bbd503d0ae6f4"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 20,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f6da30da4cbd5e8d7b120e84fa653e8adff4c3c4384eb287ebae16237dada25e"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 65,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a16af03b9cda53406ffb278f4d92e88a683152efb40464fcc0266287013cc7f7"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 125,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "cc73ddb868f32642c677267bf143ad5afd1d11720e011be4c0490504cd9ddd96"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 210,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a03d6f2bdd6436038c1c32952a4c05dbf9431e9518df9fb3bacacdee6a94d906"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 330,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "81a1dcf09df972a1de19f8e5efc28b964231187d22a1d8aa215457077cba265c"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 495,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "218c593cea1119f32a069fec576193e9a677fdb96621c9272347624e7ade6e48"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 715,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "45e7e2a8c98c7a555766d64c92985d4bd88138d8b88f223295c6cbc3d75ada19"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 1001,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8f854dc9ad5fa1c42d2912a7c040276e509820acbc720e12e0c0016b34b649f9"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1365,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4e45bbd5d1bcdc523584703a8db6d8908c164062b78e0d3c32e27b0473a289a3"
+        }
+      ]
+    },
+    {
+      "graph": "triangle_tail1",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "cap": 21,
+      "last_layer": 21,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "04cf9029eb7eb4680b54f3eaf1e142243e80fc34991bc3a1a2395e1310964ff1"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "rooted_winning_configurations": 4,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "58096869e2e265c5ad92be72c0c4b2009bddafa8848fc2ad3d598407360e1c86"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "rooted_winning_configurations": 8,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "65812480e0982dfe5d27afd926d09e7468943b0c9c41d4281262634dcacd80ea"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "rooted_winning_configurations": 24,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1c781481685659c8b875661a0947ac58c0ee077eece5e714f480d3d7b0b2c9e8"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "rooted_winning_configurations": 46,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e540489af08ea96979cbe7ea9c309f5b7b81136696899a22aea5cf5c09b292e7"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "rooted_winning_configurations": 75,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e6f46cb348ad05d8f8ab687db055cad2c1082d90cb3fcf7826f0e45fd753b5c6"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "rooted_winning_configurations": 118,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "514507031ebb240d9a4b7d29bbff5cc340f86dced01a5602a7db124af3793d30"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "rooted_winning_configurations": 164,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "793f59380ff45e8efaf51ed6887c4dd55b9e98ca554704ac57f682b32fe68241"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "rooted_winning_configurations": 219,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f982de93ec64828b9108c5f94d236ecf6e17a108cf6c5da37d33b94fa926b6e8"
+        },
+        {
+          "mass": 10,
+          "configurations": 286,
+          "rooted_winning_configurations": 286,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e75d29b2f2e45b4a3cc87569fe54105de5eab6a3c9e0fbe4b4ed24695ee9d444"
+        },
+        {
+          "mass": 11,
+          "configurations": 364,
+          "rooted_winning_configurations": 364,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c9d05b233e6aa646754cb1f818ed8cc618f9704894a742bbf61f06a15678e440"
+        },
+        {
+          "mass": 12,
+          "configurations": 455,
+          "rooted_winning_configurations": 455,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "afceed3b70d8d49ec980f4851647f8fa35e72447faa2a3ec51572394b7e6cb1f"
+        },
+        {
+          "mass": 13,
+          "configurations": 560,
+          "rooted_winning_configurations": 560,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "742eccc7ef8d9856fd80922604b7974a63c853bfa35c5cbe80264b90c38a11d0"
+        },
+        {
+          "mass": 14,
+          "configurations": 680,
+          "rooted_winning_configurations": 680,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5ca7b81d4081223c2cf0016586ce9946960063987bf08867aeee08682c749cd8"
+        },
+        {
+          "mass": 15,
+          "configurations": 816,
+          "rooted_winning_configurations": 816,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9a3945ff0f49125fbd46a76bc7878be06d1edeba30de2162e04dbe1ec1181b6a"
+        },
+        {
+          "mass": 16,
+          "configurations": 969,
+          "rooted_winning_configurations": 969,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ae1968d28e5f1682050a4965a87ffc714187a26d8130b4c8d672554d50907f91"
+        },
+        {
+          "mass": 17,
+          "configurations": 1140,
+          "rooted_winning_configurations": 1140,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c50a7c8c8cc4971c81dc3fce473246e95e19e2509309eb37c0dff5ba6c6c593c"
+        },
+        {
+          "mass": 18,
+          "configurations": 1330,
+          "rooted_winning_configurations": 1330,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9e73f9889cbc97aa6ad91a7f60df5ae3ca66561b6de7609ac17890c0bc4c696c"
+        },
+        {
+          "mass": 19,
+          "configurations": 1540,
+          "rooted_winning_configurations": 1540,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "19e818f041f6b044e5f459434ea9fc1e8df6a6d4f19a5899112fa14dff855054"
+        },
+        {
+          "mass": 20,
+          "configurations": 1771,
+          "rooted_winning_configurations": 1771,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d45c3bfa4cc6b61a9d8b9892512f6372fe4f15c9619a3f95e38be78d64bb2ae5"
+        },
+        {
+          "mass": 21,
+          "configurations": 2024,
+          "rooted_winning_configurations": 2024,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3c07acbaa678a533cb7baa436bbd3e0fb90f1ac60ca5d9f09eb5bac7dcc9f41a"
+        }
+      ]
+    },
+    {
+      "graph": "triangle_tail2",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cap": 32,
+      "last_layer": 32,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3102aa70ed2b22ca0a9147e948574a7d3aeedcfe608f2586e293597fa0423bca"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "rooted_winning_configurations": 5,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d09e34c43739682b2e886d9abf3719b3ea7f2041345bf206c6b75cd6c1bae901"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "rooted_winning_configurations": 10,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "df4a205594ebacdbe5a8aa4ef9246427d674e0f75eb4fe213be879dfadb9df57"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "rooted_winning_configurations": 30,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1d70c91bbfd280a9d41520f23a71b8d96a7c51f50c85e3c59469b21025d6e9c5"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "rooted_winning_configurations": 64,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "52cff9c511bc6fb80a537cb2156990d565dd053ed0f25c03908c4d4448c0273e"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "rooted_winning_configurations": 130,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4b3f0cdc00dae954152370059aaa04d3e0574235b0f8dcd263cc3a9d0590e635"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "rooted_winning_configurations": 252,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e7d95be5e9d784f845c2b4bf2035ec2a13c44076a41e7c18de82dbd2b08467c0"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "rooted_winning_configurations": 426,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4b2ee6a7bcf5526186c7d18bf92e51b027863af7919ce2d8d6e74c527eb856c1"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "rooted_winning_configurations": 669,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9985b47c13e6261197d8ae00dd96be7fb8d8b661f90cfc225578dbe44b094553"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "rooted_winning_configurations": 974,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "03c1ebdc3028ab21d79ae4441e33c43406402d2a4a2aa6cbed1f277befc9c280"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "rooted_winning_configurations": 1343,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "469b61067fc9e1e1f216b2c5f9dcc111eef91dbb4e87b3d66a4bc2c5fc3b3e50"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "rooted_winning_configurations": 1803,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "45f88af40e7a90a22ee60ae39f84014c284f55cd65068dbfe07f6e5e79e6b8ad"
+        },
+        {
+          "mass": 13,
+          "configurations": 2380,
+          "rooted_winning_configurations": 2371,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "cc84b4813dfe8b84159eda2611e1120f046f701e9344c3a147372688af989804"
+        },
+        {
+          "mass": 14,
+          "configurations": 3060,
+          "rooted_winning_configurations": 3051,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1e16f28c1e3a7a5385ddf4f3c82b5abdb9eca246ddd9d9cb74aeef49a894e463"
+        },
+        {
+          "mass": 15,
+          "configurations": 3876,
+          "rooted_winning_configurations": 3869,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "720d65dfa33873e4cb38ae6c616c41a101c25cc7ac41423ceb1d7d7596bab606"
+        },
+        {
+          "mass": 16,
+          "configurations": 4845,
+          "rooted_winning_configurations": 4842,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1c8032792cd95e3bf32f36258a0444dc8e3cd25ce5572d55fce3b1c59caae70f"
+        },
+        {
+          "mass": 17,
+          "configurations": 5985,
+          "rooted_winning_configurations": 5982,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f5fd3a8ff8054862dc2b4e08d43a81157fc1ee35d6fe29c8a59279fbd489cc61"
+        },
+        {
+          "mass": 18,
+          "configurations": 7315,
+          "rooted_winning_configurations": 7312,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "12cfd98e4bc5c8c8a9a089189ef73e50e16df85ad975dbd0f87002c0e70aa079"
+        },
+        {
+          "mass": 19,
+          "configurations": 8855,
+          "rooted_winning_configurations": 8854,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bd35aedc1e456f4252244fd84e15fdafabfdf84ac6a62a921c5de9b5078a9697"
+        },
+        {
+          "mass": 20,
+          "configurations": 10626,
+          "rooted_winning_configurations": 10625,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "61212f2e00bfc49198ea365dbc75977d7d013cbd87ecbdcbb56be554bc2a48d5"
+        },
+        {
+          "mass": 21,
+          "configurations": 12650,
+          "rooted_winning_configurations": 12649,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7789ceed103f3049d8a4922ef4972201eb0ec8e0f445ad8f45985db8dd4f997b"
+        },
+        {
+          "mass": 22,
+          "configurations": 14950,
+          "rooted_winning_configurations": 14950,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4dedd351107beed77ef88d1af6b4157bf792d8ad976c6bc1b3b715ccde006730"
+        },
+        {
+          "mass": 23,
+          "configurations": 17550,
+          "rooted_winning_configurations": 17550,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "246d25b0f01f1105e0e1248fe4537bb82d06fcb1277bb293c2a8690b4a6a9a6e"
+        },
+        {
+          "mass": 24,
+          "configurations": 20475,
+          "rooted_winning_configurations": 20475,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "9a8eadd618c6e017c34f8a86fb505259ff4f8dd8e9920a6e2e17d107efc4361b"
+        },
+        {
+          "mass": 25,
+          "configurations": 23751,
+          "rooted_winning_configurations": 23751,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "183cf66635564166753298cfaca665c5b7e1d4946ee2745f283b6c609aeb0128"
+        },
+        {
+          "mass": 26,
+          "configurations": 27405,
+          "rooted_winning_configurations": 27405,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "07f0fbfc6b2472503f00133a0bddd3a1da4d9ceb143cdb7a9e6357ee226b767e"
+        },
+        {
+          "mass": 27,
+          "configurations": 31465,
+          "rooted_winning_configurations": 31465,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "246407dbc0739274a07c6e87f5b42a59eb4d569c0db169119e75a87949c2a8ec"
+        },
+        {
+          "mass": 28,
+          "configurations": 35960,
+          "rooted_winning_configurations": 35960,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8b785bc60ed355eed0ac4751621c47b18ed502a36bdc7079aae2c72533d6f444"
+        },
+        {
+          "mass": 29,
+          "configurations": 40920,
+          "rooted_winning_configurations": 40920,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c8d86b49d7e695167088165379e26e9972c3c9837fdc7209f59ffdadbff35779"
+        },
+        {
+          "mass": 30,
+          "configurations": 46376,
+          "rooted_winning_configurations": 46376,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "00eb3f247839811a21541f3388dd8d563062aa01cc71d92792e04a95173be4c9"
+        },
+        {
+          "mass": 31,
+          "configurations": 52360,
+          "rooted_winning_configurations": 52360,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ba1fac3741f1efd67064ca5f7d54f0707a867998186f036bb69aef62df221180"
+        },
+        {
+          "mass": 32,
+          "configurations": 58905,
+          "rooted_winning_configurations": 58905,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ece5931ed211a250a1645e5edd375b87b162444e1734f11c1c933b7b733cf229"
+        }
+      ]
+    },
+    {
+      "graph": "triangle_tail3",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "cap": 32,
+      "last_layer": 29,
+      "scope": "STATE_LIMIT",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 6,
+          "rooted_winning_configurations": 6,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "deb2ffc992aea8aacd39a3e5e95a2ace46a351e0dec129e0ed116692fc0571b9"
+        },
+        {
+          "mass": 2,
+          "configurations": 21,
+          "rooted_winning_configurations": 6,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "e5fc9c438f12c727b0e378dbe3c5276fee06a4ddf70ce987d73854d25efd6146"
+        },
+        {
+          "mass": 3,
+          "configurations": 56,
+          "rooted_winning_configurations": 12,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "57a52bba41c4dd9c289af49843b46da815ae334a5dc8133baaa195ef1d26afc4"
+        },
+        {
+          "mass": 4,
+          "configurations": 126,
+          "rooted_winning_configurations": 36,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6c699c79920a57d76448f843759d832b10e4410219c8246d0ae146afade46ce2"
+        },
+        {
+          "mass": 5,
+          "configurations": 252,
+          "rooted_winning_configurations": 78,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "48b675fa891bdae87cc0fbf399ba5398837f89238cff1369dad1972c750e007a"
+        },
+        {
+          "mass": 6,
+          "configurations": 462,
+          "rooted_winning_configurations": 168,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7a82712b905f5c0e0f8f6d364019ba7498e37d38fdcdcb7645bd74c57a52fdc7"
+        },
+        {
+          "mass": 7,
+          "configurations": 792,
+          "rooted_winning_configurations": 373,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3242149e7f045fe35773f6929770e1ad49b0b32f54077fa88100efe60c52ca01"
+        },
+        {
+          "mass": 8,
+          "configurations": 1287,
+          "rooted_winning_configurations": 744,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1dccac1e67b7d8f0a82ec2c1daf921db3554168053590be648c13a3ee57fb61c"
+        },
+        {
+          "mass": 9,
+          "configurations": 2002,
+          "rooted_winning_configurations": 1392,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "45036f998cfd73fdb876de3f69505a5c00b73df64fa260e8f4cc1752d1aa3bf1"
+        },
+        {
+          "mass": 10,
+          "configurations": 3003,
+          "rooted_winning_configurations": 2419,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8a05e44b6f628e0b1a73501fc9e5ce5e5ec8bb15bbb3035b89433dccd22f10dc"
+        },
+        {
+          "mass": 11,
+          "configurations": 4368,
+          "rooted_winning_configurations": 3842,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "38a20e1d04215a3028838fcb5f6bf57cc38396be392d33e01095575c9d5b5d88"
+        },
+        {
+          "mass": 12,
+          "configurations": 6188,
+          "rooted_winning_configurations": 5733,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "7333c5213750d7522edf668edcbb01821b9b44cc63a91675f5b8b7127ec06052"
+        },
+        {
+          "mass": 13,
+          "configurations": 8568,
+          "rooted_winning_configurations": 8201,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "db917ed388a281433ebd7b6aa15fd68da38271c2d31dd60b576527cd74a106b0"
+        },
+        {
+          "mass": 14,
+          "configurations": 11628,
+          "rooted_winning_configurations": 11304,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "365fc11e434241dcacef32ced2700e52dfa4e7ccaf0594c27fca140772923fd8"
+        },
+        {
+          "mass": 15,
+          "configurations": 15504,
+          "rooted_winning_configurations": 15222,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "57d970e9cb1c078a75c1e27b5be09bd9c7d1ce7a26a55f7c783f0c18441430b8"
+        },
+        {
+          "mass": 16,
+          "configurations": 20349,
+          "rooted_winning_configurations": 20120,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ae9b488d2994bc66403266a6d559b144998a4df0bc59369e28a83c0af6ce4329"
+        },
+        {
+          "mass": 17,
+          "configurations": 26334,
+          "rooted_winning_configurations": 26135,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a41839727dd0cf128555149b9736ae32976ba77895f066619ce216f1ce14e360"
+        },
+        {
+          "mass": 18,
+          "configurations": 33649,
+          "rooted_winning_configurations": 33475,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bfa835a47ef99776ece85ab9205daa41460aee6a70c6f19c6ac3c788125d0334"
+        },
+        {
+          "mass": 19,
+          "configurations": 42504,
+          "rooted_winning_configurations": 42362,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "8bd61ebcdeeb3be5192811247193bd1364880e828ef41622e396a8903a2d94a0"
+        },
+        {
+          "mass": 20,
+          "configurations": 53130,
+          "rooted_winning_configurations": 52998,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "b93b749aa73df4194d6c9f32d43df8161f54d66653abda41c8ebe6d30e9a4589"
+        },
+        {
+          "mass": 21,
+          "configurations": 65780,
+          "rooted_winning_configurations": 65659,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c386fe022256423ffcd058fbdf5b594e86eb3a075b98ff9f518428a9d25b79d8"
+        },
+        {
+          "mass": 22,
+          "configurations": 80730,
+          "rooted_winning_configurations": 80633,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "cb2e0e438855f613b79499911fa3b69a91ad4c60a0017550058f18f002299d2e"
+        },
+        {
+          "mass": 23,
+          "configurations": 98280,
+          "rooted_winning_configurations": 98192,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6daab51f543187da0e9d1df95824ff94e5bac0c5d8ff26968752100c6308d407"
+        },
+        {
+          "mass": 24,
+          "configurations": 118755,
+          "rooted_winning_configurations": 118676,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "435f73502cd2084c27ff8235774ab26f3f3639c0cf343a65c7ab66dbdd32db45"
+        },
+        {
+          "mass": 25,
+          "configurations": 142506,
+          "rooted_winning_configurations": 142445,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "2d562807e352d114e4b3317e12cb71e61e12602d3bf8227cadc22907a198309f"
+        },
+        {
+          "mass": 26,
+          "configurations": 169911,
+          "rooted_winning_configurations": 169856,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1fc2e27692ecd71fcaa94a1dc59f568d385b33c79af77b1b0d6588a31a60a541"
+        },
+        {
+          "mass": 27,
+          "configurations": 201376,
+          "rooted_winning_configurations": 201326,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "6407c1197ee2afca3748d2c02ef66ed9e1637b683fa234f01d3dda18fa92b0ad"
+        },
+        {
+          "mass": 28,
+          "configurations": 237336,
+          "rooted_winning_configurations": 237297,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "3334276de80879e1405ca18aadaa7706c871f64228cea3178ca2cae77eb41914"
+        },
+        {
+          "mass": 29,
+          "configurations": 278256,
+          "rooted_winning_configurations": 278221,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c627548bed2fe3fcd1c64d0b8737a76c85734ee1dbf5e907f680f930ae0801f2"
+        }
+      ]
+    },
+    {
+      "graph": "triangle_tail0",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cap": 16,
+      "last_layer": 16,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 3,
+          "rooted_winning_configurations": 3,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d4131273e8435333eae3a840ebcac5d5cf50e005ff7ab1e229487c9212a4636d"
+        },
+        {
+          "mass": 2,
+          "configurations": 6,
+          "rooted_winning_configurations": 3,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "41a5b9b7aaca12cb174abb0fdda17bfead34f5681feaabdff0f8470b1dbb7f9a"
+        },
+        {
+          "mass": 3,
+          "configurations": 10,
+          "rooted_winning_configurations": 6,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "ff33b4f6a1f44039158596d1a930266a16a551186a745cc222ed111df083be08"
+        },
+        {
+          "mass": 4,
+          "configurations": 15,
+          "rooted_winning_configurations": 15,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a5ee91d6f6f80846ff47d038fd003cbf0aab725e2a2cc6d0a1b1277ee0eb4d9d"
+        },
+        {
+          "mass": 5,
+          "configurations": 21,
+          "rooted_winning_configurations": 21,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "4b0f6168eb418f3e9c73f516850f8d2938630897106f7658d81d9303188f32c4"
+        },
+        {
+          "mass": 6,
+          "configurations": 28,
+          "rooted_winning_configurations": 28,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f18623e942478729d0c5159ce563c5adc6df1ce282bcb4cd74680a7400f9a204"
+        },
+        {
+          "mass": 7,
+          "configurations": 36,
+          "rooted_winning_configurations": 36,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "edefb65cad26b86d3cfb790582357e5dc0e11a449e6d73800e54325b0cea8e9c"
+        },
+        {
+          "mass": 8,
+          "configurations": 45,
+          "rooted_winning_configurations": 45,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "96f3bf1a5ad07ef04ae3aff9224f76c7f6df122d85546b51d91ae16d48732162"
+        },
+        {
+          "mass": 9,
+          "configurations": 55,
+          "rooted_winning_configurations": 55,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "22885201d8f23c5f653d195766075cd8de76c47ec8c1d691e5de1ba5464170d2"
+        },
+        {
+          "mass": 10,
+          "configurations": 66,
+          "rooted_winning_configurations": 66,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f3371f645cc98f10c6fa4c87942aa13d4c086441864191fbfea6534d7c634fd3"
+        },
+        {
+          "mass": 11,
+          "configurations": 78,
+          "rooted_winning_configurations": 78,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f67a71d15ebef67c5b8fdf00f46cb855e00834617f0333c6fe01f337f1d27ad6"
+        },
+        {
+          "mass": 12,
+          "configurations": 91,
+          "rooted_winning_configurations": 91,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "1fc7fee4687b241d4439f9ef9f26fb2ead95e7cc583839ef629bafe6897915ba"
+        },
+        {
+          "mass": 13,
+          "configurations": 105,
+          "rooted_winning_configurations": 105,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a46f259552968a77392f2342541cba16cd8e41db8cdf96576aeaa3bafc5e1446"
+        },
+        {
+          "mass": 14,
+          "configurations": 120,
+          "rooted_winning_configurations": 120,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fe7e6fe940669f95a0e2ad060d0e616d771ce2d3251d1371b912a29b4f32a216"
+        },
+        {
+          "mass": 15,
+          "configurations": 136,
+          "rooted_winning_configurations": 136,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "d2d0b7dd37328a7e7faabd7a9805e4bfbe15c8d807791bbb6baf78d73b43d24f"
+        },
+        {
+          "mass": 16,
+          "configurations": 153,
+          "rooted_winning_configurations": 153,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "a692a743c7b92070a11527b9a40dd83888ab18720071b908cd554216586c06b3"
+        }
+      ]
+    },
+    {
+      "graph": "triangle_tail4",
+      "n": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "cap": 10,
+      "last_layer": 10,
+      "scope": "BOUNDED_COMPLETE",
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 7,
+          "rooted_winning_configurations": 7,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "c9483f895ae3a2bfb2c71629af08de84e71013f8da66adbb567af1b80f1224a1"
+        },
+        {
+          "mass": 2,
+          "configurations": 28,
+          "rooted_winning_configurations": 7,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "fb3f75e47df9ced96c2d896b8ac0518d0a00857a12533060da1e5f3371825440"
+        },
+        {
+          "mass": 3,
+          "configurations": 84,
+          "rooted_winning_configurations": 14,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "26698cea3fcf3b91ea7c00c942719d6375ee2253b4321706d358bcc23910344e"
+        },
+        {
+          "mass": 4,
+          "configurations": 210,
+          "rooted_winning_configurations": 42,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5a02e83022df31b83c7935d3730e20abadb6af6d57b38052d69395a029efd57b"
+        },
+        {
+          "mass": 5,
+          "configurations": 462,
+          "rooted_winning_configurations": 92,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "f57735a843daa70f4860e813e72c029737e55eff18391df4ecb7a390ed0b9d64"
+        },
+        {
+          "mass": 6,
+          "configurations": 924,
+          "rooted_winning_configurations": 201,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "bddc7fb7d453f9caa3eb4b75e6a86cd94df2b5ab6a96ef596b9de329c430fe04"
+        },
+        {
+          "mass": 7,
+          "configurations": 1716,
+          "rooted_winning_configurations": 463,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "eff34541274b0f51a41becc9c4e35cad55f4523e7a438fd9a83e5431d2edb2a5"
+        },
+        {
+          "mass": 8,
+          "configurations": 3003,
+          "rooted_winning_configurations": 999,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "5d4feb079936bda4046e4799fc455bf3c0520514c70cc7f7e76180c2fa4eaff6"
+        },
+        {
+          "mass": 9,
+          "configurations": 5005,
+          "rooted_winning_configurations": 2104,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "415043678303e3e09e2b81684c781bf2e58b8fae13401aaa4c6db8ca405068b3"
+        },
+        {
+          "mass": 10,
+          "configurations": 8008,
+          "rooted_winning_configurations": 4203,
+          "full_forward_reverse_equal": true,
+          "root_mask_sha256": "0fd17dd2745adbf957431dd3baea5926061c27d838dc95c11bbd559016c33efa"
+        }
+      ]
+    }
+  ],
+  "pure_source_target_tests": 11750,
+  "buffer_source_target_tests": 1508,
+  "scalar": [
+    {
+      "graph": "triangle_tail1",
+      "tested": 4844,
+      "false_positive": 4,
+      "false_negative": 123
+    },
+    {
+      "graph": "triangle_tail2",
+      "tested": 20348,
+      "false_positive": 44,
+      "false_negative": 719
+    },
+    {
+      "graph": "triangle_tail3",
+      "tested": 74612,
+      "false_positive": 358,
+      "false_negative": 2905
+    },
+    {
+      "graph": "triangle_tail4",
+      "tested": 19447,
+      "false_positive": 1020,
+      "false_negative": 120
+    }
+  ],
+  "first_scalar_false_positive": {
+    "configuration": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "reachable": [
+      [
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    "clearable": false,
+    "trace": [],
+    "adjusted_core": [
+      0,
+      0,
+      1
+    ]
+  },
+  "first_scalar_false_negative": {
+    "configuration": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "reachable": [
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "clearable": true,
+    "trace": [],
+    "adjusted_core": [
+      -1,
+      0,
+      0
+    ]
+  },
+  "K3_fixed_target_obstruction": {
+    "configuration": [
+      5,
+      0,
+      0
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "reachable": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ]
+    ],
+    "clearable": true,
+    "trace": [
+      {
+        "from": [
+          5,
+          0,
+          0
+        ],
+        "move": [
+          0,
+          1
+        ],
+        "to": [
+          3,
+          1,
+          0
+        ]
+      },
+      {
+        "from": [
+          3,
+          1,
+          0
+        ],
+        "move": [
+          0,
+          1
+        ],
+        "to": [
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "from": [
+          1,
+          2,
+          0
+        ],
+        "move": [
+          1,
+          0
+        ],
+        "to": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "from": [
+          2,
+          0,
+          0
+        ],
+        "move": [
+          0,
+          1
+        ],
+        "to": [
+          0,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "seconds": 32.20300000000043
+}

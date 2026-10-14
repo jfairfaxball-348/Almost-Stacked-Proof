@@ -29,3 +29,7 @@ Recipient-provided private reply from Tamás Csernák (cc Lajos Soukup) confirms
 
 ## S005 source reconciliation — not Phase2 novelty
 2026-10-13 current abs/PDF fetches bothv1, same hashes. 2026-10-14 fresh PDF retrieval and proof inspection of April Theorem6.1's rooted odd-walk claim and October equation4.10. The proposed exact pure-pile theorem's lower half is this prior claim, and residue1/2 clearing is the October observation; credited explicitly. Matching equal-level construction and alternative ancestry proof recorded without novelty assertion. No comprehensive prior-art search or published erratum inference.
+
+## S006 source refresh — not Phase2 novelty
+
+2026-10-14 fresh current arXiv abs/PDF fetches bothv1 and identical hashes. Re-inspected April6.1 rooted proof and October4.10 reduction; pullback Lemma4.8 credited. TreeStack rooted source/defect notes read, no build or registry audit. New rooted grammar/conductor synthesis has no priority assertion or comprehensive prior-art search. Private correspondence provenance unchanged; no contact.

@@ -1,0 +1,1384 @@
+{
+  "certificate_sha256": "ab055f0e71a30ea753898dd2f56b6ce7fa247073155f75262abd5aef908a7849",
+  "cases": [
+    {
+      "graph": "A2_0000",
+      "source": 0,
+      "cells": 8,
+      "finite_cells": 2,
+      "production_inequalities": 2,
+      "attaining_derivations_legally_replayed": 2,
+      "all_equal": true
+    },
+    {
+      "graph": "A2_0000",
+      "source": 1,
+      "cells": 8,
+      "finite_cells": 2,
+      "production_inequalities": 2,
+      "attaining_derivations_legally_replayed": 2,
+      "all_equal": true
+    },
+    {
+      "graph": "A3_0000",
+      "source": 0,
+      "cells": 12,
+      "finite_cells": 3,
+      "production_inequalities": 4,
+      "attaining_derivations_legally_replayed": 3,
+      "all_equal": true
+    },
+    {
+      "graph": "A3_0000",
+      "source": 1,
+      "cells": 12,
+      "finite_cells": 3,
+      "production_inequalities": 4,
+      "attaining_derivations_legally_replayed": 3,
+      "all_equal": true
+    },
+    {
+      "graph": "A3_0000",
+      "source": 2,
+      "cells": 12,
+      "finite_cells": 3,
+      "production_inequalities": 4,
+      "attaining_derivations_legally_replayed": 3,
+      "all_equal": true
+    },
+    {
+      "graph": "A3_0001",
+      "source": 0,
+      "cells": 12,
+      "finite_cells": 9,
+      "production_inequalities": 54,
+      "attaining_derivations_legally_replayed": 9,
+      "all_equal": true
+    },
+    {
+      "graph": "A3_0001",
+      "source": 1,
+      "cells": 12,
+      "finite_cells": 9,
+      "production_inequalities": 54,
+      "attaining_derivations_legally_replayed": 9,
+      "all_equal": true
+    },
+    {
+      "graph": "A3_0001",
+      "source": 2,
+      "cells": 12,
+      "finite_cells": 9,
+      "production_inequalities": 54,
+      "attaining_derivations_legally_replayed": 9,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0000",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0000",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0000",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0000",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0001",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0001",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0001",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0001",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0002",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0002",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0002",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0002",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 4,
+      "production_inequalities": 6,
+      "attaining_derivations_legally_replayed": 4,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0003",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0003",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0003",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0003",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0004",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0004",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0004",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0004",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0005",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0005",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0005",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A4_0005",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0000",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0000",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0000",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0000",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0000",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0001",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0001",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0001",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0001",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0001",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0002",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 10,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0002",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 10,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0002",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 10,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0002",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 10,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0002",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 10,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0003",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 12,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0003",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 12,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0003",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 12,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0003",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 12,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0003",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 12,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0004",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0004",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0004",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0004",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0004",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0005",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0005",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0005",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0005",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0005",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0006",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0006",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0006",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0006",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0006",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0007",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0007",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0007",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0007",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0007",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 5,
+      "production_inequalities": 8,
+      "attaining_derivations_legally_replayed": 5,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0008",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0008",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0008",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0008",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0008",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0009",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0009",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0009",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0009",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0009",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0010",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0010",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0010",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0010",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0010",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0011",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0011",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0011",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0011",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0011",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0012",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0012",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0012",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0012",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0012",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0013",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0013",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0013",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0013",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0013",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0014",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0014",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0014",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0014",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0014",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0015",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0015",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0015",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0015",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0015",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0016",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0016",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0016",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0016",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0016",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0017",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0017",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0017",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0017",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0017",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 126,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0018",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0018",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0018",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0018",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0018",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 144,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0019",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 162,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0019",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 162,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0019",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 162,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0019",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 162,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0019",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 162,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0020",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 180,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0020",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 180,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0020",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 180,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0020",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 180,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "A5_0020",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 180,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail1",
+      "source": 0,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail1",
+      "source": 1,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail1",
+      "source": 2,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail1",
+      "source": 3,
+      "cells": 16,
+      "finite_cells": 12,
+      "production_inequalities": 72,
+      "attaining_derivations_legally_replayed": 12,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "source": 0,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "source": 1,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "source": 2,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "source": 3,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail2",
+      "source": 4,
+      "cells": 20,
+      "finite_cells": 15,
+      "production_inequalities": 90,
+      "attaining_derivations_legally_replayed": 15,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 0,
+      "cells": 24,
+      "finite_cells": 18,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 18,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 1,
+      "cells": 24,
+      "finite_cells": 18,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 18,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 2,
+      "cells": 24,
+      "finite_cells": 18,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 18,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 3,
+      "cells": 24,
+      "finite_cells": 18,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 18,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 4,
+      "cells": 24,
+      "finite_cells": 18,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 18,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_tail3",
+      "source": 5,
+      "cells": 24,
+      "finite_cells": 18,
+      "production_inequalities": 108,
+      "attaining_derivations_legally_replayed": 18,
+      "all_equal": true
+    },
+    {
+      "graph": "triangle_leaf_buffer",
+      "source": 0,
+      "cells": 432,
+      "finite_cells": 357,
+      "production_inequalities": 17763,
+      "attaining_derivations_legally_replayed": 357,
+      "all_equal": true
+    }
+  ],
+  "pure_finite_values": 1788,
+  "all_grammar_bounds_and_legal_derivations": true
+}

@@ -1,6 +1,6 @@
-# Claim catalogue — current after S005
+# Claim catalogue — current after S006
 
-Universal ASH* OPEN. Finite scopes and source credit retained; no FORMALLY_CERTIFIED claim.
+Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and exact finite scopes retained.
 
 | ID | Status | Claim | Sources |
 |---|---|---|---|
@@ -50,3 +50,11 @@ Universal ASH* OPEN. Finite scopes and source credit retained; no FORMALLY_CERTI
 | CLM-0044 | COMPUTED_EXACT | Complete S005 critical-layer square/sorted-pile extremum tests on every connected n=2..6 graph and the explicitly completed larger sample; all Q maximizers and lexicographic pile maxima AS. Finite scope only; conjecture HEURISTIC. | SRC-0014 |
 | CLM-0045 | COMPUTED_EXACT | Independently replayed finite S005 pure-pile clearing tests: 8619 piles on665 root/graph cases, all agree with theorem prediction; this supports but does not prove the universal classification. | SRC-0014 |
 | CLM-0046 | COMPUTED_EXACT | Exact S005 C10 stack63; triangle-tail5 clear190; tail4 64/94; C5-tail3 64/94; two-triangles-path4 68/68; C8-leaf stack63. 337 threshold-complete cases, three eligible cutoffs and one ineligible bipartite sanity run; complete labelled layers independently replayed; no Lean/universal certification. | SRC-0014 |
+| CLM-0047 | PROGRAMME_PROVED | Exact rooted pure-pile clearing is determined by three residue minima of a binary min-plus grammar, with attaining trees/all-production inequalities and at most3n-1 production height. Bipartite parity minimum2^distance; all residues finite on non-bipartite graphs. | SRC-0015, SRC-0012, SRC-0001 |
+| CLM-0048 | PROGRAMME_PROVED | For arbitrary fixed off-source configuration, exact rooted clearing is a finite tree grammar and exact rooted stacking a nonempty forest grammar. Three positive-source minima plus separate zero-source bit determine every source pile. No scalar block-composition theorem claimed. | SRC-0015, SRC-0012, SRC-0001 |
+| CLM-0049 | PROGRAMME_PROVED | Constructive pullback debt D=sum b(w)(2^(dist+1)-3) proves all rooted buffer residues finite for eligible goals; finite representative0/1/2/3 interfaces give a coarse universal rooted mass bound. No sharp threshold or ASH* conclusion. | SRC-0015, SRC-0001 |
+| CLM-0050 | PROGRAMME_PROVED | Exact largest positive AS losing mass is max(\|b\|+min_q A(s,b,q,r)-3) over binary off-source b and positive last losers. Universal ASH* is precisely the still-unproved winning upper at L_AS+1, not a consequence of computing the formula. | SRC-0015 |
+| CLM-0051 | PROGRAMME_PROVED | Scalar leaf net plus unrooted core clearing is false in both directions on triangle0-1-2-0 with leaf3 at0: (0,1,0,3) falsely accepted, (0,0,4,1) falsely rejected. K3 pure5 clears somewhere but cannot finish at its source. Complete closures/traces checked. | SRC-0015, SRC-0016 |
+| CLM-0052 | COMPUTED_EXACT | S006 independent optimum/legality checks:153 clearing certificates,2145 attaining trees,30347 production inequalities;367 finite stacking forest cells and9161 concatenation inequalities; scopes in AUDIT, no Lean. | SRC-0016 |
+| CLM-0053 | COMPUTED_EXACT | Full independent forward/reverse rooted masks agree on3155536 labelled configurations in531 layers/35 graphs;11750 pure and1508 clear-buffer comparisons plus1508 stack-buffer comparisons. Tail3 state cutoff after29, tail4 cap10; no new global threshold claims. | SRC-0016 |
+| CLM-0054 | COMPUTED_EXACT | 257 inherited n<=6 critical sets have618 non-AS support/residue-class Q maxima, first P3(3,3,0) Q18 vs global AS Q26. Fixed-residue concentration fails; all global Q maxima remain AS in this finite scope only. | SRC-0016, SRC-0014 |

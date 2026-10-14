@@ -1,0 +1,16 @@
+{
+  "endpoint": "repos/jfairfaxball-348/Almost-Stacked-Proof/git/ref/heads/main",
+  "exit_code": 0,
+  "data": {
+    "ref": "refs/heads/main",
+    "node_id": "REF_kwDOVF-kW69yZWZzL2hlYWRzL21haW4",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/refs/heads/main",
+    "object": {
+      "sha": "876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5",
+      "type": "commit",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/876e2a36a1fe15c82e3f7085c233f3f9f49ed2d5"
+    }
+  },
+  "stderr": "",
+  "retrieved_utc": "2026-10-14T11:39:33.536820+00:00"
+}

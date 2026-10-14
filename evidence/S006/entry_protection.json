@@ -1,0 +1,11 @@
+{
+  "endpoint": "repos/jfairfaxball-348/Almost-Stacked-Proof/branches/main/protection",
+  "exit_code": 1,
+  "data": {
+    "message": "Branch not protected",
+    "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+    "status": "404"
+  },
+  "stderr": "gh: Branch not protected (HTTP 404)\n",
+  "retrieved_utc": "2026-10-14T11:39:36.759655+00:00"
+}

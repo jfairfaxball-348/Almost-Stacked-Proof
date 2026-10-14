@@ -1,0 +1,32 @@
+{
+  "2610.09650": {
+    "abs_sha256": "d0d80046036c91b04ded101be149190d79b63bee89f45c2d978db415a7be63db",
+    "abs_bytes": 42993,
+    "versions": [
+      "1"
+    ],
+    "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
+    "pdf_bytes": 390157
+  },
+  "2604.22341": {
+    "abs_sha256": "4d0f5ec6622445bfdbac25464809373d5d118892569d81f7f3bae55494c66cff",
+    "abs_bytes": 42374,
+    "versions": [
+      "1"
+    ],
+    "pdf_sha256": "ab34962a77a7caa4126d07430e48ba47b04c57f5ef71c21f85803cf959cbabed",
+    "pdf_bytes": 652580
+  },
+  "rootscore": {
+    "url": "https://raw.githubusercontent.com/jfairfaxball-348/TreeStack-Structural-Certificates-for-Stacking-on-Trees/main/TreeStack/RootScore.lean",
+    "sha256": "7a12623fa0eb8b73aa6513a7b65bf0550d471f060c37aa6b738a67f97ef2e3b9",
+    "bytes": 31015,
+    "scope": "supporting earlier tree interface only; no Lean build"
+  },
+  "defect": {
+    "url": "https://raw.githubusercontent.com/jfairfaxball-348/TreeStack-Structural-Certificates-for-Stacking-on-Trees/main/notes/defect-flow.md",
+    "sha256": "f9071710d7531134ebe571a1f198c7e3d19ce9906c980007cca96cc4496f2d6f",
+    "bytes": 9595,
+    "scope": "supporting earlier tree interface only; no Lean build"
+  }
+}

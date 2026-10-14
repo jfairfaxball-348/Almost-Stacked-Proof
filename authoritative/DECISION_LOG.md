@@ -34,3 +34,8 @@
 | 2026-10-14 S005 | Next prompt is S006 FUTURE/UNEXECUTED; no Lean/contact/manuscript | authoritative/NEXT_SESSION_PROMPT.md | STOP BEFORE S006 |
 | 2026-10-14 S005 | Correct C8-leaf clearing eligibility before run; retain only n+1 bipartite reachability sanity check, exclude from threshold/ASH* counts | PLAN_AMENDMENT_5/6 | CLEAR THRESHOLD UNDEFINED |
 | 2026-10-14 S005 | Add independent streamed array-state canonical replay for large retained cutoff layers; full set equality and reverse bases retained | PLAN_AMENDMENT_7; tools/s005_stream_check.cpp | VALIDATION CHANGE, NO NEW SCIENTIFIC SEARCH |
+
+| 2026-10-14 S006 | Prove exact rooted pure/buffer tree/forest conductors and constructive finite bounds; retain zero-source/target/consumption distinctions | S006 Theorems23-27, independent grammar/forest certificates | PROGRAMME_PROVED; novelty unaudited |
+| 2026-10-14 S006 | Reject scalar leaf/core rule and fixed-residue extremal concentration with exact obstructions; preserve universal ASH* OPEN | S006 report/closures/extrema | NO UNIVERSAL GATE PROMOTION |
+| 2026-10-14 S006 | Enforce canonical LF text/evidence bytes on local Windows and hosted checkouts | .gitattributes; old hash reconciliation | PORTABILITY FIX, NO HISTORICAL CONTENT CHANGE |
+| 2026-10-14 S006 | Last session S006, next strictly FUTURE S007; ordinary atomic PR/merge closeout only | S006 INPUT/PLAN/AUDIT/CLOSEOUT | STOP BEFORE S007 |

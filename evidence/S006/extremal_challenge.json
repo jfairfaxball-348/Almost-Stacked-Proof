@@ -1,0 +1,2361 @@
+{
+  "cases": [
+    {
+      "graph": "A2_0000",
+      "mode": "stack",
+      "critical_mass": 2,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A3_0000",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A3_0001",
+      "mode": "clear",
+      "critical_mass": 3,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A3_0001",
+      "mode": "stack",
+      "critical_mass": 3,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0000",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 6,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0001",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0002",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0003",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0003",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0004",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0004",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0005",
+      "mode": "clear",
+      "critical_mass": 4,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A4_0005",
+      "mode": "stack",
+      "critical_mass": 4,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0000",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 5,
+      "classes": 5,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0000",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 10,
+      "classes": 10,
+      "nonAS_class_Qmaximizers": 5,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0001",
+      "mode": "stack",
+      "critical_mass": 30,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0002",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0003",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0004",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0004",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0005",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0006",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0006",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0007",
+      "mode": "stack",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0008",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0008",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0009",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0009",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0010",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 6,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0010",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 6,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0011",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0011",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0012",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0012",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0013",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 6,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0013",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0014",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0014",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0015",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 11,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0015",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0016",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0016",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0017",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0017",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0018",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0018",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0019",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0019",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0020",
+      "mode": "clear",
+      "critical_mass": 5,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A5_0020",
+      "mode": "stack",
+      "critical_mass": 5,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0000",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 6,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0001",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 20,
+      "classes": 16,
+      "nonAS_class_Qmaximizers": 14,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0002",
+      "mode": "stack",
+      "critical_mass": 62,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0003",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0003",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0004",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 6,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0004",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0005",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 6,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0005",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 6,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0006",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 13,
+      "classes": 11,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0006",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0007",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0007",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0008",
+      "mode": "clear",
+      "critical_mass": 45,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0008",
+      "mode": "stack",
+      "critical_mass": 31,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0009",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0009",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0010",
+      "mode": "stack",
+      "critical_mass": 30,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0011",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 12,
+      "classes": 10,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0011",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0012",
+      "mode": "stack",
+      "critical_mass": 39,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0013",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0013",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0014",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 6,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0014",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0015",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0016",
+      "mode": "stack",
+      "critical_mass": 30,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0017",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0017",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0018",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0019",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0020",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0021",
+      "mode": "stack",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0022",
+      "mode": "clear",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0022",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0023",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0023",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0024",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 10,
+      "classes": 10,
+      "nonAS_class_Qmaximizers": 3,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0024",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 10,
+      "classes": 10,
+      "nonAS_class_Qmaximizers": 3,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0025",
+      "mode": "clear",
+      "critical_mass": 22,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0025",
+      "mode": "stack",
+      "critical_mass": 22,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0026",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0026",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0027",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0027",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0028",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 6,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0028",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0029",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0029",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0030",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 11,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0030",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0031",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0031",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0032",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0032",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0033",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 11,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0033",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0034",
+      "mode": "stack",
+      "critical_mass": 22,
+      "critical_states": 20,
+      "classes": 5,
+      "nonAS_class_Qmaximizers": 4,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0035",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 4,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0036",
+      "mode": "clear",
+      "critical_mass": 24,
+      "critical_states": 12,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0036",
+      "mode": "stack",
+      "critical_mass": 18,
+      "critical_states": 8,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0037",
+      "mode": "clear",
+      "critical_mass": 11,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0037",
+      "mode": "stack",
+      "critical_mass": 11,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0038",
+      "mode": "stack",
+      "critical_mass": 24,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0039",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0040",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0040",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0041",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0041",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0042",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0042",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0043",
+      "mode": "clear",
+      "critical_mass": 30,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0043",
+      "mode": "stack",
+      "critical_mass": 30,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0044",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 11,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0044",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0045",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0045",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0046",
+      "mode": "stack",
+      "critical_mass": 35,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0047",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 11,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0047",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0048",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 126,
+      "classes": 66,
+      "nonAS_class_Qmaximizers": 71,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0049",
+      "mode": "clear",
+      "critical_mass": 26,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0049",
+      "mode": "stack",
+      "critical_mass": 20,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0050",
+      "mode": "clear",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0050",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0051",
+      "mode": "clear",
+      "critical_mass": 11,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0051",
+      "mode": "stack",
+      "critical_mass": 11,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0052",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0052",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0053",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0053",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0054",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 5,
+      "classes": 5,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0054",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 5,
+      "classes": 5,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0055",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0055",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0056",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0056",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0057",
+      "mode": "clear",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0057",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0058",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0058",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0059",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 22,
+      "classes": 18,
+      "nonAS_class_Qmaximizers": 14,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0059",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 21,
+      "classes": 17,
+      "nonAS_class_Qmaximizers": 14,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0060",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0060",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0061",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0061",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0062",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0062",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0063",
+      "mode": "clear",
+      "critical_mass": 19,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0063",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0064",
+      "mode": "clear",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0064",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0065",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0065",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0066",
+      "mode": "clear",
+      "critical_mass": 30,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0066",
+      "mode": "stack",
+      "critical_mass": 30,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0067",
+      "mode": "clear",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0067",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0068",
+      "mode": "clear",
+      "critical_mass": 17,
+      "critical_states": 8,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0068",
+      "mode": "stack",
+      "critical_mass": 17,
+      "critical_states": 8,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0069",
+      "mode": "clear",
+      "critical_mass": 11,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0069",
+      "mode": "stack",
+      "critical_mass": 11,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0070",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0070",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0071",
+      "mode": "clear",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0071",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0072",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0072",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0073",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0073",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0074",
+      "mode": "clear",
+      "critical_mass": 15,
+      "critical_states": 28,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 10,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0074",
+      "mode": "stack",
+      "critical_mass": 13,
+      "critical_states": 15,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 6,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0075",
+      "mode": "clear",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0075",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0076",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 8,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 4,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0076",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 8,
+      "classes": 6,
+      "nonAS_class_Qmaximizers": 4,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0077",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0077",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0078",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0078",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0079",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0079",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0080",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0080",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0081",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0081",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0082",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 41,
+      "classes": 26,
+      "nonAS_class_Qmaximizers": 21,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0082",
+      "mode": "stack",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0083",
+      "mode": "clear",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0083",
+      "mode": "stack",
+      "critical_mass": 19,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0084",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0084",
+      "mode": "stack",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0085",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0085",
+      "mode": "stack",
+      "critical_mass": 12,
+      "critical_states": 35,
+      "classes": 23,
+      "nonAS_class_Qmaximizers": 19,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0086",
+      "mode": "clear",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0086",
+      "mode": "stack",
+      "critical_mass": 15,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0087",
+      "mode": "clear",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0087",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0088",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0088",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0089",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 7,
+      "classes": 7,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0089",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 7,
+      "classes": 7,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0090",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0090",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0091",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0091",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0092",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0092",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 2,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0093",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0093",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 3,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0094",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0094",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0095",
+      "mode": "clear",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0095",
+      "mode": "stack",
+      "critical_mass": 14,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0096",
+      "mode": "clear",
+      "critical_mass": 21,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0096",
+      "mode": "stack",
+      "critical_mass": 16,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0097",
+      "mode": "clear",
+      "critical_mass": 12,
+      "critical_states": 6,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0097",
+      "mode": "stack",
+      "critical_mass": 11,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0098",
+      "mode": "clear",
+      "critical_mass": 8,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0098",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0099",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0099",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0100",
+      "mode": "clear",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0100",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0101",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0101",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0102",
+      "mode": "clear",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0102",
+      "mode": "stack",
+      "critical_mass": 10,
+      "critical_states": 4,
+      "classes": 3,
+      "nonAS_class_Qmaximizers": 2,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0103",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0103",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0104",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 12,
+      "classes": 10,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0104",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 11,
+      "classes": 9,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0105",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0105",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0106",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0106",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 10,
+      "classes": 8,
+      "nonAS_class_Qmaximizers": 7,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0107",
+      "mode": "clear",
+      "critical_mass": 9,
+      "critical_states": 2,
+      "classes": 2,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0107",
+      "mode": "stack",
+      "critical_mass": 9,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0108",
+      "mode": "clear",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0108",
+      "mode": "stack",
+      "critical_mass": 8,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0109",
+      "mode": "clear",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0109",
+      "mode": "stack",
+      "critical_mass": 7,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0110",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0110",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 4,
+      "classes": 4,
+      "nonAS_class_Qmaximizers": 1,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0111",
+      "mode": "clear",
+      "critical_mass": 6,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    },
+    {
+      "graph": "A6_0111",
+      "mode": "stack",
+      "critical_mass": 6,
+      "critical_states": 1,
+      "classes": 1,
+      "nonAS_class_Qmaximizers": 0,
+      "global_Qmax_all_AS": true
+    }
+  ],
+  "failed_nonAS_class_maxima": 618,
+  "first_failure": {
+    "graph": "A3_0000",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mode": "stack",
+    "critical_mass": 6,
+    "configuration": [
+      3,
+      3,
+      0
+    ],
+    "support_residue": [
+      3,
+      3,
+      0
+    ],
+    "class_Qmax": 18,
+    "global_Qmax": 26,
+    "class_has_AS": false,
+    "class_states": [
+      [
+        3,
+        3,
+        0
+      ]
+    ],
+    "global_AS_maximizer": [
+      1,
+      5,
+      0
+    ]
+  },
+  "seconds": 3.313000000000102,
+  "scope": "inherited exact n=2..6 critical layers only; no new threshold search"
+}
