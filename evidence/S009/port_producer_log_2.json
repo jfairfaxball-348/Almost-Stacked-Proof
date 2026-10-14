@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s009_ports.py"
+  ],
+  "exit_code": 0,
+  "seconds": 2.514999999999418,
+  "peak_working_set_bytes": 19890176,
+  "resource_failure": null,
+  "stdout": "{\"completed\": 1, \"seconds\": 0.0}\r\n{\"completed\": 41, \"seconds\": 0.0319999999992433}\r\n{\"completed\": 81, \"seconds\": 0.0779999999977008}\r\n{\"completed\": 121, \"seconds\": 0.14099999999962165}\r\n{\"completed\": 161, \"seconds\": 0.2819999999992433}\r\n{\"completed\": 201, \"seconds\": 0.3279999999977008}\r\n{\"completed\": 241, \"seconds\": 0.39099999999962165}\r\n{\"completed\": 281, \"seconds\": 0.5}\r\n{\"campaign\": \"CAM-S009-01\", \"input_sha256\": \"945ac954c6caa1894e5cb49f4058d80712231c812092f494c4b7a27b14f5905f\", \"complete_cases\": 318, \"mass_cap\": 18, \"seconds\": 2.4219999999986612}\r\n",
+  "stderr": "",
+  "code_sha256": "65fcc0fd5a8717c1e33f9e80dfe0d0aa47546b47433ed6c206ef2e462fdb16be"
+}

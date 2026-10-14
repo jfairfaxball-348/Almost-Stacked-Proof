@@ -1,0 +1,88 @@
+{
+  "exit_code": 0,
+  "body": [
+    {
+      "sha": "8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+      "node_id": "C_kwDOVF-kW9oAKDhmZTRlYzNlMDlmY2VlM2E4MGY2ZjBjYWE5ZWI5NzMzN2Y5ZWUwNjE",
+      "commit": {
+        "author": {
+          "name": "John Fairfax-Ball",
+          "email": "jfairfaxball@gmail.com",
+          "date": "2026-10-14T17:17:50Z"
+        },
+        "committer": {
+          "name": "John Fairfax-Ball",
+          "email": "jfairfaxball@gmail.com",
+          "date": "2026-10-14T17:17:50Z"
+        },
+        "message": "S008: hostile audit and exact cyclic family thresholds",
+        "tree": {
+          "sha": "902a6b524667d9fb3690102faf8e867da350af4c",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/902a6b524667d9fb3690102faf8e867da350af4c"
+        },
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+      "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+      "comments_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061/comments",
+      "author": {
+        "login": "jfairfaxball-348",
+        "id": 294537967,
+        "node_id": "U_kgDOEY5K7w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jfairfaxball-348",
+        "html_url": "https://github.com/jfairfaxball-348",
+        "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+        "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+        "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+        "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+        "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "jfairfaxball-348",
+        "id": 294537967,
+        "node_id": "U_kgDOEY5K7w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jfairfaxball-348",
+        "html_url": "https://github.com/jfairfaxball-348",
+        "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+        "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+        "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+        "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+        "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+          "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4"
+        }
+      ]
+    }
+  ],
+  "stderr": ""
+}

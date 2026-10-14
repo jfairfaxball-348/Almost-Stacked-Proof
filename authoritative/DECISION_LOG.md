@@ -49,3 +49,8 @@
 | 2026-10-14 S008 | Owner requires S009 deep primary-source originality/dependency investigation before continued universal research | S008 INPUT/addendum; S009 FUTURE prompt | Foundational Phase1 work, no Lean/publication trigger |
 | 2026-10-14 S008 | Preserve21 S007 mutable mirror bytes in explicit frozen index; old manifests unchanged | evidence/S008/frozen_s007_index.json | Integrity PASS, no history rewrite |
 | 2026-10-14 S008 | Complete S009 handoff; stop before S009 and all final-stage actions | S008 CLOSEOUT/FUTURE_S009 | FUTURE/UNEXECUTED |
+
+| 2026-10-14 S009 | Foundational prior-art comparison first, exact source semantics/slips and earlier mechanisms attributed, possible novelty bounded | S009 prior-art report/SRC0001–0033 | NO PRIORITY OR PHASE2 PROMOTION |
+| 2026-10-14 S009 | Hostile S008 challenge and all old manifests/check-only scopes PASS; frozen indexes retained | S009 AUDIT/cold_checks | NO HISTORICAL HASH REWRITE |
+| 2026-10-14 S009 | Exact first-return languages and marked input frontiers; three-component shortcut refuted; continued path-cover/protected triangle upper | S00938–43 and CAM01/02 | UNIVERSAL ASH* OPEN |
+| 2026-10-14 S009 | Stop before complete future S010 and all final-stage activity; one atomic authored PR/non-force merge only | S009 CLOSEOUT/FUTURE_S010 | BINDING |

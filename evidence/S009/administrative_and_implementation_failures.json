@@ -1,0 +1,32 @@
+[
+  {
+    "type": "SOURCE_ACCESS",
+    "detail": "Initial parallel source fetch failed HTTP500 for arXiv math/0410129 after other PDFs fetched; corrected error retention, publisher PDF subsequently inspected. Direct Sieben403/certificate/glyph failures remain scoped."
+  },
+  {
+    "type": "PRE_EXECUTION_LABEL_CORRECTION",
+    "files": [
+      "sessions/S009/PLAN_AMENDMENT_1_INITIAL.md",
+      "sessions/S009/PLAN_AMENDMENT_2_INITIAL.md"
+    ],
+    "detail": "P3 buffer/source overlap and diamond universal-port labeling corrected and rehashed before any dependent run."
+  },
+  {
+    "type": "CHECKER_TYPE_ASSERTION",
+    "log": "evidence/S009/port_checker_log.json",
+    "resolved_by": "port_checker_log_2.json and deterministic final log3"
+  },
+  {
+    "type": "PREMATURE_CREDIT_PROTECTION",
+    "log": "evidence/S009/credit_producer_log.json",
+    "resolved_by": "completed path-return protection; producer log2 and independent checker PASS"
+  },
+  {
+    "type": "WHITESPACE_CHECK",
+    "detail": "First governance passed; git diff --check failed on2 current SOURCE catalogue trailing spaces, trimmed before final staged check."
+  },
+  {
+    "type": "CHECK_ONLY_JSON_TYPE_NORMALIZATION",
+    "detail": "First port/credit check-only comparisons failed on tuple-versus-decoded-list equality; actual masks/trace bytes agreed. Canonical JSON round trip repaired comparator, initial full logs retained in local_checks_initial.json."
+  }
+]

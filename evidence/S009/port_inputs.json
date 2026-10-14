@@ -1,0 +1,10252 @@
+[
+  {
+    "id": "P3_N0_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "P3_N0_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "P3_N0_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "P3_N0_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "P3_N1_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "P3_N1_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "P3_N1_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "P3_N1_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "P3_N2_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "P3_N2_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "P3_N2_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "P3_N2_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "P3_N3_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "P3_N3_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "P3_N3_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "P3_N3_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "P3_N4_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "P3_N4_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "P3_N4_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      4
+    ]
+  },
+  {
+    "id": "P3_N4_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "P3_N5_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "P3_N5_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "P3_N5_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      5
+    ]
+  },
+  {
+    "id": "P3_N5_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "P3_N6_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "P3_N6_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "P3_N6_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      6
+    ]
+  },
+  {
+    "id": "P3_N6_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      6
+    ]
+  },
+  {
+    "id": "P3_N7_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "P3_N7_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "P3_N7_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      7
+    ]
+  },
+  {
+    "id": "P3_N7_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      7
+    ]
+  },
+  {
+    "id": "P3_N8_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "P3_N8_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "P3_N8_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      8
+    ]
+  },
+  {
+    "id": "P3_N8_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      8
+    ]
+  },
+  {
+    "id": "P3_N9_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "P3_N9_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "P3_N9_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      9
+    ]
+  },
+  {
+    "id": "P3_N9_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      9
+    ]
+  },
+  {
+    "id": "P3_N10_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "P3_N10_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "P3_N10_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      10
+    ]
+  },
+  {
+    "id": "P3_N10_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      10
+    ]
+  },
+  {
+    "id": "P3_N11_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "P3_N11_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "P3_N11_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      11
+    ]
+  },
+  {
+    "id": "P3_N11_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      11
+    ]
+  },
+  {
+    "id": "P3_N12_b0",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "P3_N12_b1",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "P3_N12_b2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      1,
+      1,
+      12
+    ]
+  },
+  {
+    "id": "P3_N12_b3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      3,
+      3,
+      12
+    ]
+  },
+  {
+    "id": "triangle_leaf_N0_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "triangle_leaf_N0_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "triangle_leaf_N0_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "triangle_leaf_N0_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "triangle_leaf_N1_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triangle_leaf_N1_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triangle_leaf_N1_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "triangle_leaf_N1_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "triangle_leaf_N2_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "triangle_leaf_N2_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "triangle_leaf_N2_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "triangle_leaf_N2_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "triangle_leaf_N3_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "triangle_leaf_N3_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "triangle_leaf_N3_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "triangle_leaf_N3_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "triangle_leaf_N4_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "triangle_leaf_N4_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "triangle_leaf_N4_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      4
+    ]
+  },
+  {
+    "id": "triangle_leaf_N4_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "triangle_leaf_N5_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "triangle_leaf_N5_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "triangle_leaf_N5_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      5
+    ]
+  },
+  {
+    "id": "triangle_leaf_N5_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "triangle_leaf_N6_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "triangle_leaf_N6_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "triangle_leaf_N6_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      6
+    ]
+  },
+  {
+    "id": "triangle_leaf_N6_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      6
+    ]
+  },
+  {
+    "id": "triangle_leaf_N7_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "triangle_leaf_N7_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "triangle_leaf_N7_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      7
+    ]
+  },
+  {
+    "id": "triangle_leaf_N7_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      7
+    ]
+  },
+  {
+    "id": "triangle_leaf_N8_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "triangle_leaf_N8_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "triangle_leaf_N8_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      8
+    ]
+  },
+  {
+    "id": "triangle_leaf_N8_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      8
+    ]
+  },
+  {
+    "id": "triangle_leaf_N9_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "triangle_leaf_N9_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "triangle_leaf_N9_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      9
+    ]
+  },
+  {
+    "id": "triangle_leaf_N9_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      9
+    ]
+  },
+  {
+    "id": "triangle_leaf_N10_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "triangle_leaf_N10_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "triangle_leaf_N10_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      10
+    ]
+  },
+  {
+    "id": "triangle_leaf_N10_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      10
+    ]
+  },
+  {
+    "id": "triangle_leaf_N11_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "triangle_leaf_N11_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "triangle_leaf_N11_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      11
+    ]
+  },
+  {
+    "id": "triangle_leaf_N11_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      11
+    ]
+  },
+  {
+    "id": "triangle_leaf_N12_b0",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "triangle_leaf_N12_b1",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "triangle_leaf_N12_b2",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      12
+    ]
+  },
+  {
+    "id": "triangle_leaf_N12_b3",
+    "graph": "triangle_leaf",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      12
+    ]
+  },
+  {
+    "id": "triangle_tail2_N0_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "triangle_tail2_N0_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "triangle_tail2_N0_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "triangle_tail2_N0_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "triangle_tail2_N1_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triangle_tail2_N1_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triangle_tail2_N1_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triangle_tail2_N1_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "triangle_tail2_N2_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "triangle_tail2_N2_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "triangle_tail2_N2_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "triangle_tail2_N2_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "triangle_tail2_N3_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "triangle_tail2_N3_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "triangle_tail2_N3_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "triangle_tail2_N3_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "triangle_tail2_N4_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "triangle_tail2_N4_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "triangle_tail2_N4_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "triangle_tail2_N4_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "triangle_tail2_N5_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "triangle_tail2_N5_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "triangle_tail2_N5_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "triangle_tail2_N5_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "triangle_tail2_N6_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "triangle_tail2_N6_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "triangle_tail2_N6_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "triangle_tail2_N6_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "triangle_tail2_N7_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "triangle_tail2_N7_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "triangle_tail2_N7_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "triangle_tail2_N7_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "triangle_tail2_N8_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "triangle_tail2_N8_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "triangle_tail2_N8_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "triangle_tail2_N8_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "triangle_tail2_N9_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "triangle_tail2_N9_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "triangle_tail2_N9_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "triangle_tail2_N9_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "triangle_tail2_N10_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "triangle_tail2_N10_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "triangle_tail2_N10_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "triangle_tail2_N10_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "triangle_tail2_N11_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "triangle_tail2_N11_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "triangle_tail2_N11_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "triangle_tail2_N11_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "triangle_tail2_N12_b0",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "triangle_tail2_N12_b1",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "triangle_tail2_N12_b2",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "triangle_tail2_N12_b3",
+    "graph": "triangle_tail2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "F2_N0_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "F2_N0_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "F2_N0_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "F2_N0_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "F2_N1_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "F2_N1_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "F2_N1_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "F2_N1_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "F2_N2_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "F2_N2_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "F2_N2_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "F2_N2_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "F2_N3_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "F2_N3_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "F2_N3_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "F2_N3_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "F2_N4_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "F2_N4_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "F2_N4_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "F2_N4_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "F2_N5_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "F2_N5_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "F2_N5_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "F2_N5_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "F2_N6_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "F2_N6_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "F2_N6_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "F2_N6_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "F2_N7_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "F2_N7_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "F2_N7_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "F2_N7_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "F2_N8_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "F2_N8_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "F2_N8_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "F2_N8_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "F2_N9_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "F2_N9_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "F2_N9_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "F2_N9_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "F2_N10_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "F2_N10_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "F2_N10_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "F2_N10_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "F2_N11_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "F2_N11_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "F2_N11_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "F2_N11_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "F2_N12_b0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "F2_N12_b1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "F2_N12_b2",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "F2_N12_b3",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "bowtie_N0_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "bowtie_N0_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "bowtie_N0_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "bowtie_N0_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "bowtie_N1_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "bowtie_N1_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "bowtie_N1_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "bowtie_N1_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "bowtie_N2_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "bowtie_N2_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "bowtie_N2_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "bowtie_N2_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "bowtie_N3_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "bowtie_N3_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "bowtie_N3_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "bowtie_N3_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "bowtie_N4_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "bowtie_N4_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "bowtie_N4_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "bowtie_N4_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "bowtie_N5_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "bowtie_N5_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "bowtie_N5_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "bowtie_N5_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "bowtie_N6_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "bowtie_N6_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "bowtie_N6_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "bowtie_N6_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "bowtie_N7_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "bowtie_N7_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "bowtie_N7_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "bowtie_N7_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "bowtie_N8_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "bowtie_N8_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "bowtie_N8_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "bowtie_N8_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "bowtie_N9_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "bowtie_N9_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "bowtie_N9_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "bowtie_N9_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "bowtie_N10_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "bowtie_N10_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "bowtie_N10_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "bowtie_N10_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "bowtie_N11_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "bowtie_N11_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "bowtie_N11_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "bowtie_N11_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "bowtie_N12_b0",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "bowtie_N12_b1",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "bowtie_N12_b2",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "bowtie_N12_b3",
+    "graph": "bowtie",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "diamond_N0_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "diamond_N0_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "diamond_N0_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "diamond_N0_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "diamond_N1_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "diamond_N1_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "diamond_N1_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "diamond_N1_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "diamond_N2_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "diamond_N2_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "diamond_N2_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "diamond_N2_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "diamond_N3_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "diamond_N3_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "diamond_N3_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "diamond_N3_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "diamond_N4_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "diamond_N4_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "diamond_N4_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      4
+    ]
+  },
+  {
+    "id": "diamond_N4_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "diamond_N5_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "diamond_N5_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "id": "diamond_N5_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      5
+    ]
+  },
+  {
+    "id": "diamond_N5_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "diamond_N6_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "diamond_N6_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "id": "diamond_N6_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      6
+    ]
+  },
+  {
+    "id": "diamond_N6_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      6
+    ]
+  },
+  {
+    "id": "diamond_N7_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "diamond_N7_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      7
+    ]
+  },
+  {
+    "id": "diamond_N7_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      7
+    ]
+  },
+  {
+    "id": "diamond_N7_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      7
+    ]
+  },
+  {
+    "id": "diamond_N8_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "diamond_N8_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      8
+    ]
+  },
+  {
+    "id": "diamond_N8_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      8
+    ]
+  },
+  {
+    "id": "diamond_N8_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      8
+    ]
+  },
+  {
+    "id": "diamond_N9_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "diamond_N9_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      9
+    ]
+  },
+  {
+    "id": "diamond_N9_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      9
+    ]
+  },
+  {
+    "id": "diamond_N9_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      9
+    ]
+  },
+  {
+    "id": "diamond_N10_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "diamond_N10_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      10
+    ]
+  },
+  {
+    "id": "diamond_N10_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      10
+    ]
+  },
+  {
+    "id": "diamond_N10_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      10
+    ]
+  },
+  {
+    "id": "diamond_N11_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "diamond_N11_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      11
+    ]
+  },
+  {
+    "id": "diamond_N11_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      11
+    ]
+  },
+  {
+    "id": "diamond_N11_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      11
+    ]
+  },
+  {
+    "id": "diamond_N12_b0",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "diamond_N12_b1",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      0,
+      12
+    ]
+  },
+  {
+    "id": "diamond_N12_b2",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      12
+    ]
+  },
+  {
+    "id": "diamond_N12_b3",
+    "graph": "diamond",
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3,
+      12
+    ]
+  },
+  {
+    "id": "explicit_0",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      1,
+      1,
+      7,
+      1
+    ]
+  },
+  {
+    "id": "explicit_1",
+    "graph": "F2",
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      0,
+      0,
+      11,
+      1
+    ]
+  },
+  {
+    "id": "explicit_2",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "explicit_3",
+    "graph": "P3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      0,
+      6,
+      3
+    ]
+  },
+  {
+    "id": "K3_pure5",
+    "graph": "K3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      5,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "K3_pure6",
+    "graph": "K3",
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "port": 0,
+    "configuration": [
+      6,
+      0,
+      0
+    ]
+  }
+]

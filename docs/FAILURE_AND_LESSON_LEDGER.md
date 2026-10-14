@@ -55,3 +55,11 @@
 
 
 Closeout administrative correction: implicit Windows cp1252 reads failed on UTF-8 text, interrupting CLM-0068 Markdown update and check-log collection. Governance failed closed on the missing claim mirror. Explicit UTF-8 reads/output capture repaired both; mathematical checks had passed, failures retained in evidence/S008/administrative_failures.json.
+
+| FL-0046 | Calling exact ancestry/token values new ignores direct April4.3/Sjostrand precedents | S009 per-result primary table separates known theorem/mechanism from possible new consequences |
+| FL-0047 | Ordinary target/cover/no-cycle/lex results allow leftovers and fixed demands | Preserve exact consuming labels, all root minima, zero support and forest reconstruction |
+| FL-0048 | Rootwise conductor domination is stronger and false | K3 pure5 fails root0 while clearing elsewhere; rooted minimum8/last5 versus unrooted AS maximum3 |
+| FL-0049 | Three removed inputs assumed to damage at most two stack components | Explicit labeled critical P3 extension has three affected final trees; arbitrary-length frontiers require full reconstruction |
+| FL-0050 | Protecting an odd-path credit export before completing its launch can make the construction illegal | Retained producer failure; protect completed path-return output or even export; independent full traces then PASS |
+| FL-0051 | A first-return port hole treated as free or a standalone boundary base | Least nonempty substitution, even holes and actual e_a input separately; complete318-case challenge |
+| FL-0052 | Pre-registration labels accidentally overlap source or fail universal-port assumption | Both corrected/rehashed before computation, initial text/digests retained; no scope expansion |

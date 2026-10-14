@@ -18,3 +18,5 @@ Detailed S001 scope and caveats: [closeout](../sessions/S001/CLOSEOUT.md).
 | S007 | 2026-10-14 | Cold S006 audit; cross-class/dual challenge; selected ancestry credit and legal leaf extensions; exact infinite triangle-tail clearing, stacking upper and sharp-core path theorem; bounded dual validation | Universal ASH* OPEN; family clearing proved, prior lower credited; no novelty/Lean; S008 FUTURE |
 
 | S008 | 2026-10-14 | Hostile S007 audit; symbolic triangle-tail stacking lower; exact common-root triangle leaf thresholds; continued conductor/ideal/extremal proof research and independent challenges | Universal ASH* OPEN; strong family results, novelty unaudited; S009 prior-art first FUTURE |
+
+| S009 | 2026-10-14 | Deep primary prior-art/dependency investigation first; hostile S008 audit; exact excursion composition, marked-frontier failure, path-cover credit/dominated bounds; two bounded independent challenges | Universal ASH* OPEN; no gate promotion;318 port cases and3860 upper traces; S010 COMPLETE FUTURE |

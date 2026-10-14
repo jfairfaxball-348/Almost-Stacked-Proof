@@ -1,0 +1,434 @@
+[
+  {
+    "run_id": 38606309819,
+    "response": {
+      "exit_code": 0,
+      "body": {
+        "total_count": 5,
+        "jobs": [
+          {
+            "id": 115997991911,
+            "run_id": 38606309819,
+            "workflow_name": "Governance integrity",
+            "head_branch": "main",
+            "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819",
+            "run_attempt": 1,
+            "node_id": "CR_kwDOVF-kW88AAAAbAgTj5w",
+            "head_sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/115997991911",
+            "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819/job/115997991911",
+            "status": "completed",
+            "conclusion": "success",
+            "created_at": "2026-10-14T17:23:56Z",
+            "started_at": "2026-10-14T17:23:59Z",
+            "completed_at": "2026-10-14T17:26:25Z",
+            "name": "validate",
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-10-14T17:24:00Z",
+                "completed_at": "2026-10-14T17:24:00Z"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-10-14T17:24:00Z",
+                "completed_at": "2026-10-14T17:24:03Z"
+              },
+              {
+                "name": "Validate source/claim mirrors and phase statuses",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-10-14T17:24:03Z",
+                "completed_at": "2026-10-14T17:24:17Z"
+              },
+              {
+                "name": "Re-check S003 printed-ASH counterexample certificates (independent replay/closure checker)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-10-14T17:24:17Z",
+                "completed_at": "2026-10-14T17:24:17Z"
+              },
+              {
+                "name": "Cold S004 printed audit, structural tests and AS independent-set witnesses",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-10-14T17:24:17Z",
+                "completed_at": "2026-10-14T17:24:21Z"
+              },
+              {
+                "name": "Independent complete S004 frontier replay and full winning-base comparison",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-10-14T17:24:21Z",
+                "completed_at": "2026-10-14T17:26:07Z"
+              },
+              {
+                "name": "S006 exact rooted grammar, forests and complete bounded dual traversals",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-10-14T17:26:07Z",
+                "completed_at": "2026-10-14T17:26:21Z"
+              },
+              {
+                "name": "S007 independent full triangle-tail layers and legal constructive traces",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-10-14T17:26:21Z",
+                "completed_at": "2026-10-14T17:26:22Z"
+              },
+              {
+                "name": "S008 independent ancestry, universal symbolic inequalities and complete branch traces",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-10-14T17:26:22Z",
+                "completed_at": "2026-10-14T17:26:23Z"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-10-14T17:26:23Z",
+                "completed_at": "2026-10-14T17:26:23Z"
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-10-14T17:26:23Z",
+                "completed_at": "2026-10-14T17:26:23Z"
+              }
+            ],
+            "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/115997991911",
+            "labels": [
+              "ubuntu-latest"
+            ],
+            "runner_id": 1000008362,
+            "runner_name": "GitHub Actions 1000008362",
+            "runner_group_id": 0,
+            "runner_group_name": "GitHub Actions"
+          },
+          {
+            "id": 115997992241,
+            "run_id": 38606309819,
+            "workflow_name": "Governance integrity",
+            "head_branch": "main",
+            "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819",
+            "run_attempt": 1,
+            "node_id": "CR_kwDOVF-kW88AAAAbAgTlMQ",
+            "head_sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/115997992241",
+            "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819/job/115997992241",
+            "status": "completed",
+            "conclusion": "success",
+            "created_at": "2026-10-14T17:23:56Z",
+            "started_at": "2026-10-14T17:23:58Z",
+            "completed_at": "2026-10-14T17:25:36Z",
+            "name": "s005-replay (0)",
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-10-14T17:23:58Z",
+                "completed_at": "2026-10-14T17:23:59Z"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-10-14T17:23:59Z",
+                "completed_at": "2026-10-14T17:24:02Z"
+              },
+              {
+                "name": "Independent S005 complete losing-layer replay and winning-base check",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-10-14T17:24:02Z",
+                "completed_at": "2026-10-14T17:25:34Z"
+              },
+              {
+                "name": "S005 pure-pile theorem challenges and independent winning traces",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-10-14T17:25:34Z",
+                "completed_at": "2026-10-14T17:25:34Z"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-10-14T17:25:34Z",
+                "completed_at": "2026-10-14T17:25:34Z"
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-10-14T17:25:34Z",
+                "completed_at": "2026-10-14T17:25:34Z"
+              }
+            ],
+            "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/115997992241",
+            "labels": [
+              "ubuntu-latest"
+            ],
+            "runner_id": 1000008363,
+            "runner_name": "GitHub Actions 1000008363",
+            "runner_group_id": 0,
+            "runner_group_name": "GitHub Actions"
+          },
+          {
+            "id": 115997992412,
+            "run_id": 38606309819,
+            "workflow_name": "Governance integrity",
+            "head_branch": "main",
+            "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819",
+            "run_attempt": 1,
+            "node_id": "CR_kwDOVF-kW88AAAAbAgTl3A",
+            "head_sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/115997992412",
+            "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819/job/115997992412",
+            "status": "completed",
+            "conclusion": "success",
+            "created_at": "2026-10-14T17:23:56Z",
+            "started_at": "2026-10-14T17:23:58Z",
+            "completed_at": "2026-10-14T17:24:14Z",
+            "name": "s005-replay (3)",
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-10-14T17:23:58Z",
+                "completed_at": "2026-10-14T17:23:59Z"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-10-14T17:23:59Z",
+                "completed_at": "2026-10-14T17:24:01Z"
+              },
+              {
+                "name": "Independent S005 complete losing-layer replay and winning-base check",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-10-14T17:24:01Z",
+                "completed_at": "2026-10-14T17:24:12Z"
+              },
+              {
+                "name": "S005 pure-pile theorem challenges and independent winning traces",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-10-14T17:24:12Z",
+                "completed_at": "2026-10-14T17:24:12Z"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-10-14T17:24:12Z",
+                "completed_at": "2026-10-14T17:24:12Z"
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-10-14T17:24:12Z",
+                "completed_at": "2026-10-14T17:24:12Z"
+              }
+            ],
+            "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/115997992412",
+            "labels": [
+              "ubuntu-latest"
+            ],
+            "runner_id": 1000008364,
+            "runner_name": "GitHub Actions 1000008364",
+            "runner_group_id": 0,
+            "runner_group_name": "GitHub Actions"
+          },
+          {
+            "id": 115997992485,
+            "run_id": 38606309819,
+            "workflow_name": "Governance integrity",
+            "head_branch": "main",
+            "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819",
+            "run_attempt": 1,
+            "node_id": "CR_kwDOVF-kW88AAAAbAgTmJQ",
+            "head_sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/115997992485",
+            "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819/job/115997992485",
+            "status": "completed",
+            "conclusion": "success",
+            "created_at": "2026-10-14T17:23:56Z",
+            "started_at": "2026-10-14T17:23:58Z",
+            "completed_at": "2026-10-14T17:27:37Z",
+            "name": "s005-replay (1)",
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-10-14T17:23:59Z",
+                "completed_at": "2026-10-14T17:23:59Z"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-10-14T17:23:59Z",
+                "completed_at": "2026-10-14T17:24:03Z"
+              },
+              {
+                "name": "Independent S005 complete losing-layer replay and winning-base check",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-10-14T17:24:03Z",
+                "completed_at": "2026-10-14T17:27:34Z"
+              },
+              {
+                "name": "S005 pure-pile theorem challenges and independent winning traces",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-10-14T17:27:34Z",
+                "completed_at": "2026-10-14T17:27:34Z"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-10-14T17:27:34Z",
+                "completed_at": "2026-10-14T17:27:34Z"
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-10-14T17:27:34Z",
+                "completed_at": "2026-10-14T17:27:34Z"
+              }
+            ],
+            "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/115997992485",
+            "labels": [
+              "ubuntu-latest"
+            ],
+            "runner_id": 1000008365,
+            "runner_name": "GitHub Actions 1000008365",
+            "runner_group_id": 0,
+            "runner_group_name": "GitHub Actions"
+          },
+          {
+            "id": 115997993024,
+            "run_id": 38606309819,
+            "workflow_name": "Governance integrity",
+            "head_branch": "main",
+            "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819",
+            "run_attempt": 1,
+            "node_id": "CR_kwDOVF-kW88AAAAbAgToQA",
+            "head_sha": "325f39d3448b6a0dfa092ea16196c56c3cc04673",
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/115997993024",
+            "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38606309819/job/115997993024",
+            "status": "completed",
+            "conclusion": "success",
+            "created_at": "2026-10-14T17:23:56Z",
+            "started_at": "2026-10-14T17:23:58Z",
+            "completed_at": "2026-10-14T17:27:37Z",
+            "name": "s005-replay (2)",
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-10-14T17:23:59Z",
+                "completed_at": "2026-10-14T17:24:00Z"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-10-14T17:24:00Z",
+                "completed_at": "2026-10-14T17:24:03Z"
+              },
+              {
+                "name": "Independent S005 complete losing-layer replay and winning-base check",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-10-14T17:24:03Z",
+                "completed_at": "2026-10-14T17:27:08Z"
+              },
+              {
+                "name": "S005 pure-pile theorem challenges and independent winning traces",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-10-14T17:27:08Z",
+                "completed_at": "2026-10-14T17:27:08Z"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-10-14T17:27:08Z",
+                "completed_at": "2026-10-14T17:27:09Z"
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-10-14T17:27:09Z",
+                "completed_at": "2026-10-14T17:27:09Z"
+              }
+            ],
+            "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/115997993024",
+            "labels": [
+              "ubuntu-latest"
+            ],
+            "runner_id": 1000008366,
+            "runner_name": "GitHub Actions 1000008366",
+            "runner_group_id": 0,
+            "runner_group_name": "GitHub Actions"
+          }
+        ]
+      },
+      "stderr": ""
+    }
+  }
+]

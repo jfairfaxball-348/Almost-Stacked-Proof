@@ -223,7 +223,7 @@
     "sources": [
       "SRC-0010"
     ],
-    "claim": "Owner-supplied 2026-10-13 message from Tam\u00e1s Csern\u00e1k (cc Lajos Soukup) confirms intended statement is critical form ASH* at largest bad layer, stronger printed pointwise claim false, and describes upward losing-layer propagation; not a public erratum, universal theorem, or independent certificate verification"
+    "claim": "Owner-supplied 2026-10-13 message from Tamás Csernák (cc Lajos Soukup) confirms intended statement is critical form ASH* at largest bad layer, stronger printed pointwise claim false, and describes upward losing-layer propagation; not a public erratum, universal theorem, or independent certificate verification"
   },
   {
     "id": "CLM-0029",
@@ -233,7 +233,7 @@
       "SRC-0007",
       "SRC-0009"
     ],
-    "claim": "Tam\u00e1s Csern\u00e1k reports complete n<=7 computations and ASH* holding (SOURCE_STATED). S004 separately independently completes S003's missing 8 stack/3 clear cases, so combined programme order-seven coverage is now 853/853 and 809/809; author testimony is not itself the computation."
+    "claim": "Tamás Csernák reports complete n<=7 computations and ASH* holding (SOURCE_STATED). S004 separately independently completes S003's missing 8 stack/3 clear cases, so combined programme order-seven coverage is now 853/853 and 809/809; author testimony is not itself the computation."
   },
   {
     "id": "CLM-0030",
@@ -249,7 +249,8 @@
     "sources": [
       "SRC-0012"
     ],
-    "claim": "For any finite simple graph and independent I of size k>=2, (2k+1)e_r + sum_{x in I minus r}e_x is almost stacked of size3k and non-stackable, including graphs with internal edges outside I (S004 Theorem12; no novelty or Lean claim)."
+    "claim": "For any finite simple graph and independent I of size k>=2, (2k+1)e_r + sum_{x in I minus r}e_x is almost stacked of size3k and non-stackable, including graphs with internal edges outside I (S004 Theorem12; no novelty or Lean claim).",
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0032",
@@ -258,7 +259,8 @@
       "SRC-0012",
       "SRC-0002"
     ],
-    "claim": "ASH* holds for all connected complete multipartite graphs for stack and all non-bipartite such graphs for clear; S004 AS witness plus cited April Thms8.1-8.3 exact thresholds. More generally g=n+1 or g=3alpha+1 gives ASH* (Corollaries13-14)."
+    "claim": "ASH* holds for all connected complete multipartite graphs for stack and all non-bipartite such graphs for clear; S004 AS witness plus cited April Thms8.1-8.3 exact thresholds. More generally g=n+1 or g=3alpha+1 gives ASH* (Corollaries13-14).",
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0033",
@@ -310,7 +312,8 @@
     "sources": [
       "SRC-0012"
     ],
-    "claim": "Rooted clear configurations are exactly binary ancestry-language vectors; rooted stack configurations are finite nonempty sums of them, with legal postorder realization (S004 Proposition17). Balance equations alone are insufficient (K3 terminal all ones)."
+    "claim": "Rooted clear configurations are exactly binary ancestry-language vectors; rooted stack configurations are finite nonempty sums of them, with legal postorder realization (S004 Proposition17). Balance equations alone are insufficient (K3 terminal all ones).",
+    "originality_assessment": "KNOWN_RESULT_WITH_ALTERNATIVE_PROOF_OR_ELEMENTARY_REFORMULATION_S009"
   },
   {
     "id": "CLM-0039",
@@ -320,7 +323,8 @@
       "SRC-0002",
       "SRC-0013"
     ],
-    "claim": "Exact pure-pile clearing: on connected non-bipartite G, N e_r clears iff N%3!=0 or N>=3*2^h(r), first equal-distance edge height h. Prior rooted odd-walk lower bound credited; matching path/edge ancestry construction; no novelty/Lean claim. Bipartite multiples3 never clear."
+    "claim": "Exact pure-pile clearing: on connected non-bipartite G, N e_r clears iff N%3!=0 or N>=3*2^h(r), first equal-distance edge height h. Prior rooted odd-walk lower bound credited; matching path/edge ancestry construction; no novelty/Lean claim. Bipartite multiples3 never clear.",
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0040",
@@ -356,7 +360,8 @@
       "SRC-0001",
       "SRC-0013"
     ],
-    "claim": "Support-preserving +3 closure: winning c with c(w)>=1 implies winning c+3e_w via source equation4.10; fixed positive support/residue losing sets are finite lower sets. This alone does not force AS extreme holes."
+    "claim": "Support-preserving +3 closure: winning c with c(w)>=1 implies winning c+3e_w via source equation4.10; fixed positive support/residue losing sets are finite lower sets. This alone does not force AS extreme holes.",
+    "originality_assessment": "KNOWN_RESULT_WITH_ALTERNATIVE_PROOF_OR_ELEMENTARY_REFORMULATION_S009"
   },
   {
     "id": "CLM-0044",
@@ -390,7 +395,8 @@
       "SRC-0015",
       "SRC-0012",
       "SRC-0001"
-    ]
+    ],
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0048",
@@ -400,7 +406,8 @@
       "SRC-0015",
       "SRC-0012",
       "SRC-0001"
-    ]
+    ],
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0049",
@@ -409,7 +416,8 @@
     "sources": [
       "SRC-0015",
       "SRC-0001"
-    ]
+    ],
+    "originality_assessment": "KNOWN_RESULT_WITH_ALTERNATIVE_PROOF_OR_ELEMENTARY_REFORMULATION_S009"
   },
   {
     "id": "CLM-0050",
@@ -417,7 +425,8 @@
     "claim": "Exact largest positive AS losing mass is max(|b|+min_q A(s,b,q,r)-3) over binary off-source b and positive last losers. Universal ASH* is precisely the still-unproved winning upper at L_AS+1, not a consequence of computing the formula.",
     "sources": [
       "SRC-0015"
-    ]
+    ],
+    "originality_assessment": "KNOWN_RESULT_WITH_ALTERNATIVE_PROOF_OR_ELEMENTARY_REFORMULATION_S009"
   },
   {
     "id": "CLM-0051",
@@ -460,7 +469,8 @@
     "sources": [
       "SRC-0017",
       "SRC-0012"
-    ]
+    ],
+    "originality_assessment": "EQUIVALENCE_UNRESOLVED_S009_CLASSICAL_CHEAP_SOLUTIONS"
   },
   {
     "id": "CLM-0056",
@@ -470,7 +480,8 @@
       "SRC-0017",
       "SRC-0015",
       "SRC-0001"
-    ]
+    ],
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0057",
@@ -480,7 +491,8 @@
       "SRC-0017",
       "SRC-0002",
       "SRC-0013"
-    ]
+    ],
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0058",
@@ -498,7 +510,8 @@
     "sources": [
       "SRC-0017",
       "SRC-0002"
-    ]
+    ],
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0060",
@@ -524,7 +537,8 @@
       "SRC-0012",
       "SRC-0015"
     ],
-    "claim": "For every triangle-tail length l>=0, the explicit tree/forest lower labels for a tip pile and two core singleton inputs satisfy all bases/productions, including zero kind and every final root; S008 Lemma34, no novelty/kernel claim."
+    "claim": "For every triangle-tail length l>=0, the explicit tree/forest lower labels for a tip pile and two core singleton inputs satisfy all bases/productions, including zero kind and every final root; S008 Lemma34, no novelty/kernel claim.",
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0063",
@@ -533,7 +547,8 @@
       "SRC-0019",
       "SRC-0017"
     ],
-    "claim": "Exact stack(G_l)=4*2^l for every triangle-tail l>=0: S007 upper plus S008 AS loser (4*2^l-3)e_tip+e1+e2, ruled out at every final forest root by Lemma34. ASH*-stack holds for this family only."
+    "claim": "Exact stack(G_l)=4*2^l for every triangle-tail l>=0: S007 upper plus S008 AS loser (4*2^l-3)e_tip+e1+e2, ruled out at every final forest root by Lemma34. ASH*-stack holds for this family only.",
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0064",
@@ -541,7 +556,8 @@
     "sources": [
       "SRC-0019"
     ],
-    "claim": "For triangle F_k with k>=1 leaves all attached at vertex0, stack=3k+5 and clear=3k+7; complete separate legal normalization uppers and weight/mod3/chronology AS critical lowers. S008 Theorem36, universal ASH* OPEN."
+    "claim": "For triangle F_k with k>=1 leaves all attached at vertex0, stack=3k+5 and clear=3k+7; complete separate legal normalization uppers and weight/mod3/chronology AS critical lowers. S008 Theorem36, universal ASH* OPEN.",
+    "originality_assessment": "POSSIBLE_NEW_RESULT_BOUNDED_PRIMARY_COMPARISON_S009"
   },
   {
     "id": "CLM-0065",
@@ -551,7 +567,8 @@
       "SRC-0015",
       "SRC-0001"
     ],
-    "claim": "Winning configurations in each fixed nonempty support/residue class form a finite-complement monomial ideal via occupied +3; rooted ideals sum for unrooted goals; every globally largest loser has U=c(s)+3 at every occupied s. S008 Proposition37, no cross-class AS domination proved."
+    "claim": "Winning configurations in each fixed nonempty support/residue class form a finite-complement monomial ideal via occupied +3; rooted ideals sum for unrooted goals; every globally largest loser has U=c(s)+3 at every occupied s. S008 Proposition37, no cross-class AS domination proved.",
+    "originality_assessment": "KNOWN_RESULT_WITH_ALTERNATIVE_PROOF_OR_ELEMENTARY_REFORMULATION_S009"
   },
   {
     "id": "CLM-0066",
@@ -578,5 +595,106 @@
       "SRC-0009"
     ],
     "claim": "Conditional consequence of audited S007 Theorem33 and retained COMPUTED_EXACT core thresholds: C5 and C7 with a pendant l-edge path have clear=12*2^l-2 and24*2^l-2, respectively, for l>=0, with prior pure-tip AS lower. Not an all-odd-cycle core theorem; finite core dependencies remain explicit."
+  },
+  {
+    "id": "CLM-0069",
+    "status": "HEURISTIC",
+    "sources": [
+      "SRC-0033"
+    ],
+    "claim": "Foundational S004-S008 originality/dependency classifications: known mechanisms and elementary encodings attributed, precise possible-new results/equivalence uncertainty retained; no worldwide priority or Phase2 promotion."
+  },
+  {
+    "id": "CLM-0070",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0035",
+      "SRC-0020"
+    ],
+    "claim": "S009 fifteen inherited cold check-only commands PASS at old scopes; all S003-S008 manifests verify with frozen S006/S007 indexes; new challenge is not a human/kernel audit."
+  },
+  {
+    "id": "CLM-0071",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0012",
+      "SRC-0002"
+    ],
+    "claim": "Exact first-return ancestry composition at any distinguished vertex: least finite substitution of consuming fragments, actual boundary singleton distinct from holes, even holes, arbitrary excursions and all rooted goals; nonempty common-root forest sum for stack. S009 Thm38."
+  },
+  {
+    "id": "CLM-0072",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0002"
+    ],
+    "claim": "One-pebble insertion gives a marked walk, full sibling-input partition and unmarked final forest; every-site insertion for global largest losers. Marked deletion damages <=p final trees but can expose arbitrarily many frontier siblings. S009 Lemmas39-40, no AS selection implication."
+  },
+  {
+    "id": "CLM-0073",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0035"
+    ],
+    "claim": "At-most-two-component reconstruction shortcut refuted: critical P3 center0 loser(0,3,3) extends to(0,6,3), legally stacks into three distinct root trees each using a different marked extra input. Removing three marks damages three components. Not Q-maximal or ASH* counterexample."
+  },
+  {
+    "id": "CLM-0074",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0001",
+      "SRC-0003"
+    ],
+    "claim": "For universal vertex a, B=c(a)+sum floor(c(v)/2)-theta((G-a)[odd])>0 gives legal rooted stack of exactlyB, by positive credit then zero/negative path tasks; sufficient only. Thus stack<=1+max_O(|O|+2theta). S009 Prop41."
+  },
+  {
+    "id": "CLM-0075",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0019"
+    ],
+    "claim": "Dominated nonbipartite n>=4 graphs have stack<=3n-4/clear<=3n-2 via spanning S008F; if G-a has >=2 edges, stack<=3n-5 and clear<=3n-3. Sharpness/class scopes separate; n3 K3=4. S009 Cor42/Prop43."
+  },
+  {
+    "id": "CLM-0076",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0012",
+      "SRC-0002"
+    ],
+    "claim": "If G has universal a and G-a is a star with >=2 edges plus isolates, alpha=n-2 and stack=3n-5, with S004 AS independent-set critical witness. ASH*-stack saturation subcase only; no universal or new clear equality."
+  },
+  {
+    "id": "CLM-0077",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0034",
+      "SRC-0001",
+      "SRC-0003"
+    ],
+    "claim": "For universal a with neighbor graphH containing an edge and r isolates, clear<=max(D(H)+3,3r+7), D=max_O(|O|+2theta(H[O])); B3 case needs completed/protected triangular output and exact disjoint final-forest repair. S009 Prop43, new cold audit futureS010."
+  },
+  {
+    "id": "CLM-0078",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0035"
+    ],
+    "claim": "CAM-S009-01:318 registered vectors n<=5 mass<=18,53924 closure states/max3409,1694 rooted traces; exact fragment versus full forward/reverse membership agrees. CAM02:33 full layers/13088 states,3860 upper traces/41800 legal moves/795 protectedB3 ancestry partitions pass. No new exact threshold or universal claim."
+  },
+  {
+    "id": "CLM-0079",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0033",
+      "SRC-0002"
+    ],
+    "claim": "Correct direction of surjective simple-graph homomorphism threshold comparison is g(G0)>=g(G1), via arbitrary configuration lift and pushed legal sequences; April7.1(2) prints the reversed inequality while Cor7.5 uses the correct lower direction. This is programme reconciliation, not a posted erratum."
   }
 ]

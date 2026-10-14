@@ -1,6 +1,6 @@
-# Claim catalogue — current after S008
+# Claim catalogue — current after S009
 
-Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and exact finite scopes retained.
+Mathematical assurance and originality are separate; all universal goals OPEN. Detailed comparisons in the S009 primary report.
 
 | ID | Status | Claim | Sources |
 |---|---|---|---|
@@ -58,25 +58,28 @@ Universal ASH* OPEN. No FORMALLY_CERTIFIED programme claim; source credit and ex
 | CLM-0052 | COMPUTED_EXACT | S006 independent optimum/legality checks:153 clearing certificates,2145 attaining trees,30347 production inequalities;367 finite stacking forest cells and9161 concatenation inequalities; scopes in AUDIT, no Lean. | SRC-0016 |
 | CLM-0053 | COMPUTED_EXACT | Full independent forward/reverse rooted masks agree on3155536 labelled configurations in531 layers/35 graphs;11750 pure and1508 clear-buffer comparisons plus1508 stack-buffer comparisons. Tail3 state cutoff after29, tail4 cap10; no new global threshold claims. | SRC-0016 |
 | CLM-0054 | COMPUTED_EXACT | 257 inherited n<=6 critical sets have618 non-AS support/residue-class Q maxima, first P3(3,3,0) Q18 vs global AS Q26. Fixed-residue concentration fails; all global Q maxima remain AS in this finite scope only. | SRC-0016, SRC-0014 |
-
 | CLM-0055 | PROGRAMME_PROVED | Rooted spanning-tree selected ancestry credit: mass>M=sum 2^(h-depth) produces two root pebbles from K<=2^(h+1) designated inputs; replay only chosen trees, leaving other inputs untouched. S007 Lemma28. | SRC-0017, SRC-0012 |
 | CLM-0056 | PROGRAMME_PROVED | Legal leaf clearing/stacking extension bounds under explicit rooted-tree credit/M/g hypotheses; separate odd self-credit, leaf1/3 debt and core-singleton winning pullback. S007 Lemmas29/31. | SRC-0017, SRC-0015, SRC-0001 |
 | CLM-0057 | PROGRAMME_PROVED | For every l>=0, triangle with pendant l-edge path has clear=6*2^l-2 and an AS pure tip loser at the critical layer; prior April6.1 lower credited, complete unconditional all-configuration upper. S007 Theorem30. | SRC-0017, SRC-0002, SRC-0013 |
-| CLM-0058 | PROGRAMME_PROVED | For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack was unproved in S007; S008 Theorem35 supplies it separately (CLM-0063). S007 Corollary32. | SRC-0017, SRC-0015 |
+| CLM-0058 | PROGRAMME_PROVED | For every l>=0, triangle-tail stack<=4*2^l; infinite matching stacking lower/ASHstar-stack remains unproved. S007 Corollary32. Historical S007 scope; S008 Theorem35 independently adds a matching all-length AS lower (CLM-0063). | SRC-0017, SRC-0015 |
 | CLM-0059 | PROGRAMME_PROVED | Sharp odd-bound non-bipartite cores with boundary spanning height h and M<2g retain exact clear=3*2^(h+l)-2 under pendant path extension; explicit conditional hypotheses in S007 Theorem33. | SRC-0017, SRC-0002 |
 | CLM-0060 | COMPUTED_EXACT | Independent S007 full layer hashes/counts: clear l0..2 thresholds4/10/22,81763 states/36 layers; stack4/8/16,20876 states/28 layers.15251 clear and5025 stack traces,316569/73132 moves legally replayed. Finite only. | SRC-0018 |
 | CLM-0061 | PROGRAMME_PROVED | Move-monotone additive scalar weights cannot separate the K3 pure3 clearing loser; exact three-state closure nonclearing. Universal general/binary conductor inequality remains unproved. | SRC-0017 |
-
 | CLM-0062 | PROGRAMME_PROVED | For every triangle-tail length l>=0, the explicit tree/forest lower labels for a tip pile and two core singleton inputs satisfy all bases/productions, including zero kind and every final root; S008 Lemma34, no novelty/kernel claim. | SRC-0019, SRC-0012, SRC-0015 |
-
 | CLM-0063 | PROGRAMME_PROVED | Exact stack(G_l)=4*2^l for every triangle-tail l>=0: S007 upper plus S008 AS loser (4*2^l-3)e_tip+e1+e2, ruled out at every final forest root by Lemma34. ASH*-stack holds for this family only. | SRC-0019, SRC-0017 |
-
 | CLM-0064 | PROGRAMME_PROVED | For triangle F_k with k>=1 leaves all attached at vertex0, stack=3k+5 and clear=3k+7; complete separate legal normalization uppers and weight/mod3/chronology AS critical lowers. S008 Theorem36, universal ASH* OPEN. | SRC-0019 |
-
 | CLM-0065 | PROGRAMME_PROVED | Winning configurations in each fixed nonempty support/residue class form a finite-complement monomial ideal via occupied +3; rooted ideals sum for unrooted goals; every globally largest loser has U=c(s)+3 at every occupied s. S008 Proposition37, no cross-class AS domination proved. | SRC-0019, SRC-0015, SRC-0001 |
-
 | CLM-0066 | COMPUTED_EXACT | S008 registered named-buffer l0..8 optimality/legality certificates,774 finite forest witnesses; complete candidate closures l0..3 with1/14/101/891 states;4376 universally nonnegative symbolic production differences. No whole-graph threshold census or universal ASH* certificate. | SRC-0020 |
-
 | CLM-0067 | COMPUTED_EXACT | S008 F_k,k1..3 only, both goals:72 complete labelled layers/127799 states; full forward/reverse set hashes/counts agree;36173 upper traces/479591 legal moves independently replayed and both critical AS patterns checked. Infinite Theorem36 rests on written proof. | SRC-0020 |
-
 | CLM-0068 | PROGRAMME_PROVED | Conditional consequence of audited S007 Theorem33 and retained COMPUTED_EXACT core thresholds: C5 and C7 with a pendant l-edge path have clear=12*2^l-2 and24*2^l-2, respectively, for l>=0, with prior pure-tip AS lower. Not an all-odd-cycle core theorem; finite core dependencies remain explicit. | SRC-0019, SRC-0017, SRC-0009 |
+| CLM-0069 | HEURISTIC | Foundational S004-S008 originality/dependency classifications: known mechanisms and elementary encodings attributed, precise possible-new results/equivalence uncertainty retained; no worldwide priority or Phase2 promotion. | SRC-0033 |
+| CLM-0070 | COMPUTED_EXACT | S009 fifteen inherited cold check-only commands PASS at old scopes; all S003-S008 manifests verify with frozen S006/S007 indexes; new challenge is not a human/kernel audit. | SRC-0035, SRC-0020 |
+| CLM-0071 | PROGRAMME_PROVED | Exact first-return ancestry composition at any distinguished vertex: least finite substitution of consuming fragments, actual boundary singleton distinct from holes, even holes, arbitrary excursions and all rooted goals; nonempty common-root forest sum for stack. S009 Thm38. | SRC-0034, SRC-0012, SRC-0002 |
+| CLM-0072 | PROGRAMME_PROVED | One-pebble insertion gives a marked walk, full sibling-input partition and unmarked final forest; every-site insertion for global largest losers. Marked deletion damages <=p final trees but can expose arbitrarily many frontier siblings. S009 Lemmas39-40, no AS selection implication. | SRC-0034, SRC-0002 |
+| CLM-0073 | PROGRAMME_PROVED | At-most-two-component reconstruction shortcut refuted: critical P3 center0 loser(0,3,3) extends to(0,6,3), legally stacks into three distinct root trees each using a different marked extra input. Removing three marks damages three components. Not Q-maximal or ASH* counterexample. | SRC-0034, SRC-0035 |
+| CLM-0074 | PROGRAMME_PROVED | For universal vertex a, B=c(a)+sum floor(c(v)/2)-theta((G-a)[odd])>0 gives legal rooted stack of exactlyB, by positive credit then zero/negative path tasks; sufficient only. Thus stack<=1+max_O(\|O\|+2theta). S009 Prop41. | SRC-0034, SRC-0001, SRC-0003 |
+| CLM-0075 | PROGRAMME_PROVED | Dominated nonbipartite n>=4 graphs have stack<=3n-4/clear<=3n-2 via spanning S008F; if G-a has >=2 edges, stack<=3n-5 and clear<=3n-3. Sharpness/class scopes separate; n3 K3=4. S009 Cor42/Prop43. | SRC-0034, SRC-0019 |
+| CLM-0076 | PROGRAMME_PROVED | If G has universal a and G-a is a star with >=2 edges plus isolates, alpha=n-2 and stack=3n-5, with S004 AS independent-set critical witness. ASH*-stack saturation subcase only; no universal or new clear equality. | SRC-0034, SRC-0012, SRC-0002 |
+| CLM-0077 | PROGRAMME_PROVED | For universal a with neighbor graphH containing an edge and r isolates, clear<=max(D(H)+3,3r+7), D=max_O(\|O\|+2theta(H[O])); B3 case needs completed/protected triangular output and exact disjoint final-forest repair. S009 Prop43, new cold audit futureS010. | SRC-0034, SRC-0001, SRC-0003 |
+| CLM-0078 | COMPUTED_EXACT | CAM-S009-01:318 registered vectors n<=5 mass<=18,53924 closure states/max3409,1694 rooted traces; exact fragment versus full forward/reverse membership agrees. CAM02:33 full layers/13088 states,3860 upper traces/41800 legal moves/795 protectedB3 ancestry partitions pass. No new exact threshold or universal claim. | SRC-0035 |
+| CLM-0079 | PROGRAMME_PROVED | Correct direction of surjective simple-graph homomorphism threshold comparison is g(G0)>=g(G1), via arbitrary configuration lift and pushed legal sequences; April7.1(2) prints the reversed inequality while Cor7.5 uses the correct lower direction. This is programme reconciliation, not a posted erratum. | SRC-0033, SRC-0002 |

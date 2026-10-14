@@ -1,0 +1,39 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+    "node_id": "C_kwDOVF-kW9oAKDhmZTRlYzNlMDlmY2VlM2E4MGY2ZjBjYWE5ZWI5NzMzN2Y5ZWUwNjE",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T17:17:50Z"
+    },
+    "committer": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T17:17:50Z"
+    },
+    "tree": {
+      "sha": "902a6b524667d9fb3690102faf8e867da350af4c",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/902a6b524667d9fb3690102faf8e867da350af4c"
+    },
+    "message": "S008: hostile audit and exact cyclic family thresholds",
+    "parents": [
+      {
+        "sha": "3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/3f2aba35da0ac48b7d93ef0df7d84af5ef2475b4"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "stderr": ""
+}

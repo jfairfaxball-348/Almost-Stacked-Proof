@@ -1,0 +1,58 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s009_ports.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 2.6090000000003783,
+    "peak_working_set_bytes": 19931136,
+    "resource_failure": null,
+    "stdout": "{\"completed\": 1, \"seconds\": 0.0}\r\n{\"completed\": 41, \"seconds\": 0.030999999999039574}\r\n{\"completed\": 81, \"seconds\": 0.07800000000133878}\r\n{\"completed\": 121, \"seconds\": 0.14099999999962165}\r\n{\"completed\": 161, \"seconds\": 0.2970000000022992}\r\n{\"completed\": 201, \"seconds\": 0.3440000000009604}\r\n{\"completed\": 241, \"seconds\": 0.4059999999990396}\r\n{\"completed\": 281, \"seconds\": 0.5159999999996217}\r\n{\"campaign\": \"CAM-S009-01\", \"input_sha256\": \"945ac954c6caa1894e5cb49f4058d80712231c812092f494c4b7a27b14f5905f\", \"complete_cases\": 318, \"mass_cap\": 18, \"seconds\": 2.5309999999990396}\r\n",
+    "stderr": "",
+    "code_sha256": "65fcc0fd5a8717c1e33f9e80dfe0d0aa47546b47433ed6c206ef2e462fdb16be"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s009_ports_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.4069999999992433,
+    "peak_working_set_bytes": 20217856,
+    "resource_failure": null,
+    "stdout": "{\"independent_cases\": 1, \"seconds\": 0.0}\r\n{\"independent_cases\": 41, \"seconds\": 0.0}\r\n{\"independent_cases\": 81, \"seconds\": 0.0}\r\n{\"independent_cases\": 121, \"seconds\": 0.03200000000288128}\r\n{\"independent_cases\": 161, \"seconds\": 0.06300000000192085}\r\n{\"independent_cases\": 201, \"seconds\": 0.0790000000015425}\r\n{\"independent_cases\": 241, \"seconds\": 0.11000000000058208}\r\n{\"independent_cases\": 281, \"seconds\": 0.18800000000192085}\r\n{\"campaign\": \"CAM-S009-01\", \"all_verified\": true, \"complete_cases\": 318, \"total_closure_states\": 53924, \"maximum_closure_states\": 3409, \"rooted_winning_traces\": 1694, \"seconds\": 0.25}\r\n",
+    "stderr": "",
+    "code_sha256": "73245fb39e30bf595039d246f21991c15aa94403110f1cee5c852ad2aad8da8a"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s009_credit.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3129999999982829,
+    "peak_working_set_bytes": 30220288,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S009-02\", \"graphs\": [{\"graph\": \"diamond\", \"n\": 4, \"edges\": [[0, 1], [0, 2], [0, 3], [1, 2], [2, 3]], \"base_paths\": [[1, 2, 3]], \"upper_mass\": 9, \"all_distribution_traces\": 220, \"B3_traces\": 77}, {\"graph\": \"book_leaf\", \"n\": 5, \"edges\": [[0, 1], [0, 2], [0, 3], [0, 4], [1, 2], [1, 3]], \"base_paths\": [[2, 1, 3], [4]], \"upper_mass\": 12, \"all_distribution_traces\": 1820, \"B3_traces\": 334}, {\"graph\": \"bowtie\", \"n\": 5, \"edges\": [[0, 1], [0, 2], [0, 3], [0, 4], [1, 2], [3, 4]], \"base_paths\": [[1, 2], [3, 4]], \"upper_mass\": 12, \"all_distribution_traces\": 1820, \"B3_traces\": 384}], \"traces\": 3860, \"moves\": 41800, \"trace_raw_sha256\": \"0ca5e03de125be0a471810a5195aa19f30b6dd0d3d7bee8d20c0eee967893391\", \"seconds\": 0.125}\r\n",
+    "stderr": "",
+    "code_sha256": "10137cfe56e4c4d7ea0ac82db6b0dd64f2c07a6eda21026b8e78d3aef8142db6"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s009_credit_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000133878,
+    "peak_working_set_bytes": 32133120,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S009-02\", \"all_verified\": true, \"complete_layers\": 33, \"complete_configurations\": 13088, \"upper_traces\": 3860, \"literal_moves\": 41800, \"protected_B3_trees\": 795, \"threshold_claims\": 0, \"seconds\": 0.10900000000037835}\r\n",
+    "stderr": "",
+    "code_sha256": "6cd5e1e3c2ea8948966e542b6be4ed10f8cc29873acc4a43e992dbd8fd0a021a"
+  }
+]

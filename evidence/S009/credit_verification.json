@@ -1,0 +1,229 @@
+{
+  "campaign": "CAM-S009-02",
+  "all_verified": true,
+  "layers": [
+    {
+      "graph": "diamond",
+      "upper_mass": 9,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 4,
+          "winning": 4,
+          "root_mask_sha256": "7eb12514e8577a9e85b9585e8a828079fd735fad373925c025cceea354fd3781"
+        },
+        {
+          "mass": 2,
+          "configurations": 10,
+          "winning": 4,
+          "root_mask_sha256": "a4633b5f2ff90b578294f693be1c7373a5c1b13577b5710e58d0cd95101e3d4e"
+        },
+        {
+          "mass": 3,
+          "configurations": 20,
+          "winning": 10,
+          "root_mask_sha256": "d67fa1199720ccf1a8a0074edf3edd97c4c74ed411f4f17feb350f393eafe20f"
+        },
+        {
+          "mass": 4,
+          "configurations": 35,
+          "winning": 30,
+          "root_mask_sha256": "9015357ebd95671da41b5edfbd856954faed48fa8876044054981b566ddd9acf"
+        },
+        {
+          "mass": 5,
+          "configurations": 56,
+          "winning": 52,
+          "root_mask_sha256": "ba2b5d8c4122854f6d34fcd2e6fe67a9bfb1ef4251830437629db52ee941f14c"
+        },
+        {
+          "mass": 6,
+          "configurations": 84,
+          "winning": 81,
+          "root_mask_sha256": "e72af18971189d3cabe4ac3f1cb9bf6560ab3d65f1e3badd5510cc25ed36879e"
+        },
+        {
+          "mass": 7,
+          "configurations": 120,
+          "winning": 120,
+          "root_mask_sha256": "062f44d184aef191386035587810de3fd2f39047b1551ae094bf5c0a124cb4e7"
+        },
+        {
+          "mass": 8,
+          "configurations": 165,
+          "winning": 165,
+          "root_mask_sha256": "b226b482d96ff1568c01232e11609f5030d4f9943f26784bf41351397f5f9ef8"
+        },
+        {
+          "mass": 9,
+          "configurations": 220,
+          "winning": 220,
+          "root_mask_sha256": "a33f4396e269df5b34fded4c6ccaa00c5e56377f1f5d45f61acd5c84cd2d3c45"
+        }
+      ]
+    },
+    {
+      "graph": "book_leaf",
+      "upper_mass": 12,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "winning": 5,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "winning": 5,
+          "root_mask_sha256": "3b85609a238025cf035e13edfa15f7e76cce4f430a2d6de53ca4dbd768fd0898"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "winning": 12,
+          "root_mask_sha256": "16c356b3780d5fb4fb5fc4ba0660ea189e1b0d09a62241853cbc1c38b30b8569"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "winning": 42,
+          "root_mask_sha256": "070fe13f6cdff947580820faefd0883230155856da7e5a9eebc37f02a75d92f7"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "winning": 94,
+          "root_mask_sha256": "8f6778b154a93fcc7da5af43bf86ff9c0234acc497cc5ba618012823873e19a1"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "winning": 175,
+          "root_mask_sha256": "91f5ee89f2b9f4ad7162e0faee6e236cd9e3c48d962ae272746990978bb0a797"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "winning": 312,
+          "root_mask_sha256": "9df53df859e90ab9af3d3021dc573a4c6cddbe636930d1188e85d4ff24b5255f"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "winning": 482,
+          "root_mask_sha256": "cead74f0b898560694756b9673f98dc19f424a54da26f16b2779b6bec2e83613"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "winning": 704,
+          "root_mask_sha256": "438783d44340131bf02dc6a9c3c06de77cf8e393ff1afe437d134fd02b6ea994"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "winning": 1001,
+          "root_mask_sha256": "36466d5aca1b3177c2ddbc5aecb1b19975c46fbf46f5b90f8e5864c0711bcc72"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "winning": 1365,
+          "root_mask_sha256": "2cb1f2b13189c875e222d47a44c83dee8b763f363a63a0d0438f59416b499aeb"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "winning": 1820,
+          "root_mask_sha256": "3ce7188db8272b9c28f99c0799d46b04954bb2b4f8754d6cfaf33e011cc3c4b4"
+        }
+      ]
+    },
+    {
+      "graph": "bowtie",
+      "upper_mass": 12,
+      "layers": [
+        {
+          "mass": 1,
+          "configurations": 5,
+          "winning": 5,
+          "root_mask_sha256": "b57c3e48cf72658e9a25f03e88bc354034513500d24bfbfb99781506c973285c"
+        },
+        {
+          "mass": 2,
+          "configurations": 15,
+          "winning": 5,
+          "root_mask_sha256": "fbad084b5334ea8338fe2a85888120440b86e90a56cbf2885576056a08b11c11"
+        },
+        {
+          "mass": 3,
+          "configurations": 35,
+          "winning": 12,
+          "root_mask_sha256": "474e5ac07789223f0fb8eca5651b8870249d06fb2efb7120fbc12460ef4978aa"
+        },
+        {
+          "mass": 4,
+          "configurations": 70,
+          "winning": 41,
+          "root_mask_sha256": "893c6be92777feb1941c0633fa7a4aaed84e0d12f8c39e86deb5157d546fe1e0"
+        },
+        {
+          "mass": 5,
+          "configurations": 126,
+          "winning": 97,
+          "root_mask_sha256": "f4ec0dbda6449f8b5999b09917a5a02417d2fe358733f11857405771123ebaf0"
+        },
+        {
+          "mass": 6,
+          "configurations": 210,
+          "winning": 189,
+          "root_mask_sha256": "e33a7a841fdb04e13905061273047ee910afacca9169d88d561d959e7c70d080"
+        },
+        {
+          "mass": 7,
+          "configurations": 330,
+          "winning": 326,
+          "root_mask_sha256": "ced9c9890fa1fab2dcf48750286702190f1b54a0ae6eb68bbd285819ac13f4d3"
+        },
+        {
+          "mass": 8,
+          "configurations": 495,
+          "winning": 495,
+          "root_mask_sha256": "d9600d6e6f0fa16331bc8bbc51900f8b521076827351850f5faba425b6a75001"
+        },
+        {
+          "mass": 9,
+          "configurations": 715,
+          "winning": 715,
+          "root_mask_sha256": "224b03c1f4fd3b7536c46e39b75e4770b8de5456023c048cd8aa04feaaa835f4"
+        },
+        {
+          "mass": 10,
+          "configurations": 1001,
+          "winning": 1001,
+          "root_mask_sha256": "a270a099ce3d5f6eb73b83f23bd063d7ac95f2763e3a317ecf6ee98c9de38141"
+        },
+        {
+          "mass": 11,
+          "configurations": 1365,
+          "winning": 1365,
+          "root_mask_sha256": "628f32229977e08ef346f3cea4bf8d18dfbe8b1ef6aed90dfbe0208eeea9ea84"
+        },
+        {
+          "mass": 12,
+          "configurations": 1820,
+          "winning": 1820,
+          "root_mask_sha256": "c7a83aa98daf6427a63f14f74fbfc59c2af66009cf3ed427f3d9c629c8425465"
+        }
+      ]
+    }
+  ],
+  "complete_layers": 33,
+  "complete_configurations": 13088,
+  "upper_traces": 3860,
+  "literal_moves": 41800,
+  "protected_B3_trees": 795,
+  "threshold_claims": 0,
+  "seconds": 0.125
+}
