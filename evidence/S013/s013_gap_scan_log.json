@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_gap_scan.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.2970000000059372,
+  "peak_working_set_bytes": 22138880,
+  "resource_failure": null,
+  "stdout": "{\"records\": 11970, \"both_exact\": 10858, \"unknown_pair\": 1112, \"gap1\": 114, \"positive_gap\": 424, \"vertex_triangular_positive\": 0, \"component_criterion_positive\": 0}\r\n[{\"graph\": \"A7_0036\", \"n\": 7, \"edges\": \"0-5,0-6,1-5,1-6,2-3,2-4,2-6,3-4,3-6,4-5\", \"stack\": 12, \"clear\": 13, \"gap\": 1, \"triangle_vertices\": [2, 3, 4, 6], \"H_components\": [[0, 1, 4, 5, 6], [2], [3]], \"tags\": [\"gap1\"]}, {\"graph\": \"A7_0124\", \"n\": 7, \"edges\": \"0-5,0-6,1-5,1-6,2-3,2-4,2-6,3-4,3-5,4-5,4-6\", \"stack\": 12, \"clear\": 13, \"gap\": 1, \"triangle_vertices\": [2, 3, 4, 5, 6], \"H_components\": [[0, 1, 5, 6], [2], [3], [4]], \"tags\": [\"gap1\"]}, {\"graph\": \"A7_0132\", \"n\": 7, \"edges\": \"0-6,1-5,1-6,2-5,2-6,3-4,3-6,4-5,4-6\", \"stack\": 15, \"clear\": 16, \"gap\": 1, \"triangle_vertices\": [3, 4, 6], \"H_components\": [[0, 1, 2, 4, 5, 6], [3]], \"tags\": [\"gap1\"]}]\r\n",
+  "stderr": "",
+  "code_sha256": "4c7b61acfe8f78178fbb5c9ee2cd47d739650d485ef623c0232a9daba508fef5"
+}

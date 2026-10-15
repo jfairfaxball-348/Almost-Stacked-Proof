@@ -439,7 +439,7 @@
     "universal_stack": "OPEN",
     "universal_clear": "OPEN",
     "cold_s011_audit": "PASS_S012_AT_STATED_SCOPES",
-    "cold_new_proofs": "FUTURE_S013",
+    "cold_new_proofs": "PASS_S013_AT_STATED_SCOPES",
     "formal_status": "NOT_STARTED",
     "novelty": "KNOWN_PRIMITIVES_QUALIFIED_EXACT_REFINEMENTS_EQUIVALENCE_UNRESOLVED",
     "reciprocity": "PROGRAMME_PROVED marked-input k1/2 equivalence, symmetric actual TWO insertions, protected first move with zero bit, occurrence permutation; no AS-selection/gluing theorem",
@@ -476,5 +476,77 @@
       "symmetry": "none",
       "inherited_cutoffs_unchanged": true
     }
+  },
+  "s013": {
+    "research": "research/S013_UNIVERSAL_RESEARCH.md",
+    "prior_art": "research/S013_PRIMARY_AND_DEPENDENCY_COMPARISON.md",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "cold_s012_audit": "PASS_S013_AT_STATED_SCOPES",
+    "cold_new_proofs": "FUTURE_S014",
+    "formal_status": "NOT_STARTED",
+    "novelty": "QUALIFIED_EXACT_RESULTS_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED",
+    "global_selection": "PROGRAMME_PROVED63-70 exact open-neighborhood loss concentration with precise small exception; GLOBAL Q/P heavy support minimal, equivalent restriction of BOTH maxima; incomparable-neighborhood inequality OPEN",
+    "clear_status": "Conditional68 at gap>=2 proved; actual gap1 first-shadow and threshold/global-Q deletion-independence bridges refuted, no universal transfer",
+    "finite_verification": {
+      "precision": {
+        "graphs": 11,
+        "configurations": 291639,
+        "three_relations": 1255186,
+        "adjacent_tests": 2240733,
+        "adjacent_failures": 2039,
+        "threshold_adjacent_failures": 0,
+        "gap1_critical_losers": 6,
+        "negative_closure_states": 36,
+        "literal_moves": 18,
+        "all_full_masks_and_diagnostics_equal": true
+      },
+      "concentration": {
+        "open_implications": 313052,
+        "adjacent_closed_tests": 1124248,
+        "adjacent_closed_failures": 1872,
+        "reconstructed_counts": 3437,
+        "literal_moves": 22008,
+        "negative_closure_states": 1836,
+        "gap1_inputs": 6,
+        "gap1_first_successors": 20,
+        "all_equal": true
+      },
+      "full_exchange": {
+        "implications": 370252,
+        "small_STACK_exceptions": 13,
+        "CLEAR_exceptions": 0,
+        "count_reconstructions": 12239,
+        "literal_moves": 75564,
+        "branches": {
+          "disappearing_zero": 7038,
+          "ordinary": 5141,
+          "reroot_three": 60
+        },
+        "global_selected_extremizers": 59,
+        "all_equal": true
+      },
+      "residual": {
+        "archive_graphs": 189,
+        "archive_critical_losers": 1028,
+        "archive_adjacent_pairs": 8,
+        "archive_unknown": 0,
+        "private_certificates": 12345,
+        "private_literal_moves": 111047,
+        "adjacent_small_transfer_tests": 85604,
+        "all_equal": true
+      },
+      "synthesis": {
+        "graphs": 11,
+        "full_losing_layers": 134,
+        "selected_extremizers": 614,
+        "restricted_comparisons": 17,
+        "applicable68": [
+          "F2"
+        ],
+        "all_equal": true
+      }
+    },
+    "inherited_cutoffs_unchanged": true
   }
 }

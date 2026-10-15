@@ -69,3 +69,9 @@
 | 2026-10-15 S012 | Exactly S012, one atomic authored PR/non-force integration, complete S013 future only | INPUT/PLAN/CLOSEOUT | No delegation/final actions |
 
 | 2026-10-15 administrative S013 handoff revision | Owner requests sustained local universal attack and major closure, no one/two-milestone stop; centre L_all<=L_AS, global Q versus existential selection, arbitrary buffers, CLEAR gaps and actual disproof validation; permit prior-hashed bounded resource replanning | authoritative/HANDOFF_REVISION.json and exact owner request/current full prompt | S012 last completed; S013 FUTURE/UNEXECUTED; original S012 evidence/hashes and phases unchanged |
+
+| 2026-10-15 S013 | Open-neighborhood even concentration preserves actual loss with arbitrary roots/buffers; zero/singleton extension retains exact small STACK exception |63/66/campaigns03-04 | No closed-neighborhood substitution |
+| 2026-10-15 S013 | GLOBAL Q then degree-weight P selects minimal open neighborhoods; exact restriction of BOTH maxima, graph/threshold unchanged |64/67/70 | Incomparable residual comparison OPEN |
+| 2026-10-15 S013 | Gap1 first-step shadow and threshold/global-Q deletion independence fail on ACTUAL certified graphs; AS witnesses remain |A7_0036/A6_0076/A7_0019 | Auxiliary route failures, no ASH* disproof |
+| 2026-10-15 S013 |65/69 constrain full concentrating families; repeated private exits/changed ONE-TWO roots remain |CAM05/research synthesis | No universal gate advance |
+| 2026-10-15 S013 | One numbered session including owner Continue steering; complete ambitious S014 future only |INPUT/PLAN/CLOSEOUT | No delegation or final activity |

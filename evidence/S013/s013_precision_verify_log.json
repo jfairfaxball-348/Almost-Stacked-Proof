@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_precision_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 3.812000000005355,
+  "peak_working_set_bytes": 146505728,
+  "resource_failure": null,
+  "stdout": "{\"graphs\": 11, \"configurations\": 291639, \"three_relations\": 1255186, \"adjacent_tests\": 2240733, \"adjacent_failures\": 2039, \"threshold_adjacent_failures\": 0, \"gap1_critical_losers\": 6, \"negative_closure_states\": 36, \"literal_moves\": 18, \"all_full_masks_and_diagnostics_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "7675c3cc5def271ea5e7c4bb926f44fb755cf559f236e9e2cb8e78277b474d8a"
+}

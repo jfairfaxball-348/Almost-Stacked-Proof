@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "1e28259f6e35849723bbe5e5fd545630498d45a9",
+    "node_id": "C_kwDOVF-kW9oAKDFlMjgyNTlmNmUzNTg0OTcyM2JiZTVlNWZkNTQ1NjMwNDk4ZDQ1YTk",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/1e28259f6e35849723bbe5e5fd545630498d45a9",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/1e28259f6e35849723bbe5e5fd545630498d45a9",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T08:53:55Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-15T08:53:55Z"
+    },
+    "tree": {
+      "sha": "1972a94f38e00b539062d255f6cca0d81e8e58b8",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/1972a94f38e00b539062d255f6cca0d81e8e58b8"
+    },
+    "message": "Merge owner-directed S013 major-closure handoff revision\n\nStrengthen future S013 toward major universal ASH closure",
+    "parents": [
+      {
+        "sha": "1505c1b8437973aa23bd09b6040a3ad39852f311",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/1505c1b8437973aa23bd09b6040a3ad39852f311",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/1505c1b8437973aa23bd09b6040a3ad39852f311"
+      },
+      {
+        "sha": "f831bce6a40a868b4a78c11dd5e74c995626edf5",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/f831bce6a40a868b4a78c11dd5e74c995626edf5",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/f831bce6a40a868b4a78c11dd5e74c995626edf5"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0JSjCRC1aQ7uu5UhlAAAQCUQAFLksw4FE07eYPwJ2s3di5hU\nkKwdTHJPs4gLgSjTdipWw0sLHdCr0CQjUqkGpIplUSPEPXefB2ZyMoMA2c6rBA54\nOU0mHnfuJod7oajtp+vmmkpVy/Gj0U3dJZFPv/kkoQgEd4nJlbXosjnrb+JP0oOu\nKnHW6+chsjYjsfb2sn7BDDmyZSyWJ57yx8nyB0y3PzSYwdKb9JuxQ82qf0ti4/I1\npi+4HX4JUCbd08tAGzos/T9nCtTYdWo/DlH8ASkQWHJfi/QAB90Chz09MrRrJls+\nNRs7ql8gPO9JDjKylNe85wzR5n1ICkBJmLEspjetQik5bkAIaF6IPvpgc+U4st3s\nnh8CCg6lFzOO8VY/45SdxSeSOrZzx1O00YiB/I7j/hZE3WaEK9Dw1iOW7DbxGbmp\nz3y3m0an+If5iT4YM2U81Ipv6wlh+kNe7oQnez/zDF82WLpuqLyrDNVtpERAYTFN\nK2/IJSGuJNLr1zad2v4xWeEqVtzSXuBw6KAQbAobHUlVW5Vl503ma+ckczjn5bVo\nsyqw/SFs5GNW95fQD6gOc6934S6blZAU0Jgd/krZg5GEnUm0xFra6sA0xFumwLST\n9tPvmppOpmrZ9cVLKenVemuNLdPlGNdlPXCf+w/eL2M+YCaSccyiCcTrbboiQj9h\nbQAVEM8qcGGPFCxo+JWh\n=JKm3\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 1972a94f38e00b539062d255f6cca0d81e8e58b8\nparent 1505c1b8437973aa23bd09b6040a3ad39852f311\nparent f831bce6a40a868b4a78c11dd5e74c995626edf5\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792054435 +0100\ncommitter GitHub <noreply@github.com> 1792054435 +0100\n\nMerge owner-directed S013 major-closure handoff revision\n\nStrengthen future S013 toward major universal ASH closure",
+      "verified_at": "2026-10-15T08:53:56Z"
+    }
+  },
+  "stderr": ""
+}

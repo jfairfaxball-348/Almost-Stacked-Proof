@@ -1,0 +1,18 @@
+"""Bounded check-only inherited replays; all historical bytes guarded."""
+import hashlib,json,sys
+from pathlib import Path
+from s009_checks import run
+
+def main():
+    names=[f's012_{n}{v}' for n in ['reciprocity','escape','exceptions'] for v in ['', '_verify']]+[f's011_{n}{v}' for n in ['trees','transport','root_types'] for v in ['', '_verify']]+[f's010_{n}{v}' for n in ['counts','reflect','roots'] for v in ['', '_verify']]
+    before={p.as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for i in range(3,13) for folder in [f'evidence/S{i:03d}',f'sessions/S{i:03d}'] for p in Path(folder).rglob('*') if p.is_file()}
+    rows=[]
+    for name in names:
+        r=run([sys.executable,f'tools/{name}.py','--check-only']);rows.append(r)
+        Path('evidence/S013/cold_checks.json').write_text(json.dumps(rows,indent=2)+'\n',encoding='utf-8',newline='\n')
+        print(json.dumps({k:r[k] for k in ['command','exit_code','seconds','peak_working_set_bytes','resource_failure']}),flush=True)
+        if r['exit_code'] or r['resource_failure']:print(r['stdout']);print(r['stderr']);sys.exit(1)
+    assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in before.items())
+    print('18 cold checks PASS; historical bytes unchanged.',flush=True)
+
+if __name__=='__main__':main()

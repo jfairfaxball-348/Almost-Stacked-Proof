@@ -40,3 +40,7 @@ TreeStack currentv2 digest unchanged and earlier nontrivial-tree equality/regist
 ## S012 boundary
 
 Earlier TreeStack2609.31811v2/registered package remains credited; selected current PDF digest unchanged, no new Lean/registry build.59-62 concern exact general-graph input language consequences and CLEAR restrictions, not a rediscovered tree estimator or universal ASH* proof. Precise equivalence uncertainty retained in S012 primary comparison.
+
+## S013 boundary
+
+Earlier TreeStack2609.31811v2 and registered package remain credited, selected current digest unchanged; no build/registry action.63-70 concern exact general-graph loss concentration/extremizers, not tree-estimator rediscovery or universal ASH* proof. Known scheduling/+3/homomorphism primitives attributed; exact equivalence/novelty uncertain.

@@ -1,0 +1,12 @@
+{
+  "graphs": 11,
+  "configurations": 291639,
+  "three_relations": 1255186,
+  "adjacent_tests": 2240733,
+  "adjacent_failures": 2039,
+  "threshold_adjacent_failures": 0,
+  "gap1_critical_losers": 6,
+  "negative_closure_states": 36,
+  "literal_moves": 18,
+  "all_full_masks_and_diagnostics_equal": true
+}

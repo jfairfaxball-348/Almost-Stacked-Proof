@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_residual.py"
+  ],
+  "exit_code": 0,
+  "seconds": 4.422000000005937,
+  "peak_working_set_bytes": 144773120,
+  "resource_failure": null,
+  "stdout": "{\"archive_graphs\": 189, \"archive_pairs\": 8, \"private_certificates\": 12345, \"small_transfer_tests\": 85604}\r\n",
+  "stderr": "",
+  "code_sha256": "a39e6354be2b9b8a8676ec035cf250e359be381da4a677e3a93c40f9964281fd"
+}

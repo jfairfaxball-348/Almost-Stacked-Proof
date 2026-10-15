@@ -954,7 +954,7 @@
     "sources": [
       "SRC-0044"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   },
   {
@@ -964,7 +964,7 @@
     "sources": [
       "SRC-0044"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   },
   {
@@ -974,7 +974,7 @@
     "sources": [
       "SRC-0044"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   },
   {
@@ -985,7 +985,7 @@
       "SRC-0044",
       "SRC-0001"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   },
   {
@@ -996,7 +996,7 @@
       "SRC-0044",
       "SRC-0001"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   },
   {
@@ -1006,7 +1006,7 @@
     "sources": [
       "SRC-0044"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   },
   {
@@ -1040,7 +1040,150 @@
     "sources": [
       "SRC-0044"
     ],
-    "cold_audit": "FUTURE_S013",
+    "cold_audit": "PASS_S013_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0114",
+    "status": "COMPUTED_EXACT",
+    "claim": "S013 cold challenge59-62 and needed44/47/50/53-58 chain survives stated scopes;18 unchanged check-only replays and S003-S012 manifests PASS. Local audit is not human/kernel proof.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
+  },
+  {
+    "id": "CLM-0115",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01363 N(t) subset N(s),c(t)>=2,even concentration2a froms tot: winning concentrated input implies original wins for STACK/CLEAR, arbitrary buffer/root, protected full count path. Hence loss preserved.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0116",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01364 GLOBAL fixed-mass Q maximum has pairwise incomparable heavy open neighborhoods, at most one heavy per false-twin class; no receiver>=donor assumption.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0117",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01365 every normalized winning full concentration from a GLOBAL Q-maximal loser has common-exit count<=a-1 at root t or<=a otherwise, protected private-path exclusion and precise private multiplicity bounds. No distinct-neighbor bound.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0118",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01366 even open-neighborhood exchange permits arbitrary0/1 receiver: CLEAR always, STACK except exactly c=2s+t,a1; thus STACK safe at mass>=4. Zero disappearance/unique-incoming THREE re-root retain complete input.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0119",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01367 at any nonempty losing layer mass>=4 choose GLOBAL Q maximum then minimum degree-weight P: heavy sites have minimal open neighborhoods among ALL vertices and no comparable/equal pair. Graph/threshold unchanged.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0120",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01368 gap>=2 and componentwise neighborhood comparability of nontriangle vertices implies ASH*-CLEAR; also a largest loser with a heavy-set neighborhood minimum concentrates to an AS loser of same mass. No gap1/general comparison.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0121",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01369 adjacent1/2 transfer from any CLEAR loser has no THREE root anywhere; any resulting STACK win clears, with ONE/TWO root unspecified. Applies also to STACK losers.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0122",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01370 n>=4: L_all equals max losing mass with heavy sites only minimal open neighborhoods/one per false-twin class; L_AS equals restricted minimal-heavy-source AS maximum. Exact reduction of both maxima, residual inequality OPEN.",
+    "sources": [
+      "SRC-0047"
+    ],
+    "cold_audit": "FUTURE_S014",
+    "originality_assessment": "QUALIFIED_EXACT_RESULT_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED_S013"
+  },
+  {
+    "id": "CLM-0123",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S013-02/03 freshly exact A7_0036 stack12/clear13; all six critical CLEAR losers(a,12-a,0,...),a odd1..11 have EVERY first move STACK-winning. Six full negative closures and20 literal successor traces; first-step gap1 shadow criterion false.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
+  },
+  {
+    "id": "CLM-0124",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S013-05 all189 exact historical STACK critical sets/1028 losers contain eight adjacent transfer pairs on A6_0076/A7_0019. Selected losses have complete81/101-state closures. A6 pair both GLOBAL Q52 and AS refutes threshold/global-Q deletion independence, not ASH*.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
+  },
+  {
+    "id": "CLM-0125",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S013-03/04 validate313052/370252 exact open exchange implications,3437/12239 modified-count chronologies,1872 adjacent CLOSED-extension failures and13 precise small STACK exceptions/no CLEAR exception. Finite scope only.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
+  },
+  {
+    "id": "CLM-0126",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S013-01 historical11970 n7/n8 records:10858 both-exact pairs,1112 unknown/ineligible pairs retained,114 genuine gap1 pairs. No new threshold/atlas/global inference.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
+  },
+  {
+    "id": "CLM-0127",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S013-05 independently validates12345 private-exit certificates/111047 literal moves and85604 adjacent small-transfer THREE exclusions on eleven complete boxes; no universal inference.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
+  },
+  {
+    "id": "CLM-0128",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S013-06 all134 losing layers>=4/614 Q-P extremizers/17 exact restricted-max comparisons agree; conditional68 applies to F2 in this finite box. Universal STACK/CLEAR remain OPEN.",
+    "sources": [
+      "SRC-0047",
+      "SRC-0049"
+    ]
   }
 ]

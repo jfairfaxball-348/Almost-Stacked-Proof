@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_concentration_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 4.218000000008033,
+  "peak_working_set_bytes": 139231232,
+  "resource_failure": null,
+  "stdout": "{\"open_implications\": 313052, \"adjacent_closed_tests\": 1124248, \"adjacent_closed_failures\": 1872, \"reconstructed_counts\": 3437, \"literal_moves\": 22008, \"negative_closure_states\": 1836, \"gap1_inputs\": 6, \"gap1_first_successors\": 20, \"all_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "29373cbfc81696ee22cbac599f0e8d0fca26717b026e5a54816ad940584ccb94"
+}

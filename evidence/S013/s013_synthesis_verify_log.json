@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_synthesis_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.5159999999887077,
+  "peak_working_set_bytes": 119607296,
+  "resource_failure": null,
+  "stdout": "{\"graphs\": 11, \"full_losing_layers\": 134, \"selected_extremizers\": 614, \"restricted_comparisons\": 17, \"applicable68\": [\"F2\"], \"all_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "8bd4ee0f8f7e9c7606c3813a264a9ec97a8eba4fb4af95500cf5dea68bdf98a5"
+}

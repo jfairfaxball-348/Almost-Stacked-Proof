@@ -1,0 +1,11 @@
+{
+  "open_implications": 313052,
+  "adjacent_closed_tests": 1124248,
+  "adjacent_closed_failures": 1872,
+  "reconstructed_counts": 3437,
+  "literal_moves": 22008,
+  "negative_closure_states": 1836,
+  "gap1_inputs": 6,
+  "gap1_first_successors": 20,
+  "all_equal": true
+}

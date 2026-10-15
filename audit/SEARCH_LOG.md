@@ -57,3 +57,7 @@ Current primary Aprilv1/Octoberv1/TreeStackv2/grammarv3/Parikh selected digests 
 ## S012 - 2026-10-15
 
 Five current selected primary digests unchanged; original SRC0036 ordering2.7/2.8-2.10 and October repair/monotonicity/+3 portions read at precise scopes. Dated limited reflection/reciprocity queries in primary_queries.json; exact known mechanisms/qualified equivalence in S012 primary report, no worldwide priority or source upgrade from metadata. Three separately prior-hashed precision campaigns, no inherited cutoff expansion/contact/final action.
+
+## S013 - 2026-10-15
+
+Five selected current primary digests unchanged; original ordering2.7/derivation2.8-2.10 and exact source +3/triangle/pointwise homomorphism proof scopes re-read. Additional SRC0050 ordinary smoothing6-7 original author PDF inspected at explicit target/leftover scope. Limited queries logged, no worldwide priority assurance or contact. Six prior-hashed exact campaigns, no atlas/old-cutoff expansion; all current universal scopes OPEN.

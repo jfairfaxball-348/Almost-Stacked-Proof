@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "1505c1b8437973aa23bd09b6040a3ad39852f311",
+    "node_id": "C_kwDOVF-kW9oAKDE1MDVjMWI4NDM3OTczYWEyM2JkMDliNjA0MGEzYWQzOTg1MmYzMTE",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/1505c1b8437973aa23bd09b6040a3ad39852f311",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/1505c1b8437973aa23bd09b6040a3ad39852f311",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T08:12:56Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-15T08:12:56Z"
+    },
+    "tree": {
+      "sha": "5839db0ad2b4a4463d816a5accabbe25faa1745e",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/5839db0ad2b4a4463d816a5accabbe25faa1745e"
+    },
+    "message": "Merge S012: reciprocal input languages and CLEAR escape barriers\n\nS012: reciprocal input languages and CLEAR escape barriers",
+    "parents": [
+      {
+        "sha": "ca4aad7abf25d396eed16c6e3d89179ea6215b60",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/ca4aad7abf25d396eed16c6e3d89179ea6215b60",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/ca4aad7abf25d396eed16c6e3d89179ea6215b60"
+      },
+      {
+        "sha": "a201eeb0db60dfd68386ff76450a19ac4bb91c0a",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/a201eeb0db60dfd68386ff76450a19ac4bb91c0a",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/a201eeb0db60dfd68386ff76450a19ac4bb91c0a"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0IsICRC1aQ7uu5UhlAAAy3wQAEwmcHZwyCrXHCJzjuE1GQRL\nidt/UNpHvvgFt/X0EYnQkj/u5omGfzJUVI1WaURscf3/+/54vWtCnyXO1567G3Tv\nzy6FACV514ztDwd5BdLpKcNpeUU0D8hH0KGzrPORAB7pAci4pSThy20YJk37C2lB\ntB8iKFE4ks+WBw8YWfHJTtjDWiF+L4mTWE7gH+ZrZMpoCMFzAcwWTOGQF9yjEzk5\nFkkhvb0PmHrX/neMeWWdiOVaE1YT5CKcgmrmlqXXT5KS1zRf3uE5/yOQjJdUJIXc\neBd/DNZpP4zoprvnk9MUMU5EvIEoIyRpjjTpS2QSnCHUdGf/sC8ayhEpurFPHV9o\nQAt1vl7o/As+DcYW+AmotpOPHp9WHCEzRjuLlGuFQAZEEU9relgfy8ar9+IQpusg\nZSn67hzlXSe0as6bi8Hv0hDG4Wq+sFNno+kMpfyyF3WPKJ8WebiG91H/2CyldEo+\nwOq2WMhLLLHAJVjLtTDGYLLqW2GsXt6z90801znvw0+61gzTi3dqOpFX9sQXk57p\nQFTxPtl5QeQqSzdv6xoYT8bxdhJEI+kNDH2Ix1t7LRusUspmmsWt+YtkNt4kZs7O\ndvPOmP4bjF1t/s+xFW+dGFLeJE8P2cUqzzBY9cycEdhjC/G9XvwSmd7ZP8RLgxeK\njOaJAjRUPc9VxRYwDhSi\n=vjpU\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 5839db0ad2b4a4463d816a5accabbe25faa1745e\nparent ca4aad7abf25d396eed16c6e3d89179ea6215b60\nparent a201eeb0db60dfd68386ff76450a19ac4bb91c0a\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792051976 +0100\ncommitter GitHub <noreply@github.com> 1792051976 +0100\n\nMerge S012: reciprocal input languages and CLEAR escape barriers\n\nS012: reciprocal input languages and CLEAR escape barriers",
+      "verified_at": "2026-10-15T08:12:57Z"
+    }
+  },
+  "stderr": ""
+}

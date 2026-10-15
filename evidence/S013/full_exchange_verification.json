@@ -1,0 +1,14 @@
+{
+  "implications": 370252,
+  "small_STACK_exceptions": 13,
+  "CLEAR_exceptions": 0,
+  "count_reconstructions": 12239,
+  "literal_moves": 75564,
+  "branches": {
+    "disappearing_zero": 7038,
+    "ordinary": 5141,
+    "reroot_three": 60
+  },
+  "global_selected_extremizers": 59,
+  "all_equal": true
+}

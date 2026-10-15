@@ -28,3 +28,5 @@ Detailed S001 scope and caveats: [closeout](../sessions/S001/CLOSEOUT.md).
 | S012 | 2026-10-15 | Sustained cold challenge, actual SAME-input reciprocity/donor languages, whole-history CLEAR escape/fuel/component restriction and port occurrence symmetry; three precision campaigns | Universal STACK/CLEAR OPEN; old cutoffs retained; complete S013 FUTURE/UNEXECUTED, no final-stage action |
 
 **Administrative handoff revision - 2026-10-15 (NOT S013 execution):** owner strengthened the next-session objective and persistence/resource instructions. See authoritative/HANDOFF_REVISION.json and authoritative/NEXT_SESSION_PROMPT.md. The original S012 future handoff/closeout remain frozen; the owner-revised full prompt is their prospective-handoff addendum. Last completed S012; S013 strictly FUTURE/UNEXECUTED; no mathematical/gate change.
+
+| S013 | 2026-10-15 | Sustained cold challenge, exact loss-preserving neighborhood exchange/zero cases/GLOBAL Q-P selection/restriction of BOTH maxima; six campaigns and actual gap1/global-Q criterion failures | Universal STACK/CLEAR OPEN; all old cutoffs retained; complete S014 FUTURE/UNEXECUTED, no final-stage action |

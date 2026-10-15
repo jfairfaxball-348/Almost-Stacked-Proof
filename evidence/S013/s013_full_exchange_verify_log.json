@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_full_exchange_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 2.0159999999887077,
+  "peak_working_set_bytes": 153128960,
+  "resource_failure": null,
+  "stdout": "{\"implications\": 370252, \"small_STACK_exceptions\": 13, \"CLEAR_exceptions\": 0, \"count_reconstructions\": 12239, \"literal_moves\": 75564, \"branches\": {\"disappearing_zero\": 7038, \"ordinary\": 5141, \"reroot_three\": 60}, \"global_selected_extremizers\": 59, \"all_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "81d9b2700f1ec3c67545726971141b7fe0656f47780452743bbb2b409c580727"
+}

@@ -1,6 +1,6 @@
-# Claim catalogue - current after S012
+# Claim catalogue - current after S013
 
-Universal STACK/CLEAR OPEN; proof, finite computation, source access and novelty assurance separate.
+Universal STACK/CLEAR OPEN; symbolic proof, finite computation, source and novelty assurance separate.
 
 | ID | Status | Claim | Sources |
 |---|---|---|---|
@@ -117,3 +117,18 @@ Universal STACK/CLEAR OPEN; proof, finite computation, source access and novelty
 | CLM-0111 | COMPUTED_EXACT | CAM-S012-02 all435 one-step barriers/15 critical inputs/1177 closure states/78 partial-fuel witnesses/338 moves. BFS/full-DAG exact tau agree; C5/F2 tau3>gap2 and triangle_tail2 tau7>gap6, no equality inferred. | SRC-0046 |
 | CLM-0112 | COMPUTED_EXACT | CAM-S012-03 all42 concentrating transfers,18 donor traces/116 moves,26 complete control negative closures/1177 states and18 whole-layer extrema.4 transfers lose/38 win; actual critical C5 unit donor CLEAR but double wins at OTHER roots, no double donor TWO in this sample. All bounded Q maxima AS, not universal. | SRC-0046 |
 | CLM-0113 | PROGRAMME_PROVED | S01259b assigned abstract C6 matching D01,23,45 satisfies actual-style symmetry/typing/self-root rules but empty common STACK intersection. NOT a graph/configuration realization; no ASH* evidence. | SRC-0044 |
+| CLM-0114 | COMPUTED_EXACT | S013 cold challenge59-62 and needed44/47/50/53-58 chain survives stated scopes;18 unchanged check-only replays and S003-S012 manifests PASS. Local audit is not human/kernel proof. | SRC-0047, SRC-0049 |
+| CLM-0115 | PROGRAMME_PROVED | S01363 N(t) subset N(s),c(t)>=2,even concentration2a froms tot: winning concentrated input implies original wins for STACK/CLEAR, arbitrary buffer/root, protected full count path. Hence loss preserved. | SRC-0047 |
+| CLM-0116 | PROGRAMME_PROVED | S01364 GLOBAL fixed-mass Q maximum has pairwise incomparable heavy open neighborhoods, at most one heavy per false-twin class; no receiver>=donor assumption. | SRC-0047 |
+| CLM-0117 | PROGRAMME_PROVED | S01365 every normalized winning full concentration from a GLOBAL Q-maximal loser has common-exit count<=a-1 at root t or<=a otherwise, protected private-path exclusion and precise private multiplicity bounds. No distinct-neighbor bound. | SRC-0047 |
+| CLM-0118 | PROGRAMME_PROVED | S01366 even open-neighborhood exchange permits arbitrary0/1 receiver: CLEAR always, STACK except exactly c=2s+t,a1; thus STACK safe at mass>=4. Zero disappearance/unique-incoming THREE re-root retain complete input. | SRC-0047 |
+| CLM-0119 | PROGRAMME_PROVED | S01367 at any nonempty losing layer mass>=4 choose GLOBAL Q maximum then minimum degree-weight P: heavy sites have minimal open neighborhoods among ALL vertices and no comparable/equal pair. Graph/threshold unchanged. | SRC-0047 |
+| CLM-0120 | PROGRAMME_PROVED | S01368 gap>=2 and componentwise neighborhood comparability of nontriangle vertices implies ASH*-CLEAR; also a largest loser with a heavy-set neighborhood minimum concentrates to an AS loser of same mass. No gap1/general comparison. | SRC-0047 |
+| CLM-0121 | PROGRAMME_PROVED | S01369 adjacent1/2 transfer from any CLEAR loser has no THREE root anywhere; any resulting STACK win clears, with ONE/TWO root unspecified. Applies also to STACK losers. | SRC-0047 |
+| CLM-0122 | PROGRAMME_PROVED | S01370 n>=4: L_all equals max losing mass with heavy sites only minimal open neighborhoods/one per false-twin class; L_AS equals restricted minimal-heavy-source AS maximum. Exact reduction of both maxima, residual inequality OPEN. | SRC-0047 |
+| CLM-0123 | COMPUTED_EXACT | CAM-S013-02/03 freshly exact A7_0036 stack12/clear13; all six critical CLEAR losers(a,12-a,0,...),a odd1..11 have EVERY first move STACK-winning. Six full negative closures and20 literal successor traces; first-step gap1 shadow criterion false. | SRC-0047, SRC-0049 |
+| CLM-0124 | COMPUTED_EXACT | CAM-S013-05 all189 exact historical STACK critical sets/1028 losers contain eight adjacent transfer pairs on A6_0076/A7_0019. Selected losses have complete81/101-state closures. A6 pair both GLOBAL Q52 and AS refutes threshold/global-Q deletion independence, not ASH*. | SRC-0047, SRC-0049 |
+| CLM-0125 | COMPUTED_EXACT | CAM-S013-03/04 validate313052/370252 exact open exchange implications,3437/12239 modified-count chronologies,1872 adjacent CLOSED-extension failures and13 precise small STACK exceptions/no CLEAR exception. Finite scope only. | SRC-0047, SRC-0049 |
+| CLM-0126 | COMPUTED_EXACT | CAM-S013-01 historical11970 n7/n8 records:10858 both-exact pairs,1112 unknown/ineligible pairs retained,114 genuine gap1 pairs. No new threshold/atlas/global inference. | SRC-0047, SRC-0049 |
+| CLM-0127 | COMPUTED_EXACT | CAM-S013-05 independently validates12345 private-exit certificates/111047 literal moves and85604 adjacent small-transfer THREE exclusions on eleven complete boxes; no universal inference. | SRC-0047, SRC-0049 |
+| CLM-0128 | COMPUTED_EXACT | CAM-S013-06 all134 losing layers>=4/614 Q-P extremizers/17 exact restricted-max comparisons agree; conditional68 applies to F2 in this finite box. Universal STACK/CLEAR remain OPEN. | SRC-0047, SRC-0049 |

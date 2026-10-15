@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_synthesis.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.40600000000267755,
+  "peak_working_set_bytes": 122159104,
+  "resource_failure": null,
+  "stdout": "{\"graphs\": 11, \"full_losing_layers\": 134, \"selected_extremizers\": 614, \"restricted_comparisons\": 17, \"applicable68\": [\"F2\"]}\r\n",
+  "stderr": "",
+  "code_sha256": "6c50443322fa30387d96c7fa3ed0c08645c36f4330005f98fe9389f0be239ffe"
+}

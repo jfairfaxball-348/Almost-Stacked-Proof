@@ -1,0 +1,21 @@
+# S013 selected primary comparison and attribution
+
+2026-10-15. Foundational Phase1 work, not a Phase2/final priority review. Five selected current PDF digests match S012: SRC0001 October2610.09650v1, SRC0002 April2604.22341v1, SRC0003 earlier TreeStack2609.31811v2, SRC0036 Kopczynski1501.04245v3 and SRC0037 Esparza et al. author PDF. Actual fetch metadata and temporary text paths are in source_refresh.json; no copyrighted PDF/text committed. Earlier TreeStack nontrivial-tree estimator equality and registered package are prior work, not rebuilt/re-registered or a universal substitute. Private author reply is testimony, not public erratum.
+
+SRC0036 PDF pp7-10 definitions/order2.7 BOTH cycle/no-cycle cases, pending>=2/=1 split, derivation2.8-2.10: PROOF_INSPECTED. The reverse grammar consumes ONE pending variable; forward pebbling consumes TWO. Exact complete root-connected count reconstruction is an attributed specialization; no new generic ordering theorem is claimed.
+
+SRC0001 selected definitions/above-order4.7, +3 operation equation4.10 and triangle6.4 proof: PROOF_INSPECTED at these scopes. SRC0002 ancestry4.3, homomorphism7.1(1) PDF p12 and signed/odd-walk mechanisms retain their inspected scopes. Empty-receiver relocation in67/70 uses pointwise homomorphism push, with a direct legal-move proof; no threshold inequality from April7.1(2) is used. That printed inequality's direction issue, already repaired in S009, remains explicitly separate.
+
+New SRC0050: Bunde, Chambers, Cranston, Milans and West, Pebbling and Optimal Pebbling in Graphs, arXiv math.CO/0510621v1, author-hosted26-page PDF digest1f4a05afac1bd8d65a4d1bb022d6ae5cdb63d1c71a584826b9c2601d8f7fdf1b. PROOF_INSPECTED for Lemmas6-7 PDF pp10-11, definitions pp1-2. Their degree-two smoothing preserves target reachability with an unused extra pebble. Its minimum-solvable-distribution objective differs from complete consuming STACK/CLEAR loss. It cannot by itself justify63/66 or exact AS extremal selection. Broader squishing/optimal-pebbling results were not imported as exact-consumption theorems. No whole-paper proof audit is asserted.
+
+| Programme result | Closest actually inspected mechanism | Exact classification |
+|---|---|---|
+|63/66 open-neighborhood even exchange|Known exact count/ancestry schedule, source +3 normalization; ordinary smoothing has a different leftover/target goal|POSSIBLE_NEW_RESULT for precise consuming winner implication, zero-input disappearance and unique small STACK exception; EQUIVALENCE_UNRESOLVED, no worldwide priority assertion|
+|64/67 global Q/P support selection|Elementary convex Q change, known homomorphism push and66|Exact extremal consequences; POSSIBLE_NEW_RESULT for precise all-graph minimal-open-neighborhood scope, no claim to invent graph folds or extremal selection|
+|65 private-exit burden|Same count redirection with a protected positive root path|Exact necessary refinement; precise equivalence unresolved; repeated private exits still permitted|
+|68 conditional CLEAR AS consequence|Audited55/55a component support/heavy restriction plus64|Elementary strengthened conditional consequence; gap>=2 essential, no unrestricted threshold theorem|
+|69 all-root THREE exclusion after adjacent1/2 transfer|Audited54 re-root/47 cancellation and elementary adjacent two-pile moves|Elementary exact consequence, not a new transfer primitive; donor ONE/TWO availability still open|
+|70 exact restriction of BOTH global maxima|67/66 and pointwise source homomorphism push|Precise loss/mass-preserving configuration reduction, possible new assembled statement/equivalence unresolved; graph and threshold are unchanged|
+|Finite gap1/closed-neighborhood/critical-adjacency failures|Full exact masks, literal histories and complete negative closures|COMPUTED_EXACT at declared scopes, auxiliary failures only; no ASH* counterexample|
+
+primary_queries.json records actual ordered limited discovery queries. Primary original paper was opened and selected proofs read; third-party search snippets were discovery only and do not establish theorem scope. No exact-equivalence or worldwide originality conclusion follows from keyword absence. All final stages and correspondence remain deferred.
