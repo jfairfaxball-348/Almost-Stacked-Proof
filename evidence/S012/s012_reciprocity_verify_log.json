@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s012_reciprocity_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 65.1869999999908,
+  "peak_working_set_bytes": 98562048,
+  "resource_failure": null,
+  "stdout": "{\"graphs\": 10, \"configurations\": 175359, \"relations\": 16394311, \"literal_traces\": 714, \"literal_moves\": 5484, \"complete_negative_closures\": 69, \"all_full_masks_and_relations_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "9ed4c16c0c9973008277a8dc481175661ef67c925403243d377d8b0a0084b99a"
+}

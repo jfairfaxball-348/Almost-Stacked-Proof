@@ -53,3 +53,7 @@ Full dated primary queries/page/access/dependency comparisons in S010_PRIMARY_AN
 ## S011 - 2026-10-15
 
 Current primary Aprilv1/Octoberv1/TreeStackv2/grammarv3/Parikh selected digests refreshed unchanged, original ordering/collapse and source signed3/ancestry/triangle repair/monotonicity checked at stated scopes. Dated targeted queries and exact-result comparisons in research/S011_PRIMARY_AND_DEPENDENCY_COMPARISON.md; qualified refinements/equivalence only, no worldwide priority. Three separately prior-hashed precision campaigns, no atlas/old-cutoff expansion. No contact/final action.
+
+## S012 - 2026-10-15
+
+Five current selected primary digests unchanged; original SRC0036 ordering2.7/2.8-2.10 and October repair/monotonicity/+3 portions read at precise scopes. Dated limited reflection/reciprocity queries in primary_queries.json; exact known mechanisms/qualified equivalence in S012 primary report, no worldwide priority or source upgrade from metadata. Three separately prior-hashed precision campaigns, no inherited cutoff expansion/contact/final action.

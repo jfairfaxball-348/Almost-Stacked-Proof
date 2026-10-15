@@ -1,0 +1,83 @@
+{
+  "2604.22341": {
+    "id": "2604.22341",
+    "versions": [
+      "1"
+    ],
+    "current_version": "1",
+    "pdf_url": "https://arxiv.org/pdf/2604.22341v1",
+    "pdf_sha256": "ab34962a77a7caa4126d07430e48ba47b04c57f5ef71c21f85803cf959cbabed",
+    "pdf_bytes": 652580,
+    "pages": 28,
+    "extracted_text_sha256": "e28470bb90f082f8cf92fc08ea810e3f34a5f7c119dee31d4d0ce1dad595c89d",
+    "abs_sha256": "4d0f5ec6622445bfdbac25464809373d5d118892569d81f7f3bae55494c66cff",
+    "temporary_text_path": "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s012-primary\\2604.22341.txt",
+    "utc": "2026-10-15T07:36:56.926272+00:00",
+    "pdf_retained": false
+  },
+  "2610.09650": {
+    "id": "2610.09650",
+    "versions": [
+      "1"
+    ],
+    "current_version": "1",
+    "pdf_url": "https://arxiv.org/pdf/2610.09650v1",
+    "pdf_sha256": "cbc9877b3ce37e720f2305333a21d0078ac2e31f57991c03baedcb4683c27313",
+    "pdf_bytes": 390157,
+    "pages": 23,
+    "extracted_text_sha256": "f796bd57c32d5d79d8238143dcf183c135f7a9c5f0f08d942dd7e5a95d0a4c70",
+    "abs_sha256": "d0d80046036c91b04ded101be149190d79b63bee89f45c2d978db415a7be63db",
+    "temporary_text_path": "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s012-primary\\2610.09650.txt",
+    "utc": "2026-10-15T07:36:56.872050+00:00",
+    "pdf_retained": false
+  },
+  "2609.31811": {
+    "id": "2609.31811",
+    "versions": [
+      "1",
+      "2"
+    ],
+    "current_version": "2",
+    "pdf_url": "https://arxiv.org/pdf/2609.31811v2",
+    "pdf_sha256": "79f1d8e4ea707206e72fce3e43fabcf8803376987f6b4da6d5fa9b5a16b4b720",
+    "pdf_bytes": 426145,
+    "pages": 13,
+    "extracted_text_sha256": "f8aef70a30d910d944f4164e7ccd8cd48672592fbcb22196ff8af8f854de520e",
+    "abs_sha256": "1a2c3af0bcd675ca3b3afbe4e214405e64b982a8365bb2f33b9dfb83cb31bf47",
+    "temporary_text_path": "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s012-primary\\2609.31811.txt",
+    "utc": "2026-10-15T07:36:56.592359+00:00",
+    "pdf_retained": false
+  },
+  "1501.04245": {
+    "id": "1501.04245",
+    "versions": [
+      "1",
+      "2",
+      "3"
+    ],
+    "current_version": "3",
+    "pdf_url": "https://arxiv.org/pdf/1501.04245v3",
+    "pdf_sha256": "c15c863ddb780186278b17e96c704ebcdf0d42a9eb16e764eaa82a901faf8640",
+    "pdf_bytes": 455273,
+    "pages": 26,
+    "extracted_text_sha256": "3b107f0f36d37cf65782c42d64d644a6d4d81a9d01d8ef8e8150fa766ec6d711",
+    "abs_sha256": "0bf673b90a19fb56fb887f923832fa4fe54a93e8a5794abc2d1268861f6dd3eb",
+    "temporary_text_path": "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s012-primary\\1501.04245.txt",
+    "utc": "2026-10-15T07:36:57.775784+00:00",
+    "pdf_retained": false
+  },
+  "https://archive.model.in.tum.de/um/bibdb/esparza/IPL11.pdf": {
+    "id": "https://archive.model.in.tum.de/um/bibdb/esparza/IPL11.pdf",
+    "versions": [],
+    "current_version": null,
+    "pdf_url": "https://archive.model.in.tum.de/um/bibdb/esparza/IPL11.pdf",
+    "pdf_sha256": "abc193fa2008d4fe9605ec5bf1d00dcdb7415202e26b6f30f1ea5ecaeb03c0f8",
+    "pdf_bytes": 222290,
+    "pages": 11,
+    "extracted_text_sha256": "b4ec7c339a402d24417ed1ef1f192332069722a79bfb356878d24677de4164e3",
+    "abs_sha256": null,
+    "temporary_text_path": "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s012-primary\\IPL11.pdf.txt",
+    "utc": "2026-10-15T07:36:57.560559+00:00",
+    "pdf_retained": false
+  }
+}

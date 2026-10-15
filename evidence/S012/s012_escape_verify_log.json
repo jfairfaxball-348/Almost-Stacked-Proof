@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s012_escape_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.5149999999994179,
+  "peak_working_set_bytes": 94208000,
+  "resource_failure": null,
+  "stdout": "{\"one_step_barriers\": 435, \"critical_inputs\": 15, \"complete_closure_states\": 1177, \"fuel_witnesses\": 78, \"literal_moves\": 338, \"finite_tau\": 15, \"no_escape_after_complete_closure\": 0, \"all_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "9ad18652333126197627eebe659ecd447a1025983eae4e44d6702d0c795dbe39"
+}

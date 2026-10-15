@@ -36,3 +36,7 @@ Currentv2 unchanged; earlier nontrivial-tree equality/registered package credite
 ## S011 boundary
 
 TreeStack currentv2 digest unchanged and earlier nontrivial-tree equality/registered package credited; no Lean/registry build. Known exact ancestry/scheduling/last-move/+3 primitives remain prior. S011 exact terminal/cyclic transport is not a new tree estimator or universal ASH* proof. Precise equivalence uncertainty remains in the S011 primary report.
+
+## S012 boundary
+
+Earlier TreeStack2609.31811v2/registered package remains credited; selected current PDF digest unchanged, no new Lean/registry build.59-62 concern exact general-graph input language consequences and CLEAR restrictions, not a rediscovered tree estimator or universal ASH* proof. Precise equivalence uncertainty retained in S012 primary comparison.

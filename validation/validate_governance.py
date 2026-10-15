@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed governance mirror/integrity checks (updated S011); not a mathematics or Lean test."""
+"""Fail-closed governance mirror/integrity checks (updated S012); not a mathematics or Lean test."""
 from pathlib import Path
 import hashlib
 import json
@@ -13,8 +13,8 @@ state = load("authoritative/STATE.json")
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
 assert state["headline_status"] == "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN"
-assert state["last_completed_session"] == "S011"
-assert state["recommended_next_session"] == "S012"
+assert state["last_completed_session"] == "S012"
+assert state["recommended_next_session"] == "S013"
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
@@ -42,7 +42,7 @@ for sid in source_ids:
 for c in claims:
     assert c["id"] in claims_md
 next_prompt = (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text(encoding="utf-8")
-assert "S012" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert "S013" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
 for sess in ("S001", "S002", "S003", "S004"):
     assert (ROOT / f"sessions/{sess}/CLOSEOUT.md").exists()
 print("Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).")
@@ -69,13 +69,13 @@ print(f"S003 evidence hashes: {checked} files match.")
 assert (ROOT / "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md").exists()
 assert (ROOT / "outreach/2026-10-csernak-soukup/reply_draft_2026-10-13.txt").exists()
 assert (ROOT / "research/ASHSTAR_ATTACK_BRIEF.md").exists()
-assert "S012" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
+assert "S013" in next_prompt and "FUTURE, UNEXECUTED" in next_prompt
 assert state["correspondence"]["authority"] == "AUTHOR_REPORTED_INTENDED_MEANING_NOT_PUBLISHED_ERRATUM"
 assert state["correspondence"]["next_reply"] == "DRAFT_NOT_SENT"
 assert any(x["id"] == "SRC-0010" and x["type"] == "PERSONAL_COMMUNICATION_OWNER_SUPPLIED" for x in sources)
 assert all(any(x["id"] == claimid and x["status"] == "SOURCE_STATED" for x in claims) for claimid in ("CLM-0028", "CLM-0029"))
 assert (ROOT / "sessions/S004/CLOSEOUT.md").exists()
-print("Author correspondence provenance and unexecuted S012 handoff: PASS (administrative only).")
+print("Author correspondence provenance and unexecuted S013 handoff: PASS (administrative only).")
 
 # S004 scope and machine mirrors: printed PASS must never promote universal ASH*.
 assert state["printed_form_phase1"]["status"] == "PASS"
@@ -436,10 +436,10 @@ print(f'S010 historical scopes and {len(checked10)} immutable hashes: PASS (cold
 assert state['s011']==spec['s011']
 s11=state['s011']
 assert s11['universal_stack']==s11['universal_clear']=='OPEN'
-assert s11['cold_s010_audit']=='PASS_S011_AT_STATED_SCOPES' and s11['cold_new_proofs']=='FUTURE_S012'
+assert s11['cold_s010_audit']=='PASS_S011_AT_STATED_SCOPES' and s11['cold_new_proofs']=='PASS_S012_AT_STATED_SCOPES'
 assert s11['formal_status']=='NOT_STARTED' and state['phases']['1']['status']=='IN_PROGRESS'
 future12=(ROOT/'sessions/S011/FUTURE_S012.md').read_text(encoding='utf-8')
-assert next_prompt==future12 and future12 in (ROOT/'sessions/S011/CLOSEOUT.md').read_text(encoding='utf-8')
+assert (ROOT/'sessions/S012/AUTHORISED_PROMPT.md').read_text(encoding='utf-8')==future12 and future12 in (ROOT/'sessions/S011/CLOSEOUT.md').read_text(encoding='utf-8')
 assert 'FUTURE, UNEXECUTED' in future12 and 'Stop before S013' in future12
 actual11=(ROOT/'sessions/S011/OWNER_INVOCATION.txt').read_text(encoding='utf-8')
 assert actual11.startswith('S011') and 'Resolve the universal critical ASH* bridge' in actual11
@@ -494,6 +494,71 @@ assert required11<=checked11
 for rel in required11:
     if not rel.endswith('.xz'):assert b'\r\n' not in (ROOT/rel).read_bytes(),rel
 for c in claims:
-    if c['id'] in {f'CLM-{i:04d}' for i in range(94,100)}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='FUTURE_S012'
+    if c['id'] in {f'CLM-{i:04d}' for i in range(94,100)}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='PASS_S012_AT_STATED_SCOPES'
     if c['id'] in {'CLM-0093','CLM-0100','CLM-0101','CLM-0102'}:assert c['status']=='COMPUTED_EXACT'
-print(f'S011 current scopes/mirrors and {len(checked11)} immutable hashes: PASS (universal STACK/CLEAR OPEN; S012 FUTURE).')
+print(f'S011 historical scopes and {len(checked11)} immutable hashes: PASS (cold challenge S012 at stated scopes).')
+
+# S012: exact SAME-input identities and bounded history barriers, no universal promotion.
+assert state['s012']==spec['s012']
+s12=state['s012']
+assert s12['universal_stack']==s12['universal_clear']=='OPEN'
+assert s12['cold_s011_audit']=='PASS_S012_AT_STATED_SCOPES' and s12['cold_new_proofs']=='FUTURE_S013'
+assert s12['formal_status']=='NOT_STARTED' and state['phases']['1']['status']=='IN_PROGRESS'
+future13=(ROOT/'sessions/S012/FUTURE_S013.md').read_text(encoding='utf-8')
+assert next_prompt==future13 and future13 in (ROOT/'sessions/S012/CLOSEOUT.md').read_text(encoding='utf-8')
+assert 'FUTURE, UNEXECUTED' in future13 and 'Stop before S014' in future13
+actual12=(ROOT/'sessions/S012/OWNER_INVOCATION.txt').read_text(encoding='utf-8')
+assert actual12=='Run the next session\n'
+assert hashlib.sha256(actual12.encode()).hexdigest()==load('evidence/S012/environment.json')['invocation_sha256']
+for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,6)]:
+    assert hashlib.sha256((ROOT/f'sessions/S012/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S012/{name}.sha256').read_text().split()[0]
+for i in (1,2,3):
+    pre=load(f'evidence/S012/campaign{i}_preflight.json')
+    for p,digest in pre['files'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==digest,p
+initial12=load('evidence/S012/campaign1_initial_preflight.json')
+for suffix in ['reciprocity','reciprocity_verify']:
+    assert hashlib.sha256((ROOT/f'evidence/S012/failed_initial_{suffix}.py').read_bytes()).hexdigest()==initial12['files'][f'tools/s012_{suffix}.py']
+failed12=load('evidence/S012/failed_zero_base_normal_form_log.json')
+assert failed12['exit_code']!=0 and 'AssertionError' in failed12['stderr'] and failed12['resource_failure'] is None
+cold12=load('evidence/S012/cold_checks.json');local12=load('evidence/S012/local_checks.json')
+assert len(cold12)==12 and len(local12)==6
+for row in cold12+local12:
+    assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
+    assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+for tool in ['s012_reciprocity','s012_reciprocity_verify','s012_escape','s012_escape_verify','s012_exceptions','s012_exceptions_verify']:
+    row=load(f'evidence/S012/{tool}_log.json')
+    assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
+    assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+v12=load('evidence/S012/verification.json');e12=load('evidence/S012/escape_verification.json');x12=load('evidence/S012/exceptions_verification.json')
+assert v12=={'graphs':10,'configurations':175359,'relations':16394311,'literal_traces':714,'literal_moves':5484,'complete_negative_closures':69,'all_full_masks_and_relations_equal':True}
+assert e12=={'one_step_barriers':435,'critical_inputs':15,'complete_closure_states':1177,'fuel_witnesses':78,'literal_moves':338,'finite_tau':15,'no_escape_after_complete_closure':0,'all_equal':True}
+assert x12=={'pairs':42,'increasing_losing_transfers':4,'literal_traces':18,'literal_moves':116,'complete_negative_closures':26,'negative_closure_states':1177,'global_extrema':18,'nonAS_global_Qmax':0,'all_equal':True}
+a12=load('evidence/S012/analysis.json')
+assert len(a12['rows'])==10 and not a12['model_is_realized']
+assert sum(r['configurations'] for r in a12['rows'])==v12['configurations']
+assert sum(sum(r['relation_counts'].values()) for r in a12['rows'])==v12['relations']
+for name,value in [('triangular_prism',8),('bridged_triangles',12)]:
+    row=next(r for r in a12['rows'] if r['graph']==name)
+    assert row['thresholds']=={'stack':value,'clear':value} and row['max_mass']==14
+ex12=load('evidence/S012/exceptions.json')
+diagnostic=[r for r in ex12['pairs'] if r['graph']=='C5' and r['c']==[0,1,0,3,3] and r['s']==3 and r['t']==4]
+assert next(r for r in diagnostic if r['a']==1)['donor_1_2_3']==[True,False,False]
+assert next(r for r in diagnostic if r['a']==2)['donor_1_2_3']==[False,False,False]
+assert next(r for r in diagnostic if r['a']==2)['stackable']
+for ident,result in load('evidence/S012/source_refresh.json').items():assert result['pdf_sha256']==refresh11[ident]['pdf_sha256']
+checked12=set()
+for line in (ROOT/'evidence/S012/HASHES.md').read_text(encoding='utf-8').splitlines():
+    m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
+    if m:
+        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        checked12.add(m[2])
+required12={p.relative_to(ROOT).as_posix() for folder in ['sessions/S012','evidence/S012'] for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
+required12|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s012*.py')}
+required12|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S012*.md')}
+assert required12<=checked12
+for rel in required12:
+    if not rel.endswith('.xz'):assert b'\r\n' not in (ROOT/rel).read_bytes(),rel
+for c in claims:
+    if c['id'] in {f'CLM-{i:04d}' for i in [104,105,106,107,108,109,113]}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='FUTURE_S013'
+    if c['id'] in {f'CLM-{i:04d}' for i in [103,110,111,112]}:assert c['status']=='COMPUTED_EXACT'
+print(f'S012 current scopes/mirrors and {len(checked12)} immutable hashes: PASS (universal STACK/CLEAR OPEN; S013 FUTURE).')

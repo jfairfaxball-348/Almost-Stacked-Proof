@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-15",
-  "last_completed_session": "S011",
-  "recommended_next_session": "S012",
+  "last_completed_session": "S012",
+  "recommended_next_session": "S013",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal STACK/CLEAR OPEN. S011 exact terminal transport/root typing and critical CLEAR triangle restrictions do not prove all-class AS selection; independent universal gate unpassed."
+      "note": "Universal STACK/CLEAR OPEN. S012 exact SAME-input reciprocity/donor languages/CLEAR escape restrictions do not establish global AS extremal selection."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,28 +38,28 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "S011 selected current April/October/TreeStack/grammar/Parikh PDF digests unchanged; exact proof scopes/comparisons retained, no final novelty or kernel assurance.",
+  "source_inspection": "S012 five selected current PDF digests unchanged; original ordering/source repair and exact proof scopes inspected; qualified equivalence, no final novelty/kernel assurance.",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Cold-challenge S01153-58 and original ordering dependency before reuse; no independent human/kernel claim.",
-    "Prove actual SAME-input compatibility beyond typed insertion root masks and57 exceptional donor-root/pile types; all sites/donor2/carries/three-mark reconstruction.",
-    "Prove all-class arbitrary-buffer min-root integer-hole domination by maximal AS mass, retaining zero/support/positive representative/carry cases.",
-    "Resolve separate CLEAR gap1/protected output and gap>=2 triangle-free used-component extremal comparison; stackable inputs are outside51.",
-    "Prove true threshold/AS-preserving cyclic gluing or eligible simple quotient equality; representation/strict quotient drop alone is insufficient.",
-    "Or certify exact-g general critical loser plus EVERY critical AS winner with two complete independent validators/certificates.",
-    "S012 requires fresh owner invocation. All Lean, registration, publication and correspondence remain deferred."
+    "Fresh cold challenge S01259-62 and their complete dependency DAG before reuse; no human/kernel claim.",
+    "Exploit actual cross-base input/output occurrence compatibility at GLOBAL largest Q-maximal losers, beyond symmetric typed masks and donor exceptions; all sites/leaf partitions/carries.",
+    "Prove all-class arbitrary-buffer min-root integer-hole domination by maximal AS mass, including support/zero bits/positive representatives/carries.",
+    "Resolve CLEAR gap1 inverse-shadow/protected-output comparison and general originalR3 triangle-free extremal domination; escape inequality alone is not equality.",
+    "Prove true threshold/AS-preserving gluing or eligible equal-threshold simple quotient comparison, retaining full terminal demands and disjoint input.",
+    "Or certify exact-g general critical loser and EVERY critical AS winner with two complete independent validators/certificates.",
+    "S013 requires fresh owner invocation; Lean, registration, publication and correspondence deferred."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
-    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN",
-    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN",
-    "assurance": "S011 fresh local hostile audit and three prior-hashed dual-validator campaigns; no independent human/kernel or universal-resolution assurance."
+    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN",
+    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN",
+    "assurance": "S012 local hostile audit and three prior-hashed dual-validator campaigns; no independent human/kernel or universal-resolution assurance."
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -73,7 +73,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S012 strictly FUTURE/UNEXECUTED: cold-audit53-58, then actual SAME-input insertion compatibility/integer-hole comparison and separate CLEAR gap1/triangle-free extremizers.",
+  "next_session_context": "S013 strictly FUTURE/UNEXECUTED: cold-audit59-62, pursue global maximality with cross-base input languages and arbitrary-buffer comparison; separate CLEAR gap1/originalR3 extremizers.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -274,7 +274,7 @@
     "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme",
     "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
-  "owner_addendum": "Explicit S011 invocation and implementation request executed exactly S011 across multiple milestones; S012 and all final stages remain unexecuted.",
+  "owner_addendum": "Actual owner Run the next session selected and executed exactly S012 from live state, multiple internal milestones, no delegation. S013 and all final stages unexecuted.",
   "s009": {
     "prior_art": "research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md",
     "research": "research/S009_UNIVERSAL_RESEARCH.md",
@@ -344,7 +344,7 @@
     "universal_stack": "OPEN",
     "universal_clear": "OPEN",
     "cold_s010_audit": "PASS_S011_AT_STATED_SCOPES",
-    "cold_new_proofs": "FUTURE_S012",
+    "cold_new_proofs": "PASS_S012_AT_STATED_SCOPES",
     "formal_status": "NOT_STARTED",
     "novelty": "KNOWN_PRIMITIVES_QUALIFIED_EXACT_REFINEMENTS_NO_WORLDWIDE_PRIORITY",
     "exact_terminal_transport": "PROGRAMME_PROVED nonempty arbitrary final forest;3-root/any-used-edge exposure;donor1/2 conditional terminal transport",
@@ -370,6 +370,50 @@
       "stackable_critical_clear": 15,
       "symmetry": "none",
       "new_threshold_claims": 0,
+      "inherited_cutoffs_unchanged": true
+    }
+  },
+  "s012": {
+    "research": "research/S012_UNIVERSAL_RESEARCH.md",
+    "prior_art": "research/S012_PRIMARY_AND_DEPENDENCY_COMPARISON.md",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "cold_s011_audit": "PASS_S012_AT_STATED_SCOPES",
+    "cold_new_proofs": "FUTURE_S013",
+    "formal_status": "NOT_STARTED",
+    "novelty": "KNOWN_PRIMITIVES_QUALIFIED_EXACT_REFINEMENTS_EQUIVALENCE_UNRESOLVED",
+    "reciprocity": "PROGRAMME_PROVED marked-input k1/2 equivalence, symmetric actual TWO insertions, protected first move with zero bit, occurrence permutation; no AS-selection/gluing theorem",
+    "donor_languages": "PROGRAMME_PROVED four exact unit/double donor root identities; unrooted root availability OPEN",
+    "clear_barriers": "PROGRAMME_PROVED originalR3/triangular-edge whole-history escape, exact fuel bounds and componentwise conditional AS at gap>=2; gap1 OPEN",
+    "finite_verification": {
+      "configurations": 175359,
+      "exact_relations": 16394311,
+      "root_traces": 714,
+      "root_moves": 5484,
+      "critical_negative_closures": 69,
+      "one_step_escape_barriers": 435,
+      "escape_critical_inputs": 15,
+      "escape_closure_states": 1177,
+      "fuel_witnesses": 78,
+      "fuel_moves": 338,
+      "transfers": 42,
+      "donor_traces": 18,
+      "donor_moves": 116,
+      "control_negative_closures": 26,
+      "control_closure_states": 1177,
+      "global_Q_cases": 18,
+      "nonAS_Qmax": 0,
+      "new_fixed_graph_thresholds": {
+        "triangular_prism": {
+          "stack": 8,
+          "clear": 8
+        },
+        "bridged_triangles": {
+          "stack": 12,
+          "clear": 12
+        }
+      },
+      "symmetry": "none",
       "inherited_cutoffs_unchanged": true
     }
   }

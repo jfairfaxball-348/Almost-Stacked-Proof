@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s012_exceptions_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.6089999999967404,
+  "peak_working_set_bytes": 30806016,
+  "resource_failure": null,
+  "stdout": "{\"pairs\": 42, \"increasing_losing_transfers\": 4, \"literal_traces\": 18, \"literal_moves\": 116, \"complete_negative_closures\": 26, \"negative_closure_states\": 1177, \"global_extrema\": 18, \"nonAS_global_Qmax\": 0, \"all_equal\": true}\r\n",
+  "stderr": "",
+  "code_sha256": "1c8371c7a7b10d8d7d0c96c7aa2f44b456592a0d5b6444b2e9213b54b2769572"
+}

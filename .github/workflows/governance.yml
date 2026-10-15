@@ -59,6 +59,14 @@ jobs:
           python3 tools/s011_transport_verify.py --check-only
           python3 tools/s011_root_types.py --check-only
           python3 tools/s011_root_types_verify.py --check-only
+      - name: S012 reciprocal input languages, original-root escape and actual donor exceptions
+        run: |
+          python3 tools/s012_reciprocity.py --check-only
+          python3 tools/s012_reciprocity_verify.py --check-only
+          python3 tools/s012_escape.py --check-only
+          python3 tools/s012_escape_verify.py --check-only
+          python3 tools/s012_exceptions.py --check-only
+          python3 tools/s012_exceptions_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

@@ -1,6 +1,6 @@
-# Claim catalogue - current after S011
+# Claim catalogue - current after S012
 
-Universal STACK/CLEAR remain OPEN. Programme proofs, bounded computation, source access and originality are separate.
+Universal STACK/CLEAR OPEN; proof, finite computation, source access and novelty assurance separate.
 
 | ID | Status | Claim | Sources |
 |---|---|---|---|
@@ -106,3 +106,14 @@ Universal STACK/CLEAR remain OPEN. Programme proofs, bounded computation, source
 | CLM-0100 | COMPUTED_EXACT | CAM-S011-01 all90 layers/97839 explicit inputs;3416 winning insertions/4418 occupied deletions;4883 literal traces/43286 moves/15 selected negative closures.884 noncritical own-root failures each goal,3 critical common CLEAR root failures,10 C5 nonbipartiteR3 CLEAR losers; no ASH* failure. | SRC-0043 |
 | CLM-0101 | COMPUTED_EXACT | CAM-S011-02 all116401 exact terminal transport certificates/507217 moves,65164 adjacent pair checks/6978 exceptional(1,1) outcomes,24894 triangle repairs/12 critical CLEAR cuts. Actual C5 odd-cycle3-support c=(4,1,1,1,1) has70-state closed CLEAR-negative reachability and all3 roots. Not critical ASH* failure. | SRC-0043 |
 | CLM-0102 | COMPUTED_EXACT | CAM-S011-03 all97798 mass>=2 root identities/120 critical STACK insertion root families/23 critical CLEAR cases(15 stackable)/10 bipartite checks. Explicit abstract C5 typed/self-root family has empty common STACK intersection, NOT claimed graph/configuration realization. | SRC-0043 |
+| CLM-0103 | COMPUTED_EXACT | S012 cold challenge S01153-58 and needed dependencies survives stated scopes;12 unchanged check-only replays and S003-S011 frozen manifests pass. Fresh local audit/replay is not human/kernel certification. | SRC-0044, SRC-0046 |
+| CLM-0104 | PROGRAMME_PROVED | S01259 exact marked-input reciprocity x->kq iff x-e_w+(3-k)e_q->2w, x(w)>=1,k1/2; SAME-base TWO insertion D is symmetric, critical STACK D loopless/nonempty. No AS selection. | SRC-0044 |
+| CLM-0105 | PROGRAMME_PROVED | S01259a for NONZERO c exact R2(c+2q)=union over z~q R2(c+z), realized by moving the TWO inserted q tokens first. c=0 has separate terminal{q}. Initial omitted zero bit corrected, failed run retained. | SRC-0044 |
+| CLM-0106 | PROGRAMME_PROVED | S01260 exact unit/double donor languages: d1->1s iff c+s->2t;d1->2s iff c->2t;d2->1s iff c->1t;d2->2s iff c-s->1t. No adjacency needed for these ROOTED identities; no unrooted donor availability. | SRC-0044 |
+| CLM-0107 | PROGRAMME_PROVED | S01261 stackable CLEAR-loser history using ambient triangular edge or landing outside ORIGINAL R3 immediately becomes nonstackable. At criticality gap<=shortest forbidden length; gap1 allowed first move lands at critical STACK loser. | SRC-0044, SRC-0001 |
+| CLM-0108 | PROGRAMME_PROVED | S01261a exact partial path fuel bounds gap<=2^(d+1)-1 toward triangular site or2^d-1 outside originalR3 under stated source-fuel hypotheses;61b if gap>=2 and each triangle-edge-deleted component has<=1 nontriangular vertex, EVERY critical CLEAR loser is AS. Gap1/general target OPEN. | SRC-0044, SRC-0001 |
+| CLM-0109 | PROGRAMME_PROVED | S01262 for base b and nonempty LIST l_i with repeated labels allowed, exact predicate b+sum_{j!=i}e_lj->2l_i is independent of distinguished index. Fixed-graph occurrence symmetry, NOT threshold/AS-preserving gluing. | SRC-0044 |
+| CLM-0110 | COMPUTED_EXACT | CAM-S012-01 ten fixed boxes/175359 full configurations/16394311 exact relations;714 traces/5484 moves/69 full critical negative closures. Fixed triangular prism stack=clear8 and bridged_triangles12 through mass14, both independently full-mask checked; no atlas/universal claim. | SRC-0046 |
+| CLM-0111 | COMPUTED_EXACT | CAM-S012-02 all435 one-step barriers/15 critical inputs/1177 closure states/78 partial-fuel witnesses/338 moves. BFS/full-DAG exact tau agree; C5/F2 tau3>gap2 and triangle_tail2 tau7>gap6, no equality inferred. | SRC-0046 |
+| CLM-0112 | COMPUTED_EXACT | CAM-S012-03 all42 concentrating transfers,18 donor traces/116 moves,26 complete control negative closures/1177 states and18 whole-layer extrema.4 transfers lose/38 win; actual critical C5 unit donor CLEAR but double wins at OTHER roots, no double donor TWO in this sample. All bounded Q maxima AS, not universal. | SRC-0046 |
+| CLM-0113 | PROGRAMME_PROVED | S01259b assigned abstract C6 matching D01,23,45 satisfies actual-style symmetry/typing/self-root rules but empty common STACK intersection. NOT a graph/configuration realization; no ASH* evidence. | SRC-0044 |
