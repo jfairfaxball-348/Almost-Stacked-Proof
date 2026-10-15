@@ -10,7 +10,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.09650",
     "access": "PROOF_INSPECTED",
-    "note": "S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 same v1 PDF hash; equation4.10 proof operation freshly inspected. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected. S007 current v1/PDF digest unchanged; April6.1 and October4.7/pullback/+3 selected proof portions re-inspected. S008 current v1/PDF digest unchanged; selected definitions, monotonicity/pullback/+3 and April6.1 proofs re-inspected, no comprehensive novelty audit. S009 foundational comparison: full primary material and named proofs inspected; precise per-proof scope/slips in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md, no kernel/priority claim. S010 current versions/digests unchanged; selected ancestry/signed3/+3/triangle proofs re-inspected, earlier TreeStack credited. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance."
+    "note": "S003: full v1 PDF read (sha256 cbc9877b...); Hypothesis 3.2, Defs 2.1/3.1/5.1, Lemma 4.7 and Thm 5.2 proofs checked (PROOF_INSPECTED for those two); see research/S003_SOURCE_RECONCILIATION.md S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 same v1 PDF hash; equation4.10 proof operation freshly inspected. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected. S007 current v1/PDF digest unchanged; April6.1 and October4.7/pullback/+3 selected proof portions re-inspected. S008 current v1/PDF digest unchanged; selected definitions, monotonicity/pullback/+3 and April6.1 proofs re-inspected, no comprehensive novelty audit. S009 foundational comparison: full primary material and named proofs inspected; precise per-proof scope/slips in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md, no kernel/priority claim. S010 current versions/digests unchanged; selected ancestry/signed3/+3/triangle proofs re-inspected, earlier TreeStack credited. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance. S013 selected current digests unchanged; inspected scopes and qualified exact neighborhood-exchange comparison in S013 primary report; S012 cold challenge PASS at stated scopes, no human/kernel/priority assurance."
   },
   {
     "id": "SRC-0002",
@@ -23,7 +23,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2604.22341",
     "access": "PROOF_INSPECTED",
-    "note": "April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 continuation freshly inspects full Theorem6.1 proof/internal rooted claim; root odd-walk bound is prior source work. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected. S007 current v1/PDF digest unchanged; April6.1 and October4.7/pullback/+3 selected proof portions re-inspected. S008 current v1/PDF digest unchanged; selected definitions, monotonicity/pullback/+3 and April6.1 proofs re-inspected, no comprehensive novelty audit. S009 foundational comparison: full primary material and named proofs inspected; precise per-proof scope/slips in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md, no kernel/priority claim. S010 current versions/digests unchanged; selected ancestry/signed3/+3/triangle proofs re-inspected, earlier TreeStack credited. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance."
+    "note": "April v1 full PDF (sha256 ab34962a...) definitions p3, Hypothesis 9.1 p20, Thms 2.1, 2.10, 3.1, 5.1, 6.1, 7.3, 7.4, 8.1-8.3, 9.4-9.7, 10.1-10.3, s11 read; not a full proof audit S004 2026-10-13 fresh current version list v1 only and PDF digest unchanged; statements re-inspected. No posted revised hypothesis in fetched text. S005 continuation freshly inspects full Theorem6.1 proof/internal rooted claim; root odd-walk bound is prior source work. S006 current v1 list and PDF digest freshly verified unchanged; relevant proof portions re-inspected. S007 current v1/PDF digest unchanged; April6.1 and October4.7/pullback/+3 selected proof portions re-inspected. S008 current v1/PDF digest unchanged; selected definitions, monotonicity/pullback/+3 and April6.1 proofs re-inspected, no comprehensive novelty audit. S009 foundational comparison: full primary material and named proofs inspected; precise per-proof scope/slips in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md, no kernel/priority claim. S010 current versions/digests unchanged; selected ancestry/signed3/+3/triangle proofs re-inspected, earlier TreeStack credited. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance. S013 selected current digests unchanged; inspected scopes and qualified exact neighborhood-exchange comparison in S013 primary report; S012 cold challenge PASS at stated scopes, no human/kernel/priority assurance."
   },
   {
     "id": "SRC-0003",
@@ -35,7 +35,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2609.31811",
     "access": "PROOF_INSPECTED",
-    "note": "Exact Lean Stacking/Estimator/RootScore/UpperBound and defect-flow proof notes inspected; no new kernel build in S002 S009 foundational comparison: full primary material and named proofs inspected; precise per-proof scope/slips in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md, no kernel/priority claim. S010 current versions/digests unchanged; selected ancestry/signed3/+3/triangle proofs re-inspected, earlier TreeStack credited. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance.",
+    "note": "Exact Lean Stacking/Estimator/RootScore/UpperBound and defect-flow proof notes inspected; no new kernel build in S002 S009 foundational comparison: full primary material and named proofs inspected; precise per-proof scope/slips in research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md, no kernel/priority claim. S010 current versions/digests unchanged; selected ancestry/signed3/+3/triangle proofs re-inspected, earlier TreeStack credited. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance. S013 selected current digests unchanged; inspected scopes and qualified exact neighborhood-exchange comparison in S013 primary report; S012 cold challenge PASS at stated scopes, no human/kernel/priority assurance.",
     "current_version": "2609.31811v2",
     "pdf_sha256": "79f1d8e4ea707206e72fce3e43fabcf8803376987f6b4da6d5fa9b5a16b4b720"
   },
@@ -316,7 +316,7 @@
     "title": "Complexity of Problems of Commutative Grammars",
     "url": "https://arxiv.org/abs/1501.04245",
     "access": "PROOF_INSPECTED",
-    "note": "Kopczynski v3 full ordering2.7/derivation2.9-2.10 proof inspected pp8-10. Reverse one-input ancestry applies; forward pebbling balance does not. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance."
+    "note": "Kopczynski v3 full ordering2.7/derivation2.9-2.10 proof inspected pp8-10. Reverse one-input ancestry applies; forward pebbling balance does not. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance. S013 selected current digests unchanged; inspected scopes and qualified exact neighborhood-exchange comparison in S013 primary report; S012 cold challenge PASS at stated scopes, no human/kernel/priority assurance."
   },
   {
     "id": "SRC-0037",
@@ -324,7 +324,7 @@
     "title": "Parikh's theorem: A simple and direct automaton construction",
     "url": "https://archive.model.in.tum.de/um/bibdb/esparza/IPL11.pdf",
     "access": "PROOF_INSPECTED",
-    "note": "Esparza et al. 2011 Theorem1.1/collapse/automaton proof inspected; exact terminal counts, no maximum-hole theorem. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance."
+    "note": "Esparza et al. 2011 Theorem1.1/collapse/automaton proof inspected; exact terminal counts, no maximum-hole theorem. S011 current selected PDF digest unchanged; precise proof scope/comparison in S011 primary report, no worldwide priority or final-stage assurance. S012 selected current PDF digest unchanged; exact inspected proof scopes/qualified dependency comparison in S012 primary report, no final novelty/kernel assurance. S013 selected current digests unchanged; inspected scopes and qualified exact neighborhood-exchange comparison in S013 primary report; S012 cold challenge PASS at stated scopes, no human/kernel/priority assurance."
   },
   {
     "id": "SRC-0038",
@@ -380,7 +380,7 @@
     "title": "S012 reciprocal insertion and CLEAR escape proofs",
     "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S012_UNIVERSAL_RESEARCH.md",
     "access": "PROOF_INSPECTED",
-    "note": "59-62 exact proofs and boundaries; universal STACK/CLEAR OPEN; fresh challenge FUTURE S013."
+    "note": "59-62 exact proofs and boundaries; universal STACK/CLEAR OPEN; fresh challenge FUTURE S013. S013 selected current digests unchanged; inspected scopes and qualified exact neighborhood-exchange comparison in S013 primary report; S012 cold challenge PASS at stated scopes, no human/kernel/priority assurance."
   },
   {
     "id": "SRC-0045",
@@ -397,5 +397,46 @@
     "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S012",
     "access": "PROOF_INSPECTED",
     "note": "Three prior-hashed dual-validator campaigns, fixed boxes and full closures; no human/kernel/universal assurance."
+  },
+  {
+    "id": "SRC-0047",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S013 global minimal-neighborhood and loss-preserving exchange proofs",
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S013_UNIVERSAL_RESEARCH.md",
+    "access": "PROOF_INSPECTED",
+    "note": "63-70 complete scopes/DAG; universal STACK/CLEAR OPEN, fresh cold challenge FUTURE S014."
+  },
+  {
+    "id": "SRC-0048",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S013 selected primary and dependency comparison",
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S013_PRIMARY_AND_DEPENDENCY_COMPARISON.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Known ancestry/ordering/+3/pushforward/triangle primitives credited; possible new exact refinements/equivalence uncertain."
+  },
+  {
+    "id": "SRC-0049",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S013 registered precision campaigns and complete certificates",
+    "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S013",
+    "access": "PROOF_INSPECTED",
+    "note": "Six prior-hashed campaigns, distinct full validators, exact historical versus new scopes retained; no universal/kernel assurance."
+  },
+  {
+    "id": "SRC-0050",
+    "type": "PRIMARY_PAPER",
+    "title": "Pebbling and Optimal Pebbling in Graphs",
+    "authors": [
+      "David P. Bunde",
+      "Erin W. Chambers",
+      "Daniel Cranston",
+      "Kevin Milans",
+      "Douglas B. West"
+    ],
+    "year": 2005,
+    "url": "https://wolfchambers.github.io/papers/pebbling.pdf",
+    "access": "PROOF_INSPECTED",
+    "pdf_sha256": "1f4a05afac1bd8d65a4d1bb022d6ae5cdb63d1c71a584826b9c2601d8f7fdf1b",
+    "note": "S013 original author PDF26pages; selected definitions pp1-2 and Lemmas6-7 pp10-11 proofs inspected. Ordinary target/optimal reachability allows leftovers; no exact-consuming equivalence or whole-paper proof audit."
   }
 ]

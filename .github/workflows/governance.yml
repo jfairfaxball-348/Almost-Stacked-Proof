@@ -67,6 +67,20 @@ jobs:
           python3 tools/s012_escape_verify.py --check-only
           python3 tools/s012_exceptions.py --check-only
           python3 tools/s012_exceptions_verify.py --check-only
+      - name: S013 exact neighborhood exchange, global extrema and auxiliary route failures
+        run: |
+          python3 tools/s013_gap_scan.py --check-only
+          python3 tools/s013_gap_scan_verify.py --check-only
+          python3 tools/s013_precision.py --check-only
+          python3 tools/s013_precision_verify.py --check-only
+          python3 tools/s013_concentration.py --check-only
+          python3 tools/s013_concentration_verify.py --check-only
+          python3 tools/s013_full_exchange.py --check-only
+          python3 tools/s013_full_exchange_verify.py --check-only
+          python3 tools/s013_residual.py --check-only
+          python3 tools/s013_residual_verify.py --check-only
+          python3 tools/s013_synthesis.py --check-only
+          python3 tools/s013_synthesis_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

@@ -1,0 +1,39 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "f831bce6a40a868b4a78c11dd5e74c995626edf5",
+    "node_id": "C_kwDOVF-kW9oAKGY4MzFiY2U2YTQwYTg2OGI0YTc4YzExZGQ1ZTc0Yzk5NTYyNmVkZjU",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/f831bce6a40a868b4a78c11dd5e74c995626edf5",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/f831bce6a40a868b4a78c11dd5e74c995626edf5",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T08:47:17Z"
+    },
+    "committer": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T08:47:17Z"
+    },
+    "tree": {
+      "sha": "1972a94f38e00b539062d255f6cca0d81e8e58b8",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/1972a94f38e00b539062d255f6cca0d81e8e58b8"
+    },
+    "message": "Strengthen future S013 toward major universal ASH closure",
+    "parents": [
+      {
+        "sha": "1505c1b8437973aa23bd09b6040a3ad39852f311",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/1505c1b8437973aa23bd09b6040a3ad39852f311",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/1505c1b8437973aa23bd09b6040a3ad39852f311"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "stderr": ""
+}

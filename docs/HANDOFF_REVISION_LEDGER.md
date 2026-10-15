@@ -9,3 +9,7 @@ These records amend prospective instructions without executing another numbered 
 Revision purpose: push a sustained local attack on the global L_all<=L_AS comparison, explicitly continue beyond one/two milestones and tool-only progress, pursue a major closure and its next universal implications, use available CLI/context with flexible PRIOR hashed bounded plans, keep STACK/CLEAR and the sufficient Q assertions distinct, and require complete independently checked proof/counterexample evidence. Preserve all existing final-stage and no-delegation gates. A hard theorem is not an owner-action blocker; a claim is not proved by effort or finite test count.
 
 One administrative branch/atomic commit/ordinary PR/non-force two-parent merge; actual outgoing IDs and hosted checks are recorded in PR integration metadata rather than invented in this file. The base live main at revision preparation is1505c1b8437973aa23bd09b6040a3ad39852f311. The next numbered research session remains S013 and requires a fresh explicit invocation.
+
+## S013 execution supersedes prospective status
+
+Owner Run the next session selected the revised S013 prompt; Continue steered that same active session. S013 is now completed, S014 FUTURE/UNEXECUTED. Original administrative revision JSON/owner text/revised prompt and frozen S012 handoff bytes remain historical unchanged; authoritative current next prompt is now sessions/S013/FUTURE_S014.md. Entry provenance is preserved in STATE.entry_handoff_revision.

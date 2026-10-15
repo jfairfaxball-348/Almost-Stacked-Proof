@@ -1,0 +1,278 @@
+{
+  "exit_code": 0,
+  "body": [
+    {
+      "name": "admin/S013-major-closure-handoff",
+      "commit": {
+        "sha": "f831bce6a40a868b4a78c11dd5e74c995626edf5",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/f831bce6a40a868b4a78c11dd5e74c995626edf5"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/admin/S013-major-closure-handoff/protection"
+    },
+    {
+      "name": "claude/modest-goldberg-w5d79y",
+      "commit": {
+        "sha": "6ac5553774bb80ca1f1e7f3ad365482c0956e6c3",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/6ac5553774bb80ca1f1e7f3ad365482c0956e6c3"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/claude/modest-goldberg-w5d79y/protection"
+    },
+    {
+      "name": "claude/nifty-pascal-8xc3ur",
+      "commit": {
+        "sha": "50f691d071e7af73dd520f3bb5db64b6c9a25a6d",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/50f691d071e7af73dd520f3bb5db64b6c9a25a6d"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/claude/nifty-pascal-8xc3ur/protection"
+    },
+    {
+      "name": "codex/S006-extremal-holes-leaf-interfaces",
+      "commit": {
+        "sha": "74feae2559af1ddc855febbd0da9693faf51ef22",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/74feae2559af1ddc855febbd0da9693faf51ef22"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/codex/S006-extremal-holes-leaf-interfaces/protection"
+    },
+    {
+      "name": "codex/S007-conductor-comparison-cyclic-family",
+      "commit": {
+        "sha": "a21ce4702f2d888bd5e6a417a17df0f2095f0b0a",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/a21ce4702f2d888bd5e6a417a17df0f2095f0b0a"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/codex/S007-conductor-comparison-cyclic-family/protection"
+    },
+    {
+      "name": "codex/S008-hostile-audit-universal-research",
+      "commit": {
+        "sha": "8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/8fe4ec3e09fcee3a80f6f0caa9eb97337f9ee061"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/codex/S008-hostile-audit-universal-research/protection"
+    },
+    {
+      "name": "codex/S009-prior-art-universal-research",
+      "commit": {
+        "sha": "34d7e2e28925026db4dbd99e15f8007f4037ed68",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/34d7e2e28925026db4dbd99e15f8007f4037ed68"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/codex/S009-prior-art-universal-research/protection"
+    },
+    {
+      "name": "correspondence/2026-10-13-author-confirmation-ashstar-handoff",
+      "commit": {
+        "sha": "de1c4c3bc6affbcf3126ec623b494bd9b594cf02",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/de1c4c3bc6affbcf3126ec623b494bd9b594cf02"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/correspondence/2026-10-13-author-confirmation-ashstar-handoff/protection"
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "1e28259f6e35849723bbe5e5fd545630498d45a9",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/1e28259f6e35849723bbe5e5fd545630498d45a9"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/main/protection"
+    },
+    {
+      "name": "session/S001-bootstrap-almost-stacked",
+      "commit": {
+        "sha": "54ae36e288b1d31af2f74e95c590bd840b66b07d",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/54ae36e288b1d31af2f74e95c590bd840b66b07d"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S001-bootstrap-almost-stacked/protection"
+    },
+    {
+      "name": "session/S002-ash-foundations-and-exact-8-vertex",
+      "commit": {
+        "sha": "1b0d6f7afed45fed5a313010d0beb8dd8adb2366",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/1b0d6f7afed45fed5a313010d0beb8dd8adb2366"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S002-ash-foundations-and-exact-8-vertex/protection"
+    },
+    {
+      "name": "session/S004-ashstar-losing-frontier",
+      "commit": {
+        "sha": "22e08b27dca04d5ab9d62ac7116a6f31cc8da889",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/22e08b27dca04d5ab9d62ac7116a6f31cc8da889"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S004-ashstar-losing-frontier/protection"
+    },
+    {
+      "name": "session/S005-extrema-rooted-costs",
+      "commit": {
+        "sha": "35efa0a818a5bc79f75b29ec8f36f8eb0149f089",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/35efa0a818a5bc79f75b29ec8f36f8eb0149f089"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S005-extrema-rooted-costs/protection"
+    },
+    {
+      "name": "session/S010-universal-extremal-research",
+      "commit": {
+        "sha": "243e563aa2b17042409833002b520165fdc3b69f",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/243e563aa2b17042409833002b520165fdc3b69f"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S010-universal-extremal-research/protection"
+    },
+    {
+      "name": "session/S011-critical-insertion-trees",
+      "commit": {
+        "sha": "42961f1099f9389c32c26ea6a2d1fdacce3646b0",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/42961f1099f9389c32c26ea6a2d1fdacce3646b0"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S011-critical-insertion-trees/protection"
+    },
+    {
+      "name": "session/S012-critical-extremal-bridge",
+      "commit": {
+        "sha": "a201eeb0db60dfd68386ff76450a19ac4bb91c0a",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits/a201eeb0db60dfd68386ff76450a19ac4bb91c0a"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches/session/S012-critical-extremal-bridge/protection"
+    }
+  ],
+  "stderr": ""
+}

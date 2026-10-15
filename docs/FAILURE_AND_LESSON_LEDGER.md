@@ -78,3 +78,12 @@ Bipartite common CLEAR insertion root is impossible universally (signed0 plus si
 | FL-S012-02 | Premature donor interpretation claimed C5 double reaches TWO at donor | Complete masks show no donor ONE/TWO/THREE; double wins elsewhere. Corrected report/user commentary, retained failure. Unrooted win gives no donor availability |
 | FL-S012-03 | Symmetric typed/self-root masks or shortest escape inequality treated as universal bridge | Abstract C6 still has no common root; tau exceeds actual gap in finite controls. Neither proves AS selection |
 | FL-S012-04 | Root authority-path lookup and cp1252 source display errors | Use authoritative/ canonical paths and UTF-8 source display; neither failure is mathematical/source proof evidence |
+
+## S013 exact auxiliary failures
+
+- FL-S013-01: first-step gap1 STACK shadow false on freshly exact A7_0036(12/13); all six CLEAR critical losers have only STACK-winning first successors. Longer histories still possible.
+- FL-S013-02: unrestricted adjacent-deletion independence false on P4; threshold version ALSO false in189 archived exact graphs, even both deletions GLOBAL Q52 on A6_0076. These are AS witnesses, not ASH* failures.
+- FL-S013-03: adjacent CLOSED-neighborhood even exchange false for BOTH goals. Redirecting onto a self-loop is illegal; preserve OPEN inclusion.
+- FL-S013-04: arbitrary receiver1 STACK exchange has a REAL unique mass3 exception2s+t->3t. At mass>=4 theorem66 handles it; do not erase zero/incoming/root3 distinctions.
+- FL-S013-05: initial root STATE path and PowerShell wildcard rg lookups and initial workflow filename lookup failed; canonical authoritative/ paths and rg globs corrected before dependent work. No mathematical campaign/runtime/resource failure.
+- FL-S013-06: negative finite counts do not prove vertex-triangulated equality; private multiplicity is not distinct-neighbor count;70 does not justify graph deletion or threshold equality.

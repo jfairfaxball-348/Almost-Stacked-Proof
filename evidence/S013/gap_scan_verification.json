@@ -1,0 +1,14 @@
+{
+  "all_records": 11970,
+  "full_classification_equal": true,
+  "counts": {
+    "records": 11970,
+    "both_exact": 10858,
+    "unknown_pair": 1112,
+    "gap1": 114,
+    "positive_gap": 424,
+    "vertex_triangular_positive": 0,
+    "component_criterion_positive": 0
+  },
+  "selected_rows": 114
+}

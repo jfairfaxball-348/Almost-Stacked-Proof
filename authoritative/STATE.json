@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-15",
-  "last_completed_session": "S012",
-  "recommended_next_session": "S013",
+  "last_completed_session": "S013",
+  "recommended_next_session": "S014",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal STACK/CLEAR OPEN. S012 exact SAME-input reciprocity/donor languages/CLEAR escape restrictions do not establish global AS extremal selection."
+      "note": "Universal STACK/CLEAR OPEN; S013 exact minimal-neighborhood configuration reduction does not prove the residual max-hole inequality."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,28 +38,29 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "S012 five selected current PDF digests unchanged; original ordering/source repair and exact proof scopes inspected; qualified equivalence, no final novelty/kernel assurance.",
+  "source_inspection": "S013 selected five current digests unchanged; original ordering/push/+3/triangle scopes and SRC0050 smoothing6-7 inspected; possible exact refinements/equivalence uncertain, no priority/kernel assurance.",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Fresh cold challenge S01259-62 and their complete dependency DAG before reuse; no human/kernel claim.",
-    "Exploit actual cross-base input/output occurrence compatibility at GLOBAL largest Q-maximal losers, beyond symmetric typed masks and donor exceptions; all sites/leaf partitions/carries.",
-    "Prove all-class arbitrary-buffer min-root integer-hole domination by maximal AS mass, including support/zero bits/positive representatives/carries.",
-    "Resolve CLEAR gap1 inverse-shadow/protected-output comparison and general originalR3 triangle-free extremal domination; escape inequality alone is not equality.",
-    "Prove true threshold/AS-preserving gluing or eligible equal-threshold simple quotient comparison, retaining full terminal demands and disjoint input.",
-    "Or certify exact-g general critical loser and EVERY critical AS winner with two complete independent validators/certificates.",
-    "S013 requires fresh owner invocation; Lean, registration, publication and correspondence deferred."
+    "Fresh S014 cold challenge63-70 and entire dependency DAG before reuse; local audit is not human/kernel certification.",
+    "Prove restricted L_R<=L_AS_minimal at incomparable minimal neighborhoods, all roots/input partitions/carries;65 repeated private exits still allowed.",
+    "Resolve arbitrary-buffer integer holes versus binary buffers on70 residual domain, zero bits/positive representatives/exact consumption retained.",
+    "CLEAR gap1 needs longer inverse histories/another same-mass AS construction; first-step and threshold/global-Q deletion independence are actual false routes.",
+    "Extend68 beyond comparable nontriangle neighborhoods at gap>=2, retaining ORIGINAL R3 full cyclic defect.",
+    "True graph threshold/AS-preserving gluing or equal-threshold quotient comparison remains unproved;70 does not delete vertices.",
+    "Or exact labelled general critical loser/EVERY AS winner/g with complete independent certificates.",
+    "S014 requires fresh owner invocation; all Lean/final stages/contact deferred."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
-    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN",
-    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN",
-    "assurance": "S012 local hostile audit and three prior-hashed dual-validator campaigns; no independent human/kernel or universal-resolution assurance."
+    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN",
+    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN",
+    "assurance": "S013 local hostile full-DAG audit/six prior-hashed campaigns with distinct checkers; no independent human/kernel or worldwide-priority assurance."
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -73,7 +74,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S013 strictly FUTURE/UNEXECUTED, owner-expanded 2026-10-15: sustained local attack on L_all<=L_AS across global extremizers, arbitrary buffers, separate CLEAR gaps and actual disproof certificates. No one/two-milestone stop; flexible prior-hashed bounded CLI plans. See authoritative/HANDOFF_REVISION.json.",
+  "next_session_context": "S014 FUTURE/UNEXECUTED: cold-audit63-70, then close residual incomparable-minimal-neighborhood global comparison/private exits and longer gap1 CLEAR shadows; no one/two-milestone stop.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -274,7 +275,7 @@
     "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme",
     "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
-  "owner_addendum": "Actual owner Run the next session selected and executed exactly S012 from live state, multiple internal milestones, no delegation. S013 and all final stages unexecuted. Administrative 2026-10-15 owner-directed S013 prompt expansion only; no S013 research executed and no mathematical/gate status changed.",
+  "owner_addendum": "Actual Run the next session selected S013; Continue steered the SAME active session. Sustained internal research/closeout, no delegation. S014 and final stages unexecuted.",
   "s009": {
     "prior_art": "research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md",
     "research": "research/S009_UNIVERSAL_RESEARCH.md",
@@ -379,7 +380,7 @@
     "universal_stack": "OPEN",
     "universal_clear": "OPEN",
     "cold_s011_audit": "PASS_S012_AT_STATED_SCOPES",
-    "cold_new_proofs": "FUTURE_S013",
+    "cold_new_proofs": "PASS_S013_AT_STATED_SCOPES",
     "formal_status": "NOT_STARTED",
     "novelty": "KNOWN_PRIMITIVES_QUALIFIED_EXACT_REFINEMENTS_EQUIVALENCE_UNRESOLVED",
     "reciprocity": "PROGRAMME_PROVED marked-input k1/2 equivalence, symmetric actual TWO insertions, protected first move with zero bit, occurrence permutation; no AS-selection/gluing theorem",
@@ -418,6 +419,84 @@
     }
   },
   "next_session_handoff": {
+    "session": "S014",
+    "status": "FUTURE_UNEXECUTED",
+    "path": "sessions/S013/FUTURE_S014.md",
+    "sha256": "53c979061ba5b2341457a6cdcaf5075aaabb091dd13a23c39af996d2613aa0ba"
+  },
+  "s013": {
+    "research": "research/S013_UNIVERSAL_RESEARCH.md",
+    "prior_art": "research/S013_PRIMARY_AND_DEPENDENCY_COMPARISON.md",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "cold_s012_audit": "PASS_S013_AT_STATED_SCOPES",
+    "cold_new_proofs": "FUTURE_S014",
+    "formal_status": "NOT_STARTED",
+    "novelty": "QUALIFIED_EXACT_RESULTS_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED",
+    "global_selection": "PROGRAMME_PROVED63-70 exact open-neighborhood loss concentration with precise small exception; GLOBAL Q/P heavy support minimal, equivalent restriction of BOTH maxima; incomparable-neighborhood inequality OPEN",
+    "clear_status": "Conditional68 at gap>=2 proved; actual gap1 first-shadow and threshold/global-Q deletion-independence bridges refuted, no universal transfer",
+    "finite_verification": {
+      "precision": {
+        "graphs": 11,
+        "configurations": 291639,
+        "three_relations": 1255186,
+        "adjacent_tests": 2240733,
+        "adjacent_failures": 2039,
+        "threshold_adjacent_failures": 0,
+        "gap1_critical_losers": 6,
+        "negative_closure_states": 36,
+        "literal_moves": 18,
+        "all_full_masks_and_diagnostics_equal": true
+      },
+      "concentration": {
+        "open_implications": 313052,
+        "adjacent_closed_tests": 1124248,
+        "adjacent_closed_failures": 1872,
+        "reconstructed_counts": 3437,
+        "literal_moves": 22008,
+        "negative_closure_states": 1836,
+        "gap1_inputs": 6,
+        "gap1_first_successors": 20,
+        "all_equal": true
+      },
+      "full_exchange": {
+        "implications": 370252,
+        "small_STACK_exceptions": 13,
+        "CLEAR_exceptions": 0,
+        "count_reconstructions": 12239,
+        "literal_moves": 75564,
+        "branches": {
+          "disappearing_zero": 7038,
+          "ordinary": 5141,
+          "reroot_three": 60
+        },
+        "global_selected_extremizers": 59,
+        "all_equal": true
+      },
+      "residual": {
+        "archive_graphs": 189,
+        "archive_critical_losers": 1028,
+        "archive_adjacent_pairs": 8,
+        "archive_unknown": 0,
+        "private_certificates": 12345,
+        "private_literal_moves": 111047,
+        "adjacent_small_transfer_tests": 85604,
+        "all_equal": true
+      },
+      "synthesis": {
+        "graphs": 11,
+        "full_losing_layers": 134,
+        "selected_extremizers": 614,
+        "restricted_comparisons": 17,
+        "applicable68": [
+          "F2"
+        ],
+        "all_equal": true
+      }
+    },
+    "inherited_cutoffs_unchanged": true
+  },
+  "entry_handoff_revision": {
     "schema": 1,
     "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
     "session": "S013",

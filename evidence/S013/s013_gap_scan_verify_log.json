@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s013_gap_scan_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.9069999999919673,
+  "peak_working_set_bytes": 27549696,
+  "resource_failure": null,
+  "stdout": "{\"all_records\": 11970, \"full_classification_equal\": true, \"counts\": {\"records\": 11970, \"both_exact\": 10858, \"unknown_pair\": 1112, \"gap1\": 114, \"positive_gap\": 424, \"vertex_triangular_positive\": 0, \"component_criterion_positive\": 0}, \"selected_rows\": 114}\r\n",
+  "stderr": "",
+  "code_sha256": "c690c993946f0672bc527186904a6126985b47983f316703ee3e8bcbcbb8185b"
+}
