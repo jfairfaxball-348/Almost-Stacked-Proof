@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S012-F1",
+    "kind": "DRAFT_MATHEMATICAL_BOUNDARY",
+    "error": "Protected TWO normal form omitted c=0 zero-move terminal. Initial producer K2 assertion failed.",
+    "resolution": "Add exact zero bit {q}; amendment3 and both code revisions frozen before successful rerun. Original failed log/preflight retained."
+  },
+  {
+    "id": "S012-F2",
+    "kind": "CONSOLE_DISPLAY_ONLY",
+    "error": "cp1252 could not print selected Unicode source passage; no mathematics executed by this display command.",
+    "resolution": "Re-read with PYTHONIOENCODING=utf-8. No source access upgrade inferred from failure."
+  },
+  {
+    "id": "S012-F3",
+    "kind": "PREMATURE_DRAFT_INTERPRETATION",
+    "error": "Draft/commentary asserted C5 double transfer reaches TWO at donor3. Completed CAM03 shows donor ONE/TWO/THREE all false.",
+    "resolution": "Corrected user commentary and research report: unit transfer donor CLEAR, double transfer wins only at other roots. No coexistence claim; no double donor TWO in42 cases. Theorem60 remains valid."
+  },
+  {
+    "id": "S012-F4",
+    "kind": "ENTRY_PATH_LOOKUP",
+    "error": "Initial root STATE.json/NEXT_SESSION_PROMPT.md reads failed; canonical paths are authoritative/.",
+    "resolution": "Read canonical files before scope/plan/research. No authority conflict or dependent write from absent root files."
+  }
+]

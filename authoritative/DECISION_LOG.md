@@ -62,3 +62,8 @@
 | 2026-10-15 S011 | Preserve exact terminal roots/piles: bipartite common CLEAR root impossible, assigned typed root masks insufficient; donor1/2 reconstruction remains conditional on root/pile and actual input compatibility | S01153-58, AUDIT/MILESTONES | Universal ASH* OPEN; no gate advance |
 | 2026-10-15 S011 | CLEAR stackable extremizers use deletion-to2/triangle-free3-witness and gap>=2 heavy-site restrictions; never import51 or solve gap1 by dropping its hypothesis | S01155/55a | Conditional tools only |
 | 2026-10-15 S011 | Actual invocation/hashed bounded plans and three exact precision campaigns; historical hashes/cutoffs unchanged; complete S012 strictly future | S011 INPUT/PLAN/CLOSEOUT | Stop before S012/final stages |
+
+| 2026-10-15 S012 | Exact reciprocal TWO/root languages require real SAME-base compatibility; zero-base protected terminal bit mandatory; symmetric assigned C6 still not actual inputs | S01259/59a/59b/62 | Universal AS selection OPEN |
+| 2026-10-15 S012 | Keep GLOBAL Q scope and donor-root availability: actual C5 double transfer wins only elsewhere, no claimed donor-TWO coexistence | S01260/CAM03/retained_failures | Draft corrected, no ASH* failure |
+| 2026-10-15 S012 | Original R3 whole-history escape costs at least gap; gap1 and arbitrary triangle-free extremizers unresolved; component conditional AS retains gap>=2 | S01261/61a/61b | No gate advance |
+| 2026-10-15 S012 | Exactly S012, one atomic authored PR/non-force integration, complete S013 future only | INPUT/PLAN/CLOSEOUT | No delegation/final actions |

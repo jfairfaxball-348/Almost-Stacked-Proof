@@ -1,0 +1,86 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s012_reciprocity.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 13.453000000008615,
+    "peak_working_set_bytes": 90808320,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"K2\", \"counts\": {\"two_symmetry\": 12, \"clear_reflection\": 12, \"protected_two_normal_form\": 6, \"unit_clear\": 6, \"unit_two\": 12, \"donor_two_clear\": 6, \"donor_two_two\": 6}, \"thresholds\": {\"stack\": 3, \"clear\": null}, \"critical\": 1}\r\n{\"graph\": \"K3\", \"counts\": {\"two_symmetry\": 90, \"clear_reflection\": 90, \"protected_two_normal_form\": 30, \"unit_clear\": 60, \"unit_two\": 120, \"donor_two_clear\": 60, \"donor_two_two\": 60}, \"thresholds\": {\"stack\": 4, \"clear\": 4}, \"critical\": 5}\r\n{\"graph\": \"P4\", \"counts\": {\"two_symmetry\": 38080, \"clear_reflection\": 38080, \"protected_two_normal_form\": 9520, \"unit_clear\": 28560, \"unit_two\": 36720, \"donor_two_clear\": 28560, \"donor_two_two\": 28560}, \"thresholds\": {\"stack\": 15, \"clear\": null}, \"critical\": 2}\r\n{\"graph\": \"C5\", \"counts\": {\"two_symmetry\": 32175, \"clear_reflection\": 32175, \"protected_two_normal_form\": 6435, \"unit_clear\": 25740, \"unit_two\": 40040, \"donor_two_clear\": 25740, \"donor_two_two\": 25740}, \"thresholds\": {\"stack\": 8, \"clear\": 10}, \"critical\": 15}\r\n{\"graph\": \"triangle_tail2\", \"counts\": {\"two_symmetry\": 1328250, \"clear_reflection\": 1328250, \"protected_two_normal_form\": 265650, \"unit_clear\": 1062600, \"unit_two\": 1315600, \"donor_two_clear\": 1062600, \"donor_two_two\": 1062600}, \"thresholds\": {\"stack\": 16, \"clear\": 22}, \"critical\": 2}\r\n{\"graph\": \"F2\", \"counts\": {\"two_symmetry\": 109200, \"clear_reflection\": 109200, \"protected_two_normal_form\": 21840, \"unit_clear\": 87360, \"unit_two\": 123760, \"donor_two_clear\": 87360, \"donor_two_two\": 87360}, \"thresholds\": {\"stack\": 11, \"clear\": 13}, \"critical\": 10}\r\n{\"graph\": \"bowtie\", \"counts\": {\"two_symmetry\": 11550, \"clear_reflection\": 11550, \"protected_two_normal_form\": 2310, \"unit_clear\": 9240, \"unit_two\": 15840, \"donor_two_clear\": 9240, \"donor_two_two\": 9240}, \"thresholds\": {\"stack\": 8, \"clear\": 8}, \"critical\": 8}\r\n{\"graph\": \"diamond\", \"counts\": {\"two_symmetry\": 2016, \"clear_reflection\": 2016, \"protected_two_normal_form\": 504, \"unit_clear\": 1512, \"unit_two\": 2520, \"donor_two_clear\": 1512, \"donor_two_two\": 1512}, \"thresholds\": {\"stack\": 7, \"clear\": 7}, \"critical\": 6}\r\n{\"graph\": \"triangular_prism\", \"counts\": {\"two_symmetry\": 668304, \"clear_reflection\": 668304, \"protected_two_normal_form\": 111384, \"unit_clear\": 556920, \"unit_two\": 813960, \"donor_two_clear\": 556920, \"donor_two_two\": 556920}, \"thresholds\": {\"stack\": 8, \"clear\": 8}, \"critical\": 12}\r\n{\"graph\": \"bridged_triangles\", \"counts\": {\"two_symmetry\": 668304, \"clear_reflection\": 668304, \"protected_two_normal_form\": 111384, \"unit_clear\": 556920, \"unit_two\": 813960, \"donor_two_clear\": 556920, \"donor_two_two\": 556920}, \"thresholds\": {\"stack\": 12, \"clear\": 12}, \"critical\": 8}\r\n{\"graphs\": 10, \"configurations\": 175359, \"traces\": 714, \"moves\": 5484, \"closures\": 69}\r\n",
+    "stderr": "",
+    "code_sha256": "c334a5e16f06c5edd5c6301ba46441247926d3216b44a2e751f4d4ebb9820319"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s012_reciprocity_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 67.03099999998813,
+    "peak_working_set_bytes": 98709504,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 10, \"configurations\": 175359, \"relations\": 16394311, \"literal_traces\": 714, \"literal_moves\": 5484, \"complete_negative_closures\": 69, \"all_full_masks_and_relations_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "9ed4c16c0c9973008277a8dc481175661ef67c925403243d377d8b0a0084b99a"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s012_escape.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40700000000651926,
+    "peak_working_set_bytes": 81514496,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S012-02\", \"one_step_barriers\": 435, \"critical\": [{\"graph\": \"K3\", \"c\": [0, 0, 3], \"R3\": 4, \"gap\": 0, \"tau\": 1, \"states\": 3, \"forbidden_moves\": 2}, {\"graph\": \"K3\", \"c\": [0, 3, 0], \"R3\": 2, \"gap\": 0, \"tau\": 1, \"states\": 3, \"forbidden_moves\": 2}, {\"graph\": \"K3\", \"c\": [3, 0, 0], \"R3\": 1, \"gap\": 0, \"tau\": 1, \"states\": 3, \"forbidden_moves\": 2}, {\"graph\": \"C5\", \"c\": [0, 0, 0, 0, 9], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 51, \"forbidden_moves\": 24}, {\"graph\": \"C5\", \"c\": [0, 0, 0, 9, 0], \"R3\": 28, \"gap\": 2, \"tau\": 3, \"states\": 51, \"forbidden_moves\": 24}, {\"graph\": \"C5\", \"c\": [0, 0, 9, 0, 0], \"R3\": 14, \"gap\": 2, \"tau\": 3, \"states\": 51, \"forbidden_moves\": 24}, {\"graph\": \"C5\", \"c\": [0, 9, 0, 0, 0], \"R3\": 7, \"gap\": 2, \"tau\": 3, \"states\": 51, \"forbidden_moves\": 24}, {\"graph\": \"C5\", \"c\": [9, 0, 0, 0, 0], \"R3\": 19, \"gap\": 2, \"tau\": 3, \"states\": 51, \"forbidden_moves\": 24}, {\"graph\": \"triangle_tail2\", \"c\": [0, 0, 0, 0, 21], \"R3\": 25, \"gap\": 6, \"tau\": 7, \"states\": 227, \"forbidden_moves\": 126}, {\"graph\": \"F2\", \"c\": [0, 0, 0, 1, 11], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 89, \"forbidden_moves\": 64}, {\"graph\": \"F2\", \"c\": [0, 0, 0, 3, 9], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 120, \"forbidden_moves\": 84}, {\"graph\": \"F2\", \"c\": [0, 0, 0, 5, 7], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 134, \"forbidden_moves\": 90}, {\"graph\": \"F2\", \"c\": [0, 0, 0, 7, 5], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 134, \"forbidden_moves\": 90}, {\"graph\": \"F2\", \"c\": [0, 0, 0, 9, 3], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 120, \"forbidden_moves\": 84}, {\"graph\": \"F2\", \"c\": [0, 0, 0, 11, 1], \"R3\": 25, \"gap\": 2, \"tau\": 3, \"states\": 89, \"forbidden_moves\": 64}], \"fuel_witnesses\": 78, \"fuel_moves\": 338}\r\n",
+    "stderr": "",
+    "code_sha256": "244a1a211293817539e48294c53ca6fee75e90cd22880d7f7eb1cd075fe2f359"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s012_escape_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.5149999999994179,
+    "peak_working_set_bytes": 101539840,
+    "resource_failure": null,
+    "stdout": "{\"one_step_barriers\": 435, \"critical_inputs\": 15, \"complete_closure_states\": 1177, \"fuel_witnesses\": 78, \"literal_moves\": 338, \"finite_tau\": 15, \"no_escape_after_complete_closure\": 0, \"all_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "9ad18652333126197627eebe659ecd447a1025983eae4e44d6702d0c795dbe39"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s012_exceptions.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40600000000267755,
+    "peak_working_set_bytes": 81653760,
+    "resource_failure": null,
+    "stdout": "{\"pairs\": 42, \"increasing_losing_transfers\": 4, \"literal_traces\": 18, \"literal_moves\": 116, \"global_extrema\": 18, \"nonAS_global_Qmax\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "492fef86a38a350b4b902a1e97879035a634fd7fa9361dc120e65645d1488181"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s012_exceptions_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.6100000000005821,
+    "peak_working_set_bytes": 30683136,
+    "resource_failure": null,
+    "stdout": "{\"pairs\": 42, \"increasing_losing_transfers\": 4, \"literal_traces\": 18, \"literal_moves\": 116, \"complete_negative_closures\": 26, \"negative_closure_states\": 1177, \"global_extrema\": 18, \"nonAS_global_Qmax\": 0, \"all_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "1c8371c7a7b10d8d7d0c96c7aa2f44b456592a0d5b6444b2e9213b54b2769572"
+  }
+]

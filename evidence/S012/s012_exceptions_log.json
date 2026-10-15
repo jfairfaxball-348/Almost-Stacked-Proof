@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s012_exceptions.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.40700000000651926,
+  "peak_working_set_bytes": 81494016,
+  "resource_failure": null,
+  "stdout": "{\"pairs\": 42, \"increasing_losing_transfers\": 4, \"literal_traces\": 18, \"literal_moves\": 116, \"global_extrema\": 18, \"nonAS_global_Qmax\": 0}\r\n",
+  "stderr": "",
+  "code_sha256": "492fef86a38a350b4b902a1e97879035a634fd7fa9361dc120e65645d1488181"
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-15T07:49:50.024779+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "files": {
+    "sessions/S012/PLAN_AMENDMENT_4.md": "10ed279e2e3943246529121f685d1866ec43ebad6e817bf2b2ac22a2e9494fc8",
+    "tools/s012_escape.py": "244a1a211293817539e48294c53ca6fee75e90cd22880d7f7eb1cd075fe2f359",
+    "tools/s012_escape_verify.py": "9ad18652333126197627eebe659ecd447a1025983eae4e44d6702d0c795dbe39",
+    "evidence/S012/analysis.json": "86406281f4bf01b196c33fc3edc44cd47b7482a3424907b177304617c6293ad9",
+    "evidence/S012/extra_tables.json.xz": "2c3b3b72af81aa38f4a1c916cd19ca3911b5480e31ad62a28a7190a1507654c7",
+    "evidence/S011/tree_tables.json.xz": "3b9226280ba4690ab568520a79b3322b2890e4583192618196c261a258027576"
+  }
+}

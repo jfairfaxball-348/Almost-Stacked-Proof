@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "ca4aad7abf25d396eed16c6e3d89179ea6215b60",
+    "node_id": "C_kwDOVF-kW9oAKGNhNGFhZDdhYmYyNWQzOTZlZWQxNmM2ZTNkODkxNzllYTYyMTViNjA",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/ca4aad7abf25d396eed16c6e3d89179ea6215b60",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/ca4aad7abf25d396eed16c6e3d89179ea6215b60",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T07:21:42Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-15T07:21:42Z"
+    },
+    "tree": {
+      "sha": "a9cb765956c74eac52e03666ccb43a7684222f0d",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/a9cb765956c74eac52e03666ccb43a7684222f0d"
+    },
+    "message": "Merge S011: exact terminal transport and critical root restrictions\n\nS011: exact terminal transport and critical root restrictions; universal STACK/CLEAR remain OPEN.",
+    "parents": [
+      {
+        "sha": "6f0d63b023daa5b3424b2ef166e25786f477332a",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/6f0d63b023daa5b3424b2ef166e25786f477332a",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/6f0d63b023daa5b3424b2ef166e25786f477332a"
+      },
+      {
+        "sha": "42961f1099f9389c32c26ea6a2d1fdacce3646b0",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/42961f1099f9389c32c26ea6a2d1fdacce3646b0",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/42961f1099f9389c32c26ea6a2d1fdacce3646b0"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0H8GCRC1aQ7uu5UhlAAASuIQAJmqCIuTV/2EUwjuXX2UgVRJ\nbwxDxUuNi7BFcfF5+Fh20sh+xWhgMoBJEBLItJztn2Z1k3610A4dPdbMtXOx4cbU\nEFAzN8Lu8XIqITT9jjxZNB89QvjhtpG7ixQeOVrUMWX0LC0O9HAsscpewHE5kEUw\nrvQXod3NUJTYvEfdN0PsZufNyNJh+g2FftTVRWej6ZbfZWJ4fbO0sw3p4bV/SUaG\n0+1Ou/rax6V7mJL3qPsuayY0Fn2YyFL+RuVOF9iNLlUUiDSCu49PNGPfY5f5kd1D\nUpId/oMsyJ+I6KqBkRKP7TZ3iyheM69PtGtxaTTVF8gU0NJH0/KoC+VVbEOdzV0T\nkkBvpuKjLMU3Ew/cD8oK4qXp/bASKns/R/5TqM0SzxBofWmCyYNslkBqGZHT/NbH\nhYjYKXQY31p/kTj6Xxal9Z+8PrIkA2XgRF6kc7JhrsHXFxF7p1MS2TnSRrftThF+\nCPbBY+vbuJMl9rK6dFkEeiKoETCwyVw/J7yTdljvSPCa3oF5+dtyVgdoZBNggVRQ\nKi8U9M9kv3rIfM2fgVayd2YkZgHinCD/vSAUEbARH65fSXpdqCcGP923LN0oWWeh\nMJZl98A/NfS85LkNHoNkuPXxUulY5G3wISep7Kk48oicSLL1zgwbuKYUZWDNrk4h\npU9rIhhE56rfVjvwG/nU\n=ZIqP\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree a9cb765956c74eac52e03666ccb43a7684222f0d\nparent 6f0d63b023daa5b3424b2ef166e25786f477332a\nparent 42961f1099f9389c32c26ea6a2d1fdacce3646b0\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792048902 +0100\ncommitter GitHub <noreply@github.com> 1792048902 +0100\n\nMerge S011: exact terminal transport and critical root restrictions\n\nS011: exact terminal transport and critical root restrictions; universal STACK/CLEAR remain OPEN.",
+      "verified_at": "2026-10-15T07:21:43Z"
+    }
+  },
+  "stderr": ""
+}

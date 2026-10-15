@@ -1,0 +1,25 @@
+{
+  "prior_head_main_jobs": {
+    "main": {
+      "actual_jobs": 5,
+      "conclusions": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    },
+    "head": {
+      "actual_jobs": 5,
+      "conclusions": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    }
+  },
+  "all_selected_pdf_digests_unchanged": true
+}

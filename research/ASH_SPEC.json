@@ -404,7 +404,7 @@
     "universal_stack": "OPEN",
     "universal_clear": "OPEN",
     "cold_s010_audit": "PASS_S011_AT_STATED_SCOPES",
-    "cold_new_proofs": "FUTURE_S012",
+    "cold_new_proofs": "PASS_S012_AT_STATED_SCOPES",
     "formal_status": "NOT_STARTED",
     "novelty": "KNOWN_PRIMITIVES_QUALIFIED_EXACT_REFINEMENTS_NO_WORLDWIDE_PRIORITY",
     "exact_terminal_transport": "PROGRAMME_PROVED nonempty arbitrary final forest;3-root/any-used-edge exposure;donor1/2 conditional terminal transport",
@@ -430,6 +430,50 @@
       "stackable_critical_clear": 15,
       "symmetry": "none",
       "new_threshold_claims": 0,
+      "inherited_cutoffs_unchanged": true
+    }
+  },
+  "s012": {
+    "research": "research/S012_UNIVERSAL_RESEARCH.md",
+    "prior_art": "research/S012_PRIMARY_AND_DEPENDENCY_COMPARISON.md",
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "cold_s011_audit": "PASS_S012_AT_STATED_SCOPES",
+    "cold_new_proofs": "FUTURE_S013",
+    "formal_status": "NOT_STARTED",
+    "novelty": "KNOWN_PRIMITIVES_QUALIFIED_EXACT_REFINEMENTS_EQUIVALENCE_UNRESOLVED",
+    "reciprocity": "PROGRAMME_PROVED marked-input k1/2 equivalence, symmetric actual TWO insertions, protected first move with zero bit, occurrence permutation; no AS-selection/gluing theorem",
+    "donor_languages": "PROGRAMME_PROVED four exact unit/double donor root identities; unrooted root availability OPEN",
+    "clear_barriers": "PROGRAMME_PROVED originalR3/triangular-edge whole-history escape, exact fuel bounds and componentwise conditional AS at gap>=2; gap1 OPEN",
+    "finite_verification": {
+      "configurations": 175359,
+      "exact_relations": 16394311,
+      "root_traces": 714,
+      "root_moves": 5484,
+      "critical_negative_closures": 69,
+      "one_step_escape_barriers": 435,
+      "escape_critical_inputs": 15,
+      "escape_closure_states": 1177,
+      "fuel_witnesses": 78,
+      "fuel_moves": 338,
+      "transfers": 42,
+      "donor_traces": 18,
+      "donor_moves": 116,
+      "control_negative_closures": 26,
+      "control_closure_states": 1177,
+      "global_Q_cases": 18,
+      "nonAS_Qmax": 0,
+      "new_fixed_graph_thresholds": {
+        "triangular_prism": {
+          "stack": 8,
+          "clear": 8
+        },
+        "bridged_triangles": {
+          "stack": 12,
+          "clear": 12
+        }
+      },
+      "symmetry": "none",
       "inherited_cutoffs_unchanged": true
     }
   }

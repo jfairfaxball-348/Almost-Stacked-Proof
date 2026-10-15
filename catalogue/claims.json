@@ -856,7 +856,7 @@
       "SRC-0041",
       "SRC-0036"
     ],
-    "cold_audit": "FUTURE_S012",
+    "cold_audit": "PASS_S012_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
   },
   {
@@ -867,7 +867,7 @@
       "SRC-0041",
       "SRC-0036"
     ],
-    "cold_audit": "FUTURE_S012",
+    "cold_audit": "PASS_S012_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
   },
   {
@@ -878,7 +878,7 @@
       "SRC-0041",
       "SRC-0001"
     ],
-    "cold_audit": "FUTURE_S012",
+    "cold_audit": "PASS_S012_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
   },
   {
@@ -889,7 +889,7 @@
       "SRC-0041",
       "SRC-0002"
     ],
-    "cold_audit": "FUTURE_S012",
+    "cold_audit": "PASS_S012_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
   },
   {
@@ -900,7 +900,7 @@
       "SRC-0041",
       "SRC-0036"
     ],
-    "cold_audit": "FUTURE_S012",
+    "cold_audit": "PASS_S012_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
   },
   {
@@ -911,7 +911,7 @@
       "SRC-0041",
       "SRC-0001"
     ],
-    "cold_audit": "FUTURE_S012",
+    "cold_audit": "PASS_S012_AT_STATED_SCOPES",
     "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
   },
   {
@@ -937,5 +937,110 @@
     "sources": [
       "SRC-0043"
     ]
+  },
+  {
+    "id": "CLM-0103",
+    "status": "COMPUTED_EXACT",
+    "claim": "S012 cold challenge S01153-58 and needed dependencies survives stated scopes;12 unchanged check-only replays and S003-S011 frozen manifests pass. Fresh local audit/replay is not human/kernel certification.",
+    "sources": [
+      "SRC-0044",
+      "SRC-0046"
+    ]
+  },
+  {
+    "id": "CLM-0104",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01259 exact marked-input reciprocity x->kq iff x-e_w+(3-k)e_q->2w, x(w)>=1,k1/2; SAME-base TWO insertion D is symmetric, critical STACK D loopless/nonempty. No AS selection.",
+    "sources": [
+      "SRC-0044"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0105",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01259a for NONZERO c exact R2(c+2q)=union over z~q R2(c+z), realized by moving the TWO inserted q tokens first. c=0 has separate terminal{q}. Initial omitted zero bit corrected, failed run retained.",
+    "sources": [
+      "SRC-0044"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0106",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01260 exact unit/double donor languages: d1->1s iff c+s->2t;d1->2s iff c->2t;d2->1s iff c->1t;d2->2s iff c-s->1t. No adjacency needed for these ROOTED identities; no unrooted donor availability.",
+    "sources": [
+      "SRC-0044"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0107",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01261 stackable CLEAR-loser history using ambient triangular edge or landing outside ORIGINAL R3 immediately becomes nonstackable. At criticality gap<=shortest forbidden length; gap1 allowed first move lands at critical STACK loser.",
+    "sources": [
+      "SRC-0044",
+      "SRC-0001"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0108",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01261a exact partial path fuel bounds gap<=2^(d+1)-1 toward triangular site or2^d-1 outside originalR3 under stated source-fuel hypotheses;61b if gap>=2 and each triangle-edge-deleted component has<=1 nontriangular vertex, EVERY critical CLEAR loser is AS. Gap1/general target OPEN.",
+    "sources": [
+      "SRC-0044",
+      "SRC-0001"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0109",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01262 for base b and nonempty LIST l_i with repeated labels allowed, exact predicate b+sum_{j!=i}e_lj->2l_i is independent of distinguished index. Fixed-graph occurrence symmetry, NOT threshold/AS-preserving gluing.",
+    "sources": [
+      "SRC-0044"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
+  },
+  {
+    "id": "CLM-0110",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S012-01 ten fixed boxes/175359 full configurations/16394311 exact relations;714 traces/5484 moves/69 full critical negative closures. Fixed triangular prism stack=clear8 and bridged_triangles12 through mass14, both independently full-mask checked; no atlas/universal claim.",
+    "sources": [
+      "SRC-0046"
+    ]
+  },
+  {
+    "id": "CLM-0111",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S012-02 all435 one-step barriers/15 critical inputs/1177 closure states/78 partial-fuel witnesses/338 moves. BFS/full-DAG exact tau agree; C5/F2 tau3>gap2 and triangle_tail2 tau7>gap6, no equality inferred.",
+    "sources": [
+      "SRC-0046"
+    ]
+  },
+  {
+    "id": "CLM-0112",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S012-03 all42 concentrating transfers,18 donor traces/116 moves,26 complete control negative closures/1177 states and18 whole-layer extrema.4 transfers lose/38 win; actual critical C5 unit donor CLEAR but double wins at OTHER roots, no double donor TWO in this sample. All bounded Q maxima AS, not universal.",
+    "sources": [
+      "SRC-0046"
+    ]
+  },
+  {
+    "id": "CLM-0113",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01259b assigned abstract C6 matching D01,23,45 satisfies actual-style symmetry/typing/self-root rules but empty common STACK intersection. NOT a graph/configuration realization; no ASH* evidence.",
+    "sources": [
+      "SRC-0044"
+    ],
+    "cold_audit": "FUTURE_S013",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S012"
   }
 ]
