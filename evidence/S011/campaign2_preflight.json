@@ -1,0 +1,18 @@
+{
+  "execution": "NOT_YET_RUN",
+  "files": {
+    "sessions/S011/PLAN_AMENDMENT_2.md": "3a16dcc281108563ba32f6d13abe636aa08e0f395f3a7e610443c98fe2a5deb8",
+    "tools/s011_transport.py": "1920506752a54e2bafc11301dc1168f049482b1064f1e616c9d5eebffcdd40f3",
+    "tools/s011_transport_verify.py": "7789a7a4dfad953d4976f098cea893015a8080a2c2171dcca08da8e6f3d366fd",
+    "tools/s011_run.py": "cb180bf8ac4b4fc6e43cb2c8170bc7ca03dfc04e729222ea2d19a1243787e8d6",
+    "evidence/S010/count_traces.json.xz": "ff35b7ade0ab9c6f1457d1756e87e4496afa6d7110ee6410fe032d3b761a8890",
+    "evidence/S011/tree_tables.json.xz": "3b9226280ba4690ab568520a79b3322b2890e4583192618196c261a258027576",
+    "evidence/S011/tree_summary.json": "77eeaf166f4a4eaf0424b88e0e7e7974d2ca8af18668e9a9a9e89e956561f33e",
+    "evidence/S011/environment.json": "a2ece8b2feeff185bbc01b21ffd06d8c8970ab233465d201a5e748ee9e1369f9"
+  },
+  "limits": {
+    "seconds_each": 600,
+    "states_per_layer": 300000,
+    "peak_bytes": 2147483648
+  }
+}

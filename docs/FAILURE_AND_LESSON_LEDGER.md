@@ -69,3 +69,7 @@ Closeout administrative correction: implicit Windows cp1252 reads failed on UTF-
 | FL-0055 | Draft K2 analysis stopped at intermediate2e1 and falsely rejected root0 | (2,1)->(0,2)->(1,0), corrected before acceptance, full tables retained |
 | FL-0056 | Critical one-insertion TREE theorem mistaken for three-mark repair or CLEAR-stackable result | 50/51 exact hypotheses, roots/support/full reconstruction obligations retained |
 | FL-0057 | Finite exact description mistaken for constant-scalar extremal proof |45 both-direction predicates proved, graph-dependent size/max-hole gap explicit |
+
+## S011 retained failures and missing implications
+
+Bipartite common CLEAR insertion root is impossible universally (signed0 plus singleton part). Dropping criticality produces884 occupied self-root failures in each goal in the registered box. C5 c=(1,1,1,2,2) and(4,1,1,1,1) have all3 roots but cannot clear; the latter has an actual whole odd-cycle3-certificate, so non-bipartite support is insufficient. Abstract C5 typed/self-root sets need not have common STACK root; they are not graph-realized counterexamples. Small-transfer a2,k2 leaves(1,1), and nonadjacent two-output paths cannot be treated as K2. None refutes ASH*. Invocation extractor initially assumed absent event_msg user records; repaired to read actual response_item text. A temporary primary-text console display hit Windows encoding; UTF-8 display repaired, source bytes unchanged. No mathematical campaign implementation/resource failure. Full logs/limits retained.

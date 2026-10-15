@@ -1,0 +1,61 @@
+{
+  "campaign": "CAM-S011-01",
+  "all_verified": true,
+  "graphs": [
+    {
+      "graph": "K2",
+      "layers": 4,
+      "configurations": 10,
+      "literal_deletion_count": 2
+    },
+    {
+      "graph": "K3",
+      "layers": 5,
+      "configurations": 35,
+      "literal_deletion_count": 3
+    },
+    {
+      "graph": "P4",
+      "layers": 16,
+      "configurations": 3876,
+      "literal_deletion_count": 3770
+    },
+    {
+      "graph": "C5",
+      "layers": 11,
+      "configurations": 3003,
+      "literal_deletion_count": 225
+    },
+    {
+      "graph": "triangle_tail2",
+      "layers": 23,
+      "configurations": 80730,
+      "literal_deletion_count": 260
+    },
+    {
+      "graph": "F2",
+      "layers": 14,
+      "configurations": 8568,
+      "literal_deletion_count": 149
+    },
+    {
+      "graph": "bowtie",
+      "layers": 9,
+      "configurations": 1287,
+      "literal_deletion_count": 5
+    },
+    {
+      "graph": "diamond",
+      "layers": 8,
+      "configurations": 330,
+      "literal_deletion_count": 4
+    }
+  ],
+  "layers": 90,
+  "configurations": 97839,
+  "literal_traces": 4883,
+  "literal_moves": 43286,
+  "trace_raw_sha256": "ee7646b73b86352c556b01c8a1fd1e4dbdfdf2c0f5589b643ce05fcec6908ad6",
+  "negative_closures": 15,
+  "negative_raw_sha256": "2057f31c232e739ade5157a8f85441c6d2de02bc223f2d9b2c314e9dab83b2d8"
+}

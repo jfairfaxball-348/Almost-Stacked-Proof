@@ -1,0 +1,17 @@
+{
+  "execution": "NOT_YET_RUN",
+  "files": {
+    "sessions/S011/PLAN_AMENDMENT_3.md": "7b176a9e33785205fb56bf0aafc2c35bc5bc3b1059227fc889ee42fbb66e61f1",
+    "tools/s011_root_types.py": "f70cf5cc5fc267ea3104318699dfc15654c8ffe434d81ccb570bc555af647aa5",
+    "tools/s011_root_types_verify.py": "b46a9288e76065b287db5243b1b7f7a173a0af51a2f836b2f982870948eb293c",
+    "tools/s011_run.py": "cb180bf8ac4b4fc6e43cb2c8170bc7ca03dfc04e729222ea2d19a1243787e8d6",
+    "evidence/S011/tree_tables.json.xz": "3b9226280ba4690ab568520a79b3322b2890e4583192618196c261a258027576",
+    "evidence/S011/tree_summary.json": "77eeaf166f4a4eaf0424b88e0e7e7974d2ca8af18668e9a9a9e89e956561f33e",
+    "evidence/S011/environment.json": "a2ece8b2feeff185bbc01b21ffd06d8c8970ab233465d201a5e748ee9e1369f9"
+  },
+  "limits": {
+    "seconds_each": 600,
+    "states_per_layer": 300000,
+    "peak_bytes": 2147483648
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s011_root_types.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.7189999999973224,
+  "peak_working_set_bytes": 60014592,
+  "resource_failure": null,
+  "stdout": "{\"checked_inputs\": 97798, \"critical_insertions\": 120, \"critical_clear_cases\": 23, \"abstract_intersection\": []}\r\n",
+  "stderr": "",
+  "code_sha256": "f70cf5cc5fc267ea3104318699dfc15654c8ffe434d81ccb570bc555af647aa5"
+}

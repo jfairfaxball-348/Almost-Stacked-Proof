@@ -721,7 +721,8 @@
       "SRC-0036",
       "SRC-0002"
     ],
-    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0082",
@@ -733,7 +734,8 @@
       "SRC-0037",
       "SRC-0034"
     ],
-    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0083",
@@ -743,7 +745,8 @@
       "SRC-0038",
       "SRC-0036"
     ],
-    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0084",
@@ -754,7 +757,8 @@
       "SRC-0036",
       "SRC-0001"
     ],
-    "originality_assessment": "EQUIVALENCE_UNRESOLVED_EXACT_REFINEMENT_S010"
+    "originality_assessment": "EQUIVALENCE_UNRESOLVED_EXACT_REFINEMENT_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0085",
@@ -765,7 +769,8 @@
       "SRC-0002",
       "SRC-0033"
     ],
-    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010"
+    "originality_assessment": "KNOWN_SPECIALISATION_OR_ELEMENTARY_CONSEQUENCE_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0086",
@@ -776,7 +781,8 @@
       "SRC-0002",
       "SRC-0036"
     ],
-    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010"
+    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0087",
@@ -786,7 +792,8 @@
       "SRC-0038",
       "SRC-0001"
     ],
-    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010"
+    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0088",
@@ -796,7 +803,8 @@
       "SRC-0038",
       "SRC-0002"
     ],
-    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010"
+    "originality_assessment": "POSSIBLE_NEW_EXACT_REFINEMENT_BOUNDED_COMPARISON_S010",
+    "cold_audit": "PASS_S011_AT_STATED_SCOPES"
   },
   {
     "id": "CLM-0089",
@@ -829,6 +837,105 @@
     "sources": [
       "SRC-0038",
       "SRC-0040"
+    ]
+  },
+  {
+    "id": "CLM-0093",
+    "status": "COMPUTED_EXACT",
+    "claim": "S011 cold challenge S01044-52 survives stated scopes; all25 unchanged check-only commands and historical manifests PASS. Fresh local review/replay is not independent human/kernel certification.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0043"
+    ]
+  },
+  {
+    "id": "CLM-0094",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01153 prescribed nonempty terminal vector f: exact count chronology iff c=f+2out-in and every used label reaches supp(f). Direct known reverse-grammar arbitrary-pending specialization; no rootless forest.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0036"
+    ],
+    "cold_audit": "FUTURE_S012",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
+  },
+  {
+    "id": "CLM-0095",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01154 a3-output certificate re-roots to EVERY used label by simple positive path reversal, including empty transit sites; ANY positive used edge can be exposed as exact terminal2u+2v with all inputs consumed.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0036"
+    ],
+    "cold_audit": "FUTURE_S012",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
+  },
+  {
+    "id": "CLM-0096",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01155/55a: stackable CLEAR loser has all occupied deletions reaching2 at their sites and every3-witness avoids ambient triangular edges. If clear>=stack+2, critical heavy sites lie on no triangle; if every vertex lies on a triangle, clear<=stack+1. With<=1 nontriangular vertex and gap>=2 ASH*-CLEAR follows conditionally. Gap1/general target open.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0001"
+    ],
+    "cold_audit": "FUTURE_S012",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
+  },
+  {
+    "id": "CLM-0097",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01156 bipartite critical STACK insertion CLEAR roots lie in the insertion part, hence common CLEAR root over ALL sites impossible, including non-AS inputs/empty sites. Common STACK roots remain separate; no bipartite CLEAR threshold.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0002"
+    ],
+    "cold_audit": "FUTURE_S012",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
+  },
+  {
+    "id": "CLM-0098",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01157 d=c-ae_s+ae_t reaching k at donor s gives c->(k+a-3)s+(3-a)t for a1/2,k+a>=3 via exact path reversal. Adjacent STACK criterion excludes a1k1 and a2k2; donor2/changing terminal types handled conditionally, unrooted root coverage open.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0036"
+    ],
+    "cold_audit": "FUTURE_S012",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
+  },
+  {
+    "id": "CLM-0099",
+    "status": "PROGRAMME_PROVED",
+    "claim": "S01158 mass>=2 exact CLEAR roots=N(exactTWO roots), STACK roots=R1 unionR2 unionR3. Winning STACK-loser insertion has nonempty D_w=R2 excluding w,R3 empty,C_w=N(D_w),S_w=D_w unionC_w. Actual input compatibility not encoded by assigned root sets.",
+    "sources": [
+      "SRC-0041",
+      "SRC-0001"
+    ],
+    "cold_audit": "FUTURE_S012",
+    "originality_assessment": "KNOWN_PRIMITIVES_EXACT_REFINEMENT_EQUIVALENCE_UNRESOLVED_S011"
+  },
+  {
+    "id": "CLM-0100",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S011-01 all90 layers/97839 explicit inputs;3416 winning insertions/4418 occupied deletions;4883 literal traces/43286 moves/15 selected negative closures.884 noncritical own-root failures each goal,3 critical common CLEAR root failures,10 C5 nonbipartiteR3 CLEAR losers; no ASH* failure.",
+    "sources": [
+      "SRC-0043"
+    ]
+  },
+  {
+    "id": "CLM-0101",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S011-02 all116401 exact terminal transport certificates/507217 moves,65164 adjacent pair checks/6978 exceptional(1,1) outcomes,24894 triangle repairs/12 critical CLEAR cuts. Actual C5 odd-cycle3-support c=(4,1,1,1,1) has70-state closed CLEAR-negative reachability and all3 roots. Not critical ASH* failure.",
+    "sources": [
+      "SRC-0043"
+    ]
+  },
+  {
+    "id": "CLM-0102",
+    "status": "COMPUTED_EXACT",
+    "claim": "CAM-S011-03 all97798 mass>=2 root identities/120 critical STACK insertion root families/23 critical CLEAR cases(15 stackable)/10 bipartite checks. Explicit abstract C5 typed/self-root family has empty common STACK intersection, NOT claimed graph/configuration realization.",
+    "sources": [
+      "SRC-0043"
     ]
   }
 ]
