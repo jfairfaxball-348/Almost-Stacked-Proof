@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
+  "session": "S013",
+  "status": "FUTURE_UNEXECUTED",
+  "date": "2026-10-15",
+  "base_main": "1505c1b8437973aa23bd09b6040a3ad39852f311",
+  "prior_prompt": "sessions/S012/FUTURE_S013.md",
+  "prior_sha256": "7a838a48e31ca543a0a24078958bf57d5c9e951070494bcb4c39bd19686e566c",
+  "current_prompt": "authoritative/handoffs/S013_OWNER_REVISED_2026-10-15.md",
+  "current_sha256": "f35d2e0b68f40fe36d92412ee12b5a923837a3e63f0ce1e0b90b3fc5c0834b84",
+  "owner_request": "authoritative/handoffs/S013_OWNER_REQUEST_2026-10-15.txt",
+  "owner_request_sha256": "27cdf779daa513e9b36a99ca138855d53bf65d073981f5c6f23cca11b7b933fe",
+  "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S012 immutable files preserved.",
+  "closeout_addendum_for": "sessions/S012/CLOSEOUT.md"
+}
