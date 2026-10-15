@@ -1,0 +1,39 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "243e563aa2b17042409833002b520165fdc3b69f",
+    "node_id": "C_kwDOVF-kW9oAKDI0M2U1NjNhYTJiMTcwNDI0MDk4MzMwMDJiNTIwMTY1ZmRjM2I2OWY",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/243e563aa2b17042409833002b520165fdc3b69f",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/243e563aa2b17042409833002b520165fdc3b69f",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T22:38:16Z"
+    },
+    "committer": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T22:38:16Z"
+    },
+    "tree": {
+      "sha": "36f4bf59f91afcb2753fa58725d02c772b5c8522",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/36f4bf59f91afcb2753fa58725d02c772b5c8522"
+    },
+    "message": "S010: derive critical insertion trees and exact cyclic reconstruction",
+    "parents": [
+      {
+        "sha": "a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/a1a38d79003a7081b8e14b59003d4d4641fb05fb"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "stderr": ""
+}

@@ -1,0 +1,203 @@
+{
+  "campaign": "CAM-S011-02",
+  "certificates": 116401,
+  "per_graph": {
+    "K2": 202,
+    "P3": 1387,
+    "K3": 7404,
+    "triangle_leaf": 15537,
+    "bowtie": 50615,
+    "diamond": 41244,
+    "C5": 12
+  },
+  "roots": 25278,
+  "edges": 25959,
+  "exchanges": 65164,
+  "table_raw_sha256": "0016a5ebfd607566d6e3b9ba0bf43601bebace613dfe85a4fb22868d601e550a",
+  "critical_clear_cuts": [
+    {
+      "graph": "C5",
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        9
+      ],
+      "triangular_vertices": []
+    },
+    {
+      "graph": "C5",
+      "c": [
+        0,
+        0,
+        0,
+        9,
+        0
+      ],
+      "triangular_vertices": []
+    },
+    {
+      "graph": "C5",
+      "c": [
+        0,
+        0,
+        9,
+        0,
+        0
+      ],
+      "triangular_vertices": []
+    },
+    {
+      "graph": "C5",
+      "c": [
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "triangular_vertices": []
+    },
+    {
+      "graph": "C5",
+      "c": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "triangular_vertices": []
+    },
+    {
+      "graph": "triangle_tail2",
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        21
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "graph": "F2",
+      "c": [
+        0,
+        0,
+        0,
+        1,
+        11
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "graph": "F2",
+      "c": [
+        0,
+        0,
+        0,
+        3,
+        9
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "graph": "F2",
+      "c": [
+        0,
+        0,
+        0,
+        5,
+        7
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "graph": "F2",
+      "c": [
+        0,
+        0,
+        0,
+        7,
+        5
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "graph": "F2",
+      "c": [
+        0,
+        0,
+        0,
+        9,
+        3
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "graph": "F2",
+      "c": [
+        0,
+        0,
+        0,
+        11,
+        1
+      ],
+      "triangular_vertices": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "explicit_C5": {
+    "graph": "C5",
+    "c": [
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "m": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "q": 0,
+    "k": 3
+  }
+}

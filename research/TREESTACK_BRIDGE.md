@@ -32,3 +32,7 @@ arXiv2609.31811 now lists v1/v2. Currentv2 digest79f1d8e4ea707206e72fce3e43fabcf
 ## S010 boundary
 
 Currentv2 unchanged; earlier nontrivial-tree equality/registered package credited, no build/registration. Generic grammar/ancestry primitives attributed; exact cyclic cancellation/selected-cost equivalence scoped/unresolved, no rediscovery or universal substitution.
+
+## S011 boundary
+
+TreeStack currentv2 digest unchanged and earlier nontrivial-tree equality/registered package credited; no Lean/registry build. Known exact ancestry/scheduling/last-move/+3 primitives remain prior. S011 exact terminal/cyclic transport is not a new tree estimator or universal ASH* proof. Precise equivalence uncertainty remains in the S011 primary report.

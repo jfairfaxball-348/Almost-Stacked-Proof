@@ -58,3 +58,7 @@
 | 2026-10-14 S010 | Reconcile actual S009 head/merge/jobs and expanded invocation, plan hashed first, historical frozen indexes unchanged | entry/INPUT/PLAN/AUDIT | PASS |
 | 2026-10-14 S010 | Exact reverse grammar counts/finite ports/cuts/quotients, then full reflection/critical insertion trees/zero-I extension | 44-52 and three registered campaigns | PROGRAMME_PROVED scoped, universal OPEN |
 | 2026-10-14 S010 | Keep CLEAR stackable critical losers and roots/donor2/three-mark bridge separate; S011 future only | MILESTONES/FUTURE_S011 | No gate/final-stage advance |
+
+| 2026-10-15 S011 | Preserve exact terminal roots/piles: bipartite common CLEAR root impossible, assigned typed root masks insufficient; donor1/2 reconstruction remains conditional on root/pile and actual input compatibility | S01153-58, AUDIT/MILESTONES | Universal ASH* OPEN; no gate advance |
+| 2026-10-15 S011 | CLEAR stackable extremizers use deletion-to2/triangle-free3-witness and gap>=2 heavy-site restrictions; never import51 or solve gap1 by dropping its hypothesis | S01155/55a | Conditional tools only |
+| 2026-10-15 S011 | Actual invocation/hashed bounded plans and three exact precision campaigns; historical hashes/cutoffs unchanged; complete S012 strictly future | S011 INPUT/PLAN/CLOSEOUT | Stop before S012/final stages |

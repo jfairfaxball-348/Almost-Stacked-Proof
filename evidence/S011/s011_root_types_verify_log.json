@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s011_root_types_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 1.7030000000086147,
+  "peak_working_set_bytes": 315318272,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S011-03\", \"all_verified\": true, \"checked_inputs\": 97798, \"critical_insertions\": 120, \"critical_clear_cases\": 23, \"bipartite_insertion_checks\": 10, \"already_stackable_critical_clear\": 15, \"result_sha256\": \"a0ea5a5632cd5a991cf97cf4ba7e0eb43e300688ad25f4dc47c1e4c82c87320a\"}\r\n",
+  "stderr": "",
+  "code_sha256": "b46a9288e76065b287db5243b1b7f7a173a0af51a2f836b2f982870948eb293c"
+}

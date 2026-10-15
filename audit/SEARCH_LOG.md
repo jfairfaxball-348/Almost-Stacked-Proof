@@ -49,3 +49,7 @@ Full dated queries, per-SRC access/theorem/page comparisons and every substantia
 ## S010 — 2026-10-14
 
 Full dated primary queries/page/access/dependency comparisons in S010_PRIMARY_AND_DEPENDENCY_COMPARISON.md. Known original grammar/Parikh proofs inspected before use, prior primary versions unchanged, Chung selected web proof improves access but direct403/equivalence/Moews/Pachter limits retained. Three prior-hashed proof-driven campaigns; no copyright mirror/priority/contact or old cutoff expansion.
+
+## S011 - 2026-10-15
+
+Current primary Aprilv1/Octoberv1/TreeStackv2/grammarv3/Parikh selected digests refreshed unchanged, original ordering/collapse and source signed3/ancestry/triangle repair/monotonicity checked at stated scopes. Dated targeted queries and exact-result comparisons in research/S011_PRIMARY_AND_DEPENDENCY_COMPARISON.md; qualified refinements/equivalence only, no worldwide priority. Three separately prior-hashed precision campaigns, no atlas/old-cutoff expansion. No contact/final action.

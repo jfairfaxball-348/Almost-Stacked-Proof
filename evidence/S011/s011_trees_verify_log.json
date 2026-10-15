@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s011_trees_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 1.2039999999979045,
+  "peak_working_set_bytes": 97116160,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S011-01\", \"all_verified\": true, \"layers\": 90, \"configurations\": 97839, \"literal_traces\": 4883, \"literal_moves\": 43286, \"trace_raw_sha256\": \"ee7646b73b86352c556b01c8a1fd1e4dbdfdf2c0f5589b643ce05fcec6908ad6\", \"negative_closures\": 15, \"negative_raw_sha256\": \"2057f31c232e739ade5157a8f85441c6d2de02bc223f2d9b2c314e9dab83b2d8\"}\r\n",
+  "stderr": "",
+  "code_sha256": "310549f07180c7fd4c7ad4aec0d30338c45ccca5a17739506d19607ebfc77097"
+}

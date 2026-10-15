@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "6f0d63b023daa5b3424b2ef166e25786f477332a",
+    "node_id": "C_kwDOVF-kW9oAKDZmMGQ2M2IwMjNkYWE1YjM0MjRiMmVmMTY2ZTI1Nzg2ZjQ3NzMzMmE",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/6f0d63b023daa5b3424b2ef166e25786f477332a",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/6f0d63b023daa5b3424b2ef166e25786f477332a",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-14T22:44:08Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T22:44:08Z"
+    },
+    "tree": {
+      "sha": "36f4bf59f91afcb2753fa58725d02c772b5c8522",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/36f4bf59f91afcb2753fa58725d02c772b5c8522"
+    },
+    "message": "Merge S010: critical insertion trees and exact cyclic reconstruction\n\nS010: critical insertion trees and exact cyclic reconstruction",
+    "parents": [
+      {
+        "sha": "a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/a1a38d79003a7081b8e14b59003d4d4641fb05fb",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/a1a38d79003a7081b8e14b59003d4d4641fb05fb"
+      },
+      {
+        "sha": "243e563aa2b17042409833002b520165fdc3b69f",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/243e563aa2b17042409833002b520165fdc3b69f",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/243e563aa2b17042409833002b520165fdc3b69f"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0AW4CRC1aQ7uu5UhlAAAPwMQAJuhlYS3DGXHqsKc/57SYuLx\nrNtNyaH9U5ddhFvQj5HHllNkPngQ0T9WJWn91kU2yWlyKGwbIwKwSszC0ImVEPie\nxvVHojzW1pfqqacw6cdSEm8DMnoNowa5qIHExncKeY5Nxzu6+CRtFScdFuVeuZIT\n9D6/2UW5MglJLLsCvDyUWyKpEjJNUehg14AixwUlKEvIZjxF3KWnEgH343Qo7VdF\nESwL8/WeYDMwQHMZwEVF5dbkIFkyhzTqtRnlUWgSCIJWtpWmSPwNS/1nKsBXHV10\nNY5c4ZCDAvrWGCuCmJqbef4HgIFZlVxXhVGccAzBqnV/6i2fQz2jAgQ6u9mAxZG/\n2bcipYzH8VfaWLfu74giUPjrPooD74ucd/TO+8VkJYh4HRBaTORTHyamd7AFu341\nDlfGDww/XQWLQXMmiwoD4ZwDcibPyPvOfLtcO6KgWh6BTGdWBW1ndJy52/nPe5MD\n//cabo2ND10XApSqYWLREhb3LvNpPd/A458vqZ7qEyOVSBZqIQ9sSwLFIJP+fsa/\n0ZFiquoN+3HLrXJdKgrlW4/0ZgSN76uzzHINQCwGi3EDcErdXdOAvDLjFaB3qm2e\nHS5D/9viV+DaPZH57saGJlgGv2txKLGJKCatlRNNbwzGUdzupyS4caoEyArNCFWX\nz9Z5sj9UqPYpII2QAPGh\n=cqi7\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 36f4bf59f91afcb2753fa58725d02c772b5c8522\nparent a1a38d79003a7081b8e14b59003d4d4641fb05fb\nparent 243e563aa2b17042409833002b520165fdc3b69f\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792017848 +0100\ncommitter GitHub <noreply@github.com> 1792017848 +0100\n\nMerge S010: critical insertion trees and exact cyclic reconstruction\n\nS010: critical insertion trees and exact cyclic reconstruction",
+      "verified_at": "2026-10-14T22:44:08Z"
+    }
+  },
+  "stderr": ""
+}

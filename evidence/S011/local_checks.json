@@ -1,0 +1,86 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s011_trees.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7180000000080327,
+    "peak_working_set_bytes": 43094016,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S011-01\", \"layers\": 90, \"configurations\": 97839, \"table_raw_sha256\": \"a8a8b97c780f29b9d5b5ab762bb5f086a7dc72f694667e54003b9bdf7ac8759c\", \"failure_counts\": {\"occupied_self_stack\": 884, \"occupied_self_clear\": 884, \"critical_common_clear\": 3, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 10}, \"winning_insertions_checked\": 3416, \"occupied_deletions_checked\": 4418}\r\n{\"graph\": \"K2\", \"failures\": {\"occupied_self_stack\": 0, \"occupied_self_clear\": 0, \"critical_common_clear\": 1, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [], \"occupied_self_clear\": [], \"critical_common_clear\": [{\"c\": [1, 1], \"AS\": true, \"Q\": 2, \"clear_insertion_masks\": [1, 2], \"common_clear_roots\": 0}], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n{\"graph\": \"K3\", \"failures\": {\"occupied_self_stack\": 0, \"occupied_self_clear\": 0, \"critical_common_clear\": 0, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [], \"occupied_self_clear\": [], \"critical_common_clear\": [], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n{\"graph\": \"P4\", \"failures\": {\"occupied_self_stack\": 102, \"occupied_self_clear\": 102, \"critical_common_clear\": 2, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [{\"c\": [0, 1, 1, 1], \"w\": 1}], \"occupied_self_clear\": [{\"c\": [0, 1, 1, 1], \"w\": 1}], \"critical_common_clear\": [{\"c\": [1, 0, 0, 13], \"AS\": true, \"Q\": 170, \"clear_insertion_masks\": [5, 10, 5, 10], \"common_clear_roots\": 0}], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n{\"graph\": \"C5\", \"failures\": {\"occupied_self_stack\": 140, \"occupied_self_clear\": 140, \"critical_common_clear\": 0, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 10}, \"first_failures\": {\"occupied_self_stack\": [{\"c\": [0, 0, 1, 1, 1], \"w\": 2}], \"occupied_self_clear\": [{\"c\": [0, 0, 1, 1, 1], \"w\": 2}], \"critical_common_clear\": [], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": [{\"c\": [1, 1, 1, 2, 2], \"R3\": 31, \"bipartite\": false, \"critical_clear\": false}]}}\r\n{\"graph\": \"triangle_tail2\", \"failures\": {\"occupied_self_stack\": 354, \"occupied_self_clear\": 354, \"critical_common_clear\": 0, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [{\"c\": [1, 0, 0, 1, 1], \"w\": 0}], \"occupied_self_clear\": [{\"c\": [1, 0, 0, 1, 1], \"w\": 0}], \"critical_common_clear\": [], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n{\"graph\": \"F2\", \"failures\": {\"occupied_self_stack\": 192, \"occupied_self_clear\": 192, \"critical_common_clear\": 0, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [{\"c\": [1, 0, 0, 1, 1], \"w\": 3}], \"occupied_self_clear\": [{\"c\": [1, 0, 0, 1, 1], \"w\": 3}], \"critical_common_clear\": [], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n{\"graph\": \"bowtie\", \"failures\": {\"occupied_self_stack\": 88, \"occupied_self_clear\": 88, \"critical_common_clear\": 0, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [{\"c\": [1, 0, 1, 0, 1], \"w\": 2}], \"occupied_self_clear\": [{\"c\": [1, 0, 1, 0, 1], \"w\": 2}], \"critical_common_clear\": [], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n{\"graph\": \"diamond\", \"failures\": {\"occupied_self_stack\": 8, \"occupied_self_clear\": 8, \"critical_common_clear\": 0, \"critical_occupied_self_clear\": 0, \"nonbipartite_ternary_clear_loser\": 0}, \"first_failures\": {\"occupied_self_stack\": [{\"c\": [0, 1, 1, 1], \"w\": 1}], \"occupied_self_clear\": [{\"c\": [0, 1, 1, 1], \"w\": 1}], \"critical_common_clear\": [], \"critical_occupied_self_clear\": [], \"nonbipartite_ternary_clear_loser\": []}}\r\n",
+    "stderr": "",
+    "code_sha256": "756626faa87bf45f4b51b47d3cd329e1b7b01d75cd6cfb5af6eef91209ff66db"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s011_trees_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 1.110000000000582,
+    "peak_working_set_bytes": 84344832,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S011-01\", \"all_verified\": true, \"layers\": 90, \"configurations\": 97839, \"literal_traces\": 4883, \"literal_moves\": 43286, \"trace_raw_sha256\": \"ee7646b73b86352c556b01c8a1fd1e4dbdfdf2c0f5589b643ce05fcec6908ad6\", \"negative_closures\": 15, \"negative_raw_sha256\": \"2057f31c232e739ade5157a8f85441c6d2de02bc223f2d9b2c314e9dab83b2d8\"}\r\n",
+    "stderr": "",
+    "code_sha256": "310549f07180c7fd4c7ad4aec0d30338c45ccca5a17739506d19607ebfc77097"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s011_transport.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 1.6089999999967404,
+    "peak_working_set_bytes": 185839616,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S011-02\", \"certificates\": 116401, \"per_graph\": {\"K2\": 202, \"P3\": 1387, \"K3\": 7404, \"triangle_leaf\": 15537, \"bowtie\": 50615, \"diamond\": 41244, \"C5\": 12}, \"roots\": 25278, \"edges\": 25959, \"exchanges\": 65164, \"table_raw_sha256\": \"0016a5ebfd607566d6e3b9ba0bf43601bebace613dfe85a4fb22868d601e550a\", \"critical_clear_cuts\": 12}\r\n",
+    "stderr": "",
+    "code_sha256": "1920506752a54e2bafc11301dc1168f049482b1064f1e616c9d5eebffcdd40f3"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s011_transport_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 4.2189999999973224,
+    "peak_working_set_bytes": 332759040,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S011-02\", \"all_verified\": true, \"certificates\": 116401, \"literal_moves\": 507217, \"adjacent_pair_checks\": 65164, \"exceptional_two_singletons\": 6978, \"triangular_repairs\": 24894, \"critical_clear_cuts\": 12, \"trace_raw_sha256\": \"6d61e1209f230ada572c79e5b335afee71b9aaaa21a271b51ecfd7ded1272e0e\", \"repair_raw_sha256\": \"1077ae6fdfb654c0e1ace09ce7e1973c6ef44ea96e9f23835f5d676e80285a40\", \"C5_closure_states\": 70}\r\n",
+    "stderr": "",
+    "code_sha256": "7789a7a4dfad953d4976f098cea893015a8080a2c2171dcca08da8e6f3d366fd"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s011_root_types.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7189999999973224,
+    "peak_working_set_bytes": 60817408,
+    "resource_failure": null,
+    "stdout": "{\"checked_inputs\": 97798, \"critical_insertions\": 120, \"critical_clear_cases\": 23, \"abstract_intersection\": []}\r\n",
+    "stderr": "",
+    "code_sha256": "f70cf5cc5fc267ea3104318699dfc15654c8ffe434d81ccb570bc555af647aa5"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s011_root_types_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 1.7030000000086147,
+    "peak_working_set_bytes": 315256832,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S011-03\", \"all_verified\": true, \"checked_inputs\": 97798, \"critical_insertions\": 120, \"critical_clear_cases\": 23, \"bipartite_insertion_checks\": 10, \"already_stackable_critical_clear\": 15, \"result_sha256\": \"a0ea5a5632cd5a991cf97cf4ba7e0eb43e300688ad25f4dc47c1e4c82c87320a\"}\r\n",
+    "stderr": "",
+    "code_sha256": "b46a9288e76065b287db5243b1b7f7a173a0af51a2f836b2f982870948eb293c"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "entry_invocation_extraction": {
+    "error": "StopIteration",
+    "cause": "event_msg user_message absent; accessible user text is in response_item messages",
+    "repair": "Read actual user response_item text; no reconstructed invocation",
+    "mathematical_effect": "NONE; before cold/new research computation"
+  },
+  "primary_console_display": {
+    "error": "UnicodeEncodeError cp1252 for a temporary proof excerpt",
+    "repair": "UTF-8 stdout reconfiguration; complete selected source proof then displayed successfully",
+    "mathematical_effect": "NONE; source bytes/digests and research results unchanged"
+  }
+}

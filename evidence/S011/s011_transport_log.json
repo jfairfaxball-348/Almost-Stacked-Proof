@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s011_transport.py"
+  ],
+  "exit_code": 0,
+  "seconds": 5.014999999999418,
+  "peak_working_set_bytes": 270888960,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S011-02\", \"certificates\": 116401, \"per_graph\": {\"K2\": 202, \"P3\": 1387, \"K3\": 7404, \"triangle_leaf\": 15537, \"bowtie\": 50615, \"diamond\": 41244, \"C5\": 12}, \"roots\": 25278, \"edges\": 25959, \"exchanges\": 65164, \"table_raw_sha256\": \"0016a5ebfd607566d6e3b9ba0bf43601bebace613dfe85a4fb22868d601e550a\", \"critical_clear_cuts\": 12}\r\n",
+  "stderr": "",
+  "code_sha256": "1920506752a54e2bafc11301dc1168f049482b1064f1e616c9d5eebffcdd40f3"
+}

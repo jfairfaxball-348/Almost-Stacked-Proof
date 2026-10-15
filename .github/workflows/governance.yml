@@ -51,6 +51,14 @@ jobs:
           python3 tools/s010_roots_verify.py --check-only
           python3 tools/s010_reflect.py --check-only
           python3 tools/s010_reflect_verify.py --check-only
+      - name: S011 exact terminal transport, critical root types and CLEAR restrictions
+        run: |
+          python3 tools/s011_trees.py --check-only
+          python3 tools/s011_trees_verify.py --check-only
+          python3 tools/s011_transport.py --check-only
+          python3 tools/s011_transport_verify.py --check-only
+          python3 tools/s011_root_types.py --check-only
+          python3 tools/s011_root_types_verify.py --check-only
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

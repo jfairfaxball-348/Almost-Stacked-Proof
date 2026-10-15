@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools/s011_transport_verify.py"
+  ],
+  "exit_code": 0,
+  "seconds": 7.547000000005937,
+  "peak_working_set_bytes": 398110720,
+  "resource_failure": null,
+  "stdout": "{\"campaign\": \"CAM-S011-02\", \"all_verified\": true, \"certificates\": 116401, \"literal_moves\": 507217, \"adjacent_pair_checks\": 65164, \"exceptional_two_singletons\": 6978, \"triangular_repairs\": 24894, \"critical_clear_cuts\": 12, \"trace_raw_sha256\": \"6d61e1209f230ada572c79e5b335afee71b9aaaa21a271b51ecfd7ded1272e0e\", \"repair_raw_sha256\": \"1077ae6fdfb654c0e1ace09ce7e1973c6ef44ea96e9f23835f5d676e80285a40\", \"C5_closure_states\": 70}\r\n",
+  "stderr": "",
+  "code_sha256": "7789a7a4dfad953d4976f098cea893015a8080a2c2171dcca08da8e6f3d366fd"
+}

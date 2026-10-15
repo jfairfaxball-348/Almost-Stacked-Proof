@@ -1,6 +1,6 @@
-# Claim catalogue — current after S010
+# Claim catalogue - current after S011
 
-Mathematical assurance and originality are separate; all universal goals OPEN. Detailed comparisons in the S009/S010 primary reports.
+Universal STACK/CLEAR remain OPEN. Programme proofs, bounded computation, source access and originality are separate.
 
 | ID | Status | Claim | Sources |
 |---|---|---|---|
@@ -96,3 +96,13 @@ Mathematical assurance and originality are separate; all universal goals OPEN. D
 | CLM-0090 | COMPUTED_EXACT | CAM-S010-02 eight labelled graphs/fourteen inherited goal baselines:136 complete rooted layers/125481 inputs/930 insertion-root traces/7703 moves, independently forward/reverse equal. C5 no graph-wide STACK root at g8; not ASH* failure. | SRC-0040 |
 | CLM-0091 | COMPUTED_EXACT | CAM-S010-03 all7289 k3 traces/all21707 occupied markings from frozen01:98878 reflected moves/2642 empty paths,1447 deleted inputs/60868 complete closure states/max122; full independent partition/count/root/literal checks. | SRC-0040 |
 | CLM-0092 | HEURISTIC | Common insertion root and occupied self-site tests pass every critical loser in fourteen registered cases, including non-AS examples; universal compatibility/AS selection unproved. Graph-wide fixed-root replacement separately refuted. | SRC-0038, SRC-0040 |
+| CLM-0093 | COMPUTED_EXACT | S011 cold challenge S01044-52 survives stated scopes; all25 unchanged check-only commands and historical manifests PASS. Fresh local review/replay is not independent human/kernel certification. | SRC-0041, SRC-0043 |
+| CLM-0094 | PROGRAMME_PROVED | S01153 prescribed nonempty terminal vector f: exact count chronology iff c=f+2out-in and every used label reaches supp(f). Direct known reverse-grammar arbitrary-pending specialization; no rootless forest. | SRC-0041, SRC-0036 |
+| CLM-0095 | PROGRAMME_PROVED | S01154 a3-output certificate re-roots to EVERY used label by simple positive path reversal, including empty transit sites; ANY positive used edge can be exposed as exact terminal2u+2v with all inputs consumed. | SRC-0041, SRC-0036 |
+| CLM-0096 | PROGRAMME_PROVED | S01155/55a: stackable CLEAR loser has all occupied deletions reaching2 at their sites and every3-witness avoids ambient triangular edges. If clear>=stack+2, critical heavy sites lie on no triangle; if every vertex lies on a triangle, clear<=stack+1. With<=1 nontriangular vertex and gap>=2 ASH*-CLEAR follows conditionally. Gap1/general target open. | SRC-0041, SRC-0001 |
+| CLM-0097 | PROGRAMME_PROVED | S01156 bipartite critical STACK insertion CLEAR roots lie in the insertion part, hence common CLEAR root over ALL sites impossible, including non-AS inputs/empty sites. Common STACK roots remain separate; no bipartite CLEAR threshold. | SRC-0041, SRC-0002 |
+| CLM-0098 | PROGRAMME_PROVED | S01157 d=c-ae_s+ae_t reaching k at donor s gives c->(k+a-3)s+(3-a)t for a1/2,k+a>=3 via exact path reversal. Adjacent STACK criterion excludes a1k1 and a2k2; donor2/changing terminal types handled conditionally, unrooted root coverage open. | SRC-0041, SRC-0036 |
+| CLM-0099 | PROGRAMME_PROVED | S01158 mass>=2 exact CLEAR roots=N(exactTWO roots), STACK roots=R1 unionR2 unionR3. Winning STACK-loser insertion has nonempty D_w=R2 excluding w,R3 empty,C_w=N(D_w),S_w=D_w unionC_w. Actual input compatibility not encoded by assigned root sets. | SRC-0041, SRC-0001 |
+| CLM-0100 | COMPUTED_EXACT | CAM-S011-01 all90 layers/97839 explicit inputs;3416 winning insertions/4418 occupied deletions;4883 literal traces/43286 moves/15 selected negative closures.884 noncritical own-root failures each goal,3 critical common CLEAR root failures,10 C5 nonbipartiteR3 CLEAR losers; no ASH* failure. | SRC-0043 |
+| CLM-0101 | COMPUTED_EXACT | CAM-S011-02 all116401 exact terminal transport certificates/507217 moves,65164 adjacent pair checks/6978 exceptional(1,1) outcomes,24894 triangle repairs/12 critical CLEAR cuts. Actual C5 odd-cycle3-support c=(4,1,1,1,1) has70-state closed CLEAR-negative reachability and all3 roots. Not critical ASH* failure. | SRC-0043 |
+| CLM-0102 | COMPUTED_EXACT | CAM-S011-03 all97798 mass>=2 root identities/120 critical STACK insertion root families/23 critical CLEAR cases(15 stackable)/10 bipartite checks. Explicit abstract C5 typed/self-root family has empty common STACK intersection, NOT claimed graph/configuration realization. | SRC-0043 |
