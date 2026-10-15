@@ -505,7 +505,30 @@ assert s12['universal_stack']==s12['universal_clear']=='OPEN'
 assert s12['cold_s011_audit']=='PASS_S012_AT_STATED_SCOPES' and s12['cold_new_proofs']=='FUTURE_S013'
 assert s12['formal_status']=='NOT_STARTED' and state['phases']['1']['status']=='IN_PROGRESS'
 future13=(ROOT/'sessions/S012/FUTURE_S013.md').read_text(encoding='utf-8')
-assert next_prompt==future13 and future13 in (ROOT/'sessions/S012/CLOSEOUT.md').read_text(encoding='utf-8')
+assert future13 in (ROOT/'sessions/S012/CLOSEOUT.md').read_text(encoding='utf-8')
+# An owner-directed administrative revision supersedes only the prospective handoff.
+# Frozen S012 closeout/prompt/hash bytes remain the original historical record.
+revision_path=ROOT/'authoritative/HANDOFF_REVISION.json'
+if revision_path.exists():
+    revision=load('authoritative/HANDOFF_REVISION.json')
+    assert revision['schema']==1 and revision['kind']=='OWNER_DIRECTED_FUTURE_HANDOFF_REVISION'
+    assert revision['session']=='S013' and revision['status']=='FUTURE_UNEXECUTED'
+    assert revision['prior_prompt']=='sessions/S012/FUTURE_S013.md'
+    assert revision['closeout_addendum_for']=='sessions/S012/CLOSEOUT.md'
+    assert hashlib.sha256((ROOT/revision['prior_prompt']).read_bytes()).hexdigest()==revision['prior_sha256']
+    revised=(ROOT/revision['current_prompt']).read_bytes()
+    request=(ROOT/revision['owner_request']).read_bytes()
+    assert hashlib.sha256(revised).hexdigest()==revision['current_sha256']
+    assert hashlib.sha256(request).hexdigest()==revision['owner_request_sha256']
+    assert next_prompt==revised.decode('utf-8') and state['next_session_handoff']==revision
+    assert b'\r\n' not in revised and b'\r\n' not in request
+    assert "Don't stop at one or two milestones" in request.decode('utf-8')
+    for requirement in ['L_all(G) <= L_AS(G)','Do not stop after one or two milestones',
+                        'GLOBAL Q','delta0, delta1 and delta>=2','Local execution',
+                        'PRIOR hashed bounded amendments','Stop before S014']:
+        assert requirement in next_prompt,requirement
+else:
+    assert next_prompt==future13
 assert 'FUTURE, UNEXECUTED' in future13 and 'Stop before S014' in future13
 actual12=(ROOT/'sessions/S012/OWNER_INVOCATION.txt').read_text(encoding='utf-8')
 assert actual12=='Run the next session\n'
