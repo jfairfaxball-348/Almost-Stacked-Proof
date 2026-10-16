@@ -646,5 +646,13 @@
     "url": "https://github.com/lajossoukup/pebbling",
     "access": "PROOF_INSPECTED",
     "note": "pebbling.py read in full (225 lines) and executed read-only on G9 and family graphs in S015 CAM92 as an external checker; not mirrored; licence not checked; no contact with authors."
+  },
+  {
+    "id": "SRC-0077",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S016 G9 STACK cold re-check, CLEAR lemmas/transfer, G9 CLEAR counterexample and CLEAR atlases",
+    "url": "../research/S016_CLEAR.md",
+    "access": "PROOF_INSPECTED",
+    "note": "sessions/S016/GATE1_AUDIT.md; CAM-S016-01..06 preregistered with dual tools (Rust producer, Node checker)."
   }
 ]

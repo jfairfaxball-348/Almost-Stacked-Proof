@@ -1,0 +1,71 @@
+{
+ "campaign": "CAM-S016-04",
+ "graph6": "HCQTaXi",
+ "edges": "0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8",
+ "mode": "CLEAR",
+ "non_bipartite_witness": "triangle 0-3-5",
+ "clear": 15,
+ "L_all": 14,
+ "L_AS": 13,
+ "critical_layer": [
+  "0.0.1.0.0.5.0.8.0",
+  "0.0.1.0.0.8.0.5.0"
+ ],
+ "critical_AS": 0,
+ "K1c": true,
+ "K2c": true,
+ "K3c": true,
+ "K4c": true,
+ "per_mass_losers": [
+  0,
+  36,
+  137,
+  384,
+  932,
+  1863,
+  2887,
+  3280,
+  2510,
+  1301,
+  473,
+  124,
+  21,
+  2,
+  0,
+  0
+ ],
+ "per_mass_AS_losers": [
+  0,
+  36,
+  137,
+  375,
+  791,
+  1185,
+  1331,
+  1116,
+  734,
+  391,
+  177,
+  60,
+  10,
+  0,
+  0,
+  0
+ ],
+ "certificate_lines": 492618,
+ "certificate_coverage": "all 2304 AS configurations of mass 14 and all 490314 configurations of mass 15",
+ "negative_closures": {
+  "0.0.1.0.0.5.0.8.0": 1974,
+  "0.0.1.0.0.8.0.5.0": 1974,
+  "mass1_states": 0
+ },
+ "human_proof": "non-clearability of both critical losers by T1 (research/S016_CLEAR.md) from the audited G9 STACK proof K1",
+ "author_code": "NOT_RUN (not mirrored; download not authorised in S016)",
+ "status": "COMPUTED_EXACT_MULTI_CHECKER; INDEPENDENT_COLD_RECHECK_PENDING (S017); LEAN_PENDING",
+ "files": {
+  "clear_reverse_rust.txt": "531a3b3b27bd549f95bd406fdd860587ae0f63909eded604b4bedd15b622eaa3",
+  "G9_clear_certificate.txt.xz": "70acd50f6f97833fa6784679eaf7eaeac0198d3cae2e812980ca45bb4eaee38d",
+  "clear_cert_check_log.txt": "4eb031eb05b17bc0d04103830122173d4a54b48a264883d57295828235a4f9d0",
+  "clear_cert_producer_log.txt": "aa6925805d68926911ba050765b45a53d9c2c0fe98320eb83dd8285991cec700"
+ }
+}

@@ -159,3 +159,7 @@ S014 closeout: all source access statuses and scoped inspections retained; SRC-0
 - **SRC-0076** lajossoukup/pebbling (source authors public atlas code), commit 701cdd93dd19869a9b90947edd6361efd81cfc1f, pebbling.py - **PROOF_INSPECTED**. https://github.com/lajossoukup/pebbling - pebbling.py read in full (225 lines) and executed read-only on G9 and family graphs in S015 CAM92 as an external checker; not mirrored; licence not checked; no contact with authors.
 
 S015: SRC-0001 version listing refreshed (v1 only); no PDF re-fetched or mirrored.
+
+- **SRC-0077** S016 G9 STACK cold re-check, CLEAR lemmas/transfer, G9 CLEAR counterexample and CLEAR atlases - **PROOF_INSPECTED**. ../research/S016_CLEAR.md - sessions/S016/GATE1_AUDIT.md; CAM-S016-01..06 preregistered with dual tools.
+
+S016: no source re-fetched; authors code not run.

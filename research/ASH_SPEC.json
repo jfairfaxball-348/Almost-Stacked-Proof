@@ -111,7 +111,7 @@
   },
   "critical_form": {
     "statement": "g(G) = least t0>=2 such that every AS configuration of every size t>=t0 is g-able; for n>=2 equivalent to an AS non-g-able configuration of size g(G)-1",
-    "status": "STACK_REFUTED_COMPUTED_G9_LEAN_AND_COLD_RECHECK_PENDING; CLEAR_OPEN",
+    "status": "STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING; CLEAR_REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING",
     "tested_by_author_atlas_code": "lajossoukup/pebbling@701cdd93 is_critical_stacked_almost_stacked",
     "known_true": [
       "all trees (earlier TreeStack + October Thm5.2)",
@@ -4383,6 +4383,83 @@
       "CLM-0256",
       "CLM-0257"
     ],
+    "author_contact": "NONE",
+    "formal_status": "NOT_STARTED"
+  },
+  "s016": {
+    "status": "COMPLETED",
+    "gate1": "COLD_RECHECK_PASS",
+    "universal_stack": "REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING",
+    "universal_clear": "REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING",
+    "counterexample": {
+      "graph6": "HCQTaXi",
+      "n": 9,
+      "edges": "0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8",
+      "stack": 15,
+      "clear": 15,
+      "L_all_stack": 14,
+      "L_AS_stack": 13,
+      "L_all_clear": 14,
+      "L_AS_clear": 13,
+      "critical_losers_both": [
+        "0.0.1.0.0.5.0.8.0",
+        "0.0.1.0.0.8.0.5.0"
+      ],
+      "evidence": "evidence/S016/gate1, evidence/S016/gate2/cam04",
+      "report": "research/S016_CLEAR.md, sessions/S016/GATE1_AUDIT.md"
+    },
+    "gate1_audit": "sessions/S016/GATE1_AUDIT.md",
+    "hand_proof_repairs": [
+      "R1 label-2 branch nodes",
+      "R2 equal labels of m2 neighbours",
+      "R3 missing (3,1)/(1,3) core-degree split"
+    ],
+    "clear_atlas_orders_2_8": {
+      "non_bipartite_ash_ok_dual": 11859,
+      "bipartite_skipped": 253,
+      "unknown": 0
+    },
+    "clear_atlas_order_9": {
+      "graphs": 261080,
+      "bipartite": 730,
+      "producer_ash_fail": [
+        "HCQTaXi"
+      ],
+      "producer_unknown": 0,
+      "dual_checked": 207794,
+      "producer_only": 53286,
+      "checker": "STOPPED_AT_OWNER_REQUEST"
+    },
+    "stack_order9_unknown_rerun": {
+      "graphs": 71,
+      "producer_ash_ok": 69,
+      "producer_cap": 2,
+      "dual_ok": 9
+    },
+    "campaigns_registered": [
+      "CAM-S016-01",
+      "CAM-S016-02",
+      "CAM-S016-03",
+      "CAM-S016-04",
+      "CAM-S016-05",
+      "CAM-S016-06"
+    ],
+    "amendments": 2,
+    "protocol_deviations": [
+      "pre-amendment 5-graph smoke test including G9 CLEAR (archived, not evidence)",
+      "comparator pipe-character parsing defect, fixed before use"
+    ],
+    "claims_programme_proved": [
+      "CLM-0259"
+    ],
+    "claims_computed": [
+      "CLM-0258",
+      "CLM-0260",
+      "CLM-0261",
+      "CLM-0262",
+      "CLM-0263"
+    ],
+    "author_code_clear": "NOT_RUN",
     "author_contact": "NONE",
     "formal_status": "NOT_STARTED"
   }

@@ -1,0 +1,17 @@
+{
+ "bipartite_agree": 301,
+ "checker_completed": 207794,
+ "checker_unknown": [],
+ "disagree": [],
+ "dual_fail": [
+  "HCQTaXi"
+ ],
+ "dual_ok": 207492,
+ "graphs": 261080,
+ "producer_only": 53286,
+ "producer_status_counts": {
+  "ASH_FAIL": 1,
+  "ASH_OK": 260349,
+  "BIPARTITE_SKIP": 730
+ }
+}

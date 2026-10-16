@@ -396,3 +396,17 @@ S014 final scope: owner-requested closeout; CLM-0129 through CLM-0250 retain the
 | CLM-0257 | COMPUTED_EXACT | On every complete order<=8 critical layer (74121 non-AS critical inputs) S014 H2r holds (receiver can be a largest heavy pile) and every global-Q-maximal critical loser is AS; 11 even-heavy critical non-AS inputs, all of shape {4,5,1}. Both H2r and global-Q AS selection are FALSE universally because they would imply ASH* (CLM-0254). | SRC-0074 |
 
 S015 final scope: CLM-0251..0257 added; earlier claims keep their statuses (claims whose conclusion is ASH* only for restricted classes remain valid on those classes). No FORMALLY_CERTIFIED status is assigned.
+
+| CLM-0258 | COMPUTED_EXACT | S016 Gate 1 independent cold re-check of CLM-0254 (G9 STACK): new Rust backward-closure tool and Node forward/certificate tool reproduce K1-K4 exactly; all S015 G9 checkers replayed with identical outputs (two compiled tools rebuilt with MSVC); 286/286 S015 manifest hashes match; hand proof of K1 correct after editorial repairs R1-R3. COLD_RECHECK_PASS, LEAN_PENDING. | SRC-0077,SRC-0074 |
+
+| CLM-0259 | PROGRAMME_PROVED | CLEAR losing-layer recursion C4-C6 (candidate completeness, termination above n) and STACK-to-CLEAR transfer T1-T3: every clearable configuration is stackable, so Lose_STACK(t) is contained in Lose_CLEAR(t) and stack(G)<=clear(G) on connected non-bipartite G; a pile k*e_r with 3 not dividing k clears; ASH*-CLEAR fails whenever Lose_CLEAR(L+1) is empty and no AS lies in Lose_CLEAR(L), L=L_all^STACK. | SRC-0077 |
+
+| CLM-0260 | COMPUTED_EXACT | G9 = graph6 HCQTaXi: clear(G9)=15; the only mass-14 non-clearable configurations are (0,0,1,0,0,5,0,8,0) and its image (non-AS, non-clearable by CLM-0259 T1 and CLM-0254); every AS configuration of mass 14 and every configuration of mass 15 clears; L_all=14>L_AS=13, so critical ASH*-CLEAR FAILS. Bare-definition backward closure, 492618 replayed clearing sequences with a separate verifier, closures without mass-1 states, dual layer tools. INDEPENDENT_COLD_RECHECK_PENDING, LEAN_PENDING; authors code not run. | SRC-0077,SRC-0074 |
+
+| CLM-0261 | COMPUTED_EXACT | CAM-S016-01/03 CLEAR atlas, dual tools: every connected non-bipartite graph of order 2..8 (924 + 10935) satisfies critical ASH*-CLEAR, matching frozen S003/S004 order<=7 thresholds; minimum order of a CLEAR counterexample is 9. | SRC-0077,SRC-0075 |
+
+| CLM-0262 | COMPUTED_EXACT | CAM-S016-05 order-9 CLEAR: producer complete over 261080 graphs, G9 the unique failure among 260350 non-bipartite graphs; independent checker stopped at owner request after 207794 graphs, all agreeing; 53286 graphs producer-only (single implementation). | SRC-0077,SRC-0075 |
+
+| CLM-0263 | COMPUTED_EXACT | CAM-S016-02: on G9 and the S015 CAM90/91 families, 17 graphs fail critical ASH*-CLEAR (dual), exactly the completed STACK failures; STACK and CLEAR verdicts coincide wherever both are known; 11 family graphs UNKNOWN at caps. CAM-S016-06: 69 of 71 S015 order-9 STACK UNKNOWN graphs ASH_OK by the producer (9 dual), 2 capped. | SRC-0077 |
+
+S016 final scope: CLM-0258..0263 added; CLM-0254 (G9 STACK) is now cold-rechecked (CLM-0258). No FORMALLY_CERTIFIED status is assigned.

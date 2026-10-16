@@ -1,0 +1,10 @@
+# S016 plan amendment 2 - CAM-S016-05 complete order-9 CLEAR atlas; CAM-S016-06 order-9 STACK UNKNOWN completion
+
+Written after CAM-S016-01..04 completed (controls PASS; order <=8 CLEAR all ASH_OK dual; G9 CLEAR failure certified). Tools unchanged from amendment 1 and its addenda (producer s016_clear_layers.rs 51104fab..., checker s016_clear_check.mjs 88f2e3db..., comparator s016_clear_compare.py as fixed in addendum 1-iii).
+
+CAM-S016-05. Input: all 261,080 connected order-9 graphs of the frozen S015 list evidence/S015/cam83/graphs_9.txt.xz (nauty-geng list from S015; sha256 re-verified in Gate 1 manifest check; count equals OEIS A001349(9)=261080). CLEAR mode, both tools. Bipartite graphs skipped independently by both tools; the skip count must equal the number of connected bipartite graphs of order 9 (OEIS A005142(9)=730), else the run is diagnosed. Question: for every non-bipartite order-9 graph, exact L_all^CLEAR, L_AS^CLEAR, and whether ASH*-CLEAR holds; list of all failures with critical layers.
+Caps: producer 12 threads, 3600 s/graph, 5,000,000 states/layer; checker up to 12 processes, 3600 s/graph, 2,000,000 states/layer; memory kept below 12 GiB total. Graphs capped by either tool are UNKNOWN (reported with exact names). A graph is classified only when both tools complete and agree on status, L_all, L_AS, |crit|, critAS and the exact critical-layer list. Any disagreement is investigated before any claim.
+
+CAM-S016-06 (secondary, STACK). The 71 order-9 graphs listed UNKNOWN in evidence/S015/cam85/summary.json (22 trees, 49 non-trees), STACK mode, both S016 tools, same caps. Trees are a control against the earlier TreeStack theorem (no new tree claim). Non-tree results complete the S015 order-9 STACK atlas only if both tools agree; any new STACK failure would need the full G9-style certification under a further amendment.
+
+Completeness scope: exactly these lists. No extrapolation beyond order 9. Artefacts: evidence/S016/gate2/cam05, cam06 (compressed outputs, comparisons, summary JSON).

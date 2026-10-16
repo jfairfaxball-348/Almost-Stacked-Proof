@@ -58,22 +58,23 @@ def versioned_tool_source(path,digest):
 
 state = load("authoritative/STATE.json")
 active14 = state.get('active_session') is not None
-closed15 = state.get('last_completed_session') == 'S015'
-closed14 = state.get('last_completed_session') in ('S014', 'S015')
+closed16 = state.get('last_completed_session') == 'S016'
+closed15 = state.get('last_completed_session') in ('S015', 'S016')
+closed14 = state.get('last_completed_session') in ('S014', 'S015', 'S016')
 executed14 = active14 or closed14
 if active14:
     assert state['active_session']['session']=='S014' and state['active_session']['status']=='IN_PROGRESS'
     assert state['active_session']['session_commit'] is None and state['active_session']['pull_request'] is None
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
-assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
-assert state["last_completed_session"] == ('S015' if closed15 else 'S014' if closed14 else 'S013')
-assert state["recommended_next_session"] == ('S016' if closed15 else 'S015' if closed14 else 'S014')
+assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
+assert state["last_completed_session"] == ('S016' if closed16 else 'S015' if closed15 else 'S014' if closed14 else 'S013')
+assert state["recommended_next_session"] == ('S017' if closed16 else 'S016' if closed15 else 'S015' if closed14 else 'S014')
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
 assert state["active_campaign"] is None
-assert state["counterexample_status"] == ("PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed15 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING")
+assert state["counterexample_status"] == ("PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed16 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed15 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING")
 assert state["lean_status"] == "NOT_STARTED"
 assert state["palomar_status"] == "NOT_SUBMITTED"
 assert state["arxiv_project_status"] == "NOT_SUBMITTED"
@@ -135,7 +136,7 @@ print("Author correspondence provenance and current future handoff: PASS (admini
 assert state["printed_form_phase1"]["status"] == "PASS"
 spec=load("research/ASH_SPEC.json")
 assert spec["literal_form"]["status"] == "FALSE_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING"
-assert spec["critical_form"]["status"] == ("STACK_REFUTED_COMPUTED_G9_LEAN_AND_COLD_RECHECK_PENDING; CLEAR_OPEN" if closed15 else "OPEN")
+assert spec["critical_form"]["status"] == ("STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING; CLEAR_REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "STACK_REFUTED_COMPUTED_G9_LEAN_AND_COLD_RECHECK_PENDING; CLEAR_OPEN" if closed15 else "OPEN")
 assert spec["s004"]["universal_stack"] == spec["s004"]["universal_clear"] == "OPEN"
 assert state["independent_atlas_n7"]["stack"] == {"complete":853,"total":853}
 assert state["independent_atlas_n7"]["clear"] == {"complete":809,"total":809}
@@ -676,18 +677,34 @@ elif closed15:
         revised16=(ROOT/rev16['current_prompt']).read_bytes(); request16=(ROOT/rev16['owner_request']).read_bytes()
         assert hashlib.sha256(revised16).hexdigest()==rev16['current_sha256'] and hashlib.sha256(request16).hexdigest()==rev16['owner_request_sha256']
         assert request16==b'Rewrite the next session to first recheck stack and then move on to clear if it survives.\n'
-        assert next_prompt.encode()==revised16 and state['handoff_revision_s016']==rev16
-        assert state['next_session_handoff']==dict(session='S016',status='FUTURE_UNEXECUTED',path=rev16['current_prompt'],sha256=rev16['current_sha256'])
+        assert state['handoff_revision_s016']==rev16
+        if closed16:
+            # S016 executed the owner-revised prompt; its frozen copy is AUTHORISED_PROMPT.md.
+            assert (ROOT/'sessions/S016/AUTHORISED_PROMPT.md').read_bytes()==revised16
+            prior16=dict(session='S016',status='FUTURE_UNEXECUTED',path=rev16['current_prompt'],sha256=rev16['current_sha256'])
+        else:
+            assert next_prompt.encode()==revised16
+            assert state['next_session_handoff']==dict(session='S016',status='FUTURE_UNEXECUTED',path=rev16['current_prompt'],sha256=rev16['current_sha256'])
         for requirement in ['Gate 1','Gate 2','only if Gate 1 passes','do NOT proceed to CLEAR','critical ASH*-CLEAR']:
             assert requirement in revised16.decode('utf-8'),requirement
     else:
         assert next_prompt.encode()==future16
         assert state['next_session_handoff']==dict(session='S016',status='FUTURE_UNEXECUTED',path='sessions/S015/FUTURE_S016.md',sha256=hashlib.sha256(future16).hexdigest())
-    assert state['consumed_prospective_handoff']==prior15 and state['active_session'] is None
-    assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S017' in next_prompt
+    assert state['active_session'] is None
+    if closed16:
+        future17=(ROOT/'sessions/S016/FUTURE_S017.md').read_bytes()
+        assert future17.decode() in (ROOT/'sessions/S016/CLOSEOUT.md').read_text(encoding='utf-8')
+        assert next_prompt.encode()==future17 and state['consumed_prospective_handoff']==prior16
+        assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path='sessions/S016/FUTURE_S017.md',sha256=hashlib.sha256(future17).hexdigest())
+        assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S018' in next_prompt
+        assert (ROOT/'sessions/S016/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
+        assert not (ROOT/'sessions/S017').exists(), 'S017 remains unexecuted'
+    else:
+        assert state['consumed_prospective_handoff']==prior15
+        assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S017' in next_prompt
     assert (ROOT/'sessions/S014/OWNER_CLOSEOUT.txt').read_bytes()==b'Can you commit and close out this session\n'
     assert (ROOT/'sessions/S015/OWNER_INVOCATION.txt').read_bytes()==b'Run a sustained attack on the next session, aim to resolve a major obligation or proof\n'
-    assert not (ROOT/'sessions/S016').exists(), 'S016 remains unexecuted'
+    assert closed16 or not (ROOT/'sessions/S016').exists(), 'S016 remains unexecuted'
 elif closed14:
     future15=(ROOT/'sessions/S014/FUTURE_S015.md').read_bytes()
     assert next_prompt.encode()==future15
@@ -701,7 +718,7 @@ elif closed14:
     assert not (ROOT/'sessions/S015').exists(), 'S015 remains unexecuted'
 else:
     assert next_prompt.encode()==future14 and state['next_session_handoff']==prior14
-assert ('Stop before S017' if closed15 else 'Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
+assert ('Stop before S018' if closed16 else 'Stop before S017' if closed15 else 'Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
 assert (ROOT/'sessions/S013/OWNER_INVOCATION.txt').read_bytes()==b'Run the next session\n'
 assert (ROOT/'sessions/S013/OWNER_CONTINUATION.txt').read_bytes()==b'Continue\n'
 assert load('evidence/S013/environment.json')['invocation_sha256']==hashlib.sha256(b'Run the next session\n').hexdigest()
@@ -1020,3 +1037,28 @@ if closed15:
     required15|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S015*.md')}
     assert required15==checked15,(sorted(required15-checked15)[:5],sorted(checked15-required15)[:5])
     print(f'S015 CLOSED: G9 critical STACK counterexample records, order<=8 dual atlas, order-9 atlas summary and {len(checked15)} immutable hashes: PASS; cold re-check/Lean pending; CLEAR OPEN; S016 FUTURE.')
+
+if closed16:
+    s16=state['s016']
+    assert s16==spec['s016'] and s16['status']=='COMPLETED'
+    assert s16['gate1']=='COLD_RECHECK_PASS' and s16['universal_stack']=='REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING'
+    assert s16['universal_clear']=='REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING'
+    for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,s16['amendments']+1)]:
+        assert sha256_file(ROOT/f'sessions/S016/{name}.md')==(ROOT/f'sessions/S016/{name}.sha256').read_text().split()[0],name
+    g9c=load('evidence/S016/gate2/cam04/summary.json')
+    assert g9c['K1c'] and g9c['K2c'] and g9c['K3c'] and g9c['K4c'] and g9c['L_all']==14 and g9c['L_AS']==13 and g9c['clear']==15
+    a=load('evidence/S016/gate2/cam03/compare_8.json');assert a['graphs']==11117 and a['ASH_OK_count']==10935 and a['BIPARTITE_SKIP']==182 and not a['UNKNOWN'] and not a['DISAGREE'] and a['ASH_FAIL_count']==0
+    a=load('evidence/S016/gate2/cam05/summary.json');assert a['graphs']==261080 and a['bipartite_skip']==730 and a['ash_fail']==['HCQTaXi']
+    for c in claims:
+        if c['id'] in s16['claims_programme_proved']:assert c['status']=='PROGRAMME_PROVED'
+        if c['id'] in s16['claims_computed']:assert c['status']=='COMPUTED_EXACT'
+    checked16=set()
+    for line in (ROOT/'evidence/S016/HASHES.md').read_text(encoding='utf-8').splitlines():
+        m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
+        if m:
+            assert sha256_file(ROOT/m[2])==m[1],m[2];checked16.add(m[2])
+    required16={p.relative_to(ROOT).as_posix() for folder in ['sessions/S016','evidence/S016'] for p in (ROOT/folder).rglob('*') if p.is_file() and p.name!='HASHES.md'}
+    required16|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s016*') if p.is_file()}
+    required16|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S016*.md')}
+    assert required16==checked16,(sorted(required16-checked16)[:5],sorted(checked16-required16)[:5])
+    print(f'S016 CLOSED: G9 STACK cold re-check PASS, G9 CLEAR counterexample records, order<=9 CLEAR atlas and {len(checked16)} immutable hashes: PASS; Lean pending; CLEAR cold re-check S017 FUTURE.')

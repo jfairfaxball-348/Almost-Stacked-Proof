@@ -1,0 +1,23 @@
+{
+ "campaign": "CAM-S016-05",
+ "mode": "CLEAR",
+ "input": "evidence/S015/cam83/graphs_9.txt.xz (all 261080 connected order-9 graphs)",
+ "graphs": 261080,
+ "bipartite_skip": 730,
+ "producer_complete": true,
+ "producer_ash_ok": 260349,
+ "ash_fail": [
+  "HCQTaXi"
+ ],
+ "producer_unknown": 0,
+ "checker_completed": 207794,
+ "dual_ok": 207492,
+ "dual_fail": [
+  "HCQTaXi"
+ ],
+ "dual_bipartite_agree": 301,
+ "disagree": [],
+ "producer_only": 53286,
+ "checker_status": "STOPPED_AT_OWNER_REQUEST (addendum 2-i) after 207794 of 261080 graphs; remaining 53286 graphs are PRODUCER_ONLY, not dual-verified",
+ "scope": "Producer: complete for order 9 with G9 the unique CLEAR failure among 260350 non-bipartite graphs (single implementation for 53286 graphs). Dual-verified: 207492 ASH_OK + G9 ASH_FAIL. No extrapolation beyond order 9."
+}
