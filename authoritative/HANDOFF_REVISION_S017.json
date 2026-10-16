@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
+  "session": "S017",
+  "status": "FUTURE_UNEXECUTED",
+  "date": "2026-10-16",
+  "base_main": "378652c76f6543f4f30e75e4113550865f2032c6",
+  "prior_prompt": "sessions/S016/FUTURE_S017.md",
+  "prior_sha256": "e594e02a0702690f2c8a91ef173a6d9150147c76e4a6c7a16099e01f1e3fffd2",
+  "current_prompt": "authoritative/handoffs/S017_OWNER_REVISED_2026-10-16.md",
+  "current_sha256": "5416dd68f1b619925ce802b9d2f21c0a62fcee719be6fc1481eef96d68b9b7dc",
+  "owner_request": "authoritative/handoffs/S017_OWNER_REQUEST_2026-10-16.txt",
+  "owner_request_sha256": "979abb8a7916cd0b7306178a5f0c3215baa7bba34c0d00761974d8e4724e2b31",
+  "owner_authorization": "Owner asks S017 to set up a local Lean environment and begin Lean formalisation (Phase 3 work) before the Phase 2 novelty audit; owner-authorised revision of the rule-10 stage order. No phase PASS, Palomar submission/registration, publication or author contact is authorised.",
+  "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S016 immutable files (including sessions/S016/FUTURE_S017.md and CLOSEOUT.md) preserved.",
+  "closeout_addendum_for": "sessions/S016/CLOSEOUT.md"
+}
