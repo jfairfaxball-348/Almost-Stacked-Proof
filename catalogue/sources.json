@@ -622,5 +622,29 @@
     "url": "https://arxiv.org/pdf/2206.10439",
     "access": "STATEMENT_INSPECTED",
     "note": "v1 Section2.1 p3 definition(J-EXC) and inc(x,y) inspected; algorithm/theorem proofs NOT inspected. Used only to state the axiom independently refuted for W_p in121. No PDF mirrored."
+  },
+  {
+    "id": "SRC-0074",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S015 complete low-order atlas, critical shift lemmas and H2r/global-Q evidence",
+    "url": "../research/S015_UNIVERSAL_RESEARCH.md",
+    "access": "PROOF_INSPECTED",
+    "note": "122-123 complete local proofs; CAM82-88 preregistered computations with dual compiled tools."
+  },
+  {
+    "id": "SRC-0075",
+    "type": "SOFTWARE",
+    "title": "nauty and Traces 2.8.8 (B. D. McKay and A. Piperno), Debian package nauty: geng, listg, labelg, countg",
+    "url": "https://pallini.di.uniroma1.it/",
+    "access": "METADATA_ONLY",
+    "note": "Used only to enumerate connected graphs (counts match OEIS A001349) and decode/canonically label graph6; graph sets cross-checked with the S003 generator for orders 5-8."
+  },
+  {
+    "id": "SRC-0076",
+    "type": "SOFTWARE",
+    "title": "lajossoukup/pebbling (source authors public atlas code), commit 701cdd93dd19869a9b90947edd6361efd81cfc1f, pebbling.py",
+    "url": "https://github.com/lajossoukup/pebbling",
+    "access": "PROOF_INSPECTED",
+    "note": "pebbling.py read in full (225 lines) and executed read-only on G9 and family graphs in S015 CAM92 as an external checker; not mirrored; licence not checked; no contact with authors."
   }
 ]

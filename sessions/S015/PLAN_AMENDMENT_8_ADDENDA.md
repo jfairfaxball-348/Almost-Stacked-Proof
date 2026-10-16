@@ -1,0 +1,4 @@
+addendum 8a (before execution): tools/s015_cert_brute.py sha256 0305ab4fafd32d1f4baa488dc2889c4901b9415ed4ec799da11ebcdc8ae2c610; nauty-listg -e decode of HCQTaXi matches the edge list exactly (connectivity 2 by nauty-countg).
+addendum 8b (before execution): tools/s015_cert_make.py sha256 daaa34ca7e7adfc8a379dacc3ae35011e3b3b6826b85a384c4d9a45a5145bdbb; tools/s015_cert_check.py sha256 0f8ee5c24bff733d48788c86642ebcb430ee1eca2c379f61d57baaceef046643.
+addendum 8c (before execution): full mass-15 certificate: tools/s015_cert_full15.py sha256 a50d9fbbf84d51821be1ef02e5f8c4eba7428f36396fd4c529d76865829a99f4; checker tools/s015_cert_full15_check.py sha256 796145cf595140036e0e716031df361f7d983c4fe1dd2af4565a7682a224c6ec. Output evidence/S015/counterexample/G9_mass15_all_winning.txt.xz.
+addendum 8d: additional run of the unchanged Python layer validator tools/s015_validate.py on G9 (one process).
