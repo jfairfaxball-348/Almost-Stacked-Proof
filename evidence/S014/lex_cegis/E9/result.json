@@ -1,0 +1,38 @@
+{
+  "case": {
+    "id": "E9",
+    "n": 9,
+    "c": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "evidence/S014/even_cegis/E9"
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 6238,
+  "base_clauses": 7246,
+  "stabilizer_size": 1,
+  "clauses": 7246,
+  "seconds": 70.90599999998813,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

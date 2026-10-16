@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40600000000267755,
+    "peak_working_set_bytes": 36311040,
+    "resource_failure": null,
+    "stdout": "{\"case\": {\"id\": \"C6\", \"n\": 6, \"c\": [3, 3, 1, 1, 0, 0]}, \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 124, \"clauses\": 129, \"seconds\": 0.2649999999994179, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "8024acf37b27ac01429c06eb5cff59cbbb7df1c803345978b0b97002899b2ceb"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_clauses_verify.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40600000000267755,
+    "peak_working_set_bytes": 14053376,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"clauses\": 129, \"c_winning_trace_clauses\": 70, \"AS_negative_clauses\": 51, \"AS_closure_states\": 2672, \"literal_c_winning_moves\": 416, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "9364ab32e728ce21ea1f9e474b3faac44c0ce4328be30de3926f9f9f4c45f103"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_drup_verify.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2084864,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"solver_status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"fixed_input_class_exclusion_certified\": true, \"added_RUP_steps\": 53, \"deletions\": 0, \"unit_clause_scans\": 19968, \"scope\": \"ONLY this exact labeled fixed-input graph class; NOT universal ASH*\"}\r\n",
+    "stderr": "",
+    "code_sha256": "8b9fa9a0dd9f2d82f41ba2b0b713c6cf6fe457038a5413d6a812a6f8f033c2dd"
+  }
+]

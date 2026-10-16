@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_even_cegis.py",
+      "F9"
+    ],
+    "exit_code": 0,
+    "seconds": 28.0,
+    "peak_working_set_bytes": 66146304,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"F9\", \"status\": \"ITERATION_BOUND_UNKNOWN\", \"iterations\": 1000, \"base_clauses\": 1009, \"stabilizer_size\": 48, \"clauses\": 39269, \"seconds\": 27.78200000000652, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "ee4cc5c08d88400958d6bdb423f9d580015e6f99a52706be31a75f9e95e6ac5b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_even_cegis_verify.py",
+      "F9"
+    ],
+    "exit_code": 0,
+    "seconds": 3.0319999999919673,
+    "peak_working_set_bytes": 28024832,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"F9\", \"clauses\": 1009, \"c_winning_trace_clauses\": 506, \"AS_negative_clauses\": 470, \"AS_closure_states\": 339402, \"literal_c_winning_moves\": 4523, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"F9\", \"base_clauses\": 1009, \"stabilizer_size\": 48, \"expanded_clauses\": 39269, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"scope\": \"Only fixed input graph class, independent literal clause provenance\"}\r\n",
+    "stderr": "",
+    "code_sha256": "d73642bb72f58ae7460c95549450ccacf2a8bbfecedd32716412872295977d0f"
+  }
+]

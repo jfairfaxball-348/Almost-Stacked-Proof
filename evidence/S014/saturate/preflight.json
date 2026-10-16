@@ -1,0 +1,14 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_36.md": "0a810834038dae4566a99c1211aaf4e459277c24433c58ec5dd910f0ad93d8bb",
+    "evidence/S014/saturate/inputs.json": "6f3f819f0796c1f24125f7219c6e270df571d00c573bb8f18b441780ae1e8587",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_tail_screen_verify.py": "ab099844c2383021ff8ec3a79cec54641493101363bc446ecfd32bb9291f890f",
+    "research/S014_EDGE_SATURATION.md": "252d022df4ff0d7e65b735ed1bd9867c37d6ba873e74a3810648e5e1749f3819",
+    "tools/s014_saturate.py": "db6e337d6ba368ad9537007b044e46e422023e2068e4200d31ddfd05be365c6d",
+    "tools/s014_saturate_tail_verify.py": "a3813bd937a8d3350a888718aa3cc29306f915767e3c931df45d1132651cdc32",
+    "tools/s014_saturate_verify.py": "769aae3331ba72199770ef551735fee2568fdacf8af21a45697f9eec3ce6cce5"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

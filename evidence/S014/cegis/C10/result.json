@@ -1,0 +1,23 @@
+{
+  "case": {
+    "id": "C10",
+    "n": 10,
+    "c": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      7,
+      1,
+      1
+    ]
+  },
+  "status": "ITERATION_BOUND_UNKNOWN",
+  "iterations": 5000,
+  "clauses": 5010,
+  "seconds": 22.281000000002678,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_inventory.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 15949824,
+    "resource_failure": null,
+    "stdout": "{\"whole_sorted_mass11_order8_inventory_equal\": true, \"patterns\": 44, \"labeled_compositions\": 31824, \"AS_loss_imports\": 0, \"connected_cut_imports\": 64, \"no_other_input_winning_records_imported\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "151b49d1f2e96af4166099c6af2ef5d02447a36c2a8ce3052e33e23703eeb215"
+  }
+]

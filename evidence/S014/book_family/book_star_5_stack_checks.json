@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_book_threshold.py",
+      "book_star_5",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3120000000053551,
+    "peak_working_set_bytes": 35344384,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 8, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 28, \"losers\": 28, \"AS_losers\": 28, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 120, \"losers\": 80, \"AS_losers\": 80, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 311, \"losers\": 167, \"AS_losers\": 167, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 706, \"losers\": 314, \"AS_losers\": 314, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 1263, \"losers\": 469, \"AS_losers\": 367, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 1769, \"losers\": 587, \"AS_losers\": 337, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 2652, \"losers\": 775, \"AS_losers\": 335, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 3820, \"losers\": 885, \"AS_losers\": 182, \"Q\": 51}\r\n{\"mass\": 10, \"candidates\": 4706, \"losers\": 741, \"AS_losers\": 132, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 5429, \"losers\": 725, \"AS_losers\": 95, \"Q\": 53}\r\n{\"mass\": 12, \"candidates\": 6190, \"losers\": 605, \"AS_losers\": 45, \"Q\": 84}\r\n{\"mass\": 13, \"candidates\": 5695, \"losers\": 280, \"AS_losers\": 20, \"Q\": 85}\r\n{\"mass\": 14, \"candidates\": 4095, \"losers\": 210, \"AS_losers\": 15, \"Q\": 86}\r\n{\"mass\": 15, \"candidates\": 3416, \"losers\": 126, \"AS_losers\": 5, \"Q\": 125}\r\n{\"mass\": 16, \"candidates\": 1890, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 16, \"last_complete_mass\": 16, \"certificate_sha256\": \"1a7034c6f41392b8b2ae6d28fa39fefd893ec8eb669d3b246fea67477b23d8fd\"}\r\n",
+    "stderr": "",
+    "code_sha256": "0525ded9d4b8bc9f43b9809a917e9ea2842c68761791cffe76b6bd622db8d686"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_book_verify.py",
+      "book_star_5",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20399999999790452,
+    "peak_working_set_bytes": 16572416,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"book_star_5\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 16, \"last_complete_mass\": 16, \"certified_losing_states\": 5992, \"L_AS_seen\": 15, \"L_AS_grammar\": 15, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "2c0f9363af6415de042b078cc51f30e522118a4e4bc9fc266b22fd03cd08a9c6"
+  }
+]

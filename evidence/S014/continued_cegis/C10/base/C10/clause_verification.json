@@ -1,0 +1,9 @@
+{
+  "case": "C10",
+  "clauses": 9010,
+  "c_winning_trace_clauses": 7639,
+  "AS_negative_clauses": 1321,
+  "AS_closure_states": 4360049,
+  "literal_c_winning_moves": 114033,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

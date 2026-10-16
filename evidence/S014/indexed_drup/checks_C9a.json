@@ -1,0 +1,16 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_indexed_drup.py",
+      "C9a"
+    ],
+    "exit_code": 0,
+    "seconds": 161.68700000000536,
+    "peak_working_set_bytes": 175091712,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9a\", \"fixed_input_class_exclusion_certified\": false, \"error\": \"OCCURRENCE_CAP_UNKNOWN\", \"scope\": \"UNKNOWN; no mathematical exclusion promoted\", \"added_RUP_steps\": 1562, \"deletions\": 0, \"active_literal_occurrence_visits\": 500000001, \"seconds\": 161.46900000001187}\r\n",
+    "stderr": "",
+    "code_sha256": "7ab8fe0e94671bca6f0a396ce103a5e454606e84cf2be7b245f6e65a7c9a11f1"
+  }
+]

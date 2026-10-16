@@ -1,0 +1,4 @@
+# Evidence hashes refer to committed bytes on every platform.
+* text=auto eol=lf
+*.xz -text
+*.bin -text

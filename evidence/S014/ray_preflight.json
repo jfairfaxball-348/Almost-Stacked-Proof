@@ -1,0 +1,11 @@
+{
+  "before_execution": true,
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_3.md": "6a185668182654946efc4cd8b25a7520dafd07c672ae1deb1a0e21e0106b24d0",
+    "evidence/S014/ray_inputs.json": "5aaa13d7066447573e04093a5e25add47059943003ff62a639382cec9de7a46d",
+    "tools/s014_rays.py": "7f64936f367e2b77559fc49c61df15c9e027c743876592da56e7fb3c40300de4",
+    "tools/s014_rays_verify.py": "48deec21edecc562d2f77da0c0567c9901aba6da4739b1ebe3b0f860be5892ff",
+    "tools/s014_ray_run.py": "f4dd12a68651df8b1bc0d20aaa328199153572bd21e963272e6df3810c433fa8",
+    "evidence/S014/environment.json": "16581802c741a08df61252abd897a2c4f49b5040c9b4c27e9b439c1dbe0c16ed"
+  }
+}

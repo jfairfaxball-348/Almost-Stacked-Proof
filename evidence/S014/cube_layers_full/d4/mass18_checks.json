@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:/Users/johnf/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe",
+      "tools/s014_c064_job.ps1",
+      "4",
+      "18"
+    ],
+    "exit_code": 0,
+    "seconds": 12.46799999999348,
+    "peak_working_set_bytes": 101617664,
+    "resource_failure": null,
+    "stdout": "{\"dimension\":4,\"n\":16,\"mass\":18,\"status\":\"COMPLETE_LAYER\",\"candidates\":146910,\"losers\":7734,\"examined\":146910,\"certificate\":\"mass18.bin.gz\",\"sha256\":\"35315351c6e616017417456078a8ac0c55ceac174c5c689dc4c317cccbc0a5ab\",\"seconds\":12.0502284,\"scope\":\"Complete layer only after independent replay; caps UNKNOWN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "5f6a525fb08559806ebe3584c8c5e8763fd0257b1712a694144d1115bcf277c9"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c064_verify.py",
+      "4",
+      "18"
+    ],
+    "exit_code": 0,
+    "seconds": 58.437999999994645,
+    "peak_working_set_bytes": 37404672,
+    "resource_failure": null,
+    "stdout": "{\"group_size\": 384, \"method\": \"FULL_CANONICAL_FIRST_PARENT\", \"dimension\": 4, \"n\": 16, \"mass\": 18, \"status\": \"COMPLETE_LAYER_VERIFIED\", \"all_full_orbit_losing_sets_equal\": true, \"loser_orbits\": 7734, \"checker_candidates\": 27060, \"canonical_first_parent_instances\": 27060, \"exact_AS_oracle_calls\": 219, \"seconds\": 58.296000000002095, \"scope\": \"Full XOR-orbit layer only if equality flag true; no universal ASH* inference\"}\r\n",
+    "stderr": "",
+    "code_sha256": "dcd840445924d2078df6ee65143c8e96507b3cf1a98340c81268a2ad1bf6cac4"
+  }
+]

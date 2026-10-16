@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "E10",
+    "n": 10,
+    "c": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "source": "evidence/S014/even_cegis/E10"
+  },
+  "status": "ITERATION_BOUND_UNKNOWN",
+  "iterations": 10000,
+  "base_clauses": 11010,
+  "stabilizer_size": 1,
+  "clauses": 11010,
+  "seconds": 119.31299999999464,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

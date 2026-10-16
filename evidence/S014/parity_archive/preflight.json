@@ -1,0 +1,13 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_17.md": "b5f1a3100c27bf3572b2d109370295b9d5d5b7647cd7c9a41b6095a57b23b20c",
+    "sessions\\S014\\PLAN_AMENDMENT_17.sha256": "626b2c71ee00227bab10e295551fa966c327c2ba77a2cf4b3e30ace9587dac08",
+    "evidence/S014/parity_archive/inputs.json": "dbea72ca3fd447845bf4379983a93e83807bc7f77a77266fbbf4620df752ad22",
+    "tools/s014_parity_archive.py": "1c71777a5e9ab17de26ff3ebd5eb29f6607cb1709c928b25c56ca5533c5fb840",
+    "tools/s014_parity_archive_verify.py": "ba38f40d79853082c8e26ec8a646dbbe8729afc160c04609fd20924f94e6bdb8",
+    "tools/s014_parity_archive_run.py": "7ea480fcff6843bee11ca643d4c9de98e08f0f92ebc8072278b2d4f8babbbc41",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

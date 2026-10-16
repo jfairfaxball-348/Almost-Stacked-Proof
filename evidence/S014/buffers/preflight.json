@@ -1,0 +1,16 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_12.md": "1990f1ced79ca215c86cd1cb8d6018dfe740a44e96405f36a79e00b667e993bf",
+    "sessions\\S014\\PLAN_AMENDMENT_12.sha256": "71e769a88c5f37dd0a92a407d6845387405b64614176dca9cfee19a6ec7311ad",
+    "evidence/S014/buffers/threshold_inputs.json": "88ad1f8a3391b3746c8c3a170d145948f07f5e08096a3d2a92d273f5a315e7ae",
+    "tools/s014_buffers_threshold.py": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f",
+    "tools/s014_buffers_verify.py": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c",
+    "tools/s014_buffers_weights.py": "67e88d6c2e0e306f263fd1c94f838552651e40e2992ecf72f64eeb39f4b42438",
+    "tools/s014_buffers_run.py": "65a9309185d6a54f83a35c14d4867f5eeb0116a8393fae63d3bb1460375e3a72",
+    "tools/s014_threshold.py": "db0748f75d1ed693302309c3bf6c047272a519882c969c099bba49f68fb63c57",
+    "tools/s014_threshold_verify.py": "ea4670f167cc29ca6b7fb0c64bc3b472fceee8db72e3dd207351fb42ede6f2c3",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

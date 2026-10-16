@@ -1,0 +1,9 @@
+{
+  "case": "C6",
+  "fixed_input_class_exclusion_certified": true,
+  "scope": "ONLY exact fixed-input graph class; universal ASH* OPEN",
+  "added_RUP_steps": 33,
+  "deletions": 0,
+  "active_literal_occurrence_visits": 4087,
+  "seconds": 0.0
+}

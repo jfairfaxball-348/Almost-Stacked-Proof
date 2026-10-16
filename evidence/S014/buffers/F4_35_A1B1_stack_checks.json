@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F4_35_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20399999999790452,
+    "peak_working_set_bytes": 34426880,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 6, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 15, \"losers\": 15, \"AS_losers\": 15, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 55, \"losers\": 34, \"AS_losers\": 34, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 113, \"losers\": 62, \"AS_losers\": 62, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 205, \"losers\": 83, \"AS_losers\": 83, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 314, \"losers\": 105, \"AS_losers\": 78, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 420, \"losers\": 86, \"AS_losers\": 46, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 448, \"losers\": 61, \"AS_losers\": 26, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 402, \"losers\": 41, \"AS_losers\": 16, \"Q\": 51}\r\n{\"mass\": 10, \"candidates\": 269, \"losers\": 8, \"AS_losers\": 4, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 62, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 11, \"last_complete_mass\": 11, \"certificate_sha256\": \"74b86c9e4899b0f4996f709f21f7f95e7333c3a14d241258dbd761026ce80a09\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F4_35_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2101248,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F4_35_A1B1\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 11, \"last_complete_mass\": 11, \"certified_losing_states\": 495, \"L_AS_seen\": 10, \"proposed_L_AS\": 10, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

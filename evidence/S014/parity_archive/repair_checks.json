@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_parity_archive_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.9210000000020955,
+    "peak_working_set_bytes": 26808320,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 343, \"nonAS_inputs\": 1043, \"all_receiver_failures\": 2, \"heavy_receiver_failures\": 8}\r\n",
+    "stderr": "",
+    "code_sha256": "b8086f86f545904a53f8fcd5f5e71b954076e7d320699335b26c97856c2e2c61"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_parity_archive_verify_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.3289999999979045,
+    "peak_working_set_bytes": 30130176,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 343, \"nonAS_critical_inputs\": 1043, \"all_receiver_failures\": 2, \"heavy_receiver_failures\": 8, \"first_all_receiver_failures\": [{\"case\": \"A56\", \"graph\": \"A6_0026\", \"goal\": \"stack\", \"n\": 6, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5]], \"threshold\": 9, \"c\": [3, 3, 1, 1, 0, 0], \"losing_sources\": [], \"summary\": \"evidence/S005/A6_0026_stack.summary.json\", \"certificate\": \"evidence/S005/A6_0026_stack.bin.xz\"}, {\"case\": \"A123\", \"graph\": \"A6_0093\", \"goal\": \"stack\", \"n\": 6, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5], [4, 5]], \"threshold\": 9, \"c\": [3, 3, 1, 1, 0, 0], \"losing_sources\": [], \"summary\": \"evidence/S005/A6_0093_stack.summary.json\", \"certificate\": \"evidence/S005/A6_0093_stack.bin.xz\"}], \"first_heavy_receiver_failures\": [{\"case\": \"A9\", \"graph\": \"A5_0000\", \"goal\": \"stack\", \"n\": 5, \"edges\": [[0, 3], [0, 4], [1, 2], [1, 4], [2, 3]], \"threshold\": 8, \"c\": [1, 3, 3, 0, 0], \"losing_sources\": [0], \"summary\": \"evidence/S005/A5_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A5_0000_stack.bin.xz\"}, {\"case\": \"A9\", \"graph\": \"A5_0000\", \"goal\": \"stack\", \"n\": 5, \"edges\": [[0, 3], [0, 4], [1, 2], [1, 4], [2, 3]], \"threshold\": 8, \"c\": [3, 0, 1, 0, 3], \"losing_sources\": [2], \"summary\": \"evidence/S005/A5_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A5_0000_stack.bin.xz\"}, {\"case\": \"A9\", \"graph\": \"A5_0000\", \"goal\": \"stack\", \"n\": 5, \"edges\": [[0, 3], [0, 4], [1, 2], [1, 4], [2, 3]], \"threshold\": 8, \"c\": [0, 3, 0, 1, 3], \"losing_sources\": [3], \"summary\": \"evidence/S005/A5_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A5_0000_stack.bin.xz\"}, {\"case\": \"A9\", \"graph\": \"A5_0000\", \"goal\": \"stack\", \"n\": 5, \"edges\": [[0, 3], [0, 4], [1, 2], [1, 4], [2, 3]], \"threshold\": 8, \"c\": [3, 1, 0, 3, 0], \"losing_sources\": [1], \"summary\": \"evidence/S005/A5_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A5_0000_stack.bin.xz\"}], \"all_complete_generated_memberships_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "6ffcad0e4a1a7f52b0eeb49f4970c83fc8833d71eb2f70e140f1df5760234f85"
+  }
+]

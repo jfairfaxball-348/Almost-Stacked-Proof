@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_REGISTERED_CASES",
+  "complete_tested_prefix_verified": true,
+  "cases": 1,
+  "bipartite_cases": 1,
+  "inputs": 11660,
+  "states": 103902,
+  "failed_inputs": 0,
+  "failed_candidates_independently_checked": 0,
+  "first_failure": null,
+  "scope": "Only finite odd-positive bipartite parity challenge; universal ASH* OPEN",
+  "seconds": 0.42199999999138527
+}

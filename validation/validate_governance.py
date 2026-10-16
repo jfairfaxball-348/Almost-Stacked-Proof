@@ -1,20 +1,63 @@
 #!/usr/bin/env python3
-"""Fail-closed governance mirror/integrity checks (updated S012); not a mathematics or Lean test."""
+"""Fail-closed governance/mirror checks, including active S014; not a math test."""
 from pathlib import Path
 import hashlib
 import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# Each real file is independently hashed from bytes once per validation run.
+# Repeated preflight references reuse only an unchanged in-process stat key.
+_FILE_HASH_CACHE = {}
+def sha256_file(path):
+    # Original Windows log arguments remain unchanged; resolve separators on CI.
+    path = Path(str(path).replace('\\', '/'))
+    before = path.stat()
+    key = (str(path), before.st_size, before.st_mtime_ns)
+    if key in _FILE_HASH_CACHE:
+        return _FILE_HASH_CACHE[key]
+    h = hashlib.sha256()
+    with path.open('rb') as stream:
+        while chunk := stream.read(65536):
+            h.update(chunk)
+    after = path.stat()
+    assert (before.st_size, before.st_mtime_ns) == (after.st_size, after.st_mtime_ns), str(path)
+    digest = h.hexdigest()
+    _FILE_HASH_CACHE[key] = digest
+    return digest
+def sha256_lzma(path):
+    import lzma
+    h = hashlib.sha256()
+    with lzma.open(path, 'rb') as stream:
+        while chunk := stream.read(65536):
+            h.update(chunk)
+    return h.hexdigest()
+
 def load(rel):
     return json.loads((ROOT / rel).read_text(encoding="utf-8"))
 
+def versioned_tool_source(path,digest):
+    # Exact historical filename collision; never a generic preflight bypass.
+    if path=='tools/s014_split_verify.py' and digest=='de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29':
+        aliases=load('evidence/S014/tool_version_aliases.json')['aliases']
+        assert aliases==[dict(path=path,sha256=digest,archive='tools/s014_mass_split_verify.py',reason='Exact CAM56 source version archived after restoring frozen CAM06 source')]
+        assert sha256_file(ROOT/'tools/s014_split_verify.py')=='73a042ac51e8f289a5976220e28601a21e6c03f68acabe3d33135299c25a0ad3'
+        return ROOT/'tools/s014_mass_split_verify.py'
+    return ROOT/path
+
 state = load("authoritative/STATE.json")
+active14 = state.get('active_session') is not None
+closed14 = state.get('last_completed_session') == 'S014'
+executed14 = active14 or closed14
+if active14:
+    assert state['active_session']['session']=='S014' and state['active_session']['status']=='IN_PROGRESS'
+    assert state['active_session']['session_commit'] is None and state['active_session']['pull_request'] is None
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
 assert state["headline_status"] == "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN"
-assert state["last_completed_session"] == "S013"
-assert state["recommended_next_session"] == "S014"
+assert state["last_completed_session"] == ('S014' if closed14 else 'S013')
+assert state["recommended_next_session"] == ('S015' if closed14 else 'S014')
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
@@ -59,7 +102,7 @@ checked = 0
 for line in (ROOT / "evidence/S003/HASHES.md").read_text(encoding="utf-8").splitlines():
     m = re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`.*", line.strip().lstrip("- "))
     if m and not m.group(2).startswith("scratch:"):
-        digest = hashlib.sha256((ROOT / m.group(2)).read_bytes()).hexdigest()
+        digest = sha256_file(ROOT / m.group(2))
         assert digest == m.group(1), (m.group(2), digest)
         checked += 1
 assert checked >= 10, checked
@@ -94,7 +137,7 @@ checked4=0
 for line in (ROOT/"evidence/S004/HASHES.md").read_text(encoding="utf-8").splitlines():
     m=re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`",line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m.group(2)).read_bytes()).hexdigest()==m.group(1),m.group(2)
+        assert sha256_file(ROOT/m.group(2))==m.group(1),m.group(2)
         checked4+=1
 assert checked4>=50,checked4
 rows=load("evidence/S004/frontier_summary.json")
@@ -109,7 +152,7 @@ for r in rows:
     assert v["layers"]==r["rows"][-1]["t"]
     data=json.loads(lzma.decompress((ROOT/path).read_bytes()))
     assert data["n"]==r["n"] and data["edges"]==r["edges"] and data["mode"]==r["mode"]
-    assert hashlib.sha256(lzma.decompress((ROOT/path).read_bytes())).hexdigest()==r["layer_sha256"]
+    assert sha256_lzma(ROOT/path)==r["layer_sha256"]
     if r["threshold"]:
         assert tuple(r["critical_as_witness"]) in {tuple(c) for c in data["layers"][-2]}
         assert sum(r["critical_as_witness"])==r["threshold"]-1
@@ -126,7 +169,7 @@ print(f"S004 scope, complete certificate metadata and {checked4} hashes: PASS (n
 assert spec["s005"]["universal_stack"] == spec["s005"]["universal_clear"] == "OPEN"
 assert (ROOT/"sessions/S006/AUTHORISED_PROMPT.md").read_text(encoding="utf-8") in (ROOT/"sessions/S005/CLOSEOUT.md").read_text(encoding="utf-8")
 for name in ("PLAN","PLAN_AMENDMENT_1","PLAN_AMENDMENT_2","PLAN_AMENDMENT_3","PLAN_AMENDMENT_4","PLAN_AMENDMENT_5","PLAN_AMENDMENT_6","PLAN_AMENDMENT_7"):
-    assert hashlib.sha256((ROOT/f"sessions/S005/{name}.md").read_bytes()).hexdigest() == (ROOT/f"sessions/S005/{name}.sha256").read_text(encoding="utf-8").split()[0]
+    assert sha256_file(ROOT/f"sessions/S005/{name}.md") == (ROOT/f"sessions/S005/{name}.sha256").read_text(encoding="utf-8").split()[0]
 for name in ("INPUT.md","AUDIT.md","CLOSEOUT.md","CONTINUATION.md","AUTHORISED_PROMPT.md"):
     assert (ROOT/"sessions/S005"/name).exists()
 rows5=load("evidence/S005/campaign_summary.json")
@@ -136,7 +179,7 @@ by5={r["file"]:r for r in v5}
 for r in rows5:
     path=f"evidence/S005/{r['graph']}_{r['mode']}.bin.xz"
     v=by5[path];assert v["threshold"]==r["threshold"] and v["layers"]==r["last_layer"] and v["all_equal"]
-    assert hashlib.sha256(lzma.decompress((ROOT/path).read_bytes())).hexdigest()==r["certificate_sha256"]
+    assert sha256_lzma(ROOT/path)==r["certificate_sha256"]
     if r["threshold"]:
         assert r["eligible"] and v["critical_AS_count"]>0 and v["nonAS_Qmax"]==0 and v["lex_max_is_AS"]
         c=v["critical_AS_witness"];assert sum(c)==r["threshold"]-1 and sum(x>1 for x in c)<=1
@@ -153,7 +196,7 @@ checked5=0
 for line in (ROOT/"evidence/S005/HASHES.md").read_text(encoding="utf-8").splitlines():
     m=re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`",line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m.group(2)).read_bytes()).hexdigest()==m.group(1),m.group(2)
+        assert sha256_file(ROOT/m.group(2))==m.group(1),m.group(2)
         checked5+=1
 assert checked5>=2*len(rows5),checked5
 assert not list((ROOT/"evidence/S005").glob("*.bin"))
@@ -166,7 +209,7 @@ assert state["s006"]["novelty"] == "NOT_AUDITED"
 assert state["s006"]["formal_status"] == "NOT_STARTED"
 assert state["s006"]["finite_verification"]["new_global_threshold_claims"] == 0
 for name in ("PLAN", "PLAN_AMENDMENT_1", "PLAN_AMENDMENT_2", "PLAN_AMENDMENT_3"):
-    assert hashlib.sha256((ROOT/f"sessions/S006/{name}.md").read_bytes()).hexdigest() == (ROOT/f"sessions/S006/{name}.sha256").read_text(encoding="utf-8").split()[0]
+    assert sha256_file(ROOT/f"sessions/S006/{name}.md") == (ROOT/f"sessions/S006/{name}.sha256").read_text(encoding="utf-8").split()[0]
 for name in ("INPUT.md", "OWNER_INVOCATION.txt", "AUTHORISED_PROMPT.md", "AUDIT.md", "CLOSEOUT.md"):
     assert (ROOT/"sessions/S006"/name).is_file()
 assert (ROOT/"sessions/S007/AUTHORISED_PROMPT.md").read_text(encoding="utf-8") in (ROOT/"sessions/S006/CLOSEOUT.md").read_text(encoding="utf-8")
@@ -176,7 +219,7 @@ assert len(grammar["cases"]) == 153 and grammar["all_grammar_bounds_and_legal_de
 assert all(c["all_equal"] for c in grammar["cases"])
 assert sum(c["finite_cells"] for c in grammar["cases"]) == 2145
 assert sum(c["production_inequalities"] for c in grammar["cases"]) == 30347
-assert hashlib.sha256(lzma.decompress((ROOT/"evidence/S006/grammar_certificates.json.xz").read_bytes())).hexdigest() == grammar["certificate_sha256"]
+assert sha256_lzma(ROOT/"evidence/S006/grammar_certificates.json.xz") == grammar["certificate_sha256"]
 rooted=load("evidence/S006/rooted_challenges.json")
 assert len(rooted["graphs"]) == 35
 assert sum(len(g["layers"]) for g in rooted["graphs"]) == 531
@@ -197,12 +240,15 @@ assert set(frozen_index['files'])=={'.github/workflows/governance.yml','authorit
 frozen6={p:info['snapshot'] for p,info in frozen_index['files'].items()}
 for p,info in frozen_index['files'].items():
     assert info['snapshot'].startswith('evidence/S007/frozen_s006_')
-    assert hashlib.sha256((ROOT/info['snapshot']).read_bytes()).hexdigest()==info['sha256']
+    assert sha256_file(ROOT/info['snapshot'])==info['sha256']
 for line in (ROOT/"evidence/S006/HASHES.md").read_text(encoding="utf-8").splitlines():
     m=re.fullmatch(r"`([0-9a-f]{64})`\s+`([^`]+)`",line.strip())
     if m:
         historical=ROOT/frozen6.get(m.group(2),m.group(2))
-        assert hashlib.sha256(historical.read_bytes()).hexdigest()==m.group(1),m.group(2)
+        if executed14 and m.group(2)=='.gitattributes':
+            assert m.group(1)=='7a49bb6909edb009cdeae26a1fe0c24997695a097bffbb416e97ce838ade111e'
+            historical=ROOT/('evidence/S014/frozen_gitattributes_'+m.group(1)+'.txt')
+        assert sha256_file(historical)==m.group(1),m.group(2)
         checked6.add(m.group(2))
 required6={p.relative_to(ROOT).as_posix() for folder in ("sessions/S006","evidence/S006") for p in (ROOT/folder).glob("*") if p.is_file() and p.name != "HASHES.md"}
 required6 |= {p.relative_to(ROOT).as_posix() for p in (ROOT/"tools").glob("s006*.py")}
@@ -211,6 +257,10 @@ for rel in required6:
     if not rel.endswith('.xz'):
         assert b'\r\n' not in (ROOT/rel).read_bytes(),rel
 assert 'eol=lf' in (ROOT/'.gitattributes').read_text(encoding="utf-8")
+if executed14:
+    current_attributes=(ROOT/'.gitattributes').read_text(encoding='utf-8')
+    for frozen_scope in ['evidence/S014/** -text','sessions/S014/** -text','tools/s014* -text','research/S014*.md -text']:
+        assert frozen_scope in current_attributes
 local6=load('evidence/S006/local_checks.json')
 effective6={r['command']:r['exit_code'] for r in local6}
 assert len(effective6)>=15 and all(code==0 for code in effective6.values())
@@ -225,7 +275,7 @@ assert (ROOT/'sessions/S008/AUTHORISED_PROMPT.md').read_text(encoding='utf-8')==
 assert (ROOT/'sessions/S008/AUTHORISED_PROMPT.md').read_text(encoding='utf-8') in (ROOT/'sessions/S007/CLOSEOUT.md').read_text(encoding='utf-8')
 assert (ROOT/'sessions/S007/OWNER_INVOCATION.txt').read_text(encoding='utf-8').strip()=='Run S007 locally using authoritative/NEXT_SESSION_PROMPT.md. Execute exactly S007 and stop before S008.'
 for name in ('PLAN','PLAN_AMENDMENT_1','PLAN_AMENDMENT_2'):
-    assert hashlib.sha256((ROOT/f'sessions/S007/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S007/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S007/{name}.md')==(ROOT/f'sessions/S007/{name}.sha256').read_text().split()[0]
 for stem,goal,counts in [('tail','clear',(36,81763,15251,316569,[4,10,22])),('stack_tail','stack',(28,20876,5025,73132,[4,8,16]))]:
     data=load(f'evidence/S007/{stem}_layers.json');verified=load(f'evidence/S007/{stem}_verification.json')
     layers,states,traces,moves,thresholds=counts
@@ -235,7 +285,7 @@ for stem,goal,counts in [('tail','clear',(36,81763,15251,316569,[4,10,22])),('st
     assert sum(t['configurations'] for r in data['graphs'] for t in r['layers'])==states
     assert verified['all_verified'] and verified['goal']==goal
     assert (verified['full_reverse_layer_matches'],verified['complete_configurations'],verified['independent_legal_traces'],verified['legal_moves'])==(layers,states,traces,moves)
-    assert hashlib.sha256(lzma.decompress((ROOT/f'evidence/S007/{stem}_traces.json.xz').read_bytes())).hexdigest()==data['trace_raw_sha256']
+    assert sha256_lzma(ROOT/f'evidence/S007/{stem}_traces.json.xz')==data['trace_raw_sha256']
 for c in claims:
     if c['id'] in ('CLM-0055','CLM-0056','CLM-0057','CLM-0058','CLM-0059','CLM-0061'):
         assert c['status']=='PROGRAMME_PROVED'
@@ -247,12 +297,12 @@ assert set(frozen7_index['files'])==expected7
 frozen7={p:info['snapshot'] for p,info in frozen7_index['files'].items()}
 for p,info in frozen7_index['files'].items():
     assert info['snapshot']=='evidence/S008/frozen_s007_'+p.replace('/','__')
-    assert hashlib.sha256((ROOT/info['snapshot']).read_bytes()).hexdigest()==info['sha256']
+    assert sha256_file(ROOT/info['snapshot'])==info['sha256']
 checked7=set()
 for line in (ROOT/'evidence/S007/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/frozen7.get(m[2],m[2])).read_bytes()).hexdigest()==m[1],m[2]
+        assert sha256_file(ROOT/frozen7.get(m[2],m[2]))==m[1],m[2]
         checked7.add(m[2])
 required7={p.relative_to(ROOT).as_posix() for folder in ('sessions/S007','evidence/S007') for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required7|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s007*.py')}
@@ -273,7 +323,7 @@ assert old_prompt in (ROOT/'sessions/S008/CLOSEOUT.md').read_text(encoding='utf-
 assert 'First substantive priority: deep primary-source prior art' in old_prompt
 assert 'Do not impose a one-object' in old_prompt
 for name in ('PLAN','PLAN_AMENDMENT_1','PLAN_AMENDMENT_2'):
-    assert hashlib.sha256((ROOT/f'sessions/S008/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S008/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S008/{name}.md')==(ROOT/f'sessions/S008/{name}.sha256').read_text().split()[0]
 for name in ('INPUT.md','OWNER_ADDENDUM.md','AUTHORISED_PROMPT.md','AUDIT.md','CLOSEOUT.md','FUTURE_S009.md'):
     assert (ROOT/'sessions/S008'/name).is_file()
 tip=load('evidence/S008/tip_verification.json')
@@ -292,7 +342,7 @@ assert [(r['k'],r['goal']) for r in branch['graphs']]==[(k,g) for k in (1,2,3) f
 assert sum(len(r['layers']) for r in branch['graphs'])==72
 assert sum(t['configurations'] for r in branch['graphs'] for t in r['layers'])==127799
 assert verified['all_verified'] and (verified['complete_layers'],verified['complete_configurations'],verified['independent_traces'],verified['legal_moves'])==(72,127799,36173,479591)
-assert hashlib.sha256(lzma.decompress((ROOT/'evidence/S008/branch_traces.json.xz').read_bytes())).hexdigest()==branch['trace_raw_sha256']
+assert sha256_lzma(ROOT/'evidence/S008/branch_traces.json.xz')==branch['trace_raw_sha256']
 for c in claims:
     if c['id'] in ('CLM-0062','CLM-0063','CLM-0064','CLM-0065'):assert c['status']=='PROGRAMME_PROVED'
     if c['id'] in ('CLM-0066','CLM-0067'):assert c['status']=='COMPUTED_EXACT'
@@ -300,7 +350,7 @@ checked8=set()
 for line in (ROOT/'evidence/S008/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        assert sha256_file(ROOT/m[2])==m[1],m[2]
         checked8.add(m[2])
 required8={p.relative_to(ROOT).as_posix() for folder in ('sessions/S008','evidence/S008') for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required8|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s008*.py')}
@@ -324,22 +374,22 @@ assert future10==(ROOT/'sessions/S010/AUTHORISED_PROMPT.md').read_text(encoding=
 assert future10 in (ROOT/'sessions/S009/CLOSEOUT.md').read_text(encoding='utf-8')
 assert (ROOT/'sessions/S009/INPUT.md').read_text(encoding='utf-8')=='Run this session\n\n'+old_prompt
 for name in ('PLAN','PLAN_AMENDMENT_1','PLAN_AMENDMENT_2'):
-    assert hashlib.sha256((ROOT/f'sessions/S009/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S009/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S009/{name}.md')==(ROOT/f'sessions/S009/{name}.sha256').read_text().split()[0]
 for i,digest in ((1,'8d05ff6b0f972d23260571dd6881aa4a47c3458942ac8389bb63d15d4dbe370a'),(2,'cbe9d2c29a8b1776e751c0b9a953295421f3cb7a7d0ed0c47b2ce06aae8bf6c2')):
-    assert hashlib.sha256((ROOT/f'sessions/S009/PLAN_AMENDMENT_{i}_INITIAL.md').read_bytes()).hexdigest()==digest
+    assert sha256_file(ROOT/f'sessions/S009/PLAN_AMENDMENT_{i}_INITIAL.md')==digest
 assert len(load('evidence/S009/cold_checks.json'))==15
 assert all(r['exit_code']==0 and r['resource_failure'] is None for r in load('evidence/S009/cold_checks.json'))
 pv=json.loads(lzma.decompress((ROOT/'evidence/S009/port_verification.json.xz').read_bytes()));pr=load('evidence/S009/port_results.json')
 assert pv['all_verified'] and pv['complete_cases']==len(pv['cases'])==len(pr['cases'])==318
 assert (pv['total_closure_states'],pv['maximum_closure_states'],pv['rooted_winning_traces'])==(53924,3409,1694)
 assert pv['marked_forest']['affected_components']==3
-assert hashlib.sha256((ROOT/'evidence/S009/port_inputs.json').read_bytes()).hexdigest()==pr['input_sha256']
+assert sha256_file(ROOT/'evidence/S009/port_inputs.json')==pr['input_sha256']
 for a,b in zip(pr['cases'],pv['cases']):
     assert (a['id'],a['clear_mask'],a['stack_mask'])==(b['id'],b['clear_mask'],b['stack_mask'])
 cv=load('evidence/S009/credit_verification.json');cu=load('evidence/S009/credit_upper.json')
 assert cv['all_verified'] and (cv['complete_layers'],cv['complete_configurations'],cv['upper_traces'],cv['literal_moves'],cv['protected_B3_trees'],cv['threshold_claims'])==(33,13088,3860,41800,795,0)
 assert (cu['traces'],cu['moves'])==(3860,41800)
-assert hashlib.sha256(lzma.decompress((ROOT/'evidence/S009/credit_traces.json.xz').read_bytes())).hexdigest()==cu['trace_raw_sha256']
+assert sha256_lzma(ROOT/'evidence/S009/credit_traces.json.xz')==cu['trace_raw_sha256']
 for c in claims:
     if c['id'] in {'CLM-0071','CLM-0072','CLM-0073','CLM-0074','CLM-0075','CLM-0076','CLM-0077','CLM-0079'}:assert c['status']=='PROGRAMME_PROVED'
     if c['id'] in {'CLM-0070','CLM-0078'}:assert c['status']=='COMPUTED_EXACT'
@@ -350,12 +400,12 @@ assert refresh9['2609.31811']['current_version']=='2'
 local9=load('evidence/S009/local_checks.json')
 assert len(local9)==4 and all(r['exit_code']==0 and r['resource_failure'] is None for r in local9)
 for r in local9:
-    assert hashlib.sha256((ROOT/r['command'][1]).read_bytes()).hexdigest()==r['code_sha256']
+    assert sha256_file(ROOT/r['command'][1])==r['code_sha256']
 checked9=set()
 for line in (ROOT/'evidence/S009/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        assert sha256_file(ROOT/m[2])==m[1],m[2]
         checked9.add(m[2])
 required9={p.relative_to(ROOT).as_posix() for folder in ('sessions/S009','evidence/S009') for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required9|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s009*.py')}
@@ -378,45 +428,45 @@ assert actual10.startswith('# Run S010 — Sustained universal ASH*') and 'Miles
 assert actual10!=future10 and 'Stop before S011' in actual10
 assert hashlib.sha256(actual10.encode()).hexdigest()==load('evidence/S010/environment.json')['input_sha256']
 for name in ('PLAN','PLAN_AMENDMENT_1','PLAN_AMENDMENT_2','PLAN_AMENDMENT_3'):
-    assert hashlib.sha256((ROOT/f'sessions/S010/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S010/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S010/{name}.md')==(ROOT/f'sessions/S010/{name}.sha256').read_text().split()[0]
 for filename in ('campaign_preflight','campaign2_preflight','campaign3_preflight'):
     preflight=load(f'evidence/S010/{filename}.json')
     assert preflight['execution']=='NOT_YET_RUN'
-    for p,digest in preflight['files'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==digest,p
+    for p,digest in preflight['files'].items():assert sha256_file(ROOT/p)==digest,p
 cold10=load('evidence/S010/cold_checks.json')
 assert len(cold10)==19 and all(r['exit_code']==0 and r['resource_failure'] is None for r in cold10)
 assert sum(r['seconds'] for r in cold10)<1800
-for r in cold10:assert hashlib.sha256((ROOT/r['command'][1]).read_bytes()).hexdigest()==r['code_sha256']
+for r in cold10:assert sha256_file(ROOT/r['command'][1])==r['code_sha256']
 count10=load('evidence/S010/count_summary.json');vcount10=load('evidence/S010/count_verification.json')
 assert vcount10['all_verified'] and (count10['certificates'],count10['connected'],count10['weak_only'])==(37556,26274,3856)
 assert (vcount10['certificates'],vcount10['legal_exact_count_traces'],vcount10['weak_failures'])==(37556,26274,3856)
 for file,key in [('count_certificates','certificate_raw_sha256'),('count_traces','trace_raw_sha256'),('count_closures','closure_raw_sha256')]:
     owner=count10 if file=='count_certificates' else vcount10
-    assert hashlib.sha256(lzma.decompress((ROOT/f'evidence/S010/{file}.json.xz').read_bytes())).hexdigest()==owner[key]
+    assert sha256_lzma(ROOT/f'evidence/S010/{file}.json.xz')==owner[key]
 root10=load('evidence/S010/root_summary.json');vroot10=load('evidence/S010/root_verification.json')
 assert vroot10['all_verified'] and (root10['case_count'],root10['complete_layers'],root10['complete_configurations'])==(14,136,125481)
 assert (vroot10['complete_layers'],vroot10['complete_configurations'],vroot10['literal_insertion_root_traces'],vroot10['literal_moves'])==(136,125481,930,7703)
 assert all(r['critical_empty_insertion_intersection']==r['occupied_self_failure_configs']==r['heavy_self_failure_configs']==0 for r in root10['cases'])
 assert next(r for r in root10['cases'] if r['graph']=='C5' and r['goal']=='stack')['whole_threshold_common_roots']==0
 for file,owner,key in [('root_tables',root10,'table_raw_sha256'),('root_traces',vroot10,'trace_raw_sha256')]:
-    assert hashlib.sha256(lzma.decompress((ROOT/f'evidence/S010/{file}.json.xz').read_bytes())).hexdigest()==owner[key]
+    assert sha256_lzma(ROOT/f'evidence/S010/{file}.json.xz')==owner[key]
 ref10=load('evidence/S010/reflection_summary.json');vref10=load('evidence/S010/reflection_verification.json')
 assert vref10['all_verified'] and (ref10['original_three_pile_traces'],ref10['marked_cases'],ref10['reflected_moves'],ref10['empty_marked_paths'])==(7289,21707,98878,2642)
 assert (vref10['marked_cases'],vref10['reflected_literal_moves'],vref10['distinct_deleted_inputs'],vref10['complete_closure_states'],vref10['maximum_closure_states'])==(21707,98878,1447,60868,122)
-assert hashlib.sha256(lzma.decompress((ROOT/'evidence/S010/reflection_traces.json.xz').read_bytes())).hexdigest()==ref10['output_raw_sha256']
+assert sha256_lzma(ROOT/'evidence/S010/reflection_traces.json.xz')==ref10['output_raw_sha256']
 assert ref10['input_trace_raw_sha256']==vcount10['trace_raw_sha256']
 for name in ('count','root','reflection'):
     for kind in ('producer','checker'):
         log=load(f'evidence/S010/{name}_{kind}_log.json')
         assert log['exit_code']==0 and log['resource_failure'] is None and log['seconds']<600 and log['peak_working_set_bytes']<=2*1024**3
-        assert hashlib.sha256((ROOT/log['command'][1]).read_bytes()).hexdigest()==log['code_sha256']
+        assert sha256_file(ROOT/log['command'][1])==log['code_sha256']
 for ident in ('2604.22341','2610.09650','2609.31811'):
     assert load('evidence/S010/source_refresh.json')[ident]['pdf_sha256']==refresh9[ident]['pdf_sha256']
 checked10=set()
 for line in (ROOT/'evidence/S010/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        assert sha256_file(ROOT/m[2])==m[1],m[2]
         checked10.add(m[2])
 required10={p.relative_to(ROOT).as_posix() for folder in ('sessions/S010','evidence/S010') for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required10|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s010*.py')}
@@ -447,21 +497,21 @@ assert 'No delegated agent work' in actual11 and 'Stop before S012' in actual11 
 assert hashlib.sha256(actual11.encode()).hexdigest()==load('evidence/S011/environment.json')['invocation_sha256']
 assert (ROOT/'sessions/S011/IMPLEMENTATION_REQUEST.txt').read_text().strip()=='Implement the proposed plan.'
 for name in ('PLAN','PLAN_AMENDMENT_1','PLAN_AMENDMENT_2','PLAN_AMENDMENT_3'):
-    assert hashlib.sha256((ROOT/f'sessions/S011/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S011/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S011/{name}.md')==(ROOT/f'sessions/S011/{name}.sha256').read_text().split()[0]
 for number in (1,2,3):
     pre=load(f'evidence/S011/campaign{number}_preflight.json')
     assert pre['execution']=='NOT_YET_RUN' and pre['limits']=={'seconds_each':600,'states_per_layer':300000,'peak_bytes':2*1024**3}
-    for p,digest in pre['files'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==digest,p
+    for p,digest in pre['files'].items():assert sha256_file(ROOT/p)==digest,p
     assert f'sessions/S011/PLAN_AMENDMENT_{number}.md' in pre['files']
 cold11=load('evidence/S011/cold_checks.json');local11=load('evidence/S011/local_checks.json')
 assert len(cold11)==25 and len(local11)==6
 for row in cold11+local11:
     assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
-    assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+    assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
 for tool in ['s011_trees','s011_trees_verify','s011_transport','s011_transport_verify','s011_root_types','s011_root_types_verify']:
     row=load(f'evidence/S011/{tool}_log.json')
     assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
-    assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+    assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
 t11=load('evidence/S011/tree_summary.json');vt11=load('evidence/S011/tree_verification.json')
 assert (t11['layers'],t11['configurations'],t11['winning_insertions_checked'],t11['occupied_deletions_checked'])==(90,97839,3416,4418)
 assert vt11['all_verified'] and (vt11['literal_traces'],vt11['literal_moves'],vt11['negative_closures'])==(4883,43286,15)
@@ -472,11 +522,11 @@ assert vp11['all_verified'] and (vp11['certificates'],vp11['literal_moves'],vp11
 r11=load('evidence/S011/root_types.json');vr11=load('evidence/S011/root_types_verification.json')
 assert vr11['all_verified'] and (vr11['checked_inputs'],vr11['critical_insertions'],vr11['critical_clear_cases'],vr11['bipartite_insertion_checks'],vr11['already_stackable_critical_clear'])==(97798,120,23,10,15)
 assert r11['model_is_graph_configuration'] is False
-assert hashlib.sha256((ROOT/'evidence/S011/root_types.json').read_bytes()).hexdigest()==vr11['result_sha256']
+assert sha256_file(ROOT/'evidence/S011/root_types.json')==vr11['result_sha256']
 odd11=load('evidence/S011/odd_cycle_failure.json')
 assert odd11['c']==[4,1,1,1,1] and odd11['clear_mask']==0 and odd11['three_mask']==31 and len(odd11['closure'])==70
 for file,owner,key in [('tree_tables',t11,'table_raw_sha256'),('tree_traces',vt11,'trace_raw_sha256'),('tree_negative_closures',vt11,'negative_raw_sha256'),('transport_certificates',p11,'table_raw_sha256'),('transport_traces',vp11,'trace_raw_sha256'),('triangle_repairs',vp11,'repair_raw_sha256')]:
-    assert hashlib.sha256(lzma.decompress((ROOT/f'evidence/S011/{file}.json.xz').read_bytes())).hexdigest()==owner[key]
+    assert sha256_lzma(ROOT/f'evidence/S011/{file}.json.xz')==owner[key]
 refresh11=load('evidence/S011/source_refresh.json')
 for ident in ['2604.22341','2610.09650','2609.31811']:
     assert refresh11[ident]['pdf_sha256']==load('evidence/S010/source_refresh.json')[ident]['pdf_sha256']
@@ -485,7 +535,7 @@ checked11=set()
 for line in (ROOT/'evidence/S011/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        assert sha256_file(ROOT/m[2])==m[1],m[2]
         checked11.add(m[2])
 required11={p.relative_to(ROOT).as_posix() for folder in ['sessions/S011','evidence/S011'] for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required11|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s011*.py')}
@@ -515,7 +565,7 @@ if revision_path.exists():
     assert revision['session']=='S013' and revision['status']=='FUTURE_UNEXECUTED'
     assert revision['prior_prompt']=='sessions/S012/FUTURE_S013.md'
     assert revision['closeout_addendum_for']=='sessions/S012/CLOSEOUT.md'
-    assert hashlib.sha256((ROOT/revision['prior_prompt']).read_bytes()).hexdigest()==revision['prior_sha256']
+    assert sha256_file(ROOT/revision['prior_prompt'])==revision['prior_sha256']
     revised=(ROOT/revision['current_prompt']).read_bytes()
     request=(ROOT/revision['owner_request']).read_bytes()
     assert hashlib.sha256(revised).hexdigest()==revision['current_sha256']
@@ -534,24 +584,24 @@ actual12=(ROOT/'sessions/S012/OWNER_INVOCATION.txt').read_text(encoding='utf-8')
 assert actual12=='Run the next session\n'
 assert hashlib.sha256(actual12.encode()).hexdigest()==load('evidence/S012/environment.json')['invocation_sha256']
 for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,6)]:
-    assert hashlib.sha256((ROOT/f'sessions/S012/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S012/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S012/{name}.md')==(ROOT/f'sessions/S012/{name}.sha256').read_text().split()[0]
 for i in (1,2,3):
     pre=load(f'evidence/S012/campaign{i}_preflight.json')
-    for p,digest in pre['files'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==digest,p
+    for p,digest in pre['files'].items():assert sha256_file(ROOT/p)==digest,p
 initial12=load('evidence/S012/campaign1_initial_preflight.json')
 for suffix in ['reciprocity','reciprocity_verify']:
-    assert hashlib.sha256((ROOT/f'evidence/S012/failed_initial_{suffix}.py').read_bytes()).hexdigest()==initial12['files'][f'tools/s012_{suffix}.py']
+    assert sha256_file(ROOT/f'evidence/S012/failed_initial_{suffix}.py')==initial12['files'][f'tools/s012_{suffix}.py']
 failed12=load('evidence/S012/failed_zero_base_normal_form_log.json')
 assert failed12['exit_code']!=0 and 'AssertionError' in failed12['stderr'] and failed12['resource_failure'] is None
 cold12=load('evidence/S012/cold_checks.json');local12=load('evidence/S012/local_checks.json')
 assert len(cold12)==12 and len(local12)==6
 for row in cold12+local12:
     assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
-    assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+    assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
 for tool in ['s012_reciprocity','s012_reciprocity_verify','s012_escape','s012_escape_verify','s012_exceptions','s012_exceptions_verify']:
     row=load(f'evidence/S012/{tool}_log.json')
     assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
-    assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+    assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
 v12=load('evidence/S012/verification.json');e12=load('evidence/S012/escape_verification.json');x12=load('evidence/S012/exceptions_verification.json')
 assert v12=={'graphs':10,'configurations':175359,'relations':16394311,'literal_traces':714,'literal_moves':5484,'complete_negative_closures':69,'all_full_masks_and_relations_equal':True}
 assert e12=={'one_step_barriers':435,'critical_inputs':15,'complete_closure_states':1177,'fuel_witnesses':78,'literal_moves':338,'finite_tau':15,'no_escape_after_complete_closure':0,'all_equal':True}
@@ -573,7 +623,7 @@ checked12=set()
 for line in (ROOT/'evidence/S012/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2]
+        assert sha256_file(ROOT/m[2])==m[1],m[2]
         checked12.add(m[2])
 required12={p.relative_to(ROOT).as_posix() for folder in ['sessions/S012','evidence/S012'] for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required12|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s012*.py')}
@@ -590,30 +640,47 @@ print(f'S012 historical scopes and {len(checked12)} immutable hashes: PASS (cold
 assert state['s013']==spec['s013']
 s13=state['s013']
 assert s13['universal_stack']==s13['universal_clear']=='OPEN'
-assert s13['cold_s012_audit']=='PASS_S013_AT_STATED_SCOPES' and s13['cold_new_proofs']=='FUTURE_S014'
+assert s13['cold_s012_audit']=='PASS_S013_AT_STATED_SCOPES'
+assert s13['cold_new_proofs']==('PASS_S014_AT_STATED_SCOPES' if executed14 else 'FUTURE_S014')
 assert s13['formal_status']=='NOT_STARTED' and s13['inherited_cutoffs_unchanged']
 future14=(ROOT/'sessions/S013/FUTURE_S014.md').read_bytes()
-assert next_prompt.encode()==future14 and future14.decode() in (ROOT/'sessions/S013/CLOSEOUT.md').read_text(encoding='utf-8')
-assert state['next_session_handoff']==dict(session='S014',status='FUTURE_UNEXECUTED',path='sessions/S013/FUTURE_S014.md',sha256=hashlib.sha256(future14).hexdigest())
-assert 'Stop before S015' in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
+assert future14.decode() in (ROOT/'sessions/S013/CLOSEOUT.md').read_text(encoding='utf-8')
+prior14=dict(session='S014',status='FUTURE_UNEXECUTED',path='sessions/S013/FUTURE_S014.md',sha256=hashlib.sha256(future14).hexdigest())
+if active14:
+    assert next_prompt.startswith('# S014 ACTIVE continuation') and next_prompt.encode().endswith(future14)
+    assert state['next_session_handoff'] is None and state['consumed_prospective_handoff']==prior14
+elif closed14:
+    future15=(ROOT/'sessions/S014/FUTURE_S015.md').read_bytes()
+    assert next_prompt.encode()==future15
+    assert future15.decode() in (ROOT/'sessions/S014/CLOSEOUT.md').read_text(encoding='utf-8')
+    assert state['next_session_handoff']==dict(session='S015',status='FUTURE_UNEXECUTED',path='sessions/S014/FUTURE_S015.md',sha256=hashlib.sha256(future15).hexdigest())
+    assert state['consumed_prospective_handoff']==prior14 and state['active_session'] is None
+    assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S016' in next_prompt
+    assert (ROOT/'sessions/S014/OWNER_CLOSEOUT.txt').read_bytes()==b'Can you commit and close out this session\n'
+    assert state['s014']['owner_no_closeout_superseded'] is True
+    assert sha256_file(ROOT/state['s014']['owner_closeout'])==state['s014']['owner_closeout_sha256']
+    assert not (ROOT/'sessions/S015').exists(), 'S015 remains unexecuted'
+else:
+    assert next_prompt.encode()==future14 and state['next_session_handoff']==prior14
+assert ('Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
 assert (ROOT/'sessions/S013/OWNER_INVOCATION.txt').read_bytes()==b'Run the next session\n'
 assert (ROOT/'sessions/S013/OWNER_CONTINUATION.txt').read_bytes()==b'Continue\n'
 assert load('evidence/S013/environment.json')['invocation_sha256']==hashlib.sha256(b'Run the next session\n').hexdigest()
 for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,7)]:
-    assert hashlib.sha256((ROOT/f'sessions/S013/{name}.md').read_bytes()).hexdigest()==(ROOT/f'sessions/S013/{name}.sha256').read_text().split()[0]
+    assert sha256_file(ROOT/f'sessions/S013/{name}.md')==(ROOT/f'sessions/S013/{name}.sha256').read_text().split()[0]
 names13=['gap_scan','precision','concentration','full_exchange','residual','synthesis']
 for i,name in enumerate(names13,1):
     pre=load(f'evidence/S013/{i}_preflight.json')
-    for path,digest in pre['files'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest,path
+    for path,digest in pre['files'].items():assert sha256_file(ROOT/path)==digest,path
     for suffix in ('','_verify'):
         row=load(f'evidence/S013/s013_{name}{suffix}_log.json')
         assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
-        assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+        assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
 for fname,total in [('cold_checks.json',18),('local_checks.json',12)]:
     rows=load('evidence/S013/'+fname);assert len(rows)==total
     for row in rows:
         assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
-        assert hashlib.sha256((ROOT/row['command'][1]).read_bytes()).hexdigest()==row['code_sha256']
+        assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
 v13=load('evidence/S013/precision_verification.json')
 assert v13['configurations']==291639 and v13['graphs']==11 and v13['all_full_masks_and_diagnostics_equal']
 c13=load('evidence/S013/concentration_verification.json');f13=load('evidence/S013/full_exchange_verification.json')
@@ -626,17 +693,263 @@ assert z13['full_losing_layers']==134 and z13['selected_extremizers']==614 and z
 for ident,result in load('evidence/S013/source_refresh.json').items():assert result['pdf_sha256']==load('evidence/S012/source_refresh.json')[ident]['pdf_sha256']
 assert next(s for s in sources if s['id']=='SRC-0050')['pdf_sha256']==load('evidence/S013/additional_source.json')['pdf_sha256']
 for c in claims:
-    if c['id'] in {f'CLM-{i:04d}' for i in range(115,123)}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='FUTURE_S014'
+    if c['id'] in {f'CLM-{i:04d}' for i in range(115,123)}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']==('PASS_S014_AT_STATED_SCOPES' if executed14 else 'FUTURE_S014')
     if c['id'] in {f'CLM-{i:04d}' for i in [114,123,124,125,126,127,128]}:assert c['status']=='COMPUTED_EXACT'
 checked13=set()
 for line in (ROOT/'evidence/S013/HASHES.md').read_text(encoding='utf-8').splitlines():
     m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
     if m:
-        assert hashlib.sha256((ROOT/m[2]).read_bytes()).hexdigest()==m[1],m[2];checked13.add(m[2])
+        assert sha256_file(ROOT/m[2])==m[1],m[2];checked13.add(m[2])
 required13={p.relative_to(ROOT).as_posix() for folder in ['sessions/S013','evidence/S013'] for p in (ROOT/folder).glob('*') if p.is_file() and p.name!='HASHES.md'}
 required13|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s013*.py')}
 required13|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S013*.md')}
 assert required13<=checked13
 for p in required13:
     if not p.endswith('.xz'):assert b'\r\n' not in (ROOT/p).read_bytes(),p
-print(f'S013 current scopes/mirrors and {len(checked13)} immutable hashes: PASS; universal STACK/CLEAR OPEN, S014 FUTURE.')
+print(f'S013 current scopes/mirrors and {len(checked13)} immutable hashes: PASS; universal STACK/CLEAR OPEN.')
+if executed14:
+    import lzma
+    assert state['s014']['status']==('COMPLETED' if closed14 else 'IN_PROGRESS') and state['s014']['universal_stack']==state['s014']['universal_clear']=='OPEN'
+    assert state['s014']['multiple_donor_argument']=='PROGRAMME_PROVED_71_NECESSARY_NOT_UNIVERSAL'
+    assert state['s014']['new_local_proofs']==list(range(71,122))
+    assert state['s014']['campaigns_completed']==list(range(1,82))
+    assert state['s014']['campaigns_registered']==list(range(1,82))
+    assert state['s014']['new_proof_assurance']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+    assert state['s014']==load('research/ASH_SPEC.json')['s014']
+    assert state['s014']['clear_gap1_candidate']=='UNPROVED'
+    if active14:
+        assert not (ROOT/'sessions/S014/CLOSEOUT.md').exists() and not (ROOT/'sessions/S014/FUTURE_S015.md').exists()
+    assert (ROOT/'sessions/S014/AUTHORISED_PROMPT.md').read_bytes()==future14
+    for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,82)]:
+        assert sha256_file(ROOT/f'sessions/S014/{name}.md')==(ROOT/f'sessions/S014/{name}.sha256').read_text().split()[0]
+    cold14=load('evidence/S014/cold_checks.json');gap14=load('evidence/S014/gap_checks.json')
+    assert len(cold14)==24 and len(gap14)==2
+    for row in cold14+gap14:
+        assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3
+        assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+    diag=json.loads(lzma.decompress((ROOT/'evidence/S014/gap_extrema.json.xz').read_bytes()))
+    assert len(diag['archive'])==44 and len(diag['precision'])==4 and diag['threshold_claims']==0
+    assert not diag['negative_witnesses'] and all(all(r['predicates'].values()) for r in diag['archive']+diag['precision'])
+    del diag
+    for c in claims:
+        if c['id'] in ['CLM-0129','CLM-0130']:assert c['status']=='COMPUTED_EXACT'
+    for ident,result in load('evidence/S014/source_refresh.json').items():
+        assert result['pdf_sha256']==load('evidence/S013/source_refresh.json')[ident]['pdf_sha256']
+    print('S014 bounded plans and initial metadata: PASS; independently hashing all preflight references.', flush=True)
+    for preflight in (ROOT/'evidence/S014').rglob('*preflight.json'):
+        for path,digest in json.loads(preflight.read_bytes())['files'].items():
+            assert sha256_file(versioned_tool_source(path,digest))==digest,(str(preflight),path)
+    print('S014 all preflight references: PASS; validating preserved execution rows.', flush=True)
+    execution_rows=0;preserved_failures=0
+    for log in (ROOT/'evidence/S014').rglob('*checks.json'):
+        rows=json.loads(log.read_bytes())
+        if not isinstance(rows,list):
+            assert log.name in ['entry_head_checks.json','entry_main_checks.json'];continue
+        for row in rows:
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/parity_archive/checks.json':
+                assert len(rows)==1 and row['exit_code']==1 and row['resource_failure'] is None and "KeyError: 'n'" in row['stderr']
+                assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+                assert (ROOT/'sessions/S014/REPAIR_17_1.md').exists()
+                repair=load('evidence/S014/parity_archive/repair_checks.json');assert len(repair)==2 and all(r['exit_code']==0 for r in repair)
+                preserved_failures+=1;continue
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/oddlarge/checks.json':
+                assert len(rows)==1 and row['exit_code']==4294967295 and row['resource_failure'] is None
+                assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+                assert (ROOT/'sessions/S014/REPAIR_21_1.md').exists()
+                assert not (ROOT/'evidence/S014/oddlarge/results.json.xz').exists()
+                repaired=load('evidence/S014/oddlarge_v2/checks.json');assert len(repaired)==2 and all(r['exit_code']==0 for r in repaired)
+                preserved_failures+=1;continue
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/cegis_orbits/C9a/checks.json':
+                assert len(rows)==1 and row['exit_code']==4294967295 and row['resource_failure'] is None
+                assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+                assert (ROOT/'sessions/S014/REPAIR_38_1.md').exists()
+                repaired=load('evidence/S014/cegis_orbits_v2/C9a/checks.json');assert len(repaired)==3 and all(r['exit_code']==0 for r in repaired)
+                preserved_failures+=1;continue
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/even_extension/checks.json':
+                assert len(rows)==1 and row['exit_code']==1 and row['resource_failure'] is None and 'AssertionError' in row['stderr']
+                assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+                assert (ROOT/'sessions/S014/REPAIR_49_1.md').exists()
+                repaired=load('evidence/S014/even_extension_v2/checks.json');assert len(repaired)==2 and all(r['exit_code']==0 for r in repaired)
+                preserved_failures+=1;continue
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/cube_dag/checks.json' and row['exit_code']!=0:
+                assert len(rows)==2 and rows[0]['exit_code']==0 and row==rows[1] and row['exit_code']==1 and row['resource_failure'] is None and 'negative shift count' in row['stderr']
+                assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+                assert (ROOT/'sessions/S014/REPAIR_58_1.md').exists()
+                repaired=load('evidence/S014/cube_dag/repair_checks.json');assert len(repaired)==1 and repaired[0]['exit_code']==0
+                assert load('evidence/S014/cube_dag/verification_v2.json')['complete_AS_tail_upper31']
+                preserved_failures+=1;continue
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/fano_AS/checks.json':
+                assert len(rows)==1 and row['exit_code']==1 and row['resource_failure'] is None and 'AssertionError' in row['stderr']
+                assert sha256_file(ROOT/row['command'][1])==row['code_sha256']
+                assert (ROOT/'sessions/S014/REPAIR_65_1.md').exists()
+                repaired=load('evidence/S014/fano_AS/repair_checks.json');assert len(repaired)==2 and all(r['exit_code']==0 for r in repaired)
+                assert load('evidence/S014/fano_AS/verification.json')['exact_L_AS']==29
+                preserved_failures+=1;continue
+            if log.relative_to(ROOT).as_posix()=='evidence/S014/scope62_validation_checks.json':
+                assert len(rows)==1 and row['exit_code']==1 and row['resource_failure'] is None and "split_preflight.json" in row['stderr'] and "tools/s014_split_verify.py" in row['stderr']
+                assert row['code_sha256']=='6814b9918ae76442a142108712c1f54ee00aebb92c47b61f62f0e280d1a648f4'
+                frozen=ROOT/('evidence/S014/frozen_validate_governance_'+row['code_sha256']+'.py.txt');assert sha256_file(frozen)==row['code_sha256']
+                recovery=load('evidence/S014/split_source_recovery/verification.json');assert recovery['replayed_checks']==33 and recovery['all_output_bytes_unchanged']
+                preserved_failures+=1;continue
+            assert row['exit_code']==0 and row['resource_failure'] is None and row['seconds']<600 and row['peak_working_set_bytes']<=2*1024**3,str(log)
+            source=versioned_tool_source(row['command'][1],row['code_sha256'])
+            if log.relative_to(ROOT).as_posix() in ['evidence/S014/focus_governance_checks.json','evidence/S014/progress_checks.json']:
+                assert row['command'][1]=='validation/validate_governance.py' and row['code_sha256']=='73f39438d20d5832a52c88f6bfb8af2cf1f6a2f3c74de7bd57222c5feba65feb'
+                source=ROOT/'evidence/S014/frozen_pre_continuation_validate_governance.py.txt'
+            elif row['command'][1]=='validation/validate_governance.py' and sha256_file(source)!=row['code_sha256']:
+                source=ROOT/('evidence/S014/frozen_validate_governance_'+row['code_sha256']+'.py.txt')
+            assert sha256_file(source)==row['code_sha256'],str(log)
+            execution_rows+=1
+    assert execution_rows>=2000 and preserved_failures==7
+    for c in claims:
+        if c['id'] in {f'CLM-{i:04d}' for i in list(range(131,145))+[153,154]}:
+            assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+        if c['id'] in {f'CLM-{i:04d}' for i in range(145,153)}:assert c['status']=='COMPUTED_EXACT'
+        if c['id'] in {f'CLM-{i:04d}' for i in range(155,160)}:assert c['status']=='COMPUTED_EXACT'
+    assert load('evidence/S014/family_verification.json')['all_generated_keys_and_certificates_equal']
+    assert load('evidence/S014/swap_verification.json')['failures']==1846
+    assert load('evidence/S014/split_verification.json')['failures']==3
+    for name,thresholds in [('theta334',[25,27]),('barbell55',[48,48])]:
+        for goal,target in zip(['stack','clear'],thresholds):
+            r=load(f'evidence/S014/{name}_{goal}_threshold_verification.json')
+            assert r['threshold']==target and r['all_full_losing_layers_equal']
+    buffers=load('evidence/S014/buffers/summary.json')
+    assert len(buffers)==292 and sum(r['threshold'] is not None for r in buffers)==286
+    assert all(r['threshold']==r['proposed_L_AS']+1 for r in buffers if r['goal']=='stack')
+    assert sum(r['threshold'] is None for r in buffers)==6
+    first=load('evidence/S014/firstfires/verification.json')
+    assert sum(r['all_cells'] for r in first)==66642 and sum(r['true_extracted_path_covers'] for r in first)==10033
+    witnesses=load('evidence/S014/firstfires/witnesses_verification.json')
+    assert witnesses['explicit_STACK_AS_witnesses']==228 and witnesses['completed_CLEAR_boundaries']==6 and witnesses['old_full_losing_layers_preserved']
+    paths=load('evidence/S014/joinpaths/verification.json')
+    assert sum(r['traces'] for r in paths)==198320 and sum(r['literal_moves'] for r in paths)==2046597
+    regular=load('evidence/S014/regular/extrema.json')
+    assert [r['graph'] for r in regular]==['Q3plus03','Wagner8','Petersen10']
+    assert [[r['goals'][goal]['threshold'] for goal in ['stack','clear']] for r in regular]==[[15,15],[11,11],[15,15]]
+    parity=load('evidence/S014/parity/verification.json');assert parity['cases']==256 and parity['complete_parity_class_failures']==0
+    archive=load('evidence/S014/parity_archive/verification.json');assert archive['cases']==343 and archive['nonAS_critical_inputs']==1043 and archive['all_receiver_failures']==2 and archive['heavy_receiver_failures']==8
+    obstruction=load('evidence/S014/obstruction/verification.json')
+    assert len(obstruction)==2 and sum(r['complete_negative_states'] for r in obstruction)==161 and sum(r['literal_moves'] for r in obstruction)==72
+    assert all(r['threshold']==9 and r['all_parity_AS_winners']==6 and r['alpha']==2 and not r['increasing_Q_losing_unit_neighbors'] for r in obstruction)
+    odd=load('evidence/S014/oddshift/verification.json')
+    assert odd['tests']==34 and odd['losing_transforms']==28 and odd['eligible_critical_inputs']==14 and odd['all_transformations_win_failures']==0 and odd['ordered_pair_failures']==6
+    assert state['s014']['owner_no_closeout']=='sessions/S014/OWNER_KEEP_GOING.txt'
+    assert sha256_file(ROOT/state['s014']['owner_no_closeout'])==state['s014']['owner_no_closeout_sha256']
+    headcrit=load('evidence/S014/headcritical/verification.json')
+    assert headcrit['complete_thresholds']==252 and headcrit['failed_input_existence']==2 and headcrit['nonAS_global_Q_critical_inputs']==0
+    assert load('evidence/S014/criticalcert/verification.json')['complete_negative_states']==2556
+    assert load('evidence/S014/eliminate/verification.json')['failed_H2_inputs']==1124
+    er=load('evidence/S014/eliminate_residual/verification.json');assert er['nonAS_critical_inputs']==1230 and er['failed_H2r_inputs']==0
+    regular_elimination=load('evidence/S014/regular_eliminate/verification.json');assert regular_elimination['complete']==72 and regular_elimination['nonAS_critical_inputs']==227 and regular_elimination['H2r_failures']==0
+    cp=load('evidence/S014/coupled/verification.json');assert cp['complete_inputs']==252 and cp['losing_inputs']==108 and cp['unknown']==0
+    for name,T in [('C00_51',19),('C00_60',25)]:
+        r=load(f'evidence/S014/coupled_threshold/{name}_stack_threshold_verification.json')
+        assert r['threshold']==T and r['L_AS_grammar']==T-1 and r['all_full_losing_layers_equal']
+    assert load('evidence/S014/coupled_threshold/eliminate/verification.json')['nonAS_critical_inputs']==0
+    circ=load('evidence/S014/circulant/summary.json');assert len(circ)==120
+    assert all(r['scope']=='EXACT_THRESHOLD' and r['all_full_losing_layers_equal'] and r['L_AS_exact']==r['threshold']-1 for r in circ)
+    tails=[load(f'evidence/S014/tail_screen/shard{i}_verification.json') for i in range(8)]
+    assert sum(r['cases'] for r in tails)==7510 and all(r['unknown']==0 and not r['potential_counterexamples'] for r in tails)
+    assert load('evidence/S014/singleton/verification.json')['failures']==90
+    sat=load('evidence/S014/saturate/verification.json');assert sat['complete_saturations']==120 and sat['all_greedy_decisions_and_saturation_certificates_checked']
+    for name in ['C6','C9a','C9b']:
+        r=load(f'evidence/S014/lrat/{name}/verification.json');assert r['fixed_input_class_exclusion_certified']
+        assert load(f'evidence/S014/cegis_orbits_v2/{name}/clause_verification.json')['all_clauses_necessary_for_fixed_input_counterexample']
+    for name in ['E8','M9']:assert load(f'evidence/S014/watched_drup/{name}/verification.json')['fixed_input_class_exclusion_certified']
+    assert not load('evidence/S014/watched_drup/core_C9b/verification.json')['fixed_input_class_exclusion_certified']
+    assert load('evidence/S014/trace_cegis/C10/result.json')['status']=='ITERATION_BOUND_UNKNOWN'
+    ev=load('evidence/S014/critical_even/verification.json');assert ev['cases']==638 and ev['critical']==20231 and ev['nonAS']==17940 and ev['nonAS_with2']==0 and ev['even_heavy_inputs']==4 and ev['bipartite_even_heavy_inputs']==0
+    assert state['s014']['universal_no2']=='UNPROVED_FINITE_AGREEMENT_CAM44'
+    for c in claims:
+        if c['id']=='CLM-0166':assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+        if c['id']=='CLM-0169':assert c['status']=='HEURISTIC'
+    for folder,name in [('continued','F9'),('lex','E9')]:
+        assert load(f'evidence/S014/{folder}_lrat/{name}/verification.json')['fixed_input_class_exclusion_certified']
+    for name,patterns in [('N9_M11',45),('N10_M12',65),('N10_M17',257),('N12_M13',88),('N12_M16',212)]:
+        r=load(f'evidence/S014/master_cegis/{name}/result.json');assert r['status'].endswith('UNKNOWN') and r['patterns']==patterns
+        assert load(f'evidence/S014/master_cegis/{name}/clause_verification.json')['counterexample_exists_implies_formula_satisfiable']
+    cm=load('evidence/S014/coordinate_maximal/verification.json')
+    assert cm['full_negative_states']==56 and cm['literal_witnesses']==18 and cm['literal_moves']==202 and cm['thresholds']==[15,8,7,8] and cm['complete_selected_sets_equal']
+    assert load('evidence/S014/fair_lrat/N2_M4/verification.json')['fixed_mass_graph_class_exclusion_certified']
+    for name in ['N8_M10','N9_M11','N10_M12','N10_M17','N12_M13','N12_M16']:
+        assert load(f'evidence/S014/fair_cegis/{name}/result.json')['status']=='ITERATION_BOUND_UNKNOWN'
+        assert load(f'evidence/S014/fair_cegis/{name}/clause_verification.json')['counterexample_exists_implies_formula_satisfiable']
+    ob=[load(f'evidence/S014/onebit/shard{i}/verification.json') for i in range(2)]
+    assert sum(r['ordered_pairs'] for r in ob)==654 and sum(r['queries'] for r in ob)==5260 and sum(r['states'] for r in ob)==44991 and all(r['all_queries_match_exact_residue_cutoffs'] for r in ob)
+    rt=load('evidence/S014/retract_trees/trees_verification.json');assert rt['isometric_trees']==2279 and rt['crown_maxima']==[15,16,19] and rt['all_retractions_true_loopless_edge_maps']
+    cr=load('evidence/S014/retract_trees/crown5_stack_threshold_verification.json');assert cr['threshold']==16 and cr['L_AS_exact']==15 and cr['certified_losing_states']==28880
+    combined=[load(f'evidence/S014/combined_bound/shard{i}/verification.json') for i in range(2)];assert sum(r['cases'] for r in combined)==49 and sum(r['full_isometric_tree_sets'] for r in combined)==6415
+    gaps=[g for r in combined for g in r['strict_gaps']];assert len(gaps)==1 and gaps[0]['source']=='A182' and gaps[0]['threshold']==42 and gaps[0]['bound']==40
+    mg=load('evidence/S014/metric_gap/negative_verification.json');assert mg['states']==10988 and mg['complete_legal_dependencies']==50423 and mg['negative_closures_equal']
+    mt=load('evidence/S014/metric_gap/A182fresh_stack_threshold_verification.json');assert mt['threshold']==42 and mt['L_AS_exact']==41 and mt['all_full_losing_layers_equal']
+    assert state['s014']['combined_tree_independence_ceiling']=='FALSE_CAM54_55_A182_THRESHOLD42_VS40'
+    split=load('evidence/S014/split_cegis/summary.json');assert split['patterns']==split['certified']==32 and split['complete_mass10_order8_exclusion']
+    for i in range(32):assert load(f'evidence/S014/split_lrat/P{i:02d}/verification.json')['fixed_input_class_exclusion_certified']
+    direct=load('evidence/S014/cube_tail/verification.json');assert direct['status']=='STATE_CAP_UNKNOWN' and direct['completed_queries']==16931 and direct['verified_states']==2000000 and not direct['complete_AS_tail_upper31']
+    dag=load('evidence/S014/cube_dag/verification_v2.json');assert dag['verified_nodes']==1572864 and dag['queries_examined']==98304 and dag['complete_AS_tail_upper31'] and dag['exact_L_AS']==30
+    lower=load('evidence/S014/cube_lower/verification.json');assert lower['exact_binary_buffer_AS_oracle_certified'] and lower['full_inequalities']==803538796 and lower['exact_L_AS']==30 and len(lower['source0_critical_AS'])==1
+    general=load('evidence/S014/cube_general/verification.json');assert general['status']=='GLOBAL_STATE_CAP_UNKNOWN' and general['winning_inputs']==2157 and general['unknown']==1 and not general['potential']
+    point=[load(f'evidence/S014/cube_pointwise/shard{i}/verification.json') for i in range(2)];assert sum(r['literal_full_input_winners'] for r in point)==2393 and sum(r['unknown'] for r in point)==2 and all(r['all_positive_histories_verified'] and not r['potential'] for r in point)
+    orbit=load('evidence/S014/cube_orbits/verification.json');assert orbit['status']=='COMPLETE_REGISTERED_CASES' and orbit['winning_inputs']==orbit['candidates_checked']==9783 and orbit['unknown']==0 and orbit['verified_states']==872261 and not orbit['potential']
+    controls=load('evidence/S014/cube_layers/control_summary.json');assert controls['both_controls_pass'] and [r['threshold'] for r in controls['controls']]==[3,15]
+    for d,M in [(1,3),(3,15)]:
+        for m in range(1,M+1):assert load(f'evidence/S014/cube_layers/d{d}/mass{m}_verification.json')['all_full_orbit_losing_sets_equal']
+    for m in range(1,14):assert load(f'evidence/S014/cube_layers/d4/mass{m}_verification.json')['all_full_orbit_losing_sets_equal']
+    layer=load('evidence/S014/cube_layers/d4_summary.json');assert layer['status']=='CANDIDATE_CAP_UNKNOWN' and layer['threshold'] is None and layer['last_verified_mass']==13
+    import gzip,struct
+    for base,case,M,n in [('cube_layers_full','d4',31,16),('fano_layers','FanoInc14',30,14)]:
+        summary=load(f'evidence/S014/{base}/{case}_summary.json');assert summary['status']=='EXACT_THRESHOLD' and summary['threshold']==summary['last_verified_mass']==M
+        for m in range(1,M+1):
+            row=load(f'evidence/S014/{base}/{case}/mass{m}_verification.json');assert row['all_full_orbit_losing_sets_equal'] and row['mass']==m and row['status']=='COMPLETE_LAYER_VERIFIED'
+            if m==M:assert row['loser_orbits']==0 and M>n
+        raw=gzip.decompress((ROOT/f'evidence/S014/{base}/{case}/mass{M-1}.bin.gz').read_bytes());assert struct.unpack('<IQ',raw[:12])==(M-1,1) and len(raw)==28
+        c=list(raw[12:12+n]);assert sum(c)==M-1 and sum(a>=2 for a in c)==1
+    for base in ['cube_layers_full','fano_layers']:
+        controls=load(f'evidence/S014/{base}/control_summary.json');assert controls['both_controls_pass'] and [r['threshold'] for r in controls['controls']]==[3,15]
+    fa=load('evidence/S014/fano_AS/verification.json');assert fa['exact_binary_buffer_AS_oracle_certified'] and fa['exact_L_AS']==29 and len(fa['source0_critical_AS'])==1
+    shell=load('evidence/S014/shell_witness/verification.json');assert shell['all_shell_hypotheses_verified'] and shell['shell_rows']==501 and shell['complete_negative_queries']==350 and shell['states']==22920 and shell['unknown_queries']==0
+    mass11=load('evidence/S014/mass11_cegis/summary.json');assert mass11['complete_mass11_order8_exclusion'] and mass11['patterns']==mass11['certified']==44 and mass11['verified_RUP_additions']==64781
+    for i in range(44):assert load(f'evidence/S014/mass11_lrat/P{i:03d}/verification.json')['fixed_input_class_exclusion_certified']
+    high=load('evidence/S014/highpile_cegis/summary.json');assert high['all_registered_patterns_independently_excluded'] and high['certified']==8 and high['verified_RUP_additions']==33677
+    for row in high['cases']:assert load(f"evidence/S014/highpile_lrat/{row['case']}/verification.json")['fixed_input_class_exclusion_certified']
+    slack=load('evidence/S014/mass_slack/verification.json');assert slack['complete_tested_prefix_verified'] and slack['inputs']==2946 and slack['cases']==18 and slack['failed_inputs']==1 and slack['independently_checked_failed_candidates']==12
+    pool=load('evidence/S014/two_pool/verification.json');assert pool['complete_tested_prefix_verified'] and pool['inputs']==3097 and pool['cases']==21 and pool['failed_inputs']==1 and pool['independently_checked_failed_candidates']==60
+    for c in claims:
+        if c['id'] in ['CLM-0223','CLM-0228']:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+    for c in claims:
+        if c['id'] in {f'CLM-{i:04d}' for i in range(188,194)}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+    parity72=load('evidence/S014/bip_parity/verification.json');assert parity72['complete_all_candidate_memberships_equal'] and parity72['nonAS_inputs']==14814 and parity72['candidates']==203673 and parity72['all_source_failures']==parity72['heavy_source_failures']==0
+    odd73=load('evidence/S014/bip_odd_slack/verification.json');assert odd73['complete_tested_prefix_verified'] and odd73['cases']==142 and odd73['bipartite_cases']==27 and odd73['inputs']==13297 and odd73['failed_inputs']==0
+    odd74=load('evidence/S014/bip_odd_larger/summary.json');assert odd74['independently_completed_cases']==18 and odd74['prior_scope_unknown_cases']==3 and odd74['inputs']==1598711 and odd74['maximum_order']==14 and odd74['failed_inputs']==0
+    assert {r['case'] for r in odd74['unknown']}=={'A171','A181','A184'} and all(r['status']=='PRIOR_SCOPE_CUTOFF_UNKNOWN' for r in odd74['unknown'])
+    for r in odd74['completed']:
+        q=load(f"evidence/S014/bip_odd_larger/{r['case']}/verification.json");assert q['status']=='COMPLETE_REGISTERED_CASES' and q['complete_tested_prefix_verified'] and q['failed_inputs']==0 and q['inputs']==r['inputs']
+    leaf75=load('evidence/S014/leaf_ascent/verification.json');assert leaf75['all_input_leaf_extension_memberships_equal'] and leaf75['extensions']==33188 and leaf75['initially_empty_leaf_extensions']==3104 and leaf75['failures']==0
+    neighbor76=load('evidence/S014/neighbor_ascent/verification.json');assert neighbor76['all_input_neighbor_inventories_and_memberships_equal'] and neighbor76['records']==83376 and neighbor76['extensions']==145073 and neighbor76['failed_input_vertex_pairs']==515 and neighbor76['failures_at_pile2']==74 and neighbor76['failures_at_actual_critical_mass']==0
+    for c in claims:
+        if c['id'] in {f'CLM-{i:04d}' for i in [230,234,235,236,239]}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+    twofuel=load('evidence/S014/twofuel_cegis/summary.json');assert twofuel['certified']==1 and twofuel['unknown']==3 and twofuel['control_pass'] and twofuel['verified_F8_RUP_additions']==1365
+    assert [r['status'] for r in twofuel['cases']]==['INDEPENDENTLY_EXCLUDED','ITERATION_BOUND_UNKNOWN','ITERATION_BOUND_UNKNOWN','TIME_BOUND_UNKNOWN']
+    assert load('evidence/S014/twofuel_lrat/F8/verification.json')['fixed_input_class_exclusion_certified']
+    fullleaf=load('evidence/S014/full_leaf_ascent/verification.json');assert fullleaf['all_input_leaf_extension_memberships_equal'] and fullleaf['states']==167713 and fullleaf['extensions']==160579 and fullleaf['initially_empty_leaf_extensions']==22440 and fullleaf['failures']==0
+    sourcefirst=load('evidence/S014/source_first/verification.json');assert sourcefirst['complete_predecessor_inventory_and_all_child_masks_equal'] and sourcefirst['predecessors']==598867 and sourcefirst['winning_multioccupied_inputs']==437350 and sourcefirst['heavy_sources']==1211093 and sourcefirst['child_tests']==2538712 and sourcefirst['failed_sources']==0
+    oddleaf=load('evidence/S014/odd_leaf_contraction/verification.json');assert oddleaf['complete_both_direction_inventories_and_memberships_equal'] and oddleaf['records']==164058 and oddleaf['odd_leaf_down']==oddleaf['even_leaf_parent_up']==oddleaf['even_heavy_leaf_plus3']==54686 and oddleaf['failed_memberships']==oddleaf['critical_even_leafs']==0
+    exchange=load('evidence/S014/sector_exchange/verification.json');assert exchange['complete_tested_prefix_and_all_exchange_options_equal'] and exchange['status']=='COMPLETE_REGISTERED_SCOPE' and exchange['registered_groups']==exchange['executed_groups']==2490 and exchange['unexecuted_groups']==0 and exchange['membership_queries']==57060 and exchange['pair_source_checks']==560 and not exchange['first_failure']
+    for c in claims:
+        if c['id'] in {f'CLM-{i:04d}' for i in [240,241,243,245,246,248]}:assert c['status']=='PROGRAMME_PROVED' and c['cold_audit']=='LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING'
+    if closed14:
+        print('S014 exact bounded summaries: PASS; independently hashing recursive final manifest.', flush=True)
+        checked14=set()
+        for line in (ROOT/'evidence/S014/HASHES.md').read_text(encoding='utf-8').splitlines():
+            m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
+            if m:
+                assert sha256_file(ROOT/m[2])==m[1],m[2];checked14.add(m[2])
+        excluded14={'HASHES.md','working_hashes.json','checkpoint_hashes.json','scope81_hash_cache.json','scope81_hash_progress.json'}
+        required14={p.relative_to(ROOT).as_posix() for folder in ['sessions/S014','evidence/S014'] for p in (ROOT/folder).rglob('*') if p.is_file() and p.name not in excluded14}
+        required14|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s014*') if p.is_file()}
+        required14|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S014*.md')}
+        assert required14==checked14, (sorted(required14-checked14)[:5],sorted(checked14-required14)[:5])
+        print(f'S014 CLOSED scopes/preflights/{execution_rows} successful bounded rows, {preserved_failures} preserved failed attempts, {len(checked14)} immutable hashes: PASS; S015 FUTURE; universal STACK/CLEAR OPEN.')
+    else:
+        for p,digest in load('evidence/S014/working_hashes.json')['files'].items():assert sha256_file(ROOT/p)==digest,p
+        print(f'S014 ACTIVE scopes/preflights/{execution_rows} successful bounded rows, {preserved_failures} preserved failed schema attempt: PASS; no closeout/S015/universal proof inferred.')

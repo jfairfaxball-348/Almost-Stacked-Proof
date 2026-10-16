@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddchallenge.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.922000000005937,
+    "peak_working_set_bytes": 35119104,
+    "resource_failure": null,
+    "stdout": "{\"graph\": 0, \"states\": 1163, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 10, \"states\": 698, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 20, \"states\": 795, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 30, \"states\": 650, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 40, \"states\": 770, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 50, \"states\": 697, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 60, \"states\": 725, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 70, \"states\": 969, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 80, \"states\": 744, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 90, \"states\": 807, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 100, \"states\": 703, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 110, \"states\": 807, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 120, \"states\": 685, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 130, \"states\": 2000, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 140, \"states\": 1538, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 150, \"states\": 1821, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 160, \"states\": 1634, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 170, \"states\": 1821, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 180, \"states\": 1560, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 190, \"states\": 1871, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 200, \"states\": 1967, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 210, \"states\": 1744, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 220, \"states\": 2138, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 230, \"states\": 1628, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 240, \"states\": 1827, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 250, \"states\": 1590, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graphs\": 252, \"inputs\": 24192, \"losers\": 2396, \"eligible_pairs\": 4080, \"failed_pairs\": 0, \"unknown\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "c642c56c3c02042bee2ce393ddbf4370aaf8fb6ebf61808ad5dd03d374693187"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddchallenge_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.9060000000026776,
+    "peak_working_set_bytes": 19103744,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 252, \"independently_checked_states\": 321804, \"negative_states\": 184453, \"legal_dependency_moves\": 603635, \"eligible_pairs\": 4080, \"failed_pairs\": 0, \"first_failures\": [], \"all_complete_keys_and_certificates_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "b441ec683e63cc1d284736af429e0651c7bcc97f0d38ae9f815343b4e9b77c21"
+  }
+]

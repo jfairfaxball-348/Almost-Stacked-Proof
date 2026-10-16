@@ -1,0 +1,19 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_15.md": "fc565458138a4db638aedd5f6638e358cb1f2f64f88c391009f0ce954a3234e7",
+    "sessions\\S014\\PLAN_AMENDMENT_15.sha256": "060088139a98deb4aee91391f486d3ddecb5e476024289a5a76ba037a57f7b1b",
+    "evidence/S014/regular/ray_inputs.json": "94fbb6f0d2c1b891647687dc58aca12e4e96222ecfaee17e93ac2a4fd9516434",
+    "tools/s014_regular_rays.py": "3817acb7ca18ce380a904e21f999e692d195bf8d9829132826aab12f44fb868b",
+    "tools/s014_regular_rays_verify.py": "3114ad8648aab1f8aa8475a8263d9d245d10497c1811d6d04f3aac5bc0f9d635",
+    "tools/s014_regular_threshold.py": "3c876040ecd1df8bcebccacb301093b715bba095eb2673b0870f6938c9721a39",
+    "tools/s014_regular_threshold_verify.py": "03471c6aa14cd0bd11834229c7b7cd30df74901f42a6709e06d8ade68bf2e642",
+    "tools/s014_regular_run.py": "30a957ce3da16c58822d51075f714d40c87368cabd29934764f450191acd72b0",
+    "tools/s014_rays.py": "7f64936f367e2b77559fc49c61df15c9e027c743876592da56e7fb3c40300de4",
+    "tools/s014_rays_verify.py": "48deec21edecc562d2f77da0c0567c9901aba6da4739b1ebe3b0f860be5892ff",
+    "tools/s014_threshold.py": "db0748f75d1ed693302309c3bf6c047272a519882c969c099bba49f68fb63c57",
+    "tools/s014_threshold_verify.py": "ea4670f167cc29ca6b7fb0c64bc3b472fceee8db72e3dd207351fb42ede6f2c3",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

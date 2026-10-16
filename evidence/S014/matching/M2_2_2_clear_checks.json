@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_matching_threshold.py",
+      "M2_2_2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3129999999946449,
+    "peak_working_set_bytes": 35602432,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 8, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 28, \"losers\": 28, \"AS_losers\": 28, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 120, \"losers\": 92, \"AS_losers\": 92, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 320, \"losers\": 194, \"AS_losers\": 190, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 736, \"losers\": 364, \"AS_losers\": 360, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 1325, \"losers\": 600, \"AS_losers\": 462, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 2240, \"losers\": 772, \"AS_losers\": 444, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 3362, \"losers\": 880, \"AS_losers\": 375, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 4596, \"losers\": 920, \"AS_losers\": 264, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 5605, \"losers\": 708, \"AS_losers\": 146, \"Q\": 54}\r\n{\"mass\": 11, \"candidates\": 5634, \"losers\": 472, \"AS_losers\": 88, \"Q\": 83}\r\n{\"mass\": 12, \"candidates\": 4751, \"losers\": 271, \"AS_losers\": 50, \"Q\": 122}\r\n{\"mass\": 13, \"candidates\": 2974, \"losers\": 68, \"AS_losers\": 16, \"Q\": 85}\r\n{\"mass\": 14, \"candidates\": 845, \"losers\": 5, \"AS_losers\": 2, \"Q\": 86}\r\n{\"mass\": 15, \"candidates\": 80, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"last_complete_mass\": 15, \"certificate_sha256\": \"b28ec8d31583a451fe63972a6f1a576fb30ffeb9f1e240244e0e4a4bb9b19a97\"}\r\n",
+    "stderr": "",
+    "code_sha256": "5e62b11214df6cdb2d3d13f8e0e141fbfa4321f4f519c3df85109271f0245bfb"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_matching_threshold_verify.py",
+      "M2_2_2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 16478208,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"M2_2_2\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"last_complete_mass\": 15, \"certified_losing_states\": 5374, \"L_AS_seen\": 14, \"L_AS_grammar\": 14, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "e4177c7e8db23cbc1c6c8caf0b989bbba399778116e9395d28d78b01510f4a8a"
+  }
+]

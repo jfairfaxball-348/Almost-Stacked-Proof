@@ -1,0 +1,724 @@
+{
+  "cases": [
+    {
+      "graph": {
+        "graph": "G1_2",
+        "n": 5,
+        "a": 1,
+        "b": 2,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 7,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 8,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G1_2",
+        "n": 5,
+        "a": 1,
+        "b": 2,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 9,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 10,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G2_2",
+        "n": 6,
+        "a": 2,
+        "b": 2,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 10,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 11,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G2_2",
+        "n": 6,
+        "a": 2,
+        "b": 2,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 12,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 13,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G2_3",
+        "n": 7,
+        "a": 2,
+        "b": 3,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 10,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 11,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G2_3",
+        "n": 7,
+        "a": 2,
+        "b": 3,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 12,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 13,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G3_3",
+        "n": 8,
+        "a": 3,
+        "b": 3,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 13,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 14,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G3_3",
+        "n": 8,
+        "a": 3,
+        "b": 3,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 15,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 16,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G3_4",
+        "n": 9,
+        "a": 3,
+        "b": 4,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 13,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 14,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "G3_4",
+        "n": 9,
+        "a": 3,
+        "b": 4,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 15,
+      "L_AS_basis": "S01370_MINIMAL_SOURCE_CLASSES_AND_TRUE_AUTOMORPHISMS_PLUS_EXACT_GRAMMAR",
+      "max_mass": 16,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    }
+  ],
+  "source_certificate_hashes": {
+    "evidence/S014/balanced/G1_2_binary_s0_rays.json.xz": "7588423057ae70d355cbcc94e01bf39471b332ee68144e78c60668c87b2948ed",
+    "evidence/S014/balanced/G1_2_binary_s0_verification.json.xz": "58d9811313554354f43b454417a0b78fb04109054ed630e3c853f789fc3d4f33",
+    "evidence/S014/balanced/G1_2_binary_s0_checks.json": "20c32371d4604681bcc9bb4a6f5fea1108bb5a55c307a702033e86fc44833a8b",
+    "evidence/S014/balanced/G1_2_binary_s1_rays.json.xz": "ee10189cb4ffd51eb0e76798adf5e09594dba02c3469c85c16e289d289e69e98",
+    "evidence/S014/balanced/G1_2_binary_s1_verification.json.xz": "77c67019c345678f70bb2817d34b2bee063caba2bf5e586495d297ce4a67ba4d",
+    "evidence/S014/balanced/G1_2_binary_s1_checks.json": "e9048afedebf9b84cd78d1a1b264fe72c5d6bef67a9c6f6145e3d0a030986943",
+    "evidence/S014/balanced/G2_2_binary_s0_rays.json.xz": "951c34e570b923ba9e5426f9a5230c2f00c1aa930f7abb17b3b1a21d49d52f38",
+    "evidence/S014/balanced/G2_2_binary_s0_verification.json.xz": "1005d45362fd5573dfae549115e560c2945141af62be908940828b6f0814ee34",
+    "evidence/S014/balanced/G2_2_binary_s0_checks.json": "7e117ab9f0f70c3636d82bce5fc2967a283882e1d3a8c9f7a8b37205462b8b8f",
+    "evidence/S014/balanced/G2_2_binary_s2_rays.json.xz": "1d28bcedc6339c8d7ab59e2aa44b1abd3154aaceada382fab83742fbe64cd698",
+    "evidence/S014/balanced/G2_2_binary_s2_verification.json.xz": "f13e2088d7c64fed0fb05ba2a55f76dc454c059d215e3b11a0c84bd303f9e096",
+    "evidence/S014/balanced/G2_2_binary_s2_checks.json": "f9f925bc09aaf438749b3c4d7542a4e59b7dfeefc6262d7a17efc2460d0aa562",
+    "evidence/S014/balanced/G2_3_binary_s0_rays.json.xz": "ab9abad4dd182223dd407272b980ba48da43e7b0f0f7de8e8b590cec0128a781",
+    "evidence/S014/balanced/G2_3_binary_s0_verification.json.xz": "9d58a7da114eeb3ab20e4017e0c8ce43231af0e88d7b04aac524fe7bb5afda4e",
+    "evidence/S014/balanced/G2_3_binary_s0_checks.json": "dacd422a927c3a472d5d3cc8666726657a3c7ae62ea8e99d6f20b21621b2b2c8",
+    "evidence/S014/balanced/G2_3_binary_s2_rays.json.xz": "9607fbe98fa59b09ca3762d5476dc6feeeff4f669e62c187b6d7cf6575cadfeb",
+    "evidence/S014/balanced/G2_3_binary_s2_verification.json.xz": "fc1a8e23c1e4f85ac6824c97b211139155ef2ed0ab54bec68d279a404b4196aa",
+    "evidence/S014/balanced/G2_3_binary_s2_checks.json": "1869268b15db9ac5be2c837e7a76afbd26afc99571962ffd3c9767ebf3f3a206",
+    "evidence/S014/balanced/G3_3_binary_s0_rays.json.xz": "5bf0bc98c3ec92701806cf020511bfc4dc4a95a054905a9a91c3f6c9706908fb",
+    "evidence/S014/balanced/G3_3_binary_s0_verification.json.xz": "ec0dc4bd8f059927f943fbe40f0f9a31237cfb5d784dcbdf535735cf781764d6",
+    "evidence/S014/balanced/G3_3_binary_s0_checks.json": "c74804fb7c92944e42ea74fded2e0618dad83b044f25664e6b488dcac9e7c4d2",
+    "evidence/S014/balanced/G3_3_binary_s3_rays.json.xz": "9a6dcb81c2bc2f7968c7d445c37330b22aa8cd61ea85326a5b2fc1f14a0f6fe2",
+    "evidence/S014/balanced/G3_3_binary_s3_verification.json.xz": "d36d45ccb6c368b347d22f71f7fd1d4585fbea46f128857de5db93c1cb6e6c1d",
+    "evidence/S014/balanced/G3_3_binary_s3_checks.json": "02e148d7dad1837c438f5f334657ff7be5e0e7dcadd0b6adce32f226ce3624b4",
+    "evidence/S014/balanced/G3_4_binary_s0_rays.json.xz": "86e2e1a01b55c7ed0e3000b92d598fedf6448c74bf18a529334764e64633f4a0",
+    "evidence/S014/balanced/G3_4_binary_s0_verification.json.xz": "e44f91a3a4210561f56c8409bb720fa7dd0508c83d67a1d99edc0b4a55fe3cc4",
+    "evidence/S014/balanced/G3_4_binary_s0_checks.json": "c3c5b9a21e01b6da92c72c960f11e82f40bbe449127a447f0452f9bf02355e19",
+    "evidence/S014/balanced/G3_4_binary_s3_rays.json.xz": "0a8efc62e5b25f45d38f3c2574302555026a90e5441bf2990cbdbe87b511e7e8",
+    "evidence/S014/balanced/G3_4_binary_s3_verification.json.xz": "dd4c2b5ba188428b3e092416e870cfebe7861bbf5c11426e047f1958a9b1fcb2",
+    "evidence/S014/balanced/G3_4_binary_s3_checks.json": "c614ab88c68694aa2195d39126ca77b0ef0dd047382f2123784f89c3f201b6e0"
+  }
+}

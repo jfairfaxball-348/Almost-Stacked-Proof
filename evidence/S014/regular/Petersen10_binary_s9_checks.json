@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_regular_rays.py",
+      "Petersen10_binary_s9"
+    ],
+    "exit_code": 0,
+    "seconds": 1.812000000005355,
+    "peak_working_set_bytes": 54333440,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"Petersen10_binary_s9\", \"cells\": 20480, \"nodes\": 49447, \"analysis\": {\"clear\": {\"max_losing_mass\": 14, \"max_nonAS_losing_mass\": -1}, \"stack\": {\"max_losing_mass\": 14, \"max_nonAS_losing_mass\": -1}}}\r\n",
+    "stderr": "",
+    "code_sha256": "3817acb7ca18ce380a904e21f999e692d195bf8d9829132826aab12f44fb868b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_regular_rays_verify.py",
+      "Petersen10_binary_s9"
+    ],
+    "exit_code": 0,
+    "seconds": 1.9060000000026776,
+    "peak_working_set_bytes": 28364800,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"Petersen10_binary_s9\", \"cells\": 20480, \"nodes\": 49447, \"production_inequalities\": 7156545, \"literal_moves\": 32, \"graph_minimal_neighborhoods\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], \"all_minima_and_infinities_certified\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "3114ad8648aab1f8aa8475a8263d9d245d10497c1811d6d04f3aac5bc0f9d635"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F4_25_A2B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.29699999999138527,
+    "peak_working_set_bytes": 36601856,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 8, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 28, \"losers\": 28, \"AS_losers\": 28, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 120, \"losers\": 90, \"AS_losers\": 90, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 317, \"losers\": 184, \"AS_losers\": 180, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 722, \"losers\": 345, \"AS_losers\": 341, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 1272, \"losers\": 539, \"AS_losers\": 409, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 2001, \"losers\": 679, \"AS_losers\": 386, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 3080, \"losers\": 849, \"AS_losers\": 358, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 4213, \"losers\": 938, \"AS_losers\": 204, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 4972, \"losers\": 765, \"AS_losers\": 140, \"Q\": 54}\r\n{\"mass\": 11, \"candidates\": 5468, \"losers\": 735, \"AS_losers\": 99, \"Q\": 83}\r\n{\"mass\": 12, \"candidates\": 6011, \"losers\": 611, \"AS_losers\": 47, \"Q\": 122}\r\n{\"mass\": 13, \"candidates\": 5379, \"losers\": 280, \"AS_losers\": 20, \"Q\": 85}\r\n{\"mass\": 14, \"candidates\": 3780, \"losers\": 210, \"AS_losers\": 15, \"Q\": 86}\r\n{\"mass\": 15, \"candidates\": 3066, \"losers\": 126, \"AS_losers\": 5, \"Q\": 125}\r\n{\"mass\": 16, \"candidates\": 1638, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 16, \"last_complete_mass\": 16, \"certificate_sha256\": \"8a1757aab0ab0177a0127629b2d70e8a04b133a48cdee5d1ab3222fcb3c2a440\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F4_25_A2B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21899999999732245,
+    "peak_working_set_bytes": 18595840,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F4_25_A2B2\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 16, \"last_complete_mass\": 16, \"certified_losing_states\": 6379, \"L_AS_seen\": 15, \"proposed_L_AS\": 15, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

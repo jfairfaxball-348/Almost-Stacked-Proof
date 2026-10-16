@@ -1,0 +1,17 @@
+{
+  "status": "GLOBAL_STATE_CAP_UNKNOWN",
+  "candidates_checked": 2158,
+  "winning_inputs": 2157,
+  "unknown": 1,
+  "verified_states": 2000000,
+  "literal_AS_anchors": 341,
+  "literal_moves": 2448,
+  "exact_AS_negative_anchors": 439137,
+  "ordinary_negative_states": 1531785,
+  "triple_macros": 11983,
+  "verified_legal_dependencies": 14409950,
+  "potential": [],
+  "all_completed_answers_certified": true,
+  "scope": "Frozen general inputs only; potential requires fresh cold audit, winning samples prove no full threshold",
+  "seconds": 31.59299999999348
+}

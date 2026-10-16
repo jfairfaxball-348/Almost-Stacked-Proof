@@ -1,0 +1,482 @@
+{
+  "graphs": [
+    {
+      "graph": "theta334",
+      "n": 9,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "graph": "barbell55",
+      "n": 10,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          0,
+          5
+        ]
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "theta334_binary_s0",
+      "graph": "theta334",
+      "source": 0,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s1",
+      "graph": "theta334",
+      "source": 1,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s2",
+      "graph": "theta334",
+      "source": 2,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s3",
+      "graph": "theta334",
+      "source": 3,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s4",
+      "graph": "theta334",
+      "source": 4,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s5",
+      "graph": "theta334",
+      "source": 5,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s6",
+      "graph": "theta334",
+      "source": 6,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s7",
+      "graph": "theta334",
+      "source": 7,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_binary_s8",
+      "graph": "theta334",
+      "source": 8,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s0",
+      "graph": "barbell55",
+      "source": 0,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s1",
+      "graph": "barbell55",
+      "source": 1,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s2",
+      "graph": "barbell55",
+      "source": 2,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s3",
+      "graph": "barbell55",
+      "source": 3,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s4",
+      "graph": "barbell55",
+      "source": 4,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s5",
+      "graph": "barbell55",
+      "source": 5,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s6",
+      "graph": "barbell55",
+      "source": 6,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s7",
+      "graph": "barbell55",
+      "source": 7,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s8",
+      "graph": "barbell55",
+      "source": 8,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "barbell55_binary_s9",
+      "graph": "barbell55",
+      "source": 9,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS"
+    },
+    {
+      "id": "theta334_mixed_s0_t1",
+      "graph": "theta334",
+      "source": 0,
+      "box": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "SECOND_DONOR_0_TO_3_OTHER_BITS"
+    },
+    {
+      "id": "theta334_mixed_s2_t4",
+      "graph": "theta334",
+      "source": 2,
+      "box": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "SECOND_DONOR_0_TO_3_OTHER_BITS"
+    },
+    {
+      "id": "barbell55_mixed_s1_t6",
+      "graph": "barbell55",
+      "source": 1,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "scope": "SECOND_DONOR_0_TO_3_OTHER_BITS"
+    },
+    {
+      "id": "barbell55_mixed_s0_t5",
+      "graph": "barbell55",
+      "source": 0,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "SECOND_DONOR_0_TO_3_OTHER_BITS"
+    }
+  ]
+}

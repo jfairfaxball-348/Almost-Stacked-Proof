@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F3_7_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09399999999732245,
+    "peak_working_set_bytes": 2088960,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 5, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 10, \"losers\": 10, \"AS_losers\": 10, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 34, \"losers\": 16, \"AS_losers\": 16, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 58, \"losers\": 23, \"AS_losers\": 23, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 83, \"losers\": 23, \"AS_losers\": 23, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 103, \"losers\": 17, \"AS_losers\": 14, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 94, \"losers\": 4, \"AS_losers\": 4, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 29, \"losers\": 1, \"AS_losers\": 1, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 10, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 9, \"last_complete_mass\": 9, \"certificate_sha256\": \"aabdb066b287a94ee027108a9a47631e1b1949fd8cd3bfe6d0f72c914c4e608e\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F3_7_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10900000001129229,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F3_7_A1B1\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 9, \"last_complete_mass\": 9, \"certified_losing_states\": 94, \"L_AS_seen\": 8, \"proposed_L_AS\": 8, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

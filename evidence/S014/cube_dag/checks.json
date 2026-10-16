@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_dag_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 44.671999999991385,
+    "peak_working_set_bytes": 238972928,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_AS_TAIL_UPPER31\", \"completed_masks\": 32768, \"nodes\": 1572864, \"first_missing\": null, \"seconds\": 44.39000000001397, \"scope\": \"Positive witnesses only; missing witness does not prove loss\"}\r\n",
+    "stderr": "",
+    "code_sha256": "9c2267cf2c21f593a5680cc2ed8401fbb629c53eabcc71391c588f21c9dce709"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_dag_verify.py"
+    ],
+    "exit_code": 1,
+    "seconds": 0.8120000000053551,
+    "peak_working_set_bytes": 53485568,
+    "resource_failure": null,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Almost-Stacked-Proof\\tools\\s014_cube_dag_verify.py\", line 27, in <module>\r\n    elif k==4:assert cost[i]==anycost(mask,q)+P[q]\r\n                              ^^^^^^^^^^^^^^^\r\n  File \"C:\\Almost-Stacked-Proof\\tools\\s014_cube_dag_verify.py\", line 13, in anycost\r\n    def anycost(mask,q):return 0 if mask==(1<<(q-1)) and q>0 else cost[idx(mask,0,q)]\r\n                                           ~^^~~~~~\r\nValueError: negative shift count\r\n",
+    "code_sha256": "ed255c8ff35c3a42d698183e3140b66a5bd9e18a925eff83e50f9954a071d603"
+  }
+]

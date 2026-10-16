@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-15T12:16:13.497325+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "invocation_sha256": "4c0f8872ad1d6930cb28b29da3601f6d096b9d543b2ea2c5c804e6b7f6a4c2b8",
+  "steering_sha256": "334d19318db4eaea17f0aa5239c0c819a31e5b81c665d45fd67f819873fd31d4",
+  "plan_sha256": "162a3ffa79f699f7b9bed1444a5d9729a316aa52040df62abe054c5a671115b1",
+  "machine": "16 logical processors,16866881536 physical bytes; starting per-process2GiB cap",
+  "note": "Byte/schema ingestion is not proof inspection."
+}

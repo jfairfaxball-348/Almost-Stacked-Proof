@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_book_threshold.py",
+      "book_star_4",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 33411072,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 7, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 21, \"losers\": 21, \"AS_losers\": 21, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 84, \"losers\": 58, \"AS_losers\": 58, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 197, \"losers\": 96, \"AS_losers\": 92, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 411, \"losers\": 158, \"AS_losers\": 152, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 659, \"losers\": 185, \"AS_losers\": 131, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 788, \"losers\": 169, \"AS_losers\": 93, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 973, \"losers\": 173, \"AS_losers\": 80, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 1198, \"losers\": 151, \"AS_losers\": 33, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 1184, \"losers\": 80, \"AS_losers\": 16, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 960, \"losers\": 60, \"AS_losers\": 12, \"Q\": 53}\r\n{\"mass\": 12, \"candidates\": 795, \"losers\": 35, \"AS_losers\": 4, \"Q\": 84}\r\n{\"mass\": 13, \"candidates\": 420, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 13, \"last_complete_mass\": 13, \"certificate_sha256\": \"e945d432a71879fc8bc09cc19c1eedcd204eae75acdb4f163100ed88836269f7\"}\r\n",
+    "stderr": "",
+    "code_sha256": "0525ded9d4b8bc9f43b9809a917e9ea2842c68761791cffe76b6bd622db8d686"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_book_verify.py",
+      "book_star_4",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 16121856,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"book_star_4\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 13, \"last_complete_mass\": 13, \"certified_losing_states\": 1186, \"L_AS_seen\": 12, \"L_AS_grammar\": 12, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "2c0f9363af6415de042b078cc51f30e522118a4e4bc9fc266b22fd03cd08a9c6"
+  }
+]

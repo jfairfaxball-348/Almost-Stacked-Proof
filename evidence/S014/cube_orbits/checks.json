@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_orbits_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 36.828000000008615,
+    "peak_working_set_bytes": 447832064,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_REGISTERED_CASES\", \"candidates\": 9783, \"completed\": 9783, \"winners\": 9783, \"unknown\": 0, \"states\": 872261, \"literal_AS_anchors\": 757, \"potential\": null, \"seconds\": 36.312000000005355, \"scope\": \"Only frozen candidates; no general threshold from winning samples\"}\r\n",
+    "stderr": "",
+    "code_sha256": "54ee7cb7e525ebe35e611edfe4be9a32641f537ab4375377e5abcf2e0d5a8ace"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_orbits_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 59.125,
+    "peak_working_set_bytes": 384069632,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_REGISTERED_CASES\", \"candidates_checked\": 9783, \"winning_inputs\": 9783, \"unknown\": 0, \"verified_states\": 872261, \"literal_AS_anchors\": 757, \"literal_moves\": 7309, \"exact_AS_negative_anchors\": 61941, \"ordinary_negative_states\": 704843, \"triple_macros\": 50270, \"verified_legal_dependencies\": 7653737, \"potential\": [], \"all_completed_answers_certified\": true, \"scope\": \"Frozen general inputs only; potential requires fresh cold audit, winning samples prove no full threshold\", \"seconds\": 58.84299999999348}\r\n",
+    "stderr": "",
+    "code_sha256": "829195adbf7b9a35b864bfbddc79ebe692b0a9f6e88d66711b96371b32debe04"
+  }
+]

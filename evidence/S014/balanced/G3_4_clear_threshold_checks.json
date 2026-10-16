@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_balanced_threshold.py",
+      "G3_4",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40599999998812564,
+    "peak_working_set_bytes": 36495360,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 9, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 36, \"losers\": 36, \"AS_losers\": 36, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 165, \"losers\": 123, \"AS_losers\": 123, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 477, \"losers\": 276, \"AS_losers\": 264, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 1205, \"losers\": 582, \"AS_losers\": 552, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 2443, \"losers\": 925, \"AS_losers\": 672, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 4660, \"losers\": 1263, \"AS_losers\": 766, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 7146, \"losers\": 1439, \"AS_losers\": 571, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 10327, \"losers\": 1362, \"AS_losers\": 350, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 11965, \"losers\": 1058, \"AS_losers\": 197, \"Q\": 54}\r\n{\"mass\": 11, \"candidates\": 11684, \"losers\": 745, \"AS_losers\": 114, \"Q\": 83}\r\n{\"mass\": 12, \"candidates\": 9084, \"losers\": 408, \"AS_losers\": 45, \"Q\": 122}\r\n{\"mass\": 13, \"candidates\": 4877, \"losers\": 165, \"AS_losers\": 21, \"Q\": 87}\r\n{\"mass\": 14, \"candidates\": 2064, \"losers\": 84, \"AS_losers\": 12, \"Q\": 124}\r\n{\"mass\": 15, \"candidates\": 1078, \"losers\": 28, \"AS_losers\": 3, \"Q\": 171}\r\n{\"mass\": 16, \"candidates\": 336, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 16, \"last_complete_mass\": 16, \"certificate_sha256\": \"86fe11fec198fc408f853753f21057eac0708abaf06b218b7f4111032b33b780\"}\r\n",
+    "stderr": "",
+    "code_sha256": "9a40b286a084fb8a73758d6b4a10fe17e6c8760a941c0f20f4eef65bf49a770c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_balanced_threshold_verify.py",
+      "G3_4",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3130000000091968,
+    "peak_working_set_bytes": 17702912,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"G3_4\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 16, \"last_complete_mass\": 16, \"certified_losing_states\": 8494, \"L_AS_seen\": 15, \"L_AS_grammar\": 15, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "8be5c332f83f0fc97b332d18cda2eb1746d7e3b92100a3522a0c92336af298c9"
+  }
+]

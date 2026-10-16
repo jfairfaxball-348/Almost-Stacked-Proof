@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_weights.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2146304,
+    "resource_failure": null,
+    "stdout": "{\"full_labeled_F\": 50, \"all_theta_and_W_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "67e88d6c2e0e306f263fd1c94f838552651e40e2992ecf72f64eeb39f4b42438"
+  }
+]

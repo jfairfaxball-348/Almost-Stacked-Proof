@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_cegis.py",
+      "P038"
+    ],
+    "exit_code": 0,
+    "seconds": 18.76500000001397,
+    "peak_working_set_bytes": 46952448,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P038\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 3390, \"base_clauses\": 3453, \"stabilizer_size\": 1, \"clauses\": 3453, \"seconds\": 18.59399999998277, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1dde2ec02d59032080bea2df88467c3d6538074d04ddb483ab5ef17b45a65e8d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_verify.py",
+      "P038"
+    ],
+    "exit_code": 0,
+    "seconds": 1.4060000000172295,
+    "peak_working_set_bytes": 30334976,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P038\", \"clauses\": 3453, \"c_winning_trace_clauses\": 3081, \"AS_negative_clauses\": 294, \"AS_closure_states\": 146845, \"literal_c_winning_moves\": 27632, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P038\", \"graph_certificate_records\": 3453, \"distinct_graph_clauses\": 3453, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "4abc2ddaa5802c6fdabbf4cbfb6993dd351c10238b7a6d4348b18bdd4c4757ca"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\mass11_cegis\\P038\\formula.cnf",
+      "evidence\\S014\\mass11_cegis\\P038\\proof.drup",
+      "-L",
+      "evidence\\S014\\mass11_lrat\\P038\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10999999998603016,
+    "peak_working_set_bytes": 1884160,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 144 variables and 3937 clauses\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 1830 of 3937 clauses in core                            \r\n\rc 1261 of 1353 lemmas in core using 39853 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.080 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "4dc19a2f7828442c73d55bb65a67cf2116264fec30a6b0d3933e4f9a6f1add63"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_lrat_verify.py",
+      "P038"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 20221952,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P038\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 1261, \"deleted_clause_ids\": 5140, \"hint_visits\": 39853, \"seconds\": 0.0629999999946449}\r\n",
+    "stderr": "",
+    "code_sha256": "375e31c2030a6ec078821a159fd27d8a2530c29a0ac19f13c010b6625671648a"
+  }
+]

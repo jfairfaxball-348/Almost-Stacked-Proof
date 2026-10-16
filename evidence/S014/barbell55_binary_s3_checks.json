@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_rays.py",
+      "barbell55_binary_s3"
+    ],
+    "exit_code": 0,
+    "seconds": 1.812000000005355,
+    "peak_working_set_bytes": 61337600,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"barbell55_binary_s3\", \"cells\": 20480, \"nodes\": 62053, \"analysis\": {\"clear\": {\"max_losing_mass\": 47, \"max_nonAS_losing_mass\": -1}, \"stack\": {\"max_losing_mass\": 47, \"max_nonAS_losing_mass\": -1}}}\r\n",
+    "stderr": "",
+    "code_sha256": "7f64936f367e2b77559fc49c61df15c9e027c743876592da56e7fb3c40300de4"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_rays_verify.py",
+      "barbell55_binary_s3"
+    ],
+    "exit_code": 0,
+    "seconds": 1.812999999994645,
+    "peak_working_set_bytes": 32849920,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"barbell55_binary_s3\", \"cells\": 20480, \"nodes\": 62053, \"production_inequalities\": 5728617, \"literal_moves\": 98, \"graph_minimal_neighborhoods\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], \"all_minima_and_infinities_certified\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "48deec21edecc562d2f77da0c0567c9901aba6da4739b1ebe3b0f860be5892ff"
+  }
+]

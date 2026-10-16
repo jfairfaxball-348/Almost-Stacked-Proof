@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c076_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 6.76600000000326,
+    "peak_working_set_bytes": 126210048,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 142, \"states\": 102483, \"records\": 83376, \"extensions\": 145073, \"failures\": 515}\r\n",
+    "stderr": "",
+    "code_sha256": "baa3f116e0d7e0a88d61ca818e2f763c2325d4c5014e535171f0ad9e6644ff98"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c076_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 7.469000000011874,
+    "peak_working_set_bytes": 90828800,
+    "resource_failure": null,
+    "stdout": "{\"all_input_neighbor_inventories_and_memberships_equal\": true, \"cases\": 142, \"bipartite_cases\": 27, \"states\": 102483, \"records\": 83376, \"extensions\": 145073, \"failed_input_vertex_pairs\": 515, \"failures_at_pile2\": 74, \"failures_at_actual_critical_mass\": 0, \"scope\": \"Finite challenge of unproved some-neighbor strengthening;114b unchanged; universal ASH* OPEN\", \"seconds\": 6.437000000005355}\r\n",
+    "stderr": "",
+    "code_sha256": "d9d3f76f978ccbfbb14f2bac440b6f0192fc8625649eb4b2cd1f580fad7115c7"
+  }
+]

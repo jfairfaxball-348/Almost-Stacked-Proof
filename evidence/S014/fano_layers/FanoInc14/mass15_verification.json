@@ -1,0 +1,14 @@
+{
+  "graph": "FanoInc14",
+  "group_size": 336,
+  "n": 14,
+  "mass": 15,
+  "status": "COMPLETE_LAYER_VERIFIED",
+  "all_full_orbit_losing_sets_equal": true,
+  "loser_orbits": 7284,
+  "checker_candidates": 18782,
+  "canonical_first_parent_instances": 18782,
+  "exact_AS_oracle_calls": 235,
+  "seconds": 37.75,
+  "scope": "Full XOR-orbit layer only if equality flag true; no universal ASH* inference"
+}

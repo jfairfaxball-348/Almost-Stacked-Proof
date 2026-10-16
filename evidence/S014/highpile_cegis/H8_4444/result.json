@@ -1,0 +1,37 @@
+{
+  "case": {
+    "id": "H8_4444",
+    "n": 8,
+    "c": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4
+    ],
+    "source": "evidence/S014/highpile_cegis/sources/H8_4444",
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "control": false
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 1114,
+  "base_clauses": 1237,
+  "stabilizer_size": 1,
+  "clauses": 1237,
+  "seconds": 13.922000000020489,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

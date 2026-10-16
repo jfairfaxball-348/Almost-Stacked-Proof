@@ -1,0 +1,51 @@
+{
+  "status": "H_UP2_AUXILIARY_REFUTED",
+  "complete_tested_prefix_verified": true,
+  "cases": 18,
+  "inputs": 2946,
+  "parsed_states": 5173,
+  "failed_inputs": 1,
+  "first_failure": {
+    "case": {
+      "id": "A17",
+      "n": 5,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0008_stack.summary.json",
+      "certificate": "evidence/S005/A5_0008_stack.bin.xz"
+    },
+    "c": [
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "mass": 7,
+    "candidates": 12
+  },
+  "independently_checked_failed_candidates": 12,
+  "scope": "Only finite H_up2 challenge; universal ASH* OPEN",
+  "seconds": 0.046999999991385266
+}

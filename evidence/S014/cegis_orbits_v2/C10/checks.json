@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_v2.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 8.75,
+    "peak_working_set_bytes": 360714240,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"status\": \"CLAUSE_CAP_UNKNOWN\", \"iterations\": 0, \"base_clauses\": 5010, \"stabilizer_size\": 1440, \"clauses\": 500000, \"seconds\": 8.26600000000326, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1ff2434b8cd41daff20e0f8285770aa47bd0af6c0ebe8255e3d0e918f646767b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_verify_v2.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 2.7030000000086147,
+    "peak_working_set_bytes": 106684416,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"clauses\": 5010, \"c_winning_trace_clauses\": 4991, \"AS_negative_clauses\": 2, \"AS_closure_states\": 7444, \"literal_c_winning_moves\": 74812, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"C10\", \"base_clauses\": 5010, \"stabilizer_size\": 1440, \"expanded_clauses\": 500000, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"scope\": \"Only fixed input graph class, independent literal clause provenance\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1207e93c1575b549139a1f03a9a7c538388a388b56b0ec6534b4ab18e6742ea8"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_drup_v2.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"solver_status\": \"CLAUSE_CAP_UNKNOWN\", \"fixed_input_class_exclusion_certified\": false, \"scope\": \"No UNSAT claim; bounded search/certificates only\"}\r\n",
+    "stderr": "",
+    "code_sha256": "df52f22f47b0d45b32467dbb63c4a7d8dcb3b2cf53f489197f732db3a69339b2"
+  }
+]

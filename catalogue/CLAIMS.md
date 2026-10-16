@@ -132,3 +132,249 @@ Universal STACK/CLEAR OPEN; symbolic proof, finite computation, source and novel
 | CLM-0126 | COMPUTED_EXACT | CAM-S013-01 historical11970 n7/n8 records:10858 both-exact pairs,1112 unknown/ineligible pairs retained,114 genuine gap1 pairs. No new threshold/atlas/global inference. | SRC-0047, SRC-0049 |
 | CLM-0127 | COMPUTED_EXACT | CAM-S013-05 independently validates12345 private-exit certificates/111047 literal moves and85604 adjacent small-transfer THREE exclusions on eleven complete boxes; no universal inference. | SRC-0047, SRC-0049 |
 | CLM-0128 | COMPUTED_EXACT | CAM-S013-06 all134 losing layers>=4/614 Q-P extremizers/17 exact restricted-max comparisons agree; conditional68 applies to F2 in this finite box. Universal STACK/CLEAR remain OPEN. | SRC-0047, SRC-0049 |
+
+| CLM-0129 | COMPUTED_EXACT | CAM-S014-01 two independent complete diagnostics agree on full GLOBAL Q/Q-P selected sets from44 positive-gap historical critical CLEAR layers plus four existing controls: every selected maximizer has no heavy triangular vertex and is AS. No new threshold or universal inference; gap1 candidate C14 UNPROVED. | SRC-0051 |
+
+| CLM-0130 | COMPUTED_EXACT | S014 stated-scope cold challenge63-70 and required dependency chain survives;24 unchanged inherited check-only replays PASS and historical bytes preserved. Local mathematical review and finite algorithms are not human/kernel certification. | SRC-0051, SRC-0047 |
+
+| CLM-0131 | PROGRAMME_PROVED | S01471: Protected capacitated multiple-donor reconstruction is equivalent to EVERY donor-subset Hall inequality on true heads, with a reserved simple root path. GLOBAL Q losers force deficiencies, not a universal contradiction. | SRC-0052 |
+
+| CLM-0132 | PROGRAMME_PROVED | S01472: Every adjacent1/2 transfer from a stackable CLEAR loser CLEARs; its THREE roots remain absent. The proposed triangular loss-transfer shortcut is false. | SRC-0052 |
+
+| CLM-0133 | PROGRAMME_PROVED | S01473: If retaining3 at an occupied triangular root leaves a whole input that STACKs, the original input CLEARs. | SRC-0052 |
+
+| CLM-0134 | PROGRAMME_PROVED | S01474: Input on a complete-bipartite subgraph with all initial heavy sites ambient-triangular CLEARs at mass>=3alpha(occupied support)+4, by a complete all-input case proof. | SRC-0052 |
+
+| CLM-0135 | PROGRAMME_PROVED | S01475: If every vertex is triangular and every nontrivial nontriangle-edge component is complete bipartite, CLEAR=STACK. A same-graph STACK AS witness transfers if available. | SRC-0052 |
+
+| CLM-0136 | PROGRAMME_PROVED | S01476: Every input of mass>=10 on adjacent sites, at least one triangular, CLEARs, with all parities and zero-root cases covered. | SRC-0052 |
+
+| CLM-0137 | PROGRAMME_PROVED | S01477: CLEAR=STACK when each nontrivial nontriangle-edge component satisfies75 or is K(a,b), b>=a+2, with an actual external common neighbor of B; A need not be triangular. | SRC-0052 |
+
+| CLM-0138 | PROGRAMME_PROVED | S01478: K(k,3) plus one edge in the size-three part has both thresholds3k+1 and both ASH* for all k>=3, using the credited independent-set AS witness. | SRC-0052 |
+
+| CLM-0139 | PROGRAMME_PROVED | S01479: For a,b>=1 the exact one-edge buffer join has STACK=max(3b+1,3a+5), CLEAR=max(3b+1,3a+7), both ASH*. Earlier F_a and known bounds/primitives retain credit. | SRC-0052 |
+
+| CLM-0140 | PROGRAMME_PROVED | S01480: For a,b>=1,m>=2 the matching-buffer join has STACK=CLEAR=max(3b+1,3a+4m+1), with explicit all-target AS critical witnesses and both ASH*. | SRC-0052 |
+
+| CLM-0141 | PROGRAMME_PROVED | S01481: An initially binary region U with I single arrivals/O pair exits satisfies theta(U)<=2I-O if emptied, and <=2I-O-1 for one terminal pile whose root starts empty or has incoming. Complete causal first-firing proof includes repeated/zero sites. | SRC-0052 |
+
+| CLM-0142 | PROGRAMME_PROVED | S01482: For J(a,b,F), a,b>=1,F nonempty/no isolates, n=a+b+|F|,W=max_U(|U|+2theta(F[U])), STACK=S=max(n+1,3b+1,3a+W+1), CLEAR=max(S,3a+7). Both ASH* on this full arbitrary-buffer join class, not arbitrary graphs. | SRC-0052 |
+
+| CLM-0143 | PROGRAMME_PROVED | S01483: For ANY finite simple graph of order>=2,N>=1, STACKability of N at r plus binary U implies N>=theta(G[U])+1. With UNIVERSAL r this is iff, giving rooted AS maximum max_U(|U|+theta(G[U])), not full graph threshold. | SRC-0052 |
+
+| CLM-0144 | PROGRAMME_PROVED | S01484: Inside82, positive CLEAR-STACK gap occurs exactly for b<=a+1,F=K2 (gap2) or K3 (gap1); ALL critical CLEAR losers there have only nontriangular heavy sites. Universal gap1 C14 remains unproved. | SRC-0052 |
+
+| CLM-0145 | COMPUTED_EXACT | CAM02: 2087 matching cases/2210 reservations/114 complete reconstructions;127 of127 triangular loss-transfer tests fail, with independently checked selected negative closures. Proper-subset Hall obstructions retained. No universal extrapolation. | SRC-0053 |
+
+| CLM-0146 | COMPUTED_EXACT | CAM03-04: Complete unbounded binary source rays plus independent full general losing layers certify theta334 STACK25/CLEAR27 and barbell55 STACK48/CLEAR48. All critical losers on these four cases AS; mixed source boxes remain limited. No universal extrapolation. | SRC-0053 |
+
+| CLM-0147 | COMPUTED_EXACT | CAM05-06: Whole-pile swaps fail1846 of10240 tests, including71 GLOBAL-Q CLEAR cases; triangular split fails3 of176 tests. Selected complete negative closures and winning traces independently checked; weaker critical variants unproved. No universal extrapolation. | SRC-0053 |
+
+| CLM-0148 | COMPUTED_EXACT | CAM07-10: Seven complete-bipartite triangular construction challenges, four book examples, seven balanced exact AS ray examples/ten general thresholds and7620 literal one-edge AS histories all pass at their fixed scopes. No universal extrapolation. | SRC-0053 |
+
+| CLM-0149 | COMPUTED_EXACT | CAM11: Fourteen matching-buffer full threshold comparisons,66144 literal STACK histories/552534 moves and explicit AS witnesses pass independently. No universal extrapolation. | SRC-0053 |
+
+| CLM-0150 | COMPUTED_EXACT | CAM12: Two full W/path-cover algorithms agree on50 prescribed labeled F graphs, giving146 join graphs/292 goal comparisons:146 exact STACK endpoints match82;286 goal endpoints exact, six CLEAR initially incomplete at STACK cutoff. No universal extrapolation. | SRC-0053 |
+
+| CLM-0151 | COMPUTED_EXACT | CAM13: All66642 boundary cells/11625 terminal histories/10033 true path covers agree independently; six earlier CLEAR cutoffs separately completed with old layers unchanged;228 explicit STACK AS witnesses checked across146 graphs. No universal extrapolation. | SRC-0053 |
+
+| CLM-0152 | COMPUTED_EXACT | CAM14: All198320 arbitrary-buffer literal STACK histories/2046597 moves pass independently, including180224 n16 histories with order bound17 strictly dominating both other lower terms16. No universal extrapolation. | SRC-0053 |
+
+| CLM-0153 | PROGRAMME_PROVED | S01485: Inside a fixed-parity losing layer of mass>=4, Q/P-selected heavies have incomparable open neighborhoods; any strictly nonminimal heavy must be ODD and every smaller-neighborhood site EMPTY. Global67 can change parity and cannot be silently reused in that simplex. | SRC-0054 |
+
+| CLM-0154 | PROGRAMME_PROVED | S01486: An AS input pushed through any same-graph endomorphism has at most one coordinate>alpha(G), since all other fibers are independent binary sets. Thus the two alpha2 critical examples with two3-piles admit no endomorphic AS lift. | SRC-0054 |
+
+| CLM-0155 | COMPUTED_EXACT | CAM15: ALL26 source rays/six general comparisons certify Q3plus03 thresholds15/15, Wagner8 11/11, Petersen10 15/15; every open neighborhood minimal, every critical Q/Q-P maximum AS. No universal extrapolation. | SRC-0054 |
+
+| CLM-0156 | COMPUTED_EXACT | CAM16: All256 parity-preserving AS candidates for32 non-AS Wagner goal/input pairs checked,1716 literal winning moves; every input has a related parity-class AS loser. Bounded positive pattern only. No universal extrapolation. | SRC-0054 |
+
+| CLM-0157 | COMPUTED_EXACT | CAM17: Fixed343 goal cases/1043 non-AS critical inputs: two ALL-receiver fixed-parity failures and eight heavy-receiver failures. Original schema KeyError/code/log preserved; separate hashed v2 metadata-only repair passes. No universal extrapolation. | SRC-0054 |
+
+| CLM-0158 | COMPUTED_EXACT | CAM18: Two exact critical parity obstructions independently recomputed through threshold9, every old layer preserved;161 complete negative states/12 same-parity AS winners/72 moves checked. Critical non-AS loser isolated under every unit redistribution; alpha2 blocks endomorphic AS lift. No universal extrapolation. | SRC-0054 |
+
+| CLM-0159 | COMPUTED_EXACT | CAM19: Fixed343-case odd-shift diagnostic:34 true-head transforms/14 eligible critical inputs,28 losing outputs. Each input has some losing output; six ORDERED-pair variants fail. Smaller-donor22-pair filter is post-data finite support, not a universal theorem. No universal extrapolation. | SRC-0054 |
+
+| CLM-0160 | PROGRAMME_PROVED | S01487: For d=c-3h*s+(3h-1)*t+v on true edges st,sv, a winning m with h copies t->s reconstructs c by replacing those with(h-1)s->t and s->v if q=t or a t-to-q path survives. Loss forces multiplicity/essential-cut bounds; includes even donor6, no global AS conclusion. | SRC-0055 |
+
+| CLM-0161 | PROGRAMME_PROVED | S01488: Bipartite globally largest STACK losers have signed mass0; an a-donor true-head shift changes it by a*epsilon_s mod3. If3 does not divide a, every such shift wins whenever its critical input exists. Same-root/same-pile count surgery is impossible in those residues; no existence or ASH* refutation claimed. | SRC-0055 |
+
+| CLM-0162 | COMPUTED_EXACT | CAM20:252 labeled graphs/24192 inputs,4080 eligible smaller donor3 pairs all have a losing shift. Independent DAG checker validates321804 states/184453 full negative states/603635 legal dependencies. No universal extrapolation. | SRC-0056 |
+
+| CLM-0163 | COMPUTED_EXACT | CAM21 v2:3710 labeled connected n6 graphs/267120 inputs,9484 eligible losing pairs,583 all-shift-winning failures. Independent DAG checker validates2129306 states/3092719 dependencies. Generic smaller-odd-donor loss preservation false; original pipe interruption and passing repair retained. | SRC-0056 |
+
+| CLM-0164 | COMPUTED_EXACT | CAM22/23: six preselected graph controls have exact STACK thresholds25,36,36,40,15,13; independent full sets and1800 negative-closure states/56 transformed winning moves checked.259 of583 failures satisfy minimal-heavy residual restriction; all selected failures below critical/global-layer Q. | SRC-0056 |
+
+| CLM-0165 | COMPUTED_EXACT | CAM24: independently compared1878298 full losing states on ALL215 labeled graphs underlying583 head-shift failures. NONE is critical or layer-global Q; every graph has L_all=L_AS. The universal critical/global-Q weakening remains unproved. | SRC-0056 |
+
+| CLM-0166 | PROGRAMME_PROVED | S01489: minimize heavy count first, then maximize Q/minimize degree P on a losing layer M>=4; selected heavy neighborhoods are minimal and incomparable. Zero relocation uses the correct endomorphism direction d->c. Fewer-heavy same-mass candidates must win at a hypothetical counterexample; no universal AS selection proved. | SRC-0057 |
+
+| CLM-0167 | COMPUTED_EXACT | CAM25:252 full general threshold comparisons,508929 losing states;4 ordered-pair failures at2 actual critical inputs refute smaller odd private-head input existence. All graph AS comparisons hold; no non-AS global Q critical maximum. | SRC-0057 |
+
+| CLM-0168 | COMPUTED_EXACT | CAM26: fresh complete negative closures for2 critical inputs and2 AS critical witnesses,2556 states;52 literal transformed winning moves. Critical private-head failure is not ASH* failure. | SRC-0057 |
+
+| CLM-0169 | HEURISTIC | H2r: every critical non-AS STACK loser has a losing elimination to one fewer heavy site retaining source residual0/1 and adding at most2 binary bits at initially empty sites. Complete conditional induction would imply ASH*, but universal hypothesis remains UNPROVED. | SRC-0057 |
+
+| CLM-0170 | COMPUTED_EXACT | CAM27: entire-source H2 fails1124 of1230 critical non-AS inputs, already P3(3,3,0); source residual must not be silently forbidden. Failed H2 records retained. | SRC-0057 |
+
+| CLM-0171 | COMPUTED_EXACT | CAM28:444 fixed STACK cases/1230 non-AS critical inputs/45804 full residual H2r candidates, zero failures. Bounded support only. | SRC-0057 |
+
+| CLM-0172 | COMPUTED_EXACT | CAM29:72 new cycle/matching/chord graphs n8/9/10,1545176 complete losing states,227 non-AS critical inputs/11632 H2r candidates, zero failures. All AS comparisons hold; no universal extrapolation. | SRC-0057 |
+
+| CLM-0173 | COMPUTED_EXACT | CAM30:252 coupled n12 gadget inputs at mass16,108 lose/144 win;617212 state records/1799764 legal dependencies checked, no cap hit. Two strongest cross-edge survivors selected by prior rule; not ASH* counterexamples by themselves. | SRC-0057 |
+
+| CLM-0174 | COMPUTED_EXACT | CAM31: complete unbounded source/binary-buffer STACK rays on C00_51/C00_60; explicit automorphisms cover all12 sources using reps0/2/4. Exact L_AS18/24. Thus fixed mass16 holes do not refute ASH*. General thresholds tested separately in CAM32. | SRC-0057 |
+
+| CLM-0175 | COMPUTED_EXACT | CAM32: exact general STACK thresholds19/25 on C00_51/C00_60, independently compared348930/587258 full losing states; exact AS maxima18/24 match. Every critical loser is AS, H2r scope there vacuous. No unrestricted ASH* inference. | SRC-0057 |
+
+| CLM-0176 | PROGRAMME_PROVED | 90: for T>=n+1 all AS inputs at T,T+1,T+2 win iff all AS masses>=T win; exact occupied source three-removal, no general AS implication. | SRC-0058 |
+
+| CLM-0177 | PROGRAMME_PROVED | 91: a critical loser surviving an edge addition preserves the exact STACK threshold; greedy saturation of an arbitrary loser only proves that narrower loss/maximality condition. | SRC-0058 |
+
+| CLM-0178 | PROGRAMME_PROVED | 92: minimum-vertex/MAX-edge hypothetical counterexample has simultaneous minimum-heavy/Q/P structure, every nonedge cures its whole critical layer, strict proper quotient drops, and all dominated-neighborhood vertices positive in EVERY critical loser. Universal comparison still missing. | SRC-0058 |
+
+| CLM-0179 | PROGRAMME_PROVED | 93: for every bipartite globally largest STACK loser c, every site s including empty ones and every k>=1, c+k*s consumes to k*s. Actual root-connected neutral counts at every root; no universal AS selection follows. | SRC-0058 |
+
+| CLM-0180 | COMPUTED_EXACT | CAM33:120 fixed circulant graphs n11..14 have independently equal complete general losing layers and L_all=L_AS; no universal extrapolation. | SRC-0059 |
+
+| CLM-0181 | COMPUTED_EXACT | CAM34:7510 prescribed lifted graph/inputs, no potential counterexample or unknown; every original loser has an independently certified AS loser at at least its mass. Winners have literal dependencies. | SRC-0059 |
+
+| CLM-0182 | COMPUTED_EXACT | CAM35: singleton-to-two STACK monotonicity is FALSE,90 exact old-table failures in11 fixed boxes; no critical-layer extension inferred. | SRC-0059 |
+
+| CLM-0183 | COMPUTED_EXACT | CAM36:120 greedy loser-preserving edge saturations,2189 independently checked missing-edge winning histories/28257 moves plus1912482-state complete original/AS screen DAGs; no potential or unknown, not automatically actual criticality. | SRC-0059 |
+
+| CLM-0184 | COMPUTED_EXACT | CAM37-45: across ALL connected labeled graphs at each fixed input, losing c implies an AS loser of mass>=|c| for C6(3,3,1,1,0,0), C9a(3,3,1,1,0,0,1,1,1), C9b(3,3,3,1,1,1,0,0,0), E8(2,2,1,1,1,1,1,1), M9(2,3,1,1,1,1,1,0,0). Literal graph certificates and necessary-clause images plus independent complete RUP/LRAT refutations. Fixed finite input classes only; not universal ASH*. | SRC-0059 |
+
+| CLM-0185 | COMPUTED_EXACT | CAM43 preserves UNKNOWN for C10 after1000 new iterations,91566 necessary clauses,1452478 AS-negative closure states checked; earlier C9a/C9b proof-scan caps stay UNKNOWN as attempts despite later successful separate proofs. No exclusion from any cap. | SRC-0059 |
+
+| CLM-0186 | COMPUTED_EXACT | CAM44:638 full labeled critical sets,20231 critical inputs,17940 non-AS, zero non-AS coordinate2; four non-AS even-heavy inputs, all nonbipartite. Complete packed/coordinate and BFS/parity-union-find selections agree. Finite evidence only. | SRC-0059 |
+
+| CLM-0187 | HEURISTIC | Universal no-two: a non-AS largest STACK loser has no pile2. UNPROVED; finite CAM44 agreement and fixed-input CEGIS exclusions are not a proof. Likewise odd-heavy restrictions on bipartite non-AS critical inputs remain unproved. | SRC-0059 |
+
+| CLM-0188 | PROGRAMME_PROVED | 94: every fixed-input countergraph orbit has a lex-minimal representative under input-preserving permutations, with unique prefix extension; comparison clauses need not hold for every labeling. | SRC-0061 |
+
+| CLM-0189 | PROGRAMME_PROVED | 95: complete sorted fixed-mass non-AS inventory, exactly-one guarded graph clauses and AS-tail cuts yield a finite necessary countermodel formula; independent full UNSAT would exclude only that(n,M). | SRC-0061 |
+
+| CLM-0190 | PROGRAMME_PROVED | 96: even-pair loss-extension E0 is FALSE on noncritical P4(9,2,0,1), mass12: replacing its2 by3 at any vertex wins. No critical no-two/ASH* refutation. | SRC-0062 |
+
+| CLM-0191 | PROGRAMME_PROVED | 97: actual P4(9,0,0,3), mass12, jointly has every-root neutral histories, minimum-heavy/global-Q/P selection and stated neighborhood/edge/quotient restrictions, yet all AS inputs of its mass win. Its mass is not globally largest. | SRC-0062 |
+
+| CLM-0192 | PROGRAMME_PROVED | 98: EVERY proper coordinatewise positive extension of P4(9,0,0,3) wins, although L_all=L_AS14 is larger than12. Complete local addition maximality does not replace largest losing mass. | SRC-0062 |
+
+| CLM-0193 | PROGRAMME_PROVED | 99: fair selector assumptions/closed flags affect only untrusted scheduling. A fresh unconditional exported-formula refutation independently replayed to empty is required for each complete finite(n,M) exclusion. | SRC-0061 |
+
+| CLM-0194 | COMPUTED_EXACT | CAM46/47: F9(4,4,1,1,1,0,0,0,0) and E9(2,2,1,1,1,1,1,1,1) independently excluded as counterinputs across ALL connected graphs at their fixed orders. Exact necessary-clause/LRAT proof chains, not universal ASH*. | SRC-0059 |
+
+| CLM-0195 | COMPUTED_EXACT | CAM48: complete fixed-mass inventories have45/65/257/88/212 patterns on(9,11)/(10,12)/(10,17)/(12,13)/(12,16). All graph records and encodings independently checked, but searches capped UNKNOWN; no full exclusion or actual counterexample. | SRC-0061 |
+
+| CLM-0196 | COMPUTED_EXACT | CAM50: fresh full thresholds15/8/7/8 for P4 and its3 edge additions; full mass12 losing layer4 inputs, minimumheavy2, Q90/P12. Independent56-state negative closure and18 literal histories/202 moves cover14 insertions and4 exact neutral roots. Scoped actual obstruction only. | SRC-0062 |
+
+| CLM-0197 | COMPUTED_EXACT | CAM49 repaired separate version: P4(9,2,0,1) full negative50-state closure and44 literal positive moves verify all4 even-pair extensions win. Original tuple/list predicate failure preserved, not mathematical evidence. | SRC-0062 |
+
+| CLM-0198 | PROGRAMME_PROVED | 100: for connected bipartite G, distinct s/t at distance d, positive N at s plus singleton t STACKs iff N reaches residue cutoff2^d,3*2^(d-1),2^(d+1) respectively. Zero source separate. Path zero-imbalance lower already April7.3; no novelty claim. | SRC-0063, SRC-0002, SRC-0003 |
+
+| CLM-0199 | PROGRAMME_PROVED | 101: every nontrivial isometric subtree of bipartite G is a true loopless retract, by explicit colored Helly-ball extension. EVERY loser supported there has mass<=L_AS(G), using EARLIER TreeStack. Includes all two-site inputs, not arbitrary supports. | SRC-0063, SRC-0002, SRC-0003 |
+
+| CLM-0200 | PROGRAMME_PROVED | 102: Cr_k(k>=3) has maximum isometric-tree threshold max(3k-2,15). For k>=5 this is below known independent-set AS lower3k+1, so NO critical loser has isometric-tree-contained support. Refutes stronger support-selection only, not ASH*. | SRC-0063 |
+
+| CLM-0201 | COMPUTED_EXACT | CAM51: all six complete all-pattern fixed(n,M) fair-selector searches ended iteration-bound UNKNOWN. Independent inventory/formula/graph-certificate checks PASS, but no unconditional real-case refutation, exclusion or actual counterexample. Control only independently refuted. | SRC-0063 |
+
+| CLM-0202 | COMPUTED_EXACT | CAM52:27 fixed bipartite graphs,654 ordered pairs,5260 queries/44991 dependency states and1962 literal minimum constructions/9228 moves match100; finite negative queries only d<=3, universal theorem is symbolic. | SRC-0063 |
+
+| CLM-0203 | COMPUTED_EXACT | CAM53:31 fixed graphs,2279 complete isometric subtree sets and65648 true ambient edge maps/earlier root scores agree. Crown5/6/7 maxima15/16/19. Fresh full crown5 threshold16/AS maximum15,28880 complete losing states; ASH* agreement. | SRC-0063 |
+
+| CLM-0204 | COMPUTED_EXACT | CAM54:49 existing complete bipartite graphs,6415 complete isometric trees/full alpha maximum sets/root scores independently compared;48 combined-ceiling equalities and one strict gap42>40. Proposed universal combined ceiling is FALSE, not supported by a finite majority. | SRC-0063 |
+
+| CLM-0205 | COMPUTED_EXACT | 103/CAM55: bipartite A182 edges07,16,26,27,35,37,45,46 has fresh exact STACK threshold42/AS maximum41 while combined n/alpha/isometric-tree bound40. AS loser(39,1,0,0,0,1,0,0) has complete independent10988-state closure/50423 legal dependencies. Actual auxiliary ceiling counterexample, not ASH*. | SRC-0063 |
+
+| CLM-0206 | PROGRAMME_PROVED | 104: every loser supported on at most3 median-admitting vertices of a bipartite graph lies in an isometric tripod and satisfies |c|<=L_AS. All modular triple supports covered; on Q_d their mass<=2^(d+1)-2. Larger supports remain open; EARLIER TreeStack used. | SRC-0066 |
+
+| CLM-0207 | PROGRAMME_PROVED | 105: exact labeled binary-buffer positive ancestry upper DAG is sound with separate actual zero singleton, positive pure siblings, proper partitions, same-root forests and strict cost descent. Affordable positive node plus occupied+3 gives a full input win; missing node supplies no loss. | SRC-0066 |
+
+| CLM-0208 | PROGRAMME_PROVED | 106: checking EVERY proper partition/edge/pure/forest inequality and all signed residues supplies complete lower annotations for binary-buffer one/two/three-root forests. Together with105 attaining nodes this gives exact AS residue conductors, not arbitrary multiheavy classification. | SRC-0066 |
+
+| CLM-0209 | COMPUTED_EXACT | CAM56 all32 non-AS sorted n8 mass10 patterns independently excluded across ALL connected graphs, exact inventory and4468 retained RUP additions/108581 hints. Finite(n8,M10) complete exclusion only; no full order8/universal ASH* claim. | SRC-0067 |
+
+| CLM-0210 | COMPUTED_EXACT | CAM57 preserves STATE_CAP_UNKNOWN after16931 complete AS queries/2000000 states;12551572 dependencies checked, full tail NOT proved by that attempt. | SRC-0066 |
+
+| CLM-0211 | COMPUTED_EXACT | CAM58 separately repaired v2 checks ALL1572864 positive ancestry nodes/98304 Q4 AS inputs31/32/33 and16 XOR maps. Exact L_AS30 follows with prior antipodal lower; original negative-shift checker failure preserved, no full general threshold. | SRC-0066 |
+
+| CLM-0212 | COMPUTED_EXACT | CAM59 independently checks ALL803538796 lower inequalities/7141686 unordered proper partitions, exact minima/residues. Exact whole-Q4 AS oracle all source counts; only source0 critical AS is29 at0 plus one at15. Full general domain still open. | SRC-0066 |
+
+| CLM-0213 | COMPUTED_EXACT | CAM60 general Q4 search reaches2M-state cap after2157 winners/one UNKNOWN query; completed DAG and14409950 legal dependencies checked, rest unexecuted. No actual counterexample or threshold. | SRC-0066 |
+
+| CLM-0214 | COMPUTED_EXACT | CAM61 two pointwise shards cap at8M cumulative states each;1093/1300 literal winners plus one UNKNOWN each,69638 literal moves. Overlaps60, do not add prefixes across campaigns as distinct inputs. No full threshold or counterexample. | SRC-0066 |
+
+| CLM-0215 | PROGRAMME_PROVED | 107: exact XOR translation canonicalization preserves whole-input consuming answers; negative orbit nodes check every legal canonical child, positive edges/macros lift by actual automorphism, mass descends. Candidate-list completeness and threshold do not follow. | SRC-0066 |
+
+| CLM-0216 | COMPUTED_EXACT | CAM62 all9783 frozen Q4 general inputs31/32/33 independently WIN,872261 canonical states/7653737 dependencies, no unknown or potential. Exact AS oracle/literal anchors retained. Winning finite matrix does not prove general Q4 threshold or universal ASH*. | SRC-0066 |
+
+| CLM-0217 | PROGRAMME_PROVED | 108: full inverse-orbit losing recurrence plus stable binary seeds and independent canonical-first-parent over ALL labeled translates certifies whole losing layers. Empty layer only above order can establish threshold; partial/capped sets cannot. | SRC-0066 |
+
+| CLM-0218 | COMPUTED_EXACT | CAM63 controls: untrusted compiled producer and independent full canonical-first-parent layer replay certify Q1 threshold3 and Q3 threshold15. Compilation alone proves nothing; full Q4 run not yet executed at this checkpoint. | SRC-0066 |
+
+| CLM-0219 | COMPUTED_EXACT | CAM63 full general Q4 orbit layers1..13 independently agree under native all-inverse and Python canonical-first-parent algorithms; mass14 candidate cap2M, threshold UNKNOWN. Q1/Q3 controls exact3/15. Source56 collision exactly recovered/versioned with33 unchanged replays; no mathematical promotion from repair. | SRC-0066 |
+
+| CLM-0220 | COMPUTED_EXACT | CAM64 COMPLETE Q4 all general layers1..31, exact stack31 matching AS max30, only one mass30 orbit and all critical losers AS. Earlier63 cap unchanged. | SRC-0068 |
+
+| CLM-0221 | COMPUTED_EXACT | CAM65 independently exact FanoInc14 AS max29/all source counts;344064 nodes,66961563 inequalities. Source0 critical AS25 plus four distance3 bits. Original failed producer-width run preserved with separate repair. | SRC-0068 |
+
+| CLM-0222 | COMPUTED_EXACT | CAM66 COMPLETE FanoInc14 all general layers1..30, exact stack30 matching AS max29, one mass29 orbit/all critical losers AS. Independent336-map group and Q1/Q3 controls. | SRC-0068 |
+
+| CLM-0223 | PROGRAMME_PROVED | 109 universal bipartite shell AS lower: nonempty k vertices at distance ell give losing source2^(ell-1)*(k+3)-3 plus those k singleton bits. All true edges, all final roots/chronologies, exact signed0 and output3 retained. No arbitrary-buffer upper/universal ASH* conclusion. | SRC-0068 |
+
+| CLM-0224 | COMPUTED_EXACT | CAM67 ALL501 shell hypotheses on30 fixed bipartite graphs pass;106 exact-AS oracle checks;350 complete fresh negative closures/22920 states/53775 dependencies, no unknown. Finite challenge does not prove109 or universal ASH*. | SRC-0068 |
+
+| CLM-0225 | COMPUTED_EXACT | CAM68 complete all44 sorted non-AS order8 mass11 classes independently excluded over ALL connected graphs;31824 labeled compositions audited,64781 RUP additions/1461399 hint visits. Finite scope only. | SRC-0069 |
+
+| CLM-0226 | COMPUTED_EXACT | CAM69 H_up2 is FALSE: graph03,12,14,24,34 input(1,2,2,1,1), mass7 below true critical15; all12 prescribed mass-slack candidates win.2946-input/18-case complete prefix, remaining12 cases unexecuted. | SRC-0069 |
+
+| CLM-0227 | COMPUTED_EXACT | CAM70 H_pool2 is FALSE despite arbitrary receiving site: graph04,13,23,24,34 input(3,3,1,1,1), mass9 below true critical14; all60 two-donor pooling candidates win.3097-input/21-case complete prefix, remaining9 cases unexecuted. Criticality/full buffer restriction remains essential. | SRC-0069 |
+
+| CLM-0228 | PROGRAMME_PROVED | 110: Q5 AS input61 at0 plus bits15,23,27,29,30 loses by109, so L_AS>=66 and stack>=67. No critical loser supported on<=3 vertices/isometric subtree by104. Diameter-only cube equality and general product doubling upper are false (product comparison uses exact Q4 stack31). No exact Q5 threshold or ASH* failure. | SRC-0069 |
+
+| CLM-0229 | COMPUTED_EXACT | CAM71 ALL8 specified high-pile patterns at masses16/18/20 on orders8/9 independently excluded across all connected graphs, full literal/CNF/LRAT chains and fresh control. Not complete coverage of those orders/masses; universal ASH* OPEN. | SRC-0069 |
+
+| CLM-0230 | PROGRAMME_PROVED | 111: exact THREE boundary tree H->G with c_v=sum(3-deg H), |H|=|c|-2; true repeated labels, all original ports, mass3 base. Actual input-port edge gluing111b. Not a graph subtree/retract or extremal selection. | SRC-0071,SRC-0070 |
+
+| CLM-0231 | COMPUTED_EXACT | CAM72 complete14814 non-AS critical inputs across48 bipartite cases,203673 parity-AS candidates: no all-source/heavy-source failure. B_par remains unproved globally. | SRC-0071 |
+
+| CLM-0232 | COMPUTED_EXACT | CAM73 all27 bipartite cases among142 fixed graphs through order6;13297 odd-positive signed-zero multiheavy losers have a tested same-parity AS loser within mass+0/2/4. Finite only. | SRC-0071 |
+
+| CLM-0233 | COMPUTED_EXACT | CAM74 independently completes18 selected larger bipartite cases through order14,1598711 eligible inputs with zero B_odd failures. A171/A181/A184 prior-scope UNKNOWN, not executed or extrapolated. | SRC-0071 |
+
+| CLM-0234 | PROGRAMME_PROVED | 112: exact THREE trees canonicalize to floor(c_v/2) leaf copies, c_v mod2 unique degree2 markers, arbitrary degree3 branches; pair-fuel A>=2, branches A-2. Mass3 separate. | SRC-0071 |
+
+| CLM-0235 | PROGRAMME_PROVED | 113: any connected simple n>=2 nonempty c STACKs iff THREE(c) or some THREE(c+2e_q), by whole-input reroot/cancellation. Signed-zero bipartite case uses only THREE(c); W_p not claimed a unit-upward ideal. | SRC-0071 |
+
+| CLM-0236 | PROGRAMME_PROVED | 114: actual canonical w-leaf/v-marker pruning; if bipartite signed-zero loser c has positive even c_v adjacent to graph-leaf w, c-e_v+2e_w loses at mass+1 including c_w=0. Thus no critical such even heavy adjacent to a graph leaf. Core case unproved. | SRC-0071 |
+
+| CLM-0237 | COMPUTED_EXACT | CAM75 all33188 eligible leaf inverse extensions across27 bipartite fixed graphs/102483 saved states lose;3104 initially empty leaf extensions. Finite challenge of114, not universal comparison. | SRC-0071 |
+
+| CLM-0238 | COMPUTED_EXACT | CAM76 unconditional EVERY-even-vertex SOME-neighbor inverse ascent is FALSE below criticality:515 failed input/vertex pairs,74 at pile2,0 actual-critical failures; full83376 pair/145073 extension inventory independently checked.114 remains intact. | SRC-0071 |
+
+| CLM-0239 | PROGRAMME_PROVED | 115: pair-fuel2 THREE exactly a true-edge path with prescribed leaf endpoint labels and all unique parity markers; unrestricted STACK additionally permits pair-fuel3 single-branch three-arm trees after padding2 at some label. Old independent-set witness dominates EVERY pair-fuel2 bipartite loser of order>=8. No all-graph extremal theorem. | SRC-0071 |
+
+| CLM-0240 | PROGRAMME_PROVED | 116: every multioccupied STACK-winning input admits a winning first move at ANY prescribed heavy source; exact tree deletion handles arbitrary roots/padding. Pure3 one-site terminal is excluded. | SRC-0072 |
+
+| CLM-0241 | PROGRAMME_PROVED | 117: firing a graph leaf with>=2 pebbles preserves STACK status except pure3 there. Every actual critical STACK loser on any connected graph n>=3 has zero pebbles at ALL neighbors of graph leaves. K2 exception explicit. | SRC-0072 |
+
+| CLM-0242 | COMPUTED_EXACT | CAM78 complete160579 eligible all-graph inverse extensions across142 connected cases/order<=6,167713 saved states,22440 empty-leaf extensions; zero failure, exact two-singleton exceptions and all critical parent-zero checks. | SRC-0072 |
+
+| CLM-0243 | PROGRAMME_PROVED | 118: independent elementary proof of116 by first-source commutation, positive edge reduction and final-arrival reversal; any adaptive heavy-source policy before reaching a pile admits winning destination choices. | SRC-0072 |
+
+| CLM-0244 | COMPUTED_EXACT | CAM79 complete598867 legal predecessors of all167713 saved losers on142 fixed graphs,437350 multioccupied winning inputs,1211093 heavy sources,2538712 exact child-membership tests; every source has a winning destination.809 pure3 terminal predecessors excluded exactly. | SRC-0072 |
+
+| CLM-0245 | PROGRAMME_PROVED | 119: odd graph-leaf/positive-parent THREE boundary contraction subtracts one input at each endpoint. For parent>=2 this is an exact STACK equivalence, with both legal converse moves and positive-root padding. Parent1 converse is not asserted. | SRC-0072 |
+
+| CLM-0246 | PROGRAMME_PROVED | 120: on any connected simple graph, every losing input with positive EVEN graph-leaf count remains losing after +3 at that leaf. Hence all actual critical graph-leaf counts are zero or ODD. No claim that all core heavy counts are odd. | SRC-0072 |
+
+| CLM-0247 | COMPUTED_EXACT | CAM80 complete164058 two-direction contraction/+3 checks across142 fixed cases:54686 in each direction and54686 even-heavy leaf+3 extensions; zero discrepancies or critical even leafs. Universal proof is119-120, not extrapolated computation. | SRC-0072 |
+
+| CLM-0248 | PROGRAMME_PROVED | 121: the fixed-parity all-positive-odd THREE language W_p need not be a jump system or unit M-convex base set. Explicit P3 p111, fuel(5,0,0)/(2,3,0), two full consuming histories, all failed two-step exchanges excluded by signed mod3 invariant. All example inputs STACK; no ASH* counterexample. | SRC-0072,SRC-0073 |
+
+| CLM-0249 | COMPUTED_EXACT | CAM77 ONLY specified F8 c=(1,1,1,1,1,1,3,3),mass12 on order8 independently excluded across ALL connected graphs with full necessary-CNF/LRAT chain. F9/F10 iteration bounds and F12 time bound UNKNOWN; no larger-pattern inference. | SRC-0072 |
+
+| CLM-0250 | COMPUTED_EXACT | CAM81 finite complete charge-sector exchange challenge on bipartite fixed graphs through order5:2490 residue/fuel groups,57060 membership queries,560 nontrivial ordered pair/source checks, all matched independently. Rescaled-sector M-convexity remains UNPROVED universally; direct unscaled W_p exchange stays false by121. | SRC-0072 |
+
+S014 final scope: owner-requested closeout; CLM-0129 through CLM-0250 retain their existing mathematical/finite statuses. Local proof assurance remains independent-review pending; universal STACK/CLEAR OPEN. No status is promoted by closeout.

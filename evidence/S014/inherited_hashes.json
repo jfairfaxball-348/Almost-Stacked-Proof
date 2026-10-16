@@ -1,0 +1,46 @@
+{
+  "S003": {
+    "verified_entries": 20,
+    "frozen_index": null
+  },
+  "S004": {
+    "verified_entries": 65,
+    "frozen_index": null
+  },
+  "S005": {
+    "verified_entries": 722,
+    "frozen_index": null
+  },
+  "S006": {
+    "verified_entries": 59,
+    "frozen_index": "evidence/S007/frozen_s006_index.json"
+  },
+  "S007": {
+    "verified_entries": 72,
+    "frozen_index": "evidence/S008/frozen_s007_index.json"
+  },
+  "S008": {
+    "verified_entries": 70,
+    "frozen_index": null
+  },
+  "S009": {
+    "verified_entries": 64,
+    "frozen_index": null
+  },
+  "S010": {
+    "verified_entries": 75,
+    "frozen_index": null
+  },
+  "S011": {
+    "verified_entries": 82,
+    "frozen_index": null
+  },
+  "S012": {
+    "verified_entries": 90,
+    "frozen_index": null
+  },
+  "S013": {
+    "verified_entries": 130,
+    "frozen_index": null
+  }
+}

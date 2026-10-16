@@ -1,0 +1,14 @@
+{
+  "case": "N9_M11",
+  "n": 9,
+  "mass": 11,
+  "patterns": 45,
+  "status": "ITERATION_BOUND_UNKNOWN",
+  "iterations": 10000,
+  "graph_records": 33707,
+  "distinct_graph_clauses": 33503,
+  "fixed_encoding_clauses": 14430,
+  "variables": 3374,
+  "seconds": 47.405999999988126,
+  "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+}

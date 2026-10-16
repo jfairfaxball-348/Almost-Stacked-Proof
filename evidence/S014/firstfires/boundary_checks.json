@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_firstfires.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8120000000053551,
+    "peak_working_set_bytes": 42180608,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"P3\", \"cells\": 734, \"terminal_histories\": 307}\r\n{\"graph\": \"K3\", \"cells\": 766, \"terminal_histories\": 327}\r\n{\"graph\": \"2K2\", \"cells\": 2625, \"terminal_histories\": 508}\r\n{\"graph\": \"S4\", \"cells\": 3101, \"terminal_histories\": 775}\r\n{\"graph\": \"C4\", \"cells\": 3346, \"terminal_histories\": 857}\r\n{\"graph\": \"K4\", \"cells\": 3482, \"terminal_histories\": 907}\r\n{\"graph\": \"P5\", \"cells\": 12335, \"terminal_histories\": 1782}\r\n{\"graph\": \"C5\", \"cells\": 13524, \"terminal_histories\": 2069}\r\n{\"graph\": \"S5\", \"cells\": 11905, \"terminal_histories\": 1764}\r\n{\"graph\": \"K5\", \"cells\": 14824, \"terminal_histories\": 2329}\r\n",
+    "stderr": "",
+    "code_sha256": "324f052ac8433f72d1e88f7df21018da6e12416ac069e987db6ce0cf28f78f37"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_firstfires_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8129999999946449,
+    "peak_working_set_bytes": 26783744,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"P3\", \"all_cells\": 734, \"all_terminal_histories\": 307, \"empty_end_cases\": 35, \"strict_single_end_cases\": 243, \"true_extracted_path_covers\": 278, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"K3\", \"all_cells\": 766, \"all_terminal_histories\": 327, \"empty_end_cases\": 36, \"strict_single_end_cases\": 259, \"true_extracted_path_covers\": 295, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"2K2\", \"all_cells\": 2625, \"all_terminal_histories\": 508, \"empty_end_cases\": 52, \"strict_single_end_cases\": 375, \"true_extracted_path_covers\": 427, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"S4\", \"all_cells\": 3101, \"all_terminal_histories\": 775, \"empty_end_cases\": 73, \"strict_single_end_cases\": 596, \"true_extracted_path_covers\": 669, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"C4\", \"all_cells\": 3346, \"all_terminal_histories\": 857, \"empty_end_cases\": 77, \"strict_single_end_cases\": 680, \"true_extracted_path_covers\": 757, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"K4\", \"all_cells\": 3482, \"all_terminal_histories\": 907, \"empty_end_cases\": 79, \"strict_single_end_cases\": 719, \"true_extracted_path_covers\": 798, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"P5\", \"all_cells\": 12335, \"all_terminal_histories\": 1782, \"empty_end_cases\": 145, \"strict_single_end_cases\": 1396, \"true_extracted_path_covers\": 1541, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"C5\", \"all_cells\": 13524, \"all_terminal_histories\": 2069, \"empty_end_cases\": 159, \"strict_single_end_cases\": 1631, \"true_extracted_path_covers\": 1790, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"S5\", \"all_cells\": 11905, \"all_terminal_histories\": 1764, \"empty_end_cases\": 145, \"strict_single_end_cases\": 1321, \"true_extracted_path_covers\": 1466, \"complete_independent_sets_equal\": true}\r\n{\"graph\": \"K5\", \"all_cells\": 14824, \"all_terminal_histories\": 2329, \"empty_end_cases\": 169, \"strict_single_end_cases\": 1843, \"true_extracted_path_covers\": 2012, \"complete_independent_sets_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "7153b68a846c9b7c7412e263fcc106df296752236053d813160546522a8f29ae"
+  }
+]

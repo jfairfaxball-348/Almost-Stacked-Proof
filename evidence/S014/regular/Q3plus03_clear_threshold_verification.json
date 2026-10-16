@@ -1,0 +1,11 @@
+{
+  "graph": "Q3plus03",
+  "goal": "clear",
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 15,
+  "last_complete_mass": 15,
+  "certified_losing_states": 3520,
+  "L_AS_seen": 14,
+  "L_AS_grammar": 14,
+  "all_full_losing_layers_equal": true
+}

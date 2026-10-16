@@ -1,0 +1,27 @@
+{
+  "files": {
+    "evidence/S014/twofuel_cegis/inputs.json": "f98bf78c327b14cbef70c8e91679d6fe6585d972b01bc8d0c7bbacf3873aefea",
+    "sessions/S014/PLAN_AMENDMENT_77.md": "75c5bced135be6cd602505806a48d06c34e85ac391aaf2e541339f5608eae6ac",
+    "sessions/S014/PLAN_AMENDMENT_77.sha256": "76cc1239959250d98751a4fef7233d16d331d25d84e69a37b3b4bae1166205dd",
+    "research/S014_TWO_PAIR_FUEL_SPANNING_WALKS.md": "aafd031e4ae88efddcbcb84d4806fee9ebaaab48396ddb3960b15c665a6d8020",
+    "research/S014_PROVED_GRAPH_SYMMETRY.md": "7f349af01cfcd516aa677d50b5746008464c7ef22efbed58f43a6f8d25fee874",
+    "research/S014_THREE_LAYER_AS_TAIL.md": "7b0fcda401552114152fdc07fb14cbce970bc53aa9c4f726cf18f79223145fb2",
+    "tools/s014_lex_cnf.py": "f271ac627e83851ff7f1dfed163b564ed2580ac952a06b6045f66871b22cfa48",
+    "tools/s014_cegis_clauses_verify.py": "9364ab32e728ce21ea1f9e474b3faac44c0ce4328be30de3926f9f9f4c45f103",
+    "tools/s014_tail_screen_verify.py": "ab099844c2383021ff8ec3a79cec54641493101363bc446ecfd32bb9291f890f",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_c071_cegis.py": "9247002f4e4d3aeb1cd97c3305c216e9d878d7433e67e3eef06df38599d64802",
+    "tools/s014_c071_verify.py": "39e7159dea5304463154715ee71faa7fe62337f9561ae7c83d09d93097c2e807",
+    "tools/s014_c071_potential.py": "f200e34335f19cb9fe804cc4bc64ed4e5f5c52c66daec38fa848e1b5ede17ba3",
+    "tools/s014_c071_lrat_verify.py": "2d610604bc72a6159f6e7c51f4f18fee07b0036fbcdfe1b6451e73e8bdf1a7b8",
+    "tools/s014_c071_run.py": "a2ed842839be59c7a168acc2bb7d88ffb5bc7be58e299f3e7823543c05b68366",
+    "tools/s014_c077_cegis.py": "2bfd640bbc7d21c192dabca1a1e69e74443dce1533b2918e4e0e55d92386e003",
+    "tools/s014_c077_lrat_verify.py": "8bbb403b3d1f8949f9a92a53f692c8b2d3b0601922686c458e1dc14f78be510f",
+    "tools/s014_c077_potential.py": "394a34e5ea32cd9533338040f78c9e517ffde723fb32a0fe32e1f23fc794390b",
+    "tools/s014_c077_prepare.py": "5efbec8075b26066c7ad717a9914a2424a9562c8c355d245b11d81fbcd966a59",
+    "tools/s014_c077_run.py": "7412ec26d2b1236ed43b8e1905ed4baed4b22091017a52e68589ad710c1efc0d",
+    "tools/s014_c077_verify.py": "ee6377b2f54d0279b621ce5c2c08ab965ec8d28c995aff7050e9d0dbb7ec311d"
+  },
+  "native_binary": "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+  "native_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+}

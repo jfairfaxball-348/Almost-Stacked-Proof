@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_aspaths.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40600000000267755,
+    "peak_working_set_bytes": 57589760,
+    "resource_failure": null,
+    "stdout": "{\"traces\": 7620, \"literal_moves\": 92504, \"branches\": {\"stack:pure_A\": 10, \"stack:B_root\": 3311, \"stack:B_root_with_xy\": 1238, \"stack:A_root\": 1537, \"clear:pure_A\": 10, \"clear:B_root\": 783, \"clear:A_root_last_pair\": 259, \"clear:exception_K6\": 1, \"clear:A_root\": 471}}\r\n",
+    "stderr": "",
+    "code_sha256": "e02d64678a0fff5c5915f0cd091a6d11c894ddc8124e821fc31a740fac80a9db"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_aspaths_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.4220000000059372,
+    "peak_working_set_bytes": 75358208,
+    "resource_failure": null,
+    "stdout": "{\"traces\": 7620, \"literal_moves\": 92504, \"branches\": {\"stack:pure_A\": 10, \"stack:B_root\": 3311, \"stack:B_root_with_xy\": 1238, \"stack:A_root\": 1537, \"clear:pure_A\": 10, \"clear:B_root\": 783, \"clear:A_root_last_pair\": 259, \"clear:exception_K6\": 1, \"clear:A_root\": 471}, \"all_generated_inputs_and_grammar_predictions_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ac9bf52218814e2bdb14f7c20eb0959abd60af98f4db4cdc0b5c1a907d7eeae7"
+  }
+]

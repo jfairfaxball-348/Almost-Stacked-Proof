@@ -1,0 +1,14 @@
+{
+  "status": "STATE_CAP_UNKNOWN",
+  "completed_queries": 16931,
+  "verified_states": 2000000,
+  "verified_dependencies": 12551572,
+  "negative_states": 1626500,
+  "all_completed_queries_certified": true,
+  "all16_XOR_maps_verified": true,
+  "complete_AS_tail_upper31": false,
+  "exact_L_AS": null,
+  "AS_bad": null,
+  "scope": "Only AS-tail status; no full general threshold or ASH* conclusion",
+  "seconds": 15.530999999988126
+}

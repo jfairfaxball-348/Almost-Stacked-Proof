@@ -1,0 +1,11 @@
+{
+  "graph": "barbell55",
+  "goal": "clear",
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 48,
+  "last_complete_mass": 48,
+  "certified_losing_states": 2245867,
+  "L_AS_seen": 47,
+  "L_AS_grammar": 47,
+  "all_full_losing_layers_equal": true
+}

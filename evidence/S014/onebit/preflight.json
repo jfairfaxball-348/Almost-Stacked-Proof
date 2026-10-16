@@ -1,0 +1,13 @@
+{
+  "files": {
+    "evidence/S014/onebit/inputs.json": "6fff53e045660ea6a9f0f9e4435010dceb2f77fd1e84fce28f9738e07c19dda6",
+    "sessions/S014/PLAN_AMENDMENT_52.md": "aedee5ecc544890d4469ace028b888316c694e3440cf718f40eed358a938aa8e",
+    "sessions/S014/PLAN_AMENDMENT_52.sha256": "fcbbb1cb571359a2c5b7b0fba0a5fb6da82f9bf56b2d0f9088e07aea3b21c422",
+    "research/S014_BIPARTITE_ONE_BIT_CONDUCTORS.md": "026544d9a10cecbe2c952287fca271106e6b5e6d8fc1ff1bd669982c90a0290a",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_onebit_prepare.py": "b53c57a837cc171507b95895bdd1b070261fd1633b172de3e020272095f67f37",
+    "tools/s014_onebit_produce.py": "c7ab440e911b2d9be2995e540fd9aa5a4eeddd9fe7034b116044401455fc1072",
+    "tools/s014_onebit_run.py": "51f56efe24a2f0b086876bde220cfc1b05d55ed5eaa279d4449b612383a9398f",
+    "tools/s014_onebit_verify.py": "72a0a8d9a39c90f6722e537d15ea2e54cc3603dde39e46bb1948527971115bcc"
+  }
+}

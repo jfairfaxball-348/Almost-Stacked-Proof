@@ -94,10 +94,58 @@ Per-proof access/attribution and exact equivalence uncertainty are scoped in pri
 
 - **SRC-0046** S012 exact reciprocal, escape and donor campaigns — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S012 — Three prior-hashed dual-validator campaigns, fixed boxes and full closures; no human/kernel/universal assurance.
 
-- **SRC-0047** S013 global minimal-neighborhood and loss-preserving exchange proofs — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S013_UNIVERSAL_RESEARCH.md — 63-70 complete scopes/DAG; universal STACK/CLEAR OPEN, fresh cold challenge FUTURE S014.
+- **SRC-0047** S013 global minimal-neighborhood and loss-preserving exchange proofs — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S013_UNIVERSAL_RESEARCH.md — 63-70 complete scopes/DAG; universal STACK/CLEAR OPEN. S014 cold challenge PASS at stated scopes with24 inherited replays; no human/kernel assurance.
 
 - **SRC-0048** S013 selected primary and dependency comparison — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S013_PRIMARY_AND_DEPENDENCY_COMPARISON.md — Known ancestry/ordering/+3/pushforward/triangle primitives credited; possible new exact refinements/equivalence uncertain.
 
 - **SRC-0049** S013 registered precision campaigns and complete certificates — **PROOF_INSPECTED**. https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/main/evidence/S013 — Six prior-hashed campaigns, distinct full validators, exact historical versus new scopes retained; no universal/kernel assurance.
 
 - **SRC-0050** Pebbling and Optimal Pebbling in Graphs — **PROOF_INSPECTED**. https://wolfchambers.github.io/papers/pebbling.pdf — S013 original author PDF26pages; selected definitions pp1-2 and Lemmas6-7 pp10-11 proofs inspected. Ordinary target/optimal reachability allows leftovers; no exact-consuming equivalence or whole-paper proof audit.
+
+- **SRC-0051** Active S014 cold review and positive-gap diagnostics - **PROOF_INSPECTED**. Local active record: sessions/S014/CHECKPOINT.md and evidence/S014. Uncommitted; no universal or kernel assurance.
+
+- **SRC-0052** S014 local proofs71-84 and exact scope adjudication - **PROOF_INSPECTED**. LOCAL UNCOMMITTED ACTIVE research; complete join-class comparison/causal necessity, no universal ASH*, worldwide novelty or kernel assurance. Execution-time candidate labels/citation typo explicitly reconciled. See research/S014_LOCAL_PROOF_AUDIT.md.
+
+- **SRC-0053** S014 fourteen preregistered independent campaigns - **PROOF_INSPECTED**. Complete bounded certificates/logs/input/code/plan hashes in evidence/S014. Six CAM12 CLEAR cutoffs preserved and separately completed in CAM13. No caps hit or universal extrapolation. See sessions/S014/MILESTONES.md.
+
+- **SRC-0054** S014 partial-neighborhood/parity continuation85-86 and CAM15-19 - **PROOF_INSPECTED**. Local active research/S014_PARITY_AND_TRUE_HEAD_FRONTIER.md; exact critical barriers, independent full certificates, preserved schema failure/repair, unproved odd-shift frontier. No universal/kernel assurance.
+
+- **SRC-0055** S014 triplet-head surgery and signed critical barrier87-88 - **PROOF_INSPECTED**. ../research/S014_TRIPLET_HEAD_AND_SIGNED_BARRIER.md - Exact conditional certificate and bipartite critical statements; generic loss-preservation false, critical/global-Q weakening unproved. Known count reconstruction/signed primitives credited; novelty/human/kernel assurance absent.
+
+- **SRC-0056** S014 CAM20-24 complete true-head and criticality certificates - **PROOF_INSPECTED**. ../sessions/S014/AUDIT.md - Separate complete positive/negative DAGs and full layer checkers. Original CAM21 interruption/partial bytes and successful v2 retained; all583 failures below critical/layer-global Q on215 exact graphs. Finite scopes only.
+
+- **SRC-0057** S014 critical heavy elimination and minimum-heavy selection89 - **PROOF_INSPECTED**. ../research/S014_CRITICAL_HEAVY_ELIMINATION.md - Active local proof89 and complete conditional induction H2r=>ASH*, H2r unproved; fresh exact critical auxiliary failures and bounded challenges. No universal/kernel or priority assurance.
+
+- **SRC-0058** S014 AS tail, extremal graph and bipartite neutral-catalyst proofs90-93 - **PROOF_INSPECTED**. ../research/S014_BIPARTITE_NEUTRAL_CATALYSIS.md - Local complete exact-scope arguments, no universal ASH*, human/kernel or novelty claim. Dependencies and other proof files explicitly linked in active research records.
+
+- **SRC-0059** S014 continued counterexample search CAM33-45 - **PROOF_INSPECTED**. ../research/S014_COUNTEREXAMPLE_SEARCH.md - Exact fixed-input graph-class exclusions have full literal certificate/clause/permutation and independent proof replay; larger bound outcomes remain UNKNOWN.
+
+- **SRC-0060** DRAT-trim official proof format and actual local LRAT generation help - **STATEMENT_INSPECTED**. https://github.com/marijnheule/drat-trim - Official documentation and actual pinned binary help inspected. Native LRAT generation is untrusted; separately written Python hinted RUP checker verifies every retained addition and empty clause. No whole implementation or formal kernel audit claimed.
+
+- **SRC-0061** S014 exact lex/shared-input/fair-selector reductions94/95/99 - **PROOF_INSPECTED**. ../research/S014_FAIR_SELECTOR_CERTIFICATION.md - Local complete finite reductions; existential representative implication, not necessity for every labeling. No universal ASH* or human/kernel/novelty claim.
+
+- **SRC-0062** S014 actual P4 extension/extremizer obstructions96-98 and fresh CAM49/50 - **PROOF_INSPECTED**. ../research/S014_COORDINATE_MAXIMAL_OBSTRUCTION.md - Actual losing input with all positive extensions winning below larger AS losers. Exact local shortcut failures only, not critical ASH* counterexamples.
+
+- **SRC-0063** S014 bipartite one-bit/tree-supported bridge100-101 and actual metric obstructions102-103 - **PROOF_INSPECTED**. ../research/S014_METRIC_RETRACTION_AUDIT.md - Local complete exact-scope arguments/independent finite certificates. TreeStack earlier; April7.3 prior path row. Universal ASH* OPEN, no human/kernel/priority assurance.
+
+- **SRC-0064** Hans-Juergen Bandelt: Absolute retracts of bipartite graphs (1987) - **METADATA_ONLY**. https://doi.org/10.1016/0166-218X(87)90058-8 - Primary-indexed title/DOI/abstract excerpt visible, publisher direct403. Full abstract/theorem/proof NOT inspected. This conservative status supersedes imprecise frozen101 phrase; self-contained proof does not import paper result.
+
+- **SRC-0065** Guillaume Ducoffe: Beyond Helly graphs: the diameter problem on absolute retracts - **ABSTRACT_INSPECTED**. https://arxiv.org/abs/2101.03574 - Primary abstract inspected for retraction/isometry/background definitions only; no full tree retraction theorem or proof inspection claimed.
+
+- **SRC-0066** S014 exact Q4 AS grammar/orbit certificates104-108 and active counterexample search - **PROOF_INSPECTED**. ../research/S014_CUBE_COUNTEREXAMPLE_SEARCH.md - Exact AS max30 and whole-AS oracle, complete fixed sample winners, full Q1/Q3 controls. Source primitives/TreeStack retain prior credit; no universal/full-Q4 or human/kernel/priority assurance.
+
+- **SRC-0067** CAM56 complete32-pattern order8 mass10 independent exclusion proofs - **PROOF_INSPECTED**. ../evidence/S014/split_cegis/summary.json - Independent partition inventory and all32 literal graph/CNF/LRAT chains. Finite all-graph class only, not universal ASH*.
+
+- **SRC-0068** S014 complete Q4/Fano thresholds and universal bipartite shell lower witness109 - **PROOF_INSPECTED**. ../research/S014_Q4_FANO_COMPLETE_THRESHOLDS.md - CAM64-67 complete finite certificates with preserved65 failure/repair;109 local all-root symbolic AS lower, universal ASH* OPEN, no independent human/kernel or priority assurance.
+
+- **SRC-0069** S014 finite higher-pattern exclusions and failed unconditional mass-slack pooling - **PROOF_INSPECTED**. ../research/S014_MASS_SLACK_FAILURES.md - CAM68 all44 mass11/order8 patterns and71 specified8 larger classes independently excluded.69/70 complete prefix/candidate failures, not ASH*.110 symbolic Q5 AS lower66 from109; universal comparison OPEN.
+
+- **SRC-0070** Elduque-Labra: Evolution algebras and graphs - **PROOF_INSPECTED**. https://arxiv.org/pdf/1312.4685 - Only v1 Definitions2.1/2.2 p2 and Theorem3.4 proof pp6-7 inspected. Nilpotency/no-oriented-cycle theorem does not supply consuming STACK extremal comparison. Undirected nontrivial graphs have oriented2-cycles. No PDF mirrored; no ASH* or novelty conclusion.
+
+- **SRC-0071** S014 boundary trees, parity-marker normalization and leaf ascent - **PROOF_INSPECTED**. ../research/S014_UNIQUE_MARKERS_AND_LEAF_ESCAPE.md - 111-115 complete local scoped proofs, finite campaigns72-76; B_par/B_odd/critical oddness remain UNPROVED. Generic neighbor ascent FALSE below criticality; universal STACK OPEN.
+
+- **SRC-0072** S014 prescribed-source scheduling, exact leaf contraction and critical leaf restrictions - **PROOF_INSPECTED**. ../research/S014_ELEMENTARY_SOURCE_AND_ODD_LEAF_CONTRACTION.md - 116-120 complete local proofs;118 independent elementary proof of116. CAM78-80 finite full-inventory challenge.121 symbolic THREE-exchange obstruction separately scoped; universal ASH* OPEN.
+
+- **SRC-0073** Minamikawa: Geodesic Property of Greedy Algorithms for Optimization Problems on Jump Systems and Delta-matroids - **STATEMENT_INSPECTED**. https://arxiv.org/pdf/2206.10439 - v1 Section2.1 p3 definition(J-EXC) and inc(x,y) inspected; algorithm/theorem proofs NOT inspected. Used only to state the axiom independently refuted for W_p in121. No PDF mirrored.
+
+S014 closeout: all source access statuses and scoped inspections retained; SRC-0073 is statement-only J-EXC definitions, not an applied algorithmic theorem. No worldwide priority or full-paper proof assurance inferred.

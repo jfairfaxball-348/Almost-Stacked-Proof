@@ -1,0 +1,37 @@
+{
+  "case": {
+    "id": "P28",
+    "n": 8,
+    "c": [
+      3,
+      2,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "source": "evidence/S014/split_cegis/sources/P28",
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "control": false
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 143,
+  "base_clauses": 1575,
+  "stabilizer_size": 1,
+  "clauses": 1567,
+  "seconds": 0.4840000000258442,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

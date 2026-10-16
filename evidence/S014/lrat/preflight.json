@@ -1,0 +1,20 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_45.md": "d5404cfa1c8dc910e597d82160bc58714248cc14bf6ecbe60253a4556982c421",
+    "C:/Almost-Stacked-Proof/tools/s014_lrat_run.py": "d7ba0e29ae466e87d468e40114471a9f6f4b616c047d2cfa75cce68e577ac92d",
+    "tools/s014_lrat_verify.py": "f9d56d3cf594cbe6be113d854e0ff8050e6429a6fe7039f133c4a2c1d193e4db",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "evidence/S014/cegis_orbits_v2/C6/formula.cnf": "4662854909731e5aa2d713f66eacfef909b26cd0af60a40af514b16ca30939c8",
+    "evidence/S014/cegis_orbits_v2/C6/proof.drup": "2947deba4e7c651899b1ee28da904c6028bbebfe2f773fa5261c8b01035ce02c",
+    "evidence/S014/cegis_orbits_v2/C6/clause_verification.json": "a086fecd3584e4f42e03ef21ef2791a9ae4dfa7c750fd93505abd3cb27efeb35",
+    "evidence/S014/cegis_orbits_v2/C9a/formula.cnf": "1ce0befaa3ffb0bea47f3de44f1003e4b2e605c08bcf6cc751e775b85f95163a",
+    "evidence/S014/cegis_orbits_v2/C9a/proof.drup": "262074b397562722a73c29ee4a97d70af8185ec8b6a24c7d4377b8ed0521d1a7",
+    "evidence/S014/cegis_orbits_v2/C9a/clause_verification.json": "4ea071f9f733c456433d8941e345915302bf1c5a9954f059efef73cb4a5e2546",
+    "evidence/S014/cegis_orbits_v2/C9b/formula.cnf": "3cdfdce6b90b31e00d07204304f1093f82b4d0628d3209e9b09bcd6f7d371b41",
+    "evidence/S014/cegis_orbits_v2/C9b/proof.drup": "fb0125d49cf416d67a1c94c77670e7ac9f17b89b4159fc743f47d2e6897fa2f0",
+    "evidence/S014/cegis_orbits_v2/C9b/clause_verification.json": "e2c6a5caeacf8f73150c567942ab26792f925ddaa2ff115b2f74edd61679b1a3"
+  },
+  "native_binary": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+  "native_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+  "official_source": "https://github.com/marijnheule/drat-trim"
+}

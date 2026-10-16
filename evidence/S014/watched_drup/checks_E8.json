@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_watched_drup.py",
+      "evidence/S014/even_cegis/E8",
+      "E8"
+    ],
+    "exit_code": 0,
+    "seconds": 32.53100000000268,
+    "peak_working_set_bytes": 55586816,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"E8\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY this exact fixed input graph-class exclusion; universal ASH* OPEN\", \"added_RUP_steps\": 14621, \"deletions\": 8799, \"active_watched_clause_visits\": 52905908, \"seconds\": 32.421999999991385}\r\n",
+    "stderr": "",
+    "code_sha256": "d5630e7fc5f77dcfb7c6a44985f16c61b5dc51ca287e6087b4a37f2adc148a1f"
+  }
+]

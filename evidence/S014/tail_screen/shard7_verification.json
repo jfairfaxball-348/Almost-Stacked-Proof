@@ -1,0 +1,11 @@
+{
+  "shard": 7,
+  "cases": 937,
+  "complete_cases": 937,
+  "unknown": 0,
+  "checked_states": 161351,
+  "negative_states": 54343,
+  "positive_dependencies": 105866,
+  "potential_counterexamples": [],
+  "all_complete_DAGs_and_AS_tail_keys_checked": true
+}

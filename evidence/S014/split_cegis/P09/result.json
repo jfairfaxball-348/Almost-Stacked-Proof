@@ -1,0 +1,37 @@
+{
+  "case": {
+    "id": "P09",
+    "n": 8,
+    "c": [
+      7,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "source": "evidence/S014/split_cegis/sources/P09",
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "control": false
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 1,
+  "base_clauses": 1118,
+  "stabilizer_size": 1,
+  "clauses": 1110,
+  "seconds": 0.09400000001187436,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

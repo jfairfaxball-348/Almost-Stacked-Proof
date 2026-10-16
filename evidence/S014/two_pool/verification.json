@@ -1,0 +1,51 @@
+{
+  "status": "H_POOL2_AUXILIARY_REFUTED",
+  "complete_tested_prefix_verified": true,
+  "cases": 21,
+  "inputs": 3097,
+  "parsed_states": 5674,
+  "failed_inputs": 1,
+  "first_failure": {
+    "case": {
+      "id": "A20",
+      "n": 5,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0011_stack.summary.json",
+      "certificate": "evidence/S005/A5_0011_stack.bin.xz"
+    },
+    "c": [
+      3,
+      3,
+      1,
+      1,
+      1
+    ],
+    "mass": 9,
+    "candidates": 60
+  },
+  "independently_checked_failed_candidates": 60,
+  "scope": "Only finite H_pool2 challenge; universal ASH* OPEN",
+  "seconds": 0.046999999991385266
+}

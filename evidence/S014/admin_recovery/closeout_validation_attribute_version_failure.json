@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "validation/validate_governance.py"
+  ],
+  "exit_code": 1,
+  "seconds": 25.40599999999995,
+  "peak_working_set_bytes": 866865152,
+  "resource_failure": null,
+  "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\r\nS003 evidence hashes: 20 files match.\r\nAuthor correspondence provenance and current future handoff: PASS (administrative only).\r\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\r\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\r\n",
+  "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Almost-Stacked-Proof\\validation\\validate_governance.py\", line 247, in <module>\r\n    assert sha256_file(historical)==m.group(1),m.group(2)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: .gitattributes\r\n",
+  "code_sha256": "6a75c803722ee81818e5eb3abd64b1c5cc5ad018a270406afd40c1db697482fc",
+  "scope": "Administrative complete historical/S014 provenance validation, 1800s/2GiB; no new search or change to any mathematical run bound; file-backed unbuffered stdout/stderr."
+}

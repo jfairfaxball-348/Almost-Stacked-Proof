@@ -1,0 +1,13 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_22.md": "0cd7fd9a05226ee1bac63445c996ee70072f7d10658c894777d1eb99391811a8",
+    "evidence/S014/oddcritical/inputs.json": "7c89d4baa5c4e4a98dc1643446dafb76012030a7c72f97b1e1824821c497a9f9",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "evidence/S014/oddlarge_v2/verification.json": "573cf937f4959c90035498bca6cc2514903eeb239fabfaf4df4db95b3ca0bd06",
+    "tools/s014_oddcritical.py": "e7d97b765e7851316fa1c6909f9c5f9b0e56f899b6623ae69936bd2ca73c77d5",
+    "tools/s014_oddcritical_run.py": "cdcca923febc1a214159d5e4c350dc18f65d280e5936b825a89aabd0778e4898",
+    "tools/s014_oddcritical_verify.py": "6eedfd2cb9ee1c2a4b241b29a4fcebace8795d5788caa00c828e3f022cdc3200"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

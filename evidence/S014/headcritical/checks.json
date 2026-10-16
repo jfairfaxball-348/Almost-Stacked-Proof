@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_headcritical.py"
+    ],
+    "exit_code": 0,
+    "seconds": 15.360000000000582,
+    "peak_working_set_bytes": 39997440,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 252, \"complete\": 252, \"eligible_critical_pairs\": 101, \"failed_pairs\": 4}\r\n",
+    "stderr": "",
+    "code_sha256": "b5df3093361777c678716cd0b04439eb7058d6a944c89ed23210486dafcc08f3"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_headcritical_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 9.937000000005355,
+    "peak_working_set_bytes": 21688320,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 252, \"complete_thresholds\": 252, \"unknown\": 0, \"full_losing_states\": 508929, \"eligible_critical_pairs\": 101, \"failed_ordered_pairs\": 4, \"failed_input_existence\": 2, \"nonAS_global_Q_critical_inputs\": 0, \"all_complete_AS_comparisons_hold\": true, \"first_failures\": [{\"graph\": {\"graph\": \"g8_0_16\", \"n\": 8, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 7], [3, 4], [3, 5], [4, 6], [6, 7]]}, \"threshold\": 16, \"c\": [1, 0, 0, 0, 0, 0, 7, 7], \"s\": 6, \"t\": 7, \"candidates\": [{\"v\": 4, \"d\": [1, 0, 0, 0, 1, 0, 0, 13], \"losing\": false}], \"failed\": true}, {\"graph\": {\"graph\": \"g8_0_16\", \"n\": 8, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 7], [3, 4], [3, 5], [4, 6], [6, 7]]}, \"threshold\": 16, \"c\": [1, 0, 0, 0, 0, 0, 7, 7], \"s\": 7, \"t\": 6, \"candidates\": [{\"v\": 2, \"d\": [1, 0, 1, 0, 0, 0, 13, 0], \"losing\": false}], \"failed\": true}, {\"graph\": {\"graph\": \"g8_0_32\", \"n\": 8, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 7], [3, 4], [3, 5], [5, 6], [6, 7]]}, \"threshold\": 16, \"c\": [0, 1, 0, 0, 0, 0, 7, 7], \"s\": 6, \"t\": 7, \"candidates\": [{\"v\": 5, \"d\": [0, 1, 0, 0, 0, 1, 0, 13], \"losing\": false}], \"failed\": true}, {\"graph\": {\"graph\": \"g8_0_32\", \"n\": 8, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 7], [3, 4], [3, 5], [5, 6], [6, 7]]}, \"threshold\": 16, \"c\": [0, 1, 0, 0, 0, 0, 7, 7], \"s\": 7, \"t\": 6, \"candidates\": [{\"v\": 2, \"d\": [0, 1, 1, 0, 0, 0, 13, 0], \"losing\": false}], \"failed\": true}], \"first_input_failures\": [{\"graph\": {\"graph\": \"g8_0_16\", \"n\": 8, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 7], [3, 4], [3, 5], [4, 6], [6, 7]]}, \"threshold\": 16, \"c\": [1, 0, 0, 0, 0, 0, 7, 7]}, {\"graph\": {\"graph\": \"g8_0_32\", \"n\": 8, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 7], [3, 4], [3, 5], [5, 6], [6, 7]]}, \"threshold\": 16, \"c\": [0, 1, 0, 0, 0, 0, 7, 7]}], \"all_full_layers_and_critical_keys_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "9c1034889b207363f66050a147e5aa149b72d9e8f3dea7f7bd7b4836b4a3fa9c"
+  }
+]

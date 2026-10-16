@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
-  "as_of": "2026-10-15",
-  "last_completed_session": "S013",
-  "recommended_next_session": "S014",
+  "as_of": "2026-10-16",
+  "last_completed_session": "S014",
+  "recommended_next_session": "S015",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "Universal STACK/CLEAR OPEN; S013 exact minimal-neighborhood configuration reduction does not prove the residual max-hole inequality."
+      "note": "Universal STACK/CLEAR OPEN after owner-requested S014 closeout. Same-graph arbitrary-buffer extremal comparison remains unproved; family/finite results do not pass this gate."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -38,29 +38,27 @@
       "status": "OWNER_GATED"
     }
   },
-  "source_inspection": "S013 selected five current digests unchanged; original ordering/push/+3/triangle scopes and SRC0050 smoothing6-7 inspected; possible exact refinements/equivalence uncertain, no priority/kernel assurance.",
+  "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Fresh S014 cold challenge63-70 and entire dependency DAG before reuse; local audit is not human/kernel certification.",
-    "Prove restricted L_R<=L_AS_minimal at incomparable minimal neighborhoods, all roots/input partitions/carries;65 repeated private exits still allowed.",
-    "Resolve arbitrary-buffer integer holes versus binary buffers on70 residual domain, zero bits/positive representatives/exact consumption retained.",
-    "CLEAR gap1 needs longer inverse histories/another same-mass AS construction; first-step and threshold/global-Q deletion independence are actual false routes.",
-    "Extend68 beyond comparable nontriangle neighborhoods at gap>=2, retaining ORIGINAL R3 full cyclic defect.",
-    "True graph threshold/AS-preserving gluing or equal-threshold quotient comparison remains unproved;70 does not delete vertices.",
-    "Or exact labelled general critical loser/EVERY AS winner/g with complete independent certificates.",
-    "S014 requires fresh owner invocation; all Lean/final stages/contact deferred."
+    "Universal same-graph arbitrary-input versus binary-buffer AS extremal domination",
+    "Critical H2r heavy elimination, critical core no-two/oddness and bipartite B_odd remain unproved",
+    "Rescaled-sector exchange and its implication for extremal AS selection are unproved",
+    "Independent cold audit of local proof items71-121 and full dependency DAG before reuse",
+    "Universal CLEAR remains OPEN; independent CLEAR work deferred until separately selected or a written STACK dependency.",
+    "No S015 execution or phases2-6/Lean/contact/publication permission is implied by this closeout."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
-    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN",
-    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN",
-    "assurance": "S013 local hostile full-DAG audit/six prior-hashed campaigns with distinct checkers; no independent human/kernel or worldwide-priority assurance."
+    "critical_form_ASHstar_stack": "OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison. S01487-88 add triplet-head certificate surgery and a bipartite signed barrier; arbitrary/residual smaller-donor loss preservation refuted, critical/global-Q weakening unproved.",
+    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison.",
+    "assurance": "S014 CLOSED at explicit owner request; local71-121 and81 bounded campaigns retain exact scopes. Universal STACK/CLEAR OPEN; independent human/kernel/priority assurance absent. Fresh full-DAG cold challenge FUTURE S015."
   },
   "correspondence": {
     "date": "2026-10-13",
@@ -74,7 +72,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S014 FUTURE/UNEXECUTED: cold-audit63-70, then close residual incomparable-minimal-neighborhood global comparison/private exits and longer gap1 CLEAR shadows; no one/two-milestone stop.",
+  "next_session_context": "S015 strictly FUTURE_UNEXECUTED. Cold-challenge71-121 then pursue universal SAME-GRAPH STACK L_all<=L_AS; CLEAR deferred except written STACK dependency.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -275,7 +273,7 @@
     "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme",
     "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
-  "owner_addendum": "Actual Run the next session selected S013; Continue steered the SAME active session. Sustained internal research/closeout, no delegation. S014 and final stages unexecuted.",
+  "owner_addendum": "Later explicit owner closeout request in sessions/S014/OWNER_CLOSEOUT.txt supersedes earlier keep-going direction solely for S014 closeout. No universal resolution or stage promotion.",
   "s009": {
     "prior_art": "research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md",
     "research": "research/S009_UNIVERSAL_RESEARCH.md",
@@ -419,10 +417,10 @@
     }
   },
   "next_session_handoff": {
-    "session": "S014",
+    "session": "S015",
     "status": "FUTURE_UNEXECUTED",
-    "path": "sessions/S013/FUTURE_S014.md",
-    "sha256": "53c979061ba5b2341457a6cdcaf5075aaabb091dd13a23c39af996d2613aa0ba"
+    "path": "sessions/S014/FUTURE_S015.md",
+    "sha256": "fe56fa52c270cc16ab7e1e70d907850221b4a09d8bf2b7aa5288eb05218269fe"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -430,7 +428,7 @@
     "universal_stack": "OPEN",
     "universal_clear": "OPEN",
     "cold_s012_audit": "PASS_S013_AT_STATED_SCOPES",
-    "cold_new_proofs": "FUTURE_S014",
+    "cold_new_proofs": "PASS_S014_AT_STATED_SCOPES",
     "formal_status": "NOT_STARTED",
     "novelty": "QUALIFIED_EXACT_RESULTS_KNOWN_PRIMITIVES_EQUIVALENCE_UNRESOLVED",
     "global_selection": "PROGRAMME_PROVED63-70 exact open-neighborhood loss concentration with precise small exception; GLOBAL Q/P heavy support minimal, equivalent restriction of BOTH maxima; incomparable-neighborhood inequality OPEN",
@@ -511,5 +509,3766 @@
     "owner_request_sha256": "27cdf779daa513e9b36a99ca138855d53bf65d073981f5c6f23cca11b7b933fe",
     "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S012 immutable files preserved.",
     "closeout_addendum_for": "sessions/S012/CLOSEOUT.md"
+  },
+  "active_session": null,
+  "consumed_prospective_handoff": {
+    "session": "S014",
+    "status": "FUTURE_UNEXECUTED",
+    "path": "sessions/S013/FUTURE_S014.md",
+    "sha256": "53c979061ba5b2341457a6cdcaf5075aaabb091dd13a23c39af996d2613aa0ba"
+  },
+  "s014": {
+    "status": "COMPLETED",
+    "cold_s013_audit": "PASS_S014_AT_STATED_SCOPES",
+    "inherited_checks": 24,
+    "universal_stack": "OPEN",
+    "universal_clear": "OPEN",
+    "campaign1": {
+      "archive_inputs": 148,
+      "complete_positive_gap_cases": 44,
+      "positive_gap_control_cases": 4,
+      "all_selected_sets_and_predicates_equal": true,
+      "new_threshold_claims": 0
+    },
+    "multiple_donor_argument": "PROGRAMME_PROVED_71_NECESSARY_NOT_UNIVERSAL",
+    "clear_gap1_candidate": "UNPROVED",
+    "historical_bytes_unchanged": true,
+    "new_local_proofs": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "new_proof_assurance": "LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING",
+    "arbitrary_buffer_join": "PROGRAMME_PROVED_82_AT_EXACT_CLASS_SCOPE",
+    "rooted_path_cover": "PROGRAMME_PROVED_81_83",
+    "campaigns_completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "new_computed_controls": {
+      "theta334": [
+        25,
+        27
+      ],
+      "barbell55": [
+        48,
+        48
+      ],
+      "Q3plus03": [
+        15,
+        15
+      ],
+      "Wagner8": [
+        11,
+        11
+      ],
+      "Petersen10": [
+        15,
+        15
+      ]
+    },
+    "parity_strengthening": "FALSE_EVEN_AT_CRITICAL_SIZE",
+    "odd_shift_candidate": "FALSE_ARBITRARY_RESIDUAL_LOSERS_CRITICAL_GLOBAL_Q_WEAKENING_UNPROVED",
+    "preserved_implementation_failure": "CAM17_KEYERROR_N_REPAIRED_V2_NO_SCOPE_CHANGE",
+    "research_focus": {
+      "goal": "UNIVERSAL_ASHSTAR_STACK",
+      "status": "OWNER_DIRECTED_PRIORITY_NOT_NEW_SESSION_EXECUTION",
+      "document": "sessions/S014/STACK_BRIDGE_FOCUS.md",
+      "sha256": "4d623a5eac8acf3f5e4f03f12fe4bfc841441ce265cf2a3f0b5e79bcd6dd2195",
+      "owner_direction": "sessions/S014/OWNER_STACK_BRIDGE_FOCUS.txt",
+      "owner_direction_sha256": "dbab831d4bce83fddb811ca45bf6ff309c405714c39c0cd955ad134caf045493",
+      "clear_work_allocation": "DEFERRED_EXCEPT_EXPLICIT_STACK_DEPENDENCY",
+      "obligation": "Focus S014 continuation exclusively on the universal SAME-GRAPH STACK bridge L_all^STACK(G)<=L_AS^STACK(G), using70 while covering arbitrary buffers, parity changes, even and nonadjacent heavy sites and all terminal roots. CLEAR is deferred except for a stated STACK dependency. Auxiliary barriers are not ASH* refutations; continue useful global implications without a lemma/campaign quota. No S015 or final-stage execution."
+    },
+    "cold_new_proofs": "FUTURE_S015_INDEPENDENT_COLD_CHALLENGE_PENDING",
+    "triplet_head": "PROGRAMME_PROVED_87_CONDITIONAL_CERTIFICATE_SURGERY_NOT_GLOBAL_COMPARISON",
+    "signed_head_barrier": "PROGRAMME_PROVED_88_BIPARTITE_CRITICAL_CONDITIONAL",
+    "preserved_implementation_failures": [
+      "CAM17_SCHEMA_KEYERROR_SEPARATE_V2_REPAIR",
+      "CAM21_PROGRESS_PIPE_EXPLICIT_INTERRUPTION_SEPARATE_V2_REPAIR",
+      "CAM38_C9A_EXPLICIT_INTERRUPTION_SEPARATE_V2_REPAIR",
+      "CAM49_BAD_GENERIC_ASSERTION_SEPARATE_V2_REPAIR",
+      "CAM58_CHECKER_NEGATIVE_SHIFT_SEPARATE_V2_REPAIR",
+      "CAM65_PRODUCER_WIDTH_SEPARATE_REPAIR",
+      "SCOPE62_EXACT_SOURCE_COLLISION_RECOVERED_AND_33_REPLAYS"
+    ],
+    "final_audit": "sessions/S014/AUDIT.md",
+    "continuation_verification": {
+      "CAM20": {
+        "graphs": 252,
+        "independently_checked_states": 321804,
+        "negative_states": 184453,
+        "legal_dependency_moves": 603635,
+        "eligible_pairs": 4080,
+        "failed_pairs": 0,
+        "first_failures": [],
+        "all_complete_keys_and_certificates_equal": true
+      },
+      "CAM21": {
+        "graphs": 3710,
+        "independently_checked_states": 2129306,
+        "negative_states": 758309,
+        "legal_dependency_moves": 3092719,
+        "eligible_pairs": 9484,
+        "failed_pairs": 583,
+        "all_complete_keys_and_certificates_equal": true
+      },
+      "CAM23": {
+        "failing_pairs": 583,
+        "donor_counts": {
+          "5": 342,
+          "3": 4,
+          "7": 237
+        },
+        "residual_failures": 259,
+        "bipartite_failures": 496,
+        "selected": [
+          "g6_0248",
+          "g6_0504"
+        ],
+        "independent_adjacency_classifier_equal": true
+      },
+      "CAM24": {
+        "graphs": 215,
+        "failed_pairs": 583,
+        "critical_failures": 0,
+        "layer_global_Q_failures": 0,
+        "full_losing_states": 1878298,
+        "all_AS_comparisons_hold": true
+      },
+      "CAM25": {
+        "graphs": 252,
+        "complete_thresholds": 252,
+        "unknown": 0,
+        "full_losing_states": 508929,
+        "eligible_critical_pairs": 101,
+        "failed_ordered_pairs": 4,
+        "failed_input_existence": 2,
+        "nonAS_global_Q_critical_inputs": 0,
+        "all_complete_AS_comparisons_hold": true,
+        "first_failures": [
+          {
+            "graph": {
+              "graph": "g8_0_16",
+              "n": 8,
+              "edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            "threshold": 16,
+            "c": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              7
+            ],
+            "s": 6,
+            "t": 7,
+            "candidates": [
+              {
+                "v": 4,
+                "d": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  13
+                ],
+                "losing": false
+              }
+            ],
+            "failed": true
+          },
+          {
+            "graph": {
+              "graph": "g8_0_16",
+              "n": 8,
+              "edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            "threshold": 16,
+            "c": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              7
+            ],
+            "s": 7,
+            "t": 6,
+            "candidates": [
+              {
+                "v": 2,
+                "d": [
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  13,
+                  0
+                ],
+                "losing": false
+              }
+            ],
+            "failed": true
+          },
+          {
+            "graph": {
+              "graph": "g8_0_32",
+              "n": 8,
+              "edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            "threshold": 16,
+            "c": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              7,
+              7
+            ],
+            "s": 6,
+            "t": 7,
+            "candidates": [
+              {
+                "v": 5,
+                "d": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  13
+                ],
+                "losing": false
+              }
+            ],
+            "failed": true
+          },
+          {
+            "graph": {
+              "graph": "g8_0_32",
+              "n": 8,
+              "edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            "threshold": 16,
+            "c": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              7,
+              7
+            ],
+            "s": 7,
+            "t": 6,
+            "candidates": [
+              {
+                "v": 2,
+                "d": [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  13,
+                  0
+                ],
+                "losing": false
+              }
+            ],
+            "failed": true
+          }
+        ],
+        "first_input_failures": [
+          {
+            "graph": {
+              "graph": "g8_0_16",
+              "n": 8,
+              "edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            "threshold": 16,
+            "c": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "graph": {
+              "graph": "g8_0_32",
+              "n": 8,
+              "edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            "threshold": 16,
+            "c": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              7,
+              7
+            ]
+          }
+        ],
+        "all_full_layers_and_critical_keys_equal": true
+      },
+      "CAM26": {
+        "graphs": 2,
+        "negative_inputs": 4,
+        "complete_negative_states": 2556,
+        "literal_winning_moves": 52,
+        "all_critical_candidates_win_but_AS_critical_losers_remain": true
+      },
+      "CAM28": {
+        "cases": 444,
+        "nonAS_critical_inputs": 1230,
+        "candidates": 45804,
+        "failed_H2r_inputs": 0,
+        "max_heavy_sites": 5,
+        "first_failures": [],
+        "all_generated_keys_memberships_and_heavy_decreases_equal": true
+      },
+      "CAM29": {
+        "graphs": 72,
+        "complete": 72,
+        "unknown": 0,
+        "full_losing_states": 1545176,
+        "nonAS_critical_inputs": 227,
+        "candidates": 11632,
+        "H2r_failures": 0,
+        "nonAS_global_Q": 0,
+        "all_complete_AS_comparisons_hold": true,
+        "first_failures": [],
+        "all_full_layers_and_H2r_keys_equal": true
+      },
+      "CAM30": {
+        "graphs": 252,
+        "complete_inputs": 252,
+        "unknown": 0,
+        "losing_inputs": 108,
+        "checked_states": 617212,
+        "negative_states": 615052,
+        "legal_dependencies": 1799764,
+        "all_complete_DAGs_equal": true
+      },
+      "CAM33": {
+        "exact_comparisons": 120,
+        "full_losing_states": 11406678,
+        "all_AS_comparisons_hold": true
+      },
+      "CAM34": {
+        "cases": 7510,
+        "checked_states": 867986,
+        "potential_counterexamples": 0,
+        "unknown": 0
+      },
+      "CAM35": {
+        "failures": 90
+      },
+      "CAM36": {
+        "cases": 120,
+        "complete_saturations": 120,
+        "unknown": 0,
+        "missing_edge_winning_histories": 2189,
+        "literal_edge_moves": 28257,
+        "AS_tail_verification": {
+          "shard": 0,
+          "cases": 120,
+          "complete_cases": 120,
+          "unknown": 0,
+          "checked_states": 1912482,
+          "negative_states": 408177,
+          "positive_dependencies": 1502420,
+          "potential_counterexamples": [],
+          "all_complete_DAGs_and_AS_tail_keys_checked": true
+        },
+        "all_greedy_decisions_and_saturation_certificates_checked": true
+      },
+      "fixed_input_exclusions": {
+        "C6": {
+          "case": "C6",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+          "verified_RUP_additions": 36,
+          "deleted_clause_ids": 194,
+          "hint_visits": 260,
+          "seconds": 0.0
+        },
+        "C9a": {
+          "case": "C9a",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+          "verified_RUP_additions": 28856,
+          "deleted_clause_ids": 129188,
+          "hint_visits": 380732,
+          "seconds": 0.9060000000026776
+        },
+        "C9b": {
+          "case": "C9b",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+          "verified_RUP_additions": 22864,
+          "deleted_clause_ids": 113062,
+          "hint_visits": 306415,
+          "seconds": 0.6570000000065193
+        },
+        "E8": {
+          "case": "E8",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY this exact fixed input graph-class exclusion; universal ASH* OPEN",
+          "added_RUP_steps": 14621,
+          "deletions": 8799,
+          "active_watched_clause_visits": 52905908,
+          "seconds": 32.421999999991385
+        },
+        "M9": {
+          "case": "M9",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY this exact fixed input graph-class exclusion; universal ASH* OPEN",
+          "added_RUP_steps": 14277,
+          "deletions": 8799,
+          "active_watched_clause_visits": 60743741,
+          "seconds": 29.73399999999674
+        },
+        "F9": {
+          "case": "F9",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+          "verified_RUP_additions": 35944,
+          "deleted_clause_ids": 80346,
+          "hint_visits": 467682,
+          "seconds": 1.1560000000026776
+        },
+        "E9": {
+          "case": "E9",
+          "fixed_input_class_exclusion_certified": true,
+          "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+          "verified_RUP_additions": 3308,
+          "deleted_clause_ids": 11527,
+          "hint_visits": 172739,
+          "seconds": 0.21899999999732245
+        }
+      },
+      "CAM43": {
+        "case": {
+          "id": "C10",
+          "n": 10,
+          "c": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            7,
+            1,
+            1
+          ],
+          "permutations": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              8,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              0
+            ],
+            [
+              8,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              6,
+              9,
+              0
+            ],
+            [
+              9,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              0,
+              8
+            ],
+            [
+              9,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              6,
+              0,
+              8
+            ],
+            [
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              8,
+              2,
+              3,
+              4,
+              5,
+              1,
+              6,
+              7,
+              9,
+              0
+            ],
+            [
+              8,
+              2,
+              3,
+              4,
+              5,
+              1,
+              7,
+              6,
+              9,
+              0
+            ],
+            [
+              9,
+              2,
+              3,
+              4,
+              5,
+              1,
+              6,
+              7,
+              0,
+              8
+            ],
+            [
+              9,
+              2,
+              3,
+              4,
+              5,
+              1,
+              7,
+              6,
+              0,
+              8
+            ],
+            [
+              0,
+              3,
+              4,
+              5,
+              1,
+              2,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              3,
+              4,
+              5,
+              1,
+              2,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              8,
+              3,
+              4,
+              5,
+              1,
+              2,
+              6,
+              7,
+              9,
+              0
+            ],
+            [
+              8,
+              3,
+              4,
+              5,
+              1,
+              2,
+              7,
+              6,
+              9,
+              0
+            ],
+            [
+              9,
+              3,
+              4,
+              5,
+              1,
+              2,
+              6,
+              7,
+              0,
+              8
+            ],
+            [
+              9,
+              3,
+              4,
+              5,
+              1,
+              2,
+              7,
+              6,
+              0,
+              8
+            ],
+            [
+              0,
+              4,
+              5,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              4,
+              5,
+              1,
+              2,
+              3,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              8,
+              4,
+              5,
+              1,
+              2,
+              3,
+              6,
+              7,
+              9,
+              0
+            ],
+            [
+              8,
+              4,
+              5,
+              1,
+              2,
+              3,
+              7,
+              6,
+              9,
+              0
+            ],
+            [
+              9,
+              4,
+              5,
+              1,
+              2,
+              3,
+              6,
+              7,
+              0,
+              8
+            ],
+            [
+              9,
+              4,
+              5,
+              1,
+              2,
+              3,
+              7,
+              6,
+              0,
+              8
+            ],
+            [
+              0,
+              5,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              5,
+              1,
+              2,
+              3,
+              4,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              8,
+              5,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              9,
+              0
+            ],
+            [
+              8,
+              5,
+              1,
+              2,
+              3,
+              4,
+              7,
+              6,
+              9,
+              0
+            ],
+            [
+              9,
+              5,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              0,
+              8
+            ],
+            [
+              9,
+              5,
+              1,
+              2,
+              3,
+              4,
+              7,
+              6,
+              0,
+              8
+            ],
+            [
+              0,
+              1,
+              5,
+              4,
+              3,
+              2,
+              6,
+              7,
+              9,
+              8
+            ],
+            [
+              0,
+              1,
+              5,
+              4,
+              3,
+              2,
+              7,
+              6,
+              9,
+              8
+            ],
+            [
+              8,
+              1,
+              5,
+              4,
+              3,
+              2,
+              6,
+              7,
+              0,
+              9
+            ],
+            [
+              8,
+              1,
+              5,
+              4,
+              3,
+              2,
+              7,
+              6,
+              0,
+              9
+            ],
+            [
+              9,
+              1,
+              5,
+              4,
+              3,
+              2,
+              6,
+              7,
+              8,
+              0
+            ],
+            [
+              9,
+              1,
+              5,
+              4,
+              3,
+              2,
+              7,
+              6,
+              8,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              5,
+              4,
+              3,
+              6,
+              7,
+              9,
+              8
+            ],
+            [
+              0,
+              2,
+              1,
+              5,
+              4,
+              3,
+              7,
+              6,
+              9,
+              8
+            ],
+            [
+              8,
+              2,
+              1,
+              5,
+              4,
+              3,
+              6,
+              7,
+              0,
+              9
+            ],
+            [
+              8,
+              2,
+              1,
+              5,
+              4,
+              3,
+              7,
+              6,
+              0,
+              9
+            ],
+            [
+              9,
+              2,
+              1,
+              5,
+              4,
+              3,
+              6,
+              7,
+              8,
+              0
+            ],
+            [
+              9,
+              2,
+              1,
+              5,
+              4,
+              3,
+              7,
+              6,
+              8,
+              0
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              5,
+              4,
+              6,
+              7,
+              9,
+              8
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              5,
+              4,
+              7,
+              6,
+              9,
+              8
+            ],
+            [
+              8,
+              3,
+              2,
+              1,
+              5,
+              4,
+              6,
+              7,
+              0,
+              9
+            ],
+            [
+              8,
+              3,
+              2,
+              1,
+              5,
+              4,
+              7,
+              6,
+              0,
+              9
+            ],
+            [
+              9,
+              3,
+              2,
+              1,
+              5,
+              4,
+              6,
+              7,
+              8,
+              0
+            ],
+            [
+              9,
+              3,
+              2,
+              1,
+              5,
+              4,
+              7,
+              6,
+              8,
+              0
+            ],
+            [
+              0,
+              4,
+              3,
+              2,
+              1,
+              5,
+              6,
+              7,
+              9,
+              8
+            ],
+            [
+              0,
+              4,
+              3,
+              2,
+              1,
+              5,
+              7,
+              6,
+              9,
+              8
+            ],
+            [
+              8,
+              4,
+              3,
+              2,
+              1,
+              5,
+              6,
+              7,
+              0,
+              9
+            ],
+            [
+              8,
+              4,
+              3,
+              2,
+              1,
+              5,
+              7,
+              6,
+              0,
+              9
+            ],
+            [
+              9,
+              4,
+              3,
+              2,
+              1,
+              5,
+              6,
+              7,
+              8,
+              0
+            ],
+            [
+              9,
+              4,
+              3,
+              2,
+              1,
+              5,
+              7,
+              6,
+              8,
+              0
+            ],
+            [
+              0,
+              5,
+              4,
+              3,
+              2,
+              1,
+              6,
+              7,
+              9,
+              8
+            ],
+            [
+              0,
+              5,
+              4,
+              3,
+              2,
+              1,
+              7,
+              6,
+              9,
+              8
+            ],
+            [
+              8,
+              5,
+              4,
+              3,
+              2,
+              1,
+              6,
+              7,
+              0,
+              9
+            ],
+            [
+              8,
+              5,
+              4,
+              3,
+              2,
+              1,
+              7,
+              6,
+              0,
+              9
+            ],
+            [
+              9,
+              5,
+              4,
+              3,
+              2,
+              1,
+              6,
+              7,
+              8,
+              0
+            ],
+            [
+              9,
+              5,
+              4,
+              3,
+              2,
+              1,
+              7,
+              6,
+              8,
+              0
+            ]
+          ]
+        },
+        "status": "ITERATION_BOUND_UNKNOWN",
+        "iterations": 1000,
+        "base_clauses": 6010,
+        "stabilizer_size": 60,
+        "clauses": 91566,
+        "seconds": 429.10899999999674,
+        "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+      },
+      "CAM44": {
+        "cases": 638,
+        "critical": 20231,
+        "nonAS": 17940,
+        "nonAS_with2": 0,
+        "even_heavy_inputs": 4,
+        "bipartite_even_heavy_inputs": 0,
+        "all_selected_labeled_inputs_equal": true,
+        "universal_no2": "UNPROVED_FINITE_AGREEMENT_ONLY"
+      },
+      "CAM48": {
+        "N9_M11": {
+          "case": "N9_M11",
+          "n": 9,
+          "mass": 11,
+          "patterns": 45,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 23572,
+          "distinct_graph_clauses": 23503,
+          "fixed_encoding_clauses": 14430,
+          "variables": 3374,
+          "seconds": 54.75,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N10_M12": {
+          "case": "N10_M12",
+          "n": 10,
+          "mass": 12,
+          "patterns": 65,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 29250,
+          "distinct_graph_clauses": 29202,
+          "fixed_encoding_clauses": 26921,
+          "variables": 6320,
+          "seconds": 90.5,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N10_M17": {
+          "case": "N10_M17",
+          "n": 10,
+          "mass": 17,
+          "patterns": 257,
+          "status": "TIME_BOUND_UNKNOWN",
+          "iterations": 7429,
+          "graph_records": 21000,
+          "distinct_graph_clauses": 18069,
+          "fixed_encoding_clauses": 135201,
+          "variables": 25878,
+          "seconds": 540.3289999999979,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N12_M13": {
+          "case": "N12_M13",
+          "n": 12,
+          "mass": 13,
+          "patterns": 88,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 20683,
+          "distinct_graph_clauses": 20671,
+          "fixed_encoding_clauses": 52521,
+          "variables": 12750,
+          "seconds": 351.68799999999464,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N12_M16": {
+          "case": "N12_M16",
+          "n": 12,
+          "mass": 16,
+          "patterns": 212,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 16813,
+          "distinct_graph_clauses": 16801,
+          "fixed_encoding_clauses": 146169,
+          "variables": 32304,
+          "seconds": 211.18799999999464,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        }
+      },
+      "CAM49": {
+        "original_negative_states": 50,
+        "even_donors": 1,
+        "all_vertices_tested": 4,
+        "winning_candidates": 4,
+        "literal_positive_moves": 44,
+        "E0": "FALSE_ON_A_BIPARTITE_ZERO_IMBALANCE_LOSER",
+        "critical_status": "BELOW_KNOWN_CRITICAL14",
+        "universal_no2": "UNPROVED_NOT_REFUTED",
+        "universal_ASH": "OPEN"
+      },
+      "CAM50": {
+        "full_negative_states": 56,
+        "literal_witnesses": 18,
+        "literal_moves": 202,
+        "neutral_roots": 4,
+        "positive_insertions_checked": 14,
+        "mass12_losers": 4,
+        "minimum_heavy": 2,
+        "Q": 90,
+        "P": 12,
+        "thresholds": [
+          15,
+          8,
+          7,
+          8
+        ],
+        "complete_selected_sets_equal": true,
+        "all_coordinate_extensions_win_by_threshold_and_witnesses": true,
+        "scope": "Actual noncritical P4 obstruction only; universal ASH* OPEN"
+      },
+      "CAM51_control": {
+        "case": "N2_M4",
+        "fixed_mass_graph_class_exclusion_certified": true,
+        "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN",
+        "verified_RUP_additions": 1,
+        "deleted_clause_ids": 4,
+        "hint_visits": 3,
+        "seconds": 0.0
+      },
+      "CAM51": {
+        "N8_M10": {
+          "case": "N8_M10",
+          "n": 8,
+          "mass": 10,
+          "patterns": 32,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 10702,
+          "distinct_graph_clauses": 10694,
+          "fixed_encoding_clauses": 7999,
+          "variables": 1858,
+          "seconds": 32.437000000005355,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N9_M11": {
+          "case": "N9_M11",
+          "n": 9,
+          "mass": 11,
+          "patterns": 45,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 33707,
+          "distinct_graph_clauses": 33503,
+          "fixed_encoding_clauses": 14430,
+          "variables": 3374,
+          "seconds": 47.405999999988126,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N10_M12": {
+          "case": "N10_M12",
+          "n": 10,
+          "mass": 12,
+          "patterns": 65,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 39470,
+          "distinct_graph_clauses": 39202,
+          "fixed_encoding_clauses": 26921,
+          "variables": 6320,
+          "seconds": 53.687999999994645,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N10_M17": {
+          "case": "N10_M17",
+          "n": 10,
+          "mass": 17,
+          "patterns": 257,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 31220,
+          "distinct_graph_clauses": 28069,
+          "fixed_encoding_clauses": 135201,
+          "variables": 25878,
+          "seconds": 264.4690000000119,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N12_M13": {
+          "case": "N12_M13",
+          "n": 12,
+          "mass": 13,
+          "patterns": 88,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 31487,
+          "distinct_graph_clauses": 30671,
+          "fixed_encoding_clauses": 52521,
+          "variables": 12750,
+          "seconds": 64.625,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        },
+        "N12_M16": {
+          "case": "N12_M16",
+          "n": 12,
+          "mass": 16,
+          "patterns": 212,
+          "status": "ITERATION_BOUND_UNKNOWN",
+          "iterations": 10000,
+          "graph_records": 27749,
+          "distinct_graph_clauses": 26801,
+          "fixed_encoding_clauses": 146169,
+          "variables": 32304,
+          "seconds": 171.5470000000205,
+          "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+        }
+      },
+      "CAM52": [
+        {
+          "shard": 0,
+          "graphs": 27,
+          "ordered_pairs": 327,
+          "queries": 2655,
+          "states": 21702,
+          "negative_states": 14685,
+          "literal_constructions": 981,
+          "literal_moves": 4596,
+          "all_queries_match_exact_residue_cutoffs": true,
+          "scope": "Only registered27 graphs and d<=3 negative/positive query ranges; universal theorem100 is symbolic, ASH* OPEN"
+        },
+        {
+          "shard": 1,
+          "graphs": 27,
+          "ordered_pairs": 327,
+          "queries": 2605,
+          "states": 23289,
+          "negative_states": 16498,
+          "literal_constructions": 981,
+          "literal_moves": 4632,
+          "all_queries_match_exact_residue_cutoffs": true,
+          "scope": "Only registered27 graphs and d<=3 negative/positive query ranges; universal theorem100 is symbolic, ASH* OPEN"
+        }
+      ],
+      "CAM53": {
+        "graphs": 31,
+        "isometric_trees": 2279,
+        "ambient_edges_mapped": 65648,
+        "all_full_subtree_sets_equal": true,
+        "all_retractions_true_loopless_edge_maps": true,
+        "all_earlier_TreeStack_root_scores_equal": true,
+        "crown_maxima": [
+          15,
+          16,
+          19
+        ],
+        "crown_AS_lower_thresholds": [
+          16,
+          19,
+          22
+        ],
+        "scope": "Scoped bridge101 and actual stronger-selection obstruction102; universal ASH* OPEN"
+      },
+      "CAM53_crown5": {
+        "graph": "crown5",
+        "goal": "stack",
+        "scope": "EXACT_THRESHOLD",
+        "threshold": 16,
+        "last_complete_mass": 16,
+        "certified_losing_states": 28880,
+        "L_AS_seen": 15,
+        "L_AS_exact": 15,
+        "all_full_losing_layers_equal": true
+      },
+      "CAM54": [
+        {
+          "shard": 0,
+          "cases": 25,
+          "full_isometric_tree_sets": 2615,
+          "all_alpha_maximum_sets_equal": true,
+          "all_root_scores_equal": true,
+          "strict_gaps": [],
+          "scope": "Fixed certified thresholds only; proposed combined ceiling UNPROVED unless refuted by listed strict gap; universal ASH* OPEN"
+        },
+        {
+          "shard": 1,
+          "cases": 24,
+          "full_isometric_tree_sets": 3800,
+          "all_alpha_maximum_sets_equal": true,
+          "all_root_scores_equal": true,
+          "strict_gaps": [
+            {
+              "index": 39,
+              "source": "A182",
+              "threshold": 42,
+              "bound": 40,
+              "R": 40,
+              "alpha": 5,
+              "critical_AS_witness": [
+                39,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ]
+            }
+          ],
+          "scope": "Fixed certified thresholds only; proposed combined ceiling UNPROVED unless refuted by listed strict gap; universal ASH* OPEN"
+        }
+      ],
+      "CAM55": {
+        "states": 10988,
+        "complete_legal_dependencies": 50423,
+        "input": [
+          39,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "mass": 41,
+        "negative_closures_equal": true,
+        "scope": "Actual AS loser above proposed combined upper40; not ASH* counterexample"
+      },
+      "CAM55_threshold": {
+        "graph": "A182fresh",
+        "goal": "stack",
+        "scope": "EXACT_THRESHOLD",
+        "threshold": 42,
+        "last_complete_mass": 42,
+        "certified_losing_states": 160136,
+        "L_AS_seen": 41,
+        "L_AS_exact": 41,
+        "all_full_losing_layers_equal": true
+      },
+      "CAM56": {
+        "patterns": 32,
+        "complete_inventory_equal": true,
+        "certified": 32,
+        "complete_mass10_order8_exclusion": true,
+        "cases": [
+          {
+            "case": "P00",
+            "c": [
+              3,
+              3,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P01",
+            "c": [
+              5,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P02",
+            "c": [
+              5,
+              3,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P03",
+            "c": [
+              7,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P04",
+            "c": [
+              3,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P05",
+            "c": [
+              4,
+              3,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P06",
+            "c": [
+              5,
+              4,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P07",
+            "c": [
+              5,
+              2,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P08",
+            "c": [
+              6,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P09",
+            "c": [
+              7,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P10",
+            "c": [
+              2,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P11",
+            "c": [
+              4,
+              4,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P12",
+            "c": [
+              4,
+              2,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P13",
+            "c": [
+              6,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P14",
+            "c": [
+              6,
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P15",
+            "c": [
+              8,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P16",
+            "c": [
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P17",
+            "c": [
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P18",
+            "c": [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P19",
+            "c": [
+              5,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P20",
+            "c": [
+              3,
+              2,
+              2,
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P21",
+            "c": [
+              4,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P22",
+            "c": [
+              5,
+              2,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P23",
+            "c": [
+              2,
+              2,
+              2,
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P24",
+            "c": [
+              4,
+              2,
+              2,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P25",
+            "c": [
+              4,
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P26",
+            "c": [
+              6,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P27",
+            "c": [
+              3,
+              3,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P28",
+            "c": [
+              3,
+              2,
+              2,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P29",
+            "c": [
+              2,
+              2,
+              2,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P30",
+            "c": [
+              4,
+              2,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          },
+          {
+            "case": "P31",
+            "c": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              0,
+              0,
+              0
+            ],
+            "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+            "independently_excluded": true
+          }
+        ],
+        "scope": "Finite fixed(n8,M10) only; universal ASH* OPEN"
+      },
+      "CAM57": {
+        "status": "STATE_CAP_UNKNOWN",
+        "completed_queries": 16931,
+        "verified_states": 2000000,
+        "verified_dependencies": 12551572,
+        "negative_states": 1626500,
+        "all_completed_queries_certified": true,
+        "all16_XOR_maps_verified": true,
+        "complete_AS_tail_upper31": false,
+        "exact_L_AS": null,
+        "AS_bad": null,
+        "scope": "Only AS-tail status; no full general threshold or ASH* conclusion",
+        "seconds": 15.530999999988126
+      },
+      "CAM58": {
+        "status": "COMPLETE_AS_TAIL_UPPER31",
+        "verified_nodes": 1572864,
+        "completed_masks": 32768,
+        "queries_examined": 98304,
+        "upper_witnesses_missing": 0,
+        "every_node_has_sound_well_founded_production": true,
+        "all16_XOR_maps_verified": true,
+        "complete_AS_tail_upper31": true,
+        "exact_L_AS": 30,
+        "scope": "Positive upper certificates only; no general threshold, loss from missing witness, or universal ASH* claim",
+        "seconds": 2.0
+      },
+      "CAM59": {
+        "exact_binary_buffer_AS_oracle_certified": true,
+        "source": 0,
+        "masks": 32768,
+        "nodes": 1572864,
+        "proper_unordered_partitions": 7141686,
+        "full_inequalities": 803538796,
+        "all_signed_residues_verified": true,
+        "all_global_minima_equal": true,
+        "exact_L_AS": 30,
+        "source0_critical_AS": [
+          {
+            "mask": 16384,
+            "N": 29,
+            "input": [
+              29,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "scope": "Exact AS only on fixed Q4, all XOR sources; no general threshold or universal ASH* conclusion",
+        "seconds": 25.328000000008615
+      },
+      "CAM60": {
+        "status": "GLOBAL_STATE_CAP_UNKNOWN",
+        "candidates_checked": 2158,
+        "winning_inputs": 2157,
+        "unknown": 1,
+        "verified_states": 2000000,
+        "literal_AS_anchors": 341,
+        "literal_moves": 2448,
+        "exact_AS_negative_anchors": 439137,
+        "ordinary_negative_states": 1531785,
+        "triple_macros": 11983,
+        "verified_legal_dependencies": 14409950,
+        "potential": [],
+        "all_completed_answers_certified": true,
+        "scope": "Frozen general inputs only; potential requires fresh cold audit, winning samples prove no full threshold",
+        "seconds": 31.59299999999348
+      },
+      "CAM62": {
+        "status": "COMPLETE_REGISTERED_CASES",
+        "candidates_checked": 9783,
+        "winning_inputs": 9783,
+        "unknown": 0,
+        "verified_states": 872261,
+        "literal_AS_anchors": 757,
+        "literal_moves": 7309,
+        "exact_AS_negative_anchors": 61941,
+        "ordinary_negative_states": 704843,
+        "triple_macros": 50270,
+        "verified_legal_dependencies": 7653737,
+        "potential": [],
+        "all_completed_answers_certified": true,
+        "scope": "Frozen general inputs only; potential requires fresh cold audit, winning samples prove no full threshold",
+        "seconds": 58.84299999999348
+      },
+      "CAM61": [
+        {
+          "shard": 0,
+          "status": "AGGREGATE_STATE_CAP_UNKNOWN",
+          "candidate_prefix_checked": 1094,
+          "literal_full_input_winners": 1093,
+          "literal_moves": 31819,
+          "unknown": 1,
+          "potential": [],
+          "all_positive_histories_verified": true,
+          "partial_states_retained_without_mathematical_promotion": 11481,
+          "scope": "Only pointwise winners, unknown suffix explicit; negative potential needs separate full DAG replay, no full threshold"
+        },
+        {
+          "shard": 1,
+          "status": "AGGREGATE_STATE_CAP_UNKNOWN",
+          "candidate_prefix_checked": 1301,
+          "literal_full_input_winners": 1300,
+          "literal_moves": 37819,
+          "unknown": 1,
+          "potential": [],
+          "all_positive_histories_verified": true,
+          "partial_states_retained_without_mathematical_promotion": 15757,
+          "scope": "Only pointwise winners, unknown suffix explicit; negative potential needs separate full DAG replay, no full threshold"
+        }
+      ],
+      "CAM63_controls": {
+        "both_controls_pass": true,
+        "controls": [
+          {
+            "dimension": 1,
+            "status": "EXACT_THRESHOLD",
+            "threshold": 3,
+            "last_verified_mass": 3
+          },
+          {
+            "dimension": 3,
+            "status": "EXACT_THRESHOLD",
+            "threshold": 15,
+            "last_verified_mass": 15
+          }
+        ]
+      },
+      "CAM63_Q4": {
+        "dimension": 4,
+        "status": "CANDIDATE_CAP_UNKNOWN",
+        "threshold": null,
+        "last_verified_mass": 13
+      },
+      "CAM56_source_recovery": {
+        "original_CAM06_checker_sha256": "73a042ac51e8f289a5976220e28601a21e6c03f68acabe3d33135299c25a0ad3",
+        "archived_CAM56_checker_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29",
+        "replayed_checks": 33,
+        "all_output_bytes_unchanged": true,
+        "scope": "Source-version recovery and same-scope replay only; no new mathematics"
+      },
+      "CAM64": {
+        "dimension": 4,
+        "status": "EXACT_THRESHOLD",
+        "threshold": 31,
+        "last_verified_mass": 31
+      },
+      "CAM65": {
+        "graph": "FanoInc14",
+        "n": 14,
+        "group_size": 336,
+        "all14_source_maps_verified": true,
+        "nodes": 344064,
+        "masks": 8192,
+        "proper_partitions": 788970,
+        "full_inequalities": 66961563,
+        "every_attaining_node_and_lower_inequality_checked": true,
+        "exact_binary_buffer_AS_oracle_certified": true,
+        "exact_L_AS": 29,
+        "source0_critical_AS": [
+          {
+            "mask": 5440,
+            "N": 25,
+            "input": [
+              25,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1
+            ]
+          }
+        ],
+        "scope": "Exact AS only, all sources/unbounded positive source count; no general threshold or universal ASH* conclusion",
+        "seconds": 3.375
+      },
+      "CAM66": {
+        "graph": "FanoInc14",
+        "status": "EXACT_THRESHOLD",
+        "threshold": 30,
+        "last_verified_mass": 30
+      },
+      "CAM67": {
+        "all_shell_hypotheses_verified": true,
+        "graphs": 30,
+        "shell_rows": 501,
+        "oriented_edges_checked": 10396,
+        "exact_AS_oracle_queries": 106,
+        "complete_negative_queries": 350,
+        "states": 22920,
+        "dependencies": 53775,
+        "unknown_queries": 0,
+        "scope": "Finite parameter/closure challenge only;109 symbolic proof required, universal ASH* OPEN",
+        "seconds": 0.23499999998603016
+      },
+      "CAM68": {
+        "patterns": 44,
+        "certified": 44,
+        "complete_mass11_order8_exclusion": true,
+        "control_pass": true,
+        "verified_RUP_additions": 64781,
+        "hint_visits": 1461399,
+        "scope": "ONLY all connected order8 graphs/fixed mass11; universal ASH* OPEN"
+      },
+      "CAM69": {
+        "status": "H_UP2_AUXILIARY_REFUTED",
+        "complete_tested_prefix_verified": true,
+        "cases": 18,
+        "inputs": 2946,
+        "parsed_states": 5173,
+        "failed_inputs": 1,
+        "first_failure": {
+          "case": {
+            "id": "A17",
+            "n": 5,
+            "threshold": 16,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "summary": "evidence/S005/A5_0008_stack.summary.json",
+            "certificate": "evidence/S005/A5_0008_stack.bin.xz"
+          },
+          "c": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "mass": 7,
+          "candidates": 12
+        },
+        "independently_checked_failed_candidates": 12,
+        "scope": "Only finite H_up2 challenge; universal ASH* OPEN",
+        "seconds": 0.046999999991385266
+      },
+      "CAM70": {
+        "status": "H_POOL2_AUXILIARY_REFUTED",
+        "complete_tested_prefix_verified": true,
+        "cases": 21,
+        "inputs": 3097,
+        "parsed_states": 5674,
+        "failed_inputs": 1,
+        "first_failure": {
+          "case": {
+            "id": "A20",
+            "n": 5,
+            "threshold": 15,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "summary": "evidence/S005/A5_0011_stack.summary.json",
+            "certificate": "evidence/S005/A5_0011_stack.bin.xz"
+          },
+          "c": [
+            3,
+            3,
+            1,
+            1,
+            1
+          ],
+          "mass": 9,
+          "candidates": 60
+        },
+        "independently_checked_failed_candidates": 60,
+        "scope": "Only finite H_pool2 challenge; universal ASH* OPEN",
+        "seconds": 0.046999999991385266
+      },
+      "CAM71": {
+        "patterns": 8,
+        "certified": 8,
+        "all_registered_patterns_independently_excluded": true,
+        "control_pass": true,
+        "verified_RUP_additions": 33677,
+        "hint_visits": 862482,
+        "scope": "ONLY specified8 fixed-input graph classes, not full order/mass coverage; universal ASH* OPEN"
+      },
+      "CAM72": {
+        "complete_all_candidate_memberships_equal": true,
+        "cases": 638,
+        "bipartite_cases": 48,
+        "critical_states": 14998,
+        "nonAS_inputs": 14814,
+        "candidates": 203673,
+        "all_source_failures": 0,
+        "heavy_source_failures": 0,
+        "first_failures": [],
+        "scope": "Finite critical bipartite parity challenge only; universal B_par and ASH* unproved",
+        "seconds": 4.437999999994645
+      },
+      "CAM73": {
+        "status": "COMPLETE_REGISTERED_CASES",
+        "complete_tested_prefix_verified": true,
+        "cases": 142,
+        "bipartite_cases": 27,
+        "inputs": 13297,
+        "states": 102483,
+        "failed_inputs": 0,
+        "failed_candidates_independently_checked": 0,
+        "first_failure": null,
+        "scope": "Only finite odd-positive bipartite parity challenge; universal ASH* OPEN",
+        "seconds": 0.35999999998603016
+      },
+      "CAM74": {
+        "status": "COMPLETE_REGISTERED_18_EXECUTED_PLUS_3_PRIOR_SCOPE_UNKNOWN",
+        "cases": 21,
+        "independently_completed_cases": 18,
+        "prior_scope_unknown_cases": 3,
+        "inputs": 1598711,
+        "states": 10124184,
+        "maximum_order": 14,
+        "failed_inputs": 0,
+        "completed": [
+          {
+            "case": "A143",
+            "n": 7,
+            "inputs": 1760,
+            "states": 15582,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A144",
+            "n": 7,
+            "inputs": 675,
+            "states": 5073,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A145",
+            "n": 7,
+            "inputs": 11683,
+            "states": 124432,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A146",
+            "n": 7,
+            "inputs": 1603,
+            "states": 12026,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A147",
+            "n": 7,
+            "inputs": 372,
+            "states": 2788,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A148",
+            "n": 7,
+            "inputs": 1318,
+            "states": 10521,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A166",
+            "n": 8,
+            "inputs": 8558,
+            "states": 109441,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A174",
+            "n": 8,
+            "inputs": 8802,
+            "states": 78065,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A175",
+            "n": 8,
+            "inputs": 82116,
+            "states": 993496,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A180",
+            "n": 8,
+            "inputs": 30529,
+            "states": 381255,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A182",
+            "n": 8,
+            "inputs": 15758,
+            "states": 160136,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A183",
+            "n": 8,
+            "inputs": 11660,
+            "states": 103902,
+            "failed_inputs": 0
+          },
+          {
+            "case": "A186",
+            "n": 9,
+            "inputs": 84023,
+            "states": 1266586,
+            "failed_inputs": 0
+          },
+          {
+            "case": "circulant/CIRC12_10",
+            "n": 12,
+            "inputs": 38140,
+            "states": 186123,
+            "failed_inputs": 0
+          },
+          {
+            "case": "circulant/CIRC14_10",
+            "n": 14,
+            "inputs": 308548,
+            "states": 1548335,
+            "failed_inputs": 0
+          },
+          {
+            "case": "circulant/CIRC14_34",
+            "n": 14,
+            "inputs": 343205,
+            "states": 1799628,
+            "failed_inputs": 0
+          },
+          {
+            "case": "circulant/CIRC14_40",
+            "n": 14,
+            "inputs": 343205,
+            "states": 1799628,
+            "failed_inputs": 0
+          },
+          {
+            "case": "circulant/CIRC14_42",
+            "n": 14,
+            "inputs": 306756,
+            "states": 1527167,
+            "failed_inputs": 0
+          }
+        ],
+        "unknown": [
+          {
+            "case": "A171",
+            "states": 4465557,
+            "largest_layer": 108644,
+            "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+          },
+          {
+            "case": "A181",
+            "states": 10861873,
+            "largest_layer": 214489,
+            "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+          },
+          {
+            "case": "A184",
+            "states": 13340529,
+            "largest_layer": 904490,
+            "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+          }
+        ],
+        "scope": "Finite selected cases only; B_odd and universal ASH* OPEN"
+      },
+      "CAM75": {
+        "all_input_leaf_extension_memberships_equal": true,
+        "cases": 142,
+        "bipartite_cases": 27,
+        "states": 102483,
+        "extensions": 33188,
+        "initially_empty_leaf_extensions": 3104,
+        "failures": 0,
+        "first_failures": [],
+        "scope": "Finite challenge only;114 written proof needed; universal ASH* OPEN",
+        "seconds": 1.5939999999827705
+      },
+      "CAM76": {
+        "all_input_neighbor_inventories_and_memberships_equal": true,
+        "cases": 142,
+        "bipartite_cases": 27,
+        "states": 102483,
+        "records": 83376,
+        "extensions": 145073,
+        "failed_input_vertex_pairs": 515,
+        "failures_at_pile2": 74,
+        "failures_at_actual_critical_mass": 0,
+        "first_failures": [
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 11,
+            "c": [
+              1,
+              1,
+              8,
+              0,
+              1
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 12,
+            "c": [
+              1,
+              1,
+              10,
+              0,
+              0
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 11,
+            "c": [
+              1,
+              1,
+              8,
+              1,
+              0
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 12,
+            "c": [
+              1,
+              3,
+              8,
+              0,
+              0
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 12,
+            "c": [
+              3,
+              3,
+              6,
+              0,
+              0
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 11,
+            "c": [
+              3,
+              1,
+              6,
+              1,
+              0
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 11,
+            "c": [
+              1,
+              3,
+              6,
+              0,
+              1
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 10,
+            "c": [
+              1,
+              1,
+              6,
+              1,
+              1
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A10",
+            "n": 5,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 31,
+            "mass": 12,
+            "c": [
+              3,
+              1,
+              8,
+              0,
+              0
+            ],
+            "v": 2,
+            "neighbors": [
+              [
+                3,
+                false
+              ],
+              [
+                4,
+                false
+              ]
+            ],
+            "minimum_degree": 1
+          },
+          {
+            "case": "A30",
+            "n": 6,
+            "edges": [
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "threshold": 15,
+            "mass": 10,
+            "c": [
+              2,
+              0,
+              0,
+              1,
+              2,
+              5
+            ],
+            "v": 0,
+            "neighbors": [
+              [
+                4,
+                false
+              ],
+              [
+                5,
+                false
+              ]
+            ],
+            "minimum_degree": 2
+          }
+        ],
+        "scope": "Finite challenge of unproved some-neighbor strengthening;114b unchanged; universal ASH* OPEN",
+        "seconds": 6.437000000005355
+      },
+      "CAM78": {
+        "all_input_leaf_extension_memberships_equal": true,
+        "cases": 142,
+        "bipartite_cases": 27,
+        "states": 167713,
+        "extensions": 160579,
+        "initially_empty_leaf_extensions": 22440,
+        "failures": 0,
+        "first_failures": [],
+        "scope": "Finite all-graph challenge of117; exception is exactly two adjacent singletons; universal ASH* OPEN",
+        "seconds": 1.6400000000139698
+      },
+      "CAM79": {
+        "complete_predecessor_inventory_and_all_child_masks_equal": true,
+        "cases": 142,
+        "states": 167713,
+        "predecessors": 598867,
+        "winning_multioccupied_inputs": 437350,
+        "heavy_sources": 1211093,
+        "child_tests": 2538712,
+        "pure3_terminal_predecessors": 809,
+        "failed_sources": 0,
+        "scope": "Complete source-first challenge on precisely142 old graphs;116 symbolic proof separate; universal ASH* OPEN",
+        "seconds": 24.219000000011874
+      },
+      "CAM80": {
+        "complete_both_direction_inventories_and_memberships_equal": true,
+        "cases": 142,
+        "states": 167713,
+        "records": 164058,
+        "odd_leaf_down": 54686,
+        "even_leaf_parent_up": 54686,
+        "even_heavy_leaf_plus3": 54686,
+        "failed_memberships": 0,
+        "critical_even_leafs": 0,
+        "first_failures": [],
+        "scope": "Complete finite119b/120 challenge on142 fixed graphs, symbolic proofs separate; universal ASH* OPEN",
+        "seconds": 14.23399999999674
+      },
+      "CAM77": {
+        "status": "COMPLETE_REGISTERED_BOUNDED_CAMPAIGN",
+        "patterns": 4,
+        "certified": 1,
+        "unknown": 3,
+        "control_pass": true,
+        "cases": [
+          {
+            "case": "F8",
+            "n": 8,
+            "c": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3
+            ],
+            "status": "INDEPENDENTLY_EXCLUDED",
+            "iterations": 2625
+          },
+          {
+            "case": "F9",
+            "n": 9,
+            "c": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3
+            ],
+            "status": "ITERATION_BOUND_UNKNOWN",
+            "iterations": 10000
+          },
+          {
+            "case": "F10",
+            "n": 10,
+            "c": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3
+            ],
+            "status": "ITERATION_BOUND_UNKNOWN",
+            "iterations": 10000
+          },
+          {
+            "case": "F12",
+            "n": 12,
+            "c": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3
+            ],
+            "status": "TIME_BOUND_UNKNOWN",
+            "iterations": 5352
+          }
+        ],
+        "verified_F8_RUP_additions": 1365,
+        "scope": "Only F8 fixed-input class excluded; F9/F10/F12 UNKNOWN; universal ASH* OPEN"
+      },
+      "CAM81": {
+        "complete_tested_prefix_and_all_exchange_options_equal": true,
+        "status": "COMPLETE_REGISTERED_SCOPE",
+        "cases_registered": 30,
+        "registered_groups": 2490,
+        "executed_groups": 2490,
+        "unexecuted_groups": 0,
+        "states": 4356,
+        "membership_queries": 57060,
+        "pair_source_checks": 560,
+        "first_failure": null,
+        "scope": "Rescaled-sector exchange only; universal ASH* OPEN",
+        "seconds": 0.29699999999138527
+      }
+    },
+    "research_record": "research/S014_ELEMENTARY_SOURCE_AND_ODD_LEAF_CONTRACTION.md",
+    "owner_no_closeout": "sessions/S014/OWNER_KEEP_GOING.txt",
+    "critical_private_head": "FALSE_CAM25_26_ACTUAL_CRITICAL_INPUT_EXISTENCE",
+    "H2": "FALSE_CAM27_SOURCE_ZERO_ONLY",
+    "H2r": "UNPROVED_SUFFICIENT_INDUCTION_CAM28_29_BOUNDED_SUPPORT",
+    "minimum_heavy_selection": "PROGRAMME_PROVED_89_SCOPED_NOT_UNIVERSAL",
+    "owner_no_closeout_sha256": "40af809166e1648c43ba1c657c9cc00d8dfbd5d040ed305999756c2a9173c0cb",
+    "active_campaign_note": "S014 CLOSED by later explicit owner request; earlier active checkpoints historical. Universal STACK/CLEAR OPEN. See sessions/S014/CLOSEOUT.md.",
+    "universal_no2": "UNPROVED_FINITE_AGREEMENT_CAM44",
+    "bipartite_neutral_catalysis": "PROGRAMME_PROVED_93_EVERY_SITE_EVERY_POSITIVE_CATALYST_NOT_ASH",
+    "bounded_search_unknown_cases": [
+      "C10",
+      "E10",
+      "M10",
+      "T10",
+      "T12"
+    ],
+    "campaigns_registered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "campaign51_status": "COMPLETED_BOUNDED_ALL_SIX_REAL_CASES_UNKNOWN",
+    "isometric_tree_bridge": "PROGRAMME_PROVED_101_ALL_BIPARTITE_TREE_SUPPORTED_INPUTS_NOT_ALL_SUPPORTS",
+    "isometric_tree_support_selection": "FALSE_102_CROWNS_K_GE5",
+    "combined_tree_independence_ceiling": "FALSE_CAM54_55_A182_THRESHOLD42_VS40",
+    "campaign56_status": "COMPLETE_ALL32_N8_M10_FIXED_INPUT_PROOF_CHAINS",
+    "campaign61_status": "BOTH_AGGREGATE_CAP_UNKNOWN_2393_LITERAL_WINNERS_OVERLAPPING_PRIOR_CAMPAIGN",
+    "campaign57_status": "STATE_CAP_UNKNOWN_16931_COMPLETED_AS_QUERIES",
+    "campaign58_status": "COMPLETE_UPPER31_AFTER_SEPARATE_V2_CHECKER_REPAIR",
+    "campaign59_status": "COMPLETE_EXACT_Q4_AS_ORACLE_L_AS30",
+    "campaign60_status": "GLOBAL_STATE_CAP_UNKNOWN_2157_WINNERS",
+    "campaign62_status": "COMPLETE_ALL9783_FROZEN_GENERAL_INPUTS_WIN_NOT_FULL_THRESHOLD",
+    "campaign63_status": "COMPLETE_PREFIX_THROUGH13_CANDIDATE_CAP_AT14_GENERAL_THRESHOLD_UNKNOWN",
+    "source_recovery56": "PASS_EXACT_CAM06_BYTES_AND_ARCHIVED_CAM56_BYTES_33_UNCHANGED_REPLAYS",
+    "campaign64_status": "COMPLETE_Q4_STACK31_ALL_CRITICAL_LOSERS_AS",
+    "campaign65_status": "REPAIRED_COMPLETE_FANO_EXACT_AS_MAX29",
+    "campaign66_status": "COMPLETE_FANO_STACK30_ALL_CRITICAL_LOSERS_AS",
+    "campaign67_status": "COMPLETE_501_SHELL_HYPOTHESES_350_FRESH_NEGATIVE_CLOSURES",
+    "campaign68_status": "COMPLETE_ALL44_ORDER8_MASS11_PATTERN_EXCLUSIONS",
+    "campaign69_status": "COMPLETE_H_UP2_REFUTATION_PREFIX18_CASES_REST_UNEXECUTED",
+    "campaign70_status": "COMPLETE_H_POOL2_REFUTATION_PREFIX21_CASES_REST_UNEXECUTED",
+    "campaign71_status": "COMPLETE_ALL8_SPECIFIED_HIGHPILE_PATTERN_EXCLUSIONS",
+    "campaign72_status": "COMPLETE_FINITE_CRITICAL_BIPARTITE_PARITY_AGREEMENT",
+    "campaign73_status": "COMPLETE_FINITE_ODD_POSITIVE_SLACK_AGREEMENT",
+    "campaign74_status": "COMPLETE_18_SELECTED_CASES_3_PRIOR_SCOPE_CUTOFF_UNKNOWN",
+    "campaign75_status": "COMPLETE_33188_LEAF_ASCENT_CHALLENGES",
+    "campaign76_status": "COMPLETE_UNCONDITIONAL_SOME_NEIGHBOR_ASCENT_REFUTATION_515_PAIRS",
+    "campaign77_status": "COMPLETE_F8_EXCLUDED_F9_F10_F12_UNKNOWN",
+    "campaign78_status": "COMPLETE_ALL_GRAPH_LEAF_NEIGHBOR_ASCENT_AND_CRITICAL_ZEROS",
+    "campaign79_status": "COMPLETE_PRESCRIBED_SOURCE_FULL_PREDECESSOR_CHALLENGE",
+    "campaign80_status": "COMPLETE_ODD_LEAF_CONTRACTION_AND_EVEN_LEAF_PLUS3",
+    "campaign81_status": "COMPLETE_FINITE_RESCALED_SECTOR_EXCHANGE_AGREEMENT",
+    "owner_closeout": "sessions/S014/OWNER_CLOSEOUT.txt",
+    "owner_closeout_sha256": "e54e32cd6e0b39a42f55b36ea9b01122b999eeeb78774d32403e84874b691d4f",
+    "owner_no_closeout_superseded": true,
+    "closeout": "sessions/S014/CLOSEOUT.md",
+    "proof_reports": [
+      "research/S014_ACTUAL_NEUTRAL_EXTREMIZER_OBSTRUCTION.md",
+      "research/S014_ARBITRARY_BUFFER_JOIN.md",
+      "research/S014_BINARY_BUFFER_LOWER_ANNOTATIONS.md",
+      "research/S014_BINARY_BUFFER_UPPER_CERTIFICATES.md",
+      "research/S014_BIPARTITE_NEUTRAL_CATALYSIS.md",
+      "research/S014_BIPARTITE_ONE_BIT_CONDUCTORS.md",
+      "research/S014_BIPARTITE_SHELL_AS_WITNESS.md",
+      "research/S014_COMBINED_METRIC_BOUND_FAILURE.md",
+      "research/S014_COMPLETE_ORBIT_LAYERS.md",
+      "research/S014_COORDINATE_MAXIMAL_OBSTRUCTION.md",
+      "research/S014_CORE_ASCENT_OBSTRUCTION.md",
+      "research/S014_COUNTEREXAMPLE_SEARCH.md",
+      "research/S014_CRITICAL_HEAVY_ELIMINATION.md",
+      "research/S014_CROWN_ISOMETRIC_TREE_OBSTRUCTION.md",
+      "research/S014_CUBE_COUNTEREXAMPLE_SEARCH.md",
+      "research/S014_CUBE_DIAMETER_SHORTCUT_FAILURE.md",
+      "research/S014_CUBE_ORBIT_CERTIFICATES.md",
+      "research/S014_EDGE_SATURATION.md",
+      "research/S014_ELEMENTARY_SOURCE_AND_ODD_LEAF_CONTRACTION.md",
+      "research/S014_EVEN_EXTENSION_FAILURE.md",
+      "research/S014_EXTREMAL_GRAPH_NORMAL_FORM.md",
+      "research/S014_FAIR_SELECTOR_CERTIFICATION.md",
+      "research/S014_ISOMETRIC_TREE_BRIDGE.md",
+      "research/S014_LOCAL_PROOF_AUDIT.md",
+      "research/S014_MASS_SLACK_FAILURES.md",
+      "research/S014_MATCHING_BUFFER_COMPARISON.md",
+      "research/S014_MEDIAN_SUPPORT_AND_CUBE_ROUTE.md",
+      "research/S014_METRIC_RETRACTION_AUDIT.md",
+      "research/S014_NONDECREASING_MASS_ELIMINATION.md",
+      "research/S014_PARITY_AND_TRUE_HEAD_FRONTIER.md",
+      "research/S014_PRESCRIBED_SOURCE_AND_SAFE_LEAF.md",
+      "research/S014_PROVED_GRAPH_SYMMETRY.md",
+      "research/S014_Q4_FANO_COMPLETE_THRESHOLDS.md",
+      "research/S014_SHARED_INPUT_REDUCTION.md",
+      "research/S014_THREE_LANGUAGE_EXCHANGE_OBSTRUCTION.md",
+      "research/S014_THREE_LAYER_AS_TAIL.md",
+      "research/S014_TRIPLET_HEAD_AND_SIGNED_BARRIER.md",
+      "research/S014_TRIVALENT_BOUNDARY_AND_BIPARTITE_PARITY.md",
+      "research/S014_TWIN_BLOWUP_COMPARISON.md",
+      "research/S014_TWO_HEAVY_POOLING.md",
+      "research/S014_TWO_PAIR_FUEL_SPANNING_WALKS.md",
+      "research/S014_UNIQUE_MARKERS_AND_LEAF_ESCAPE.md",
+      "research/S014_UNIVERSAL_RESEARCH.md"
+    ],
+    "remaining_obligations": [
+      "Universal same-graph arbitrary-input versus binary-buffer AS extremal domination",
+      "Critical H2r heavy elimination, critical core no-two/oddness and bipartite B_odd remain unproved",
+      "Rescaled-sector exchange and its implication for extremal AS selection are unproved",
+      "Independent cold audit of local proof items71-121 and full dependency DAG before reuse"
+    ],
+    "preserved_unknown_scopes": {
+      "fixed_input": [
+        "C10",
+        "E10",
+        "M10",
+        "T10",
+        "T12"
+      ],
+      "all_pattern_CAM48_CAM51": "ALL registered real cases ended UNKNOWN; clause/inventory verification is not exclusion",
+      "CAM74": [
+        "A171",
+        "A181",
+        "A184"
+      ],
+      "CAM77": [
+        "F9_ITERATION_BOUND_UNKNOWN",
+        "F10_ITERATION_BOUND_UNKNOWN",
+        "F12_TIME_BOUND_UNKNOWN"
+      ],
+      "CAM69_CAM70": "Remaining12/9 graph cases UNEXECUTED after auxiliary failures",
+      "older_cube_caps": "Original57/60/61/63 attempt scopes remain capped; later complete Q4 threshold is separately certified",
+      "Q5": "AS lower66/threshold lower67 only; exact threshold UNKNOWN",
+      "buffers": "Six CLEAR threshold cutoffs remain UNKNOWN"
+    }
   }
 }

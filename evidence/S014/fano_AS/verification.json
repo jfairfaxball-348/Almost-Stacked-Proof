@@ -1,0 +1,37 @@
+{
+  "graph": "FanoInc14",
+  "n": 14,
+  "group_size": 336,
+  "all14_source_maps_verified": true,
+  "nodes": 344064,
+  "masks": 8192,
+  "proper_partitions": 788970,
+  "full_inequalities": 66961563,
+  "every_attaining_node_and_lower_inequality_checked": true,
+  "exact_binary_buffer_AS_oracle_certified": true,
+  "exact_L_AS": 29,
+  "source0_critical_AS": [
+    {
+      "mask": 5440,
+      "N": 25,
+      "input": [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "scope": "Exact AS only, all sources/unbounded positive source count; no general threshold or universal ASH* conclusion",
+  "seconds": 3.375
+}

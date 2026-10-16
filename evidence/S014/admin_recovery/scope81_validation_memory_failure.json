@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "validation/validate_governance.py"
+    ],
+    "exit_code": 1,
+    "seconds": 294.35900000002584,
+    "peak_working_set_bytes": 1054932992,
+    "resource_failure": null,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\r\nS003 evidence hashes: 20 files match.\r\nAuthor correspondence provenance and current future handoff: PASS (administrative only).\r\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\r\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\r\nS006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).\r\nS007 scope and 72 historical hashes: PASS (cold audit S008; universal ASH* OPEN).\r\nS008 scopes and 70 immutable hashes: PASS (cold S009; universal ASH* OPEN).\r\nS009 primary/scopes/mirrors and 64 immutable hashes: PASS (universal OPEN; historical S010 handoff retained).\r\nS010 historical scopes and 75 immutable hashes: PASS (cold challenge S011 at stated scopes).\r\nS011 historical scopes and 82 immutable hashes: PASS (cold challenge S012 at stated scopes).\r\nS012 historical scopes and 90 immutable hashes: PASS (cold challenge S013 at stated scopes).\r\nS013 current scopes/mirrors and 130 immutable hashes: PASS; universal STACK/CLEAR OPEN.\r\n",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Almost-Stacked-Proof\\validation\\validate_governance.py\", line 709, in <module>\r\n    assert sha256_file(versioned_tool_source(path,digest))==digest,(str(preflight),path)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Almost-Stacked-Proof\\validation\\validate_governance.py\", line 21, in sha256_file\r\n    while chunk := stream.read(1048576):\r\n                   ^^^^^^^^^^^^^^^^^^^^\r\nMemoryError\r\n",
+    "code_sha256": "d3bde4ddf6b10ee7af466525014af56173a8de00cf051768353e2e4faa840ef8"
+  }
+]

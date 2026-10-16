@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "graph": {
+        "n": 6,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "graph": "A6_0026"
+      },
+      "goal": "stack",
+      "L_AS": 8,
+      "L_AS_basis": "PRIOR_COMPLETE_GENERAL_CRITICAL_AS_WITNESS_RECOMPUTED_NOT_ASSUMED",
+      "max_mass": 9,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000,
+      "old_certificate": "evidence/S005/A6_0026_stack.bin.xz"
+    },
+    {
+      "graph": {
+        "n": 6,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "graph": "A6_0093"
+      },
+      "goal": "stack",
+      "L_AS": 8,
+      "L_AS_basis": "PRIOR_COMPLETE_GENERAL_CRITICAL_AS_WITNESS_RECOMPUTED_NOT_ASSUMED",
+      "max_mass": 9,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000,
+      "old_certificate": "evidence/S005/A6_0093_stack.bin.xz"
+    }
+  ]
+}

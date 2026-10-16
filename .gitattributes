@@ -2,3 +2,11 @@
 * text=auto eol=lf
 *.xz -text
 *.bin -text
+*.gz -text
+*.dll -text
+# S014 preflights pin raw bytes, including historical CRLF metadata/logs.
+# Preserve those bytes instead of normalizing already-frozen certificates.
+evidence/S014/** -text
+sessions/S014/** -text
+tools/s014* -text
+research/S014*.md -text

@@ -1,0 +1,9 @@
+{
+  "case": "C9a",
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "original_clauses": 100355,
+  "core_clauses": 38809,
+  "tightening_calls": 33,
+  "seconds": 29.312999999994645,
+  "scope": "Fixed input only, provisional until subset and complete fresh proof independently checked"
+}

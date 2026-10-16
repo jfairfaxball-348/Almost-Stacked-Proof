@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c081_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.327999999979511,
+    "peak_working_set_bytes": 21516288,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_REGISTERED_SCOPE\", \"cases_registered\": 30, \"states\": 4356, \"membership_queries\": 57060, \"pair_source_checks\": 560, \"scope\": \"Only rescaled THREE-sector exchange; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "d13a32d2e12c95c0cc5cb07ce3817a210cb5038c0e11a45414d76b975aa3d943"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c081_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.5160000000032596,
+    "peak_working_set_bytes": 19927040,
+    "resource_failure": null,
+    "stdout": "{\"complete_tested_prefix_and_all_exchange_options_equal\": true, \"status\": \"COMPLETE_REGISTERED_SCOPE\", \"cases_registered\": 30, \"registered_groups\": 2490, \"executed_groups\": 2490, \"unexecuted_groups\": 0, \"states\": 4356, \"membership_queries\": 57060, \"pair_source_checks\": 560, \"scope\": \"Rescaled-sector exchange only; universal ASH* OPEN\", \"seconds\": 0.29699999999138527}\r\n",
+    "stderr": "",
+    "code_sha256": "1d8323508c5e2db625d30669e3635ab9cd400f63dc16c1ef76690154ee010d21"
+  }
+]

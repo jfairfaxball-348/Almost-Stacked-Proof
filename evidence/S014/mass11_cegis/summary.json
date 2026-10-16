@@ -1,0 +1,187 @@
+{
+  "patterns": 44,
+  "certified": 44,
+  "complete_mass11_order8_exclusion": true,
+  "control_pass": true,
+  "verified_RUP_additions": 64781,
+  "hint_visits": 1461399,
+  "scope": "ONLY all connected order8 graphs/fixed mass11; universal ASH* OPEN",
+  "cases": [
+    {
+      "case": "P000",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P001",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P002",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P003",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P004",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P005",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P006",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P007",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P008",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P009",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P010",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P011",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P012",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P013",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P014",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P015",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P016",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P017",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P018",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P019",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P020",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P021",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P022",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P023",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P024",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P025",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P026",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P027",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P028",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P029",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P030",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P031",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P032",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P033",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P034",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P035",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P036",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P037",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P038",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P039",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P040",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P041",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P042",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "P043",
+      "status": "INDEPENDENTLY_EXCLUDED"
+    }
+  ]
+}

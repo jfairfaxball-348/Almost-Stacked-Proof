@@ -60,3 +60,135 @@ PLAN and amendments1-5 frozen before dependent computation; no symmetry,600s/2GB
 ## CAM-S013-01 through06 - complete within prior-hashed exact scopes
 
 PLAN/amendments1-6 and code/input/environment preflights frozen before dependent computation.01 historical11970 graph records/10858 both-exact pairs/114 gap1.02 eleven fixed labelled boxes incl selected gap1 A7_0036 through14:291639 configurations, complete independent four-mask forward/reverse equality and exact12/13.03 open exchange313052 implications/3437 modified-count histories,1872 closed-extension failures, six full negative gap1 inputs/20 first successors.04 arbitrary low receivers370252 implications/12239 histories,13 precise STACK exceptions/no CLEAR failure, complete global Q/P selection.05 all189 exact historical STACK critical sets/1028 losers/eight adjacent pairs and fresh selected negative closures;12345 private certificates111047 literal moves/85604 adjacent small transfers.06 all134 losing layers>=4/614 selected extremizers/17 restricted maxima comparisons. No symmetry,600s/2GiB/300000 states per layer/input, no caps hit or old cutoff changes; distinct complete checkers and hashes in S013 evidence. Universal and kernel assurance remain separate.
+
+## CAM-S014-01 - completed bounded diagnostic in ACTIVE S014
+
+Prior-hashed amendment1 fixes148 historical exact CLEAR inputs and paired STACK summaries, plus existing eleven precision boxes.44 positive-gap archive cases and four positive-gap controls: independent integer/neighborhood versus streamed-byte/triple diagnostics agree on ALL labeled Q/Q-P maximizers and predicates. Every tested selected maximum AS and no heavy triangular vertex; no universal inference/new threshold/closure/old-cutoff expansion.600s/2GiB/300000-state caps, no caps hit. S014 itself remains IN_PROGRESS.
+
+## S014 CAM02 completed within ACTIVE session
+
+2087 matching cases/2210 reservations/114 complete reconstructions;127 of127 triangular loss-transfer tests fail, with independently checked selected negative closures. Proper-subset Hall obstructions retained. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM03-04 completed within ACTIVE session
+
+Complete unbounded binary source rays plus independent full general losing layers certify theta334 STACK25/CLEAR27 and barbell55 STACK48/CLEAR48. All critical losers on these four cases AS; mixed source boxes remain limited. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM05-06 completed within ACTIVE session
+
+Whole-pile swaps fail1846 of10240 tests, including71 GLOBAL-Q CLEAR cases; triangular split fails3 of176 tests. Selected complete negative closures and winning traces independently checked; weaker critical variants unproved. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM07-10 completed within ACTIVE session
+
+Seven complete-bipartite triangular construction challenges, four book examples, seven balanced exact AS ray examples/ten general thresholds and7620 literal one-edge AS histories all pass at their fixed scopes. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM11 completed within ACTIVE session
+
+Fourteen matching-buffer full threshold comparisons,66144 literal STACK histories/552534 moves and explicit AS witnesses pass independently. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM12 completed within ACTIVE session
+
+Two full W/path-cover algorithms agree on50 prescribed labeled F graphs, giving146 join graphs/292 goal comparisons:146 exact STACK endpoints match82;286 goal endpoints exact, six CLEAR initially incomplete at STACK cutoff. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM13 completed within ACTIVE session
+
+All66642 boundary cells/11625 terminal histories/10033 true path covers agree independently; six earlier CLEAR cutoffs separately completed with old layers unchanged;228 explicit STACK AS witnesses checked across146 graphs. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM14 completed within ACTIVE session
+
+All198320 arbitrary-buffer literal STACK histories/2046597 moves pass independently, including180224 n16 histories with order bound17 strictly dominating both other lower terms16. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM15 completed within ACTIVE session
+
+ALL26 source rays/six general comparisons certify Q3plus03 thresholds15/15, Wagner8 11/11, Petersen10 15/15; every open neighborhood minimal, every critical Q/Q-P maximum AS. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM16 completed within ACTIVE session
+
+All256 parity-preserving AS candidates for32 non-AS Wagner goal/input pairs checked,1716 literal winning moves; every input has a related parity-class AS loser. Bounded positive pattern only. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM17 completed within ACTIVE session
+
+Fixed343 goal cases/1043 non-AS critical inputs: two ALL-receiver fixed-parity failures and eight heavy-receiver failures. Original schema KeyError/code/log preserved; separate hashed v2 metadata-only repair passes. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM18 completed within ACTIVE session
+
+Two exact critical parity obstructions independently recomputed through threshold9, every old layer preserved;161 complete negative states/12 same-parity AS winners/72 moves checked. Critical non-AS loser isolated under every unit redistribution; alpha2 blocks endomorphic AS lift. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 CAM19 completed within ACTIVE session
+
+Fixed343-case odd-shift diagnostic:34 true-head transforms/14 eligible critical inputs,28 losing outputs. Each input has some losing output; six ORDERED-pair variants fail. Smaller-donor22-pair filter is post-data finite support, not a universal theorem. Prior-hashed plans, frozen preflights, separate producer/checker logs and full certificates under sessions/S014/evidence/S014. No caps hit or universal/session promotion.
+
+## S014 completed continuation CLM-0162
+
+CAM20:252 labeled graphs/24192 inputs,4080 eligible smaller donor3 pairs all have a losing shift. Independent DAG checker validates321804 states/184453 full negative states/603635 legal dependencies. No universal extrapolation. Prior-hashed amendments20-24, separate preflights/full outputs/checks under evidence/S014. No universal or phase promotion.
+
+## S014 completed continuation CLM-0163
+
+CAM21 v2:3710 labeled connected n6 graphs/267120 inputs,9484 eligible losing pairs,583 all-shift-winning failures. Independent DAG checker validates2129306 states/3092719 dependencies. Generic smaller-odd-donor loss preservation false; original pipe interruption and passing repair retained. Prior-hashed amendments20-24, separate preflights/full outputs/checks under evidence/S014. No universal or phase promotion.
+
+## S014 completed continuation CLM-0164
+
+CAM22/23: six preselected graph controls have exact STACK thresholds25,36,36,40,15,13; independent full sets and1800 negative-closure states/56 transformed winning moves checked.259 of583 failures satisfy minimal-heavy residual restriction; all selected failures below critical/global-layer Q. Prior-hashed amendments20-24, separate preflights/full outputs/checks under evidence/S014. No universal or phase promotion.
+
+## S014 completed continuation CLM-0165
+
+CAM24: independently compared1878298 full losing states on ALL215 labeled graphs underlying583 head-shift failures. NONE is critical or layer-global Q; every graph has L_all=L_AS. The universal critical/global-Q weakening remains unproved. Prior-hashed amendments20-24, separate preflights/full outputs/checks under evidence/S014. No universal or phase promotion.
+
+## S014 active CLM-0167
+
+CAM25:252 full general threshold comparisons,508929 losing states;4 ordered-pair failures at2 actual critical inputs refute smaller odd private-head input existence. All graph AS comparisons hold; no non-AS global Q critical maximum. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0168
+
+CAM26: fresh complete negative closures for2 critical inputs and2 AS critical witnesses,2556 states;52 literal transformed winning moves. Critical private-head failure is not ASH* failure. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0170
+
+CAM27: entire-source H2 fails1124 of1230 critical non-AS inputs, already P3(3,3,0); source residual must not be silently forbidden. Failed H2 records retained. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0171
+
+CAM28:444 fixed STACK cases/1230 non-AS critical inputs/45804 full residual H2r candidates, zero failures. Bounded support only. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0172
+
+CAM29:72 new cycle/matching/chord graphs n8/9/10,1545176 complete losing states,227 non-AS critical inputs/11632 H2r candidates, zero failures. All AS comparisons hold; no universal extrapolation. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0173
+
+CAM30:252 coupled n12 gadget inputs at mass16,108 lose/144 win;617212 state records/1799764 legal dependencies checked, no cap hit. Two strongest cross-edge survivors selected by prior rule; not ASH* counterexamples by themselves. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0174
+
+CAM31: complete unbounded source/binary-buffer STACK rays on C00_51/C00_60; explicit automorphisms cover all12 sources using reps0/2/4. Exact L_AS18/24. Thus fixed mass16 holes do not refute ASH*. General thresholds tested separately in CAM32. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+## S014 active CLM-0175
+
+CAM32: exact general STACK thresholds19/25 on C00_51/C00_60, independently compared348930/587258 full losing states; exact AS maxima18/24 match. Every critical loser is AS, H2r scope there vacuous. No unrestricted ASH* inference. Prior-hashed plan and independent complete code/certificates/logs under sessions/S014/evidence/S014. No session or phase promotion.
+
+CURRENT S014 ACTIVE through CAM45: local proofs71-93, including exact AS-tail90, extremal graph/input normal form92 and bipartite every-root neutral catalysis93. Fixed-input exclusions C6/C9a/C9b/E8/M9 independently certified; C10/E9/E10/M10/F9/T10/T12 UNKNOWN. CAM44 checks638 complete critical sets/20231 inputs/17940 non-AS, none with pile2; four even-heavy inputs all nonbipartite. Universal no-two and H2r UNPROVED. Universal STACK/CLEAR OPEN; CLEAR deferred. Continue until proof/counterexample, no session closeout/commit/PR/S015 handoff. See research/S014_COUNTEREXAMPLE_SEARCH.md and hashed PLAN_AMENDMENT_33..45 for exact scopes, successful independent proofs and all preserved UNKNOWN attempts.
+
+CURRENT S014 ACTIVE through CAM50: proofs71-99 at exact scopes. Fixed-input F9/E9 graph classes now independently excluded, joining C6/C9a/C9b/E8/M9; other fixed-input caps remain UNKNOWN. CAM48 all five ALL-pattern fixed(n,M) searches ended at caps UNKNOWN; inventory/formula/certificate verification PASS is not exclusion. CAM49 refutes generic even-pair extension; CAM50 independently certifies P4 d=(9,0,0,3), mass12, ALL positive coordinate extensions win, actual every-root neutral histories, minimum-heavy/global-Q/P properties, but L_all=L_AS14. Thus even these joint local properties cannot replace global largest losing mass. H2r/no-two/bipartite odd-heavy UNPROVED. CAM51 fair-selector control PASS, real cases NOT_YET_EXECUTED at this checkpoint. Universal STACK/CLEAR OPEN; CLEAR deferred. Continue until proof/counterexample; no closeout/commit/PR/S015.
+
+CURRENT S014 ACTIVE through CAM55, local items71-103. All six CAM51 fair all-pattern real cases capped UNKNOWN, no full exclusion/counterexample.100 exact bipartite one-bit conductors retains earlier April7.3 path/zero-imbalance credit.101 proves the universal bridge for EVERY losing input supported on an isometric subtree of a bipartite graph, using the EARLIER TreeStack theorem.102 crowns Cr_k(k>=5) refute stronger universal tree-support selection.103/CAM54-55 refute the combined n/independence/isometric-tree ceiling: actual bipartite A182 threshold42>bound40, with AS critical loser(39,1,0,0,0,1,0,0), fresh10988-state complete negative closure and independent full threshold42/AS maximum41. These are auxiliary shortcut failures, not ASH*. H2r/no-two/bipartite odd-heavy remain UNPROVED. Universal STACK/CLEAR OPEN; CLEAR deferred. Continue proof/counterexample work, no closeout/commit/PR/S015.
+
+CURRENT S014 ACTIVE through CAM62/local items71-108. CAM56 independently excludes ALL32 sorted non-AS order8/mass10 input classes across all connected graphs; finite only.104 covers all triple-median supports with arbitrary coefficients, including <=3 occupied sites on Q4. CAM57 forward AS-tail cap remains UNKNOWN; CAM58 v2 checks ALL1572864 attaining nodes/98304 upper queries and CAM59 ALL803538796 lower inequalities, exact Q4 L_AS30 and exact whole-AS oracle.58 original checker negative-shift failure preserved/repaired separately. CAM60/61 capped general prefixes remain UNKNOWN; CAM62 exact XOR quotient verifies ALL9783 fixed general inputs at31/32/33 as winners,872261 states, no potential. These samples do NOT prove full Q4/universal threshold. CAM63 compiled untrusted producer and independent complete controls Q1=3/Q3=15 PASS; full Q4 layers1..31 NOT_YET_EXECUTED at this checkpoint. Universal STACK/CLEAR OPEN; CLEAR deferred. Continue, no closeout/commit/PR/S015/later-phase action.
+
+CURRENT S014 ACTIVE through CAM63. Full compiled/Python Q4 orbit layers1..13 independently agree; mass14 reaches its2M candidate cap, general threshold UNKNOWN. Earlier exact Q4 AS max30, whole-AS oracle and9783 verified general winners retained at their exact scopes. Source-integrity recovery: CAM56 filename collision with frozen CAM06 checker detected by failed scope62 validation; original CAM06 bytes recovered to exact73a042ac... digest from its original tool record, CAM56 byte-identical de2b450e... checker archived under distinct mass-split name. All33 independent replays preserve output bytes; old preflights/logs remain unchanged, exact path/digest archive alias reconciles provenance. Never rerun historical CAM56 split_generate/prepare/run scripts that name the old path; use mass_split_replay for existing data. No mathematical claim changed by this repair. Universal STACK/CLEAR OPEN; continue research, no closeout/commit/PR/S015/phase advance.
+
+CURRENT S014 ACTIVE throughCAM67/local items71-109. Independent COMPLETE losing layers establish Q4 stack31=L_AS30+1 and FanoInc14 stack30=L_AS29+1; every critical loser in each is AS. Symbolic109 gives universal bipartite distance-shell AS lower witnesses with actual all-edge truncated valuation/all-root full-history proof. CAM67 checks501 shell instances,106 exact-AS oracle comparisons and350 fresh complete negative closures/22920 states. Original65 producer-width failure and separate passing repair preserved, all older caps/failures unchanged. Universal SAME-GRAPH STACK comparison OPEN; CLEAR deferred. Continue, no closeout/commit/PR/S015/later phase.
+
+CURRENT S014 ACTIVE throughCAM71/local items71-110. CAM68 independently excludes ALL44 non-AS order8 mass11 patterns across all connected graphs,64781 RUP additions/1461399 hints. CAM71 independently excludes8 specified multiheavy classes at masses16/18/20 on orders8/9, with no cap or potential. CAM69/70 refute unconditional mass-slack elimination/pooling at precise below-critical five-vertex inputs: original heavy receivers fail12 complete candidates; arbitrary receivers/two donors fail60. Remaining respective12/9 graph cases UNEXECUTED after decisive auxiliary failures. Critical H2r and universal SAME-GRAPH STACK remain OPEN; full buffer/actual criticality cannot be dropped. Symbolic110 gives Q5 AS lower66 and stack>=67, invalidating cube diameter/product doubling shortcuts; no exact Q5 threshold or ASH* failure. All earlier exact/capped scopes preserved. Continue S014, no closeout/commit/PR/S015/later phase; CLEAR deferred.
+
+CURRENT S014 ACTIVE through completedCAM76/registeredCAM77/local proofs71-115.111 gives exact whole-input subcubic boundary trees;112 canonical unique parity markers;113 exact STACK iff THREE(c) or some THREE(c+2e_q);114 actual losing mass ascent at even heavy sites adjacent to graph leaves.75 independently checks33188 extensions including3104 empty leaves.76 refutes unrestricted some-neighbor ascent below criticality with515 failures; critical bipartite oddness remains UNPROVED.72 checks14814 non-AS bipartite critical inputs/203673 parity candidates.73 plus74 support only finite B_odd:13297 small plus1598711 larger inputs,18 larger completed cases through order14 and3 prior-size UNKNOWN cases A171/A181/A184.115 exactly reduces pair-fuel2 THREE to a marker path, general STACK additionally to a three-arm tree; old independence witness already dominates all such bipartite inputs for n>=8.77 is a registered fixed-pattern search, no result inferred. Universal SAME-GRAPH STACK OPEN; CLEAR deferred. Continue S014, no closeout/commit/PR/S015/Lean/phase/contact.
+
+CURRENT S014 ACTIVE completedCAM1-76,78-80;77 still in progress,81 registered UNEXECUTED. Local proofs71-121.116/118 prove any prescribed heavy source has a winning first move from any multioccupied STACK winner, independently by tree normalization and elementary history interchange.117 proves graph-leaf safe firing except pure3 and all critical neighbors of graph leaves zero for n>=3.119 proves odd-leaf/positive-parent boundary contraction, with exact STACK equivalence when parent>=2.120 proves ANY even-heavy graph-leaf loser remains losing after +3 at that leaf; hence critical graph-leaf counts are zero or odd, ALL graphs.78 passes160579 inverse extensions;79 independently checks598867 predecessors/437350 multioccupied winners/1211093 heavy sources/2538712 child memberships;80 passes54686 each of both odd-leaf contraction directions and even-leaf +3 extensions.121 explicitly refutes generic jump-system/M-convex exchange of the all-odd THREE language on P3 by mod3 charge; this is NOT a STACK/ASH* counterexample. Core even-heavy/global arbitrary-buffer bridge remains UNPROVED. Universal SAME-GRAPH STACK OPEN; CLEAR deferred. Continue S014, no closeout/commit/PR/S015/Lean/phase/contact.
+
+CURRENT S014 ACTIVE through completed/registeredCAM81, local proofs71-121. CAM77 independently excludes ONLY full-buffer two-pile3 order8/mass12 class F8 (1365 RUP additions/40162 hints); order9/10 iteration caps and order12 time cap remain UNKNOWN. CAM81 all30 fixed graphs through order5, bipartite filter,2490 mod3-residue groups/57060 memberships/560 nontrivial pair-source exchange checks complete with no failure; rescaled-sector M-convexity remains UNPROVED globally.116/118 prescribed-source theorem,117 critical graph-leaf neighbor zeros,119 odd-leaf contraction and120 even-leaf +3 ascent/critical leaf oddness remain complete scoped proofs with finite independent challenges78-80.121 refutes direct unit exchange of THREE by charge, not rescaled exchange or ASH*. Universal SAME-GRAPH STACK comparison OPEN; arbitrary buffers/graph cores remain. Continue S014; no closeout/commit/PR/S015/Lean/phase/contact, CLEAR deferred.
+
+## Final S014 authority - owner-requested closeout, 2026-10-16
+
+The owner's later explicit request, `Can you commit and close out this session`, supersedes all earlier S014 keep-going/no-closeout instructions in this file. Those earlier checkpoint paragraphs are historical. S014 is COMPLETED at the administrative session boundary; universal critical STACK and CLEAR remain OPEN. Phase1 remains IN_PROGRESS; phases2-6, Lean, registration, publication and contact are unchanged and unexecuted. S015 is strictly FUTURE, UNEXECUTED; its complete prompt is sessions/S014/FUTURE_S015.md and authoritative/NEXT_SESSION_PROMPT.md.
+
+S014 preserves 81 preregistered bounded campaigns and local proof items71-121, at their exact scopes and LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING assurance. Main advances include arbitrary-buffer join-class ASH*, exact Q4 stack31/L_AS30 and FanoInc14 stack30/L_AS29, subcubic boundary-tree and unique-marker characterizations, prescribed-heavy-source first-move existence, safe graph-leaf firing, odd-leaf contraction and critical leaf/neighbor restrictions. None proves universal SAME-GRAPH L_all(G)<=L_AS(G). Earlier TreeStack is credited prior work. Direct unit exchange is false; rescaled-sector exchange, H2r, critical core oddness and arbitrary-buffer domination remain unproved. All caps, prior-scope UNKNOWNs, unexecuted suffixes, mathematical failures and separate repairs remain archived. CAM77 excludes only F8; F9/F10/F12 remain UNKNOWN. See CLOSEOUT for the exact final synthesis.
+
+Final governance/provenance validation and immutable hashes are required before the one atomic authored commit, ordinary PR and non-force two-parent merge. Actual outgoing head/tree/parents, hosted jobs and final main are verified after creation and recorded in PR metadata, without circular self-SHA claims in this commit. Administrative memory failures are retained separately under evidence/S014/admin_recovery; no resource failure becomes a mathematical conclusion.

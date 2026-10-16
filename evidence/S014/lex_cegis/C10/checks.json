@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_lex_cegis.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 540.5779999999941,
+    "peak_working_set_bytes": 165666816,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"status\": \"TIME_BOUND_UNKNOWN\", \"iterations\": 7343, \"base_clauses\": 13352, \"stabilizer_size\": 1, \"clauses\": 10435, \"seconds\": 540.3429999999935, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "4889b12575c13549f9a2d2382ba5a8ad96283564dd14911e9de30c86408deb0a"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_lex_verify.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 40.75,
+    "peak_working_set_bytes": 93900800,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"clauses\": 13352, \"c_winning_trace_clauses\": 12104, \"AS_negative_clauses\": 1094, \"AS_closure_states\": 4119567, \"literal_c_winning_moves\": 180709, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"C10\", \"graph_certificate_records\": 13352, \"distinct_graph_clauses\": 10435, \"representative_comparisons\": 7, \"local_truth_rows\": 3416, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "0eb45f344d4b70d5c96136490abe4e40dff80162da44f3e529b1257005d8cca9"
+  }
+]

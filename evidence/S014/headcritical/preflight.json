@@ -1,0 +1,14 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_25.md": "7c46dd7967b4dd013d458606aa9bac95a39d7adbd806233bb1c9a4caaeae7fce",
+    "evidence/S014/headcritical/inputs.json": "5e6dee30d07fafd1f7887f9974d09cf090d6928ad76e95cc805a07edb3cce944",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_headcritical.py": "b5df3093361777c678716cd0b04439eb7058d6a944c89ed23210486dafcc08f3",
+    "tools/s014_headcritical_engine.py": "c94cc17bd173398147148730a71089d1585d1e3f3ca5acc54a79d351099aa09b",
+    "tools/s014_headcritical_engine_verify.py": "ef09d9b0626309b083d61cbc0f90b50412f66b18f9aa1ede8a4c3f476da4a97e",
+    "tools/s014_headcritical_run.py": "9024558af9a5989334f0f5eb626e5eb6194d409725a0e9cd3be865d8ec23539f",
+    "tools/s014_headcritical_verify.py": "9c1034889b207363f66050a147e5aa149b72d9e8f3dea7f7bd7b4836b4a3fa9c"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

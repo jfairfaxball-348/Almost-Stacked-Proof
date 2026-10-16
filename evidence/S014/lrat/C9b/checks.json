@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+      "evidence\\S014\\cegis_orbits_v2\\C9b\\formula.cnf",
+      "evidence\\S014\\cegis_orbits_v2\\C9b\\proof.drup",
+      "-L",
+      "evidence\\S014\\lrat\\C9b\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 2.312999999994645,
+    "peak_working_set_bytes": 64843776,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 36 variables and 90221 clauses\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 18072 of 90221 clauses in core                            \r\n\rc 22864 of 24960 lemmas in core using 306415 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 2.217 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "3cdfdce6b90b31e00d07204304f1093f82b4d0628d3209e9b09bcd6f7d371b41"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_lrat_verify.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 1.1090000000112923,
+    "peak_working_set_bytes": 134234112,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 22864, \"deleted_clause_ids\": 113062, \"hint_visits\": 306415, \"seconds\": 0.6570000000065193}\r\n",
+    "stderr": "",
+    "code_sha256": "f9d56d3cf594cbe6be113d854e0ff8050e6429a6fe7039f133c4a2c1d193e4db"
+  }
+]

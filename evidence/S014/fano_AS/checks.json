@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c065_produce.py"
+    ],
+    "exit_code": 1,
+    "seconds": 0.09399999998277053,
+    "peak_working_set_bytes": 1957888,
+    "resource_failure": null,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Almost-Stacked-Proof\\tools\\s014_c065_produce.py\", line 36, in <module>\r\n    assert all(0<z<=1024 for z in pc) and all(pr)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n",
+    "code_sha256": "1fcef7507e4a4ebd70739369240083ad94b6c4a23e73d8d2c7e9f762269ffe03"
+  }
+]

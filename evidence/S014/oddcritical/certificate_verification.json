@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "graph": "g6_0070",
+      "mass": 15,
+      "threshold": 25,
+      "critical": false,
+      "Q": 77,
+      "layer_Qmax": 171
+    },
+    {
+      "graph": "g6_0084",
+      "mass": 12,
+      "threshold": 36,
+      "critical": false,
+      "Q": 52,
+      "layer_Qmax": 122
+    },
+    {
+      "graph": "g6_0098",
+      "mass": 12,
+      "threshold": 36,
+      "critical": false,
+      "Q": 52,
+      "layer_Qmax": 122
+    },
+    {
+      "graph": "g6_0112",
+      "mass": 13,
+      "threshold": 40,
+      "critical": false,
+      "Q": 53,
+      "layer_Qmax": 145
+    }
+  ],
+  "complete_negative_states": 1550,
+  "literal_winning_moves": 44,
+  "all_negative_closures_and_positive_histories_checked": true
+}

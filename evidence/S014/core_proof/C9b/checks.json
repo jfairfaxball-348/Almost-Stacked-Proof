@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 27.811999999990803,
+    "peak_working_set_bytes": 1230454784,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"original_clauses\": 90221, \"core_clauses\": 31266, \"tightening_calls\": 33, \"seconds\": 27.531000000002678, \"scope\": \"Fixed input only, provisional until subset and complete fresh proof independently checked\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f7c20665a61843e1e9b63b5f85a1af561ee83ff1a779424f828f975f9dade565"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_verify.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 31113216,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"core_clauses\": 31266, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"selected_literal_original_clauses_independently_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "8175c954ae5c5f162d3188387b42bf115c6956082582a0d4c55e4368f14d53f5"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_drup.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 159.0,
+    "peak_working_set_bytes": 85147648,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"fixed_input_class_exclusion_certified\": false, \"error\": \"OCCURRENCE_CAP_UNKNOWN\", \"scope\": \"UNKNOWN; no mathematical exclusion promoted\", \"added_RUP_steps\": 4967, \"deletions\": 998, \"active_literal_occurrence_visits\": 500000001, \"seconds\": 158.8289999999979}\r\n",
+    "stderr": "",
+    "code_sha256": "861a6719b70cbd8190dfec569acdf3b452afd90cb6270c21523d1887d671475a"
+  }
+]

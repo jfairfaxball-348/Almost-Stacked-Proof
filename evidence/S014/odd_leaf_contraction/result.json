@@ -1,0 +1,1148 @@
+{
+  "cases": [
+    {
+      "case": "A0",
+      "states": 1,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A0.json.xz"
+    },
+    {
+      "case": "A1",
+      "states": 14,
+      "records": 6,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A1.json.xz"
+    },
+    {
+      "case": "A2",
+      "states": 4,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A2.json.xz"
+    },
+    {
+      "case": "A3",
+      "states": 37,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A3.json.xz"
+    },
+    {
+      "case": "A4",
+      "states": 160,
+      "records": 144,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A4.json.xz"
+    },
+    {
+      "case": "A5",
+      "states": 89,
+      "records": 63,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A5.json.xz"
+    },
+    {
+      "case": "A6",
+      "states": 40,
+      "records": 9,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A6.json.xz"
+    },
+    {
+      "case": "A7",
+      "states": 24,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A7.json.xz"
+    },
+    {
+      "case": "A8",
+      "states": 11,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A8.json.xz"
+    },
+    {
+      "case": "A9",
+      "states": 151,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A9.json.xz"
+    },
+    {
+      "case": "A10",
+      "states": 2048,
+      "records": 2436,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A10.json.xz"
+    },
+    {
+      "case": "A11",
+      "states": 358,
+      "records": 111,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A11.json.xz"
+    },
+    {
+      "case": "A12",
+      "states": 151,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A12.json.xz"
+    },
+    {
+      "case": "A13",
+      "states": 79,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A13.json.xz"
+    },
+    {
+      "case": "A14",
+      "states": 1006,
+      "records": 1308,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A14.json.xz"
+    },
+    {
+      "case": "A15",
+      "states": 109,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A15.json.xz"
+    },
+    {
+      "case": "A16",
+      "states": 492,
+      "records": 504,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A16.json.xz"
+    },
+    {
+      "case": "A17",
+      "states": 399,
+      "records": 201,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A17.json.xz"
+    },
+    {
+      "case": "A18",
+      "states": 111,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A18.json.xz"
+    },
+    {
+      "case": "A19",
+      "states": 58,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A19.json.xz"
+    },
+    {
+      "case": "A20",
+      "states": 332,
+      "records": 240,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A20.json.xz"
+    },
+    {
+      "case": "A21",
+      "states": 221,
+      "records": 99,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A21.json.xz"
+    },
+    {
+      "case": "A22",
+      "states": 240,
+      "records": 108,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A22.json.xz"
+    },
+    {
+      "case": "A23",
+      "states": 84,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A23.json.xz"
+    },
+    {
+      "case": "A24",
+      "states": 157,
+      "records": 33,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A24.json.xz"
+    },
+    {
+      "case": "A25",
+      "states": 135,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A25.json.xz"
+    },
+    {
+      "case": "A26",
+      "states": 94,
+      "records": 21,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A26.json.xz"
+    },
+    {
+      "case": "A27",
+      "states": 63,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A27.json.xz"
+    },
+    {
+      "case": "A28",
+      "states": 42,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A28.json.xz"
+    },
+    {
+      "case": "A29",
+      "states": 26,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A29.json.xz"
+    },
+    {
+      "case": "A30",
+      "states": 1560,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A30.json.xz"
+    },
+    {
+      "case": "A31",
+      "states": 347,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A31.json.xz"
+    },
+    {
+      "case": "A32",
+      "states": 33617,
+      "records": 46008,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A32.json.xz"
+    },
+    {
+      "case": "A33",
+      "states": 1297,
+      "records": 423,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A33.json.xz"
+    },
+    {
+      "case": "A34",
+      "states": 484,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A34.json.xz"
+    },
+    {
+      "case": "A35",
+      "states": 213,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A35.json.xz"
+    },
+    {
+      "case": "A36",
+      "states": 336,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A36.json.xz"
+    },
+    {
+      "case": "A37",
+      "states": 717,
+      "records": 279,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A37.json.xz"
+    },
+    {
+      "case": "A38",
+      "states": 4636,
+      "records": 3150,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A38.json.xz"
+    },
+    {
+      "case": "A39",
+      "states": 916,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A39.json.xz"
+    },
+    {
+      "case": "A40",
+      "states": 5586,
+      "records": 2208,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A40.json.xz"
+    },
+    {
+      "case": "A41",
+      "states": 287,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A41.json.xz"
+    },
+    {
+      "case": "A42",
+      "states": 15080,
+      "records": 26403,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A42.json.xz"
+    },
+    {
+      "case": "A43",
+      "states": 898,
+      "records": 345,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A43.json.xz"
+    },
+    {
+      "case": "A44",
+      "states": 420,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A44.json.xz"
+    },
+    {
+      "case": "A45",
+      "states": 666,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A45.json.xz"
+    },
+    {
+      "case": "A46",
+      "states": 4231,
+      "records": 4380,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A46.json.xz"
+    },
+    {
+      "case": "A47",
+      "states": 408,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A47.json.xz"
+    },
+    {
+      "case": "A48",
+      "states": 2187,
+      "records": 1362,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A48.json.xz"
+    },
+    {
+      "case": "A49",
+      "states": 1893,
+      "records": 627,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A49.json.xz"
+    },
+    {
+      "case": "A50",
+      "states": 1085,
+      "records": 261,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A50.json.xz"
+    },
+    {
+      "case": "A51",
+      "states": 758,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A51.json.xz"
+    },
+    {
+      "case": "A52",
+      "states": 238,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A52.json.xz"
+    },
+    {
+      "case": "A53",
+      "states": 182,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A53.json.xz"
+    },
+    {
+      "case": "A54",
+      "states": 114,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A54.json.xz"
+    },
+    {
+      "case": "A55",
+      "states": 2115,
+      "records": 2196,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A55.json.xz"
+    },
+    {
+      "case": "A56",
+      "states": 314,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A56.json.xz"
+    },
+    {
+      "case": "A57",
+      "states": 568,
+      "records": 171,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A57.json.xz"
+    },
+    {
+      "case": "A58",
+      "states": 372,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A58.json.xz"
+    },
+    {
+      "case": "A59",
+      "states": 147,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A59.json.xz"
+    },
+    {
+      "case": "A60",
+      "states": 250,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A60.json.xz"
+    },
+    {
+      "case": "A61",
+      "states": 161,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A61.json.xz"
+    },
+    {
+      "case": "A62",
+      "states": 622,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A62.json.xz"
+    },
+    {
+      "case": "A63",
+      "states": 247,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A63.json.xz"
+    },
+    {
+      "case": "A64",
+      "states": 6453,
+      "records": 11088,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A64.json.xz"
+    },
+    {
+      "case": "A65",
+      "states": 980,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A65.json.xz"
+    },
+    {
+      "case": "A66",
+      "states": 2578,
+      "records": 2280,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A66.json.xz"
+    },
+    {
+      "case": "A67",
+      "states": 996,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A67.json.xz"
+    },
+    {
+      "case": "A68",
+      "states": 5852,
+      "records": 9981,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A68.json.xz"
+    },
+    {
+      "case": "A69",
+      "states": 2841,
+      "records": 2190,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A69.json.xz"
+    },
+    {
+      "case": "A70",
+      "states": 785,
+      "records": 207,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A70.json.xz"
+    },
+    {
+      "case": "A71",
+      "states": 419,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A71.json.xz"
+    },
+    {
+      "case": "A72",
+      "states": 180,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A72.json.xz"
+    },
+    {
+      "case": "A73",
+      "states": 3472,
+      "records": 3597,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A73.json.xz"
+    },
+    {
+      "case": "A74",
+      "states": 291,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A74.json.xz"
+    },
+    {
+      "case": "A75",
+      "states": 451,
+      "records": 150,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A75.json.xz"
+    },
+    {
+      "case": "A76",
+      "states": 12334,
+      "records": 20409,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A76.json.xz"
+    },
+    {
+      "case": "A77",
+      "states": 361,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A77.json.xz"
+    },
+    {
+      "case": "A78",
+      "states": 2657,
+      "records": 3630,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A78.json.xz"
+    },
+    {
+      "case": "A79",
+      "states": 2341,
+      "records": 1956,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A79.json.xz"
+    },
+    {
+      "case": "A80",
+      "states": 880,
+      "records": 333,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A80.json.xz"
+    },
+    {
+      "case": "A81",
+      "states": 643,
+      "records": 135,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A81.json.xz"
+    },
+    {
+      "case": "A82",
+      "states": 420,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A82.json.xz"
+    },
+    {
+      "case": "A83",
+      "states": 239,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A83.json.xz"
+    },
+    {
+      "case": "A84",
+      "states": 187,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A84.json.xz"
+    },
+    {
+      "case": "A85",
+      "states": 1494,
+      "records": 756,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A85.json.xz"
+    },
+    {
+      "case": "A86",
+      "states": 643,
+      "records": 177,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A86.json.xz"
+    },
+    {
+      "case": "A87",
+      "states": 715,
+      "records": 294,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A87.json.xz"
+    },
+    {
+      "case": "A88",
+      "states": 295,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A88.json.xz"
+    },
+    {
+      "case": "A89",
+      "states": 362,
+      "records": 69,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A89.json.xz"
+    },
+    {
+      "case": "A90",
+      "states": 257,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A90.json.xz"
+    },
+    {
+      "case": "A91",
+      "states": 221,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A91.json.xz"
+    },
+    {
+      "case": "A92",
+      "states": 121,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A92.json.xz"
+    },
+    {
+      "case": "A93",
+      "states": 2357,
+      "records": 2673,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A93.json.xz"
+    },
+    {
+      "case": "A94",
+      "states": 974,
+      "records": 333,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A94.json.xz"
+    },
+    {
+      "case": "A95",
+      "states": 529,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A95.json.xz"
+    },
+    {
+      "case": "A96",
+      "states": 2491,
+      "records": 1578,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A96.json.xz"
+    },
+    {
+      "case": "A97",
+      "states": 1998,
+      "records": 2151,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A97.json.xz"
+    },
+    {
+      "case": "A98",
+      "states": 1392,
+      "records": 1092,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A98.json.xz"
+    },
+    {
+      "case": "A99",
+      "states": 550,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A99.json.xz"
+    },
+    {
+      "case": "A100",
+      "states": 319,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A100.json.xz"
+    },
+    {
+      "case": "A101",
+      "states": 198,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A101.json.xz"
+    },
+    {
+      "case": "A102",
+      "states": 590,
+      "records": 186,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A102.json.xz"
+    },
+    {
+      "case": "A103",
+      "states": 198,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A103.json.xz"
+    },
+    {
+      "case": "A104",
+      "states": 1328,
+      "records": 963,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A104.json.xz"
+    },
+    {
+      "case": "A105",
+      "states": 1363,
+      "records": 1014,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A105.json.xz"
+    },
+    {
+      "case": "A106",
+      "states": 495,
+      "records": 99,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A106.json.xz"
+    },
+    {
+      "case": "A107",
+      "states": 382,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A107.json.xz"
+    },
+    {
+      "case": "A108",
+      "states": 154,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A108.json.xz"
+    },
+    {
+      "case": "A109",
+      "states": 485,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A109.json.xz"
+    },
+    {
+      "case": "A110",
+      "states": 1003,
+      "records": 558,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A110.json.xz"
+    },
+    {
+      "case": "A111",
+      "states": 343,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A111.json.xz"
+    },
+    {
+      "case": "A112",
+      "states": 888,
+      "records": 396,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A112.json.xz"
+    },
+    {
+      "case": "A113",
+      "states": 1216,
+      "records": 615,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A113.json.xz"
+    },
+    {
+      "case": "A114",
+      "states": 767,
+      "records": 168,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A114.json.xz"
+    },
+    {
+      "case": "A115",
+      "states": 739,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A115.json.xz"
+    },
+    {
+      "case": "A116",
+      "states": 598,
+      "records": 267,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A116.json.xz"
+    },
+    {
+      "case": "A117",
+      "states": 203,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A117.json.xz"
+    },
+    {
+      "case": "A118",
+      "states": 163,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A118.json.xz"
+    },
+    {
+      "case": "A119",
+      "states": 95,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A119.json.xz"
+    },
+    {
+      "case": "A120",
+      "states": 304,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A120.json.xz"
+    },
+    {
+      "case": "A121",
+      "states": 147,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A121.json.xz"
+    },
+    {
+      "case": "A122",
+      "states": 753,
+      "records": 444,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A122.json.xz"
+    },
+    {
+      "case": "A123",
+      "states": 255,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A123.json.xz"
+    },
+    {
+      "case": "A124",
+      "states": 492,
+      "records": 165,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A124.json.xz"
+    },
+    {
+      "case": "A125",
+      "states": 374,
+      "records": 138,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A125.json.xz"
+    },
+    {
+      "case": "A126",
+      "states": 988,
+      "records": 456,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A126.json.xz"
+    },
+    {
+      "case": "A127",
+      "states": 565,
+      "records": 234,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A127.json.xz"
+    },
+    {
+      "case": "A128",
+      "states": 258,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A128.json.xz"
+    },
+    {
+      "case": "A129",
+      "states": 261,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A129.json.xz"
+    },
+    {
+      "case": "A130",
+      "states": 168,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A130.json.xz"
+    },
+    {
+      "case": "A131",
+      "states": 390,
+      "records": 78,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A131.json.xz"
+    },
+    {
+      "case": "A132",
+      "states": 353,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A132.json.xz"
+    },
+    {
+      "case": "A133",
+      "states": 128,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A133.json.xz"
+    },
+    {
+      "case": "A134",
+      "states": 285,
+      "records": 57,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A134.json.xz"
+    },
+    {
+      "case": "A135",
+      "states": 231,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A135.json.xz"
+    },
+    {
+      "case": "A136",
+      "states": 202,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A136.json.xz"
+    },
+    {
+      "case": "A137",
+      "states": 208,
+      "records": 45,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A137.json.xz"
+    },
+    {
+      "case": "A138",
+      "states": 142,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A138.json.xz"
+    },
+    {
+      "case": "A139",
+      "states": 102,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A139.json.xz"
+    },
+    {
+      "case": "A140",
+      "states": 76,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A140.json.xz"
+    },
+    {
+      "case": "A141",
+      "states": 57,
+      "records": 0,
+      "failed_memberships": 0,
+      "critical_even_leafs": 0,
+      "file": "evidence/S014/odd_leaf_contraction/A141.json.xz"
+    }
+  ],
+  "states": 167713,
+  "records": 164058,
+  "direction_counts": [
+    54686,
+    54686,
+    54686
+  ],
+  "failed_memberships": 0
+}

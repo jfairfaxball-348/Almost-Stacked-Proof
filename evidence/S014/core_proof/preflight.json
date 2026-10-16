@@ -1,0 +1,25 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_40.md": "3e4f2e3dd124fd1de170178a7452d97fdd111d73982a881fc1c1640aa4c44f79",
+    "sessions/S014/PLAN_AMENDMENT_39.md": "9f01fb53ae265cc6fe911143dc0d388830af82bd00c9b1e68365526ed173070e",
+    "evidence/S014/core_proof/inputs.json": "b79540241a0fbe519449638e6c489bb9a1d2ea151deb8adecaff0835efdbef76",
+    "tools/s014_indexed_drup.py": "7ab8fe0e94671bca6f0a396ce103a5e454606e84cf2be7b245f6e65a7c9a11f1",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_core_proof.py": "f7c20665a61843e1e9b63b5f85a1af561ee83ff1a779424f828f975f9dade565",
+    "tools/s014_core_proof_drup.py": "861a6719b70cbd8190dfec569acdf3b452afd90cb6270c21523d1887d671475a",
+    "tools/s014_core_proof_run.py": "03b06521f529e5c2f5bb8288271353a43470b6e6acd81ac7df3fcb7598f1b238",
+    "tools/s014_core_proof_verify.py": "8175c954ae5c5f162d3188387b42bf115c6956082582a0d4c55e4368f14d53f5",
+    "evidence/S014/cegis_orbits_v2/C6/formula.cnf": "4662854909731e5aa2d713f66eacfef909b26cd0af60a40af514b16ca30939c8",
+    "evidence/S014/cegis_orbits_v2/C6/clause_verification.json": "a086fecd3584e4f42e03ef21ef2791a9ae4dfa7c750fd93505abd3cb27efeb35",
+    "evidence/S014/cegis_orbits_v2/C6/derived_preflight.json": "c4326d6f9292374c1acc276a67382720cd7e1e41397ebe7a234945c7a94a94a7",
+    "evidence/S014/cegis_orbits_v2/C9a/formula.cnf": "1ce0befaa3ffb0bea47f3de44f1003e4b2e605c08bcf6cc751e775b85f95163a",
+    "evidence/S014/cegis_orbits_v2/C9a/clause_verification.json": "4ea071f9f733c456433d8941e345915302bf1c5a9954f059efef73cb4a5e2546",
+    "evidence/S014/cegis_orbits_v2/C9a/derived_preflight.json": "a85eb24856d8c0f83e0e8981d244c6b83e7788e7effd44f8e1fb218de7a985b7",
+    "evidence/S014/cegis_orbits_v2/C9b/formula.cnf": "3cdfdce6b90b31e00d07204304f1093f82b4d0628d3209e9b09bcd6f7d371b41",
+    "evidence/S014/cegis_orbits_v2/C9b/clause_verification.json": "e2c6a5caeacf8f73150c567942ab26792f925ddaa2ff115b2f74edd61679b1a3",
+    "evidence/S014/cegis_orbits_v2/C9b/derived_preflight.json": "94e2a6653fa56ea23a501936ed1fcf26e801235c83b5eeb82246dc50c61af76b",
+    "evidence/S014/cegis_orbits_v2/C10/formula.cnf": "124d2cfef1f2aaf6784739a73af9488c0fcc04a9582f851330c6e5af6f05679d",
+    "evidence/S014/cegis_orbits_v2/C10/clause_verification.json": "aae4242772496c7633f5286e9a88bb8b46c8e5ff563d865931871be3bc811a56",
+    "evidence/S014/cegis_orbits_v2/C10/derived_preflight.json": "35cc71440c3ae3d2345f4f70fad5711eb4a75900d5be2a5c5b20b9afe994d8e4"
+  }
+}

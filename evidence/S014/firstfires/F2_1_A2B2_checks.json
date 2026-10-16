@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_boundary_threshold.py",
+      "F2_1_A2B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2097152,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 6, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 15, \"losers\": 15, \"AS_losers\": 15, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 56, \"losers\": 38, \"AS_losers\": 38, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 118, \"losers\": 57, \"AS_losers\": 53, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 216, \"losers\": 82, \"AS_losers\": 78, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 290, \"losers\": 96, \"AS_losers\": 59, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 376, \"losers\": 80, \"AS_losers\": 38, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 436, \"losers\": 66, \"AS_losers\": 26, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 394, \"losers\": 48, \"AS_losers\": 14, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 255, \"losers\": 16, \"AS_losers\": 4, \"Q\": 54}\r\n{\"mass\": 11, \"candidates\": 106, \"losers\": 10, \"AS_losers\": 4, \"Q\": 83}\r\n{\"mass\": 12, \"candidates\": 56, \"losers\": 6, \"AS_losers\": 2, \"Q\": 122}\r\n{\"mass\": 13, \"candidates\": 24, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 13, \"last_complete_mass\": 13, \"certificate_sha256\": \"cb79945efe643de8fba91b625ddc40511b10de6fbd51ee8f91d70683fc75a1f1\"}\r\n",
+    "stderr": "",
+    "code_sha256": "5c1b0bd168483a1546b26af2ab4fb48dc49243aaa3fa562ded1a0976b49760a6"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_boundary_threshold_verify.py",
+      "F2_1_A2B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2097152,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F2_1_A2B2\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 13, \"last_complete_mass\": 13, \"certified_losing_states\": 514, \"L_AS_seen\": 12, \"L_AS_grammar\": 12, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "a9cc5738716ac5e6893b447f6cca82ec0536213eec64f580f5d3681843df4667"
+  }
+]

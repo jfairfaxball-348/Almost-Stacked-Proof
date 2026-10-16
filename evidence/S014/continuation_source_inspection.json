@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-15T17:36:49.378173+00:00",
+  "sources": [
+    {
+      "id": "SRC-0036",
+      "url": "https://arxiv.org/abs/1501.04245v3",
+      "access": "PROOF_INSPECTED",
+      "selected": "Original Theorem2.7 both ordering cases and pending multiplicity;2.8-2.10 through established44",
+      "temporary_text_sha256": "3b107f0f36d37cf65782c42d64d644a6d4d81a9d01d8ef8e8150fa766ec6d711"
+    },
+    {
+      "id": "SRC-0001",
+      "url": "https://arxiv.org/abs/2610.09650v1",
+      "access": "ABSTRACT_INSPECTED",
+      "note": "Current version metadata confirmed as v1; earlier exact proof inspections retained without claiming a new whole-PDF audit."
+    }
+  ],
+  "note": "Current official metadata inspected; no copyrighted primary PDF placed in repository; no new registry/Lean/priority claim."
+}

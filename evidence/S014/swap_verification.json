@@ -1,0 +1,10 @@
+{
+  "tests": 10240,
+  "failures": 1846,
+  "Qmax_failures": 71,
+  "critical_failures": 0,
+  "certificates": 12,
+  "negative_closure_states": 95,
+  "literal_moves": 30,
+  "all_labeled_failures_equal": true
+}

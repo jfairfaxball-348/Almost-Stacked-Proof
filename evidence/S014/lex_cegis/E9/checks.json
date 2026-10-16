@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_lex_cegis.py",
+      "E9"
+    ],
+    "exit_code": 0,
+    "seconds": 71.17199999999139,
+    "peak_working_set_bytes": 65626112,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"E9\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 6238, \"base_clauses\": 7246, \"stabilizer_size\": 1, \"clauses\": 7246, \"seconds\": 70.90599999998813, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "4889b12575c13549f9a2d2382ba5a8ad96283564dd14911e9de30c86408deb0a"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_lex_verify.py",
+      "E9"
+    ],
+    "exit_code": 0,
+    "seconds": 5.125,
+    "peak_working_set_bytes": 52981760,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"E9\", \"clauses\": 7246, \"c_winning_trace_clauses\": 6627, \"AS_negative_clauses\": 605, \"AS_closure_states\": 648171, \"literal_c_winning_moves\": 59624, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"E9\", \"graph_certificate_records\": 7246, \"distinct_graph_clauses\": 7246, \"representative_comparisons\": 7, \"local_truth_rows\": 2800, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "0eb45f344d4b70d5c96136490abe4e40dff80162da44f3e529b1257005d8cca9"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\lex_cegis\\E9\\formula.cnf",
+      "evidence\\S014\\lex_cegis\\E9\\proof.drup",
+      "-L",
+      "evidence\\S014\\lex_lrat\\E9\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 53051392,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 295 variables and 8303 clauses\r\n\rc WARNING: deleted clause on proof line 13251 does not occur: [402674485] -1 38 0\r\n\rc WARNING: deleted clause on proof line 13252 does not occur: [402674485] 1 38 0\r\n\rc WARNING: deleted clause on proof line 13281 does not occur: [402674485] -1 75 0\r\n\rc WARNING: deleted clause on proof line 13282 does not occur: [402674485] 1 75 0\r\n\rc WARNING: deleted clause on proof line 13294 does not occur: [402674485] -1 112 0\r\n\rc WARNING: deleted clause on proof line 13295 does not occur: [402674485] 1 112 0\r\n\rc WARNING: deleted clause on proof line 13305 does not occur: [402674485] -1 149 0\r\n\rc WARNING: deleted clause on proof line 13306 does not occur: [402674485] 1 149 0\r\n\rc WARNING: deleted clause on proof line 13319 does not occur: [402674485] -1 186 0\r\n\rc WARNING: deleted clause on proof line 13320 does not occur: [402674485] 1 186 0\r\n\rc WARNING: deleted clause on proof line 13340 does not occur: [402674485] -1 223 0\r\n\rc WARNING: deleted clause on proof line 13341 does not occur: [402674485] 1 223 0\r\n\rc WARNING: deleted clause on proof line 13385 does not occur: [402674485] -1 260 0\r\n\rc WARNING: deleted clause on proof line 13386 does not occur: [402674485] 1 260 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 3790 of 8303 clauses in core                            \r\n\rc 3308 of 3634 lemmas in core using 172739 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.150 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "bcb38c92e9b884dfb1a4a494585c4a70953aa50241ae89f5dd921d7b5887307e"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_lex_lrat_verify.py",
+      "E9"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40700000000651926,
+    "peak_working_set_bytes": 25899008,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"E9\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 3308, \"deleted_clause_ids\": 11527, \"hint_visits\": 172739, \"seconds\": 0.21899999999732245}\r\n",
+    "stderr": "",
+    "code_sha256": "1517e0e25e5b8ffca70ff32889c337fcfbb155b3b6c1c965b4e76ea51cc1b8f7"
+  }
+]

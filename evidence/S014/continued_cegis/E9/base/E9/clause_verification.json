@@ -1,0 +1,9 @@
+{
+  "case": "E9",
+  "clauses": 4009,
+  "c_winning_trace_clauses": 3422,
+  "AS_negative_clauses": 564,
+  "AS_closure_states": 451084,
+  "literal_c_winning_moves": 30783,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

@@ -1,0 +1,489 @@
+{
+  "patterns": 32,
+  "complete_inventory_equal": true,
+  "certified": 32,
+  "complete_mass10_order8_exclusion": true,
+  "cases": [
+    {
+      "case": "P00",
+      "c": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P01",
+      "c": [
+        5,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P02",
+      "c": [
+        5,
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P03",
+      "c": [
+        7,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P04",
+      "c": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P05",
+      "c": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P06",
+      "c": [
+        5,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P07",
+      "c": [
+        5,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P08",
+      "c": [
+        6,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P09",
+      "c": [
+        7,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P10",
+      "c": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P11",
+      "c": [
+        4,
+        4,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P12",
+      "c": [
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P13",
+      "c": [
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P14",
+      "c": [
+        6,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P15",
+      "c": [
+        8,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P16",
+      "c": [
+        3,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P17",
+      "c": [
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P18",
+      "c": [
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P19",
+      "c": [
+        5,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P20",
+      "c": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P21",
+      "c": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P22",
+      "c": [
+        5,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P23",
+      "c": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P24",
+      "c": [
+        4,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P25",
+      "c": [
+        4,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P26",
+      "c": [
+        6,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P27",
+      "c": [
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P28",
+      "c": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P29",
+      "c": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P30",
+      "c": [
+        4,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    },
+    {
+      "case": "P31",
+      "c": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+      "independently_excluded": true
+    }
+  ],
+  "scope": "Finite fixed(n8,M10) only; universal ASH* OPEN"
+}

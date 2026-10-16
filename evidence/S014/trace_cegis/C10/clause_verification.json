@@ -1,0 +1,8 @@
+{
+  "case": "C10",
+  "base_clauses": 6010,
+  "stabilizer_size": 60,
+  "expanded_clauses": 91566,
+  "all_clauses_necessary_for_fixed_input_counterexample": true,
+  "scope": "Only fixed input graph class, independent literal clause provenance"
+}

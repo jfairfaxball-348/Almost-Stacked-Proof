@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coupled_rays.py",
+      "C00_60_s4"
+    ],
+    "exit_code": 0,
+    "seconds": 17.156000000002678,
+    "peak_working_set_bytes": 165187584,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C00_60_s4\", \"cells\": 98304, \"nodes\": 286798, \"analysis\": {\"stack\": {\"max_losing_mass\": 17, \"max_nonAS_losing_mass\": -1}}}\r\n",
+    "stderr": "",
+    "code_sha256": "98f65caf09add585fc4134ab1eb37f24c337b4d794ea24d3bb22bf86eb8b2416"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coupled_rays_verify.py",
+      "C00_60_s4"
+    ],
+    "exit_code": 0,
+    "seconds": 20.687000000005355,
+    "peak_working_set_bytes": 107368448,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C00_60_s4\", \"cells\": 98304, \"nodes\": 286798, \"production_inequalities\": 83267303, \"literal_moves\": 19, \"graph_minimal_neighborhoods\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], \"all_minima_and_infinities_certified\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "b2c9ffbe85b4bf531e49f2624d536ec0da7401bc182a5421a9c0250749413217"
+  }
+]

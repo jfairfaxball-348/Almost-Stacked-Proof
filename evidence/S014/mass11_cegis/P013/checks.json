@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_cegis.py",
+      "P013"
+    ],
+    "exit_code": 0,
+    "seconds": 14.359000000025844,
+    "peak_working_set_bytes": 45088768,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P013\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 1113, \"base_clauses\": 1176, \"stabilizer_size\": 1, \"clauses\": 1176, \"seconds\": 14.202999999979511, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1dde2ec02d59032080bea2df88467c3d6538074d04ddb483ab5ef17b45a65e8d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_verify.py",
+      "P013"
+    ],
+    "exit_code": 0,
+    "seconds": 1.610000000015134,
+    "peak_working_set_bytes": 22478848,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P013\", \"clauses\": 1176, \"c_winning_trace_clauses\": 649, \"AS_negative_clauses\": 436, \"AS_closure_states\": 176929, \"literal_c_winning_moves\": 5756, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P013\", \"graph_certificate_records\": 1176, \"distinct_graph_clauses\": 1176, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "4abc2ddaa5802c6fdabbf4cbfb6993dd351c10238b7a6d4348b18bdd4c4757ca"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\mass11_cegis\\P013\\formula.cnf",
+      "evidence\\S014\\mass11_cegis\\P013\\proof.drup",
+      "-L",
+      "evidence\\S014\\mass11_lrat\\P013\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1900544,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 144 variables and 1660 clauses\r\n\rc WARNING: deleted clause on proof line 3731 does not occur: [268441813] -1 30 0\r\n\rc WARNING: deleted clause on proof line 3732 does not occur: [268441813] 1 30 0\r\n\rc WARNING: deleted clause on proof line 3754 does not occur: [268441813] -1 2 0\r\n\rc WARNING: deleted clause on proof line 3757 does not occur: [268441813] -2 -1 59 0\r\n\rc WARNING: deleted clause on proof line 3758 does not occur: [268441813] 1 2 59 0\r\n\rc WARNING: deleted clause on proof line 3775 does not occur: [268441813] -1 88 0\r\n\rc WARNING: deleted clause on proof line 3776 does not occur: [268441813] 1 88 0\r\n\rc WARNING: deleted clause on proof line 3829 does not occur: [268441813] -1 117 0\r\n\rc WARNING: deleted clause on proof line 3830 does not occur: [268441813] 1 117 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 928 of 1660 clauses in core                            \r\n\rc 1106 of 1178 lemmas in core using 21903 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.077 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "480f167ddabe0fb7dfb0915a400ebf1cf9af5c2c9a8cb2b60c7b0328d2f5868a"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_lrat_verify.py",
+      "P013"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 17309696,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P013\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 1106, \"deleted_clause_ids\": 2718, \"hint_visits\": 21903, \"seconds\": 0.030999999988125637}\r\n",
+    "stderr": "",
+    "code_sha256": "375e31c2030a6ec078821a159fd27d8a2530c29a0ac19f13c010b6625671648a"
+  }
+]

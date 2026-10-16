@@ -1,0 +1,39 @@
+{
+  "case": {
+    "id": "H9_5551",
+    "n": 9,
+    "c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      5,
+      5,
+      5
+    ],
+    "source": "evidence/S014/highpile_cegis/sources/H9_5551",
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "control": false
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 6148,
+  "base_clauses": 6147,
+  "stabilizer_size": 1,
+  "clauses": 6147,
+  "seconds": 379.64100000000326,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

@@ -1,0 +1,14 @@
+{
+  "case": "N2_M4",
+  "n": 2,
+  "mass": 4,
+  "patterns": 1,
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 2,
+  "graph_records": 4,
+  "distinct_graph_clauses": 2,
+  "fixed_encoding_clauses": 5,
+  "variables": 4,
+  "seconds": 0.01600000000325963,
+  "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+}

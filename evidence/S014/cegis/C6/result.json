@@ -1,0 +1,19 @@
+{
+  "case": {
+    "id": "C6",
+    "n": 6,
+    "c": [
+      3,
+      3,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 124,
+  "clauses": 129,
+  "seconds": 0.2649999999994179,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

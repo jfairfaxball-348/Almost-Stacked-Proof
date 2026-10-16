@@ -1,0 +1,9 @@
+{
+  "files": {
+    "evidence/S014/lex_lrat/E9/proof.lrat": "eabfd42fce5a9950cf6cfae62139123299daf4ed6ec492efb938970639e439da",
+    "evidence/S014/lex_cegis/E9/formula.cnf": "bcb38c92e9b884dfb1a4a494585c4a70953aa50241ae89f5dd921d7b5887307e",
+    "evidence/S014/lex_cegis/E9/proof.drup": "5fbdedfe80d53b71e4bb4527fc1b1b364b6d3016eb196646904f67b774427859",
+    "evidence/S014/lex_cegis/E9/clause_verification.json": "313f6ec6106ff11d9e5a746aed40a10c1c38111f50d5c5aeca7f9cf3a5a16ded",
+    "tools/s014_lex_lrat_verify.py": "1517e0e25e5b8ffca70ff32889c337fcfbb155b3b6c1c965b4e76ea51cc1b8f7"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c080_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 15.60999999998603,
+    "peak_working_set_bytes": 57688064,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 142, \"states\": 167713, \"records\": 164058, \"direction_counts\": [54686, 54686, 54686], \"failed_memberships\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "e84491849860e1ff41af360999448005614eb92a288b7576c138fd1919377a46"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c080_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 18.76600000000326,
+    "peak_working_set_bytes": 49528832,
+    "resource_failure": null,
+    "stdout": "{\"complete_both_direction_inventories_and_memberships_equal\": true, \"cases\": 142, \"states\": 167713, \"records\": 164058, \"odd_leaf_down\": 54686, \"even_leaf_parent_up\": 54686, \"even_heavy_leaf_plus3\": 54686, \"failed_memberships\": 0, \"critical_even_leafs\": 0, \"first_failures\": [], \"scope\": \"Complete finite119b/120 challenge on142 fixed graphs, symbolic proofs separate; universal ASH* OPEN\", \"seconds\": 14.23399999999674}\r\n",
+    "stderr": "",
+    "code_sha256": "f4cccfb5c0bb585dfeb7840744a331d004384c9ae9616e8c2a4d84407926a089"
+  }
+]

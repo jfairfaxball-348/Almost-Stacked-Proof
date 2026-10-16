@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coupled_eliminate.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 19546112,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 2, \"critical_nonAS\": 0, \"failed_inputs\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "42bb3a235cd4fd91b50b04f55ec8899324d1958fe7e3120b566877b2eb66e3c0"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coupled_eliminate_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 20111360,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 2, \"nonAS_critical_inputs\": 0, \"candidates\": 0, \"failed_H2r_inputs\": 0, \"max_heavy_sites\": 0, \"first_failures\": [], \"all_generated_keys_memberships_and_heavy_decreases_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "a335bd51b2923ec2c4febaf91e1b3d7673eff26a9011e77d26654b5dcacab6e8"
+  }
+]

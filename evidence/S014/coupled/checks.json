@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coupled.py"
+    ],
+    "exit_code": 0,
+    "seconds": 22.327999999994063,
+    "peak_working_set_bytes": 34545664,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 252, \"losing\": 108, \"winning\": 144, \"unknown\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "355921863a2547f96d0b5cbc2a73524607a3e087864acaab693c40f582317193"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coupled_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 22.687000000005355,
+    "peak_working_set_bytes": 18649088,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 252, \"complete_inputs\": 252, \"unknown\": 0, \"losing_inputs\": 108, \"checked_states\": 617212, \"negative_states\": 615052, \"legal_dependencies\": 1799764, \"selected_for_AS_rays\": [{\"id\": \"C00_51\", \"n\": 12, \"edges\": [[0, 1], [0, 5], [0, 6], [1, 4], [1, 7], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5], [4, 10], [5, 11], [6, 7], [6, 11], [7, 10], [8, 9], [8, 10], [8, 11], [9, 10], [9, 11]], \"c\": [3, 3, 1, 1, 0, 0, 3, 3, 1, 1, 0, 0], \"cross_edges\": 4}, {\"id\": \"C00_60\", \"n\": 12, \"edges\": [[0, 1], [0, 5], [1, 4], [2, 3], [2, 4], [2, 5], [2, 8], [3, 4], [3, 5], [3, 9], [4, 10], [5, 11], [6, 7], [6, 11], [7, 10], [8, 9], [8, 10], [8, 11], [9, 10], [9, 11]], \"c\": [3, 3, 1, 1, 0, 0, 3, 3, 1, 1, 0, 0], \"cross_edges\": 4}], \"all_complete_DAGs_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "b54df90261a5ffc985e7d3d38d5c35e66dcf6d27d46558e76d53b6f66d8f6e61"
+  }
+]

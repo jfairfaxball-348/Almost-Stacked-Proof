@@ -1,0 +1,133 @@
+{
+  "cases": 444,
+  "nonAS_critical_inputs": 1230,
+  "candidates": 22902,
+  "failed_H2_inputs": 1124,
+  "max_heavy_sites": 5,
+  "first_failures": [
+    {
+      "case": {
+        "id": "A1",
+        "n": 3,
+        "threshold": 7,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "summary": "evidence/S005/A3_0000_stack.summary.json",
+        "certificate": "evidence/S005/A3_0000_stack.bin.xz"
+      },
+      "c": [
+        3,
+        3,
+        0
+      ],
+      "candidate_count": 4
+    },
+    {
+      "case": {
+        "id": "A3",
+        "n": 4,
+        "threshold": 7,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "summary": "evidence/S005/A4_0000_stack.summary.json",
+        "certificate": "evidence/S005/A4_0000_stack.bin.xz"
+      },
+      "c": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "candidate_count": 8
+    },
+    {
+      "case": {
+        "id": "A3",
+        "n": 4,
+        "threshold": 7,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "summary": "evidence/S005/A4_0000_stack.summary.json",
+        "certificate": "evidence/S005/A4_0000_stack.bin.xz"
+      },
+      "c": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "candidate_count": 8
+    },
+    {
+      "case": {
+        "id": "A5",
+        "n": 4,
+        "threshold": 10,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "summary": "evidence/S005/A4_0002_stack.summary.json",
+        "certificate": "evidence/S005/A4_0002_stack.bin.xz"
+      },
+      "c": [
+        5,
+        3,
+        1,
+        0
+      ],
+      "candidate_count": 4
+    }
+  ],
+  "all_generated_keys_memberships_and_heavy_decreases_equal": true
+}

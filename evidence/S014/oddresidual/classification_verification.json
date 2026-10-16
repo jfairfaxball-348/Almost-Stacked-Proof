@@ -1,0 +1,15 @@
+{
+  "failing_pairs": 583,
+  "donor_counts": {
+    "5": 342,
+    "3": 4,
+    "7": 237
+  },
+  "residual_failures": 259,
+  "bipartite_failures": 496,
+  "selected": [
+    "g6_0248",
+    "g6_0504"
+  ],
+  "independent_adjacency_classifier_equal": true
+}

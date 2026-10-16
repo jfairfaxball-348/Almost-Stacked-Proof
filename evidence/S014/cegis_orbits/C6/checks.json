@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21900000001187436,
+    "peak_working_set_bytes": 18698240,
+    "resource_failure": null,
+    "stdout": "{\"case\": {\"id\": \"C6\", \"n\": 6, \"c\": [3, 3, 1, 1, 0, 0], \"permutations\": [[0, 1, 2, 3, 4, 5], [1, 0, 2, 3, 4, 5], [0, 1, 3, 2, 4, 5], [1, 0, 3, 2, 4, 5], [0, 1, 2, 3, 5, 4], [1, 0, 2, 3, 5, 4], [0, 1, 3, 2, 5, 4], [1, 0, 3, 2, 5, 4]]}, \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 1, \"base_clauses\": 129, \"stabilizer_size\": 8, \"clauses\": 170, \"seconds\": 0.014999999999417923, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "cf3c2878720f814604b6e4919e2f7ca4adbe5384bba59e1ab6c1ab1efc7bbe74"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_verify.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 17002496,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"clauses\": 129, \"c_winning_trace_clauses\": 70, \"AS_negative_clauses\": 51, \"AS_closure_states\": 2672, \"literal_c_winning_moves\": 416, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"C6\", \"base_clauses\": 129, \"stabilizer_size\": 8, \"expanded_clauses\": 170, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"scope\": \"Only fixed input graph class, independent literal clause provenance\"}\r\n",
+    "stderr": "",
+    "code_sha256": "ea7d6fb4f262e9182630d621b0df22a2b4f52f9fe2eeb86f3950b71e7a455959"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_drup.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"solver_status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"fixed_input_class_exclusion_certified\": true, \"added_RUP_steps\": 37, \"deletions\": 0, \"unit_clause_scans\": 14711, \"scope\": \"ONLY this exact labeled fixed-input graph class; NOT universal ASH*\"}\r\n",
+    "stderr": "",
+    "code_sha256": "57058e728bbffb46cc30d7c5c9b7b2dd2515b8b167d1283bca8af7259c5c7484"
+  }
+]

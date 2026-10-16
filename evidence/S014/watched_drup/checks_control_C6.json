@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_watched_drup.py",
+      "evidence/S014/cegis_orbits_v2/C6",
+      "control_C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2146304,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"control_C6\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY this exact fixed input graph-class exclusion; universal ASH* OPEN\", \"added_RUP_steps\": 37, \"deletions\": 0, \"active_watched_clause_visits\": 3194, \"seconds\": 0.0}\r\n",
+    "stderr": "",
+    "code_sha256": "d5630e7fc5f77dcfb7c6a44985f16c61b5dc51ca287e6087b4a37f2adc148a1f"
+  }
+]

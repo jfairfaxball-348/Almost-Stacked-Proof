@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_even_extension.py"
+    ],
+    "exit_code": 1,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2129920,
+    "resource_failure": null,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Almost-Stacked-Proof\\tools\\s014_even_extension.py\", line 12, in <module>\r\n    for u,v in t['moves']:assert [u,v] in arcs and ((x>>(8*u))&255)>=2;x=x-2*unit[u]+unit[v]\r\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n",
+    "code_sha256": "e94b9f8f6ad5cea622d4cb2e47e7e1eec5f3742a9a4cc96706b887aa2a8c8990"
+  }
+]

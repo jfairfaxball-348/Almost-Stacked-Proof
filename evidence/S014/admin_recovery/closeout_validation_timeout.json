@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "validation/validate_governance.py"
+  ],
+  "exit_code": 1,
+  "seconds": 611.7969999999914,
+  "peak_working_set_bytes": 865128448,
+  "resource_failure": "TIME_CUTOFF",
+  "stdout": "",
+  "stderr": "",
+  "code_sha256": "2ba976cebebd6c4c842e876c79d0783d28874846edf9156a8f1b3102d2a44837"
+}

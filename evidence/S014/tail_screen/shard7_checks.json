@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_tail_screen.py",
+      "7"
+    ],
+    "exit_code": 0,
+    "seconds": 6.327999999994063,
+    "peak_working_set_bytes": 49180672,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 7, \"cases\": 937, \"original_winners\": 924, \"AS_rejections\": 13, \"potentials\": 0, \"unknown\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "8f35a43181c8e4b28b863829fac65c96adcac87b81811c5286da608630f89c4e"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_tail_screen_verify.py",
+      "7"
+    ],
+    "exit_code": 0,
+    "seconds": 2.1089999999967404,
+    "peak_working_set_bytes": 35012608,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 7, \"cases\": 937, \"complete_cases\": 937, \"unknown\": 0, \"checked_states\": 161351, \"negative_states\": 54343, \"positive_dependencies\": 105866, \"potential_counterexamples\": [], \"all_complete_DAGs_and_AS_tail_keys_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ab099844c2383021ff8ec3a79cec54641493101363bc446ecfd32bb9291f890f"
+  }
+]

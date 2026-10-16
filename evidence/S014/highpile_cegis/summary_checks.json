@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_summary.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.5160000000032596,
+    "peak_working_set_bytes": 19873792,
+    "resource_failure": null,
+    "stdout": "{\"patterns\": 8, \"certified\": 8, \"all_registered_patterns_independently_excluded\": true, \"control_pass\": true, \"verified_RUP_additions\": 33677, \"hint_visits\": 862482, \"scope\": \"ONLY specified8 fixed-input graph classes, not full order/mass coverage; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "038b4f742248e8491af4385272f6fb692c648e3c67a5381a9bc99fa13fda3413"
+  }
+]

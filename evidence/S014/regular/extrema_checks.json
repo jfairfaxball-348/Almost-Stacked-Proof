@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_regular_extrema.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 16568320,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"Q3plus03\", \"n\": 8, \"all_open_neighborhoods_minimal\": true, \"triangle_vertices\": [0, 1, 2, 3]} {\"stack\": {\"status\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"L_AS\": 14, \"critical_losers\": 2, \"critical_AS\": 2, \"Q\": 170, \"P\": 42, \"every_Q_AS\": true, \"every_QP_AS\": true, \"every_Q_avoids_triangle_heavy\": true, \"every_QP_avoids_triangle_heavy\": true}, \"clear\": {\"status\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"L_AS\": 14, \"critical_losers\": 2, \"critical_AS\": 2, \"Q\": 170, \"P\": 42, \"every_Q_AS\": true, \"every_QP_AS\": true, \"every_Q_avoids_triangle_heavy\": true, \"every_QP_avoids_triangle_heavy\": true}}\r\n{\"graph\": \"Wagner8\", \"n\": 8, \"all_open_neighborhoods_minimal\": true, \"triangle_vertices\": []} {\"stack\": {\"status\": \"EXACT_THRESHOLD\", \"threshold\": 11, \"L_AS\": 10, \"critical_losers\": 32, \"critical_AS\": 16, \"Q\": 52, \"P\": 30, \"every_Q_AS\": true, \"every_QP_AS\": true, \"every_Q_avoids_triangle_heavy\": true, \"every_QP_avoids_triangle_heavy\": true}, \"clear\": {\"status\": \"EXACT_THRESHOLD\", \"threshold\": 11, \"L_AS\": 10, \"critical_losers\": 32, \"critical_AS\": 16, \"Q\": 52, \"P\": 30, \"every_Q_AS\": true, \"every_QP_AS\": true, \"every_Q_avoids_triangle_heavy\": true, \"every_QP_avoids_triangle_heavy\": true}}\r\n{\"graph\": \"Petersen10\", \"n\": 10, \"all_open_neighborhoods_minimal\": true, \"triangle_vertices\": []} {\"stack\": {\"status\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"L_AS\": 14, \"critical_losers\": 20, \"critical_AS\": 20, \"Q\": 124, \"P\": 42, \"every_Q_AS\": true, \"every_QP_AS\": true, \"every_Q_avoids_triangle_heavy\": true, \"every_QP_avoids_triangle_heavy\": true}, \"clear\": {\"status\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"L_AS\": 14, \"critical_losers\": 20, \"critical_AS\": 20, \"Q\": 124, \"P\": 42, \"every_Q_AS\": true, \"every_QP_AS\": true, \"every_Q_avoids_triangle_heavy\": true, \"every_QP_avoids_triangle_heavy\": true}}\r\n",
+    "stderr": "",
+    "code_sha256": "0e8f4f8fc2bafacfbfb98730f65b53c4689ab7a20c1005a84d6fed1443fe3b92"
+  }
+]

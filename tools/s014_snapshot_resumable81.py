@@ -1,0 +1,30 @@
+"""Resumable streaming hashes for the active checkpoint; never close out."""
+import ctypes,datetime,hashlib,json,os,time
+from pathlib import Path
+B=Path('evidence/S014');cachepath=B/'scope81_hash_cache.json';progress=B/'scope81_hash_progress.json';start=time.monotonic()
+def write(p,v):
+    tmp=p.with_name(p.name+'.snapshot81.tmp');tmp.write_text(json.dumps(v,indent=2)+'\n',encoding='utf-8',newline='\n');os.replace(tmp,p)
+cache=json.loads(cachepath.read_bytes()) if cachepath.exists() else {};exclude={'working_hashes.json','checkpoint_hashes.json','progress_checks.json','active_validation_checks.json',cachepath.name,progress.name}
+class MemoryStatus(ctypes.Structure):
+    _fields_=[('length',ctypes.c_ulong),('load',ctypes.c_ulong),*[(name,ctypes.c_ulonglong) for name in ['total_physical','available_physical','total_pagefile','available_pagefile','total_virtual','available_virtual','extended_virtual']]]
+def memory_available():
+    if os.name!='nt':return True
+    info=MemoryStatus();info.length=ctypes.sizeof(info);assert ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(info));return info.available_pagefile>=1024**3 and info.available_physical>=512*1024**2
+if not memory_available():print('Snapshot deferred: insufficient system memory; no mathematical conclusion',flush=True);raise SystemExit(2)
+paths=[p for folder in ['sessions/S014','evidence/S014'] for p in Path(folder).rglob('*') if p.is_file() and p.name not in exclude and not p.name.endswith('_validation_checks.json') and not p.name.endswith('.tmp')]
+paths.extend(p for p in [*Path('tools').glob('s014*'),*Path('research').glob('S014*.md')] if p.is_file());paths=sorted(set(paths),key=lambda p:p.as_posix());files={};fresh=reused=0
+print(f'Active snapshot: {len(paths)} files, resumable streaming hashes',flush=True)
+for i,p in enumerate(paths,1):
+    key=p.as_posix();s=p.stat();signature=[s.st_size,s.st_mtime_ns];old=cache.get(key)
+    if old and old['stat']==signature:digest=old['sha256'];reused+=1
+    else:
+        h=hashlib.sha256()
+        with p.open('rb') as f:
+            while chunk:=f.read(65536):h.update(chunk)
+        after=p.stat();assert signature==[after.st_size,after.st_mtime_ns],key;digest=h.hexdigest();cache[key]=dict(stat=signature,sha256=digest);fresh+=1
+    files[key]=digest
+    if i%500==0:
+        write(cachepath,cache);write(progress,dict(done=i,total=len(paths),fresh=fresh,reused=reused,seconds=time.monotonic()-start))
+        if not memory_available():print('Snapshot stopped at saved cache: low system memory; no mathematical conclusion',flush=True);raise SystemExit(2)
+    if i%5000==0:print(f'Hashed {i}/{len(paths)}; fresh={fresh}, resumed={reused}',flush=True)
+write(cachepath,cache);write(B/'working_hashes.json',dict(status='ACTIVE_MUTABLE_CHECKPOINT_NOT_CLOSEOUT',utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),hash_method='SHA256 streaming 64KiB; resumable stat cache, independently rehashed by governance validation',files=files));write(progress,dict(done=len(paths),total=len(paths),fresh=fresh,reused=reused,seconds=time.monotonic()-start,status='SNAPSHOT_COMPLETE_AWAITING_INDEPENDENT_REHASH'));print(f'Active snapshot complete: {len(files)} files',flush=True)

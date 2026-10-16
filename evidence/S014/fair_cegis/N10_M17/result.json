@@ -1,0 +1,14 @@
+{
+  "case": "N10_M17",
+  "n": 10,
+  "mass": 17,
+  "patterns": 257,
+  "status": "ITERATION_BOUND_UNKNOWN",
+  "iterations": 10000,
+  "graph_records": 31220,
+  "distinct_graph_clauses": 28069,
+  "fixed_encoding_clauses": 135201,
+  "variables": 25878,
+  "seconds": 264.4690000000119,
+  "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN"
+}

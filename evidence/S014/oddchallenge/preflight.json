@@ -1,0 +1,12 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_20.md": "016509e7b4e14a0e48ce914987a167ec5ecbf25319aab44e7b3bae0c90e2216c",
+    "evidence/S014/oddchallenge/inputs.json": "f2ef3714b61ddbf396640bd99edb846cc3706e8eff8210ff322cce18686a7747",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_oddchallenge.py": "c642c56c3c02042bee2ce393ddbf4370aaf8fb6ebf61808ad5dd03d374693187",
+    "tools/s014_oddchallenge_run.py": "c7798b059e0e6d15e03213916d53e2bea546052a52b49f013e7cd1cbc4164882",
+    "tools/s014_oddchallenge_verify.py": "b441ec683e63cc1d284736af429e0651c7bcc97f0d38ae9f815343b4e9b77c21"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

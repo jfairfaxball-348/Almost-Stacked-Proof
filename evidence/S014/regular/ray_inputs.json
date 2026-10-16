@@ -1,0 +1,594 @@
+{
+  "graphs": [
+    {
+      "graph": "Q3plus03",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "graph": "Wagner8",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "graph": "Petersen10",
+      "n": 10,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ]
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "Q3plus03_binary_s0",
+      "graph": "Q3plus03",
+      "source": 0,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s1",
+      "graph": "Q3plus03",
+      "source": 1,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s2",
+      "graph": "Q3plus03",
+      "source": 2,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s3",
+      "graph": "Q3plus03",
+      "source": 3,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s4",
+      "graph": "Q3plus03",
+      "source": 4,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s5",
+      "graph": "Q3plus03",
+      "source": 5,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s6",
+      "graph": "Q3plus03",
+      "source": 6,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Q3plus03_binary_s7",
+      "graph": "Q3plus03",
+      "source": 7,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s0",
+      "graph": "Wagner8",
+      "source": 0,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s1",
+      "graph": "Wagner8",
+      "source": 1,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s2",
+      "graph": "Wagner8",
+      "source": 2,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s3",
+      "graph": "Wagner8",
+      "source": 3,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s4",
+      "graph": "Wagner8",
+      "source": 4,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s5",
+      "graph": "Wagner8",
+      "source": 5,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s6",
+      "graph": "Wagner8",
+      "source": 6,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Wagner8_binary_s7",
+      "graph": "Wagner8",
+      "source": 7,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s0",
+      "graph": "Petersen10",
+      "source": 0,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s1",
+      "graph": "Petersen10",
+      "source": 1,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s2",
+      "graph": "Petersen10",
+      "source": 2,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s3",
+      "graph": "Petersen10",
+      "source": 3,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s4",
+      "graph": "Petersen10",
+      "source": 4,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s5",
+      "graph": "Petersen10",
+      "source": 5,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s6",
+      "graph": "Petersen10",
+      "source": 6,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s7",
+      "graph": "Petersen10",
+      "source": 7,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s8",
+      "graph": "Petersen10",
+      "source": 8,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    },
+    {
+      "id": "Petersen10_binary_s9",
+      "graph": "Petersen10",
+      "source": 9,
+      "box": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "ALL_BINARY_BUFFERS_ALL_SOURCES"
+    }
+  ]
+}

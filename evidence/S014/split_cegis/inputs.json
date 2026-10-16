@@ -1,0 +1,917 @@
+{
+  "cases": [
+    {
+      "id": "control2",
+      "n": 2,
+      "c": [
+        2,
+        2
+      ],
+      "source": null,
+      "permutations": [
+        [
+          0,
+          1
+        ]
+      ],
+      "control": true
+    },
+    {
+      "id": "P00",
+      "n": 8,
+      "c": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P00",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P01",
+      "n": 8,
+      "c": [
+        5,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P01",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P02",
+      "n": 8,
+      "c": [
+        5,
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P02",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P03",
+      "n": 8,
+      "c": [
+        7,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P03",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P04",
+      "n": 8,
+      "c": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P04",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P05",
+      "n": 8,
+      "c": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P05",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P06",
+      "n": 8,
+      "c": [
+        5,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P06",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P07",
+      "n": 8,
+      "c": [
+        5,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P07",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P08",
+      "n": 8,
+      "c": [
+        6,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P08",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P09",
+      "n": 8,
+      "c": [
+        7,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P09",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P10",
+      "n": 8,
+      "c": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "source": "evidence/S014/split_cegis/sources/P10",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P11",
+      "n": 8,
+      "c": [
+        4,
+        4,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P11",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P12",
+      "n": 8,
+      "c": [
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P12",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P13",
+      "n": 8,
+      "c": [
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P13",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P14",
+      "n": 8,
+      "c": [
+        6,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P14",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P15",
+      "n": 8,
+      "c": [
+        8,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P15",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P16",
+      "n": 8,
+      "c": [
+        3,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P16",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P17",
+      "n": 8,
+      "c": [
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P17",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P18",
+      "n": 8,
+      "c": [
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P18",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P19",
+      "n": 8,
+      "c": [
+        5,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P19",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P20",
+      "n": 8,
+      "c": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P20",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P21",
+      "n": 8,
+      "c": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P21",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P22",
+      "n": 8,
+      "c": [
+        5,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P22",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P23",
+      "n": 8,
+      "c": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P23",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P24",
+      "n": 8,
+      "c": [
+        4,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P24",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P25",
+      "n": 8,
+      "c": [
+        4,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P25",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P26",
+      "n": 8,
+      "c": [
+        6,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P26",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P27",
+      "n": 8,
+      "c": [
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P27",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P28",
+      "n": 8,
+      "c": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P28",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P29",
+      "n": 8,
+      "c": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P29",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P30",
+      "n": 8,
+      "c": [
+        4,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P30",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "P31",
+      "n": 8,
+      "c": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "source": "evidence/S014/split_cegis/sources/P31",
+      "permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "control": false
+    }
+  ],
+  "runtime": "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s014-sat-runtime"
+}

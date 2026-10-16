@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "validation/validate_governance.py"
+    ],
+    "exit_code": 0,
+    "seconds": 20.562999999994645,
+    "peak_working_set_bytes": 1054744576,
+    "resource_failure": null,
+    "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\r\nS003 evidence hashes: 20 files match.\r\nAuthor correspondence provenance and current future handoff: PASS (administrative only).\r\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\r\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\r\nS006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).\r\nS007 scope and 72 historical hashes: PASS (cold audit S008; universal ASH* OPEN).\r\nS008 scopes and 70 immutable hashes: PASS (cold S009; universal ASH* OPEN).\r\nS009 primary/scopes/mirrors and 64 immutable hashes: PASS (universal OPEN; historical S010 handoff retained).\r\nS010 historical scopes and 75 immutable hashes: PASS (cold challenge S011 at stated scopes).\r\nS011 historical scopes and 82 immutable hashes: PASS (cold challenge S012 at stated scopes).\r\nS012 historical scopes and 90 immutable hashes: PASS (cold challenge S013 at stated scopes).\r\nS013 current scopes/mirrors and 130 immutable hashes: PASS; universal STACK/CLEAR OPEN.\r\nS014 ACTIVE scopes/preflights/877 successful bounded rows, 1 preserved failed schema attempt: PASS; no closeout/S015/universal proof inferred.\r\n",
+    "stderr": "",
+    "code_sha256": "73f39438d20d5832a52c88f6bfb8af2cf1f6a2f3c74de7bd57222c5feba65feb"
+  }
+]

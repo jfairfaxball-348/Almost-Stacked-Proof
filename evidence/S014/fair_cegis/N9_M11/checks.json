@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_fair_cegis.py",
+      "N9_M11"
+    ],
+    "exit_code": 0,
+    "seconds": 47.687000000005355,
+    "peak_working_set_bytes": 124411904,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"N9_M11\", \"n\": 9, \"mass\": 11, \"patterns\": 45, \"status\": \"ITERATION_BOUND_UNKNOWN\", \"iterations\": 10000, \"graph_records\": 33707, \"distinct_graph_clauses\": 33503, \"fixed_encoding_clauses\": 14430, \"variables\": 3374, \"seconds\": 47.405999999988126, \"scope\": \"ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f965fa3e588983648d864d5af1b6094863eb53f36613a3c9a019152c6b54bd38"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_fair_verify.py",
+      "N9_M11"
+    ],
+    "exit_code": 0,
+    "seconds": 14.562999999994645,
+    "peak_working_set_bytes": 121335808,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"N9_M11\", \"n\": 9, \"mass\": 11, \"patterns\": 45, \"all_mass_M_nonAS_patterns_covered\": true, \"certificate_records\": 33707, \"c_winning_clauses\": 30924, \"AS_negative_clauses\": 2355, \"AS_closure_states\": 1707708, \"literal_c_moves\": 277501, \"independent_set_instances\": 252, \"local_truth_rows\": 71200, \"all_conditional_graph_clauses_necessary\": true, \"exact_selector_and_lex_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"ONLY n-vertex mass-M countermodels; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "259af76f5d3f16a9894e855ec6ed3bb431fd31d78768324cea10a7db8e0279c8"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c072_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.7189999999827705,
+    "peak_working_set_bytes": 54886400,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 638, \"bipartite_cases\": 48, \"nonAS\": 14814, \"all_source_failures\": 0, \"heavy_source_failures\": 0, \"critical_states\": 14998, \"candidates\": 203673}\r\n",
+    "stderr": "",
+    "code_sha256": "c17dcd9ddc2e8643e5eca212eac3943e9a246f7a871a7916e1bb8f35de5ed62d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c072_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.625,
+    "peak_working_set_bytes": 40710144,
+    "resource_failure": null,
+    "stdout": "{\"complete_all_candidate_memberships_equal\": true, \"cases\": 638, \"bipartite_cases\": 48, \"critical_states\": 14998, \"nonAS_inputs\": 14814, \"candidates\": 203673, \"all_source_failures\": 0, \"heavy_source_failures\": 0, \"first_failures\": [], \"scope\": \"Finite critical bipartite parity challenge only; universal B_par and ASH* unproved\", \"seconds\": 4.437999999994645}\r\n",
+    "stderr": "",
+    "code_sha256": "79ecaae7b474d7ef3722500991549c46ee4b3db77436c254f3010dd9553d386d"
+  }
+]

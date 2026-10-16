@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_metric_gap_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 14610432,
+    "resource_failure": null,
+    "stdout": "{\"complete_negative_states\": 10988}\r\n",
+    "stderr": "",
+    "code_sha256": "e6ba0671bf62831a104bbdb904b0a6d25404f792e526348669e8bafcef34117a"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_metric_gap_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 16363520,
+    "resource_failure": null,
+    "stdout": "{\"states\": 10988, \"complete_legal_dependencies\": 50423, \"input\": [39, 1, 0, 0, 0, 1, 0, 0], \"mass\": 41, \"negative_closures_equal\": true, \"scope\": \"Actual AS loser above proposed combined upper40; not ASH* counterexample\"}\r\n",
+    "stderr": "",
+    "code_sha256": "d79bdcc651ad651cdf032ea419514eb6de32cdda45a5fd7bae466665ab941181"
+  }
+]

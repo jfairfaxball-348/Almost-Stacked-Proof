@@ -1,0 +1,9 @@
+{
+  "case": "P005",
+  "fixed_input_class_exclusion_certified": true,
+  "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+  "verified_RUP_additions": 835,
+  "deleted_clause_ids": 1918,
+  "hint_visits": 15211,
+  "seconds": 0.031000000017229468
+}

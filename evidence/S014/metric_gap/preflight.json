@@ -1,0 +1,19 @@
+{
+  "files": {
+    "evidence/S014/metric_gap/inputs.json": "501efcd100a825b3a9bf5d8431b823a57717b920e2dba7f11f900bdd28944548",
+    "sessions/S014/PLAN_AMENDMENT_55.md": "b417be5a5eb8b7e76433eb70e4491c0bdc7176f17effeb4958e781607848cc42",
+    "sessions/S014/PLAN_AMENDMENT_55.sha256": "09effb6b292580863d0731bd5674001b29e1ab6be06c1eb94a6cbb0a1579991f",
+    "research/S014_COMBINED_METRIC_BOUND_FAILURE.md": "cd2913c9da8e1bcf42329f961f8f7cca6217301532d74707f4544b47bcddd5a0",
+    "evidence/S014/combined_bound/inputs.json": "aff69a2a4cc5305a3132afee3d740545602796983860bc9282e1fcd3d2f30e9f",
+    "evidence/S014/combined_bound/shard1/results.json": "0e3ad01322571950eaa0a33704d9220a9f8bf9379ecfa5d9686176edaa61cd27",
+    "evidence/S014/combined_bound/shard1/verification.json": "6fc8024e0cd14b3946ba55ffe049dfc2f3f368c6b27757a846fcb833f86a7ba2",
+    "tools/s014_circulant_engine.py": "6b4a01aac8bad7a6bb49a90e4bf435ce9947f5693b028982f4f90200c3ffd2e0",
+    "tools/s014_circulant_engine_verify.py": "be5e93de7c01605951a2424cdc13653b7255cb610c54253960e67c183bb451a9",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_metric_gap_job.py": "3f7ebd613ca2fdd6a9c3df929ee155ee53d87d450a8696f9d72acae59e797f18",
+    "tools/s014_metric_gap_prepare.py": "a934503726b48c9f01fa594ffbd3b2b0e11a54de3b8d45eea3acf2dbcd2e0aa2",
+    "tools/s014_metric_gap_produce.py": "e6ba0671bf62831a104bbdb904b0a6d25404f792e526348669e8bafcef34117a",
+    "tools/s014_metric_gap_run.py": "d55624b6ba01fc587dd45767325f90dbb7ede96762e273e6364793edde067f7f",
+    "tools/s014_metric_gap_verify.py": "d79bdcc651ad651cdf032ea419514eb6de32cdda45a5fd7bae466665ab941181"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_59.md": "8ce2a3d3b9e1541bd0b13363c6f1647e5b03cb2bfd1f2cc3253fda290a0d1476",
+    "sessions/S014/PLAN_AMENDMENT_59.sha256": "2a2ef4e83c8255f6902674ad284fb966739b34610176802f1d470634fbbe8649",
+    "research/S014_BINARY_BUFFER_LOWER_ANNOTATIONS.md": "b215cfe9293429f1810833c6952ab6be5d87e755175c2e0f743f5fcd131c3b6b",
+    "research/S014_BINARY_BUFFER_UPPER_CERTIFICATES.md": "f86a0ef1d09d64182d2dc1d3d4dbdbfc9c14c3fb754cf3da535162d8a9b9f7a4",
+    "tools/s014_cube_lower.py": "8b3ff9dea083a7310d09f7968dae5b9a42f2e856c3c8ba19d5f7f607bfbe9b2b",
+    "tools/s014_cube_lower_run.py": "665a033d397c256b1b3cfb679234174ea6fc9fe569883a2ae70a423499f997f1",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "evidence/S014/cube_dag/nodes.bin.xz": "32433fa98149d3c2a52b8e160b97fe2090d2eed8cb7dfb5d1a09c35eed052c05",
+    "evidence/S014/cube_dag/choices.json": "e2e9bd4fd3f790851ad5c4ee2fd108b1cb6bb023dc6c7d396c9e8749e5dfce56",
+    "evidence/S014/cube_dag/inputs.json": "c826ea0a884f7ac57af33c155bb399d45c0b25da7f4ce7682dddec0884c89f0b",
+    "evidence/S014/cube_dag/verification_v2.json": "d61fc04f2d8318a4260e418550fa45ab9481735dd871d892e1131fcc56fe63cb",
+    "evidence/S014/cube_dag/repair_preflight.json": "7534ed5bf449c28ca0e9aa90257594a4d634af6105a09224348ddb5a5c589129",
+    "evidence/S014/cube_dag/repair_checks.json": "9e390ca701e8ca69d38cbc66cabad78475b9857d9f5f53e29c10c746dcb7c65a"
+  }
+}

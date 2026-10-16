@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_v2.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 10.75,
+    "peak_working_set_bytes": 106127360,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 196, \"base_clauses\": 5204, \"stabilizer_size\": 216, \"clauses\": 90221, \"seconds\": 10.594000000011874, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1ff2434b8cd41daff20e0f8285770aa47bd0af6c0ebe8255e3d0e918f646767b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_verify_v2.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 3.9060000000026776,
+    "peak_working_set_bytes": 50368512,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"clauses\": 5204, \"c_winning_trace_clauses\": 4570, \"AS_negative_clauses\": 577, \"AS_closure_states\": 411347, \"literal_c_winning_moves\": 45578, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"C9b\", \"base_clauses\": 5204, \"stabilizer_size\": 216, \"expanded_clauses\": 90221, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"scope\": \"Only fixed input graph class, independent literal clause provenance\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1207e93c1575b549139a1f03a9a7c538388a388b56b0ec6534b4ab18e6742ea8"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_drup_v2.py",
+      "C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 127.04700000000594,
+    "peak_working_set_bytes": 120188928,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9b\", \"solver_status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"fixed_input_class_exclusion_certified\": false, \"error\": \"UNIT_SCAN_CAP_UNKNOWN\", \"scope\": \"UNKNOWN; solver UNSAT not promoted\"}\r\n",
+    "stderr": "",
+    "code_sha256": "df52f22f47b0d45b32467dbb63c4a7d8dcb3b2cf53f489197f732db3a69339b2"
+  }
+]

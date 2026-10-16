@@ -1,0 +1,5730 @@
+{
+  "cases": [
+    {
+      "id": "A0",
+      "n": 2,
+      "threshold": 3,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "summary": "evidence/S005/A2_0000_stack.summary.json",
+      "certificate": "evidence/S005/A2_0000_stack.bin.xz"
+    },
+    {
+      "id": "A1",
+      "n": 3,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "summary": "evidence/S005/A3_0000_stack.summary.json",
+      "certificate": "evidence/S005/A3_0000_stack.bin.xz"
+    },
+    {
+      "id": "A2",
+      "n": 3,
+      "threshold": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "summary": "evidence/S005/A3_0001_stack.summary.json",
+      "certificate": "evidence/S005/A3_0001_stack.bin.xz"
+    },
+    {
+      "id": "A3",
+      "n": 4,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A4_0000_stack.summary.json",
+      "certificate": "evidence/S005/A4_0000_stack.bin.xz"
+    },
+    {
+      "id": "A4",
+      "n": 4,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A4_0001_stack.summary.json",
+      "certificate": "evidence/S005/A4_0001_stack.bin.xz"
+    },
+    {
+      "id": "A5",
+      "n": 4,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A4_0002_stack.summary.json",
+      "certificate": "evidence/S005/A4_0002_stack.bin.xz"
+    },
+    {
+      "id": "A6",
+      "n": 4,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A4_0003_stack.summary.json",
+      "certificate": "evidence/S005/A4_0003_stack.bin.xz"
+    },
+    {
+      "id": "A7",
+      "n": 4,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A4_0004_stack.summary.json",
+      "certificate": "evidence/S005/A4_0004_stack.bin.xz"
+    },
+    {
+      "id": "A8",
+      "n": 4,
+      "threshold": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A4_0005_stack.summary.json",
+      "certificate": "evidence/S005/A4_0005_stack.bin.xz"
+    },
+    {
+      "id": "A9",
+      "n": 5,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": "evidence/S005/A5_0000_stack.summary.json",
+      "certificate": "evidence/S005/A5_0000_stack.bin.xz"
+    },
+    {
+      "id": "A10",
+      "n": 5,
+      "threshold": 31,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0001_stack.summary.json",
+      "certificate": "evidence/S005/A5_0001_stack.bin.xz"
+    },
+    {
+      "id": "A11",
+      "n": 5,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0002_stack.summary.json",
+      "certificate": "evidence/S005/A5_0002_stack.bin.xz"
+    },
+    {
+      "id": "A12",
+      "n": 5,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0003_stack.summary.json",
+      "certificate": "evidence/S005/A5_0003_stack.bin.xz"
+    },
+    {
+      "id": "A13",
+      "n": 5,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0004_stack.summary.json",
+      "certificate": "evidence/S005/A5_0004_stack.bin.xz"
+    },
+    {
+      "id": "A14",
+      "n": 5,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0005_stack.summary.json",
+      "certificate": "evidence/S005/A5_0005_stack.bin.xz"
+    },
+    {
+      "id": "A15",
+      "n": 5,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0006_stack.summary.json",
+      "certificate": "evidence/S005/A5_0006_stack.bin.xz"
+    },
+    {
+      "id": "A16",
+      "n": 5,
+      "threshold": 13,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0007_stack.summary.json",
+      "certificate": "evidence/S005/A5_0007_stack.bin.xz"
+    },
+    {
+      "id": "A17",
+      "n": 5,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0008_stack.summary.json",
+      "certificate": "evidence/S005/A5_0008_stack.bin.xz"
+    },
+    {
+      "id": "A18",
+      "n": 5,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0009_stack.summary.json",
+      "certificate": "evidence/S005/A5_0009_stack.bin.xz"
+    },
+    {
+      "id": "A19",
+      "n": 5,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0010_stack.summary.json",
+      "certificate": "evidence/S005/A5_0010_stack.bin.xz"
+    },
+    {
+      "id": "A20",
+      "n": 5,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0011_stack.summary.json",
+      "certificate": "evidence/S005/A5_0011_stack.bin.xz"
+    },
+    {
+      "id": "A21",
+      "n": 5,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0012_stack.summary.json",
+      "certificate": "evidence/S005/A5_0012_stack.bin.xz"
+    },
+    {
+      "id": "A22",
+      "n": 5,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0013_stack.summary.json",
+      "certificate": "evidence/S005/A5_0013_stack.bin.xz"
+    },
+    {
+      "id": "A23",
+      "n": 5,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0014_stack.summary.json",
+      "certificate": "evidence/S005/A5_0014_stack.bin.xz"
+    },
+    {
+      "id": "A24",
+      "n": 5,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0015_stack.summary.json",
+      "certificate": "evidence/S005/A5_0015_stack.bin.xz"
+    },
+    {
+      "id": "A25",
+      "n": 5,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0016_stack.summary.json",
+      "certificate": "evidence/S005/A5_0016_stack.bin.xz"
+    },
+    {
+      "id": "A26",
+      "n": 5,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0017_stack.summary.json",
+      "certificate": "evidence/S005/A5_0017_stack.bin.xz"
+    },
+    {
+      "id": "A27",
+      "n": 5,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0018_stack.summary.json",
+      "certificate": "evidence/S005/A5_0018_stack.bin.xz"
+    },
+    {
+      "id": "A28",
+      "n": 5,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0019_stack.summary.json",
+      "certificate": "evidence/S005/A5_0019_stack.bin.xz"
+    },
+    {
+      "id": "A29",
+      "n": 5,
+      "threshold": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A5_0020_stack.summary.json",
+      "certificate": "evidence/S005/A5_0020_stack.bin.xz"
+    },
+    {
+      "id": "A30",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0000_stack.summary.json",
+      "certificate": "evidence/S005/A6_0000_stack.bin.xz"
+    },
+    {
+      "id": "A31",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0001_stack.summary.json",
+      "certificate": "evidence/S005/A6_0001_stack.bin.xz"
+    },
+    {
+      "id": "A32",
+      "n": 6,
+      "threshold": 63,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0002_stack.summary.json",
+      "certificate": "evidence/S005/A6_0002_stack.bin.xz"
+    },
+    {
+      "id": "A33",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0003_stack.summary.json",
+      "certificate": "evidence/S005/A6_0003_stack.bin.xz"
+    },
+    {
+      "id": "A34",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0004_stack.summary.json",
+      "certificate": "evidence/S005/A6_0004_stack.bin.xz"
+    },
+    {
+      "id": "A35",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0005_stack.summary.json",
+      "certificate": "evidence/S005/A6_0005_stack.bin.xz"
+    },
+    {
+      "id": "A36",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0006_stack.summary.json",
+      "certificate": "evidence/S005/A6_0006_stack.bin.xz"
+    },
+    {
+      "id": "A37",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "summary": "evidence/S005/A6_0007_stack.summary.json",
+      "certificate": "evidence/S005/A6_0007_stack.bin.xz"
+    },
+    {
+      "id": "A38",
+      "n": 6,
+      "threshold": 32,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0008_stack.summary.json",
+      "certificate": "evidence/S005/A6_0008_stack.bin.xz"
+    },
+    {
+      "id": "A39",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0009_stack.summary.json",
+      "certificate": "evidence/S005/A6_0009_stack.bin.xz"
+    },
+    {
+      "id": "A40",
+      "n": 6,
+      "threshold": 31,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0010_stack.summary.json",
+      "certificate": "evidence/S005/A6_0010_stack.bin.xz"
+    },
+    {
+      "id": "A41",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0011_stack.summary.json",
+      "certificate": "evidence/S005/A6_0011_stack.bin.xz"
+    },
+    {
+      "id": "A42",
+      "n": 6,
+      "threshold": 40,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0012_stack.summary.json",
+      "certificate": "evidence/S005/A6_0012_stack.bin.xz"
+    },
+    {
+      "id": "A43",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0013_stack.summary.json",
+      "certificate": "evidence/S005/A6_0013_stack.bin.xz"
+    },
+    {
+      "id": "A44",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0014_stack.summary.json",
+      "certificate": "evidence/S005/A6_0014_stack.bin.xz"
+    },
+    {
+      "id": "A45",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0015_stack.summary.json",
+      "certificate": "evidence/S005/A6_0015_stack.bin.xz"
+    },
+    {
+      "id": "A46",
+      "n": 6,
+      "threshold": 31,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0016_stack.summary.json",
+      "certificate": "evidence/S005/A6_0016_stack.bin.xz"
+    },
+    {
+      "id": "A47",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0017_stack.summary.json",
+      "certificate": "evidence/S005/A6_0017_stack.bin.xz"
+    },
+    {
+      "id": "A48",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0018_stack.summary.json",
+      "certificate": "evidence/S005/A6_0018_stack.bin.xz"
+    },
+    {
+      "id": "A49",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0019_stack.summary.json",
+      "certificate": "evidence/S005/A6_0019_stack.bin.xz"
+    },
+    {
+      "id": "A50",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0020_stack.summary.json",
+      "certificate": "evidence/S005/A6_0020_stack.bin.xz"
+    },
+    {
+      "id": "A51",
+      "n": 6,
+      "threshold": 13,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0021_stack.summary.json",
+      "certificate": "evidence/S005/A6_0021_stack.bin.xz"
+    },
+    {
+      "id": "A52",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0022_stack.summary.json",
+      "certificate": "evidence/S005/A6_0022_stack.bin.xz"
+    },
+    {
+      "id": "A53",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0023_stack.summary.json",
+      "certificate": "evidence/S005/A6_0023_stack.bin.xz"
+    },
+    {
+      "id": "A54",
+      "n": 6,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0024_stack.summary.json",
+      "certificate": "evidence/S005/A6_0024_stack.bin.xz"
+    },
+    {
+      "id": "A55",
+      "n": 6,
+      "threshold": 23,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0025_stack.summary.json",
+      "certificate": "evidence/S005/A6_0025_stack.bin.xz"
+    },
+    {
+      "id": "A56",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0026_stack.summary.json",
+      "certificate": "evidence/S005/A6_0026_stack.bin.xz"
+    },
+    {
+      "id": "A57",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0027_stack.summary.json",
+      "certificate": "evidence/S005/A6_0027_stack.bin.xz"
+    },
+    {
+      "id": "A58",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0028_stack.summary.json",
+      "certificate": "evidence/S005/A6_0028_stack.bin.xz"
+    },
+    {
+      "id": "A59",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0029_stack.summary.json",
+      "certificate": "evidence/S005/A6_0029_stack.bin.xz"
+    },
+    {
+      "id": "A60",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0030_stack.summary.json",
+      "certificate": "evidence/S005/A6_0030_stack.bin.xz"
+    },
+    {
+      "id": "A61",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0031_stack.summary.json",
+      "certificate": "evidence/S005/A6_0031_stack.bin.xz"
+    },
+    {
+      "id": "A62",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0032_stack.summary.json",
+      "certificate": "evidence/S005/A6_0032_stack.bin.xz"
+    },
+    {
+      "id": "A63",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0033_stack.summary.json",
+      "certificate": "evidence/S005/A6_0033_stack.bin.xz"
+    },
+    {
+      "id": "A64",
+      "n": 6,
+      "threshold": 23,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0034_stack.summary.json",
+      "certificate": "evidence/S005/A6_0034_stack.bin.xz"
+    },
+    {
+      "id": "A65",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0035_stack.summary.json",
+      "certificate": "evidence/S005/A6_0035_stack.bin.xz"
+    },
+    {
+      "id": "A66",
+      "n": 6,
+      "threshold": 19,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0036_stack.summary.json",
+      "certificate": "evidence/S005/A6_0036_stack.bin.xz"
+    },
+    {
+      "id": "A67",
+      "n": 6,
+      "threshold": 12,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0037_stack.summary.json",
+      "certificate": "evidence/S005/A6_0037_stack.bin.xz"
+    },
+    {
+      "id": "A68",
+      "n": 6,
+      "threshold": 25,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0038_stack.summary.json",
+      "certificate": "evidence/S005/A6_0038_stack.bin.xz"
+    },
+    {
+      "id": "A69",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0039_stack.summary.json",
+      "certificate": "evidence/S005/A6_0039_stack.bin.xz"
+    },
+    {
+      "id": "A70",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0040_stack.summary.json",
+      "certificate": "evidence/S005/A6_0040_stack.bin.xz"
+    },
+    {
+      "id": "A71",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0041_stack.summary.json",
+      "certificate": "evidence/S005/A6_0041_stack.bin.xz"
+    },
+    {
+      "id": "A72",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0042_stack.summary.json",
+      "certificate": "evidence/S005/A6_0042_stack.bin.xz"
+    },
+    {
+      "id": "A73",
+      "n": 6,
+      "threshold": 31,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0043_stack.summary.json",
+      "certificate": "evidence/S005/A6_0043_stack.bin.xz"
+    },
+    {
+      "id": "A74",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0044_stack.summary.json",
+      "certificate": "evidence/S005/A6_0044_stack.bin.xz"
+    },
+    {
+      "id": "A75",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0045_stack.summary.json",
+      "certificate": "evidence/S005/A6_0045_stack.bin.xz"
+    },
+    {
+      "id": "A76",
+      "n": 6,
+      "threshold": 36,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0046_stack.summary.json",
+      "certificate": "evidence/S005/A6_0046_stack.bin.xz"
+    },
+    {
+      "id": "A77",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0047_stack.summary.json",
+      "certificate": "evidence/S005/A6_0047_stack.bin.xz"
+    },
+    {
+      "id": "A78",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0048_stack.summary.json",
+      "certificate": "evidence/S005/A6_0048_stack.bin.xz"
+    },
+    {
+      "id": "A79",
+      "n": 6,
+      "threshold": 21,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0049_stack.summary.json",
+      "certificate": "evidence/S005/A6_0049_stack.bin.xz"
+    },
+    {
+      "id": "A80",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0050_stack.summary.json",
+      "certificate": "evidence/S005/A6_0050_stack.bin.xz"
+    },
+    {
+      "id": "A81",
+      "n": 6,
+      "threshold": 12,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0051_stack.summary.json",
+      "certificate": "evidence/S005/A6_0051_stack.bin.xz"
+    },
+    {
+      "id": "A82",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0052_stack.summary.json",
+      "certificate": "evidence/S005/A6_0052_stack.bin.xz"
+    },
+    {
+      "id": "A83",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0053_stack.summary.json",
+      "certificate": "evidence/S005/A6_0053_stack.bin.xz"
+    },
+    {
+      "id": "A84",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0054_stack.summary.json",
+      "certificate": "evidence/S005/A6_0054_stack.bin.xz"
+    },
+    {
+      "id": "A85",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0055_stack.summary.json",
+      "certificate": "evidence/S005/A6_0055_stack.bin.xz"
+    },
+    {
+      "id": "A86",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0056_stack.summary.json",
+      "certificate": "evidence/S005/A6_0056_stack.bin.xz"
+    },
+    {
+      "id": "A87",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0057_stack.summary.json",
+      "certificate": "evidence/S005/A6_0057_stack.bin.xz"
+    },
+    {
+      "id": "A88",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0058_stack.summary.json",
+      "certificate": "evidence/S005/A6_0058_stack.bin.xz"
+    },
+    {
+      "id": "A89",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0059_stack.summary.json",
+      "certificate": "evidence/S005/A6_0059_stack.bin.xz"
+    },
+    {
+      "id": "A90",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0060_stack.summary.json",
+      "certificate": "evidence/S005/A6_0060_stack.bin.xz"
+    },
+    {
+      "id": "A91",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0061_stack.summary.json",
+      "certificate": "evidence/S005/A6_0061_stack.bin.xz"
+    },
+    {
+      "id": "A92",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0062_stack.summary.json",
+      "certificate": "evidence/S005/A6_0062_stack.bin.xz"
+    },
+    {
+      "id": "A93",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0063_stack.summary.json",
+      "certificate": "evidence/S005/A6_0063_stack.bin.xz"
+    },
+    {
+      "id": "A94",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0064_stack.summary.json",
+      "certificate": "evidence/S005/A6_0064_stack.bin.xz"
+    },
+    {
+      "id": "A95",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0065_stack.summary.json",
+      "certificate": "evidence/S005/A6_0065_stack.bin.xz"
+    },
+    {
+      "id": "A96",
+      "n": 6,
+      "threshold": 31,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0066_stack.summary.json",
+      "certificate": "evidence/S005/A6_0066_stack.bin.xz"
+    },
+    {
+      "id": "A97",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0067_stack.summary.json",
+      "certificate": "evidence/S005/A6_0067_stack.bin.xz"
+    },
+    {
+      "id": "A98",
+      "n": 6,
+      "threshold": 18,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0068_stack.summary.json",
+      "certificate": "evidence/S005/A6_0068_stack.bin.xz"
+    },
+    {
+      "id": "A99",
+      "n": 6,
+      "threshold": 12,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0069_stack.summary.json",
+      "certificate": "evidence/S005/A6_0069_stack.bin.xz"
+    },
+    {
+      "id": "A100",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0070_stack.summary.json",
+      "certificate": "evidence/S005/A6_0070_stack.bin.xz"
+    },
+    {
+      "id": "A101",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0071_stack.summary.json",
+      "certificate": "evidence/S005/A6_0071_stack.bin.xz"
+    },
+    {
+      "id": "A102",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0072_stack.summary.json",
+      "certificate": "evidence/S005/A6_0072_stack.bin.xz"
+    },
+    {
+      "id": "A103",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0073_stack.summary.json",
+      "certificate": "evidence/S005/A6_0073_stack.bin.xz"
+    },
+    {
+      "id": "A104",
+      "n": 6,
+      "threshold": 14,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0074_stack.summary.json",
+      "certificate": "evidence/S005/A6_0074_stack.bin.xz"
+    },
+    {
+      "id": "A105",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0075_stack.summary.json",
+      "certificate": "evidence/S005/A6_0075_stack.bin.xz"
+    },
+    {
+      "id": "A106",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0076_stack.summary.json",
+      "certificate": "evidence/S005/A6_0076_stack.bin.xz"
+    },
+    {
+      "id": "A107",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0077_stack.summary.json",
+      "certificate": "evidence/S005/A6_0077_stack.bin.xz"
+    },
+    {
+      "id": "A108",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0078_stack.summary.json",
+      "certificate": "evidence/S005/A6_0078_stack.bin.xz"
+    },
+    {
+      "id": "A109",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0079_stack.summary.json",
+      "certificate": "evidence/S005/A6_0079_stack.bin.xz"
+    },
+    {
+      "id": "A110",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0080_stack.summary.json",
+      "certificate": "evidence/S005/A6_0080_stack.bin.xz"
+    },
+    {
+      "id": "A111",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0081_stack.summary.json",
+      "certificate": "evidence/S005/A6_0081_stack.bin.xz"
+    },
+    {
+      "id": "A112",
+      "n": 6,
+      "threshold": 13,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0082_stack.summary.json",
+      "certificate": "evidence/S005/A6_0082_stack.bin.xz"
+    },
+    {
+      "id": "A113",
+      "n": 6,
+      "threshold": 20,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0083_stack.summary.json",
+      "certificate": "evidence/S005/A6_0083_stack.bin.xz"
+    },
+    {
+      "id": "A114",
+      "n": 6,
+      "threshold": 13,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0084_stack.summary.json",
+      "certificate": "evidence/S005/A6_0084_stack.bin.xz"
+    },
+    {
+      "id": "A115",
+      "n": 6,
+      "threshold": 13,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0085_stack.summary.json",
+      "certificate": "evidence/S005/A6_0085_stack.bin.xz"
+    },
+    {
+      "id": "A116",
+      "n": 6,
+      "threshold": 16,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0086_stack.summary.json",
+      "certificate": "evidence/S005/A6_0086_stack.bin.xz"
+    },
+    {
+      "id": "A117",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0087_stack.summary.json",
+      "certificate": "evidence/S005/A6_0087_stack.bin.xz"
+    },
+    {
+      "id": "A118",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0088_stack.summary.json",
+      "certificate": "evidence/S005/A6_0088_stack.bin.xz"
+    },
+    {
+      "id": "A119",
+      "n": 6,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0089_stack.summary.json",
+      "certificate": "evidence/S005/A6_0089_stack.bin.xz"
+    },
+    {
+      "id": "A120",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0090_stack.summary.json",
+      "certificate": "evidence/S005/A6_0090_stack.bin.xz"
+    },
+    {
+      "id": "A121",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0091_stack.summary.json",
+      "certificate": "evidence/S005/A6_0091_stack.bin.xz"
+    },
+    {
+      "id": "A122",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0092_stack.summary.json",
+      "certificate": "evidence/S005/A6_0092_stack.bin.xz"
+    },
+    {
+      "id": "A123",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0093_stack.summary.json",
+      "certificate": "evidence/S005/A6_0093_stack.bin.xz"
+    },
+    {
+      "id": "A124",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0094_stack.summary.json",
+      "certificate": "evidence/S005/A6_0094_stack.bin.xz"
+    },
+    {
+      "id": "A125",
+      "n": 6,
+      "threshold": 15,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0095_stack.summary.json",
+      "certificate": "evidence/S005/A6_0095_stack.bin.xz"
+    },
+    {
+      "id": "A126",
+      "n": 6,
+      "threshold": 17,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0096_stack.summary.json",
+      "certificate": "evidence/S005/A6_0096_stack.bin.xz"
+    },
+    {
+      "id": "A127",
+      "n": 6,
+      "threshold": 12,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0097_stack.summary.json",
+      "certificate": "evidence/S005/A6_0097_stack.bin.xz"
+    },
+    {
+      "id": "A128",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0098_stack.summary.json",
+      "certificate": "evidence/S005/A6_0098_stack.bin.xz"
+    },
+    {
+      "id": "A129",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0099_stack.summary.json",
+      "certificate": "evidence/S005/A6_0099_stack.bin.xz"
+    },
+    {
+      "id": "A130",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0100_stack.summary.json",
+      "certificate": "evidence/S005/A6_0100_stack.bin.xz"
+    },
+    {
+      "id": "A131",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0101_stack.summary.json",
+      "certificate": "evidence/S005/A6_0101_stack.bin.xz"
+    },
+    {
+      "id": "A132",
+      "n": 6,
+      "threshold": 11,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0102_stack.summary.json",
+      "certificate": "evidence/S005/A6_0102_stack.bin.xz"
+    },
+    {
+      "id": "A133",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0103_stack.summary.json",
+      "certificate": "evidence/S005/A6_0103_stack.bin.xz"
+    },
+    {
+      "id": "A134",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0104_stack.summary.json",
+      "certificate": "evidence/S005/A6_0104_stack.bin.xz"
+    },
+    {
+      "id": "A135",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0105_stack.summary.json",
+      "certificate": "evidence/S005/A6_0105_stack.bin.xz"
+    },
+    {
+      "id": "A136",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0106_stack.summary.json",
+      "certificate": "evidence/S005/A6_0106_stack.bin.xz"
+    },
+    {
+      "id": "A137",
+      "n": 6,
+      "threshold": 10,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0107_stack.summary.json",
+      "certificate": "evidence/S005/A6_0107_stack.bin.xz"
+    },
+    {
+      "id": "A138",
+      "n": 6,
+      "threshold": 9,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0108_stack.summary.json",
+      "certificate": "evidence/S005/A6_0108_stack.bin.xz"
+    },
+    {
+      "id": "A139",
+      "n": 6,
+      "threshold": 8,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0109_stack.summary.json",
+      "certificate": "evidence/S005/A6_0109_stack.bin.xz"
+    },
+    {
+      "id": "A140",
+      "n": 6,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0110_stack.summary.json",
+      "certificate": "evidence/S005/A6_0110_stack.bin.xz"
+    },
+    {
+      "id": "A141",
+      "n": 6,
+      "threshold": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "summary": "evidence/S005/A6_0111_stack.summary.json",
+      "certificate": "evidence/S005/A6_0111_stack.bin.xz"
+    }
+  ]
+}

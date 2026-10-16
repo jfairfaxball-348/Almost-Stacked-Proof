@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_eliminate.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.312999999994645,
+    "peak_working_set_bytes": 38764544,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 444, \"critical_nonAS\": 1230, \"failed_inputs\": 1124}\r\n",
+    "stderr": "",
+    "code_sha256": "570ae1632008a8360913c3af8b6aa695e44caeea66265414e329ec5d9869e009"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_eliminate_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.8280000000086147,
+    "peak_working_set_bytes": 32956416,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 444, \"nonAS_critical_inputs\": 1230, \"candidates\": 22902, \"failed_H2_inputs\": 1124, \"max_heavy_sites\": 5, \"first_failures\": [{\"case\": {\"id\": \"A1\", \"n\": 3, \"threshold\": 7, \"edges\": [[0, 2], [1, 2]], \"summary\": \"evidence/S005/A3_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A3_0000_stack.bin.xz\"}, \"c\": [3, 3, 0], \"candidate_count\": 4}, {\"case\": {\"id\": \"A3\", \"n\": 4, \"threshold\": 7, \"edges\": [[0, 2], [0, 3], [1, 2], [1, 3]], \"summary\": \"evidence/S005/A4_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A4_0000_stack.bin.xz\"}, \"c\": [3, 3, 0, 0], \"candidate_count\": 8}, {\"case\": {\"id\": \"A3\", \"n\": 4, \"threshold\": 7, \"edges\": [[0, 2], [0, 3], [1, 2], [1, 3]], \"summary\": \"evidence/S005/A4_0000_stack.summary.json\", \"certificate\": \"evidence/S005/A4_0000_stack.bin.xz\"}, \"c\": [0, 0, 3, 3], \"candidate_count\": 8}, {\"case\": {\"id\": \"A5\", \"n\": 4, \"threshold\": 10, \"edges\": [[0, 3], [1, 3], [2, 3]], \"summary\": \"evidence/S005/A4_0002_stack.summary.json\", \"certificate\": \"evidence/S005/A4_0002_stack.bin.xz\"}, \"c\": [5, 3, 1, 0], \"candidate_count\": 4}], \"all_generated_keys_memberships_and_heavy_decreases_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "c2fc234a1d59f65820d728c4524f99f6c60a78b3b8663b4ffeaeec9c804e1f55"
+  }
+]

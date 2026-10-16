@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_cegis.py",
+      "H8_5533"
+    ],
+    "exit_code": 0,
+    "seconds": 69.76500000001397,
+    "peak_working_set_bytes": 55877632,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"H8_5533\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 2523, \"base_clauses\": 2646, \"stabilizer_size\": 1, \"clauses\": 2646, \"seconds\": 69.53100000001723, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "9247002f4e4d3aeb1cd97c3305c216e9d878d7433e67e3eef06df38599d64802"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_verify.py",
+      "H8_5533"
+    ],
+    "exit_code": 0,
+    "seconds": 3.609000000025844,
+    "peak_working_set_bytes": 29380608,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"H8_5533\", \"clauses\": 2646, \"c_winning_trace_clauses\": 2155, \"AS_negative_clauses\": 367, \"AS_closure_states\": 431308, \"literal_c_winning_moves\": 29035, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"H8_5533\", \"graph_certificate_records\": 2646, \"distinct_graph_clauses\": 2646, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "39e7159dea5304463154715ee71faa7fe62337f9561ae7c83d09d93097c2e807"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\highpile_cegis\\H8_5533\\formula.cnf",
+      "evidence\\S014\\highpile_cegis\\H8_5533\\proof.drup",
+      "-L",
+      "evidence\\S014\\highpile_lrat\\H8_5533\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21899999998277053,
+    "peak_working_set_bytes": 52477952,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 173 variables and 3251 clauses\r\n\rc WARNING: deleted clause on proof line 4825 does not occur: [268495996] -1 30 0\r\n\rc WARNING: deleted clause on proof line 4826 does not occur: [268495996] 1 30 0\r\n\rc WARNING: deleted clause on proof line 4828 does not occur: [268495996] -1 88 0\r\n\rc WARNING: deleted clause on proof line 4829 does not occur: [268495996] 1 88 0\r\n\rc WARNING: deleted clause on proof line 4831 does not occur: [268495996] -1 117 0\r\n\rc WARNING: deleted clause on proof line 4832 does not occur: [268495996] 1 117 0\r\n\rc WARNING: deleted clause on proof line 4840 does not occur: [268495996] -1 146 0\r\n\rc WARNING: deleted clause on proof line 4841 does not occur: [268495996] 1 146 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 2044 of 3251 clauses in core                            \r\n\rc 2832 of 3017 lemmas in core using 67022 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.109 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "dd666c8b3233b26c6ecd3dcd2a403c0f87de95881ae82f0e17b1d0d8f87271d1"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_lrat_verify.py",
+      "H8_5533"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3120000000053551,
+    "peak_working_set_bytes": 20021248,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"H8_5533\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 2832, \"deleted_clause_ids\": 6048, \"hint_visits\": 67022, \"seconds\": 0.11000000001513399}\r\n",
+    "stderr": "",
+    "code_sha256": "2d610604bc72a6159f6e7c51f4f18fee07b0036fbcdfe1b6451e73e8bdf1a7b8"
+  }
+]

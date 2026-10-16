@@ -1,0 +1,132 @@
+{
+  "patterns": 8,
+  "certified": 8,
+  "all_registered_patterns_independently_excluded": true,
+  "control_pass": true,
+  "verified_RUP_additions": 33677,
+  "hint_visits": 862482,
+  "cases": [
+    {
+      "case": "H8_5551",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        5,
+        5,
+        5
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H8_7711",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        7,
+        7
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H8_9531",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        5,
+        9
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H8_5533",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        5,
+        5
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H8_7733",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        7,
+        7
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H9_5551",
+      "n": 9,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        5,
+        5,
+        5
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H8_4444",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4,
+        4
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    },
+    {
+      "case": "H8_6622",
+      "n": 8,
+      "c": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        6,
+        6
+      ],
+      "status": "INDEPENDENTLY_EXCLUDED"
+    }
+  ],
+  "scope": "ONLY specified8 fixed-input graph classes, not full order/mass coverage; universal ASH* OPEN"
+}

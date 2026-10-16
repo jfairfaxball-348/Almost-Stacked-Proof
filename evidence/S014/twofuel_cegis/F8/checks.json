@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c077_cegis.py",
+      "F8"
+    ],
+    "exit_code": 0,
+    "seconds": 44.921999999991385,
+    "peak_working_set_bytes": 46403584,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"F8\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 2625, \"base_clauses\": 2632, \"stabilizer_size\": 1, \"clauses\": 2632, \"seconds\": 44.48499999998603, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "2bfd640bbc7d21c192dabca1a1e69e74443dce1533b2918e4e0e55d92386e003"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c077_verify.py",
+      "F8"
+    ],
+    "exit_code": 0,
+    "seconds": 2.25,
+    "peak_working_set_bytes": 28688384,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"F8\", \"clauses\": 2632, \"c_winning_trace_clauses\": 2452, \"AS_negative_clauses\": 148, \"AS_closure_states\": 83232, \"literal_c_winning_moves\": 24409, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"F8\", \"graph_certificate_records\": 2632, \"distinct_graph_clauses\": 2632, \"representative_comparisons\": 6, \"local_truth_rows\": 1920, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "ee6377b2f54d0279b621ce5c2c08ab965ec8d28c995aff7050e9d0dbb7ec311d"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\twofuel_cegis\\F8\\formula.cnf",
+      "evidence\\S014\\twofuel_cegis\\F8\\proof.drup",
+      "-L",
+      "evidence\\S014\\twofuel_lrat\\F8\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3129999999946449,
+    "peak_working_set_bytes": 53198848,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 202 variables and 3358 clauses\r\n\rc WARNING: deleted clause on proof line 6019 does not occur: [268447151] -1 30 0\r\n\rc WARNING: deleted clause on proof line 6020 does not occur: [268447151] 1 30 0\r\n\rc WARNING: deleted clause on proof line 6062 does not occur: [268447151] -1 2 0\r\n\rc WARNING: deleted clause on proof line 6064 does not occur: [268447151] 1 2 59 0\r\n\rc WARNING: deleted clause on proof line 6086 does not occur: [268447151] -1 88 0\r\n\rc WARNING: deleted clause on proof line 6087 does not occur: [268447151] 1 88 0\r\n\rc WARNING: deleted clause on proof line 6137 does not occur: [268447151] -1 117 0\r\n\rc WARNING: deleted clause on proof line 6138 does not occur: [268447151] 1 117 0\r\n\rc WARNING: deleted clause on proof line 6171 does not occur: [268447151] -1 146 0\r\n\rc WARNING: deleted clause on proof line 6172 does not occur: [268447151] 1 146 0\r\n\rc WARNING: deleted clause on proof line 6205 does not occur: [268447151] -1 175 0\r\n\rc WARNING: deleted clause on proof line 6206 does not occur: [268447151] 1 175 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 1579 of 3358 clauses in core                            \r\n\rc 1365 of 1474 lemmas in core using 40162 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.196 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "44457c6afa41e462d5f1e1f024669b65acbf93da73ab60bbba205ea1806e9ce1"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c077_lrat_verify.py",
+      "F8"
+    ],
+    "exit_code": 0,
+    "seconds": 0.4220000000204891,
+    "peak_working_set_bytes": 20803584,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"F8\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 1365, \"deleted_clause_ids\": 4645, \"hint_visits\": 40162, \"seconds\": 0.14000000001396984}\r\n",
+    "stderr": "",
+    "code_sha256": "8bbb403b3d1f8949f9a92a53f692c8b2d3b0601922686c458e1dc14f78be510f"
+  }
+]

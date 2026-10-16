@@ -1,0 +1,13 @@
+{
+  "shard": 1,
+  "status": "AGGREGATE_STATE_CAP_UNKNOWN",
+  "selected_candidates": 4891,
+  "completed": 1301,
+  "winning": 1300,
+  "unknown": 1,
+  "cumulative_states": 8000000,
+  "retained_partial_states": 15757,
+  "potential": null,
+  "seconds": 43.28100000001723,
+  "scope": "Pointwise literal winners only; caps/suffix UNKNOWN, no full threshold"
+}

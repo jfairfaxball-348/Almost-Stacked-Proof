@@ -1,0 +1,9 @@
+{
+  "case": "C6",
+  "solver_status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "fixed_input_class_exclusion_certified": true,
+  "added_RUP_steps": 53,
+  "deletions": 0,
+  "unit_clause_scans": 19968,
+  "scope": "ONLY this exact labeled fixed-input graph class; NOT universal ASH*"
+}

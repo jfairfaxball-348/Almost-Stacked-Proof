@@ -1,0 +1,62 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddresidual_threshold.py",
+      "g6_0248",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10900000001129229,
+    "peak_working_set_bytes": 2129920,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 6, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 15, \"losers\": 15, \"AS_losers\": 15, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 55, \"losers\": 36, \"AS_losers\": 36, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 113, \"losers\": 68, \"AS_losers\": 67, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 212, \"losers\": 108, \"AS_losers\": 98, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 329, \"losers\": 159, \"AS_losers\": 97, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 464, \"losers\": 158, \"AS_losers\": 66, \"Q\": 37}\r\n{\"mass\": 8, \"candidates\": 589, \"losers\": 173, \"AS_losers\": 57, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 689, \"losers\": 171, \"AS_losers\": 34, \"Q\": 51}\r\n{\"mass\": 10, \"candidates\": 662, \"losers\": 86, \"AS_losers\": 20, \"Q\": 82}\r\n{\"mass\": 11, \"candidates\": 501, \"losers\": 61, \"AS_losers\": 15, \"Q\": 101}\r\n{\"mass\": 12, \"candidates\": 408, \"losers\": 44, \"AS_losers\": 7, \"Q\": 90}\r\n{\"mass\": 13, \"candidates\": 288, \"losers\": 4, \"AS_losers\": 4, \"Q\": 123}\r\n{\"mass\": 14, \"candidates\": 22, \"losers\": 2, \"AS_losers\": 2, \"Q\": 170}\r\n{\"mass\": 15, \"candidates\": 8, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"last_complete_mass\": 15, \"certificate_sha256\": \"bfca980ea5e80ad367b0244d1628dbda19fcfd6d07c0c6d4e55b5ce42308adc7\"}\r\n",
+    "stderr": "",
+    "code_sha256": "624a990f98d64553987c3db8224c87829f7e005f3501d599ed5a406174ddd47b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddresidual_threshold_verify.py",
+      "g6_0248",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2088960,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"g6_0248\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 15, \"last_complete_mass\": 15, \"certified_losing_states\": 1085, \"L_AS_seen\": 14, \"L_AS_exact\": 14, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "97dfe42189a3fdf18c0b6900b1ef21f557bef5f2f71a14bfbff039d25df3aba4"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddresidual_threshold.py",
+      "g6_0504",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20399999999790452,
+    "peak_working_set_bytes": 33693696,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 6, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 15, \"losers\": 15, \"AS_losers\": 15, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 56, \"losers\": 34, \"AS_losers\": 34, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 113, \"losers\": 57, \"AS_losers\": 57, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 190, \"losers\": 86, \"AS_losers\": 86, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 260, \"losers\": 118, \"AS_losers\": 81, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 356, \"losers\": 100, \"AS_losers\": 44, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 435, \"losers\": 107, \"AS_losers\": 44, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 544, \"losers\": 116, \"AS_losers\": 24, \"Q\": 51}\r\n{\"mass\": 10, \"candidates\": 546, \"losers\": 50, \"AS_losers\": 8, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 400, \"losers\": 40, \"AS_losers\": 8, \"Q\": 53}\r\n{\"mass\": 12, \"candidates\": 355, \"losers\": 35, \"AS_losers\": 4, \"Q\": 84}\r\n{\"mass\": 13, \"candidates\": 280, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 13, \"last_complete_mass\": 13, \"certificate_sha256\": \"579cb0aedd95992910d2c16e4f97931f7b2ad3db5b18dd689a26930925035fe1\"}\r\n",
+    "stderr": "",
+    "code_sha256": "624a990f98d64553987c3db8224c87829f7e005f3501d599ed5a406174ddd47b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddresidual_threshold_verify.py",
+      "g6_0504",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2080768,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"g6_0504\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 13, \"last_complete_mass\": 13, \"certified_losing_states\": 758, \"L_AS_seen\": 12, \"L_AS_exact\": 12, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "97dfe42189a3fdf18c0b6900b1ef21f557bef5f2f71a14bfbff039d25df3aba4"
+  }
+]

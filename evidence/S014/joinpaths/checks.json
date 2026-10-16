@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_joinpaths.py"
+    ],
+    "exit_code": 0,
+    "seconds": 9.75,
+    "peak_working_set_bytes": 112791552,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"P3_A1B1\", \"traces\": 252, \"moves\": 1394, \"branches\": {\"two_roots\": 13, \"B_root\": 146, \"A_root\": 6, \"B_root_internal_paths\": 87}}\r\n{\"graph\": \"K3_A1B1\", \"traces\": 228, \"moves\": 1191, \"branches\": {\"A_root\": 11, \"B_root\": 106, \"two_roots\": 6, \"B_root_internal_paths\": 105}}\r\n{\"graph\": \"2K2_A1B1\", \"traces\": 576, \"moves\": 3963, \"branches\": {\"two_roots\": 15, \"B_root\": 320, \"A_root\": 7, \"B_root_internal_paths\": 234}}\r\n{\"graph\": \"S4_A1B1\", \"traces\": 624, \"moves\": 4366, \"branches\": {\"A_root\": 15, \"B_root\": 343, \"two_roots\": 8, \"B_root_internal_paths\": 258}}\r\n{\"graph\": \"C4_A1B1\", \"traces\": 480, \"moves\": 2859, \"branches\": {\"two_roots\": 13, \"B_root\": 209, \"A_root\": 6, \"B_root_internal_paths\": 252}}\r\n{\"graph\": \"K4_A1B1\", \"traces\": 480, \"moves\": 2799, \"branches\": {\"two_roots\": 13, \"B_root\": 149, \"A_root\": 6, \"B_root_internal_paths\": 312}}\r\n{\"graph\": \"P5_A1B1\", \"traces\": 1200, \"moves\": 9039, \"branches\": {\"A_root\": 15, \"B_root\": 502, \"two_roots\": 8, \"B_root_internal_paths\": 675}}\r\n{\"graph\": \"C5_A1B1\", \"traces\": 1008, \"moves\": 6864, \"branches\": {\"A_root\": 13, \"B_root\": 364, \"two_roots\": 7, \"B_root_internal_paths\": 624}}\r\n{\"graph\": \"S5_A1B1\", \"traces\": 1488, \"moves\": 12575, \"branches\": {\"two_roots\": 19, \"B_root\": 791, \"A_root\": 9, \"B_root_internal_paths\": 669}}\r\n{\"graph\": \"K5_A1B1\", \"traces\": 1008, \"moves\": 6549, \"branches\": {\"A_root\": 13, \"B_root\": 199, \"two_roots\": 7, \"B_root_internal_paths\": 789}}\r\n{\"graph\": \"P5_A2B3\", \"traces\": 10752, \"moves\": 98505, \"branches\": {\"two_roots\": 19, \"B_root\": 4247, \"A_root\": 628, \"B_root_internal_paths\": 5497, \"balanced_retain_B\": 40, \"balanced_retain_A\": 321}}\r\n{\"graph\": \"K10_A1B5\", \"traces\": 180224, \"moves\": 1896493, \"branches\": {\"A_root\": 12177, \"B_root\": 16147, \"B_root_internal_paths\": 151900}}\r\n",
+    "stderr": "",
+    "code_sha256": "24abe01bed295154c0f0c8256a40f3055e03c67eb3f117a527f2e3732260bea3"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_joinpaths_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.7030000000086147,
+    "peak_working_set_bytes": 103305216,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"P3_A1B1\", \"traces\": 252, \"literal_moves\": 1394, \"branches\": {\"two_roots\": 13, \"B_root\": 146, \"A_root\": 6, \"B_root_internal_paths\": 87}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"K3_A1B1\", \"traces\": 228, \"literal_moves\": 1191, \"branches\": {\"A_root\": 11, \"B_root\": 106, \"two_roots\": 6, \"B_root_internal_paths\": 105}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"2K2_A1B1\", \"traces\": 576, \"literal_moves\": 3963, \"branches\": {\"two_roots\": 15, \"B_root\": 320, \"A_root\": 7, \"B_root_internal_paths\": 234}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"S4_A1B1\", \"traces\": 624, \"literal_moves\": 4366, \"branches\": {\"A_root\": 15, \"B_root\": 343, \"two_roots\": 8, \"B_root_internal_paths\": 258}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"C4_A1B1\", \"traces\": 480, \"literal_moves\": 2859, \"branches\": {\"two_roots\": 13, \"B_root\": 209, \"A_root\": 6, \"B_root_internal_paths\": 252}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"K4_A1B1\", \"traces\": 480, \"literal_moves\": 2799, \"branches\": {\"two_roots\": 13, \"B_root\": 149, \"A_root\": 6, \"B_root_internal_paths\": 312}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"P5_A1B1\", \"traces\": 1200, \"literal_moves\": 9039, \"branches\": {\"A_root\": 15, \"B_root\": 502, \"two_roots\": 8, \"B_root_internal_paths\": 675}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"C5_A1B1\", \"traces\": 1008, \"literal_moves\": 6864, \"branches\": {\"A_root\": 13, \"B_root\": 364, \"two_roots\": 7, \"B_root_internal_paths\": 624}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"S5_A1B1\", \"traces\": 1488, \"literal_moves\": 12575, \"branches\": {\"two_roots\": 19, \"B_root\": 791, \"A_root\": 9, \"B_root_internal_paths\": 669}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"K5_A1B1\", \"traces\": 1008, \"literal_moves\": 6549, \"branches\": {\"A_root\": 13, \"B_root\": 199, \"two_roots\": 7, \"B_root_internal_paths\": 789}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"P5_A2B3\", \"traces\": 10752, \"literal_moves\": 98505, \"branches\": {\"two_roots\": 19, \"B_root\": 4247, \"A_root\": 628, \"B_root_internal_paths\": 5497, \"balanced_retain_B\": 40, \"balanced_retain_A\": 321}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n{\"graph\": \"K10_A1B5\", \"traces\": 180224, \"literal_moves\": 1896493, \"branches\": {\"A_root\": 12177, \"B_root\": 16147, \"B_root_internal_paths\": 151900}, \"all_keys_moves_and_true_source_symmetries_verified\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "6f16216372cd7270517cb7596f610d24b5ff49e0caa24b2cbcac95414f5d44e6"
+  }
+]

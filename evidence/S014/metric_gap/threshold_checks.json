@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_metric_gap_job.py",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 2.9219999999913853,
+    "peak_working_set_bytes": 64303104,
+    "resource_failure": null,
+    "stdout": "A182fresh produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "3f7ebd613ca2fdd6a9c3df929ee155ee53d87d450a8696f9d72acae59e797f18"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_metric_gap_job.py",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 2.1089999999967404,
+    "peak_working_set_bytes": 27369472,
+    "resource_failure": null,
+    "stdout": "A182fresh verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "3f7ebd613ca2fdd6a9c3df929ee155ee53d87d450a8696f9d72acae59e797f18"
+  }
+]

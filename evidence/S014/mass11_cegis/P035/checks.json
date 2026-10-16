@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_cegis.py",
+      "P035"
+    ],
+    "exit_code": 0,
+    "seconds": 29.312999999994645,
+    "peak_working_set_bytes": 49606656,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P035\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 3942, \"base_clauses\": 4005, \"stabilizer_size\": 1, \"clauses\": 4005, \"seconds\": 29.125, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1dde2ec02d59032080bea2df88467c3d6538074d04ddb483ab5ef17b45a65e8d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_verify.py",
+      "P035"
+    ],
+    "exit_code": 0,
+    "seconds": 2.2179999999934807,
+    "peak_working_set_bytes": 33570816,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P035\", \"clauses\": 4005, \"c_winning_trace_clauses\": 3374, \"AS_negative_clauses\": 540, \"AS_closure_states\": 256634, \"literal_c_winning_moves\": 30143, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P035\", \"graph_certificate_records\": 4005, \"distinct_graph_clauses\": 4005, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "4abc2ddaa5802c6fdabbf4cbfb6993dd351c10238b7a6d4348b18bdd4c4757ca"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\mass11_cegis\\P035\\formula.cnf",
+      "evidence\\S014\\mass11_cegis\\P035\\proof.drup",
+      "-L",
+      "evidence\\S014\\mass11_lrat\\P035\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20399999999790452,
+    "peak_working_set_bytes": 52699136,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 144 variables and 4489 clauses\r\n\rc WARNING: deleted clause on proof line 8805 does not occur: [268451367] -1 30 0\r\n\rc WARNING: deleted clause on proof line 8806 does not occur: [268451367] 1 30 0\r\n\rc WARNING: deleted clause on proof line 8808 does not occur: [268451367] -1 59 0\r\n\rc WARNING: deleted clause on proof line 8809 does not occur: [268451367] 1 59 0\r\n\rc WARNING: deleted clause on proof line 8811 does not occur: [268451367] -1 88 0\r\n\rc WARNING: deleted clause on proof line 8812 does not occur: [268451367] 1 88 0\r\n\rc WARNING: deleted clause on proof line 8817 does not occur: [268451367] -1 117 0\r\n\rc WARNING: deleted clause on proof line 8818 does not occur: [268451367] 1 117 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 2659 of 4489 clauses in core                            \r\n\rc 4310 of 4576 lemmas in core using 92186 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.166 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "2128f3ce35858ac34f1f017ad7037e72e97c982fb0df660fa3548ac5bf260810"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_lrat_verify.py",
+      "P035"
+    ],
+    "exit_code": 0,
+    "seconds": 0.29699999999138527,
+    "peak_working_set_bytes": 21213184,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P035\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 4310, \"deleted_clause_ids\": 8751, \"hint_visits\": 92186, \"seconds\": 0.14000000001396984}\r\n",
+    "stderr": "",
+    "code_sha256": "375e31c2030a6ec078821a159fd27d8a2530c29a0ac19f13c010b6625671648a"
+  }
+]

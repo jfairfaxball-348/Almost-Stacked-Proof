@@ -1,0 +1,37 @@
+{
+  "exact_binary_buffer_AS_oracle_certified": true,
+  "source": 0,
+  "masks": 32768,
+  "nodes": 1572864,
+  "proper_unordered_partitions": 7141686,
+  "full_inequalities": 803538796,
+  "all_signed_residues_verified": true,
+  "all_global_minima_equal": true,
+  "exact_L_AS": 30,
+  "source0_critical_AS": [
+    {
+      "mask": 16384,
+      "N": 29,
+      "input": [
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "scope": "Exact AS only on fixed Q4, all XOR sources; no general threshold or universal ASH* conclusion",
+  "seconds": 25.328000000008615
+}

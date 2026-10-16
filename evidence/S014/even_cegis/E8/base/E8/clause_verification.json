@@ -1,0 +1,9 @@
+{
+  "case": "E8",
+  "clauses": 641,
+  "c_winning_trace_clauses": 466,
+  "AS_negative_clauses": 161,
+  "AS_closure_states": 66012,
+  "literal_c_winning_moves": 3728,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

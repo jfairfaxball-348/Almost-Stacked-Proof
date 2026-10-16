@@ -1,0 +1,29 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_saturate_tail_verify.py",
+      "0"
+    ],
+    "exit_code": 0,
+    "seconds": 8.547000000005937,
+    "peak_working_set_bytes": 39043072,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 0, \"cases\": 120, \"complete_cases\": 120, \"unknown\": 0, \"checked_states\": 1912482, \"negative_states\": 408177, \"positive_dependencies\": 1502420, \"potential_counterexamples\": [], \"all_complete_DAGs_and_AS_tail_keys_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "a3813bd937a8d3350a888718aa3cc29306f915767e3c931df45d1132651cdc32"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_saturate_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 19853312,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 120, \"complete_saturations\": 120, \"unknown\": 0, \"missing_edge_winning_histories\": 2189, \"literal_edge_moves\": 28257, \"all_greedy_decisions_and_saturation_certificates_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "769aae3331ba72199770ef551735fee2568fdacf8af21a45697f9eec3ce6cce5"
+  }
+]

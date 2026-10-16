@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F4_51_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09399999999732245,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 6, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 15, \"losers\": 15, \"AS_losers\": 15, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 55, \"losers\": 32, \"AS_losers\": 32, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 113, \"losers\": 55, \"AS_losers\": 55, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 210, \"losers\": 72, \"AS_losers\": 72, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 304, \"losers\": 78, \"AS_losers\": 60, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 376, \"losers\": 52, \"AS_losers\": 28, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 363, \"losers\": 37, \"AS_losers\": 19, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 306, \"losers\": 21, \"AS_losers\": 7, \"Q\": 51}\r\n{\"mass\": 10, \"candidates\": 153, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 10, \"last_complete_mass\": 10, \"certificate_sha256\": \"f4be0a26a54dcd8793d379f987ed7f272c36b7a11d0bb7b851fdfafb8c07a092\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F4_51_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2084864,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F4_51_A1B1\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 10, \"last_complete_mass\": 10, \"certified_losing_states\": 362, \"L_AS_seen\": 9, \"proposed_L_AS\": 9, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

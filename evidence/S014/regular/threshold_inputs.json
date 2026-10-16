@@ -1,0 +1,488 @@
+{
+  "cases": [
+    {
+      "graph": {
+        "graph": "Q3plus03",
+        "n": 8,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 14,
+      "L_AS_basis": "ALL_SOURCES_ALL_BINARY_BUFFERS_EXACT_ZERO_AND_UNBOUNDED_THREE_POSITIVE_RESIDUES",
+      "max_mass": 15,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "Q3plus03",
+        "n": 8,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 14,
+      "L_AS_basis": "ALL_SOURCES_ALL_BINARY_BUFFERS_EXACT_ZERO_AND_UNBOUNDED_THREE_POSITIVE_RESIDUES",
+      "max_mass": 15,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "Wagner8",
+        "n": 8,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 10,
+      "L_AS_basis": "ALL_SOURCES_ALL_BINARY_BUFFERS_EXACT_ZERO_AND_UNBOUNDED_THREE_POSITIVE_RESIDUES",
+      "max_mass": 11,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "Wagner8",
+        "n": 8,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 10,
+      "L_AS_basis": "ALL_SOURCES_ALL_BINARY_BUFFERS_EXACT_ZERO_AND_UNBOUNDED_THREE_POSITIVE_RESIDUES",
+      "max_mass": 11,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "Petersen10",
+        "n": 10,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            9
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 14,
+      "L_AS_basis": "ALL_SOURCES_ALL_BINARY_BUFFERS_EXACT_ZERO_AND_UNBOUNDED_THREE_POSITIVE_RESIDUES",
+      "max_mass": 15,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "Petersen10",
+        "n": 10,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            9
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 14,
+      "L_AS_basis": "ALL_SOURCES_ALL_BINARY_BUFFERS_EXACT_ZERO_AND_UNBOUNDED_THREE_POSITIVE_RESIDUES",
+      "max_mass": 15,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    }
+  ],
+  "source_certificate_hashes": {
+    "evidence/S014/regular/Q3plus03_binary_s0_verification.json.xz": "35bf6a9c9b64a5bdd0845486c8a5a78f6f0940fa53d0799599e6251a76dc522c",
+    "evidence/S014/regular/Q3plus03_binary_s0_rays.json.xz": "dc7eea83dcea2593658c00cd588646d7fbdd06218600599ba03f8c0a28765f67",
+    "evidence/S014/regular/Q3plus03_binary_s0_checks.json": "88762e799a950a1fc4b080284e4d5d02200958ee16d78c5d9c22345c0204226d",
+    "evidence/S014/regular/Q3plus03_binary_s1_verification.json.xz": "30e9d1fcae2188364bbd96041ba17e911b2bc5cdf07b201a8559a24797c72aba",
+    "evidence/S014/regular/Q3plus03_binary_s1_rays.json.xz": "f5cf163a99a5d8e72944a9298ec52957c5e626dcd1c1e86e61fd64ae5fbbfa28",
+    "evidence/S014/regular/Q3plus03_binary_s1_checks.json": "7b3ad4bc3721d28853a46f9c3a1cb348c423d3bd32fee47860452f730d8db90f",
+    "evidence/S014/regular/Q3plus03_binary_s2_verification.json.xz": "e8f178a861cc6677192423ee58d4ae4666225122809cf94b9b7243d237093e8b",
+    "evidence/S014/regular/Q3plus03_binary_s2_rays.json.xz": "b2e447490dd3e2c8177401f27d398fafb0e3306c6f67039f2c8e792ab5c51c8e",
+    "evidence/S014/regular/Q3plus03_binary_s2_checks.json": "e42bbae313e7188f4496d6e95397709e0c1221447996deb85ececd2124f44bfd",
+    "evidence/S014/regular/Q3plus03_binary_s3_verification.json.xz": "9f1992b7955a085d4e9c51041f8e7ed97884f41026a8af61d22d1e14179e502c",
+    "evidence/S014/regular/Q3plus03_binary_s3_rays.json.xz": "ca3b328a1b7ac59ce5b9bef8d213a3225c4999fa4454b2b640af4dcce650a1b5",
+    "evidence/S014/regular/Q3plus03_binary_s3_checks.json": "a63bdc321714e7c2df98d0204b715c005a9a6b87885fda57cfd051f3bb8a2757",
+    "evidence/S014/regular/Q3plus03_binary_s4_verification.json.xz": "5f028ef183998967c2c1df40e43b541a9e7a61675ae8976b96bb89f8c74bb28c",
+    "evidence/S014/regular/Q3plus03_binary_s4_rays.json.xz": "0330856536e2fbabbd1b5d7b2722adeac576c462a6c6a13e6c03698d307d0118",
+    "evidence/S014/regular/Q3plus03_binary_s4_checks.json": "bd3c99a9182d86b72f8460b6c3aeafe0da431536d07f2b241c6a92512ec5db54",
+    "evidence/S014/regular/Q3plus03_binary_s5_verification.json.xz": "12c0f9b1550259ef94a00b64e3633438930f64a769cfcd1ac8485a4a1693d71e",
+    "evidence/S014/regular/Q3plus03_binary_s5_rays.json.xz": "b25be8b0be9f5c88d74904dbcef9328b6de790771732b83ad973d5a5a1841b73",
+    "evidence/S014/regular/Q3plus03_binary_s5_checks.json": "ce4e801ec4d4f93f533b88f357634ec79c8a3f9e1fd2587aaee544f9193cce93",
+    "evidence/S014/regular/Q3plus03_binary_s6_verification.json.xz": "7684ef2e20ec339895dcbb9ceb5df34e7f85203bde239d16d21a800f71a25fe5",
+    "evidence/S014/regular/Q3plus03_binary_s6_rays.json.xz": "5bd1519c289fbacbcf5612dec89982c3085fc9f742ec4784e6d93fc2028d378f",
+    "evidence/S014/regular/Q3plus03_binary_s6_checks.json": "8f165b92496c04c1a997dfaf3b0c8feab44159a0cd3e04ff9a9083962208193e",
+    "evidence/S014/regular/Q3plus03_binary_s7_verification.json.xz": "024870e3d509138bea0564f4277cf0520c19488162d728d2129256465a19269c",
+    "evidence/S014/regular/Q3plus03_binary_s7_rays.json.xz": "80b711577a9f411c359765999eb085ef7e4db80d71ccafc008d37dfbaea5a201",
+    "evidence/S014/regular/Q3plus03_binary_s7_checks.json": "a2bb0c514fe6be5cdcfc64262d18c8806c5a652edb1f9df7ac5b486f8ba870f5",
+    "evidence/S014/regular/Wagner8_binary_s0_verification.json.xz": "6688683e69c65c0d19ed1586de2afbeebc60861144991c383dac4ed7df051f91",
+    "evidence/S014/regular/Wagner8_binary_s0_rays.json.xz": "83fcdfa16a0c863cee6faabeea22df97b0b2c79758cfce0378791cb655f59e57",
+    "evidence/S014/regular/Wagner8_binary_s0_checks.json": "fcdecc60af586130e22575fc7f7db67f647ecbb12b227256b9e140910a32d3bf",
+    "evidence/S014/regular/Wagner8_binary_s1_verification.json.xz": "4e448c14e9aec0d84ce37ef75bb2734010aa25f3633783de4f2a08ccf14c5f10",
+    "evidence/S014/regular/Wagner8_binary_s1_rays.json.xz": "582000a54e769e6431e641a5d35208be7e2a5b738ed6f3ab0a5e845ef922b78a",
+    "evidence/S014/regular/Wagner8_binary_s1_checks.json": "5d02f2234c5d5db79b499806e85e8f388e0499339143a311430ea14115c96552",
+    "evidence/S014/regular/Wagner8_binary_s2_verification.json.xz": "3182ce4c7a710124953876c1d51cf73f98abca13d6be17f728b5113220c153cf",
+    "evidence/S014/regular/Wagner8_binary_s2_rays.json.xz": "1cc12ae11529f141ce91b96e7b64a630df1258a066ab9a9da7fdabe02d3a953c",
+    "evidence/S014/regular/Wagner8_binary_s2_checks.json": "5c1bc6f1361bb4c7784b108ebabecadf13b4f735a87e58587f85ec80e147d682",
+    "evidence/S014/regular/Wagner8_binary_s3_verification.json.xz": "5f6e6bc5a74b0ad9d8493f2682a1d01fab075bca84e92fe09dbc1243ac815e84",
+    "evidence/S014/regular/Wagner8_binary_s3_rays.json.xz": "065ae8c2061b0fb34897ac29da200e63dcc6a9cca0bd3285cede6ab63bedf2d0",
+    "evidence/S014/regular/Wagner8_binary_s3_checks.json": "9ce5607012c7cf84798d300148c2a4ec2b4b6c720ae7981bb4b7e4da34aa3163",
+    "evidence/S014/regular/Wagner8_binary_s4_verification.json.xz": "cc386183d34ec4629538b32642bfbf17aed3741785cb481deec6cfbe5f3281de",
+    "evidence/S014/regular/Wagner8_binary_s4_rays.json.xz": "b8f1262088a1b47e7a0d888eb658cf3be082a846e47b8bac6827b310985432da",
+    "evidence/S014/regular/Wagner8_binary_s4_checks.json": "17ff293acb2ff0b2eb106bed9700b3fbb25fd107a8af28c7d999e1d47efad851",
+    "evidence/S014/regular/Wagner8_binary_s5_verification.json.xz": "599f656f977cd30ea8b9e9758e87c8643c6aca83ae770d14b69fc10676adc095",
+    "evidence/S014/regular/Wagner8_binary_s5_rays.json.xz": "02b7875207e26a477e902a6f042b49fa5cc08cfea8b895e07a7be60689267d16",
+    "evidence/S014/regular/Wagner8_binary_s5_checks.json": "5abe54978dcf37e612ea9516cd6cabff8873b85140ed90e22862771e54a337ed",
+    "evidence/S014/regular/Wagner8_binary_s6_verification.json.xz": "1b9bf8906c5c2e217b417f5264df6cd6478ada29be254b5250be1937f3952e0c",
+    "evidence/S014/regular/Wagner8_binary_s6_rays.json.xz": "76f89829f6ed819410732c02a11f3c1ac4d8611fb4567bcdd818214779e4bca3",
+    "evidence/S014/regular/Wagner8_binary_s6_checks.json": "2a49c3e89e8941cc1a3685ae4b5cf5d680fe26811862d813cc32101421c9900d",
+    "evidence/S014/regular/Wagner8_binary_s7_verification.json.xz": "1a871974db65bf75ff03d7dc3c73d2522f781c69f588cd0129184728fe5d3eaa",
+    "evidence/S014/regular/Wagner8_binary_s7_rays.json.xz": "90370c725e3725c5b51b07c54eeb802a7e0afe76434e4745795972dd9eb2a133",
+    "evidence/S014/regular/Wagner8_binary_s7_checks.json": "e4fe9847ad5d23fc6f50f70382dd45ab4f46ce214ef62b056a7da7f860f27c9d",
+    "evidence/S014/regular/Petersen10_binary_s0_verification.json.xz": "1cb9147c01709bf654b716f0f638740351f9f3c3cb939a2057d9833a280e3adb",
+    "evidence/S014/regular/Petersen10_binary_s0_rays.json.xz": "7a782b48a760828192008f0f6e2b077f9d3a82eb700a2df32d2db0f8813cc867",
+    "evidence/S014/regular/Petersen10_binary_s0_checks.json": "e08f5f9e8d29da26e89861bd3b8ec311c222774496ceef5d319750fff9fe0785",
+    "evidence/S014/regular/Petersen10_binary_s1_verification.json.xz": "c09c174251275e50c99218536781e7a445668ccf5e89e5d74452ea9f94eeb7ff",
+    "evidence/S014/regular/Petersen10_binary_s1_rays.json.xz": "4973e3d622ca57298572f787a690217fa9f243368f0fd588826d385aa5a762c3",
+    "evidence/S014/regular/Petersen10_binary_s1_checks.json": "ee77f090427b7c550f2cf69caa5ae54085ccbc3153873c109ae5e9f67947054d",
+    "evidence/S014/regular/Petersen10_binary_s2_verification.json.xz": "0c938c10655301200029540333c364e1a07ce70f2a3caf4c084745f8f01058db",
+    "evidence/S014/regular/Petersen10_binary_s2_rays.json.xz": "a4575cbe7eeb1436ce095b79c2d7f19fad4f5c4af52a5e60114ecbd6ec893354",
+    "evidence/S014/regular/Petersen10_binary_s2_checks.json": "3b68e30a2a301ed1de0efe70d77c3c542c7b18f106871d1645164edfa4a4f75a",
+    "evidence/S014/regular/Petersen10_binary_s3_verification.json.xz": "53ec1771a7242988b0610141f96645eccbfa267fee232bb01a3edddf2052193c",
+    "evidence/S014/regular/Petersen10_binary_s3_rays.json.xz": "fc7accf930beedc1c4ed28737b97a9404136d82cd6daab0bc383f85462a9a026",
+    "evidence/S014/regular/Petersen10_binary_s3_checks.json": "47cb8f3938a24060057ab23934597afb2a4d84bfc7f3f6028789f2c0b2ca7680",
+    "evidence/S014/regular/Petersen10_binary_s4_verification.json.xz": "2d1e795cddf45cb89b36a64b2b05aa55dc091eb49ede4dff91070fc3df50c530",
+    "evidence/S014/regular/Petersen10_binary_s4_rays.json.xz": "29be4c6d0d9bf24a409bbfa905c17e58486dc6cf9e95632af1d78aa492fb6b1b",
+    "evidence/S014/regular/Petersen10_binary_s4_checks.json": "39bae08bdfcea977231967607601b6cbd96006b30a57e9d7fbfac2d4557dcd9c",
+    "evidence/S014/regular/Petersen10_binary_s5_verification.json.xz": "e2f56419dea27499010921e9b87af762f70f6a79725f39bb26f6b80e63b2c594",
+    "evidence/S014/regular/Petersen10_binary_s5_rays.json.xz": "c615e52795736b7243df276b648ee26ddd2429c592ed2dd4fd4d0c72e70bbccf",
+    "evidence/S014/regular/Petersen10_binary_s5_checks.json": "151036678fbca38038de6b38f2cfa6741aaae8d42432b64aabd0f4bd98b3a367",
+    "evidence/S014/regular/Petersen10_binary_s6_verification.json.xz": "27c4d1ebc83f9b3c74bae4a8b8c787e4d4ead6255d5b19f83bdc67c7e4f8dcfc",
+    "evidence/S014/regular/Petersen10_binary_s6_rays.json.xz": "81fbac0ec010fd14eafcc3b6861ef91c0f72a9c608ff049f830cf73b3a375e1a",
+    "evidence/S014/regular/Petersen10_binary_s6_checks.json": "e3d190ad4310aa67e373768ad2b4d0eeed08313729eeb832a0b2f8e9aa0ca0c0",
+    "evidence/S014/regular/Petersen10_binary_s7_verification.json.xz": "adc625c2184712af1019636a85efee96739a6567535d377265d651957911f9c3",
+    "evidence/S014/regular/Petersen10_binary_s7_rays.json.xz": "2dbe71a0d69d3a15547efcb0896bfa08a267a9a2f3c47d9147a1cd4353a39bcc",
+    "evidence/S014/regular/Petersen10_binary_s7_checks.json": "e45c8afea60860ecae99f5122e9420c92a3378ada99fc2d9eea63d5c3d16a04b",
+    "evidence/S014/regular/Petersen10_binary_s8_verification.json.xz": "2ddcfe0a260c8cac3bdc78a745115be8a49f7bb494e0262b40db9b8df346910f",
+    "evidence/S014/regular/Petersen10_binary_s8_rays.json.xz": "200ffb1edb71d16ebee6a6980989378f6ffa32e8c0de96b437b69c4024da8a33",
+    "evidence/S014/regular/Petersen10_binary_s8_checks.json": "a0b65ecb397e4b3d72f74ffb7b479eb852a32ae5d155b2e1be53d7e6f43545e5",
+    "evidence/S014/regular/Petersen10_binary_s9_verification.json.xz": "a1188a6ddfe4403a00572c3c4ca3bd6533d04b1ee2383ecd0c239f1bf580ffac",
+    "evidence/S014/regular/Petersen10_binary_s9_rays.json.xz": "29003bf5ea1d39c91452d574d37128b308f7b3c695d0fe5f344a78e13a481fb1",
+    "evidence/S014/regular/Petersen10_binary_s9_checks.json": "0c506537cb65e1b7881aefe32054864eb89e79a837102cbe6c96e2d5215de6a8"
+  }
+}

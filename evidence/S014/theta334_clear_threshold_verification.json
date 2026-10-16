@@ -1,0 +1,11 @@
+{
+  "graph": "theta334",
+  "goal": "clear",
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 27,
+  "last_complete_mass": 27,
+  "certified_losing_states": 153253,
+  "L_AS_seen": 26,
+  "L_AS_grammar": 26,
+  "all_full_losing_layers_equal": true
+}

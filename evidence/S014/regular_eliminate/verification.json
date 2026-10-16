@@ -1,0 +1,447 @@
+{
+  "graphs": 72,
+  "complete": 72,
+  "unknown": 0,
+  "full_losing_states": 1545176,
+  "nonAS_critical_inputs": 227,
+  "candidates": 11632,
+  "H2r_failures": 0,
+  "nonAS_global_Q": 0,
+  "all_complete_AS_comparisons_hold": true,
+  "first_failures": [],
+  "graphs_detail": [
+    {
+      "graph": "R8_00_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_00_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_01_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_01_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_02_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_02_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_03_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_03_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_04_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_04_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_05_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_05_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_06_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_06_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_07_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_07_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_08_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_08_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 12,
+      "L_AS": 11
+    },
+    {
+      "graph": "R8_09_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_09_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_10_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_10_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_11_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R8_11_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 11,
+      "L_AS": 10
+    },
+    {
+      "graph": "R9_00_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 20,
+      "L_AS": 19
+    },
+    {
+      "graph": "R9_00_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 15,
+      "L_AS": 14
+    },
+    {
+      "graph": "R9_01_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_01_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_02_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 19,
+      "L_AS": 18
+    },
+    {
+      "graph": "R9_02_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 18,
+      "L_AS": 17
+    },
+    {
+      "graph": "R9_03_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 17,
+      "L_AS": 16
+    },
+    {
+      "graph": "R9_03_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 17,
+      "L_AS": 16
+    },
+    {
+      "graph": "R9_04_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_04_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_05_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 19,
+      "L_AS": 18
+    },
+    {
+      "graph": "R9_05_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_06_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 17,
+      "L_AS": 16
+    },
+    {
+      "graph": "R9_06_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_07_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 32,
+      "L_AS": 31
+    },
+    {
+      "graph": "R9_07_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 18,
+      "L_AS": 17
+    },
+    {
+      "graph": "R9_08_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 20,
+      "L_AS": 19
+    },
+    {
+      "graph": "R9_08_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 20,
+      "L_AS": 19
+    },
+    {
+      "graph": "R9_09_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_09_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_10_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 17,
+      "L_AS": 16
+    },
+    {
+      "graph": "R9_10_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R9_11_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 20,
+      "L_AS": 19
+    },
+    {
+      "graph": "R9_11_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_00_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 18,
+      "L_AS": 17
+    },
+    {
+      "graph": "R10_00_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_01_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 19,
+      "L_AS": 18
+    },
+    {
+      "graph": "R10_01_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 19,
+      "L_AS": 18
+    },
+    {
+      "graph": "R10_02_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 19,
+      "L_AS": 18
+    },
+    {
+      "graph": "R10_02_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 17,
+      "L_AS": 16
+    },
+    {
+      "graph": "R10_03_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 17,
+      "L_AS": 16
+    },
+    {
+      "graph": "R10_03_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_04_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_04_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 15,
+      "L_AS": 14
+    },
+    {
+      "graph": "R10_05_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_05_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 15,
+      "L_AS": 14
+    },
+    {
+      "graph": "R10_06_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_06_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 15,
+      "L_AS": 14
+    },
+    {
+      "graph": "R10_07_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 20,
+      "L_AS": 19
+    },
+    {
+      "graph": "R10_07_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_08_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 18,
+      "L_AS": 17
+    },
+    {
+      "graph": "R10_08_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_09_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_09_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_10_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_10_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 16,
+      "L_AS": 15
+    },
+    {
+      "graph": "R10_11_0",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 20,
+      "L_AS": 19
+    },
+    {
+      "graph": "R10_11_1",
+      "status": "EXACT_THRESHOLD",
+      "threshold": 18,
+      "L_AS": 17
+    }
+  ],
+  "all_full_layers_and_H2r_keys_equal": true
+}

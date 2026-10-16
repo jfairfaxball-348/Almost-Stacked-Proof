@@ -1,0 +1,15 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_17.md": "b5f1a3100c27bf3572b2d109370295b9d5d5b7647cd7c9a41b6095a57b23b20c",
+    "sessions/S014/PLAN_AMENDMENT_17.sha256": "626b2c71ee00227bab10e295551fa966c327c2ba77a2cf4b3e30ace9587dac08",
+    "sessions/S014/REPAIR_17_1.md": "095b1ba5035b025a4838f65b7bb73b1275d588f50a946d5b0b9dc97301d540e9",
+    "evidence/S014/parity_archive/inputs.json": "dbea72ca3fd447845bf4379983a93e83807bc7f77a77266fbbf4620df752ad22",
+    "evidence/S014/parity_archive/checks.json": "ba16dd092514134c3c7f71deadd069e1088206dea220a698641aa8189a68b238",
+    "tools/s014_parity_archive_v2.py": "b8086f86f545904a53f8fcd5f5e71b954076e7d320699335b26c97856c2e2c61",
+    "tools/s014_parity_archive_verify_v2.py": "6ffcad0e4a1a7f52b0eeb49f4970c83fc8833d71eb2f70e140f1df5760234f85",
+    "tools/s014_parity_archive_run_v2.py": "563fbf410db7a6e4797f0fe104c70040262ac2c14de572ff89feeab5a44b4c0b",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

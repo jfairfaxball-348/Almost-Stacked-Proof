@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 19763200,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"original_clauses\": 170, \"core_clauses\": 68, \"tightening_calls\": 97, \"seconds\": 0.015999999988707714, \"scope\": \"Fixed input only, provisional until subset and complete fresh proof independently checked\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f7c20665a61843e1e9b63b5f85a1af561ee83ff1a779424f828f975f9dade565"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_verify.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"core_clauses\": 68, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"selected_literal_original_clauses_independently_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "8175c954ae5c5f162d3188387b42bf115c6956082582a0d4c55e4368f14d53f5"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_drup.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2084864,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-input graph class; universal ASH* OPEN\", \"added_RUP_steps\": 33, \"deletions\": 0, \"active_literal_occurrence_visits\": 4087, \"seconds\": 0.0}\r\n",
+    "stderr": "",
+    "code_sha256": "861a6719b70cbd8190dfec569acdf3b452afd90cb6270c21523d1887d671475a"
+  }
+]

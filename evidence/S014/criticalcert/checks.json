@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_criticalcert.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2134016,
+    "resource_failure": null,
+    "stdout": "Fresh complete negative closures and literal positive histories saved.\r\n",
+    "stderr": "",
+    "code_sha256": "bc235d2fd7b667ca6bf1fb94864b41d89d3b2502cffb723ea75fb7021fbf2615"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_criticalcert_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2088960,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 2, \"negative_inputs\": 4, \"complete_negative_states\": 2556, \"literal_winning_moves\": 52, \"all_critical_candidates_win_but_AS_critical_losers_remain\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "9d83227ba94211df93ffcca091920f31ad2adb3ea7384792678998a62543ee6d"
+  }
+]

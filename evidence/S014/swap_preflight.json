@@ -1,0 +1,11 @@
+{
+  "before_execution": true,
+  "files": {
+    "tools/s014_swap.py": "b492d629449ecefc88e42d7c5ca989943050621d32bbb89ba99c14d4a00301c1",
+    "tools/s014_swap_verify.py": "a78ee8eed9c86bbbbbb99619a604351c5ad841d9dcbc8c226ab3d5697472f3e5",
+    "tools/s014_run.py": "4511cca84d963f7c2c2b7c4c7a993923fb0b5919fb590584e25d76ec47a113e0",
+    "sessions/S014/PLAN_AMENDMENT_5.md": "9c515c0b1519118e3ff991ca097088da0950d4b18de85bcdf4bfd471be97d2c4",
+    "evidence/S014/swap_inputs.json": "5e5acf832af5212b5f2919e27a586fff6dd661de19984c8df052f3c71acefe2a",
+    "evidence/S014/environment.json": "16581802c741a08df61252abd897a2c4f49b5040c9b4c27e9b439c1dbe0c16ed"
+  }
+}

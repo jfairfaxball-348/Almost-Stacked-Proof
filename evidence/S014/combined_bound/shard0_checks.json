@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_combined_produce.py",
+      "0"
+    ],
+    "exit_code": 0,
+    "seconds": 0.9060000000172295,
+    "peak_working_set_bytes": 14995456,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 0, \"cases\": 25, \"trees\": 2615, \"strict_gaps\": [], \"seconds\": 0.75}\r\n",
+    "stderr": "",
+    "code_sha256": "2f7894af2e1c036220dd6af1d9ddceb8c19814eae7a62a1777cce95a35cf0b29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_combined_verify.py",
+      "0"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7179999999934807,
+    "peak_working_set_bytes": 33095680,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 0, \"cases\": 25, \"trees\": 2615, \"strict_gaps\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "31b1bb245a7bdea1b78df3b68ebc7d769192f4341a45f76c1c0489dff46a4547"
+  }
+]

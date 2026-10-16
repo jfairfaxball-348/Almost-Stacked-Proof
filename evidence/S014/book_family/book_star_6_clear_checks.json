@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_book_threshold.py",
+      "book_star_6",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 1.0159999999887077,
+    "peak_working_set_bytes": 43728896,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 9, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 36, \"losers\": 36, \"AS_losers\": 36, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 165, \"losers\": 127, \"AS_losers\": 127, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 471, \"losers\": 286, \"AS_losers\": 280, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 1150, \"losers\": 636, \"AS_losers\": 621, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 2385, \"losers\": 1123, \"AS_losers\": 860, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 3632, \"losers\": 1657, \"AS_losers\": 991, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 6374, \"losers\": 2526, \"AS_losers\": 1086, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 10234, \"losers\": 3426, \"AS_losers\": 725, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 14262, \"losers\": 3666, \"AS_losers\": 612, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 19389, \"losers\": 4296, \"AS_losers\": 450, \"Q\": 53}\r\n{\"mass\": 12, \"candidates\": 25275, \"losers\": 4458, \"AS_losers\": 270, \"Q\": 84}\r\n{\"mass\": 13, \"candidates\": 28211, \"losers\": 3276, \"AS_losers\": 168, \"Q\": 85}\r\n{\"mass\": 14, \"candidates\": 28425, \"losers\": 3045, \"AS_losers\": 132, \"Q\": 86}\r\n{\"mass\": 15, \"candidates\": 30653, \"losers\": 2450, \"AS_losers\": 60, \"Q\": 125}\r\n{\"mass\": 16, \"candidates\": 26824, \"losers\": 1008, \"AS_losers\": 24, \"Q\": 126}\r\n{\"mass\": 17, \"candidates\": 17388, \"losers\": 756, \"AS_losers\": 18, \"Q\": 127}\r\n{\"mass\": 18, \"candidates\": 14574, \"losers\": 462, \"AS_losers\": 6, \"Q\": 174}\r\n{\"mass\": 19, \"candidates\": 8316, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 19, \"last_complete_mass\": 19, \"certificate_sha256\": \"f173d84b0b7d5a26aa11c7bc93fe5965f785c2ce959633195aa602f1ccf873c5\"}\r\n",
+    "stderr": "",
+    "code_sha256": "0525ded9d4b8bc9f43b9809a917e9ea2842c68761791cffe76b6bd622db8d686"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_book_verify.py",
+      "book_star_6",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8120000000053551,
+    "peak_working_set_bytes": 20369408,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"book_star_6\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 19, \"last_complete_mass\": 19, \"certified_losing_states\": 33234, \"L_AS_seen\": 18, \"L_AS_grammar\": 18, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "2c0f9363af6415de042b078cc51f30e522118a4e4bc9fc266b22fd03cd08a9c6"
+  }
+]

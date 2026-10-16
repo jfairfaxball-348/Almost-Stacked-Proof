@@ -1,0 +1,16 @@
+{"mass": 1, "candidates": 8, "losers": 0, "AS_losers": 0, "Q": null}
+{"mass": 2, "candidates": 28, "losers": 28, "AS_losers": 28, "Q": 2}
+{"mass": 3, "candidates": 120, "losers": 84, "AS_losers": 84, "Q": 5}
+{"mass": 4, "candidates": 322, "losers": 207, "AS_losers": 206, "Q": 10}
+{"mass": 5, "candidates": 774, "losers": 385, "AS_losers": 357, "Q": 17}
+{"mass": 6, "candidates": 1560, "losers": 538, "AS_losers": 405, "Q": 26}
+{"mass": 7, "candidates": 2662, "losers": 554, "AS_losers": 326, "Q": 37}
+{"mass": 8, "candidates": 3438, "losers": 432, "AS_losers": 178, "Q": 50}
+{"mass": 9, "candidates": 3291, "losers": 249, "AS_losers": 75, "Q": 51}
+{"mass": 10, "candidates": 2227, "losers": 98, "AS_losers": 36, "Q": 82}
+{"mass": 11, "candidates": 958, "losers": 34, "AS_losers": 15, "Q": 101}
+{"mass": 12, "candidates": 284, "losers": 11, "AS_losers": 4, "Q": 90}
+{"mass": 13, "candidates": 89, "losers": 4, "AS_losers": 4, "Q": 123}
+{"mass": 14, "candidates": 26, "losers": 2, "AS_losers": 2, "Q": 170}
+{"mass": 15, "candidates": 8, "losers": 0, "AS_losers": 0, "Q": null}
+{"scope": "EXACT_THRESHOLD", "threshold": 15, "last_complete_mass": 15, "certificate_sha256": "8a29c41cd7f1b361c8fb69af2ddd12d24535538cfb2328cf47e456fa038ed788"}

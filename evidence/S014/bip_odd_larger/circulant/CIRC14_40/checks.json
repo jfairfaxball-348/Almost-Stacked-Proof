@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c074_produce.py",
+      "circulant/CIRC14_40"
+    ],
+    "exit_code": 0,
+    "seconds": 18.469000000011874,
+    "peak_working_set_bytes": 564551680,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_REGISTERED_CASES\", \"cases\": 1, \"bipartite_cases\": 1, \"inputs\": 343205, \"candidates\": 580618, \"states\": 1799628}\r\n",
+    "stderr": "",
+    "code_sha256": "df3f97a19c2bb5a4459be55940ab6f1b2da1fd73997a32f3bc2dd2299f368f14"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c074_verify.py",
+      "circulant/CIRC14_40"
+    ],
+    "exit_code": 0,
+    "seconds": 11.046999999991385,
+    "peak_working_set_bytes": 669417472,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_REGISTERED_CASES\", \"complete_tested_prefix_verified\": true, \"cases\": 1, \"bipartite_cases\": 1, \"inputs\": 343205, \"states\": 1799628, \"failed_inputs\": 0, \"failed_candidates_independently_checked\": 0, \"first_failure\": null, \"scope\": \"Only finite odd-positive bipartite parity challenge; universal ASH* OPEN\", \"seconds\": 9.90700000000652}\r\n",
+    "stderr": "",
+    "code_sha256": "de1fc77042e1a5f3bcbb169ef7263f8db6dfa7b02c9cebbe897fbcf8bd49739d"
+  }
+]

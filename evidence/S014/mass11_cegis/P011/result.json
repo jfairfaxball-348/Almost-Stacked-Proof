@@ -1,0 +1,37 @@
+{
+  "case": {
+    "id": "P011",
+    "n": 8,
+    "c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      5
+    ],
+    "source": "evidence/S014/mass11_cegis/imported",
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "control": false
+  },
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "iterations": 353,
+  "base_clauses": 416,
+  "stabilizer_size": 1,
+  "clauses": 416,
+  "seconds": 5.469000000011874,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

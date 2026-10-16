@@ -1,0 +1,13 @@
+{
+  "complete_all_candidate_memberships_equal": true,
+  "cases": 638,
+  "bipartite_cases": 48,
+  "critical_states": 14998,
+  "nonAS_inputs": 14814,
+  "candidates": 203673,
+  "all_source_failures": 0,
+  "heavy_source_failures": 0,
+  "first_failures": [],
+  "scope": "Finite critical bipartite parity challenge only; universal B_par and ASH* unproved",
+  "seconds": 4.437999999994645
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python_sat": "1.9.dev16",
+  "external_runtime_files": {
+    "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s014-sat-runtime\\pysolvers.cp312-win_amd64.pyd": "9d2da0ff17fff9f59335187d59e6dcc195d18e9e5b219744009a634c6a6ef6a9",
+    "C:\\Users\\johnf\\AppData\\Local\\Temp\\ash-s014-sat-runtime\\pysat\\solvers.py": "b84f0790c70b5af2f85ab82d0e1441aea874c2ae6483d90da40286a01397e065"
+  },
+  "primary_api": "https://pysathq.github.io/docs/html/api/solvers.html",
+  "note": "Isolated temporary runtime; independent saved-clause/DRUP verification does not need this native binary."
+}

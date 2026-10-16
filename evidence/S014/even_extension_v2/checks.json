@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_even_extension_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2134016,
+    "resource_failure": null,
+    "stdout": "{\"negative_states\": 50, \"positive_targets\": 4}\r\n",
+    "stderr": "",
+    "code_sha256": "999c1295a04081298f0e082a4d0b091185fbff713b0f3eeb5d6cbca780f52883"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_even_extension_verify_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2101248,
+    "resource_failure": null,
+    "stdout": "{\"original_negative_states\": 50, \"even_donors\": 1, \"all_vertices_tested\": 4, \"winning_candidates\": 4, \"literal_positive_moves\": 44, \"E0\": \"FALSE_ON_A_BIPARTITE_ZERO_IMBALANCE_LOSER\", \"critical_status\": \"BELOW_KNOWN_CRITICAL14\", \"universal_no2\": \"UNPROVED_NOT_REFUTED\", \"universal_ASH\": \"OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f9cafbe4ed9b81388616f71bc5f2b6d330b59c322c62b3c87225a2a138d5c70b"
+  }
+]

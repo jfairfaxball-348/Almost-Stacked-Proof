@@ -1,0 +1,18 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_11.md": "c3b9d1385a7678cccca7fa25718dbbd5900436408d3fb7a5fb3dfa8e90fb0424",
+    "sessions\\S014\\PLAN_AMENDMENT_11.sha256": "ff05e52810b9d3ebc59735b824f615f608392b5d0bea92e52e07229f1c5110af",
+    "evidence/S014/matching/threshold_inputs.json": "0c9238ae54841ee237eb70a1d0d6e76ebc3b80d35db9912a35ec64ef1bd6f0cc",
+    "tools/s014_matching.py": "0b973cce25b5fea625565359f0360cd29fb33b33235aaa6ecc0be81cb647efd5",
+    "tools/s014_matching_verify.py": "6ed92f202428d159b1746dd4784c9afee45f204a5d663c9208b3bc7a30b7360b",
+    "tools/s014_matching_threshold.py": "5e62b11214df6cdb2d3d13f8e0e141fbfa4321f4f519c3df85109271f0245bfb",
+    "tools/s014_matching_threshold_verify.py": "e4177c7e8db23cbc1c6c8caf0b989bbba399778116e9395d28d78b01510f4a8a",
+    "tools/s014_matching_run.py": "b03c43e44f1e02a146c8c39531fc00532f6d4af547e90bce8689eaca811d0554",
+    "tools/s014_threshold.py": "db0748f75d1ed693302309c3bf6c047272a519882c969c099bba49f68fb63c57",
+    "tools/s014_threshold_verify.py": "ea4670f167cc29ca6b7fb0c64bc3b472fceee8db72e3dd207351fb42ede6f2c3",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "research/S014_MATCHING_BUFFER_COMPARISON.md": "6318aebcd26873e3e446399b6891127f011868e70baf75015cee7fa0b4de0b34"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

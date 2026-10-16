@@ -1,0 +1,148 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2797568,
+    "resource_failure": null,
+    "stdout": "P4 produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1970176,
+    "resource_failure": null,
+    "stdout": "P4 verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4plus02",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 1966080,
+    "resource_failure": null,
+    "stdout": "P4plus02 produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4plus02",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10900000001129229,
+    "peak_working_set_bytes": 1949696,
+    "resource_failure": null,
+    "stdout": "P4plus02 verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4plus03",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1941504,
+    "resource_failure": null,
+    "stdout": "P4plus03 produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4plus03",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09399999999732245,
+    "peak_working_set_bytes": 1961984,
+    "resource_failure": null,
+    "stdout": "P4plus03 verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4plus13",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 1961984,
+    "resource_failure": null,
+    "stdout": "P4plus13 produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_job.py",
+      "P4plus13",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1941504,
+    "resource_failure": null,
+    "stdout": "P4plus13 verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_analysis.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1941504,
+    "resource_failure": null,
+    "stdout": "{\"negative_states\": 56, \"d\": [9, 0, 0, 3], \"minimum_heavy\": 2, \"Q\": 90, \"P\": 12, \"AS_losers\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "334f527cdca65b87c843bb619c12864dabbb150511e25ce1cd5094b802ff152f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_coordinate_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1941504,
+    "resource_failure": null,
+    "stdout": "{\"full_negative_states\": 56, \"literal_witnesses\": 18, \"literal_moves\": 202, \"neutral_roots\": 4, \"positive_insertions_checked\": 14, \"mass12_losers\": 4, \"minimum_heavy\": 2, \"Q\": 90, \"P\": 12, \"thresholds\": [15, 8, 7, 8], \"complete_selected_sets_equal\": true, \"all_coordinate_extensions_win_by_threshold_and_witnesses\": true, \"scope\": \"Actual noncritical P4 obstruction only; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "2aec81aa2ae885db5666a3515f2ffdf1be59cf85e1302b1b167b5fc7f0b19add"
+  }
+]
