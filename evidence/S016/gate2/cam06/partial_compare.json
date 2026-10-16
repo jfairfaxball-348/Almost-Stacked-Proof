@@ -1,0 +1,30 @@
+{
+ "bipartite_agree": 0,
+ "checker_completed": 12,
+ "checker_unknown": [
+  [
+   "H??ED@[",
+   "ASH_OK",
+   "CAP_UNKNOWN"
+  ],
+  [
+   "H?AEB?w",
+   "CAP_UNKNOWN",
+   "CAP_UNKNOWN"
+  ],
+  [
+   "H?ABAag",
+   "ASH_OK",
+   "CAP_UNKNOWN"
+  ]
+ ],
+ "disagree": [],
+ "dual_fail": [],
+ "dual_ok": 9,
+ "graphs": 71,
+ "producer_only": 59,
+ "producer_status_counts": {
+  "ASH_OK": 69,
+  "CAP_UNKNOWN": 2
+ }
+}

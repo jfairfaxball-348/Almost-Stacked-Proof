@@ -1,0 +1,8 @@
+closure of (0,0,1,0,0,5,0,8,0) states=1974 single_piles=0 NONSTACKABLE
+closure of (0,0,1,0,0,8,0,5,0) states=1974 single_piles=0 NONSTACKABLE
+AS mass14 checked=2304; all mass15 checked=490314; failures=0
+G9_FORWARD_OK
+
+real	0m2.495s
+user	0m0.030s
+sys	0m0.000s

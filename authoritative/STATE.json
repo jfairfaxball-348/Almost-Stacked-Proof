@@ -1,10 +1,10 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-16",
-  "last_completed_session": "S015",
-  "recommended_next_session": "S016",
+  "last_completed_session": "S016",
+  "recommended_next_session": "S017",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
-  "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN",
+  "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
   "active_campaign": null,
   "phases": {
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "S015: critical ASH*-STACK refuted at COMPUTED_EXACT level (G9); STACK component awaits independent cold re-check and Lean (rule 7, Phase 3 owner-gated). Critical ASH*-CLEAR OPEN. Phase 1 stays IN_PROGRESS."
+      "note": "S016: critical ASH*-STACK refutation (G9) COLD_RECHECK_PASS; critical ASH*-CLEAR refuted by the same G9 at COMPUTED_EXACT level (cold re-check S017). Both clauses refuted; Lean (rule 7, Phase 3) owner-gated. Phase 1 stays IN_PROGRESS pending S017 cold re-check and an owner gate decision."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -39,27 +39,27 @@
     }
   },
   "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
-  "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING",
+  "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING",
   "lean_status": "NOT_STARTED",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Independent fresh-session cold re-check of the G9 STACK counterexample with a newly written checker (S016)",
-    "Lean kernel proof of G9 K1-K4 (AGENTS.md rule 7; Phase 3, owner-gated)",
-    "Universal critical ASH*-CLEAR on connected non-bipartite graphs remains OPEN",
+    "Independent fresh-session cold re-check of the G9 CLEAR counterexample with a newly written checker (S017)",
+    "Lean kernel proof of G9 STACK and CLEAR K1-K4 (AGENTS.md rule 7; Phase 3, owner-gated)",
+    "Owner Phase 1 gate decision after the S017 cold re-check",
     "Bipartite critical ASH*-STACK: no bipartite counterexample known; OPEN",
-    "Infinite bridge-path family PB(4,4,2j,1): CONJECTURE only",
-    "Order-9 graphs listed UNKNOWN in evidence/S015/cam85/summary.json, if any",
-    "Independent review of local items 71-110, 114-115, 117-121 (pending; 111-113,116 cold-challenged in S015)",
-    "No S016 execution, phases 2-6, Lean, contact or publication permission is implied by this closeout."
+    "Infinite bridge-path family PB(4,4,2j,1) for STACK and CLEAR: CONJECTURE only",
+    "Order-9 CLEAR: 53286 graphs producer-only; S015 order-9 STACK UNKNOWN list: 62 not dual-verified, 2 capped",
+    "Independent review of local items 71-110, 114-115, 117-121 (pending)",
+    "No S017 execution, phases 2-6, Lean, contact or publication permission is implied by this closeout."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
-    "critical_form_ASHstar_stack": "FALSE (S015, COMPUTED_EXACT multi-checker, Lean and independent cold re-check pending): G9=HCQTaXi has stack 15, only mass-14 losers (0,0,1,0,0,5,0,8,0) and image, every AS of mass 14 stacks; L_all=14>L_AS=13. All connected graphs of order <=8 satisfy the equality. Historical: OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison. S01487-88 add triplet-head certificate surgery and a bipartite signed barrier; arbitrary/residual smaller-donor loss preservation refuted, critical/global-Q weakening unproved.",
-    "critical_form_ASHstar_clear": "OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison.",
+    "critical_form_ASHstar_stack": "FALSE; S016 Gate 1 independent cold re-check PASS (new Rust/Node checkers, all S015 checkers replayed, hand proof audited with repairs R1-R3); Lean pending. FALSE (S015, COMPUTED_EXACT multi-checker, Lean and independent cold re-check pending): G9=HCQTaXi has stack 15, only mass-14 losers (0,0,1,0,0,5,0,8,0) and image, every AS of mass 14 stacks; L_all=14>L_AS=13. All connected graphs of order <=8 satisfy the equality. Historical: OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison. S01487-88 add triplet-head certificate surgery and a bipartite signed barrier; arbitrary/residual smaller-donor loss preservation refuted, critical/global-Q weakening unproved.",
+    "critical_form_ASHstar_clear": "FALSE (S016, COMPUTED_EXACT multi-checker, cold re-check S017 and Lean pending): G9=HCQTaXi has clear 15, the only mass-14 non-clearable configurations are the two STACK critical losers (non-AS), every AS of mass 14 and every configuration of mass 15 clears; L_all=14>L_AS=13. All non-bipartite connected graphs of order <=8 satisfy the equality (dual). Historical: OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison.",
     "assurance": "S014 CLOSED at explicit owner request; local71-121 and81 bounded campaigns retain exact scopes. Universal STACK/CLEAR OPEN; independent human/kernel/priority assurance absent. Fresh full-DAG cold challenge FUTURE S015."
   },
   "correspondence": {
@@ -74,7 +74,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S016 strictly FUTURE_UNEXECUTED (owner-revised): Gate 1 independent cold re-check of the G9 STACK counterexample; Gate 2, only if it survives, critical ASH*-CLEAR (first of several CLEAR sessions).",
+  "next_session_context": "S017 strictly FUTURE_UNEXECUTED: Gate 1 independent cold re-check of the G9 CLEAR counterexample, then consolidation (mechanism, PB family, bipartite STACK) and owner gate/Lean proposals.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -419,10 +419,10 @@
     }
   },
   "next_session_handoff": {
-    "session": "S016",
+    "session": "S017",
     "status": "FUTURE_UNEXECUTED",
-    "path": "authoritative/handoffs/S016_OWNER_REVISED_2026-10-16.md",
-    "sha256": "dc5873f87931edc0a879631679c8afd7c3d6dc333bb6b2ce49d2fb36339991bd"
+    "path": "sessions/S016/FUTURE_S017.md",
+    "sha256": "e594e02a0702690f2c8a91ef173a6d9150147c76e4a6c7a16099e01f1e3fffd2"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -514,10 +514,10 @@
   },
   "active_session": null,
   "consumed_prospective_handoff": {
-    "session": "S015",
+    "session": "S016",
     "status": "FUTURE_UNEXECUTED",
-    "path": "sessions/S014/FUTURE_S015.md",
-    "sha256": "6bb328158ac429f974883475ac8751f125c256220273a1fd3112a211db36f821"
+    "path": "authoritative/handoffs/S016_OWNER_REVISED_2026-10-16.md",
+    "sha256": "dc5873f87931edc0a879631679c8afd7c3d6dc333bb6b2ce49d2fb36339991bd"
   },
   "s014": {
     "status": "COMPLETED",
@@ -4371,5 +4371,82 @@
     "owner_request_sha256": "114844b88e25aa3ed269e11d8adf19277a8eedac0ca19b3827985b4990c97bfb",
     "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S015 immutable files (including sessions/S015/FUTURE_S016.md and CLOSEOUT.md) preserved.",
     "closeout_addendum_for": "sessions/S015/CLOSEOUT.md"
+  },
+  "s016": {
+    "status": "COMPLETED",
+    "gate1": "COLD_RECHECK_PASS",
+    "universal_stack": "REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING",
+    "universal_clear": "REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING",
+    "counterexample": {
+      "graph6": "HCQTaXi",
+      "n": 9,
+      "edges": "0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8",
+      "stack": 15,
+      "clear": 15,
+      "L_all_stack": 14,
+      "L_AS_stack": 13,
+      "L_all_clear": 14,
+      "L_AS_clear": 13,
+      "critical_losers_both": [
+        "0.0.1.0.0.5.0.8.0",
+        "0.0.1.0.0.8.0.5.0"
+      ],
+      "evidence": "evidence/S016/gate1, evidence/S016/gate2/cam04",
+      "report": "research/S016_CLEAR.md, sessions/S016/GATE1_AUDIT.md"
+    },
+    "gate1_audit": "sessions/S016/GATE1_AUDIT.md",
+    "hand_proof_repairs": [
+      "R1 label-2 branch nodes",
+      "R2 equal labels of m2 neighbours",
+      "R3 missing (3,1)/(1,3) core-degree split"
+    ],
+    "clear_atlas_orders_2_8": {
+      "non_bipartite_ash_ok_dual": 11859,
+      "bipartite_skipped": 253,
+      "unknown": 0
+    },
+    "clear_atlas_order_9": {
+      "graphs": 261080,
+      "bipartite": 730,
+      "producer_ash_fail": [
+        "HCQTaXi"
+      ],
+      "producer_unknown": 0,
+      "dual_checked": 207794,
+      "producer_only": 53286,
+      "checker": "STOPPED_AT_OWNER_REQUEST"
+    },
+    "stack_order9_unknown_rerun": {
+      "graphs": 71,
+      "producer_ash_ok": 69,
+      "producer_cap": 2,
+      "dual_ok": 9
+    },
+    "campaigns_registered": [
+      "CAM-S016-01",
+      "CAM-S016-02",
+      "CAM-S016-03",
+      "CAM-S016-04",
+      "CAM-S016-05",
+      "CAM-S016-06"
+    ],
+    "amendments": 2,
+    "protocol_deviations": [
+      "pre-amendment 5-graph smoke test including G9 CLEAR (archived, not evidence)",
+      "comparator pipe-character parsing defect, fixed before use"
+    ],
+    "claims_programme_proved": [
+      "CLM-0259"
+    ],
+    "claims_computed": [
+      "CLM-0258",
+      "CLM-0260",
+      "CLM-0261",
+      "CLM-0262",
+      "CLM-0263"
+    ],
+    "author_code_clear": "NOT_RUN",
+    "author_contact": "NONE",
+    "formal_status": "NOT_STARTED"
   }
 }

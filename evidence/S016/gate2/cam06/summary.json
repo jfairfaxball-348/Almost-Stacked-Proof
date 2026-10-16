@@ -1,0 +1,32 @@
+{
+ "campaign": "CAM-S016-06",
+ "mode": "STACK",
+ "input": "71 order-9 graphs UNKNOWN in evidence/S015/cam85/summary.json",
+ "producer_ash_ok": 69,
+ "producer_cap_unknown": [
+  "H?AEB?w",
+  "H?`D@`O"
+ ],
+ "checker_completed": 12,
+ "dual_ok": 9,
+ "checker_cap_unknown": [
+  [
+   "H??ED@[",
+   "ASH_OK",
+   "CAP_UNKNOWN"
+  ],
+  [
+   "H?AEB?w",
+   "CAP_UNKNOWN",
+   "CAP_UNKNOWN"
+  ],
+  [
+   "H?ABAag",
+   "ASH_OK",
+   "CAP_UNKNOWN"
+  ]
+ ],
+ "disagree": [],
+ "checker_status": "STOPPED_AT_OWNER_REQUEST (addendum 2-i); 9 graphs dual ASH_OK, 3 checker-capped, the rest PRODUCER_ONLY",
+ "scope": "No new STACK failure among the 69 producer-completed graphs; only 9 are dual-verified. The S015 order-9 STACK UNKNOWN list is NOT closed: 62 graphs remain without dual verification."
+}

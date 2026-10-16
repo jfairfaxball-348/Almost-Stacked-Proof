@@ -1,51 +1,43 @@
-# S016 - Gate 1: cold re-check of the G9 STACK counterexample; Gate 2 (only if it survives): critical ASH*-CLEAR
+# S017 - cold re-check of the G9 CLEAR counterexample, then consolidation of the double refutation
 
-**FUTURE, UNEXECUTED.** Owner-directed revision (2026-10-16) of the frozen S015 handoff sessions/S015/FUTURE_S016.md: "Rewrite the next session to first recheck stack and then move on to clear if it survives." Requires a fresh explicit owner invocation. Execute exactly S016 in https://github.com/jfairfaxball-348/Almost-Stacked-Proof. S015 is the last completed session. Stop before S017. No delegation of research judgement, Lean, registration, publication, manuscript/arXiv, Palomar or correspondence with the source authors is authorized; each needs explicit owner authorization. This prospective handoff does not authorize execution. The owner intends to spend several sessions on CLEAR; S016 is the first of them, conditional on Gate 1.
+**FUTURE, UNEXECUTED.** Prepared at the S016 closeout (2026-10-16). Requires a fresh explicit owner invocation. Execute exactly S017 in https://github.com/jfairfaxball-348/Almost-Stacked-Proof. S016 is the last completed session. Stop before S018. No delegation of research judgement, Lean, registration, publication, manuscript/arXiv, Palomar or correspondence with the source authors is authorized; each needs explicit owner authorization. This prospective handoff does not authorize execution.
 
-## Where S015 left the problem
+## Where S016 left the problem
 
-The intended critical Almost Stacked Hypothesis has a STACK clause (finite connected simple graphs, n>=2) and a CLEAR clause (connected non-bipartite graphs), each of the form
+The intended critical Almost Stacked Hypothesis has a STACK clause (connected simple graphs, n>=2) and a CLEAR clause (connected non-bipartite graphs), each of the form
 
     L_all(G) <= L_AS(G)   (equivalently: some AS loser of size g(G)-1).
 
-S015 found the STACK clause FALSE, which refutes the combined hypothesis, subject to the gates below. On G9 = graph6 `HCQTaXi` (edges 0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8): stack(G9)=15; the only mass-14 losers are (0,0,1,0,0,5,0,8,0) and its automorphic image; every AS configuration of mass 14 stacks; L_all=14 > L_AS=13. Evidence: research/S015_G9_COUNTEREXAMPLE.md and evidence/S015/counterexample (two separately written compiled tools, bare-definition brute force over masses 1..16, closed-set certificates of 1974 states, 6912 replayed AS winning sequences, 490,314 replayed mass-15 winning sequences, Python validator, the source authors' own public code returning False, and a human proof of non-stackability via S014-111/112/113). Status: COMPUTED_EXACT, LEAN_PENDING, INDEPENDENT_COLD_RECHECK_PENDING.
+On G9 = graph6 `HCQTaXi` (edges 0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8; non-bipartite via triangle 0-3-5):
+- STACK: stack=15, L_all=14>L_AS=13 (S015). S016 Gate 1 COLD_RECHECK_PASS (sessions/S016/GATE1_AUDIT.md): new Rust backward-closure and Node forward checkers, every S015 checker replayed with identical outputs, 286/286 S015 manifest hashes, hand proof audited with three editorial repairs R1-R3. LEAN_PENDING.
+- CLEAR (S016, research/S016_CLEAR.md): clear=15, the only mass-14 non-clearable configurations are the same two STACK critical losers (0,0,1,0,0,5,0,8,0) and image, no AS non-clearable configuration of mass 14, none of mass 15: L_all^CLEAR=14>L_AS^CLEAR=13. Evidence: two independently written layer tools, a bare-definition backward closure from the mass-1 configurations, 492,618 replayed clearing sequences (every AS configuration of mass 14 and every configuration of mass 15) with a separate Python verifier, closed reachable sets without a mass-1 state, and a human proof of non-clearability through the elementary loser-inclusion T1 (clearable implies stackable). Status COMPUTED_EXACT, INDEPENDENT_COLD_RECHECK_PENDING, LEAN_PENDING. The authors' public clearing code was not run in S016.
+- Atlases (S016, dual tools): every non-bipartite connected graph of order <=8 satisfies ASH*-CLEAR (924 of orders 2..7 matching frozen S003/S004 values, 10,935 of order 8), so 9 is the minimum order of a CLEAR counterexample. Order 9: the producer completed all 261,080 graphs (730 bipartite skipped) and finds G9 the UNIQUE CLEAR failure; the independent checker was stopped at the owner's request after 207,794 graphs (all agreeing), so 53,286 order-9 graphs are producer-only (evidence/S016/gate2/cam05/summary.json). All 17 S015 STACK-failure family members that completed also fail CLEAR (dual), and on the S015 families the STACK and CLEAR verdicts coincide wherever both are known. The S015 order-9 STACK UNKNOWN list (71) was re-run: 69 producer ASH_OK, 2 capped, only 9 dual-verified (cam06).
 
-Atlases: all connected graphs of order <=8 satisfy the STACK equality; order 9 has 261,008 dual-verified passes, exactly one failure (G9) and 71 UNKNOWN (22 trees covered by EARLIER TreeStack, 49 non-trees stopped at closeout). CAM90/91 families add counterexamples of orders 9-13; the even-bridge infinite family is a conjecture only. Earlier TreeStack (arXiv:2609.31811, registered package) remains credited prior work (trees satisfy critical ASH*, S003 Thm 8); S003/S004 printed-form counterexamples are a separate statement. S014 items 111-113 and 116 were cold-challenged in S015; other S014 items 71-121 remain LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING.
+Both clauses of the intended hypothesis are therefore refuted at COMPUTED_EXACT level; the CLEAR refutation has NOT had a fresh-session cold re-check. S014 local items 71-110, 114-115 and 117-121 remain LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING (111-113 and 116 cold-challenged in S015). Earlier TreeStack (arXiv:2609.31811, registered package) remains credited prior work; S003/S004 printed-form counterexamples are a separate statement.
 
 ## Entry
 
-Read AGENTS.md, authoritative/START_HERE.md, STATE.json, docs/SESSION_PROTOCOL.md and RELEASE_PROTOCOL.md, research/ASH_SPEC.md, the catalogues, the route/decision/failure/session/gate/search/handoff-revision ledgers, sessions/S015/{INPUT,PLAN,PLAN_AMENDMENT_*,AUDIT,CLOSEOUT,OWNER_CLOSEOUT} and research/S015_*.md. Pin LIVE remote main and independently reconcile the actual S015 commit, PR #18, merge, hosted jobs and check-runs, and this administrative revision's own commit/PR (recorded in PR metadata; do not infer them from this prompt). Note that PR #18 was merged at the owner's request while its hosted jobs were still queued: record their actual outcomes.
+Read AGENTS.md, authoritative/START_HERE.md, STATE.json, docs/SESSION_PROTOCOL.md and RELEASE_PROTOCOL.md, research/ASH_SPEC.md, the catalogues, the route/decision/failure/session/gate/search/handoff-revision ledgers, sessions/S016/{INPUT,PLAN,PLAN_AMENDMENT_*,GATE1_AUDIT,AUDIT,CLOSEOUT} and research/S016_CLEAR.md. Pin LIVE remote main and independently reconcile the actual S016 commit, PR, merge, hosted jobs and check-runs (recorded in PR metadata; do not infer them from this prompt).
 
-## Gate 1 (first milestone, mandatory): independent cold re-check of G9
+## Gate 1 (mandatory): independent cold re-check of the G9 CLEAR counterexample
 
-Re-check the STACK counterexample adversarially as a fresh session before any CLEAR work:
+1. Re-derive the CLEAR definitions and threshold convention (S003 Lemma 1/2, Prop. 3, Thm 4 with g=clear; October Lemma 4.7; exactly-one-pebble terminal; bipartite exclusion) and check T1-T3 of research/S016_CLEAR.md line by line.
+2. Write a NEW checker in a style not used in S015/S016 (for example a SAT/BDD encoding of K2c/K3c, or an exact integer-programming/parity argument, or a different language), preregister it in a hashed plan, and re-verify K1c-K4c.
+3. Replay every S016 checker and compare with evidence/S016/HASHES.md.
+4. Outcome rule: all agree => CLEAR refutation COLD_RECHECK_PASS; then propose to the owner a Phase 1 gate decision (both clauses refuted, Lean pending) and a Phase 3 Lean authorization covering G9 STACK and CLEAR. Any discrepancy => suspend the CLEAR status, diagnose definitively, record without rewriting S016 bytes.
 
-1. Re-derive the definitions and threshold convention from the inspected source scope (S003 Thm 4, October Lemma 4.7, the author-confirmed intended meaning SRC-0010): moves, stackable, almost stacked, exact-layer versus at-least thresholds, n=0/1 exclusions.
-2. Re-read the human non-stackability proof (S015_G9_COUNTEREXAMPLE.md section 5) line by line, every padded-tree case, and its dependencies 111-113 and the credited cancellation 47.
-3. Write a NEW independent checker in a different style (for example a SAT/BDD encoding, a bitset reachability engine, or a different language) that re-verifies K1-K4 without reusing S015 code, and preregister it in a hashed plan before running.
-4. Re-run every S015 certificate checker and compare all digests with evidence/S015/HASHES.md.
+## After Gate 1 (only if it passes)
 
-Outcome rule. If every check agrees, record STACK refutation COLD_RECHECK_PASS (Lean still pending; propose a Phase 3 Lean authorization to the owner in the closeout) and proceed to Gate 2. If any discrepancy appears, do NOT proceed to CLEAR: suspend the counterexample status, investigate to a definite diagnosis, record it without rewriting S015 bytes, and make that the session's work.
-
-## Gate 2 (only if Gate 1 passes): critical ASH*-CLEAR
-
-Main objective for the rest of S016 and the following sessions: prove or disprove the CLEAR clause on connected non-bipartite graphs, with all S015 discipline.
-
-1. Re-state and re-prove for CLEAR the loser-layer candidate and termination lemmas (target: exactly one pebble remaining; clear(G) conventions and the bipartite exclusion checked against ASH_SPEC and S003-S007 CLEAR results).
-2. Cheapest test first: check G9, the twelve CAM90 counterexamples and the PB(4,4,l,1) graphs for CLEAR.
-3. Complete non-bipartite CLEAR atlases of order 8 and then 9 with two independently written tools, compared against the frozen S003/S004 order-7 CLEAR results (809 graphs); report exact UNKNOWN scopes.
-4. If a CLEAR counterexample appears: certify it as G9 was (brute force, replayable certificates, the authors' clearing function, a hand proof of the non-clearable part). If none appears: use complete critical layers to seek a mechanism, test whether the G9 parity-marker mechanism can transfer to CLEAR or explain why it cannot, and pursue a symbolic proof for a substantial class. Keep OPEN status honest.
-
-Secondary only after Gate 2 work is substantive: the even-bridge infinite STACK family by symbolic proof, and finishing the 49 UNKNOWN order-9 non-tree graphs under a new bounded plan.
+Substantive, in this order of priority: (a) a structural explanation of the G9 mechanism for both clauses (why every mass-15 configuration clears; which stackable-but-not-clearable configurations exist near the threshold; T3 as a general transfer criterion); (b) a symbolic proof for the PB(4,4,2j,1) even-bridge family (STACK and CLEAR), currently a conjecture with computed members j=0,1 (j=2 STACK producer-only, CLEAR capped in S016); (c) bipartite critical ASH*-STACK (no bipartite counterexample known); (d) any remaining UNKNOWN order-9 graphs under a new bounded plan. A corrected or weakened hypothesis may be formulated only as a clearly labelled NEW statement, never as the authors'.
 
 ## Gates and permissions
 
-Phase 1 stays IN_PROGRESS until the STACK refutation passes the cold re-check and the CLEAR question is resolved, or the owner revises the plan. Phase 2 novelty audit and Phase 3 Lean (required by AGENTS.md rule 7 before a counterexample is final) need explicit owner authorization. Contacting Csernák/Soukup is owner-only; the existing reply draft remains NOT SENT.
+Phase 1 stays IN_PROGRESS until the owner records a gate decision. Phase 2 novelty audit and Phase 3 Lean (AGENTS.md rule 7) need explicit owner authorization. Contacting Csernak/Soukup is owner-only; the existing reply draft remains NOT SENT.
 
 ## Computational discipline
 
-Before any computation write and hash a bounded amendment: exact graph/input class, order/mass limits, caps, symmetry justification, two independently written validators, completeness and UNKNOWN policy, code/input/output hashes. Caps are UNKNOWN, never evidence. State the actual environment. Preserve all S003-S015 immutable manifests, failed attempts, aborted pilots and UNKNOWNs.
+Before any computation write and hash a bounded amendment: exact graph/input class, order/mass limits, caps, symmetry justification, two independently written validators, completeness and UNKNOWN policy, code/input/output hashes. Caps are UNKNOWN, never evidence. State the actual environment. Preserve all S003-S016 immutable manifests, failed attempts, aborted pilots, protocol deviations and UNKNOWNs. Do not claim L_all(G) <= L_AS(G) anywhere beyond computed or proved scopes.
 
 ## Closeout
 
-One branch, one atomic authored session commit, ordinary PR, non-force merge if permitted; pin actual heads/trees/parents/hosted jobs/main after creation. Synchronize state, spec, catalogues, decision/route/failure/session/gate/search ledgers, campaign registry and evidence manifests. Prepare a complete FUTURE/UNEXECUTED S017 handoff that continues the CLEAR programme (or, if Gate 1 failed, the investigation). Avoid model/vendor names in repository files.
+One branch, one atomic authored session commit, ordinary PR, non-force merge if permitted; pin actual heads/trees/parents/hosted jobs/main after creation. Synchronize state, spec, catalogues, decision/route/failure/session/gate/search ledgers, campaign registry and evidence manifests. Prepare a complete FUTURE/UNEXECUTED S018 handoff. Avoid model/vendor names in repository files.
