@@ -1,0 +1,9 @@
+{
+  "case": "P17",
+  "clauses": 1474,
+  "c_winning_trace_clauses": 445,
+  "AS_negative_clauses": 957,
+  "AS_closure_states": 347192,
+  "literal_c_winning_moves": 3543,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

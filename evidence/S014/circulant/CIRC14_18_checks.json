@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_circulant_job.py",
+      "CIRC14_18",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 11.047000000005937,
+    "peak_working_set_bytes": 117231616,
+    "resource_failure": null,
+    "stdout": "CIRC14_18 produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "da6ad290fd4bdb72036b7c75f66fede429eb8ac6214b8182e5f49c2e8345ef7c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_circulant_job.py",
+      "CIRC14_18",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 6.5310000000026776,
+    "peak_working_set_bytes": 61706240,
+    "resource_failure": null,
+    "stdout": "CIRC14_18 verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "da6ad290fd4bdb72036b7c75f66fede429eb8ac6214b8182e5f49c2e8345ef7c"
+  }
+]

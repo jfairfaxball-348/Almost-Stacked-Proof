@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_split.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7030000000086147,
+    "peak_working_set_bytes": 130084864,
+    "resource_failure": null,
+    "stdout": "{\"tests\": 176, \"failures\": 3, \"Qmax_failures\": 0, \"QP_failures\": 0, \"critical_failures\": 0, \"certificates\": 1}\r\n",
+    "stderr": "",
+    "code_sha256": "41068701d021a094cdd0b1607c47852ab6e2bdf78cbfb288b604de2ede6fbaea"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_split_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7189999999973224,
+    "peak_working_set_bytes": 134266880,
+    "resource_failure": null,
+    "stdout": "{\"tests\": 176, \"failures\": 3, \"Qmax_failures\": 0, \"QP_failures\": 0, \"critical_failures\": 0, \"certificates\": 1, \"negative_closure_states\": 76, \"literal_moves\": 6, \"all_generated_sets_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "73a042ac51e8f289a5976220e28601a21e6c03f68acabe3d33135299c25a0ad3"
+  }
+]

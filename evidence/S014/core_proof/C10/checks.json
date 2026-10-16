@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 1.4060000000026776,
+    "peak_working_set_bytes": 324374528,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"status\": \"SAT_SUBSET_UNKNOWN\", \"original_clauses\": 500000, \"core_clauses\": 0, \"tightening_calls\": 0, \"seconds\": 0.29699999999138527, \"scope\": \"Fixed input only, provisional until subset and complete fresh proof independently checked\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f7c20665a61843e1e9b63b5f85a1af561ee83ff1a779424f828f975f9dade565"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_verify.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 52289536,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"core_clauses\": 0, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"selected_literal_original_clauses_independently_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "8175c954ae5c5f162d3188387b42bf115c6956082582a0d4c55e4368f14d53f5"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_drup.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09399999999732245,
+    "peak_working_set_bytes": 2084864,
+    "resource_failure": null,
+    "stdout": "UNKNOWN: no UNSAT proof to replay\r\n",
+    "stderr": "",
+    "code_sha256": "861a6719b70cbd8190dfec569acdf3b452afd90cb6270c21523d1887d671475a"
+  }
+]

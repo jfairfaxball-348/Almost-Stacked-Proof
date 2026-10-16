@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:/Users/johnf/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe",
+      "tools/s014_cube_layer_job.ps1",
+      "3",
+      "14"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40600000001722947,
+    "peak_working_set_bytes": 87863296,
+    "resource_failure": null,
+    "stdout": "{\"dimension\":3,\"n\":8,\"mass\":14,\"status\":\"COMPLETE_LAYER\",\"candidates\":22,\"losers\":1,\"examined\":22,\"certificate\":\"mass14.bin.gz\",\"sha256\":\"eaa2f3692cca1ec201c8bc1f6f2a39b3279b943efa69b48010b870cc42766067\",\"seconds\":0.0105354,\"scope\":\"Complete layer only after independent replay; caps UNKNOWN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "b5b5d4ebe73b06d8dd6067a8d364e39b7642eb4a55661926f77ff3bd41292ac7"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_layer_verify.py",
+      "3",
+      "14"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1925120,
+    "resource_failure": null,
+    "stdout": "{\"dimension\": 3, \"n\": 8, \"mass\": 14, \"status\": \"COMPLETE_LAYER_VERIFIED\", \"all_full_orbit_losing_sets_equal\": true, \"loser_orbits\": 1, \"checker_candidates\": 10, \"canonical_first_parent_instances\": 10, \"exact_AS_oracle_calls\": 0, \"seconds\": 0.0159999999741558, \"scope\": \"Full XOR-orbit layer only if equality flag true; no universal ASH* inference\"}\r\n",
+    "stderr": "",
+    "code_sha256": "60062824d438df1e22129c9cc5412c2313e90ea36fb6bc8c36f150160bd0a0f3"
+  }
+]

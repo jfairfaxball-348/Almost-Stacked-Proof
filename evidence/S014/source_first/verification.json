@@ -1,0 +1,13 @@
+{
+  "complete_predecessor_inventory_and_all_child_masks_equal": true,
+  "cases": 142,
+  "states": 167713,
+  "predecessors": 598867,
+  "winning_multioccupied_inputs": 437350,
+  "heavy_sources": 1211093,
+  "child_tests": 2538712,
+  "pure3_terminal_predecessors": 809,
+  "failed_sources": 0,
+  "scope": "Complete source-first challenge on precisely142 old graphs;116 symbolic proof separate; universal ASH* OPEN",
+  "seconds": 24.219000000011874
+}

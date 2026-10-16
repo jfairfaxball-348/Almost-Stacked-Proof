@@ -1,0 +1,16 @@
+{
+  "traces": 7620,
+  "literal_moves": 92504,
+  "branches": {
+    "stack:pure_A": 10,
+    "stack:B_root": 3311,
+    "stack:B_root_with_xy": 1238,
+    "stack:A_root": 1537,
+    "clear:pure_A": 10,
+    "clear:B_root": 783,
+    "clear:A_root_last_pair": 259,
+    "clear:exception_K6": 1,
+    "clear:A_root": 471
+  },
+  "all_generated_inputs_and_grammar_predictions_equal": true
+}

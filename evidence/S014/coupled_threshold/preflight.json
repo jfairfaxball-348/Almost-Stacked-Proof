@@ -1,0 +1,24 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_32.md": "c153634c4e8a4eb86b9cd8492de3719951da77b272fa37460531bbcc9d260a9d",
+    "evidence/S014/coupled_threshold/inputs.json": "81fc6e9d6acc97d2649eb573af1afb340689abfc295d1b825aca0d67e2eca7a7",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_coupled_threshold.py": "db6f416e46b76d4ddf3ceb25714705279be8c7be25a2523b6a22ff0b6dbfc158",
+    "tools/s014_coupled_threshold_run.py": "5433128cb85b3fdc83f84ba6883548c8f96b81bd604c93767d65d425feb9a235",
+    "tools/s014_coupled_threshold_verify.py": "3c7b26f04ef5533a2bf623b6a1bf573aea6f678e05f1af4f81fbd94659655e37",
+    "evidence/S014/coupled_rays/C00_51_s0_rays.json.xz": "8c3631fdc72c619d17bea0cb13ba1cd8d615bfafc19b5500004c15081ad8eeb8",
+    "evidence/S014/coupled_rays/C00_51_s0_verification.json.xz": "85de4c71aa13455fad58ad35245dc1bbe94d747b4380cce0769b1d31956dc012",
+    "evidence/S014/coupled_rays/C00_51_s2_rays.json.xz": "cd63cde351189ddaf21bed81f46fcd6f8846921501abacae645f1e4d7259d1f5",
+    "evidence/S014/coupled_rays/C00_51_s2_verification.json.xz": "fbb4a75b462d7a8376bc7640270b9d8a126d3215e057ca3e98b6197827991047",
+    "evidence/S014/coupled_rays/C00_51_s4_rays.json.xz": "1b57d73de9ecca7cb94c48cde2c47fd9bdfc0b63aa498beb9ece18907c9d6fc0",
+    "evidence/S014/coupled_rays/C00_51_s4_verification.json.xz": "6b95fdecafaebc39c3dcdcdb764fcf821b7b7464184d34feea8f459b2d315294",
+    "evidence/S014/coupled_rays/C00_60_s0_rays.json.xz": "bd69107289fdd1d9f9cb897c1dcd3d7d312566f44d1a7863cadd78c65e07bef4",
+    "evidence/S014/coupled_rays/C00_60_s0_verification.json.xz": "57ee6a6baaf24716ed27943fefa4f6d40b2e096e689f7022bd2411b7b612fc43",
+    "evidence/S014/coupled_rays/C00_60_s2_rays.json.xz": "a60622afe17343c574545987f5878732d68b8209bf6821a08f49a815d09dd009",
+    "evidence/S014/coupled_rays/C00_60_s2_verification.json.xz": "ce57a45bdce7bfac3240edcf891a182cb0a5fa9fc0ea388c5e9ce918cd3c44a5",
+    "evidence/S014/coupled_rays/C00_60_s4_rays.json.xz": "3d3e7306d984efd3175e37bd9a2859e4425918360be25a9894bdd80c24c78ee5",
+    "evidence/S014/coupled_rays/C00_60_s4_verification.json.xz": "a8aaf083a503b309fc47acb4fb95addb2ed7fb2437bf89d4fb9b7873b9619d15"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

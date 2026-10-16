@@ -1,0 +1,11 @@
+{
+  "graph": "g6_1472",
+  "goal": "stack",
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 21,
+  "last_complete_mass": 21,
+  "certified_losing_states": 2341,
+  "L_AS_seen": 20,
+  "L_AS_exact": 20,
+  "all_full_losing_layers_equal": true
+}

@@ -1,0 +1,9 @@
+{
+  "case": "C6",
+  "status": "UNSAT_AWAITING_INDEPENDENT_CERTIFICATE",
+  "original_clauses": 170,
+  "core_clauses": 68,
+  "tightening_calls": 97,
+  "seconds": 0.015999999988707714,
+  "scope": "Fixed input only, provisional until subset and complete fresh proof independently checked"
+}

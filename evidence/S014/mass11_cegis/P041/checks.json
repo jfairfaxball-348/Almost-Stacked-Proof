@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_cegis.py",
+      "P041"
+    ],
+    "exit_code": 0,
+    "seconds": 17.96799999999348,
+    "peak_working_set_bytes": 45977600,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P041\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 3077, \"base_clauses\": 3140, \"stabilizer_size\": 1, \"clauses\": 3140, \"seconds\": 17.812000000005355, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1dde2ec02d59032080bea2df88467c3d6538074d04ddb483ab5ef17b45a65e8d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_verify.py",
+      "P041"
+    ],
+    "exit_code": 0,
+    "seconds": 0.9060000000172295,
+    "peak_working_set_bytes": 28856320,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P041\", \"clauses\": 3140, \"c_winning_trace_clauses\": 2877, \"AS_negative_clauses\": 181, \"AS_closure_states\": 99749, \"literal_c_winning_moves\": 25619, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P041\", \"graph_certificate_records\": 3140, \"distinct_graph_clauses\": 3140, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "4abc2ddaa5802c6fdabbf4cbfb6993dd351c10238b7a6d4348b18bdd4c4757ca"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\mass11_cegis\\P041\\formula.cnf",
+      "evidence\\S014\\mass11_cegis\\P041\\proof.drup",
+      "-L",
+      "evidence\\S014\\mass11_lrat\\P041\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 1871872,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 173 variables and 3745 clauses\r\n\rc WARNING: deleted clause on proof line 7713 does not occur: [268467541] -1 2 0\r\n\rc WARNING: deleted clause on proof line 7715 does not occur: [268467541] 1 2 30 0\r\n\rc WARNING: deleted clause on proof line 7728 does not occur: [268467541] -1 59 0\r\n\rc WARNING: deleted clause on proof line 7729 does not occur: [268467541] 1 59 0\r\n\rc WARNING: deleted clause on proof line 7760 does not occur: [268467541] -1 88 0\r\n\rc WARNING: deleted clause on proof line 7761 does not occur: [268467541] 1 88 0\r\n\rc WARNING: deleted clause on proof line 7798 does not occur: [268467541] -1 117 0\r\n\rc WARNING: deleted clause on proof line 7799 does not occur: [268467541] 1 117 0\r\n\rc WARNING: deleted clause on proof line 7835 does not occur: [268467541] -1 146 0\r\n\rc WARNING: deleted clause on proof line 7836 does not occur: [268467541] 1 146 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 1629 of 3745 clauses in core                            \r\n\rc 1061 of 1123 lemmas in core using 31192 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.072 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "8b5eb8b27d19cd50f675633816e747539d9aed4ce71f7ab30af71a2c7393e37c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_lrat_verify.py",
+      "P041"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20399999999790452,
+    "peak_working_set_bytes": 19918848,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P041\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 1061, \"deleted_clause_ids\": 4722, \"hint_visits\": 31192, \"seconds\": 0.046999999991385266}\r\n",
+    "stderr": "",
+    "code_sha256": "375e31c2030a6ec078821a159fd27d8a2530c29a0ac19f13c010b6625671648a"
+  }
+]

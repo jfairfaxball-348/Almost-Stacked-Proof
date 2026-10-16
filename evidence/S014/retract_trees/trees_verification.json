@@ -1,0 +1,19 @@
+{
+  "graphs": 31,
+  "isometric_trees": 2279,
+  "ambient_edges_mapped": 65648,
+  "all_full_subtree_sets_equal": true,
+  "all_retractions_true_loopless_edge_maps": true,
+  "all_earlier_TreeStack_root_scores_equal": true,
+  "crown_maxima": [
+    15,
+    16,
+    19
+  ],
+  "crown_AS_lower_thresholds": [
+    16,
+    19,
+    22
+  ],
+  "scope": "Scoped bridge101 and actual stronger-selection obstruction102; universal ASH* OPEN"
+}

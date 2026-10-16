@@ -1,0 +1,11 @@
+{
+  "case": "K2_2",
+  "configurations": 1001,
+  "upper_traces": 382,
+  "branches": {
+    "existing4": 372,
+    "adjacent3and2": 10
+  },
+  "literal_moves": 3254,
+  "all_complete_masks_and_histories_equal": true
+}

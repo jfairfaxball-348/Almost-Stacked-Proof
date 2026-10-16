@@ -1,0 +1,12 @@
+{
+  "shard": 1,
+  "graphs": 27,
+  "ordered_pairs": 327,
+  "queries": 2605,
+  "states": 23289,
+  "negative_states": 16498,
+  "literal_constructions": 981,
+  "literal_moves": 4632,
+  "all_queries_match_exact_residue_cutoffs": true,
+  "scope": "Only registered27 graphs and d<=3 negative/positive query ranges; universal theorem100 is symbolic, ASH* OPEN"
+}

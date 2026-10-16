@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F4_53_A1B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 34451456,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 7, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 21, \"losers\": 21, \"AS_losers\": 21, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 84, \"losers\": 56, \"AS_losers\": 56, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 202, \"losers\": 91, \"AS_losers\": 89, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 424, \"losers\": 128, \"AS_losers\": 127, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 648, \"losers\": 124, \"AS_losers\": 100, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 765, \"losers\": 92, \"AS_losers\": 58, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 770, \"losers\": 61, \"AS_losers\": 31, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 614, \"losers\": 30, \"AS_losers\": 13, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 303, \"losers\": 4, \"AS_losers\": 2, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 52, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 11, \"last_complete_mass\": 11, \"certificate_sha256\": \"66b6094b6e48ede2eae1d20073a920b7c2a1a8b8947bdf2221d140432acc2e48\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F4_53_A1B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2101248,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F4_53_A1B2\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 11, \"last_complete_mass\": 11, \"certified_losing_states\": 607, \"L_AS_seen\": 10, \"proposed_L_AS\": 10, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

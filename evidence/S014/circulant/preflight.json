@@ -1,0 +1,13 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_33.md": "8c348bd01dff672666e4745302ef64630ac44099fb8a47af490c51e8854e7ed3",
+    "evidence/S014/circulant/inputs.json": "b047ab232df53c57cd0d341735e860a08e310f97cab94585839b870adc812182",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_circulant_engine.py": "6b4a01aac8bad7a6bb49a90e4bf435ce9947f5693b028982f4f90200c3ffd2e0",
+    "tools/s014_circulant_engine_verify.py": "be5e93de7c01605951a2424cdc13653b7255cb610c54253960e67c183bb451a9",
+    "tools/s014_circulant_job.py": "da6ad290fd4bdb72036b7c75f66fede429eb8ac6214b8182e5f49c2e8345ef7c",
+    "tools/s014_circulant_run.py": "5b7ba89e0a35ef49675d9d1aaa1d9811e949afe3187c2bf2071ae2e4b3586080"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

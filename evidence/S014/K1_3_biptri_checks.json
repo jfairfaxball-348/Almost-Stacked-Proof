@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_biptri.py",
+      "K1_3"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 17416192,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"K1_3\", \"configurations\": 2380, \"upper_traces\": 1235, \"branches\": {\"existing4\": 1235}}\r\n",
+    "stderr": "",
+    "code_sha256": "d73dfae669b2d78f3ed68c4e5cfcd23dcef6d7c85928d073b714faf3ccc460a1"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_biptri_verify.py",
+      "K1_3"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 17846272,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"K1_3\", \"configurations\": 2380, \"upper_traces\": 1235, \"branches\": {\"existing4\": 1235}, \"literal_moves\": 13320, \"all_complete_masks_and_histories_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "97c682476bfc39c3cbcf4bae5ed51b7399da9785d78e2d149e82da4183027260"
+  }
+]

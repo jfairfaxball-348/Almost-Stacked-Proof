@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_watched_drup.py",
+      "evidence/S014/even_cegis/M9",
+      "M9"
+    ],
+    "exit_code": 0,
+    "seconds": 29.922000000005937,
+    "peak_working_set_bytes": 58019840,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"M9\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY this exact fixed input graph-class exclusion; universal ASH* OPEN\", \"added_RUP_steps\": 14277, \"deletions\": 8799, \"active_watched_clause_visits\": 60743741, \"seconds\": 29.73399999999674}\r\n",
+    "stderr": "",
+    "code_sha256": "d5630e7fc5f77dcfb7c6a44985f16c61b5dc51ca287e6087b4a37f2adc148a1f"
+  }
+]

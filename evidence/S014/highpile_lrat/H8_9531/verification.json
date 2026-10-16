@@ -1,0 +1,9 @@
+{
+  "case": "H8_9531",
+  "fixed_input_class_exclusion_certified": true,
+  "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+  "verified_RUP_additions": 6074,
+  "deleted_clause_ids": 11063,
+  "hint_visits": 117062,
+  "seconds": 0.2029999999795109
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_dag_verify_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.2030000000086147,
+    "peak_working_set_bytes": 58056704,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_AS_TAIL_UPPER31\", \"verified_nodes\": 1572864, \"completed_masks\": 32768, \"queries_examined\": 98304, \"upper_witnesses_missing\": 0, \"every_node_has_sound_well_founded_production\": true, \"all16_XOR_maps_verified\": true, \"complete_AS_tail_upper31\": true, \"exact_L_AS\": 30, \"scope\": \"Positive upper certificates only; no general threshold, loss from missing witness, or universal ASH* claim\", \"seconds\": 2.0}\r\n",
+    "stderr": "",
+    "code_sha256": "af002a50eda9b7b072fabe699d359c1b961686dc1340d5bb93947a240f6c8f1c"
+  }
+]

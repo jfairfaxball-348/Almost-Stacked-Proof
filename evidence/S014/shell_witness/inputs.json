@@ -1,0 +1,7170 @@
+{
+  "graphs": [
+    {
+      "id": "A0",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A1",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A2",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A3",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A5",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A6",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A7",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A8",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A9",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A10",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A11",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A12",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A13",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A14",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A15",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A16",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A17",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A18",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A19",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A20",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A21",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A22",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A23",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A24",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A25",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "A26",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "small": true
+    },
+    {
+      "id": "Q4",
+      "n": 16,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "small": false
+    },
+    {
+      "id": "FanoInc14",
+      "n": 14,
+      "edges": [
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          6,
+          12
+        ]
+      ],
+      "small": false
+    },
+    {
+      "id": "A182",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "small": false
+    }
+  ],
+  "rows": [
+    {
+      "id": 0,
+      "graph": "A0",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 1,
+      "graph": "A0",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 2,
+      "graph": "A1",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 3,
+      "graph": "A1",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 4,
+      "graph": "A1",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 5,
+      "graph": "A1",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 6,
+      "graph": "A1",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 7,
+      "graph": "A2",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 8,
+      "graph": "A2",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 9,
+      "graph": "A2",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 10,
+      "graph": "A2",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 11,
+      "graph": "A2",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 12,
+      "graph": "A2",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 13,
+      "graph": "A2",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 14,
+      "graph": "A3",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 15,
+      "graph": "A3",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 16,
+      "graph": "A3",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 17,
+      "graph": "A3",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 18,
+      "graph": "A3",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 19,
+      "graph": "A3",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 20,
+      "graph": "A3",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 21,
+      "graph": "A3",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 22,
+      "graph": "A3",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 23,
+      "graph": "A3",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 24,
+      "graph": "A4",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 25,
+      "graph": "A4",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 26,
+      "graph": "A4",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 27,
+      "graph": "A4",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 28,
+      "graph": "A4",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 29,
+      "graph": "A4",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 30,
+      "graph": "A4",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 31,
+      "graph": "A4",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 32,
+      "graph": "A5",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        4
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 33,
+      "graph": "A5",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 34,
+      "graph": "A5",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        4
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 35,
+      "graph": "A5",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 36,
+      "graph": "A5",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        4
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 37,
+      "graph": "A5",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 38,
+      "graph": "A5",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        4
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 39,
+      "graph": "A5",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 40,
+      "graph": "A5",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "N": 4,
+      "forward_check": true
+    },
+    {
+      "id": 41,
+      "graph": "A6",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        4
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 42,
+      "graph": "A6",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        3
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 43,
+      "graph": "A6",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        1,
+        2
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 44,
+      "graph": "A6",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 45,
+      "graph": "A6",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 46,
+      "graph": "A6",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 47,
+      "graph": "A6",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 48,
+      "graph": "A6",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        1,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 49,
+      "graph": "A6",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 50,
+      "graph": "A6",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 51,
+      "graph": "A6",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 52,
+      "graph": "A6",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 53,
+      "graph": "A6",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        1,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 54,
+      "graph": "A7",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 55,
+      "graph": "A7",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 56,
+      "graph": "A7",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 57,
+      "graph": "A7",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 58,
+      "graph": "A7",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 59,
+      "graph": "A7",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 60,
+      "graph": "A7",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 61,
+      "graph": "A7",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 62,
+      "graph": "A7",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        2
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 63,
+      "graph": "A7",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 64,
+      "graph": "A7",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 65,
+      "graph": "A7",
+      "source": 3,
+      "ell": 4,
+      "U": [
+        4
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 66,
+      "graph": "A7",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 67,
+      "graph": "A7",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 68,
+      "graph": "A7",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 69,
+      "graph": "A7",
+      "source": 4,
+      "ell": 4,
+      "U": [
+        3
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 70,
+      "graph": "A8",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 71,
+      "graph": "A8",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        3,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 72,
+      "graph": "A8",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 73,
+      "graph": "A8",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 74,
+      "graph": "A8",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 75,
+      "graph": "A8",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        3,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 76,
+      "graph": "A8",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 77,
+      "graph": "A8",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 78,
+      "graph": "A8",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 79,
+      "graph": "A8",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 80,
+      "graph": "A8",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        1,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 81,
+      "graph": "A8",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 82,
+      "graph": "A9",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 83,
+      "graph": "A9",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 84,
+      "graph": "A9",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 85,
+      "graph": "A9",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 86,
+      "graph": "A9",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        1
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 87,
+      "graph": "A9",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        3,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 88,
+      "graph": "A9",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        1
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 89,
+      "graph": "A9",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 90,
+      "graph": "A9",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        1
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 91,
+      "graph": "A9",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        2,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 92,
+      "graph": "A10",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        5
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 93,
+      "graph": "A10",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 11,
+      "forward_check": true
+    },
+    {
+      "id": 94,
+      "graph": "A10",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        5
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 95,
+      "graph": "A10",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "N": 11,
+      "forward_check": true
+    },
+    {
+      "id": 96,
+      "graph": "A10",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        5
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 97,
+      "graph": "A10",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "N": 11,
+      "forward_check": true
+    },
+    {
+      "id": 98,
+      "graph": "A10",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        5
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 99,
+      "graph": "A10",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "N": 11,
+      "forward_check": true
+    },
+    {
+      "id": 100,
+      "graph": "A10",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        5
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 101,
+      "graph": "A10",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "N": 11,
+      "forward_check": true
+    },
+    {
+      "id": 102,
+      "graph": "A10",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 103,
+      "graph": "A11",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 104,
+      "graph": "A11",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        4,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 105,
+      "graph": "A11",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 106,
+      "graph": "A11",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "N": 4,
+      "forward_check": true
+    },
+    {
+      "id": 107,
+      "graph": "A11",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 108,
+      "graph": "A11",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 109,
+      "graph": "A11",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        4,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 110,
+      "graph": "A11",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        2
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 111,
+      "graph": "A11",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 112,
+      "graph": "A11",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0,
+        4,
+        5
+      ],
+      "N": 21,
+      "forward_check": true
+    },
+    {
+      "id": 113,
+      "graph": "A11",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 114,
+      "graph": "A11",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 115,
+      "graph": "A11",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 116,
+      "graph": "A11",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 117,
+      "graph": "A11",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 118,
+      "graph": "A11",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 119,
+      "graph": "A12",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        2,
+        3
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 120,
+      "graph": "A12",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        4,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 121,
+      "graph": "A12",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 122,
+      "graph": "A12",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 123,
+      "graph": "A12",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        4,
+        5
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 124,
+      "graph": "A12",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 125,
+      "graph": "A12",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        1,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 126,
+      "graph": "A12",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        4,
+        5
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 127,
+      "graph": "A12",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        4,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 128,
+      "graph": "A12",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 129,
+      "graph": "A12",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 130,
+      "graph": "A12",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 131,
+      "graph": "A12",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        1,
+        2
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 132,
+      "graph": "A12",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 133,
+      "graph": "A12",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 134,
+      "graph": "A12",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        1,
+        2
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 135,
+      "graph": "A13",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 136,
+      "graph": "A13",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 137,
+      "graph": "A13",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        4,
+        5
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 138,
+      "graph": "A13",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        3
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 139,
+      "graph": "A13",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        4,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 140,
+      "graph": "A13",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 141,
+      "graph": "A13",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 142,
+      "graph": "A13",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 143,
+      "graph": "A13",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 144,
+      "graph": "A13",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 145,
+      "graph": "A13",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 146,
+      "graph": "A13",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        2
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 147,
+      "graph": "A13",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 148,
+      "graph": "A13",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        0,
+        3
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 149,
+      "graph": "A13",
+      "source": 4,
+      "ell": 4,
+      "U": [
+        5
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 150,
+      "graph": "A13",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 151,
+      "graph": "A13",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 152,
+      "graph": "A13",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        0,
+        2
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 153,
+      "graph": "A13",
+      "source": 5,
+      "ell": 4,
+      "U": [
+        4
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 154,
+      "graph": "A14",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        4,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 155,
+      "graph": "A14",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        3
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 156,
+      "graph": "A14",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        1,
+        2
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 157,
+      "graph": "A14",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 158,
+      "graph": "A14",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 159,
+      "graph": "A14",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 160,
+      "graph": "A14",
+      "source": 1,
+      "ell": 4,
+      "U": [
+        5
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 161,
+      "graph": "A14",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 162,
+      "graph": "A14",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        1,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 163,
+      "graph": "A14",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 164,
+      "graph": "A14",
+      "source": 2,
+      "ell": 4,
+      "U": [
+        5
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 165,
+      "graph": "A14",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 166,
+      "graph": "A14",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 167,
+      "graph": "A14",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 168,
+      "graph": "A14",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 169,
+      "graph": "A14",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 170,
+      "graph": "A14",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 171,
+      "graph": "A14",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 172,
+      "graph": "A14",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 173,
+      "graph": "A14",
+      "source": 5,
+      "ell": 4,
+      "U": [
+        1,
+        2
+      ],
+      "N": 37,
+      "forward_check": false
+    },
+    {
+      "id": 174,
+      "graph": "A15",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 175,
+      "graph": "A15",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 176,
+      "graph": "A15",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 177,
+      "graph": "A15",
+      "source": 0,
+      "ell": 4,
+      "U": [
+        2
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 178,
+      "graph": "A15",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 179,
+      "graph": "A15",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        5
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 180,
+      "graph": "A15",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 181,
+      "graph": "A15",
+      "source": 1,
+      "ell": 4,
+      "U": [
+        3
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 182,
+      "graph": "A15",
+      "source": 1,
+      "ell": 5,
+      "U": [
+        2
+      ],
+      "N": 61,
+      "forward_check": false
+    },
+    {
+      "id": 183,
+      "graph": "A15",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 184,
+      "graph": "A15",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 185,
+      "graph": "A15",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 186,
+      "graph": "A15",
+      "source": 2,
+      "ell": 4,
+      "U": [
+        0
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 187,
+      "graph": "A15",
+      "source": 2,
+      "ell": 5,
+      "U": [
+        1
+      ],
+      "N": 61,
+      "forward_check": false
+    },
+    {
+      "id": 188,
+      "graph": "A15",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        2,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 189,
+      "graph": "A15",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        5
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 190,
+      "graph": "A15",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 191,
+      "graph": "A15",
+      "source": 3,
+      "ell": 4,
+      "U": [
+        1
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 192,
+      "graph": "A15",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        3,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 193,
+      "graph": "A15",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 194,
+      "graph": "A15",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        1
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 195,
+      "graph": "A15",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 196,
+      "graph": "A15",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        1,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 197,
+      "graph": "A15",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 198,
+      "graph": "A16",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "N": 4,
+      "forward_check": true
+    },
+    {
+      "id": 199,
+      "graph": "A16",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 200,
+      "graph": "A16",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        2,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 201,
+      "graph": "A16",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 202,
+      "graph": "A16",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        4,
+        5
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 203,
+      "graph": "A16",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        1
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 204,
+      "graph": "A16",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        3,
+        4,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 205,
+      "graph": "A16",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        1
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 206,
+      "graph": "A16",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        2,
+        4,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 207,
+      "graph": "A16",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 208,
+      "graph": "A16",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        2,
+        3,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 209,
+      "graph": "A16",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        1
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 210,
+      "graph": "A16",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 211,
+      "graph": "A16",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        2,
+        3,
+        4
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 212,
+      "graph": "A16",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        1
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 213,
+      "graph": "A17",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 214,
+      "graph": "A17",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 215,
+      "graph": "A17",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        2,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 216,
+      "graph": "A17",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 217,
+      "graph": "A17",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 218,
+      "graph": "A17",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        1
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 219,
+      "graph": "A17",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        3,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 220,
+      "graph": "A17",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 221,
+      "graph": "A17",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 222,
+      "graph": "A17",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 223,
+      "graph": "A17",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 224,
+      "graph": "A17",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        2,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 225,
+      "graph": "A17",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        1,
+        5
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 226,
+      "graph": "A17",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 227,
+      "graph": "A17",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        1
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 228,
+      "graph": "A17",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        2,
+        4
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 229,
+      "graph": "A18",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        2
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 230,
+      "graph": "A18",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        4,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 231,
+      "graph": "A18",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 232,
+      "graph": "A18",
+      "source": 0,
+      "ell": 4,
+      "U": [
+        1
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 233,
+      "graph": "A18",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        3
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 234,
+      "graph": "A18",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        4,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 235,
+      "graph": "A18",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 236,
+      "graph": "A18",
+      "source": 1,
+      "ell": 4,
+      "U": [
+        0
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 237,
+      "graph": "A18",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        4,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 238,
+      "graph": "A18",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        3
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 239,
+      "graph": "A18",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        1
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 240,
+      "graph": "A18",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        4,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 241,
+      "graph": "A18",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 242,
+      "graph": "A18",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 243,
+      "graph": "A18",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        2,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 244,
+      "graph": "A18",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 245,
+      "graph": "A18",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        2,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 246,
+      "graph": "A18",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        4
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 247,
+      "graph": "A19",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        4,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 248,
+      "graph": "A19",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 249,
+      "graph": "A19",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 250,
+      "graph": "A19",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        3,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 251,
+      "graph": "A19",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 252,
+      "graph": "A19",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 253,
+      "graph": "A19",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        3,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 254,
+      "graph": "A19",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 255,
+      "graph": "A19",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 256,
+      "graph": "A19",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 257,
+      "graph": "A19",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 258,
+      "graph": "A19",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 259,
+      "graph": "A19",
+      "source": 3,
+      "ell": 4,
+      "U": [
+        5
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 260,
+      "graph": "A19",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 261,
+      "graph": "A19",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        3,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 262,
+      "graph": "A19",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 263,
+      "graph": "A19",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 264,
+      "graph": "A19",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        1,
+        2
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 265,
+      "graph": "A19",
+      "source": 5,
+      "ell": 4,
+      "U": [
+        3
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 266,
+      "graph": "A20",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 267,
+      "graph": "A20",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 268,
+      "graph": "A20",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 269,
+      "graph": "A20",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 270,
+      "graph": "A20",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 271,
+      "graph": "A20",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 272,
+      "graph": "A20",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 273,
+      "graph": "A20",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 274,
+      "graph": "A20",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 275,
+      "graph": "A20",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        2,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 276,
+      "graph": "A20",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 277,
+      "graph": "A20",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 278,
+      "graph": "A20",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        3,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 279,
+      "graph": "A20",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 280,
+      "graph": "A20",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        1
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 281,
+      "graph": "A20",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 282,
+      "graph": "A20",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        1,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 283,
+      "graph": "A20",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 284,
+      "graph": "A21",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        2
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 285,
+      "graph": "A21",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 286,
+      "graph": "A21",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 287,
+      "graph": "A21",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        2,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 288,
+      "graph": "A21",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        3,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 289,
+      "graph": "A21",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "N": 4,
+      "forward_check": true
+    },
+    {
+      "id": 290,
+      "graph": "A21",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 291,
+      "graph": "A21",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        2,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 292,
+      "graph": "A21",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        5
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 293,
+      "graph": "A21",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 294,
+      "graph": "A21",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        2
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 295,
+      "graph": "A21",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 296,
+      "graph": "A21",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        2,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 297,
+      "graph": "A21",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 298,
+      "graph": "A22",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        2
+      ],
+      "N": 1,
+      "forward_check": true
+    },
+    {
+      "id": 299,
+      "graph": "A22",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 300,
+      "graph": "A22",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3,
+        4
+      ],
+      "N": 17,
+      "forward_check": true
+    },
+    {
+      "id": 301,
+      "graph": "A22",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 302,
+      "graph": "A22",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 303,
+      "graph": "A22",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 304,
+      "graph": "A22",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        3,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 305,
+      "graph": "A22",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 306,
+      "graph": "A22",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 307,
+      "graph": "A22",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 308,
+      "graph": "A22",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        1,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 309,
+      "graph": "A22",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        2,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 310,
+      "graph": "A22",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 311,
+      "graph": "A22",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 312,
+      "graph": "A22",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        1
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 313,
+      "graph": "A23",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 314,
+      "graph": "A23",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 315,
+      "graph": "A23",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 316,
+      "graph": "A23",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 317,
+      "graph": "A23",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        4
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 318,
+      "graph": "A23",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 319,
+      "graph": "A23",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 320,
+      "graph": "A23",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 321,
+      "graph": "A23",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 322,
+      "graph": "A23",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 323,
+      "graph": "A23",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        3,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 324,
+      "graph": "A23",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 325,
+      "graph": "A23",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        1
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 326,
+      "graph": "A23",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 327,
+      "graph": "A23",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        1,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 328,
+      "graph": "A23",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        2
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 329,
+      "graph": "A24",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        4,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 330,
+      "graph": "A24",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 331,
+      "graph": "A24",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        4,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 332,
+      "graph": "A24",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 333,
+      "graph": "A24",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        4,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 334,
+      "graph": "A24",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        3
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 335,
+      "graph": "A24",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        4,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 336,
+      "graph": "A24",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2
+      ],
+      "N": 9,
+      "forward_check": true
+    },
+    {
+      "id": 337,
+      "graph": "A24",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "N": 4,
+      "forward_check": true
+    },
+    {
+      "id": 338,
+      "graph": "A24",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        5
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 339,
+      "graph": "A24",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "N": 4,
+      "forward_check": true
+    },
+    {
+      "id": 340,
+      "graph": "A24",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        4
+      ],
+      "N": 5,
+      "forward_check": true
+    },
+    {
+      "id": 341,
+      "graph": "A25",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        5
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 342,
+      "graph": "A25",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 343,
+      "graph": "A25",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        3
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 344,
+      "graph": "A25",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 345,
+      "graph": "A25",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 346,
+      "graph": "A25",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 347,
+      "graph": "A25",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 348,
+      "graph": "A25",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        2,
+        4
+      ],
+      "N": 2,
+      "forward_check": true
+    },
+    {
+      "id": 349,
+      "graph": "A25",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 350,
+      "graph": "A25",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        0
+      ],
+      "N": 13,
+      "forward_check": true
+    },
+    {
+      "id": 351,
+      "graph": "A25",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 352,
+      "graph": "A25",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 353,
+      "graph": "A25",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 354,
+      "graph": "A25",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        1,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 355,
+      "graph": "A26",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 356,
+      "graph": "A26",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 357,
+      "graph": "A26",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 358,
+      "graph": "A26",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        3,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 359,
+      "graph": "A26",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 360,
+      "graph": "A26",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        4
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 361,
+      "graph": "A26",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 362,
+      "graph": "A26",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        1,
+        5
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 363,
+      "graph": "A26",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 364,
+      "graph": "A26",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        2
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 365,
+      "graph": "A26",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": true
+    },
+    {
+      "id": 366,
+      "graph": "A26",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        1,
+        3
+      ],
+      "N": 7,
+      "forward_check": true
+    },
+    {
+      "id": 367,
+      "graph": "Q4",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 368,
+      "graph": "Q4",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        12
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 369,
+      "graph": "Q4",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 370,
+      "graph": "Q4",
+      "source": 0,
+      "ell": 4,
+      "U": [
+        15
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 371,
+      "graph": "Q4",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        0,
+        3,
+        5,
+        9
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 372,
+      "graph": "Q4",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2,
+        4,
+        7,
+        8,
+        11,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 373,
+      "graph": "Q4",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        6,
+        10,
+        12,
+        15
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 374,
+      "graph": "Q4",
+      "source": 1,
+      "ell": 4,
+      "U": [
+        14
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 375,
+      "graph": "Q4",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        0,
+        3,
+        6,
+        10
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 376,
+      "graph": "Q4",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        1,
+        4,
+        7,
+        8,
+        11,
+        14
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 377,
+      "graph": "Q4",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5,
+        9,
+        12,
+        15
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 378,
+      "graph": "Q4",
+      "source": 2,
+      "ell": 4,
+      "U": [
+        13
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 379,
+      "graph": "Q4",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        1,
+        2,
+        7,
+        11
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 380,
+      "graph": "Q4",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        5,
+        6,
+        9,
+        10,
+        15
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 381,
+      "graph": "Q4",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        4,
+        8,
+        13,
+        14
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 382,
+      "graph": "Q4",
+      "source": 3,
+      "ell": 4,
+      "U": [
+        12
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 383,
+      "graph": "Q4",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        0,
+        5,
+        6,
+        12
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 384,
+      "graph": "Q4",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        7,
+        8,
+        13,
+        14
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 385,
+      "graph": "Q4",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 386,
+      "graph": "Q4",
+      "source": 4,
+      "ell": 4,
+      "U": [
+        11
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 387,
+      "graph": "Q4",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        1,
+        4,
+        7,
+        13
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 388,
+      "graph": "Q4",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 389,
+      "graph": "Q4",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 390,
+      "graph": "Q4",
+      "source": 5,
+      "ell": 4,
+      "U": [
+        10
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 391,
+      "graph": "Q4",
+      "source": 6,
+      "ell": 1,
+      "U": [
+        2,
+        4,
+        7,
+        14
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 392,
+      "graph": "Q4",
+      "source": 6,
+      "ell": 2,
+      "U": [
+        0,
+        3,
+        5,
+        10,
+        12,
+        15
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 393,
+      "graph": "Q4",
+      "source": 6,
+      "ell": 3,
+      "U": [
+        1,
+        8,
+        11,
+        13
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 394,
+      "graph": "Q4",
+      "source": 6,
+      "ell": 4,
+      "U": [
+        9
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 395,
+      "graph": "Q4",
+      "source": 7,
+      "ell": 1,
+      "U": [
+        3,
+        5,
+        6,
+        15
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 396,
+      "graph": "Q4",
+      "source": 7,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        4,
+        11,
+        13,
+        14
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 397,
+      "graph": "Q4",
+      "source": 7,
+      "ell": 3,
+      "U": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 398,
+      "graph": "Q4",
+      "source": 7,
+      "ell": 4,
+      "U": [
+        8
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 399,
+      "graph": "Q4",
+      "source": 8,
+      "ell": 1,
+      "U": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 400,
+      "graph": "Q4",
+      "source": 8,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        4,
+        11,
+        13,
+        14
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 401,
+      "graph": "Q4",
+      "source": 8,
+      "ell": 3,
+      "U": [
+        3,
+        5,
+        6,
+        15
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 402,
+      "graph": "Q4",
+      "source": 8,
+      "ell": 4,
+      "U": [
+        7
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 403,
+      "graph": "Q4",
+      "source": 9,
+      "ell": 1,
+      "U": [
+        1,
+        8,
+        11,
+        13
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 404,
+      "graph": "Q4",
+      "source": 9,
+      "ell": 2,
+      "U": [
+        0,
+        3,
+        5,
+        10,
+        12,
+        15
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 405,
+      "graph": "Q4",
+      "source": 9,
+      "ell": 3,
+      "U": [
+        2,
+        4,
+        7,
+        14
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 406,
+      "graph": "Q4",
+      "source": 9,
+      "ell": 4,
+      "U": [
+        6
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 407,
+      "graph": "Q4",
+      "source": 10,
+      "ell": 1,
+      "U": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 408,
+      "graph": "Q4",
+      "source": 10,
+      "ell": 2,
+      "U": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 409,
+      "graph": "Q4",
+      "source": 10,
+      "ell": 3,
+      "U": [
+        1,
+        4,
+        7,
+        13
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 410,
+      "graph": "Q4",
+      "source": 10,
+      "ell": 4,
+      "U": [
+        5
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 411,
+      "graph": "Q4",
+      "source": 11,
+      "ell": 1,
+      "U": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 412,
+      "graph": "Q4",
+      "source": 11,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        7,
+        8,
+        13,
+        14
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 413,
+      "graph": "Q4",
+      "source": 11,
+      "ell": 3,
+      "U": [
+        0,
+        5,
+        6,
+        12
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 414,
+      "graph": "Q4",
+      "source": 11,
+      "ell": 4,
+      "U": [
+        4
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 415,
+      "graph": "Q4",
+      "source": 12,
+      "ell": 1,
+      "U": [
+        4,
+        8,
+        13,
+        14
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 416,
+      "graph": "Q4",
+      "source": 12,
+      "ell": 2,
+      "U": [
+        0,
+        5,
+        6,
+        9,
+        10,
+        15
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 417,
+      "graph": "Q4",
+      "source": 12,
+      "ell": 3,
+      "U": [
+        1,
+        2,
+        7,
+        11
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 418,
+      "graph": "Q4",
+      "source": 12,
+      "ell": 4,
+      "U": [
+        3
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 419,
+      "graph": "Q4",
+      "source": 13,
+      "ell": 1,
+      "U": [
+        5,
+        9,
+        12,
+        15
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 420,
+      "graph": "Q4",
+      "source": 13,
+      "ell": 2,
+      "U": [
+        1,
+        4,
+        7,
+        8,
+        11,
+        14
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 421,
+      "graph": "Q4",
+      "source": 13,
+      "ell": 3,
+      "U": [
+        0,
+        3,
+        6,
+        10
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 422,
+      "graph": "Q4",
+      "source": 13,
+      "ell": 4,
+      "U": [
+        2
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 423,
+      "graph": "Q4",
+      "source": 14,
+      "ell": 1,
+      "U": [
+        6,
+        10,
+        12,
+        15
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 424,
+      "graph": "Q4",
+      "source": 14,
+      "ell": 2,
+      "U": [
+        2,
+        4,
+        7,
+        8,
+        11,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 425,
+      "graph": "Q4",
+      "source": 14,
+      "ell": 3,
+      "U": [
+        0,
+        3,
+        5,
+        9
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 426,
+      "graph": "Q4",
+      "source": 14,
+      "ell": 4,
+      "U": [
+        1
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 427,
+      "graph": "Q4",
+      "source": 15,
+      "ell": 1,
+      "U": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "N": 4,
+      "forward_check": false
+    },
+    {
+      "id": 428,
+      "graph": "Q4",
+      "source": 15,
+      "ell": 2,
+      "U": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        12
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 429,
+      "graph": "Q4",
+      "source": 15,
+      "ell": 3,
+      "U": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 430,
+      "graph": "Q4",
+      "source": 15,
+      "ell": 4,
+      "U": [
+        0
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 431,
+      "graph": "FanoInc14",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        8,
+        10,
+        12
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 432,
+      "graph": "FanoInc14",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 433,
+      "graph": "FanoInc14",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 434,
+      "graph": "FanoInc14",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        7,
+        10,
+        11
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 435,
+      "graph": "FanoInc14",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 436,
+      "graph": "FanoInc14",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        8,
+        9,
+        12,
+        13
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 437,
+      "graph": "FanoInc14",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        9,
+        10,
+        13
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 438,
+      "graph": "FanoInc14",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 439,
+      "graph": "FanoInc14",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        7,
+        8,
+        11,
+        12
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 440,
+      "graph": "FanoInc14",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        7,
+        8,
+        9
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 441,
+      "graph": "FanoInc14",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 442,
+      "graph": "FanoInc14",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 443,
+      "graph": "FanoInc14",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        8,
+        11,
+        13
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 444,
+      "graph": "FanoInc14",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 445,
+      "graph": "FanoInc14",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        7,
+        9,
+        10,
+        12
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 446,
+      "graph": "FanoInc14",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        7,
+        12,
+        13
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 447,
+      "graph": "FanoInc14",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 448,
+      "graph": "FanoInc14",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 449,
+      "graph": "FanoInc14",
+      "source": 6,
+      "ell": 1,
+      "U": [
+        9,
+        11,
+        12
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 450,
+      "graph": "FanoInc14",
+      "source": 6,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 451,
+      "graph": "FanoInc14",
+      "source": 6,
+      "ell": 3,
+      "U": [
+        7,
+        8,
+        10,
+        13
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 452,
+      "graph": "FanoInc14",
+      "source": 7,
+      "ell": 1,
+      "U": [
+        1,
+        3,
+        5
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 453,
+      "graph": "FanoInc14",
+      "source": 7,
+      "ell": 2,
+      "U": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 454,
+      "graph": "FanoInc14",
+      "source": 7,
+      "ell": 3,
+      "U": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 455,
+      "graph": "FanoInc14",
+      "source": 8,
+      "ell": 1,
+      "U": [
+        0,
+        3,
+        4
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 456,
+      "graph": "FanoInc14",
+      "source": 8,
+      "ell": 2,
+      "U": [
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 457,
+      "graph": "FanoInc14",
+      "source": 8,
+      "ell": 3,
+      "U": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 458,
+      "graph": "FanoInc14",
+      "source": 9,
+      "ell": 1,
+      "U": [
+        2,
+        3,
+        6
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 459,
+      "graph": "FanoInc14",
+      "source": 9,
+      "ell": 2,
+      "U": [
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 460,
+      "graph": "FanoInc14",
+      "source": 9,
+      "ell": 3,
+      "U": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 461,
+      "graph": "FanoInc14",
+      "source": 10,
+      "ell": 1,
+      "U": [
+        0,
+        1,
+        2
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 462,
+      "graph": "FanoInc14",
+      "source": 10,
+      "ell": 2,
+      "U": [
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 463,
+      "graph": "FanoInc14",
+      "source": 10,
+      "ell": 3,
+      "U": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 464,
+      "graph": "FanoInc14",
+      "source": 11,
+      "ell": 1,
+      "U": [
+        1,
+        4,
+        6
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 465,
+      "graph": "FanoInc14",
+      "source": 11,
+      "ell": 2,
+      "U": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 466,
+      "graph": "FanoInc14",
+      "source": 11,
+      "ell": 3,
+      "U": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 467,
+      "graph": "FanoInc14",
+      "source": 12,
+      "ell": 1,
+      "U": [
+        0,
+        5,
+        6
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 468,
+      "graph": "FanoInc14",
+      "source": 12,
+      "ell": 2,
+      "U": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        13
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 469,
+      "graph": "FanoInc14",
+      "source": 12,
+      "ell": 3,
+      "U": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 470,
+      "graph": "FanoInc14",
+      "source": 13,
+      "ell": 1,
+      "U": [
+        2,
+        4,
+        5
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 471,
+      "graph": "FanoInc14",
+      "source": 13,
+      "ell": 2,
+      "U": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "N": 15,
+      "forward_check": false
+    },
+    {
+      "id": 472,
+      "graph": "FanoInc14",
+      "source": 13,
+      "ell": 3,
+      "U": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "N": 25,
+      "forward_check": false
+    },
+    {
+      "id": 473,
+      "graph": "A182",
+      "source": 0,
+      "ell": 1,
+      "U": [
+        7
+      ],
+      "N": 1,
+      "forward_check": false
+    },
+    {
+      "id": 474,
+      "graph": "A182",
+      "source": 0,
+      "ell": 2,
+      "U": [
+        2,
+        3
+      ],
+      "N": 7,
+      "forward_check": false
+    },
+    {
+      "id": 475,
+      "graph": "A182",
+      "source": 0,
+      "ell": 3,
+      "U": [
+        5,
+        6
+      ],
+      "N": 17,
+      "forward_check": false
+    },
+    {
+      "id": 476,
+      "graph": "A182",
+      "source": 0,
+      "ell": 4,
+      "U": [
+        1,
+        4
+      ],
+      "N": 37,
+      "forward_check": false
+    },
+    {
+      "id": 477,
+      "graph": "A182",
+      "source": 1,
+      "ell": 1,
+      "U": [
+        6
+      ],
+      "N": 1,
+      "forward_check": false
+    },
+    {
+      "id": 478,
+      "graph": "A182",
+      "source": 1,
+      "ell": 2,
+      "U": [
+        2,
+        4
+      ],
+      "N": 7,
+      "forward_check": false
+    },
+    {
+      "id": 479,
+      "graph": "A182",
+      "source": 1,
+      "ell": 3,
+      "U": [
+        5,
+        7
+      ],
+      "N": 17,
+      "forward_check": false
+    },
+    {
+      "id": 480,
+      "graph": "A182",
+      "source": 1,
+      "ell": 4,
+      "U": [
+        0,
+        3
+      ],
+      "N": 37,
+      "forward_check": false
+    },
+    {
+      "id": 481,
+      "graph": "A182",
+      "source": 2,
+      "ell": 1,
+      "U": [
+        6,
+        7
+      ],
+      "N": 2,
+      "forward_check": false
+    },
+    {
+      "id": 482,
+      "graph": "A182",
+      "source": 2,
+      "ell": 2,
+      "U": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "N": 11,
+      "forward_check": false
+    },
+    {
+      "id": 483,
+      "graph": "A182",
+      "source": 2,
+      "ell": 3,
+      "U": [
+        5
+      ],
+      "N": 13,
+      "forward_check": false
+    },
+    {
+      "id": 484,
+      "graph": "A182",
+      "source": 3,
+      "ell": 1,
+      "U": [
+        5,
+        7
+      ],
+      "N": 2,
+      "forward_check": false
+    },
+    {
+      "id": 485,
+      "graph": "A182",
+      "source": 3,
+      "ell": 2,
+      "U": [
+        0,
+        2,
+        4
+      ],
+      "N": 9,
+      "forward_check": false
+    },
+    {
+      "id": 486,
+      "graph": "A182",
+      "source": 3,
+      "ell": 3,
+      "U": [
+        6
+      ],
+      "N": 13,
+      "forward_check": false
+    },
+    {
+      "id": 487,
+      "graph": "A182",
+      "source": 3,
+      "ell": 4,
+      "U": [
+        1
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 488,
+      "graph": "A182",
+      "source": 4,
+      "ell": 1,
+      "U": [
+        5,
+        6
+      ],
+      "N": 2,
+      "forward_check": false
+    },
+    {
+      "id": 489,
+      "graph": "A182",
+      "source": 4,
+      "ell": 2,
+      "U": [
+        1,
+        2,
+        3
+      ],
+      "N": 9,
+      "forward_check": false
+    },
+    {
+      "id": 490,
+      "graph": "A182",
+      "source": 4,
+      "ell": 3,
+      "U": [
+        7
+      ],
+      "N": 13,
+      "forward_check": false
+    },
+    {
+      "id": 491,
+      "graph": "A182",
+      "source": 4,
+      "ell": 4,
+      "U": [
+        0
+      ],
+      "N": 29,
+      "forward_check": false
+    },
+    {
+      "id": 492,
+      "graph": "A182",
+      "source": 5,
+      "ell": 1,
+      "U": [
+        3,
+        4
+      ],
+      "N": 2,
+      "forward_check": false
+    },
+    {
+      "id": 493,
+      "graph": "A182",
+      "source": 5,
+      "ell": 2,
+      "U": [
+        6,
+        7
+      ],
+      "N": 7,
+      "forward_check": false
+    },
+    {
+      "id": 494,
+      "graph": "A182",
+      "source": 5,
+      "ell": 3,
+      "U": [
+        0,
+        1,
+        2
+      ],
+      "N": 21,
+      "forward_check": false
+    },
+    {
+      "id": 495,
+      "graph": "A182",
+      "source": 6,
+      "ell": 1,
+      "U": [
+        1,
+        2,
+        4
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 496,
+      "graph": "A182",
+      "source": 6,
+      "ell": 2,
+      "U": [
+        5,
+        7
+      ],
+      "N": 7,
+      "forward_check": false
+    },
+    {
+      "id": 497,
+      "graph": "A182",
+      "source": 6,
+      "ell": 3,
+      "U": [
+        0,
+        3
+      ],
+      "N": 17,
+      "forward_check": false
+    },
+    {
+      "id": 498,
+      "graph": "A182",
+      "source": 7,
+      "ell": 1,
+      "U": [
+        0,
+        2,
+        3
+      ],
+      "N": 3,
+      "forward_check": false
+    },
+    {
+      "id": 499,
+      "graph": "A182",
+      "source": 7,
+      "ell": 2,
+      "U": [
+        5,
+        6
+      ],
+      "N": 7,
+      "forward_check": false
+    },
+    {
+      "id": 500,
+      "graph": "A182",
+      "source": 7,
+      "ell": 3,
+      "U": [
+        1,
+        4
+      ],
+      "N": 17,
+      "forward_check": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_gap.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.014999999999418,
+    "peak_working_set_bytes": 122953728,
+    "resource_failure": null,
+    "stdout": "{\"archive_cases\": 44, \"precision_cases\": 4, \"predicate_failures\": {\"Q_every_nontri\": [], \"Q_some_nontri\": [], \"Q_every_AS\": [], \"Q_some_AS\": [], \"QP_every_nontri\": [], \"QP_some_nontri\": [], \"QP_every_AS\": [], \"QP_some_AS\": []}}\r\n",
+    "stderr": "",
+    "code_sha256": "4e34759f101090fcaba2afbd1f387fa4004ba6e65cfc9601cc17bc140b11a89d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_gap_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.9060000000026776,
+    "peak_working_set_bytes": 118730752,
+    "resource_failure": null,
+    "stdout": "{\"archive_cases\": 44, \"precision_cases\": 4, \"complete_negative_closures\": 0, \"all_selected_sets_and_predicates_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "7a5268ed6a2a2718e98c146da8ed1e47b9362343f732ded944be33dca0bfa30c"
+  }
+]

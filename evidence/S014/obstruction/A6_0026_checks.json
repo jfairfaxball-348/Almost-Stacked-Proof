@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_obstruction_threshold.py",
+      "A6_0026",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2142208,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 6, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 15, \"losers\": 15, \"AS_losers\": 15, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 56, \"losers\": 34, \"AS_losers\": 34, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 119, \"losers\": 67, \"AS_losers\": 67, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 240, \"losers\": 92, \"AS_losers\": 84, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 368, \"losers\": 79, \"AS_losers\": 69, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 440, \"losers\": 24, \"AS_losers\": 16, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 178, \"losers\": 3, \"AS_losers\": 2, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 30, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 9, \"last_complete_mass\": 9, \"certificate_sha256\": \"1153e5693332a3352e900b5ee6c3f8529400dbca7033c8587965898d26345aa9\"}\r\n",
+    "stderr": "",
+    "code_sha256": "b3677f2c596f85c587de45695d41c918cd38088941eb897fe8005cd01bef28b1"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_obstruction_threshold_verify.py",
+      "A6_0026",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2101248,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"A6_0026\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 9, \"last_complete_mass\": 9, \"certified_losing_states\": 314, \"L_AS_seen\": 8, \"L_AS_grammar\": 8, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "06e55d984cafa2f19063bd25470b4cc420e2447b7bf06e6120e1953d7804a133"
+  }
+]

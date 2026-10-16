@@ -1,0 +1,9 @@
+{
+  "case": "C9b",
+  "clauses": 5204,
+  "c_winning_trace_clauses": 4570,
+  "AS_negative_clauses": 577,
+  "AS_closure_states": 411347,
+  "literal_c_winning_moves": 45578,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

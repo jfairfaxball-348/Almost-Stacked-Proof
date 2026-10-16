@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_family.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.7030000000086147,
+    "peak_working_set_bytes": 168706048,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"K2\", \"matching_cases\": 0, \"transfer_tests\": 0, \"transfer_failures\": 0}\r\n{\"graph\": \"K3\", \"matching_cases\": 0, \"transfer_tests\": 0, \"transfer_failures\": 0}\r\n{\"graph\": \"P4\", \"matching_cases\": 1515, \"transfer_tests\": 0, \"transfer_failures\": 0}\r\n{\"graph\": \"C5\", \"matching_cases\": 26, \"transfer_tests\": 0, \"transfer_failures\": 0}\r\n{\"graph\": \"triangle_tail2\", \"matching_cases\": 162, \"transfer_tests\": 37, \"transfer_failures\": 37}\r\n{\"graph\": \"F2\", \"matching_cases\": 59, \"transfer_tests\": 24, \"transfer_failures\": 24}\r\n{\"graph\": \"bowtie\", \"matching_cases\": 18, \"transfer_tests\": 0, \"transfer_failures\": 0}\r\n{\"graph\": \"diamond\", \"matching_cases\": 12, \"transfer_tests\": 0, \"transfer_failures\": 0}\r\n{\"graph\": \"triangular_prism\", \"matching_cases\": 54, \"transfer_tests\": 12, \"transfer_failures\": 12}\r\n{\"graph\": \"bridged_triangles\", \"matching_cases\": 146, \"transfer_tests\": 4, \"transfer_failures\": 4}\r\n{\"graph\": \"A7_0036\", \"matching_cases\": 95, \"transfer_tests\": 50, \"transfer_failures\": 50}\r\n{\"matching_cases\": 2087, \"reservations\": 2210, \"reconstructions\": 114, \"losing_originals\": 1685, \"transfer_tests\": 127, \"transfer_failures\": 127, \"negative_closures\": 5, \"archive_positive_cases\": 44, \"archive_triangle_heavy\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "76b8fcbf364de553e400f7f2d9401690ac81faf6409ceb622009bd9e97be3565"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_family_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.4059999999881256,
+    "peak_working_set_bytes": 152838144,
+    "resource_failure": null,
+    "stdout": "{\"matching_cases\": 2087, \"reservations\": 2210, \"reconstructions\": 114, \"losing_originals\": 1685, \"transfer_tests\": 127, \"transfer_failures\": 127, \"negative_closures\": 5, \"archive_positive_cases\": 44, \"archive_triangle_heavy\": 0, \"literal_moves\": 23848, \"negative_closure_states\": 70, \"max_fixed_count_search_states\": 43, \"proper_subset_obstructions\": 1221, \"all_generated_keys_and_certificates_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "f4098034e8c5f983a8d62edcc0eb2757301a7f7bd60dc20e7ebf1b7129dbd39f"
+  }
+]

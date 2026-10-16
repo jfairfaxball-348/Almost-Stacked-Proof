@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F3_7_A2B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 34570240,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 7, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 21, \"losers\": 21, \"AS_losers\": 21, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 84, \"losers\": 58, \"AS_losers\": 58, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 201, \"losers\": 101, \"AS_losers\": 97, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 413, \"losers\": 154, \"AS_losers\": 150, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 638, \"losers\": 182, \"AS_losers\": 135, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 872, \"losers\": 172, \"AS_losers\": 102, \"Q\": 29}\r\n{\"mass\": 8, \"candidates\": 1067, \"losers\": 145, \"AS_losers\": 65, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 1081, \"losers\": 91, \"AS_losers\": 32, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 750, \"losers\": 30, \"AS_losers\": 12, \"Q\": 54}\r\n{\"mass\": 11, \"candidates\": 291, \"losers\": 14, \"AS_losers\": 6, \"Q\": 83}\r\n{\"mass\": 12, \"candidates\": 125, \"losers\": 6, \"AS_losers\": 2, \"Q\": 122}\r\n{\"scope\": \"COMPLETE_TO_REGISTERED_MASS\", \"threshold\": null, \"last_complete_mass\": 12, \"certificate_sha256\": \"60633b2145bc697f36759bae169f49412955573805aa8a9400b684bd6c8ca388\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F3_7_A2B2",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10900000001129229,
+    "peak_working_set_bytes": 2080768,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F3_7_A2B2\", \"goal\": \"clear\", \"scope\": \"COMPLETE_TO_REGISTERED_MASS\", \"threshold\": null, \"last_complete_mass\": 12, \"certified_losing_states\": 974, \"L_AS_seen\": 12, \"proposed_L_AS\": 11, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

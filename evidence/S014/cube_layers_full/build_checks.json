@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:/Users/johnf/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe",
+      "tools/s014_c064_build.ps1"
+    ],
+    "exit_code": 0,
+    "seconds": 1.0,
+    "peak_working_set_bytes": 160505856,
+    "resource_failure": null,
+    "stdout": "Untrusted orbit-layer producer library compiled; mathematical controls pending.\r\n",
+    "stderr": "",
+    "code_sha256": "b0b6048a6fbb9626a44575f223a9bb1b5d40bbbc5ef0fc6d7a9b9d0a36de1016"
+  }
+]

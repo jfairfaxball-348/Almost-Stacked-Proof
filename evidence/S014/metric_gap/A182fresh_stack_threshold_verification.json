@@ -1,0 +1,11 @@
+{
+  "graph": "A182fresh",
+  "goal": "stack",
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 42,
+  "last_complete_mass": 42,
+  "certified_losing_states": 160136,
+  "L_AS_seen": 41,
+  "L_AS_exact": 41,
+  "all_full_losing_layers_equal": true
+}

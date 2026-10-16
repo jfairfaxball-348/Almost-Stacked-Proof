@@ -1,0 +1,22 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_18.md": "a3e205fdb800a932de695cf8610d6280f42a75bbc850f32040f84862c2e766c8",
+    "sessions\\S014\\PLAN_AMENDMENT_18.sha256": "0b6aeb47742fff030f42d7e92a968b43e46c5365f84b587940d42825415ed03c",
+    "evidence/S014/obstruction/threshold_inputs.json": "4440da6deb2ca3bf7940cda51ebcb103bf73f1459940e97158ba054ea769bf17",
+    "evidence/S014/parity_archive/verification.json": "e2c412eaeba839d6753ac33cb08d26bb2bb3ddb3d4e164a436391af4cca4000e",
+    "tools/s014_obstruction_threshold.py": "b3677f2c596f85c587de45695d41c918cd38088941eb897fe8005cd01bef28b1",
+    "tools/s014_obstruction_threshold_verify.py": "06e55d984cafa2f19063bd25470b4cc420e2447b7bf06e6120e1953d7804a133",
+    "tools/s014_obstruction.py": "5db07e18f79a17a865d09e33e1b45c0c43360597dff639f60de2a2813f2afd9c",
+    "tools/s014_obstruction_verify.py": "a948dc69d5d7542c6b5823f7cd5d14b540d0f26543996e727c69cef184276d64",
+    "tools/s014_obstruction_run.py": "d4cd737f2a453f233efc41dd18b4bed21efc9f1f58fa472119ad2bec0e2bee26",
+    "tools/s014_threshold.py": "db0748f75d1ed693302309c3bf6c047272a519882c969c099bba49f68fb63c57",
+    "tools/s014_threshold_verify.py": "ea4670f167cc29ca6b7fb0c64bc3b472fceee8db72e3dd207351fb42ede6f2c3",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "evidence/S005/A6_0026_stack.bin.xz": "1153e5693332a3352e900b5ee6c3f8529400dbca7033c8587965898d26345aa9",
+    "evidence/S005/A6_0093_stack.bin.xz": "adf2993d7b1c4a5ec60ecc10b0465d1a2a0fa9fb5ad62735971ef403b12e65b2",
+    "evidence/S005/A6_0026_stack.summary.json": "4f617c7697c94870d5bd0eb677bef113445fc31dc1f87932db65ce39e0a99c8b",
+    "evidence/S005/A6_0093_stack.summary.json": "ee4c3d4fd147b20aabdae127075aa700188c785223c3dbe9877e277033305a33"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

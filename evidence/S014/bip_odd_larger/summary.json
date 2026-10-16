@@ -1,0 +1,159 @@
+{
+  "status": "COMPLETE_REGISTERED_18_EXECUTED_PLUS_3_PRIOR_SCOPE_UNKNOWN",
+  "cases": 21,
+  "independently_completed_cases": 18,
+  "prior_scope_unknown_cases": 3,
+  "inputs": 1598711,
+  "states": 10124184,
+  "maximum_order": 14,
+  "failed_inputs": 0,
+  "completed": [
+    {
+      "case": "A143",
+      "n": 7,
+      "inputs": 1760,
+      "states": 15582,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A144",
+      "n": 7,
+      "inputs": 675,
+      "states": 5073,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A145",
+      "n": 7,
+      "inputs": 11683,
+      "states": 124432,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A146",
+      "n": 7,
+      "inputs": 1603,
+      "states": 12026,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A147",
+      "n": 7,
+      "inputs": 372,
+      "states": 2788,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A148",
+      "n": 7,
+      "inputs": 1318,
+      "states": 10521,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A166",
+      "n": 8,
+      "inputs": 8558,
+      "states": 109441,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A174",
+      "n": 8,
+      "inputs": 8802,
+      "states": 78065,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A175",
+      "n": 8,
+      "inputs": 82116,
+      "states": 993496,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A180",
+      "n": 8,
+      "inputs": 30529,
+      "states": 381255,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A182",
+      "n": 8,
+      "inputs": 15758,
+      "states": 160136,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A183",
+      "n": 8,
+      "inputs": 11660,
+      "states": 103902,
+      "failed_inputs": 0
+    },
+    {
+      "case": "A186",
+      "n": 9,
+      "inputs": 84023,
+      "states": 1266586,
+      "failed_inputs": 0
+    },
+    {
+      "case": "circulant/CIRC12_10",
+      "n": 12,
+      "inputs": 38140,
+      "states": 186123,
+      "failed_inputs": 0
+    },
+    {
+      "case": "circulant/CIRC14_10",
+      "n": 14,
+      "inputs": 308548,
+      "states": 1548335,
+      "failed_inputs": 0
+    },
+    {
+      "case": "circulant/CIRC14_34",
+      "n": 14,
+      "inputs": 343205,
+      "states": 1799628,
+      "failed_inputs": 0
+    },
+    {
+      "case": "circulant/CIRC14_40",
+      "n": 14,
+      "inputs": 343205,
+      "states": 1799628,
+      "failed_inputs": 0
+    },
+    {
+      "case": "circulant/CIRC14_42",
+      "n": 14,
+      "inputs": 306756,
+      "states": 1527167,
+      "failed_inputs": 0
+    }
+  ],
+  "unknown": [
+    {
+      "case": "A171",
+      "states": 4465557,
+      "largest_layer": 108644,
+      "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+    },
+    {
+      "case": "A181",
+      "states": 10861873,
+      "largest_layer": 214489,
+      "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+    },
+    {
+      "case": "A184",
+      "states": 13340529,
+      "largest_layer": 904490,
+      "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+    }
+  ],
+  "scope": "Finite selected cases only; B_odd and universal ASH* OPEN"
+}

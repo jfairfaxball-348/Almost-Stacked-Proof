@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_eliminate_residual.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.422000000005937,
+    "peak_working_set_bytes": 49700864,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 444, \"critical_nonAS\": 1230, \"failed_inputs\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "395c60e64e9cae0cbb4d53417ce7cd8f86fae10a850b4265e44e00842a84d94c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_eliminate_residual_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.2189999999973224,
+    "peak_working_set_bytes": 39186432,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 444, \"nonAS_critical_inputs\": 1230, \"candidates\": 45804, \"failed_H2r_inputs\": 0, \"max_heavy_sites\": 5, \"first_failures\": [], \"all_generated_keys_memberships_and_heavy_decreases_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "5ff5253952aa97c7bc024c00417bcde1bbed4154c89459a2350b9eee60816ab3"
+  }
+]

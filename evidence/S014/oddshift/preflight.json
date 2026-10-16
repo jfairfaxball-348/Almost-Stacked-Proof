@@ -1,0 +1,15 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_19.md": "468940f19c342894906acd2868ebb228a8704008c19be777702754826697f3c9",
+    "sessions\\S014\\PLAN_AMENDMENT_19.sha256": "45cf3f0d527814942ebc457f37f1ae23b1bd7c072d818254351978fbea75b6ca",
+    "evidence/S014/parity_archive/inputs.json": "dbea72ca3fd447845bf4379983a93e83807bc7f77a77266fbbf4620df752ad22",
+    "evidence/S014/parity_archive/results.json.xz": "906f59b460d5afeea75e870d3b9f93ccf941fa73504d4d254306d6a9880ab740",
+    "evidence/S014/parity_archive/verification.json": "e2c412eaeba839d6753ac33cb08d26bb2bb3ddb3d4e164a436391af4cca4000e",
+    "tools/s014_oddshift.py": "2f32e24cf5ee220dfe85af1973e2f98eb658aac4ddae763c22059c895d98cded",
+    "tools/s014_oddshift_verify.py": "4f5984e2def599046a6e5825eaab38763b70cd8f6bdac8ba47187ba210fffd5d",
+    "tools/s014_oddshift_run.py": "879d154a75461c1ca161946ecb061cba9329595c83459c7ca65726a9bc9dbb72",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

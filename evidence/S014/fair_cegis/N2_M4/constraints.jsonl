@@ -1,0 +1,4 @@
+{"kind":"cut","vertices":[0],"clause":[1]}
+{"kind":"cut","vertices":[1],"clause":[1]}
+{"kind":"independent_set","vertices":[0,1],"clause":[1]}
+{"kind":"c_win","pattern":0,"moves":[[0,1]],"support_minimization_complete":true,"clause":[-2,-1]}

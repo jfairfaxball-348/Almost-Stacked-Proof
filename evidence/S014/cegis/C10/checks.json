@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 22.485000000000582,
+    "peak_working_set_bytes": 55947264,
+    "resource_failure": null,
+    "stdout": "{\"case\": {\"id\": \"C10\", \"n\": 10, \"c\": [1, 0, 0, 0, 0, 0, 7, 7, 1, 1]}, \"status\": \"ITERATION_BOUND_UNKNOWN\", \"iterations\": 5000, \"clauses\": 5010, \"seconds\": 22.281000000002678, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "8024acf37b27ac01429c06eb5cff59cbbb7df1c803345978b0b97002899b2ceb"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_clauses_verify.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 0.29699999999138527,
+    "peak_working_set_bytes": 27873280,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"clauses\": 5010, \"c_winning_trace_clauses\": 4991, \"AS_negative_clauses\": 2, \"AS_closure_states\": 7444, \"literal_c_winning_moves\": 74812, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "9364ab32e728ce21ea1f9e474b3faac44c0ce4328be30de3926f9f9f4c45f103"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_drup_verify.py",
+      "C10"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10900000001129229,
+    "peak_working_set_bytes": 2134016,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C10\", \"solver_status\": \"ITERATION_BOUND_UNKNOWN\", \"fixed_input_class_exclusion_certified\": false, \"scope\": \"No UNSAT claim; bounded search/certificates only\"}\r\n",
+    "stderr": "",
+    "code_sha256": "8b9fa9a0dd9f2d82f41ba2b0b713c6cf6fe457038a5413d6a812a6f8f033c2dd"
+  }
+]

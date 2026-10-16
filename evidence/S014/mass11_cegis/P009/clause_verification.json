@@ -1,0 +1,11 @@
+{
+  "case": "P009",
+  "graph_certificate_records": 762,
+  "distinct_graph_clauses": 762,
+  "representative_comparisons": 4,
+  "local_truth_rows": 1280,
+  "all_graph_clauses_necessary": true,
+  "exact_lex_existential_extension_checked": true,
+  "counterexample_exists_implies_formula_satisfiable": true,
+  "scope": "Proposition94 gives a representative; lex clauses not claimed necessary for every labeling"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_singleton.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8119999999908032,
+    "peak_working_set_bytes": 131682304,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 11, \"tested\": 262839, \"failures\": 90}\r\n",
+    "stderr": "",
+    "code_sha256": "b6f25d08e68ef50e947e2a58e9847aab8a77521875e1d4112a5d650f39ef4ef7"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_singleton_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7030000000086147,
+    "peak_working_set_bytes": 131530752,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 11, \"failures\": 90, \"first_failures\": [{\"graph\": {\"graph\": \"P4\", \"n\": 4, \"edges\": [[0, 1], [1, 2], [2, 3]], \"max_mass\": 15}, \"c\": [1, 0, 1, 6], \"s\": 2, \"d\": [1, 0, 2, 6]}, {\"graph\": {\"graph\": \"P4\", \"n\": 4, \"edges\": [[0, 1], [1, 2], [2, 3]], \"max_mass\": 15}, \"c\": [1, 0, 1, 9], \"s\": 2, \"d\": [1, 0, 2, 9]}, {\"graph\": {\"graph\": \"P4\", \"n\": 4, \"edges\": [[0, 1], [1, 2], [2, 3]], \"max_mass\": 15}, \"c\": [1, 1, 1, 2], \"s\": 2, \"d\": [1, 1, 2, 2]}, {\"graph\": {\"graph\": \"P4\", \"n\": 4, \"edges\": [[0, 1], [1, 2], [2, 3]], \"max_mass\": 15}, \"c\": [1, 1, 1, 5], \"s\": 2, \"d\": [1, 1, 2, 5]}], \"independent_forward_inverse_failure_keys_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "7b694e3b80ad4f07c955372fad338917085e4499629cc3f302f94e4a3e73a05d"
+  }
+]

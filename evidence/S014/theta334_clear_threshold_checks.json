@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_threshold.py",
+      "theta334",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 3.422000000005937,
+    "peak_working_set_bytes": 70598656,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 9, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 36, \"losers\": 36, \"AS_losers\": 36, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 165, \"losers\": 145, \"AS_losers\": 145, \"Q\": 9}\r\n{\"mass\": 4, \"candidates\": 486, \"losers\": 427, \"AS_losers\": 404, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 1271, \"losers\": 1097, \"AS_losers\": 883, \"Q\": 17}\r\n{\"mass\": 6, \"candidates\": 2952, \"losers\": 2478, \"AS_losers\": 1390, \"Q\": 36}\r\n{\"mass\": 7, \"candidates\": 6291, \"losers\": 4897, \"AS_losers\": 1774, \"Q\": 37}\r\n{\"mass\": 8, \"candidates\": 12413, \"losers\": 8772, \"AS_losers\": 1898, \"Q\": 50}\r\n{\"mass\": 9, \"candidates\": 22920, \"losers\": 13821, \"AS_losers\": 1730, \"Q\": 81}\r\n{\"mass\": 10, \"candidates\": 39651, \"losers\": 18856, \"AS_losers\": 1596, \"Q\": 82}\r\n{\"mass\": 11, \"candidates\": 62511, \"losers\": 22201, \"AS_losers\": 1435, \"Q\": 101}\r\n{\"mass\": 12, \"candidates\": 86548, \"losers\": 22162, \"AS_losers\": 1168, \"Q\": 144}\r\n{\"mass\": 13, \"candidates\": 100801, \"losers\": 18965, \"AS_losers\": 987, \"Q\": 125}\r\n{\"mass\": 14, \"candidates\": 98614, \"losers\": 14488, \"AS_losers\": 835, \"Q\": 170}\r\n{\"mass\": 15, \"candidates\": 82594, \"losers\": 9937, \"AS_losers\": 603, \"Q\": 225}\r\n{\"mass\": 16, \"candidates\": 60053, \"losers\": 6212, \"AS_losers\": 516, \"Q\": 200}\r\n{\"mass\": 17, \"candidates\": 39165, \"losers\": 3813, \"AS_losers\": 401, \"Q\": 257}\r\n{\"mass\": 18, \"candidates\": 23762, \"losers\": 2204, \"AS_losers\": 230, \"Q\": 324}\r\n{\"mass\": 19, \"candidates\": 13168, \"losers\": 1228, \"AS_losers\": 178, \"Q\": 293}\r\n{\"mass\": 20, \"candidates\": 7164, \"losers\": 748, \"AS_losers\": 138, \"Q\": 362}\r\n{\"mass\": 21, \"candidates\": 4052, \"losers\": 408, \"AS_losers\": 60, \"Q\": 441}\r\n{\"mass\": 22, \"candidates\": 2100, \"losers\": 194, \"AS_losers\": 46, \"Q\": 402}\r\n{\"mass\": 23, \"candidates\": 1076, \"losers\": 110, \"AS_losers\": 32, \"Q\": 485}\r\n{\"mass\": 24, \"candidates\": 570, \"losers\": 42, \"AS_losers\": 10, \"Q\": 530}\r\n{\"mass\": 25, \"candidates\": 192, \"losers\": 8, \"AS_losers\": 8, \"Q\": 531}\r\n{\"mass\": 26, \"candidates\": 48, \"losers\": 4, \"AS_losers\": 4, \"Q\": 626}\r\n{\"mass\": 27, \"candidates\": 16, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 27, \"last_complete_mass\": 27, \"certificate_sha256\": \"9791f5efa57bf73ed81eb0bd6077588375de2dfde962ce4ed33e5953ee524b7c\"}\r\n",
+    "stderr": "",
+    "code_sha256": "db0748f75d1ed693302309c3bf6c047272a519882c969c099bba49f68fb63c57"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_threshold_verify.py",
+      "theta334",
+      "clear"
+    ],
+    "exit_code": 0,
+    "seconds": 2.2189999999973224,
+    "peak_working_set_bytes": 38674432,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"theta334\", \"goal\": \"clear\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 27, \"last_complete_mass\": 27, \"certified_losing_states\": 153253, \"L_AS_seen\": 26, \"L_AS_grammar\": 26, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ea4670f167cc29ca6b7fb0c64bc3b472fceee8db72e3dd207351fb42ede6f2c3"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_regular_eliminate.py"
+    ],
+    "exit_code": 0,
+    "seconds": 42.0630000000092,
+    "peak_working_set_bytes": 69427200,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 72, \"complete\": 72, \"nonAS_critical\": 227, \"H2r_failures\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "5a39d235f65003d5c49ab65b20783bcfb14a9ebe993d9bced367662970b63702"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_regular_eliminate_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 29.014999999999418,
+    "peak_working_set_bytes": 39473152,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 72, \"complete\": 72, \"unknown\": 0, \"full_losing_states\": 1545176, \"nonAS_critical_inputs\": 227, \"candidates\": 11632, \"H2r_failures\": 0, \"nonAS_global_Q\": 0, \"all_complete_AS_comparisons_hold\": true, \"first_failures\": [], \"all_full_layers_and_H2r_keys_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "8a3c55c6f3881f17e80d8db666963feb0e6b3400f756801519f365fb06d97652"
+  }
+]

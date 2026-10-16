@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddshift.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.031999999991967,
+    "peak_working_set_bytes": 33927168,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 343, \"tests\": 34, \"losing_transforms\": 28}\r\n",
+    "stderr": "",
+    "code_sha256": "2f32e24cf5ee220dfe85af1973e2f98eb658aac4ddae763c22059c895d98cded"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddshift_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.312000000005355,
+    "peak_working_set_bytes": 27025408,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 343, \"tests\": 34, \"losing_transforms\": 28, \"eligible_critical_inputs\": 14, \"all_transformations_win_failures\": 0, \"ordered_pair_failures\": 6, \"first_failures\": [], \"all_complete_keys_Q_identities_and_memberships_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "4f5984e2def599046a6e5825eaab38763b70cd8f6bdac8ba47187ba210fffd5d"
+  }
+]

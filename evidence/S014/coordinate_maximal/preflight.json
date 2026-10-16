@@ -1,0 +1,17 @@
+{
+  "files": {
+    "evidence/S014/coordinate_maximal/inputs.json": "f754bee04800964399aff5c1ab5872b0645d4ff9710032d7530527044b013ef5",
+    "sessions/S014/PLAN_AMENDMENT_50.md": "0d177392305fa63735a209a436c6d65b14fca4f9c86e9f85b5ad174a1a4957fc",
+    "sessions/S014/PLAN_AMENDMENT_50.sha256": "e6d2f2f401e70b370eb46e12737784664bdcae068217b0666cd512604790449e",
+    "research/S014_ACTUAL_NEUTRAL_EXTREMIZER_OBSTRUCTION.md": "a7856a383acb3e209139369703bad315fe07c698c47627b95141ac5dd9f29254",
+    "research/S014_COORDINATE_MAXIMAL_OBSTRUCTION.md": "0c4caec0062d3455e1551ad792410faf53d6a2e1e4af3cfb2b2a99662484b755",
+    "tools/s014_circulant_engine.py": "6b4a01aac8bad7a6bb49a90e4bf435ce9947f5693b028982f4f90200c3ffd2e0",
+    "tools/s014_circulant_engine_verify.py": "be5e93de7c01605951a2424cdc13653b7255cb610c54253960e67c183bb451a9",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_coordinate_analysis.py": "334f527cdca65b87c843bb619c12864dabbb150511e25ce1cd5094b802ff152f",
+    "tools/s014_coordinate_job.py": "3202476723d2ebd5cfc2618a31642d00d4d731b3b1c3a2b5cb58f07aa023a49c",
+    "tools/s014_coordinate_prepare.py": "d0baffc439b7ba66108f3d58a65e6c8629980e9f6dd509799f0cfab8ca1f7186",
+    "tools/s014_coordinate_run.py": "76f4e84cd88282bd8872625bdc4613497e9d39653d6db471d8babc9d1efc7a55",
+    "tools/s014_coordinate_verify.py": "2aec81aa2ae885db5666a3515f2ffdf1be59cf85e1302b1b167b5fc7f0b19add"
+  }
+}

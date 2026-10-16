@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c078_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.280999999988126,
+    "peak_working_set_bytes": 167116800,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 142, \"bipartite_cases\": 27, \"states\": 167713, \"extensions\": 160579, \"failures\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "a9bc05cadb81b84232127408b476bc82c1a4177e7c5512ec36171d283f830265"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c078_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.9059999999881256,
+    "peak_working_set_bytes": 93609984,
+    "resource_failure": null,
+    "stdout": "{\"all_input_leaf_extension_memberships_equal\": true, \"cases\": 142, \"bipartite_cases\": 27, \"states\": 167713, \"extensions\": 160579, \"initially_empty_leaf_extensions\": 22440, \"failures\": 0, \"first_failures\": [], \"scope\": \"Finite all-graph challenge of117; exception is exactly two adjacent singletons; universal ASH* OPEN\", \"seconds\": 1.6400000000139698}\r\n",
+    "stderr": "",
+    "code_sha256": "337506d241c5fdd87ab72b82f00ec7f4091786d2efa1e160c384cd154bc2396c"
+  }
+]

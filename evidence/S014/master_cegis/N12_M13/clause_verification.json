@@ -1,0 +1,18 @@
+{
+  "case": "N12_M13",
+  "n": 12,
+  "mass": 13,
+  "patterns": 88,
+  "all_mass_M_nonAS_patterns_covered": true,
+  "certificate_records": 20683,
+  "c_winning_clauses": 19013,
+  "AS_negative_clauses": 772,
+  "AS_closure_states": 2546197,
+  "literal_c_moves": 208713,
+  "independent_set_instances": 792,
+  "local_truth_rows": 258688,
+  "all_conditional_graph_clauses_necessary": true,
+  "exact_selector_and_lex_extension_checked": true,
+  "counterexample_exists_implies_formula_satisfiable": true,
+  "scope": "ONLY n-vertex mass-M countermodels; universal ASH* OPEN"
+}

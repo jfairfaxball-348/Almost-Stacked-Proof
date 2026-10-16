@@ -1,0 +1,20 @@
+{
+  "full_negative_states": 56,
+  "literal_witnesses": 18,
+  "literal_moves": 202,
+  "neutral_roots": 4,
+  "positive_insertions_checked": 14,
+  "mass12_losers": 4,
+  "minimum_heavy": 2,
+  "Q": 90,
+  "P": 12,
+  "thresholds": [
+    15,
+    8,
+    7,
+    8
+  ],
+  "complete_selected_sets_equal": true,
+  "all_coordinate_extensions_win_by_threshold_and_witnesses": true,
+  "scope": "Actual noncritical P4 obstruction only; universal ASH* OPEN"
+}

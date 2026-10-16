@@ -1,0 +1,9 @@
+{
+  "case": "H8_5551",
+  "clauses": 1763,
+  "c_winning_trace_clauses": 1333,
+  "AS_negative_clauses": 306,
+  "AS_closure_states": 351960,
+  "literal_c_winning_moves": 18063,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

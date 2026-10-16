@@ -1,0 +1,15 @@
+{
+  "group_size": 384,
+  "method": "FULL_CANONICAL_FIRST_PARENT",
+  "dimension": 4,
+  "n": 16,
+  "mass": 14,
+  "status": "COMPLETE_LAYER_VERIFIED",
+  "all_full_orbit_losing_sets_equal": true,
+  "loser_orbits": 16883,
+  "checker_candidates": 42219,
+  "canonical_first_parent_instances": 42215,
+  "exact_AS_oracle_calls": 960,
+  "seconds": 89.43799999999464,
+  "scope": "Full XOR-orbit layer only if equality flag true; no universal ASH* inference"
+}

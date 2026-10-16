@@ -1,0 +1,16 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_indexed_drup.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09399999999732245,
+    "peak_working_set_bytes": 2146304,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-input graph class; universal ASH* OPEN\", \"added_RUP_steps\": 37, \"deletions\": 0, \"active_literal_occurrence_visits\": 10904, \"seconds\": 0.01600000000325963}\r\n",
+    "stderr": "",
+    "code_sha256": "7ab8fe0e94671bca6f0a396ce103a5e454606e84cf2be7b245f6e65a7c9a11f1"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "C:/Users/johnf/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe",
+      "tools/s014_cube_layer_job.ps1",
+      "4",
+      "14"
+    ],
+    "exit_code": 0,
+    "seconds": 13.655999999988126,
+    "peak_working_set_bytes": 300658688,
+    "resource_failure": null,
+    "stdout": "{\"dimension\":4,\"n\":16,\"mass\":14,\"status\":\"CANDIDATE_CAP_UNKNOWN\",\"candidates\":2000000,\"losers\":null,\"examined\":0,\"certificate\":\"mass14_partial_candidates.bin.gz\",\"sha256\":\"627a245dfab90fe5d4388ca7c4b6e69cd9130fd0c361ecf33d1ac9a453b3546c\",\"seconds\":13.2779189,\"scope\":\"Complete layer only after independent replay; caps UNKNOWN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "b5b5d4ebe73b06d8dd6067a8d364e39b7642eb4a55661926f77ff3bd41292ac7"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s008_branches_verify.py",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "seconds": 1.1089999999967404,
+    "peak_working_set_bytes": 104669184,
+    "resource_failure": null,
+    "stdout": "{\"campaign\": \"CAM-S008-02\", \"complete_layers\": 72, \"complete_configurations\": 127799, \"independent_traces\": 36173, \"legal_moves\": 479591, \"all_verified\": true, \"seconds\": 0.9380000000091968}\r\n",
+    "stderr": "",
+    "code_sha256": "a28594fc4e6416433da1756a0f1f174036407551b3a718e2f4011f0831714699"
+  }
+]

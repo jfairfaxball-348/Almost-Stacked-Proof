@@ -1,0 +1,9 @@
+{
+  "case": "control2",
+  "fixed_input_class_exclusion_certified": true,
+  "scope": "ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN",
+  "verified_RUP_additions": 1,
+  "deleted_clause_ids": 0,
+  "hint_visits": 2,
+  "seconds": 0.0
+}

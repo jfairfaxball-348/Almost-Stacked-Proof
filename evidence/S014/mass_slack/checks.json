@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c069_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 17154048,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"H_UP2_AUXILIARY_REFUTED\", \"cases\": 18, \"inputs\": 2946, \"candidates\": 25995, \"parsed_states\": 5173}\r\n",
+    "stderr": "",
+    "code_sha256": "5c10cdd5ee0f9c17f3171104734611ff6c82d44de81755de4ab2e3f159da5889"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c069_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21899999998277053,
+    "peak_working_set_bytes": 19075072,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"H_UP2_AUXILIARY_REFUTED\", \"complete_tested_prefix_verified\": true, \"cases\": 18, \"inputs\": 2946, \"parsed_states\": 5173, \"failed_inputs\": 1, \"first_failure\": {\"case\": {\"id\": \"A17\", \"n\": 5, \"threshold\": 16, \"edges\": [[0, 3], [1, 2], [1, 4], [2, 4], [3, 4]], \"summary\": \"evidence/S005/A5_0008_stack.summary.json\", \"certificate\": \"evidence/S005/A5_0008_stack.bin.xz\"}, \"c\": [1, 2, 2, 1, 1], \"mass\": 7, \"candidates\": 12}, \"independently_checked_failed_candidates\": 12, \"scope\": \"Only finite H_up2 challenge; universal ASH* OPEN\", \"seconds\": 0.046999999991385266}\r\n",
+    "stderr": "",
+    "code_sha256": "9b4c68fbeeb4e64ddd20b063c1683efc76e3db14b6c4098eab6cbc3d62afb628"
+  }
+]

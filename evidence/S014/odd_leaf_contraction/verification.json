@@ -1,0 +1,14 @@
+{
+  "complete_both_direction_inventories_and_memberships_equal": true,
+  "cases": 142,
+  "states": 167713,
+  "records": 164058,
+  "odd_leaf_down": 54686,
+  "even_leaf_parent_up": 54686,
+  "even_heavy_leaf_plus3": 54686,
+  "failed_memberships": 0,
+  "critical_even_leafs": 0,
+  "first_failures": [],
+  "scope": "Complete finite119b/120 challenge on142 fixed graphs, symbolic proofs separate; universal ASH* OPEN",
+  "seconds": 14.23399999999674
+}

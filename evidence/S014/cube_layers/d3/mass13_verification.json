@@ -1,0 +1,13 @@
+{
+  "dimension": 3,
+  "n": 8,
+  "mass": 13,
+  "status": "COMPLETE_LAYER_VERIFIED",
+  "all_full_orbit_losing_sets_equal": true,
+  "loser_orbits": 3,
+  "checker_candidates": 33,
+  "canonical_first_parent_instances": 35,
+  "exact_AS_oracle_calls": 0,
+  "seconds": 0.01600000000325963,
+  "scope": "Full XOR-orbit layer only if equality flag true; no universal ASH* inference"
+}

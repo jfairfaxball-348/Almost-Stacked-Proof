@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_watched_drup.py",
+      "evidence/S014/core_proof/C9b",
+      "core_C9b"
+    ],
+    "exit_code": 0,
+    "seconds": 468.18700000000536,
+    "peak_working_set_bytes": 181809152,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"core_C9b\", \"fixed_input_class_exclusion_certified\": false, \"error\": \"WATCH_VISIT_CAP_UNKNOWN\", \"scope\": \"UNKNOWN; no mathematical exclusion promoted\", \"added_RUP_steps\": 67031, \"deletions\": 38546, \"active_watched_clause_visits\": 500000001, \"seconds\": 467.92200000000594}\r\n",
+    "stderr": "",
+    "code_sha256": "d5630e7fc5f77dcfb7c6a44985f16c61b5dc51ca287e6087b4a37f2adc148a1f"
+  }
+]

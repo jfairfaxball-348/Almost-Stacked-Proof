@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c068_summary.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.312999999994645,
+    "peak_working_set_bytes": 17854464,
+    "resource_failure": null,
+    "stdout": "{\"patterns\": 44, \"certified\": 44, \"complete_mass11_order8_exclusion\": true, \"control_pass\": true, \"verified_RUP_additions\": 64781, \"hint_visits\": 1461399, \"scope\": \"ONLY all connected order8 graphs/fixed mass11; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "c6374cc44f59110f6fcef3923c16dd2314befc04198935476b39d05e6bad1b41"
+  }
+]

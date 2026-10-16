@@ -404,7 +404,7 @@
     "title": "S013 global minimal-neighborhood and loss-preserving exchange proofs",
     "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/main/research/S013_UNIVERSAL_RESEARCH.md",
     "access": "PROOF_INSPECTED",
-    "note": "63-70 complete scopes/DAG; universal STACK/CLEAR OPEN, fresh cold challenge FUTURE S014."
+    "note": "63-70 complete scopes/DAG; universal STACK/CLEAR OPEN. S014 cold challenge PASS at stated scopes with24 inherited replays; no human/kernel assurance."
   },
   {
     "id": "SRC-0048",
@@ -438,5 +438,189 @@
     "access": "PROOF_INSPECTED",
     "pdf_sha256": "1f4a05afac1bd8d65a4d1bb022d6ae5cdb63d1c71a584826b9c2601d8f7fdf1b",
     "note": "S013 original author PDF26pages; selected definitions pp1-2 and Lemmas6-7 pp10-11 proofs inspected. Ordinary target/optimal reachability allows leftovers; no exact-consuming equivalence or whole-paper proof audit."
+  },
+  {
+    "id": "SRC-0051",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 cold review and positive-gap diagnostics",
+    "url": "../sessions/S014/CHECKPOINT.md",
+    "access": "PROOF_INSPECTED",
+    "note": "S014 active local record, not a published artifact. Prior-hashed CAM01/independent complete selected-set diagnostics and24 unchanged inherited checks; no new threshold/universal proof. S014 ACTIVE; independent cold proof review pending, no universal/kernel assurance."
+  },
+  {
+    "id": "SRC-0052",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 local proofs71-84 and exact scope adjudication",
+    "url": "../research/S014_LOCAL_PROOF_AUDIT.md",
+    "access": "PROOF_INSPECTED",
+    "note": "S014 active local research; complete join-class comparison/causal necessity, no universal ASH*, worldwide novelty or kernel assurance. Execution-time candidate labels/citation typo explicitly reconciled. S014 ACTIVE; independent cold proof review pending, no universal/kernel assurance."
+  },
+  {
+    "id": "SRC-0053",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 fourteen preregistered independent campaigns",
+    "url": "../sessions/S014/MILESTONES.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Complete bounded certificates/logs/input/code/plan hashes in evidence/S014. Six CAM12 CLEAR cutoffs preserved and separately completed in CAM13. No caps hit or universal extrapolation."
+  },
+  {
+    "id": "SRC-0054",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 partial-neighborhood/parity continuation85-86 and CAM15-19",
+    "url": "../research/S014_PARITY_AND_TRUE_HEAD_FRONTIER.md",
+    "access": "PROOF_INSPECTED",
+    "note": "S014 active local: exact critical parity/local-Q/endomorphism barriers, full negative closures and literal winners; odd-shift existence remains unproved. Initial CAM17 schema failure and v2 repair both retained. S014 ACTIVE; independent cold proof review pending, no universal/kernel assurance."
+  },
+  {
+    "id": "SRC-0055",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 triplet-head surgery and signed critical barrier87-88",
+    "url": "../research/S014_TRIPLET_HEAD_AND_SIGNED_BARRIER.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Exact conditional certificate and bipartite critical statements; generic loss-preservation false, critical/global-Q weakening unproved. Known count reconstruction/signed primitives credited; novelty/human/kernel assurance absent."
+  },
+  {
+    "id": "SRC-0056",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 CAM20-24 complete true-head and criticality certificates",
+    "url": "../sessions/S014/AUDIT.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Separate complete positive/negative DAGs and full layer checkers. Original CAM21 interruption/partial bytes and successful v2 retained; all583 failures below critical/layer-global Q on215 exact graphs. Finite scopes only."
+  },
+  {
+    "id": "SRC-0057",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 critical heavy elimination and minimum-heavy selection89",
+    "url": "../research/S014_CRITICAL_HEAVY_ELIMINATION.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Active local proof89 and complete conditional induction H2r=>ASH*, H2r unproved; fresh exact critical auxiliary failures and bounded challenges. No universal/kernel or priority assurance."
+  },
+  {
+    "id": "SRC-0058",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 AS tail, extremal graph and bipartite neutral-catalyst proofs90-93",
+    "url": "../research/S014_BIPARTITE_NEUTRAL_CATALYSIS.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Local complete exact-scope arguments, no universal ASH*, human/kernel or novelty claim. Dependencies and other proof files explicitly linked in active research records."
+  },
+  {
+    "id": "SRC-0059",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 continued counterexample search CAM33-45",
+    "url": "../research/S014_COUNTEREXAMPLE_SEARCH.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Exact fixed-input graph-class exclusions have full literal certificate/clause/permutation and independent proof replay; larger bound outcomes remain UNKNOWN."
+  },
+  {
+    "id": "SRC-0060",
+    "type": "SOFTWARE_DOCUMENTATION",
+    "title": "DRAT-trim official proof format and actual local LRAT generation help",
+    "url": "https://github.com/marijnheule/drat-trim",
+    "access": "STATEMENT_INSPECTED",
+    "note": "Official documentation and actual pinned binary help inspected. Native LRAT generation is untrusted; separately written Python hinted RUP checker verifies every retained addition and empty clause. No whole implementation or formal kernel audit claimed."
+  },
+  {
+    "id": "SRC-0061",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 exact lex/shared-input/fair-selector reductions94/95/99",
+    "url": "../research/S014_FAIR_SELECTOR_CERTIFICATION.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Local complete finite reductions; existential representative implication, not necessity for every labeling. No universal ASH* or human/kernel/novelty claim."
+  },
+  {
+    "id": "SRC-0062",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 actual P4 extension/extremizer obstructions96-98 and fresh CAM49/50",
+    "url": "../research/S014_COORDINATE_MAXIMAL_OBSTRUCTION.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Actual losing input with all positive extensions winning below larger AS losers. Exact local shortcut failures only, not critical ASH* counterexamples."
+  },
+  {
+    "id": "SRC-0063",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 bipartite one-bit/tree-supported bridge100-101 and actual metric obstructions102-103",
+    "url": "../research/S014_METRIC_RETRACTION_AUDIT.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Local complete exact-scope arguments/independent finite certificates. TreeStack earlier; April7.3 prior path row. Universal ASH* OPEN, no human/kernel/priority assurance."
+  },
+  {
+    "id": "SRC-0064",
+    "type": "PRIMARY_PAPER",
+    "title": "Hans-Juergen Bandelt: Absolute retracts of bipartite graphs (1987)",
+    "url": "https://doi.org/10.1016/0166-218X(87)90058-8",
+    "access": "METADATA_ONLY",
+    "note": "Primary-indexed title/DOI/abstract excerpt visible, publisher direct403. Full abstract/theorem/proof NOT inspected. This conservative status supersedes imprecise frozen101 phrase; self-contained proof does not import paper result."
+  },
+  {
+    "id": "SRC-0065",
+    "type": "PRIMARY_PAPER",
+    "title": "Guillaume Ducoffe: Beyond Helly graphs: the diameter problem on absolute retracts",
+    "url": "https://arxiv.org/abs/2101.03574",
+    "access": "ABSTRACT_INSPECTED",
+    "note": "Primary abstract inspected for retraction/isometry/background definitions only; no full tree retraction theorem or proof inspection claimed."
+  },
+  {
+    "id": "SRC-0066",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 exact Q4 AS grammar/orbit certificates104-108 and active counterexample search",
+    "url": "../research/S014_CUBE_COUNTEREXAMPLE_SEARCH.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Exact AS max30 and whole-AS oracle, complete fixed sample winners, full Q1/Q3 controls. Source primitives/TreeStack retain prior credit; no universal/full-Q4 or human/kernel/priority assurance."
+  },
+  {
+    "id": "SRC-0067",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "CAM56 complete32-pattern order8 mass10 independent exclusion proofs",
+    "url": "../evidence/S014/split_cegis/summary.json",
+    "access": "PROOF_INSPECTED",
+    "note": "Independent partition inventory and all32 literal graph/CNF/LRAT chains. Finite all-graph class only, not universal ASH*."
+  },
+  {
+    "id": "SRC-0068",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 complete Q4/Fano thresholds and universal bipartite shell lower witness109",
+    "url": "../research/S014_Q4_FANO_COMPLETE_THRESHOLDS.md",
+    "access": "PROOF_INSPECTED",
+    "note": "CAM64-67 complete finite certificates with preserved65 failure/repair;109 local all-root symbolic AS lower, universal ASH* OPEN, no independent human/kernel or priority assurance."
+  },
+  {
+    "id": "SRC-0069",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 finite higher-pattern exclusions and failed unconditional mass-slack pooling",
+    "url": "../research/S014_MASS_SLACK_FAILURES.md",
+    "access": "PROOF_INSPECTED",
+    "note": "CAM68 all44 mass11/order8 patterns and71 specified8 larger classes independently excluded.69/70 complete prefix/candidate failures, not ASH*.110 symbolic Q5 AS lower66 from109; universal comparison OPEN."
+  },
+  {
+    "id": "SRC-0070",
+    "type": "PRIMARY_PAPER",
+    "title": "Elduque-Labra: Evolution algebras and graphs",
+    "url": "https://arxiv.org/pdf/1312.4685",
+    "access": "PROOF_INSPECTED",
+    "note": "Only v1 Definitions2.1/2.2 p2 and Theorem3.4 proof pp6-7 inspected. Nilpotency/no-oriented-cycle theorem does not supply consuming STACK extremal comparison. Undirected nontrivial graphs have oriented2-cycles. No PDF mirrored; no ASH* or novelty conclusion."
+  },
+  {
+    "id": "SRC-0071",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 boundary trees, parity-marker normalization and leaf ascent",
+    "url": "../research/S014_UNIQUE_MARKERS_AND_LEAF_ESCAPE.md",
+    "access": "PROOF_INSPECTED",
+    "note": "111-115 complete local scoped proofs, finite campaigns72-76; B_par/B_odd/critical oddness remain UNPROVED. Generic neighbor ascent FALSE below criticality; universal STACK OPEN."
+  },
+  {
+    "id": "SRC-0072",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S014 prescribed-source scheduling, exact leaf contraction and critical leaf restrictions",
+    "url": "../research/S014_ELEMENTARY_SOURCE_AND_ODD_LEAF_CONTRACTION.md",
+    "access": "PROOF_INSPECTED",
+    "note": "116-120 complete local proofs;118 independent elementary proof of116. CAM78-80 finite full-inventory challenge.121 symbolic THREE-exchange obstruction separately scoped; universal ASH* OPEN."
+  },
+  {
+    "id": "SRC-0073",
+    "type": "PRIMARY_PAPER",
+    "title": "Minamikawa: Geodesic Property of Greedy Algorithms for Optimization Problems on Jump Systems and Delta-matroids",
+    "url": "https://arxiv.org/pdf/2206.10439",
+    "access": "STATEMENT_INSPECTED",
+    "note": "v1 Section2.1 p3 definition(J-EXC) and inc(x,y) inspected; algorithm/theorem proofs NOT inspected. Used only to state the axiom independently refuted for W_p in121. No PDF mirrored."
   }
 ]

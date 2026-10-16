@@ -1,0 +1,9 @@
+{
+  "case": "F8",
+  "clauses": 2632,
+  "c_winning_trace_clauses": 2452,
+  "AS_negative_clauses": 148,
+  "AS_closure_states": 83232,
+  "literal_c_winning_moves": 24409,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

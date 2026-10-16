@@ -1,0 +1,28 @@
+{
+  "shard": 1,
+  "cases": 24,
+  "full_isometric_tree_sets": 3800,
+  "all_alpha_maximum_sets_equal": true,
+  "all_root_scores_equal": true,
+  "strict_gaps": [
+    {
+      "index": 39,
+      "source": "A182",
+      "threshold": 42,
+      "bound": 40,
+      "R": 40,
+      "alpha": 5,
+      "critical_AS_witness": [
+        39,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "scope": "Fixed certified thresholds only; proposed combined ceiling UNPROVED unless refuted by listed strict gap; universal ASH* OPEN"
+}

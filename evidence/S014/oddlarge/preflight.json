@@ -1,0 +1,12 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_21.md": "fe0b627c22a9575b247dcd60eccbacf02611db9afea32affbec28684a91256b9",
+    "evidence/S014/oddlarge/inputs.json": "ddf48eae35f4d986de9315ee1ca1bfba533caee93ce253f533388d913307f633",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_oddlarge.py": "951f4c7cdc68c530882882ca986da65689b368d4c35847d6958256ff75d459a9",
+    "tools/s014_oddlarge_run.py": "8e648efdc645bf7e3755967defd4c819b5ee78805f8f3584dc264b3af5f950e5",
+    "tools/s014_oddlarge_verify.py": "368f1ae23b5382479400eb3594da302a3d7222de4e6eb855d893360256efc5c4"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

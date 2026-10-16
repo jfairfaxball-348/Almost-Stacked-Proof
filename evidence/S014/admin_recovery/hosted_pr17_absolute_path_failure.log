@@ -1,0 +1,255 @@
+﻿2026-10-16T15:00:13.3881005Z Current runner version: '2.337.0'
+2026-10-16T15:00:13.3905769Z ##[group]Runner Image Provisioner
+2026-10-16T15:00:13.3906715Z Hosted Compute Agent
+2026-10-16T15:00:13.3907337Z Version: 20261012.601
+2026-10-16T15:00:13.3908080Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+2026-10-16T15:00:13.3908881Z Build Date: 2026-10-12T17:48:21Z
+2026-10-16T15:00:13.3909793Z Worker ID: {a3340273-870d-459a-ac8e-661b4d83ca85}
+2026-10-16T15:00:13.3910529Z Region: eastus
+2026-10-16T15:00:13.3911192Z Cloud: Azure
+2026-10-16T15:00:13.3911882Z ##[endgroup]
+2026-10-16T15:00:13.3913446Z ##[group]Operating System
+2026-10-16T15:00:13.3914103Z Ubuntu
+2026-10-16T15:00:13.3914639Z 24.04.5
+2026-10-16T15:00:13.3915222Z LTS
+2026-10-16T15:00:13.3915730Z ##[endgroup]
+2026-10-16T15:00:13.3916320Z ##[group]Runner Image
+2026-10-16T15:00:13.3916937Z Image: ubuntu-24.04
+2026-10-16T15:00:13.3917541Z Version: 20261012.334.1
+2026-10-16T15:00:13.3918850Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-16T15:00:13.3920999Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+2026-10-16T15:00:13.3922030Z ##[endgroup]
+2026-10-16T15:00:13.3923332Z ##[group]GITHUB_TOKEN Permissions
+2026-10-16T15:00:13.3925710Z Contents: read
+2026-10-16T15:00:13.3926336Z Metadata: read
+2026-10-16T15:00:13.3927008Z Packages: read
+2026-10-16T15:00:13.3927621Z ##[endgroup]
+2026-10-16T15:00:13.3930132Z Secret source: Actions
+2026-10-16T15:00:13.3931181Z Cache mode: write
+2026-10-16T15:00:13.3932189Z Prepare workflow directory
+2026-10-16T15:00:13.4258084Z Prepare all required actions
+2026-10-16T15:00:13.4306094Z Getting action download info
+2026-10-16T15:00:13.6534739Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-16T15:00:13.8611218Z Complete job name: validate
+2026-10-16T15:00:13.9517488Z ##[group]Run actions/checkout@v4
+2026-10-16T15:00:13.9518365Z with:
+2026-10-16T15:00:13.9518886Z   repository: jfairfaxball-348/Almost-Stacked-Proof
+2026-10-16T15:00:13.9523272Z   token: ***
+2026-10-16T15:00:13.9523718Z   ssh-strict: true
+2026-10-16T15:00:13.9524160Z   ssh-user: git
+2026-10-16T15:00:13.9524602Z   persist-credentials: true
+2026-10-16T15:00:13.9525098Z   clean: true
+2026-10-16T15:00:13.9525542Z   sparse-checkout-cone-mode: true
+2026-10-16T15:00:13.9526068Z   fetch-depth: 1
+2026-10-16T15:00:13.9526499Z   fetch-tags: false
+2026-10-16T15:00:13.9526947Z   show-progress: true
+2026-10-16T15:00:13.9527396Z   lfs: false
+2026-10-16T15:00:13.9527820Z   submodules: false
+2026-10-16T15:00:13.9528271Z   set-safe-directory: true
+2026-10-16T15:00:13.9528776Z   allow-unsafe-pr-checkout: false
+2026-10-16T15:00:13.9529801Z ##[endgroup]
+2026-10-16T15:00:14.0572895Z Syncing repository: jfairfaxball-348/Almost-Stacked-Proof
+2026-10-16T15:00:14.0575554Z ##[group]Getting Git version info
+2026-10-16T15:00:14.0576993Z Working directory is '/home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof'
+2026-10-16T15:00:14.0578847Z [command]/usr/bin/git version
+2026-10-16T15:00:14.0735565Z git version 2.55.0
+2026-10-16T15:00:14.0758844Z ##[endgroup]
+2026-10-16T15:00:14.0774027Z Temporarily overriding HOME='/home/runner/work/_temp/23bf3c23-2f1d-4ffd-9deb-c7ef9c444171' before making global git config changes
+2026-10-16T15:00:14.0776465Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-16T15:00:14.0779808Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof
+2026-10-16T15:00:14.0837214Z Deleting the contents of '/home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof'
+2026-10-16T15:00:14.0841940Z ##[group]Initializing the repository
+2026-10-16T15:00:14.0845971Z [command]/usr/bin/git init /home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof
+2026-10-16T15:00:14.0970359Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-16T15:00:14.0972326Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-16T15:00:14.0974717Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-16T15:00:14.0976492Z hint: call:
+2026-10-16T15:00:14.0977389Z hint:
+2026-10-16T15:00:14.0978399Z hint: 	git config --global init.defaultBranch <name>
+2026-10-16T15:00:14.0979942Z hint:
+2026-10-16T15:00:14.0981121Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-16T15:00:14.0982963Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-16T15:00:14.0984502Z hint:
+2026-10-16T15:00:14.0986681Z hint: 	git branch -m <name>
+2026-10-16T15:00:14.0987736Z hint:
+2026-10-16T15:00:14.0989285Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-16T15:00:14.0991724Z Initialized empty Git repository in /home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof/.git/
+2026-10-16T15:00:14.0995461Z [command]/usr/bin/git remote add origin https://github.com/jfairfaxball-348/Almost-Stacked-Proof
+2026-10-16T15:00:14.1040007Z ##[endgroup]
+2026-10-16T15:00:14.1041374Z ##[group]Disabling automatic garbage collection
+2026-10-16T15:00:14.1044593Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-16T15:00:14.1082640Z ##[endgroup]
+2026-10-16T15:00:14.1083962Z ##[group]Setting up auth
+2026-10-16T15:00:14.1094585Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T15:00:14.1126389Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T15:00:14.1537024Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T15:00:14.1578854Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T15:00:14.1834129Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T15:00:14.1870766Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T15:00:14.2092612Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-16T15:00:14.2133738Z ##[endgroup]
+2026-10-16T15:00:14.2143061Z ##[group]Fetching the repository
+2026-10-16T15:00:14.2144611Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9f73fed287afdef824fce873cd42de9995ee0864:refs/remotes/pull/17/merge
+2026-10-16T15:00:19.8762774Z From https://github.com/jfairfaxball-348/Almost-Stacked-Proof
+2026-10-16T15:00:19.8764492Z  * [new ref]           9f73fed287afdef824fce873cd42de9995ee0864 -> pull/17/merge
+2026-10-16T15:00:19.8768869Z ##[endgroup]
+2026-10-16T15:00:19.8773655Z ##[group]Determining the checkout info
+2026-10-16T15:00:19.8775344Z ##[endgroup]
+2026-10-16T15:00:19.8776448Z [command]/usr/bin/git sparse-checkout disable
+2026-10-16T15:00:19.8833064Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-16T15:00:19.8867357Z ##[group]Checking out the ref
+2026-10-16T15:00:19.8869656Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/17/merge
+2026-10-16T15:00:20.9438291Z Updating files:  17% (8995/52400)
+2026-10-16T15:00:21.1130531Z Updating files:  18% (9432/52400)
+2026-10-16T15:00:21.1326759Z Updating files:  19% (9956/52400)
+2026-10-16T15:00:21.1694798Z Updating files:  20% (10480/52400)
+2026-10-16T15:00:21.2075416Z Updating files:  21% (11004/52400)
+2026-10-16T15:00:21.2305402Z Updating files:  22% (11528/52400)
+2026-10-16T15:00:21.2526116Z Updating files:  23% (12052/52400)
+2026-10-16T15:00:21.2746017Z Updating files:  24% (12576/52400)
+2026-10-16T15:00:21.2989786Z Updating files:  25% (13100/52400)
+2026-10-16T15:00:21.3259351Z Updating files:  26% (13624/52400)
+2026-10-16T15:00:21.3498098Z Updating files:  27% (14148/52400)
+2026-10-16T15:00:21.3813795Z Updating files:  28% (14672/52400)
+2026-10-16T15:00:21.4072424Z Updating files:  29% (15196/52400)
+2026-10-16T15:00:21.4283539Z Updating files:  30% (15720/52400)
+2026-10-16T15:00:21.4525464Z Updating files:  31% (16244/52400)
+2026-10-16T15:00:21.5127141Z Updating files:  32% (16768/52400)
+2026-10-16T15:00:21.5680870Z Updating files:  33% (17292/52400)
+2026-10-16T15:00:21.6000367Z Updating files:  34% (17816/52400)
+2026-10-16T15:00:21.6287960Z Updating files:  35% (18340/52400)
+2026-10-16T15:00:21.6875815Z Updating files:  36% (18864/52400)
+2026-10-16T15:00:21.7075328Z Updating files:  37% (19388/52400)
+2026-10-16T15:00:21.7316195Z Updating files:  38% (19912/52400)
+2026-10-16T15:00:21.7543207Z Updating files:  39% (20436/52400)
+2026-10-16T15:00:21.7739860Z Updating files:  40% (20960/52400)
+2026-10-16T15:00:21.7949710Z Updating files:  41% (21484/52400)
+2026-10-16T15:00:21.8158287Z Updating files:  42% (22008/52400)
+2026-10-16T15:00:21.8375709Z Updating files:  43% (22532/52400)
+2026-10-16T15:00:21.8596090Z Updating files:  44% (23056/52400)
+2026-10-16T15:00:21.8821064Z Updating files:  45% (23580/52400)
+2026-10-16T15:00:21.9029582Z Updating files:  46% (24104/52400)
+2026-10-16T15:00:21.9174191Z Updating files:  47% (24628/52400)
+2026-10-16T15:00:21.9241217Z Updating files:  47% (24988/52400)
+2026-10-16T15:00:21.9438638Z Updating files:  48% (25152/52400)
+2026-10-16T15:00:21.9668551Z Updating files:  49% (25676/52400)
+2026-10-16T15:00:21.9887720Z Updating files:  50% (26200/52400)
+2026-10-16T15:00:22.0121507Z Updating files:  51% (26724/52400)
+2026-10-16T15:00:22.0327481Z Updating files:  52% (27248/52400)
+2026-10-16T15:00:22.0591552Z Updating files:  53% (27772/52400)
+2026-10-16T15:00:22.0815537Z Updating files:  54% (28296/52400)
+2026-10-16T15:00:22.1051873Z Updating files:  55% (28820/52400)
+2026-10-16T15:00:22.1260797Z Updating files:  56% (29344/52400)
+2026-10-16T15:00:22.1509197Z Updating files:  57% (29868/52400)
+2026-10-16T15:00:22.1734907Z Updating files:  58% (30392/52400)
+2026-10-16T15:00:22.1928297Z Updating files:  59% (30916/52400)
+2026-10-16T15:00:22.2217991Z Updating files:  60% (31440/52400)
+2026-10-16T15:00:22.2435849Z Updating files:  61% (31964/52400)
+2026-10-16T15:00:22.2642432Z Updating files:  62% (32488/52400)
+2026-10-16T15:00:22.2930554Z Updating files:  63% (33012/52400)
+2026-10-16T15:00:22.4252289Z Updating files:  64% (33536/52400)
+2026-10-16T15:00:22.4475916Z Updating files:  65% (34060/52400)
+2026-10-16T15:00:22.4694710Z Updating files:  66% (34584/52400)
+2026-10-16T15:00:22.4909590Z Updating files:  67% (35108/52400)
+2026-10-16T15:00:22.5115834Z Updating files:  68% (35632/52400)
+2026-10-16T15:00:22.5323247Z Updating files:  69% (36156/52400)
+2026-10-16T15:00:22.5530396Z Updating files:  70% (36680/52400)
+2026-10-16T15:00:22.5741153Z Updating files:  71% (37204/52400)
+2026-10-16T15:00:22.5946588Z Updating files:  72% (37728/52400)
+2026-10-16T15:00:22.6161903Z Updating files:  73% (38252/52400)
+2026-10-16T15:00:22.6372116Z Updating files:  74% (38776/52400)
+2026-10-16T15:00:22.6590467Z Updating files:  75% (39300/52400)
+2026-10-16T15:00:22.6787294Z Updating files:  76% (39824/52400)
+2026-10-16T15:00:22.7044201Z Updating files:  77% (40348/52400)
+2026-10-16T15:00:22.7594240Z Updating files:  78% (40872/52400)
+2026-10-16T15:00:22.7910314Z Updating files:  79% (41396/52400)
+2026-10-16T15:00:22.8232109Z Updating files:  80% (41920/52400)
+2026-10-16T15:00:22.8652428Z Updating files:  81% (42444/52400)
+2026-10-16T15:00:22.8861451Z Updating files:  82% (42968/52400)
+2026-10-16T15:00:22.9067904Z Updating files:  83% (43492/52400)
+2026-10-16T15:00:22.9173685Z Updating files:  84% (44016/52400)
+2026-10-16T15:00:22.9282440Z Updating files:  84% (44257/52400)
+2026-10-16T15:00:22.9488703Z Updating files:  85% (44540/52400)
+2026-10-16T15:00:22.9705321Z Updating files:  86% (45064/52400)
+2026-10-16T15:00:22.9910916Z Updating files:  87% (45588/52400)
+2026-10-16T15:00:23.0112379Z Updating files:  88% (46112/52400)
+2026-10-16T15:00:23.0326071Z Updating files:  89% (46636/52400)
+2026-10-16T15:00:23.0543154Z Updating files:  90% (47160/52400)
+2026-10-16T15:00:23.0750505Z Updating files:  91% (47684/52400)
+2026-10-16T15:00:23.0953484Z Updating files:  92% (48208/52400)
+2026-10-16T15:00:23.1155429Z Updating files:  93% (48732/52400)
+2026-10-16T15:00:23.1360074Z Updating files:  94% (49256/52400)
+2026-10-16T15:00:23.1565426Z Updating files:  95% (49780/52400)
+2026-10-16T15:00:23.1826758Z Updating files:  96% (50304/52400)
+2026-10-16T15:00:23.2508360Z Updating files:  97% (50828/52400)
+2026-10-16T15:00:23.3100264Z Updating files:  98% (51352/52400)
+2026-10-16T15:00:23.3361077Z Updating files:  99% (51876/52400)
+2026-10-16T15:00:23.3362234Z Updating files: 100% (52400/52400)
+2026-10-16T15:00:23.3363222Z Updating files: 100% (52400/52400), done.
+2026-10-16T15:00:23.3770101Z Note: switching to 'refs/remotes/pull/17/merge'.
+2026-10-16T15:00:23.3770772Z 
+2026-10-16T15:00:23.3771125Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-16T15:00:23.3771983Z changes and commit them, and you can discard any commits you make in this
+2026-10-16T15:00:23.3772795Z state without impacting any branches by switching back to a branch.
+2026-10-16T15:00:23.3773275Z 
+2026-10-16T15:00:23.3773571Z If you want to create a new branch to retain commits you create, you may
+2026-10-16T15:00:23.3774326Z do so (now or later) by using -c with the switch command. Example:
+2026-10-16T15:00:23.3774764Z 
+2026-10-16T15:00:23.3774944Z   git switch -c <new-branch-name>
+2026-10-16T15:00:23.3775235Z 
+2026-10-16T15:00:23.3775404Z Or undo this operation with:
+2026-10-16T15:00:23.3775670Z 
+2026-10-16T15:00:23.3775820Z   git switch -
+2026-10-16T15:00:23.3776023Z 
+2026-10-16T15:00:23.3776383Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-16T15:00:23.3776921Z 
+2026-10-16T15:00:23.3777845Z HEAD is now at 9f73fed2 Merge 44a8972616efddb3223e5d18d1dd101d731d56f7 into 8ea5db207a91ca917c3b94bc98b54ac65406e7a5
+2026-10-16T15:00:23.3863755Z ##[endgroup]
+2026-10-16T15:00:23.3917071Z [command]/usr/bin/git log -1 --format=%H
+2026-10-16T15:00:23.3945869Z 9f73fed287afdef824fce873cd42de9995ee0864
+2026-10-16T15:00:23.4236577Z ##[group]Run python3 validation/validate_governance.py
+2026-10-16T15:00:23.4237076Z [36;1mpython3 validation/validate_governance.py[0m
+2026-10-16T15:00:23.4532372Z shell: /usr/bin/bash -e {0}
+2026-10-16T15:00:23.4532746Z ##[endgroup]
+2026-10-16T15:00:46.0730906Z Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).
+2026-10-16T15:00:46.0732125Z S003 evidence hashes: 20 files match.
+2026-10-16T15:00:46.0733114Z Author correspondence provenance and current future handoff: PASS (administrative only).
+2026-10-16T15:00:46.0734533Z S004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).
+2026-10-16T15:00:46.0735989Z S005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).
+2026-10-16T15:00:46.0737517Z S006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).
+2026-10-16T15:00:46.0739319Z S007 scope and 72 historical hashes: PASS (cold audit S008; universal ASH* OPEN).
+2026-10-16T15:00:46.0740404Z S008 scopes and 70 immutable hashes: PASS (cold S009; universal ASH* OPEN).
+2026-10-16T15:00:46.0741673Z S009 primary/scopes/mirrors and 64 immutable hashes: PASS (universal OPEN; historical S010 handoff retained).
+2026-10-16T15:00:46.0742552Z S010 historical scopes and 75 immutable hashes: PASS (cold challenge S011 at stated scopes).
+2026-10-16T15:00:46.0743328Z S011 historical scopes and 82 immutable hashes: PASS (cold challenge S012 at stated scopes).
+2026-10-16T15:00:46.0744113Z S012 historical scopes and 90 immutable hashes: PASS (cold challenge S013 at stated scopes).
+2026-10-16T15:00:46.0744881Z S013 current scopes/mirrors and 130 immutable hashes: PASS; universal STACK/CLEAR OPEN.
+2026-10-16T15:00:46.0745678Z S014 bounded plans and initial metadata: PASS; independently hashing all preflight references.
+2026-10-16T15:00:46.1677416Z Traceback (most recent call last):
+2026-10-16T15:00:46.1678638Z   File "/home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof/validation/validate_governance.py", line 741, in <module>
+2026-10-16T15:00:46.1680489Z     assert sha256_file(versioned_tool_source(path,digest))==digest,(str(preflight),path)
+2026-10-16T15:00:46.1681539Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-16T15:00:46.1682729Z   File "/home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof/validation/validate_governance.py", line 16, in sha256_file
+2026-10-16T15:00:46.1683989Z     before = path.stat()
+2026-10-16T15:00:46.1684510Z              ^^^^^^^^^^^
+2026-10-16T15:00:46.1685089Z   File "/usr/lib/python3.12/pathlib.py", line 842, in stat
+2026-10-16T15:00:46.1690408Z     return os.stat(self, follow_symlinks=follow_symlinks)
+2026-10-16T15:00:46.1690979Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-16T15:00:46.1691831Z FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof/C:/Almost-Stacked-Proof/tools/s014_lrat_run.py'
+2026-10-16T15:00:46.2039575Z ##[error]Process completed with exit code 1.
+2026-10-16T15:00:46.2227459Z Post job cleanup.
+2026-10-16T15:00:46.3097801Z [command]/usr/bin/git version
+2026-10-16T15:00:46.3142746Z git version 2.55.0
+2026-10-16T15:00:46.3186816Z Temporarily overriding HOME='/home/runner/work/_temp/63022328-170f-49fb-84bf-443c66360316' before making global git config changes
+2026-10-16T15:00:46.3187902Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-16T15:00:46.3194233Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Almost-Stacked-Proof/Almost-Stacked-Proof
+2026-10-16T15:00:46.3232155Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-16T15:00:46.3267442Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-16T15:00:46.3556045Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-16T15:00:46.3613330Z http.https://github.com/.extraheader
+2026-10-16T15:00:46.3625967Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-16T15:00:46.3676085Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-16T15:00:46.4054421Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-16T15:00:46.4111736Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-16T15:00:46.4643512Z Cleaning up orphan processes
+2026-10-16T15:00:46.4947758Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

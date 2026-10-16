@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_obstruction.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09399999999732245,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 2, \"all_six_parity_winners\": 12, \"negative_closure_states\": 161, \"literal_moves\": 72}\r\n",
+    "stderr": "",
+    "code_sha256": "5db07e18f79a17a865d09e33e1b45c0c43360597dff639f60de2a2813f2afd9c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_obstruction_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09400000001187436,
+    "peak_working_set_bytes": 2080768,
+    "resource_failure": null,
+    "stdout": "[{\"graph\": \"A6_0026\", \"threshold\": 9, \"c\": [3, 3, 1, 1, 0, 0], \"AS_critical\": [0, 5, 1, 1, 0, 1], \"alpha\": 2, \"complete_negative_states\": 80, \"all_parity_AS_winners\": 6, \"literal_moves\": 36, \"increasing_Q_losing_unit_neighbors\": [], \"all_complete_closures_moves_and_keys_verified\": true}, {\"graph\": \"A6_0093\", \"threshold\": 9, \"c\": [3, 3, 1, 1, 0, 0], \"AS_critical\": [0, 5, 1, 1, 0, 1], \"alpha\": 2, \"complete_negative_states\": 81, \"all_parity_AS_winners\": 6, \"literal_moves\": 36, \"increasing_Q_losing_unit_neighbors\": [], \"all_complete_closures_moves_and_keys_verified\": true}]\r\n",
+    "stderr": "",
+    "code_sha256": "a948dc69d5d7542c6b5823f7cd5d14b540d0f26543996e727c69cef184276d64"
+  }
+]

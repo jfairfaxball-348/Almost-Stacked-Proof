@@ -1,0 +1,283 @@
+{
+  "cases": [
+    {
+      "graph": {
+        "graph": "theta334",
+        "n": 9,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 24,
+      "max_mass": 25,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "theta334",
+        "n": 9,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 26,
+      "max_mass": 27,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "barbell55",
+        "n": 10,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "goal": "stack",
+      "L_AS": 47,
+      "max_mass": 48,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    },
+    {
+      "graph": {
+        "graph": "barbell55",
+        "n": 10,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "goal": "clear",
+      "L_AS": 47,
+      "max_mass": 48,
+      "candidate_cap": 5000000,
+      "loser_cap": 1000000
+    }
+  ],
+  "source_certificate_hashes": {
+    "evidence/S014/theta334_binary_s0_rays.json.xz": "456151033af15e8294b39f4ff9e9da41665cc3f9dfba7b6514c74b1600f94722",
+    "evidence/S014/theta334_binary_s0_verification.json.xz": "d824455056792c261477ad9af6e1043084aed488fcced0c12c48455e005f88d0",
+    "evidence/S014/theta334_binary_s0_checks.json": "00b215c845ace4cd02bdbea2f966a8e6b6422c9b620c679c0072d9c03130f92f",
+    "evidence/S014/theta334_binary_s1_rays.json.xz": "784c50e65e56f43a6f9972f8589e417bc9101781a8bc6fe87ca968fa8d535644",
+    "evidence/S014/theta334_binary_s1_verification.json.xz": "bd89c0e9be3e2267d74f1841cce601144322c4f4474f0c9e6e699d457b062381",
+    "evidence/S014/theta334_binary_s1_checks.json": "9cc8126ab1b923bb999950e5dece5f1b17ee152e9543db051f41133f691cddb4",
+    "evidence/S014/theta334_binary_s2_rays.json.xz": "d11cef5da36cb04e6079a608335d4c7f81845afd6968cfdced0404004dbfc011",
+    "evidence/S014/theta334_binary_s2_verification.json.xz": "26f11e919794bb22e80606d269256fb2e354370316e72809d423951db8340cf4",
+    "evidence/S014/theta334_binary_s2_checks.json": "45ac3a581ec2be48ea65ec767c7c46ace006f789a4ab9988ef2215d21ec7527d",
+    "evidence/S014/theta334_binary_s3_rays.json.xz": "83be85093943943146fc775043126fb51690e8ecaa737f5e5a92552888d50c50",
+    "evidence/S014/theta334_binary_s3_verification.json.xz": "fa04a2d8e1e25d2b2163582246a408727d520ab6f551d1e4b85ed2da807a698e",
+    "evidence/S014/theta334_binary_s3_checks.json": "63bdf84ea875c1db9159272d7a271ab03a379bb1df6b4a25132590776220c6ec",
+    "evidence/S014/theta334_binary_s4_rays.json.xz": "dfad5e10c2033897a3c760765bfa6176e8a8b420cb1b115be427db6754136c2a",
+    "evidence/S014/theta334_binary_s4_verification.json.xz": "646fa63e35652ee13dc22cc2a00ded0d712ac15bafc106fd658efe50af06b52c",
+    "evidence/S014/theta334_binary_s4_checks.json": "889c09146e6ac39203384ce7360735a2acb3408331fbe517e0bc4aa5ef1e80da",
+    "evidence/S014/theta334_binary_s5_rays.json.xz": "97e237b803ee99610ac4d4c11deb1a0d23280a7ac96a693e5578843e7f7b6cb5",
+    "evidence/S014/theta334_binary_s5_verification.json.xz": "1dc24990d6133e9395d3bed9b442b71d5ae35ff52f11a9c0561bb92b326935b1",
+    "evidence/S014/theta334_binary_s5_checks.json": "07a622ce05811cedeee3738bba7ef47e4fd6d377c6b671d6b038b6ac9545a262",
+    "evidence/S014/theta334_binary_s6_rays.json.xz": "8f136adc772d6ccd16b96cf38ccf004290cb14cd7a3fb8e8f2878389c81776b3",
+    "evidence/S014/theta334_binary_s6_verification.json.xz": "39e9a0ee2504cf9f2e10507c973fcdc216e23872446135b42236753bff2e6b51",
+    "evidence/S014/theta334_binary_s6_checks.json": "52de340c0021194a2e7548e3dcd0d58eec1f302681f9c91190e5863ba48dd4db",
+    "evidence/S014/theta334_binary_s7_rays.json.xz": "308ba5be853867775dde7361cfeb15894284757d6c0f75d077770a5dceacb155",
+    "evidence/S014/theta334_binary_s7_verification.json.xz": "2b0130be7b5dde89f035509d6a9a95348a2f4c390f2ac48870b75af8f5875892",
+    "evidence/S014/theta334_binary_s7_checks.json": "c09fe1a695d36b658844cb23008f4b1655f4de712ed29072a0e7301e6a819843",
+    "evidence/S014/theta334_binary_s8_rays.json.xz": "15ed0614d2ec25e26a737719f6fabc187b4c1d460879fb0d90ca0026ab876b2a",
+    "evidence/S014/theta334_binary_s8_verification.json.xz": "aa8d66db0a1e97c7cbeb6f14bcc135ce163e7a5e862c06bdaf6a6eebe79c0b4a",
+    "evidence/S014/theta334_binary_s8_checks.json": "8c8d61858ef259fa071b1f755d1d34083e9e13912042e0ac55a820901ac5ede5",
+    "evidence/S014/barbell55_binary_s0_rays.json.xz": "f953bdf3e6db948d4677d683839d7090a3068a35afc5f5d4fced5937a02287d2",
+    "evidence/S014/barbell55_binary_s0_verification.json.xz": "aa1985f1a0016bc273c3ed3738b2aaf74d53ca67e7c3f1dc8ac98ed7140db776",
+    "evidence/S014/barbell55_binary_s0_checks.json": "762aa0276eca38b3ed6f5c9cba04f7213610ee8ce606e21ea15ed8f3df00ab6e",
+    "evidence/S014/barbell55_binary_s1_rays.json.xz": "05114575be7273f2129cea046b77fb620d5ba832cd0c98bea1e5a03cb776192f",
+    "evidence/S014/barbell55_binary_s1_verification.json.xz": "1cffa5644f2e4cb8595459b4d352441f1c0e9737ec5489e15a09bc3da659207e",
+    "evidence/S014/barbell55_binary_s1_checks.json": "17150177cda1cff4f2180df2e2989d6e69245b47f7fdf039d0a0c7859bc28574",
+    "evidence/S014/barbell55_binary_s2_rays.json.xz": "9092138329f7da353ca8e1a7e3979f8ca6c2d249d2e397d4db6d929e394255c4",
+    "evidence/S014/barbell55_binary_s2_verification.json.xz": "a7e558829fe9345b489d7e8cae2c5ea4fd1493571824e827f0f8dd807d8a4a1e",
+    "evidence/S014/barbell55_binary_s2_checks.json": "5e33a2bb486f069b7d0e18557c73f1f948866b6805e438346b2c5aee6684268e",
+    "evidence/S014/barbell55_binary_s3_rays.json.xz": "6e5fa2f8f4718735d84ecaf562beb33b19e3c7a25895b8dcd02941fa91d907d5",
+    "evidence/S014/barbell55_binary_s3_verification.json.xz": "3d294934d89f0484d81cbaf663739abe1bfc01e229d4db47bcaa1c694ada533d",
+    "evidence/S014/barbell55_binary_s3_checks.json": "cbbe10aaec580141524663bbb49987e1b3055bad8b7fa3bac2dbe0d1d54f1f0f",
+    "evidence/S014/barbell55_binary_s4_rays.json.xz": "abe318228f7281a453d8fe374ae0b7a19cb12a32fbd7eeed1ce23960ea556dc1",
+    "evidence/S014/barbell55_binary_s4_verification.json.xz": "b63cdf576a5fe35bdab56f89234742e724317e8f2ee1bfd5aa45a69aa42057d3",
+    "evidence/S014/barbell55_binary_s4_checks.json": "0041465eef5140eed05aaf111c0e1ac9daf192b89d91707e83919f1f14bc09ae",
+    "evidence/S014/barbell55_binary_s5_rays.json.xz": "137468bab02348ab8ec0f52a3560d64c4eedcb2700583827c132c77af2eabd30",
+    "evidence/S014/barbell55_binary_s5_verification.json.xz": "89e28f288ae5aca1f231ede9deb28d21685abb23d0228abf03b3af591e7d687d",
+    "evidence/S014/barbell55_binary_s5_checks.json": "e1c3c34a85ccc4228a59183a5a613e9c8b8adb7baddfe80bf9d1aa75d3d323d7",
+    "evidence/S014/barbell55_binary_s6_rays.json.xz": "527902255380190751b7f82b4f3fb1be3a849205c81aeac740f50a7e9112a2d2",
+    "evidence/S014/barbell55_binary_s6_verification.json.xz": "f6048bb656b8c1fc6da699ce9130b74e7e95e8dfdced7bc2d269e5ae277daf58",
+    "evidence/S014/barbell55_binary_s6_checks.json": "989c233b5a8aa09e2efab72770df72b0507e4c38932186eeb65ec118ea4d4352",
+    "evidence/S014/barbell55_binary_s7_rays.json.xz": "72afbfd67ff29fa250008dcbb06a2d8a75a90c368758396c432dc65d936f98fd",
+    "evidence/S014/barbell55_binary_s7_verification.json.xz": "76cd8b565a3f0b11b36449bf6b4850cdefff80eefe4342c16dd999af33cad178",
+    "evidence/S014/barbell55_binary_s7_checks.json": "bb860c611b880c95bc1a8b5699cbc608667825fa156bc4cf9eb1630c98f10027",
+    "evidence/S014/barbell55_binary_s8_rays.json.xz": "9cf23d06eba22d42d1574b6723cdfbd7a8173c8f80fd1b2df21efc403c650ca2",
+    "evidence/S014/barbell55_binary_s8_verification.json.xz": "7ab801aa6cbfdeb67b2f98079730c3696e0244a8a05b91ab678b74e0565250e4",
+    "evidence/S014/barbell55_binary_s8_checks.json": "3b76c6417d1833268fbb4c4f472f6a3ce90d0a1aa7503b4c095f4faaa57933dc",
+    "evidence/S014/barbell55_binary_s9_rays.json.xz": "c54d43b0c6ce5f7834a1dea2b2de8c797eac262134287e45039d0c2b51fbf222",
+    "evidence/S014/barbell55_binary_s9_verification.json.xz": "b6673639c81026c7f4a68f193355921ed3412a48c882b76f775203d2828f0aca",
+    "evidence/S014/barbell55_binary_s9_checks.json": "396cc9335f08214c88938c0977e9fd3da671b9d2dc323516be2ef66790f7b1c4"
+  }
+}

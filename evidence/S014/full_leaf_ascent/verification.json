@@ -1,0 +1,12 @@
+{
+  "all_input_leaf_extension_memberships_equal": true,
+  "cases": 142,
+  "bipartite_cases": 27,
+  "states": 167713,
+  "extensions": 160579,
+  "initially_empty_leaf_extensions": 22440,
+  "failures": 0,
+  "first_failures": [],
+  "scope": "Finite all-graph challenge of117; exception is exactly two adjacent singletons; universal ASH* OPEN",
+  "seconds": 1.6400000000139698
+}

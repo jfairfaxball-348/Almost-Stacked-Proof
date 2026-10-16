@@ -1,0 +1,145 @@
+"""Necessary-clause CEGIS over every graph edge, no bare UNSAT promotion."""
+import itertools,json,lzma,os,struct,sys,time
+from s014_lex_cnf import build
+from pathlib import Path
+B=Path('evidence/S014/lex_cegis')
+def main():
+    config=json.loads((B/'inputs.json').read_bytes());case=next(c for c in config['cases'] if c['id']==sys.argv[1]);D=B/case['id'];D.mkdir(exist_ok=True);sys.path.insert(0,config['runtime']);from pysat.solvers import Glucose3
+    n=case['n'];c=case['c'];T=sum(c);pairs=list(itertools.combinations(range(n),2));vid={e:i+1 for i,e in enumerate(pairs)};units=[1<<(8*i) for i in range(n)];root=sum(z*units[i] for i,z in enumerate(c));clauses=[];records=[];sources=[];unique=set();perm_maps=[[vid[tuple(sorted((p[u],p[v])))] for u,v in pairs] for p in case['permutations']];start=time.monotonic();status='ITERATION_BOUND_UNKNOWN';iteration=0
+    variables,lex_clauses,lex_blocks=build(n,c)
+    (D/'lex_blocks.json').write_text(json.dumps(lex_blocks)+'\n',encoding='utf-8',newline='\n')
+    def image(C,j):
+        mapping=perm_maps[j]
+        return tuple(sorted((mapping[abs(x)-1] if x>0 else -mapping[abs(x)-1]) for x in C))
+    def expand(i,j):
+        C=image(records[i]['clause'],j)
+        if C in unique:return
+        if len(clauses)>=50000:raise RuntimeError('CLAUSE_CAP_UNKNOWN')
+        unique.add(C);clauses.append(C);sources.append((i,j));sat.add_clause(C)
+    def add(record,close=True):
+        i=len(records);records.append(record);expand(i,0)
+        if close:
+            for j in range(1,len(perm_maps)):expand(i,j)
+    def oracle(E):
+        arcs=sorted(E|{(v,u) for u,v in E});memo={}
+        def put(x,k):
+            if len(memo)>=300000 and x not in memo:raise RuntimeError('ORACLE_STATE_CAP_UNKNOWN')
+            memo[x]=k
+        def raw_win(x):
+            if x in memo:return memo[x]!=254
+            if len(memo)>=300000:raise RuntimeError('ORACLE_STATE_CAP_UNKNOWN')
+            if sum(bool((x>>(8*i))&255) for i in range(n))==1:put(x,255);return True
+            for u,v in arcs:
+                if ((x>>(8*u))&255)>=2 and win(x-2*units[u]+units[v]):put(x,u*n+v);return True
+            put(x,254);return False
+        depth=0;queried=None
+        def win(x):
+            nonlocal depth,queried
+            if not depth:queried=x
+            depth+=1
+            try:return raw_win(x)
+            except RuntimeError as error:
+                if depth==1:(D/'oracle_cap.json').write_text(json.dumps(dict(status=str(error),queried_graph=sorted(E),queried_input=[(queried>>(8*i))&255 for i in range(n)],case_input=c,scope='UNKNOWN query, may be temporary support graph; no loss or criticality claim'))+'\n',encoding='utf-8',newline='\n')
+                raise
+            finally:depth-=1
+        def history(x):
+            moves=[]
+            while memo[x]!=255:
+                u,v=divmod(memo[x],n);moves.append([u,v]);x=x-2*units[u]+units[v]
+            return moves
+        return arcs,memo,win,history
+    def closure(path,x,arcs,memo):
+        ss={x};todo=[x]
+        for z in todo:
+            assert memo[z]==254
+            for u,v in arcs:
+                if ((z>>(8*u))&255)<2:continue
+                y=z-2*units[u]+units[v]
+                if y not in ss:ss.add(y);todo.append(y)
+        with lzma.open(path,'wb') as f:
+            for z in sorted(ss):f.write(z.to_bytes(16,'little'))
+        return len(ss)
+    try:
+        with Glucose3() as sat:
+            for C in lex_clauses:sat.add_clause(C)
+            if case['source']:
+                old=Path(case['source'])
+                for line in (old/'constraints.jsonl').read_text(encoding='utf-8').splitlines():
+                    rec=json.loads(line)
+                    if rec['kind']=='AS_loss':rec['certificate']=Path(os.path.relpath(old/rec['certificate'],D)).as_posix()
+                    add(rec,False)
+            else:
+                for v in range(n):add(dict(kind='cut',vertices=[v],clause=[vid[e] for e in pairs if v in e]))
+            for iteration in range(1,10001):
+                if time.monotonic()-start>540:status='TIME_BOUND_UNKNOWN';break
+                sat.set_phases(list(range(1,len(pairs)+1)))
+                if not sat.solve():
+                    status='UNSAT_AWAITING_INDEPENDENT_CERTIFICATE'
+                    with Glucose3(bootstrap_with=clauses+lex_clauses,with_proof=True) as fresh:
+                        assert not fresh.solve();proof=fresh.get_proof()
+                    if len(proof)>500000:status='PROOF_SIZE_BOUND_UNKNOWN'
+                    (D/'proof.drup').write_text('\n'.join(proof)+'\n',encoding='ascii',newline='\n');break
+                model=set(sat.get_model());E={e for e in pairs if vid[e] in model};seen={0};todo=[0]
+                for u in todo:
+                    for v in range(n):
+                        if v not in seen and tuple(sorted((u,v))) in E:seen.add(v);todo.append(v)
+                if len(seen)<n:
+                    add(dict(kind='cut',vertices=sorted(seen),clause=[vid[e] for e in pairs if (e[0] in seen)!=(e[1] in seen)]));continue
+                arcs,memo,win,history=oracle(E)
+                if win(root):
+                    moves=history(root);support={tuple(sorted((u,v))) for u,v in moves}
+                    for e in sorted(support.copy()):
+                        if e not in support:continue
+                        aa,mm,ww,hh=oracle(support-{e})
+                        if ww(root):moves=hh(root);support={tuple(sorted((u,v))) for u,v in moves}
+                    add(dict(kind='c_win',moves=moves,clause=sorted(-vid[e] for e in support)));continue
+                starts=[root];bad=None;tested=0
+                for mass in range(T,T+3):
+                    for s in range(n):
+                        off=[v for v in range(n) if v!=s]
+                        for bits in range(1<<(n-1)):
+                            x=(mass-bits.bit_count())*units[s]+sum(units[v] for i,v in enumerate(off) if bits>>i&1);starts.append(x);tested+=1
+                            if not win(x):bad=x;break
+                        if bad is not None:break
+                    if bad is not None:break
+                if bad is None:
+                    P=D/'potential';P.mkdir(exist_ok=True);needed=set();stack=starts.copy()
+                    while stack:
+                        x=stack.pop()
+                        if x in needed:continue
+                        needed.add(x);k=memo[x]
+                        if k==255:continue
+                        if k==254:stack.extend(x-2*units[u]+units[v] for u,v in arcs if ((x>>(8*u))&255)>=2)
+                        else:u,v=divmod(k,n);stack.append(x-2*units[u]+units[v])
+                    with lzma.open(P/'candidate.bin.xz','wb') as f:
+                        for x in sorted(needed):f.write(x.to_bytes(16,'little')+bytes([memo[x]]))
+                    (P/'inputs.json').write_text(json.dumps(dict(graphs=[dict(id='candidate',n=n,edges=sorted(E),c=c)]))+'\n',encoding='utf-8',newline='\n');(P/'shard0_results.json').write_text(json.dumps([dict(graph='candidate',status='POTENTIAL_ACTUAL_COUNTEREXAMPLE',original_winning=False,AS_tested=tested,AS_bad=None,states=len(needed),memo_states=len(memo))])+'\n',encoding='utf-8',newline='\n');status='POTENTIAL_ACTUAL_COUNTEREXAMPLE';break
+                badc=[(bad>>(8*i))&255 for i in range(n)];H=E.copy();ha,hm,hw,_=oracle(H);assert not hw(bad);complete=True
+                for e in pairs:
+                    if e in H:continue
+                    try:
+                        aa,mm,ww,_=oracle(H|{e})
+                        if not ww(bad):H.add(e);ha,hm=aa,mm
+                    except RuntimeError as error:
+                        assert str(error)=='ORACLE_STATE_CAP_UNKNOWN';complete=False;break
+                cert=f'AS_loss_{len(records):05d}.bin.xz';count=closure(D/cert,bad,ha,hm)
+                add(dict(kind='AS_loss',input=badc,edges=sorted(H),certificate=cert,states=count,saturation_complete=complete,clause=[vid[e] for e in pairs if e not in H]))
+                if iteration%25==0:(D/'progress.json').write_text(json.dumps(dict(iteration=iteration,clauses=len(clauses),seconds=time.monotonic()-start,last_AS_mass=sum(badc)))+'\n',encoding='utf-8',newline='\n')
+    except RuntimeError as error:
+        assert str(error) in ['ORACLE_STATE_CAP_UNKNOWN','CLAUSE_CAP_UNKNOWN'];status=str(error)
+    (D/'constraints.jsonl').write_text(''.join(json.dumps(r,separators=(',',':'))+'\n' for r in records),encoding='utf-8',newline='\n')
+    with (D/'clause_sources.bin').open('wb') as f:
+        for source in sources:f.write(struct.pack('<II',*source))
+    base=D/'base';bd=base/case['id'];bd.mkdir(parents=True,exist_ok=True)
+    (base/'inputs.json').write_text(json.dumps(dict(cases=[case]))+'\n',encoding='utf-8',newline='\n')
+    base_records=[]
+    for record in records:
+        rec=record.copy()
+        if rec['kind']=='AS_loss':rec['certificate']=Path(os.path.relpath(D/rec['certificate'],bd)).as_posix()
+        base_records.append(rec)
+    (bd/'constraints.jsonl').write_text(''.join(json.dumps(r,separators=(',',':'))+'\n' for r in base_records),encoding='utf-8',newline='\n')
+    (bd/'formula.cnf').write_text(f'p cnf {len(pairs)} {len(records)}\n'+''.join(' '.join(map(str,r['clause']))+' 0\n' for r in records),encoding='ascii',newline='\n')
+    cnf=f'p cnf {len(pairs)} {len(clauses)}\n'+''.join(' '.join(map(str,C))+' 0\n' for C in clauses);(D/'graph_formula.cnf').write_text(cnf,encoding='ascii',newline='\n');(D/'formula.cnf').write_text(f'p cnf {variables} {len(clauses)+len(lex_clauses)}\n'+''.join(' '.join(map(str,C))+' 0\n' for C in clauses+lex_clauses),encoding='ascii',newline='\n')
+    result=dict(case=case,status=status,iterations=iteration,base_clauses=len(records),stabilizer_size=len(perm_maps),clauses=len(clauses),seconds=time.monotonic()-start,scope='ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN')
+    (D/'result.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps({**result,'case':case['id']}),flush=True)
+if __name__=='__main__':main()

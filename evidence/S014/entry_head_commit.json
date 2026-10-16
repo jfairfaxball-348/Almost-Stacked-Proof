@@ -1,0 +1,39 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "ccfbdd7194c6571b5b9cbd780941777494f03073",
+    "node_id": "C_kwDOVF-kW9oAKGNjZmJkZDcxOTRjNjU3MWI1YjljYmQ3ODA5NDE3Nzc0OTRmMDMwNzM",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/ccfbdd7194c6571b5b9cbd780941777494f03073",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/ccfbdd7194c6571b5b9cbd780941777494f03073",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T11:59:04Z"
+    },
+    "committer": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T11:59:04Z"
+    },
+    "tree": {
+      "sha": "b9811bdbf667c9e93df9a5001ebf30a036adb73b",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/b9811bdbf667c9e93df9a5001ebf30a036adb73b"
+    },
+    "message": "S013: exact neighborhood concentration and global extremal restriction",
+    "parents": [
+      {
+        "sha": "1e28259f6e35849723bbe5e5fd545630498d45a9",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/1e28259f6e35849723bbe5e5fd545630498d45a9",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/1e28259f6e35849723bbe5e5fd545630498d45a9"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "stderr": ""
+}

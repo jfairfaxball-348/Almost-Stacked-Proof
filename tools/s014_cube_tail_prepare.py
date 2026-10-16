@@ -1,0 +1,5 @@
+import hashlib,itertools,json
+from pathlib import Path
+B=Path('evidence/S014/cube_tail');B.mkdir(exist_ok=True);cfg=dict(n=16,edges=[[u,v] for u in range(16) for v in range(u+1,16) if (u^v).bit_count()==1],T=31,masses=[31,32,33],source=0,buffer_vertices=list(range(1,16)),masks=list(range(1<<15)),maps=[[v^s for v in range(16)] for s in range(16)],query_count=3*(1<<15),state_cap=2000000)
+(B/'inputs.json').write_text(json.dumps(cfg,separators=(',',':'))+'\n',encoding='utf-8',newline='\n');plan=Path('sessions/S014/PLAN_AMENDMENT_57.md');plan.with_suffix('.sha256').write_text(hashlib.sha256(plan.read_bytes()).hexdigest()+'\n',encoding='ascii',newline='\n');files=[B/'inputs.json',plan,plan.with_suffix('.sha256'),Path('research/S014_THREE_LAYER_AS_TAIL.md'),Path('research/S014_BIPARTITE_ONE_BIT_CONDUCTORS.md'),Path('research/S014_MEDIAN_SUPPORT_AND_CUBE_ROUTE.md'),Path('tools/s009_checks.py'),*Path('tools').glob('s014_cube_tail*.py')]
+(B/'preflight.json').write_text(json.dumps(dict(files={p.as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files}),indent=2)+'\n',encoding='utf-8',newline='\n');print('CAM57 Q4 complete98304 AS inputs frozen')

@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F4_53_A2B2",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20299999999406282,
+    "peak_working_set_bytes": 34947072,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 8, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 28, \"losers\": 28, \"AS_losers\": 28, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 120, \"losers\": 80, \"AS_losers\": 80, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 319, \"losers\": 175, \"AS_losers\": 175, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 733, \"losers\": 306, \"AS_losers\": 306, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 1290, \"losers\": 439, \"AS_losers\": 361, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 2023, \"losers\": 516, \"AS_losers\": 321, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 2804, \"losers\": 546, \"AS_losers\": 250, \"Q\": 28}\r\n{\"mass\": 9, \"candidates\": 3598, \"losers\": 492, \"AS_losers\": 148, \"Q\": 51}\r\n{\"mass\": 10, \"candidates\": 3847, \"losers\": 316, \"AS_losers\": 72, \"Q\": 52}\r\n{\"mass\": 11, \"candidates\": 3262, \"losers\": 195, \"AS_losers\": 40, \"Q\": 53}\r\n{\"mass\": 12, \"candidates\": 2381, \"losers\": 100, \"AS_losers\": 17, \"Q\": 84}\r\n{\"mass\": 13, \"candidates\": 1230, \"losers\": 15, \"AS_losers\": 3, \"Q\": 85}\r\n{\"mass\": 14, \"candidates\": 225, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 14, \"last_complete_mass\": 14, \"certificate_sha256\": \"c2dd9c979a74f0f412da986ce116dd40237c32218ea30e6db5878d8ebb1709ad\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F4_53_A2B2",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21900000001187436,
+    "peak_working_set_bytes": 18345984,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F4_53_A2B2\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 14, \"last_complete_mass\": 14, \"certified_losing_states\": 3208, \"L_AS_seen\": 13, \"proposed_L_AS\": 13, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

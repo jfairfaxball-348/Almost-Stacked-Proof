@@ -1,0 +1,463 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_split_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7030000000086147,
+    "peak_working_set_bytes": 135241728,
+    "resource_failure": null,
+    "stdout": "{\"tests\": 176, \"failures\": 3, \"Qmax_failures\": 0, \"QP_failures\": 0, \"critical_failures\": 0, \"certificates\": 1, \"negative_closure_states\": 76, \"literal_moves\": 6, \"all_generated_sets_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "73a042ac51e8f289a5976220e28601a21e6c03f68acabe3d33135299c25a0ad3"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P00"
+    ],
+    "exit_code": 0,
+    "seconds": 2.514999999984866,
+    "peak_working_set_bytes": 26185728,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P00\", \"clauses\": 1578, \"c_winning_trace_clauses\": 545, \"AS_negative_clauses\": 961, \"AS_closure_states\": 349019, \"literal_c_winning_moves\": 4348, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P00\", \"graph_certificate_records\": 1578, \"distinct_graph_clauses\": 1570, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P01"
+    ],
+    "exit_code": 0,
+    "seconds": 2.422000000020489,
+    "peak_working_set_bytes": 23453696,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P01\", \"clauses\": 1016, \"c_winning_trace_clauses\": 7, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 52, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P01\", \"graph_certificate_records\": 1016, \"distinct_graph_clauses\": 1008, \"representative_comparisons\": 6, \"local_truth_rows\": 1920, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P02"
+    ],
+    "exit_code": 0,
+    "seconds": 2.4059999999881256,
+    "peak_working_set_bytes": 24166400,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P02\", \"clauses\": 1250, \"c_winning_trace_clauses\": 233, \"AS_negative_clauses\": 945, \"AS_closure_states\": 344493, \"literal_c_winning_moves\": 1857, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P02\", \"graph_certificate_records\": 1250, \"distinct_graph_clauses\": 1242, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P03"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 23961600,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P03\", \"clauses\": 1042, \"c_winning_trace_clauses\": 33, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 261, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P03\", \"graph_certificate_records\": 1042, \"distinct_graph_clauses\": 1034, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P04"
+    ],
+    "exit_code": 0,
+    "seconds": 2.8280000000086147,
+    "peak_working_set_bytes": 28356608,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P04\", \"clauses\": 2123, \"c_winning_trace_clauses\": 1034, \"AS_negative_clauses\": 1017, \"AS_closure_states\": 376783, \"literal_c_winning_moves\": 8259, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P04\", \"graph_certificate_records\": 2123, \"distinct_graph_clauses\": 2115, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P05"
+    ],
+    "exit_code": 0,
+    "seconds": 2.812999999994645,
+    "peak_working_set_bytes": 26411008,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P05\", \"clauses\": 1782, \"c_winning_trace_clauses\": 683, \"AS_negative_clauses\": 1027, \"AS_closure_states\": 376250, \"literal_c_winning_moves\": 5432, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P05\", \"graph_certificate_records\": 1782, \"distinct_graph_clauses\": 1774, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P06"
+    ],
+    "exit_code": 0,
+    "seconds": 2.4219999999913853,
+    "peak_working_set_bytes": 24195072,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P06\", \"clauses\": 1176, \"c_winning_trace_clauses\": 167, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 1324, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P06\", \"graph_certificate_records\": 1176, \"distinct_graph_clauses\": 1168, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P07"
+    ],
+    "exit_code": 0,
+    "seconds": 2.6089999999967404,
+    "peak_working_set_bytes": 25300992,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P07\", \"clauses\": 1594, \"c_winning_trace_clauses\": 544, \"AS_negative_clauses\": 978, \"AS_closure_states\": 356646, \"literal_c_winning_moves\": 4328, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P07\", \"graph_certificate_records\": 1594, \"distinct_graph_clauses\": 1586, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P08"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 24195072,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P08\", \"clauses\": 1222, \"c_winning_trace_clauses\": 213, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 1694, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P08\", \"graph_certificate_records\": 1222, \"distinct_graph_clauses\": 1214, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P09"
+    ],
+    "exit_code": 0,
+    "seconds": 2.4210000000020955,
+    "peak_working_set_bytes": 23609344,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P09\", \"clauses\": 1118, \"c_winning_trace_clauses\": 109, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 863, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P09\", \"graph_certificate_records\": 1118, \"distinct_graph_clauses\": 1110, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P10"
+    ],
+    "exit_code": 0,
+    "seconds": 3.0160000000032596,
+    "peak_working_set_bytes": 29761536,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P10\", \"clauses\": 2441, \"c_winning_trace_clauses\": 1347, \"AS_negative_clauses\": 1022, \"AS_closure_states\": 382963, \"literal_c_winning_moves\": 10776, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P10\", \"graph_certificate_records\": 2441, \"distinct_graph_clauses\": 2433, \"representative_comparisons\": 6, \"local_truth_rows\": 1920, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P11"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 25190400,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P11\", \"clauses\": 1350, \"c_winning_trace_clauses\": 341, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 2713, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P11\", \"graph_certificate_records\": 1350, \"distinct_graph_clauses\": 1342, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P12"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5,
+    "peak_working_set_bytes": 26910720,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P12\", \"clauses\": 1750, \"c_winning_trace_clauses\": 719, \"AS_negative_clauses\": 959, \"AS_closure_states\": 350709, \"literal_c_winning_moves\": 5741, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P12\", \"graph_certificate_records\": 1750, \"distinct_graph_clauses\": 1742, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P13"
+    ],
+    "exit_code": 0,
+    "seconds": 2.625,
+    "peak_working_set_bytes": 23875584,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P13\", \"clauses\": 1079, \"c_winning_trace_clauses\": 70, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 521, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P13\", \"graph_certificate_records\": 1079, \"distinct_graph_clauses\": 1071, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P14"
+    ],
+    "exit_code": 0,
+    "seconds": 2.4059999999881256,
+    "peak_working_set_bytes": 24424448,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P14\", \"clauses\": 1344, \"c_winning_trace_clauses\": 335, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 2661, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P14\", \"graph_certificate_records\": 1344, \"distinct_graph_clauses\": 1336, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P15"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 23814144,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P15\", \"clauses\": 1085, \"c_winning_trace_clauses\": 76, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 566, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P15\", \"graph_certificate_records\": 1085, \"distinct_graph_clauses\": 1077, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P16"
+    ],
+    "exit_code": 0,
+    "seconds": 2.51500000001397,
+    "peak_working_set_bytes": 24817664,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P16\", \"clauses\": 1280, \"c_winning_trace_clauses\": 271, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 2168, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P16\", \"graph_certificate_records\": 1280, \"distinct_graph_clauses\": 1272, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P17"
+    ],
+    "exit_code": 0,
+    "seconds": 2.625,
+    "peak_working_set_bytes": 25432064,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P17\", \"clauses\": 1474, \"c_winning_trace_clauses\": 445, \"AS_negative_clauses\": 957, \"AS_closure_states\": 347192, \"literal_c_winning_moves\": 3543, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P17\", \"graph_certificate_records\": 1474, \"distinct_graph_clauses\": 1466, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P18"
+    ],
+    "exit_code": 0,
+    "seconds": 2.4059999999881256,
+    "peak_working_set_bytes": 23650304,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P18\", \"clauses\": 1145, \"c_winning_trace_clauses\": 136, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 1088, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P18\", \"graph_certificate_records\": 1145, \"distinct_graph_clauses\": 1137, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P19"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 24076288,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P19\", \"clauses\": 1143, \"c_winning_trace_clauses\": 134, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 1056, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P19\", \"graph_certificate_records\": 1143, \"distinct_graph_clauses\": 1135, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P20"
+    ],
+    "exit_code": 0,
+    "seconds": 2.9219999999913853,
+    "peak_working_set_bytes": 29159424,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P20\", \"clauses\": 2155, \"c_winning_trace_clauses\": 1032, \"AS_negative_clauses\": 1051, \"AS_closure_states\": 387484, \"literal_c_winning_moves\": 8224, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P20\", \"graph_certificate_records\": 2155, \"distinct_graph_clauses\": 2147, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P21"
+    ],
+    "exit_code": 0,
+    "seconds": 2.6089999999967404,
+    "peak_working_set_bytes": 25997312,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P21\", \"clauses\": 1591, \"c_winning_trace_clauses\": 523, \"AS_negative_clauses\": 996, \"AS_closure_states\": 365434, \"literal_c_winning_moves\": 4148, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P21\", \"graph_certificate_records\": 1591, \"distinct_graph_clauses\": 1583, \"representative_comparisons\": 3, \"local_truth_rows\": 960, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P22"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 24768512,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P22\", \"clauses\": 1407, \"c_winning_trace_clauses\": 395, \"AS_negative_clauses\": 940, \"AS_closure_states\": 341187, \"literal_c_winning_moves\": 3138, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P22\", \"graph_certificate_records\": 1407, \"distinct_graph_clauses\": 1399, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P23"
+    ],
+    "exit_code": 0,
+    "seconds": 2.812000000005355,
+    "peak_working_set_bytes": 26632192,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P23\", \"clauses\": 1983, \"c_winning_trace_clauses\": 934, \"AS_negative_clauses\": 977, \"AS_closure_states\": 355600, \"literal_c_winning_moves\": 7458, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P23\", \"graph_certificate_records\": 1983, \"distinct_graph_clauses\": 1975, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P24"
+    ],
+    "exit_code": 0,
+    "seconds": 2.7190000000118744,
+    "peak_working_set_bytes": 26279936,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P24\", \"clauses\": 1629, \"c_winning_trace_clauses\": 589, \"AS_negative_clauses\": 968, \"AS_closure_states\": 353113, \"literal_c_winning_moves\": 4690, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P24\", \"graph_certificate_records\": 1629, \"distinct_graph_clauses\": 1621, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P25"
+    ],
+    "exit_code": 0,
+    "seconds": 2.812999999994645,
+    "peak_working_set_bytes": 23691264,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P25\", \"clauses\": 1170, \"c_winning_trace_clauses\": 161, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 1234, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P25\", \"graph_certificate_records\": 1170, \"distinct_graph_clauses\": 1162, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P26"
+    ],
+    "exit_code": 0,
+    "seconds": 2.7179999999934807,
+    "peak_working_set_bytes": 23556096,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P26\", \"clauses\": 1109, \"c_winning_trace_clauses\": 100, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 762, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P26\", \"graph_certificate_records\": 1109, \"distinct_graph_clauses\": 1101, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P27"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5160000000032596,
+    "peak_working_set_bytes": 23916544,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P27\", \"clauses\": 1227, \"c_winning_trace_clauses\": 218, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 1718, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P27\", \"graph_certificate_records\": 1227, \"distinct_graph_clauses\": 1219, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P28"
+    ],
+    "exit_code": 0,
+    "seconds": 2.7189999999827705,
+    "peak_working_set_bytes": 25858048,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P28\", \"clauses\": 1575, \"c_winning_trace_clauses\": 562, \"AS_negative_clauses\": 941, \"AS_closure_states\": 341471, \"literal_c_winning_moves\": 4468, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P28\", \"graph_certificate_records\": 1575, \"distinct_graph_clauses\": 1567, \"representative_comparisons\": 4, \"local_truth_rows\": 1280, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P29"
+    ],
+    "exit_code": 0,
+    "seconds": 2.7190000000118744,
+    "peak_working_set_bytes": 25473024,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P29\", \"clauses\": 1683, \"c_winning_trace_clauses\": 666, \"AS_negative_clauses\": 945, \"AS_closure_states\": 343152, \"literal_c_winning_moves\": 5303, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P29\", \"graph_certificate_records\": 1683, \"distinct_graph_clauses\": 1675, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P30"
+    ],
+    "exit_code": 0,
+    "seconds": 2.625,
+    "peak_working_set_bytes": 24330240,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P30\", \"clauses\": 1340, \"c_winning_trace_clauses\": 331, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 2588, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P30\", \"graph_certificate_records\": 1340, \"distinct_graph_clauses\": 1332, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_mass_split_verify.py",
+      "P31"
+    ],
+    "exit_code": 0,
+    "seconds": 2.6089999999967404,
+    "peak_working_set_bytes": 26034176,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"P31\", \"clauses\": 1471, \"c_winning_trace_clauses\": 462, \"AS_negative_clauses\": 937, \"AS_closure_states\": 340492, \"literal_c_winning_moves\": 3645, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"P31\", \"graph_certificate_records\": 1471, \"distinct_graph_clauses\": 1463, \"representative_comparisons\": 6, \"local_truth_rows\": 1920, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29"
+  }
+]

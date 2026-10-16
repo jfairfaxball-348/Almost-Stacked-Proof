@@ -1,0 +1,11 @@
+{
+  "graph": "M1_1_3",
+  "goal": "clear",
+  "scope": "EXACT_THRESHOLD",
+  "threshold": 16,
+  "last_complete_mass": 16,
+  "certified_losing_states": 9649,
+  "L_AS_seen": 15,
+  "L_AS_grammar": 15,
+  "all_full_losing_layers_equal": true
+}

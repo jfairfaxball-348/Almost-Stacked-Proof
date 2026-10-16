@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof.py",
+      "C9a"
+    ],
+    "exit_code": 0,
+    "seconds": 29.625,
+    "peak_working_set_bytes": 1238695936,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9a\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"original_clauses\": 100355, \"core_clauses\": 38809, \"tightening_calls\": 33, \"seconds\": 29.312999999994645, \"scope\": \"Fixed input only, provisional until subset and complete fresh proof independently checked\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f7c20665a61843e1e9b63b5f85a1af561ee83ff1a779424f828f975f9dade565"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_verify.py",
+      "C9a"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2080768,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9a\", \"core_clauses\": 38809, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"selected_literal_original_clauses_independently_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "8175c954ae5c5f162d3188387b42bf115c6956082582a0d4c55e4368f14d53f5"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_core_proof_drup.py",
+      "C9a"
+    ],
+    "exit_code": 0,
+    "seconds": 154.125,
+    "peak_working_set_bytes": 84205568,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C9a\", \"fixed_input_class_exclusion_certified\": false, \"error\": \"OCCURRENCE_CAP_UNKNOWN\", \"scope\": \"UNKNOWN; no mathematical exclusion promoted\", \"added_RUP_steps\": 4259, \"deletions\": 1001, \"active_literal_occurrence_visits\": 500000001, \"seconds\": 154.0}\r\n",
+    "stderr": "",
+    "code_sha256": "861a6719b70cbd8190dfec569acdf3b452afd90cb6270c21523d1887d671475a"
+  }
+]

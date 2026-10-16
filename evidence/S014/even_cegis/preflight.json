@@ -1,0 +1,17 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_41.md": "e656105bc0b6ceb92193a7d24861c20e66d60969cf03ce8b64ab7d3cfe9562de",
+    "evidence/S014/even_cegis/inputs.json": "d883c9dad251fdf8d8c7431288e3f8da5989f8098667e404859dc5886ed85738",
+    "evidence/S014/cegis/environment.json": "63d6c2dc298e4c08e378f6e1fca873aea7dfe97a500d845bb417eb1337eb6920",
+    "tools/s014_even_cegis.py": "ee4cc5c08d88400958d6bdb423f9d580015e6f99a52706be31a75f9e95e6ac5b",
+    "tools/s014_even_cegis_potential.py": "9361ee8803a9253267670c567208cdb9b5ec18c04be763d157375d4728fece0d",
+    "tools/s014_even_cegis_run.py": "0d04dc294f87bd536f2d0005fb3a0132f9911bb385826476da24442ed956354c",
+    "tools/s014_even_cegis_verify.py": "d73642bb72f58ae7460c95549450ccacf2a8bbfecedd32716412872295977d0f",
+    "tools/s014_prepare_even_cegis.py": "a4f208246ee836b331d00f0eea0e2389aef466fe6d2a202ba798f41cf53e615b",
+    "tools/s014_cegis_orbits_v2.py": "1ff2434b8cd41daff20e0f8285770aa47bd0af6c0ebe8255e3d0e918f646767b",
+    "tools/s014_cegis_clauses_verify.py": "9364ab32e728ce21ea1f9e474b3faac44c0ce4328be30de3926f9f9f4c45f103",
+    "tools/s014_cegis_orbits_verify_v2.py": "1207e93c1575b549139a1f03a9a7c538388a388b56b0ec6534b4ab18e6742ea8",
+    "tools/s014_tail_screen_verify.py": "ab099844c2383021ff8ec3a79cec54641493101363bc446ecfd32bb9291f890f",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba"
+  }
+}

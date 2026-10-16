@@ -1,0 +1,68 @@
+[
+  {
+    "case": "A143",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 1760,
+    "failed": 0
+  },
+  {
+    "case": "A145",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 11683,
+    "failed": 0
+  },
+  {
+    "case": "A147",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 372,
+    "failed": 0
+  },
+  {
+    "case": "A166",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 8558,
+    "failed": 0
+  },
+  {
+    "case": "A174",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 8802,
+    "failed": 0
+  },
+  {
+    "case": "A180",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 30529,
+    "failed": 0
+  },
+  {
+    "case": "A182",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 15758,
+    "failed": 0
+  },
+  {
+    "case": "A184",
+    "states": 13340529,
+    "largest_layer": 904490,
+    "status": "PRIOR_SCOPE_CUTOFF_UNKNOWN"
+  },
+  {
+    "case": "circulant/CIRC12_10",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 38140,
+    "failed": 0
+  },
+  {
+    "case": "circulant/CIRC14_34",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 343205,
+    "failed": 0
+  },
+  {
+    "case": "circulant/CIRC14_42",
+    "status": "COMPLETE_REGISTERED_CASES",
+    "inputs": 306756,
+    "failed": 0
+  }
+]

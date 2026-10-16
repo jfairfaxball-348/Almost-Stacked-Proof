@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_v2.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21799999999348074,
+    "peak_working_set_bytes": 18014208,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 1, \"base_clauses\": 129, \"stabilizer_size\": 8, \"clauses\": 170, \"seconds\": 0.0, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1ff2434b8cd41daff20e0f8285770aa47bd0af6c0ebe8255e3d0e918f646767b"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_verify_v2.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 17272832,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"clauses\": 129, \"c_winning_trace_clauses\": 70, \"AS_negative_clauses\": 51, \"AS_closure_states\": 2672, \"literal_c_winning_moves\": 416, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"C6\", \"base_clauses\": 129, \"stabilizer_size\": 8, \"expanded_clauses\": 170, \"all_clauses_necessary_for_fixed_input_counterexample\": true, \"scope\": \"Only fixed input graph class, independent literal clause provenance\"}\r\n",
+    "stderr": "",
+    "code_sha256": "1207e93c1575b549139a1f03a9a7c538388a388b56b0ec6534b4ab18e6742ea8"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cegis_orbits_drup_v2.py",
+      "C6"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"C6\", \"solver_status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"fixed_input_class_exclusion_certified\": true, \"added_RUP_steps\": 37, \"deletions\": 0, \"unit_clause_scans\": 14711, \"scope\": \"ONLY this exact labeled fixed-input graph class; NOT universal ASH*\"}\r\n",
+    "stderr": "",
+    "code_sha256": "df52f22f47b0d45b32467dbb63c4a7d8dcb3b2cf53f489197f732db3a69339b2"
+  }
+]

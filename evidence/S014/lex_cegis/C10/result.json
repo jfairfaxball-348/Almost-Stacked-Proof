@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "C10",
+    "n": 10,
+    "c": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      7,
+      1,
+      1
+    ],
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "source": "evidence/S014/trace_cegis/C10"
+  },
+  "status": "TIME_BOUND_UNKNOWN",
+  "iterations": 7343,
+  "base_clauses": 13352,
+  "stabilizer_size": 1,
+  "clauses": 10435,
+  "seconds": 540.3429999999935,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

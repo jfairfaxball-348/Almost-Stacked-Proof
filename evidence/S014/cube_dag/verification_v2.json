@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_AS_TAIL_UPPER31",
+  "verified_nodes": 1572864,
+  "completed_masks": 32768,
+  "queries_examined": 98304,
+  "upper_witnesses_missing": 0,
+  "every_node_has_sound_well_founded_production": true,
+  "all16_XOR_maps_verified": true,
+  "complete_AS_tail_upper31": true,
+  "exact_L_AS": 30,
+  "scope": "Positive upper certificates only; no general threshold, loss from missing witness, or universal ASH* claim",
+  "seconds": 2.0
+}

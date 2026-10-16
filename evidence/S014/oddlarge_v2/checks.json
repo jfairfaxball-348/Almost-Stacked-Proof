@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddlarge_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 22.688000000009197,
+    "peak_working_set_bytes": 57069568,
+    "resource_failure": null,
+    "stdout": "{\"graph\": 0, \"states\": 703, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 500, \"states\": 1329, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 1000, \"states\": 429, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 1500, \"states\": 502, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 2000, \"states\": 426, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 2500, \"states\": 732, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 3000, \"states\": 432, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graph\": 3500, \"states\": 450, \"failed_pairs\": 0, \"status\": \"COMPLETE_REGISTERED_BOX\"}\r\n{\"graphs\": 3710, \"inputs\": 267120, \"losers\": 7960, \"eligible_pairs\": 9484, \"failed_pairs\": 583, \"unknown\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "52900c0b11d56c73853cf00ecb4b61906c4a4511119ee065ffa5bf2d35b00f81"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddlarge_v2_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 20.889999999999418,
+    "peak_working_set_bytes": 35131392,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 3710, \"independently_checked_states\": 2129306, \"negative_states\": 758309, \"legal_dependency_moves\": 3092719, \"eligible_pairs\": 9484, \"failed_pairs\": 583, \"first_failures\": [{\"graph\": {\"id\": \"g6_0070\", \"n\": 6, \"edges\": [[0, 1], [0, 2], [0, 4], [0, 5], [2, 3]]}, \"c\": [5, 7, 0, 1, 1, 1], \"s\": 0, \"t\": 1, \"candidates\": [{\"v\": 2, \"d\": [0, 11, 1, 1, 1, 1], \"losing\": false}], \"failed\": true}, {\"graph\": {\"id\": \"g6_0084\", \"n\": 6, \"edges\": [[0, 1], [0, 2], [0, 5], [1, 4], [2, 3]]}, \"c\": [5, 5, 0, 1, 0, 1], \"s\": 0, \"t\": 1, \"candidates\": [{\"v\": 2, \"d\": [0, 9, 1, 1, 0, 1], \"losing\": false}], \"failed\": true}, {\"graph\": {\"id\": \"g6_0098\", \"n\": 6, \"edges\": [[0, 1], [0, 2], [0, 4], [1, 5], [2, 3]]}, \"c\": [5, 5, 0, 1, 1, 0], \"s\": 0, \"t\": 1, \"candidates\": [{\"v\": 2, \"d\": [0, 9, 1, 1, 1, 0], \"losing\": false}], \"failed\": true}, {\"graph\": {\"id\": \"g6_0112\", \"n\": 6, \"edges\": [[0, 1], [0, 2], [1, 4], [1, 5], [2, 3]]}, \"c\": [5, 5, 0, 1, 1, 1], \"s\": 0, \"t\": 1, \"candidates\": [{\"v\": 2, \"d\": [0, 9, 1, 1, 1, 1], \"losing\": false}], \"failed\": true}], \"all_complete_keys_and_certificates_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "1dbbbdc158570f0e56feed59067a73ac06356f3b130e5f29a1614085fea79554"
+  }
+]

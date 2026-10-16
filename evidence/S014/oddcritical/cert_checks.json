@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddcritical_cert.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2134016,
+    "resource_failure": null,
+    "stdout": "",
+    "stderr": "",
+    "code_sha256": "d039376a88d31cbf34f97d444fb7577c5e27ba641bdb96d1fc4615b209040c7d"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddcritical_cert_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2105344,
+    "resource_failure": null,
+    "stdout": "{\"cases\": [{\"graph\": \"g6_0070\", \"mass\": 15, \"threshold\": 25, \"critical\": false, \"Q\": 77, \"layer_Qmax\": 171}, {\"graph\": \"g6_0084\", \"mass\": 12, \"threshold\": 36, \"critical\": false, \"Q\": 52, \"layer_Qmax\": 122}, {\"graph\": \"g6_0098\", \"mass\": 12, \"threshold\": 36, \"critical\": false, \"Q\": 52, \"layer_Qmax\": 122}, {\"graph\": \"g6_0112\", \"mass\": 13, \"threshold\": 40, \"critical\": false, \"Q\": 53, \"layer_Qmax\": 145}], \"complete_negative_states\": 1550, \"literal_winning_moves\": 44, \"all_negative_closures_and_positive_histories_checked\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "71069b2452e8caee2df944fe37536eb5d937d9748c47c8d5a6ca80e9a3c0ca4c"
+  }
+]

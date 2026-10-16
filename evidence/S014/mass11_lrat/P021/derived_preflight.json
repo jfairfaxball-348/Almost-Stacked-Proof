@@ -1,0 +1,9 @@
+{
+  "files": {
+    "evidence/S014/mass11_lrat/P021/proof.lrat": "e23a236267aa50336894123c19608fb9e49129600fa35b4153aa8d9a4ea3ed25",
+    "evidence/S014/mass11_cegis/P021/formula.cnf": "dc0b7acf44d9ef9cf8743a0068e1b4ef40a9ddb23017c3d3a4ad64c1af917733",
+    "evidence/S014/mass11_cegis/P021/proof.drup": "e5d1b0efc5f23f4b363056765c93b95e29c342d392e54d9b2c94d95d53efe6cd",
+    "evidence/S014/mass11_cegis/P021/clause_verification.json": "f0e9d551efd24b3d60ac215a069d790f6d4ff0665c24edc8d7681aaf5e21be7a",
+    "tools/s014_c068_lrat_verify.py": "375e31c2030a6ec078821a159fd27d8a2530c29a0ac19f13c010b6625671648a"
+  }
+}

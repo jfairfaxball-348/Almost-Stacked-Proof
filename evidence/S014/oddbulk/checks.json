@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddbulk.py"
+    ],
+    "exit_code": 0,
+    "seconds": 29.015999999988708,
+    "peak_working_set_bytes": 43302912,
+    "resource_failure": null,
+    "stdout": "Finished every registered failing graph; per-graph complete layers retained.\r\n",
+    "stderr": "",
+    "code_sha256": "8d7b0c45927cee84d2f416265add39f5c4a83c584924e347a8e0b62b6f65cea7"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddbulk_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 20.984000000011292,
+    "peak_working_set_bytes": 22626304,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 215, \"failed_pairs\": 583, \"critical_failures\": 0, \"layer_global_Q_failures\": 0, \"full_losing_states\": 1878298, \"all_AS_comparisons_hold\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "0497a84c0ccad36bd19b18e91b6c449a147e9ea424ea2535553749948734c370"
+  }
+]

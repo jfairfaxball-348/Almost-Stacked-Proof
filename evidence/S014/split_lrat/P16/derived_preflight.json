@@ -1,0 +1,9 @@
+{
+  "files": {
+    "evidence/S014/split_lrat/P16/proof.lrat": "32bf6da89c1fa03ed432d8c55e906d80084a1ebd706e72e2778cedef9c9410c3",
+    "evidence/S014/split_cegis/P16/formula.cnf": "3733f418ed81dab60455c5fb86cba9f1f796dbe68df3fcb73ee4ad69341c3494",
+    "evidence/S014/split_cegis/P16/proof.drup": "6dee111f66ff1c5f2e1db1e3fb53402d754794bc684d11fe83aaa58295161275",
+    "evidence/S014/split_cegis/P16/clause_verification.json": "ce38eb1f78d982a1f0bab7b4a562da286d40a343ae82a3917113b91b5df939a1",
+    "tools/s014_split_lrat_verify.py": "39ade802b879ad2741d76dfebdbf37097df8a0b9e2a9af83b7d96328f77219f8"
+  }
+}

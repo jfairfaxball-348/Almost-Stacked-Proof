@@ -1,0 +1,89 @@
+[
+  {
+    "graph": "M1_1_2",
+    "traces": 576,
+    "moves": 3963,
+    "branches": {
+      "two_roots": 15,
+      "B_root": 320,
+      "A_root": 7,
+      "B_root_pairs": 234
+    }
+  },
+  {
+    "graph": "M1_2_2",
+    "traces": 2016,
+    "moves": 13599,
+    "branches": {
+      "two_roots": 28,
+      "B_root": 1023,
+      "A_root": 127,
+      "B_root_pairs": 750,
+      "balanced_retain_B": 16,
+      "balanced_retain_A": 72
+    }
+  },
+  {
+    "graph": "M2_2_2",
+    "traces": 9216,
+    "moves": 78116,
+    "branches": {
+      "A_root": 488,
+      "B_root": 4968,
+      "two_roots": 32,
+      "B_root_pairs": 3600,
+      "balanced_retain_B": 8,
+      "balanced_retain_A": 120
+    }
+  },
+  {
+    "graph": "M2_3_2",
+    "traces": 25728,
+    "moves": 218593,
+    "branches": {
+      "A_root": 3262,
+      "B_root": 12663,
+      "two_roots": 47,
+      "B_root_pairs": 9054,
+      "balanced_retain_B": 42,
+      "balanced_retain_A": 660
+    }
+  },
+  {
+    "graph": "M1_4_2",
+    "traces": 15360,
+    "moves": 117249,
+    "branches": {
+      "A_root": 4959,
+      "B_root": 5811,
+      "two_roots": 29,
+      "B_root_pairs": 3849,
+      "balanced_retain_B": 136,
+      "balanced_retain_A": 576
+    }
+  },
+  {
+    "graph": "M1_1_3",
+    "traces": 2880,
+    "moves": 26961,
+    "branches": {
+      "two_roots": 19,
+      "B_root": 1268,
+      "A_root": 9,
+      "B_root_pairs": 1584
+    }
+  },
+  {
+    "graph": "M1_2_3",
+    "traces": 10368,
+    "moves": 94053,
+    "branches": {
+      "two_roots": 36,
+      "B_root": 4407,
+      "A_root": 201,
+      "B_root_pairs": 5544,
+      "balanced_retain_B": 24,
+      "balanced_retain_A": 156
+    }
+  }
+]

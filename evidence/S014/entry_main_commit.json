@@ -1,0 +1,44 @@
+{
+  "exit_code": 0,
+  "body": {
+    "sha": "8ea5db207a91ca917c3b94bc98b54ac65406e7a5",
+    "node_id": "C_kwDOVF-kW9oAKDhlYTVkYjIwN2E5MWNhOTE3YzNiOTRiYzk4YjU0YWM2NTQwNmU3YTU",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/8ea5db207a91ca917c3b94bc98b54ac65406e7a5",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/8ea5db207a91ca917c3b94bc98b54ac65406e7a5",
+    "author": {
+      "name": "John Fairfax-Ball",
+      "email": "jfairfaxball@gmail.com",
+      "date": "2026-10-15T12:03:33Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-15T12:03:33Z"
+    },
+    "tree": {
+      "sha": "b9811bdbf667c9e93df9a5001ebf30a036adb73b",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees/b9811bdbf667c9e93df9a5001ebf30a036adb73b"
+    },
+    "message": "Merge S013: neighborhood concentration and global extremal restriction\n\nS013: exact neighborhood concentration and global extremal restriction",
+    "parents": [
+      {
+        "sha": "1e28259f6e35849723bbe5e5fd545630498d45a9",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/1e28259f6e35849723bbe5e5fd545630498d45a9",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/1e28259f6e35849723bbe5e5fd545630498d45a9"
+      },
+      {
+        "sha": "ccfbdd7194c6571b5b9cbd780941777494f03073",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits/ccfbdd7194c6571b5b9cbd780941777494f03073",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/ccfbdd7194c6571b5b9cbd780941777494f03073"
+      }
+    ],
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0MEVCRC1aQ7uu5UhlAAA6yEQAERH4xrLg2P8MhPaMkSRgI3H\nEHUXs80f5fXmdwCOeM4HGObCLke46d9XmBCuSp2mk7Xs+2J16WPY/BOsx6w9uJYK\ntzJWvz/hcfbx2/Hu+8DbEAeYCvQjjT5RudulhhXBl5mPlicdi7qHamHfeNIxE13a\nbmP20ijj3d2u3/JcUYm/8sVSNRQEqggVXLoIWcQxd4Ic3xHuCrT09ywSC4OnBTM8\nXnO5Oqi1Ybq6649/Xf8WDiN3jy9sMs7j/Wq6X6MD5E3sKU3op8v6lnlIb9bdv356\nYGEq8XM1fRZRWCygvp/yG3q22xsacI3jTBnTrbaqRmD0tqtcTvI0fHxhvlUTtmPA\n+C9eIH8qpuDvkoePUHsFe4lWuarPA4RbZglCX6NPzQJWwYv/xxmkv1AtLgm2yVWy\ngFDXgbyQDtjXGwcBpTipP1IcNWK1rz6uHKqXPQw0sOoSfZXmQitQO/moCNmK4FrV\n8bfrU+XO6QPHyPPZBps36Tc46tUyj5LxiY4LVuiekSCDYFJq2iQWsI2DnIv2WwKd\nLCErDDaNA82IukgatzQGmPNZr9Rk7AnDs0hPNObH5/Afby5Xyfk1E28rEoKO4S3l\nYYxVgRfo/GhrKkkYqWczf3zzHl5Q/eWdCyCx5bCPZUauyy0Iz+w3TNNBtN72Gv8s\n919DsPk7vaLsRzhCatai\n=iczd\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree b9811bdbf667c9e93df9a5001ebf30a036adb73b\nparent 1e28259f6e35849723bbe5e5fd545630498d45a9\nparent ccfbdd7194c6571b5b9cbd780941777494f03073\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792065813 +0100\ncommitter GitHub <noreply@github.com> 1792065813 +0100\n\nMerge S013: neighborhood concentration and global extremal restriction\n\nS013: exact neighborhood concentration and global extremal restriction",
+      "verified_at": "2026-10-15T12:03:34Z"
+    }
+  },
+  "stderr": ""
+}

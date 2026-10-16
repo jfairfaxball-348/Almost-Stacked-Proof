@@ -1,0 +1,19 @@
+{
+  "cases": 120,
+  "complete_saturations": 120,
+  "unknown": 0,
+  "missing_edge_winning_histories": 2189,
+  "literal_edge_moves": 28257,
+  "AS_tail_verification": {
+    "shard": 0,
+    "cases": 120,
+    "complete_cases": 120,
+    "unknown": 0,
+    "checked_states": 1912482,
+    "negative_states": 408177,
+    "positive_dependencies": 1502420,
+    "potential_counterexamples": [],
+    "all_complete_DAGs_and_AS_tail_keys_checked": true
+  },
+  "all_greedy_decisions_and_saturation_certificates_checked": true
+}

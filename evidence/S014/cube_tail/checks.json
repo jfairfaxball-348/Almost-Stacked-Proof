@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_tail_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 35.54700000002049,
+    "peak_working_set_bytes": 440803328,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"STATE_CAP_UNKNOWN\", \"queries\": 16931, \"states\": 2000000, \"bad\": null, \"seconds\": 35.35999999998603, \"scope\": \"AS only, no general threshold or universal ASH* conclusion\"}\r\n",
+    "stderr": "",
+    "code_sha256": "532c9ae7be39024521d84a4288dc852962c6239ce91cc9dc78a17e4344684046"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_tail_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 15.875,
+    "peak_working_set_bytes": 780566528,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"STATE_CAP_UNKNOWN\", \"completed_queries\": 16931, \"verified_states\": 2000000, \"verified_dependencies\": 12551572, \"negative_states\": 1626500, \"all_completed_queries_certified\": true, \"all16_XOR_maps_verified\": true, \"complete_AS_tail_upper31\": false, \"exact_L_AS\": null, \"AS_bad\": null, \"scope\": \"Only AS-tail status; no full general threshold or ASH* conclusion\", \"seconds\": 15.530999999988126}\r\n",
+    "stderr": "",
+    "code_sha256": "7036a729b17231609bb666a768ab7171f6e89edd5ed47a10448ca0aea9d78bf8"
+  }
+]

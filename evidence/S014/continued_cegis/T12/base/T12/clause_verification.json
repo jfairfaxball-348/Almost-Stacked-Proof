@@ -1,0 +1,9 @@
+{
+  "case": "T12",
+  "clauses": 4012,
+  "c_winning_trace_clauses": 3083,
+  "AS_negative_clauses": 864,
+  "AS_closure_states": 2162054,
+  "literal_c_winning_moves": 33787,
+  "all_clauses_necessary_for_fixed_input_counterexample": true
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "sessions/S014/PLAN_AMENDMENT_29.md": "f491feaa1801e7045b31c04e12526a4eaed9d2f1d16d2e92425d6164c8cb64aa",
+    "evidence/S014/regular_eliminate/inputs.json": "091c4daccb795b6beddd2de0e7e97568fb81a84f522a1a679a2b13df84b60123",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_regular_eliminate.py": "5a39d235f65003d5c49ab65b20783bcfb14a9ebe993d9bced367662970b63702",
+    "tools/s014_regular_eliminate_engine.py": "0a625e7dbc0a9b6ccd8156c5bb9e2c08031c303f49a6342df4d87d7c2a34b70f",
+    "tools/s014_regular_eliminate_engine_verify.py": "fdcb59378ea4a8d01f81e4641e00aac5bc8f75431d887563058cfc028bbefac5",
+    "tools/s014_regular_eliminate_run.py": "061d2cf5ec2e6424d31c08e4df78639c0860adbb0985ea38154af5b88671992a",
+    "tools/s014_regular_eliminate_verify.py": "8a3c55c6f3881f17e80d8db666963feb0e6b3400f756801519f365fb06d97652"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

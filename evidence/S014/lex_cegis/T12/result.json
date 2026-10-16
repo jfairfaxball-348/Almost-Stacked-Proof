@@ -1,0 +1,44 @@
+{
+  "case": {
+    "id": "T12",
+    "n": 12,
+    "c": [
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "source": "evidence/S014/even_cegis/T12"
+  },
+  "status": "TIME_BOUND_UNKNOWN",
+  "iterations": 8868,
+  "base_clauses": 9879,
+  "stabilizer_size": 1,
+  "clauses": 9879,
+  "seconds": 540.7660000000033,
+  "scope": "ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN"
+}

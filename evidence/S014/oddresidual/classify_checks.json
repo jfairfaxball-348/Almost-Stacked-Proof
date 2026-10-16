@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddresidual.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 29589504,
+    "resource_failure": null,
+    "stdout": "{\"failing_pairs\": 583, \"residual_failures\": 259, \"selected\": [\"g6_0248\", \"g6_0504\"]}\r\n",
+    "stderr": "",
+    "code_sha256": "8385f4bb2b1da39ddf8242b6b0e0f5f7750fd994fcf10e11b96d12743dd0f864"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_oddresidual_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.40599999998812564,
+    "peak_working_set_bytes": 29970432,
+    "resource_failure": null,
+    "stdout": "{\"failing_pairs\": 583, \"donor_counts\": {\"5\": 342, \"3\": 4, \"7\": 237}, \"residual_failures\": 259, \"bipartite_failures\": 496, \"selected\": [\"g6_0248\", \"g6_0504\"], \"independent_adjacency_classifier_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "f735d32cc427ba15fdd597dc17316b0efb1c7eccadf216ded4f61224fae4af70"
+  }
+]

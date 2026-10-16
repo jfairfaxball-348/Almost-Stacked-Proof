@@ -1,0 +1,9 @@
+{
+  "case": "N2_M4",
+  "fixed_mass_graph_class_exclusion_certified": true,
+  "scope": "ONLY all mass-M inputs on n-vertex graphs; universal ASH* OPEN",
+  "verified_RUP_additions": 1,
+  "deleted_clause_ids": 4,
+  "hint_visits": 3,
+  "seconds": 0.0
+}

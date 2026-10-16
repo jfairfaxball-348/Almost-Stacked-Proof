@@ -1,0 +1,18 @@
+{
+  "case": "N2_M4",
+  "n": 2,
+  "mass": 4,
+  "patterns": 1,
+  "all_mass_M_nonAS_patterns_covered": true,
+  "certificate_records": 4,
+  "c_winning_clauses": 1,
+  "AS_negative_clauses": 0,
+  "AS_closure_states": 0,
+  "literal_c_moves": 1,
+  "independent_set_instances": 1,
+  "local_truth_rows": 16,
+  "all_conditional_graph_clauses_necessary": true,
+  "exact_selector_and_lex_extension_checked": true,
+  "counterexample_exists_implies_formula_satisfiable": true,
+  "scope": "ONLY n-vertex mass-M countermodels; universal ASH* OPEN"
+}

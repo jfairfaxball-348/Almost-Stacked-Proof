@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_balanced_rays.py",
+      "G3_3_binary_s0"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3119999999908032,
+    "peak_working_set_bytes": 33116160,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"G3_3_binary_s0\", \"cells\": 4096, \"nodes\": 9434, \"analysis\": {\"clear\": {\"max_losing_mass\": 15, \"max_nonAS_losing_mass\": -1}, \"stack\": {\"max_losing_mass\": 13, \"max_nonAS_losing_mass\": -1}}}\r\n",
+    "stderr": "",
+    "code_sha256": "c3e88cfc381135f0a7703b883523e1708d514b556fe8aa58def86c91df38d9b8"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_balanced_verify.py",
+      "G3_3_binary_s0"
+    ],
+    "exit_code": 0,
+    "seconds": 0.2970000000059372,
+    "peak_working_set_bytes": 19722240,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"G3_3_binary_s0\", \"cells\": 4096, \"nodes\": 9434, \"production_inequalities\": 804223, \"literal_moves\": 32, \"graph_minimal_neighborhoods\": [0, 1, 2, 3, 4, 5], \"all_minima_and_infinities_certified\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "2af3f9bbc6df6822e63205e2b24717ac8fe4cdf7c66292c02404b4dc3111c8c8"
+  }
+]

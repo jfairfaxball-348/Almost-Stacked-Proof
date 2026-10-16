@@ -1,0 +1,9 @@
+{
+  "case": "C10",
+  "status": "SAT_SUBSET_UNKNOWN",
+  "original_clauses": 500000,
+  "core_clauses": 0,
+  "tightening_calls": 0,
+  "seconds": 0.29699999999138527,
+  "scope": "Fixed input only, provisional until subset and complete fresh proof independently checked"
+}

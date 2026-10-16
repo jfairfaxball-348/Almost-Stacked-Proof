@@ -1,0 +1,15 @@
+{
+  "files": {
+    "evidence/S014/cube_dag/inputs.json": "c826ea0a884f7ac57af33c155bb399d45c0b25da7f4ce7682dddec0884c89f0b",
+    "sessions/S014/PLAN_AMENDMENT_58.md": "92d78db9510e08043bff0982fc22a6a6e6ca55f96c8369f6ce25198c46a8f77c",
+    "sessions/S014/PLAN_AMENDMENT_58.sha256": "ff45b08d0322f6401c5c986c3714f4822329117fdd13d9f97b07defeffe02a98",
+    "research/S014_BINARY_BUFFER_UPPER_CERTIFICATES.md": "f86a0ef1d09d64182d2dc1d3d4dbdbfc9c14c3fb754cf3da535162d8a9b9f7a4",
+    "research/S014_THREE_LAYER_AS_TAIL.md": "7b0fcda401552114152fdc07fb14cbce970bc53aa9c4f726cf18f79223145fb2",
+    "research/S014_BIPARTITE_ONE_BIT_CONDUCTORS.md": "026544d9a10cecbe2c952287fca271106e6b5e6d8fc1ff1bd669982c90a0290a",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_cube_dag_prepare.py": "65cac12db7a866f812d1ddc97db7310bba6bac8773a4f42e4378dd707b8f520a",
+    "tools/s014_cube_dag_produce.py": "9c2267cf2c21f593a5680cc2ed8401fbb629c53eabcc71391c588f21c9dce709",
+    "tools/s014_cube_dag_run.py": "99837f67b9237aa31e871bbb7418c9dbcd7c859177ffc3180a3ec3844cf7cfd9",
+    "tools/s014_cube_dag_verify.py": "ed255c8ff35c3a42d698183e3140b66a5bd9e18a925eff83e50f9954a071d603"
+  }
+}

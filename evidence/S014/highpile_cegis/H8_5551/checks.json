@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_cegis.py",
+      "H8_5551"
+    ],
+    "exit_code": 0,
+    "seconds": 42.85999999998603,
+    "peak_working_set_bytes": 53362688,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"H8_5551\", \"status\": \"UNSAT_AWAITING_INDEPENDENT_CERTIFICATE\", \"iterations\": 1640, \"base_clauses\": 1763, \"stabilizer_size\": 1, \"clauses\": 1763, \"seconds\": 42.65600000001723, \"scope\": \"ALL connected labeled graphs with THIS fixed input only; universal ASH* remains OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "9247002f4e4d3aeb1cd97c3305c216e9d878d7433e67e3eef06df38599d64802"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_verify.py",
+      "H8_5551"
+    ],
+    "exit_code": 0,
+    "seconds": 3.0160000000032596,
+    "peak_working_set_bytes": 25563136,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"H8_5551\", \"clauses\": 1763, \"c_winning_trace_clauses\": 1333, \"AS_negative_clauses\": 306, \"AS_closure_states\": 351960, \"literal_c_winning_moves\": 18063, \"all_clauses_necessary_for_fixed_input_counterexample\": true}\r\n{\"case\": \"H8_5551\", \"graph_certificate_records\": 1763, \"distinct_graph_clauses\": 1763, \"representative_comparisons\": 5, \"local_truth_rows\": 1600, \"all_graph_clauses_necessary\": true, \"exact_lex_existential_extension_checked\": true, \"counterexample_exists_implies_formula_satisfiable\": true, \"scope\": \"Proposition94 gives a representative; lex clauses not claimed necessary for every labeling\"}\r\n",
+    "stderr": "",
+    "code_sha256": "39e7159dea5304463154715ee71faa7fe62337f9561ae7c83d09d93097c2e807"
+  },
+  {
+    "command": [
+      "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+      "evidence\\S014\\highpile_cegis\\H8_5551\\formula.cnf",
+      "evidence\\S014\\highpile_cegis\\H8_5551\\proof.drup",
+      "-L",
+      "evidence\\S014\\highpile_lrat\\H8_5551\\proof.lrat",
+      "-U",
+      "-t",
+      "540"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 52412416,
+    "resource_failure": null,
+    "stdout": "\rc parsing input formula with 173 variables and 2368 clauses\r\n\rc WARNING: deleted clause on proof line 6765 does not occur: [268445427] -1 2 0\r\n\rc WARNING: deleted clause on proof line 6767 does not occur: [268445427] 1 2 59 0\r\n\rc WARNING: deleted clause on proof line 6771 does not occur: [268445427] -1 88 0\r\n\rc WARNING: deleted clause on proof line 6772 does not occur: [268445427] 1 88 0\r\n\rc WARNING: deleted clause on proof line 6788 does not occur: [268445427] -1 146 0\r\n\rc WARNING: deleted clause on proof line 6789 does not occur: [268445427] 1 146 0\r\n\rc finished parsing\r\n\rc detected empty clause; start verification via backward checking\r\n\rc 1562 of 2368 clauses in core                            \r\n\rc 2376 of 2567 lemmas in core using 53033 resolution steps\r\n\rc 0 RAT lemmas in core; 0 redundant literals in core lemmas\r\n\rs VERIFIED\r\n\rc verification time: 0.097 seconds\r\n",
+    "stderr": "",
+    "code_sha256": "81b4fee8eeee792b0805515e6f8e3f00a98ef5f9e30542898d74bc0fd11e58da"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c071_lrat_verify.py",
+      "H8_5551"
+    ],
+    "exit_code": 0,
+    "seconds": 0.21899999998277053,
+    "peak_working_set_bytes": 18563072,
+    "resource_failure": null,
+    "stdout": "{\"case\": \"H8_5551\", \"fixed_input_class_exclusion_certified\": true, \"scope\": \"ONLY exact fixed-c graph-class exclusion; universal ASH* OPEN\", \"verified_RUP_additions\": 2376, \"deleted_clause_ids\": 4715, \"hint_visits\": 53033, \"seconds\": 0.09400000001187436}\r\n",
+    "stderr": "",
+    "code_sha256": "2d610604bc72a6159f6e7c51f4f18fee07b0036fbcdfe1b6451e73e8bdf1a7b8"
+  }
+]

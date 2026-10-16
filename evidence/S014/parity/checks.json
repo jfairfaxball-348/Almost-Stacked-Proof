@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_parity.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.610000000000582,
+    "peak_working_set_bytes": 20271104,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 256, \"critical_nonAS_inputs\": 32, \"complete_parity_failures\": 0, \"literal_moves\": 1716}\r\n",
+    "stderr": "",
+    "code_sha256": "cf245bb0a28784dc0704913e4a9503806282796242df3982ab9a281072ee3a7e"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_parity_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20399999999790452,
+    "peak_working_set_bytes": 17113088,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 256, \"critical_nonAS_inputs\": 32, \"complete_parity_class_failures\": 0, \"literal_moves\": 1716, \"all_generated_keys_negative_memberships_and_winning_traces_verified\": true, \"example\": null}\r\n",
+    "stderr": "",
+    "code_sha256": "c62658815f334841763ef09e4d08fba393e3a5035036b214f214de6508faeed1"
+  }
+]

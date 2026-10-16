@@ -1,0 +1,12 @@
+{
+  "shard": 1,
+  "status": "AGGREGATE_STATE_CAP_UNKNOWN",
+  "candidate_prefix_checked": 1301,
+  "literal_full_input_winners": 1300,
+  "literal_moves": 37819,
+  "unknown": 1,
+  "potential": [],
+  "all_positive_histories_verified": true,
+  "partial_states_retained_without_mathematical_promotion": 15757,
+  "scope": "Only pointwise winners, unknown suffix explicit; negative potential needs separate full DAG replay, no full threshold"
+}

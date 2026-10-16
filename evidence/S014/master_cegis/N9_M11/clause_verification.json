@@ -1,0 +1,18 @@
+{
+  "case": "N9_M11",
+  "n": 9,
+  "mass": 11,
+  "patterns": 45,
+  "all_mass_M_nonAS_patterns_covered": true,
+  "certificate_records": 23572,
+  "c_winning_clauses": 21645,
+  "AS_negative_clauses": 1722,
+  "AS_closure_states": 1473041,
+  "literal_c_moves": 194503,
+  "independent_set_instances": 126,
+  "local_truth_rows": 71200,
+  "all_conditional_graph_clauses_necessary": true,
+  "exact_selector_and_lex_extension_checked": true,
+  "counterexample_exists_implies_formula_satisfiable": true,
+  "scope": "ONLY n-vertex mass-M countermodels; universal ASH* OPEN"
+}

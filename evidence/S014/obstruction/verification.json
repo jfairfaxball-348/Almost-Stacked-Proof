@@ -1,0 +1,54 @@
+[
+  {
+    "graph": "A6_0026",
+    "threshold": 9,
+    "c": [
+      3,
+      3,
+      1,
+      1,
+      0,
+      0
+    ],
+    "AS_critical": [
+      0,
+      5,
+      1,
+      1,
+      0,
+      1
+    ],
+    "alpha": 2,
+    "complete_negative_states": 80,
+    "all_parity_AS_winners": 6,
+    "literal_moves": 36,
+    "increasing_Q_losing_unit_neighbors": [],
+    "all_complete_closures_moves_and_keys_verified": true
+  },
+  {
+    "graph": "A6_0093",
+    "threshold": 9,
+    "c": [
+      3,
+      3,
+      1,
+      1,
+      0,
+      0
+    ],
+    "AS_critical": [
+      0,
+      5,
+      1,
+      1,
+      0,
+      1
+    ],
+    "alpha": 2,
+    "complete_negative_states": 81,
+    "all_parity_AS_winners": 6,
+    "literal_moves": 36,
+    "increasing_Q_losing_unit_neighbors": [],
+    "all_complete_closures_moves_and_keys_verified": true
+  }
+]

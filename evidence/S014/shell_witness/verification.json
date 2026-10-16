@@ -1,0 +1,13 @@
+{
+  "all_shell_hypotheses_verified": true,
+  "graphs": 30,
+  "shell_rows": 501,
+  "oriented_edges_checked": 10396,
+  "exact_AS_oracle_queries": 106,
+  "complete_negative_queries": 350,
+  "states": 22920,
+  "dependencies": 53775,
+  "unknown_queries": 0,
+  "scope": "Finite parameter/closure challenge only;109 symbolic proof required, universal ASH* OPEN",
+  "seconds": 0.23499999998603016
+}

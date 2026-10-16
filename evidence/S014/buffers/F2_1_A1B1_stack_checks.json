@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_threshold.py",
+      "F2_1_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10899999999674037,
+    "peak_working_set_bytes": 2084864,
+    "resource_failure": null,
+    "stdout": "{\"mass\": 1, \"candidates\": 4, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"mass\": 2, \"candidates\": 6, \"losers\": 6, \"AS_losers\": 6, \"Q\": 2}\r\n{\"mass\": 3, \"candidates\": 19, \"losers\": 8, \"AS_losers\": 8, \"Q\": 5}\r\n{\"mass\": 4, \"candidates\": 25, \"losers\": 10, \"AS_losers\": 10, \"Q\": 10}\r\n{\"mass\": 5, \"candidates\": 32, \"losers\": 8, \"AS_losers\": 8, \"Q\": 11}\r\n{\"mass\": 6, \"candidates\": 35, \"losers\": 7, \"AS_losers\": 5, \"Q\": 26}\r\n{\"mass\": 7, \"candidates\": 24, \"losers\": 1, \"AS_losers\": 1, \"Q\": 27}\r\n{\"mass\": 8, \"candidates\": 5, \"losers\": 0, \"AS_losers\": 0, \"Q\": null}\r\n{\"scope\": \"EXACT_THRESHOLD\", \"threshold\": 8, \"last_complete_mass\": 8, \"certificate_sha256\": \"8cab28178e5ea537111497994dac7bf9ab9003bb9956ede0d5c21cbcc46ec7f9\"}\r\n",
+    "stderr": "",
+    "code_sha256": "630a7fce0023f3290e7234d8ad9cf9e12acc97d2c81baaaa4ba967aac5ac2f3f"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_buffers_verify.py",
+      "F2_1_A1B1",
+      "stack"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11000000000058208,
+    "peak_working_set_bytes": 2097152,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"F2_1_A1B1\", \"goal\": \"stack\", \"scope\": \"EXACT_THRESHOLD\", \"threshold\": 8, \"last_complete_mass\": 8, \"certified_losing_states\": 40, \"L_AS_seen\": 7, \"proposed_L_AS\": 7, \"all_full_losing_layers_equal\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "ccb19dd5d2b7abf18d44b632d4383c22cfe4b4bd786da8d9a887ac18226e550c"
+  }
+]

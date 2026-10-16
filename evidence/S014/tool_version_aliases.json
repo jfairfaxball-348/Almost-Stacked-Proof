@@ -1,0 +1,17 @@
+{
+  "aliases": [
+    {
+      "path": "tools/s014_split_verify.py",
+      "sha256": "de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29",
+      "archive": "tools/s014_mass_split_verify.py",
+      "reason": "Exact CAM56 source version archived after restoring frozen CAM06 source"
+    }
+  ],
+  "recovery": {
+    "original_sha256": "73a042ac51e8f289a5976220e28601a21e6c03f68acabe3d33135299c25a0ad3",
+    "original_bytes": 3718,
+    "source_rollout_id": "01a13ec8-f48b-7b41-af3f-5298d8c04ce5",
+    "source_ordinal": 1208,
+    "source_timestamp": "2026-10-15T13:08:19.018Z"
+  }
+}

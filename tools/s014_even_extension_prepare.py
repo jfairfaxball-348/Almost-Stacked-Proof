@@ -1,0 +1,5 @@
+import hashlib,json
+from pathlib import Path
+B=Path('evidence/S014/even_extension');B.mkdir(exist_ok=True)
+cfg=dict(n=4,edges=[[0,1],[1,2],[2,3]],c=[9,2,0,1],source=1,targets=[dict(v=0,c=[12,0,0,1],moves=[[0,1]]*6+[[1,2]]*2+[[2,3],[3,2],[1,2]]),dict(v=1,c=[9,3,0,1],moves=[[0,1]]*4+[[1,2]]*3+[[2,3],[3,2],[2,1],[1,0]]),dict(v=2,c=[9,0,3,1],moves=[[2,3],[3,2],[2,1]]+[[0,1]]*4+[[1,0]]*2+[[0,1],[1,0]]),dict(v=3,c=[9,0,0,4],moves=[[3,2]]*2+[[2,1]]+[[0,1]]*4+[[1,0]]*2+[[0,1],[1,0]])])
+(B/'inputs.json').write_text(json.dumps(cfg,indent=2)+'\n',encoding='utf-8',newline='\n');plan=Path('sessions/S014/PLAN_AMENDMENT_49.md');plan.with_suffix('.sha256').write_text(hashlib.sha256(plan.read_bytes()).hexdigest()+'\n',encoding='ascii',newline='\n');paths=[plan,B/'inputs.json',Path('evidence/S003/cert_P4_stack_t12.json'),Path('research/S003_AS_GAP_AND_ATTACKS.md'),*Path('tools').glob('s014_even_extension*.py'),Path('tools/s009_checks.py')];(B/'preflight.json').write_text(json.dumps(dict(files={p.as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}),indent=2)+'\n',encoding='utf-8',newline='\n');print('CAM49 frozen exact input and four literal histories')

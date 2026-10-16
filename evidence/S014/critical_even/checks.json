@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_critical_even.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.625,
+    "peak_working_set_bytes": 25051136,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 638, \"critical\": 20231, \"nonAS\": 17940, \"nonAS_with2\": 0, \"even_heavy_inputs\": 4}\r\n",
+    "stderr": "",
+    "code_sha256": "e0d546c4119a676f3d61ca2e36f49dc8f5b918b09d7bb0496f429abecb452f75"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_critical_even_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 58.26600000000326,
+    "peak_working_set_bytes": 25542656,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 638, \"critical\": 20231, \"nonAS\": 17940, \"nonAS_with2\": 0, \"even_heavy_inputs\": 4, \"bipartite_even_heavy_inputs\": 0, \"all_selected_labeled_inputs_equal\": true, \"universal_no2\": \"UNPROVED_FINITE_AGREEMENT_ONLY\"}\r\n",
+    "stderr": "",
+    "code_sha256": "188d024fa1b9372c62db5720d5bc4f5952756d30c80e35b9ef960ca4349c0701"
+  }
+]

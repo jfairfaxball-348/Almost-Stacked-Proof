@@ -1,0 +1,17 @@
+{
+  "states": 10988,
+  "complete_legal_dependencies": 50423,
+  "input": [
+    39,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "mass": 41,
+  "negative_closures_equal": true,
+  "scope": "Actual AS loser above proposed combined upper40; not ASH* counterexample"
+}

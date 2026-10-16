@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_onebit_produce.py",
+      "1"
+    ],
+    "exit_code": 0,
+    "seconds": 1.4060000000172295,
+    "peak_working_set_bytes": 32288768,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 1, \"pairs\": 327, \"queries\": 2605, \"states\": 23289, \"seconds\": 1.2339999999967404}\r\n",
+    "stderr": "",
+    "code_sha256": "c7ab440e911b2d9be2995e540fd9aa5a4eeddd9fe7034b116044401455fc1072"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_onebit_verify.py",
+      "1"
+    ],
+    "exit_code": 0,
+    "seconds": 0.2970000000204891,
+    "peak_working_set_bytes": 18886656,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 1, \"graphs\": 27, \"ordered_pairs\": 327, \"queries\": 2605, \"states\": 23289, \"negative_states\": 16498, \"literal_constructions\": 981, \"literal_moves\": 4632, \"all_queries_match_exact_residue_cutoffs\": true, \"scope\": \"Only registered27 graphs and d<=3 negative/positive query ranges; universal theorem100 is symbolic, ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "72a0a8d9a39c90f6722e537d15ea2e54cc3603dde39e46bb1948527971115bcc"
+  }
+]

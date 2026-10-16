@@ -1,0 +1,1562 @@
+[
+  {
+    "graph": "S00_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S00_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S00_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S00_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S01_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 167,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 166
+    },
+    "states": 1690,
+    "memo_states": 2372
+  },
+  {
+    "graph": "S01_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 359,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 102
+    },
+    "states": 3315,
+    "memo_states": 4250
+  },
+  {
+    "graph": "S01_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 359,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 102
+    },
+    "states": 3315,
+    "memo_states": 4250
+  },
+  {
+    "graph": "S01_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 167,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 166
+    },
+    "states": 1690,
+    "memo_states": 2372
+  },
+  {
+    "graph": "S02_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 358,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 101
+    },
+    "states": 3686,
+    "memo_states": 4119
+  },
+  {
+    "graph": "S02_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 358,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 101
+    },
+    "states": 3686,
+    "memo_states": 4119
+  },
+  {
+    "graph": "S02_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 358,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 101
+    },
+    "states": 3686,
+    "memo_states": 4119
+  },
+  {
+    "graph": "S02_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 358,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 101
+    },
+    "states": 3686,
+    "memo_states": 4119
+  },
+  {
+    "graph": "S03_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 102,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 101
+    },
+    "states": 2403,
+    "memo_states": 2482
+  },
+  {
+    "graph": "S03_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 198,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 197
+    },
+    "states": 2390,
+    "memo_states": 2802
+  },
+  {
+    "graph": "S03_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 198,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 197
+    },
+    "states": 2390,
+    "memo_states": 2802
+  },
+  {
+    "graph": "S03_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 102,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 101
+    },
+    "states": 2403,
+    "memo_states": 2482
+  },
+  {
+    "graph": "S04_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S04_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S04_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S04_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S05_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 143,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 142
+    },
+    "states": 1815,
+    "memo_states": 2460
+  },
+  {
+    "graph": "S05_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 387,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 130
+    },
+    "states": 3252,
+    "memo_states": 4108
+  },
+  {
+    "graph": "S05_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 387,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 130
+    },
+    "states": 3252,
+    "memo_states": 4108
+  },
+  {
+    "graph": "S05_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 387,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 130
+    },
+    "states": 3252,
+    "memo_states": 4108
+  },
+  {
+    "graph": "S06_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 194,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 193
+    },
+    "states": 2461,
+    "memo_states": 3201
+  },
+  {
+    "graph": "S06_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 194,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 193
+    },
+    "states": 2461,
+    "memo_states": 3201
+  },
+  {
+    "graph": "S06_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 143,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 142
+    },
+    "states": 1815,
+    "memo_states": 2460
+  },
+  {
+    "graph": "S06_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 143,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 142
+    },
+    "states": 1815,
+    "memo_states": 2460
+  },
+  {
+    "graph": "S07_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 323,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 66
+    },
+    "states": 3094,
+    "memo_states": 4213
+  },
+  {
+    "graph": "S07_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 311,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 54
+    },
+    "states": 3251,
+    "memo_states": 4208
+  },
+  {
+    "graph": "S07_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 359,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 102
+    },
+    "states": 3121,
+    "memo_states": 4400
+  },
+  {
+    "graph": "S07_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 359,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 102
+    },
+    "states": 3121,
+    "memo_states": 4400
+  },
+  {
+    "graph": "S08_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S08_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S08_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S08_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S09_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S09_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S09_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S09_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 239,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 238
+    },
+    "states": 2122,
+    "memo_states": 2972
+  },
+  {
+    "graph": "S10_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 166,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 165
+    },
+    "states": 2497,
+    "memo_states": 2943
+  },
+  {
+    "graph": "S10_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 166,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 165
+    },
+    "states": 2557,
+    "memo_states": 2930
+  },
+  {
+    "graph": "S10_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 166,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 165
+    },
+    "states": 2557,
+    "memo_states": 2930
+  },
+  {
+    "graph": "S10_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 166,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 165
+    },
+    "states": 2497,
+    "memo_states": 2943
+  },
+  {
+    "graph": "S11_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1616,
+    "memo_states": 2063
+  },
+  {
+    "graph": "S11_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1616,
+    "memo_states": 2063
+  },
+  {
+    "graph": "S11_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1616,
+    "memo_states": 2063
+  },
+  {
+    "graph": "S11_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1616,
+    "memo_states": 2063
+  },
+  {
+    "graph": "S12_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 9801,
+    "memo_states": 11384
+  },
+  {
+    "graph": "S12_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 9801,
+    "memo_states": 11384
+  },
+  {
+    "graph": "S12_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 9801,
+    "memo_states": 11384
+  },
+  {
+    "graph": "S12_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 9801,
+    "memo_states": 11384
+  },
+  {
+    "graph": "S13_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S13_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S13_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S13_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S14_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3330,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 257
+    },
+    "states": 34814,
+    "memo_states": 46285
+  },
+  {
+    "graph": "S14_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 34624,
+    "memo_states": 44324
+  },
+  {
+    "graph": "S14_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3490,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 417
+    },
+    "states": 35261,
+    "memo_states": 46141
+  },
+  {
+    "graph": "S14_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3330,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 257
+    },
+    "states": 34814,
+    "memo_states": 46285
+  },
+  {
+    "graph": "S15_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3214,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 141
+    },
+    "states": 33364,
+    "memo_states": 42444
+  },
+  {
+    "graph": "S15_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3490,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 417
+    },
+    "states": 35261,
+    "memo_states": 46141
+  },
+  {
+    "graph": "S15_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3490,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 417
+    },
+    "states": 35261,
+    "memo_states": 46141
+  },
+  {
+    "graph": "S15_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3214,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 141
+    },
+    "states": 33364,
+    "memo_states": 42444
+  },
+  {
+    "graph": "S16_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S16_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S16_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S16_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 35784,
+    "memo_states": 46395
+  },
+  {
+    "graph": "S17_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 8665,
+    "memo_states": 9870
+  },
+  {
+    "graph": "S17_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 8665,
+    "memo_states": 9870
+  },
+  {
+    "graph": "S17_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 289,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 288
+    },
+    "states": 9038,
+    "memo_states": 10284
+  },
+  {
+    "graph": "S17_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 258,
+    "AS_bad": {
+      "mass": 17,
+      "source": 0,
+      "mask": 257
+    },
+    "states": 11731,
+    "memo_states": 12770
+  },
+  {
+    "graph": "S18_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3362,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 289
+    },
+    "states": 36210,
+    "memo_states": 45736
+  },
+  {
+    "graph": "S18_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3362,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 289
+    },
+    "states": 36210,
+    "memo_states": 45736
+  },
+  {
+    "graph": "S18_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3362,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 289
+    },
+    "states": 36210,
+    "memo_states": 45736
+  },
+  {
+    "graph": "S18_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3362,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 289
+    },
+    "states": 36210,
+    "memo_states": 45736
+  },
+  {
+    "graph": "S19_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 37164,
+    "memo_states": 46731
+  },
+  {
+    "graph": "S19_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3462,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 389
+    },
+    "states": 37617,
+    "memo_states": 48369
+  },
+  {
+    "graph": "S19_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3342,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 269
+    },
+    "states": 37164,
+    "memo_states": 46731
+  },
+  {
+    "graph": "S19_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3217,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 144
+    },
+    "states": 36450,
+    "memo_states": 46497
+  },
+  {
+    "graph": "S20_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3282,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 209
+    },
+    "states": 36292,
+    "memo_states": 43718
+  },
+  {
+    "graph": "S20_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3490,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 417
+    },
+    "states": 35261,
+    "memo_states": 46141
+  },
+  {
+    "graph": "S20_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3462,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 389
+    },
+    "states": 37734,
+    "memo_states": 48486
+  },
+  {
+    "graph": "S20_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3462,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 389
+    },
+    "states": 37734,
+    "memo_states": 48486
+  },
+  {
+    "graph": "S21_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3782,
+    "AS_bad": {
+      "mass": 17,
+      "source": 7,
+      "mask": 197
+    },
+    "states": 46402,
+    "memo_states": 50142
+  },
+  {
+    "graph": "S21_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3282,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 209
+    },
+    "states": 37253,
+    "memo_states": 43236
+  },
+  {
+    "graph": "S21_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3842,
+    "AS_bad": {
+      "mass": 17,
+      "source": 7,
+      "mask": 257
+    },
+    "states": 45621,
+    "memo_states": 55771
+  },
+  {
+    "graph": "S21_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3782,
+    "AS_bad": {
+      "mass": 17,
+      "source": 7,
+      "mask": 197
+    },
+    "states": 46402,
+    "memo_states": 50142
+  },
+  {
+    "graph": "S22_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3330,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 257
+    },
+    "states": 36717,
+    "memo_states": 46314
+  },
+  {
+    "graph": "S22_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3330,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 257
+    },
+    "states": 36717,
+    "memo_states": 46314
+  },
+  {
+    "graph": "S22_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3330,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 257
+    },
+    "states": 36717,
+    "memo_states": 46314
+  },
+  {
+    "graph": "S22_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3330,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 257
+    },
+    "states": 36717,
+    "memo_states": 46314
+  },
+  {
+    "graph": "S23_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3282,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 209
+    },
+    "states": 41315,
+    "memo_states": 44486
+  },
+  {
+    "graph": "S23_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3282,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 209
+    },
+    "states": 41315,
+    "memo_states": 44486
+  },
+  {
+    "graph": "S23_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3282,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 209
+    },
+    "states": 41315,
+    "memo_states": 44486
+  },
+  {
+    "graph": "S23_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 3282,
+    "AS_bad": {
+      "mass": 17,
+      "source": 6,
+      "mask": 209
+    },
+    "states": 41315,
+    "memo_states": 44486
+  },
+  {
+    "graph": "S24_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S24_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S24_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S24_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S25_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S25_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S25_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S25_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 15,
+    "AS_bad": {
+      "mass": 8,
+      "source": 0,
+      "mask": 14
+    },
+    "states": 138,
+    "memo_states": 170
+  },
+  {
+    "graph": "S26_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 802,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 33
+    },
+    "states": 7883,
+    "memo_states": 9255
+  },
+  {
+    "graph": "S26_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 802,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 33
+    },
+    "states": 7883,
+    "memo_states": 9255
+  },
+  {
+    "graph": "S26_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 802,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 33
+    },
+    "states": 7883,
+    "memo_states": 9255
+  },
+  {
+    "graph": "S26_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 802,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 33
+    },
+    "states": 7883,
+    "memo_states": 9255
+  },
+  {
+    "graph": "S27_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 787,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 18
+    },
+    "states": 7678,
+    "memo_states": 9251
+  },
+  {
+    "graph": "S27_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 787,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 18
+    },
+    "states": 7678,
+    "memo_states": 9251
+  },
+  {
+    "graph": "S27_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 787,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 18
+    },
+    "states": 7678,
+    "memo_states": 9251
+  },
+  {
+    "graph": "S27_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 787,
+    "AS_bad": {
+      "mass": 15,
+      "source": 6,
+      "mask": 18
+    },
+    "states": 7678,
+    "memo_states": 9251
+  },
+  {
+    "graph": "S28_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 488,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 487
+    },
+    "states": 19614,
+    "memo_states": 50123
+  },
+  {
+    "graph": "S28_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 488,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 487
+    },
+    "states": 19614,
+    "memo_states": 50123
+  },
+  {
+    "graph": "S28_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 488,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 487
+    },
+    "states": 19614,
+    "memo_states": 50123
+  },
+  {
+    "graph": "S28_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 488,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 487
+    },
+    "states": 19614,
+    "memo_states": 50123
+  },
+  {
+    "graph": "S29_0",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 495,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 494
+    },
+    "states": 21176,
+    "memo_states": 28279
+  },
+  {
+    "graph": "S29_1",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 495,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 494
+    },
+    "states": 21176,
+    "memo_states": 28279
+  },
+  {
+    "graph": "S29_2",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 495,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 494
+    },
+    "states": 21176,
+    "memo_states": 28279
+  },
+  {
+    "graph": "S29_3",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 495,
+    "AS_bad": {
+      "mass": 16,
+      "source": 0,
+      "mask": 494
+    },
+    "states": 21176,
+    "memo_states": 28279
+  }
+]

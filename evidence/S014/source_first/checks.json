@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c079_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 21.15700000000652,
+    "peak_working_set_bytes": 60854272,
+    "resource_failure": null,
+    "stdout": "{\"cases\": 142, \"states\": 167713, \"predecessors\": 598867, \"child_tests\": 2538712, \"failed_sources\": 0}\r\n",
+    "stderr": "",
+    "code_sha256": "0cb84b60fa3544fa001fc5eddeb54e54a6a51a4b1612f69fd2c9ac66d0e61c1c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c079_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 24.46899999998277,
+    "peak_working_set_bytes": 54063104,
+    "resource_failure": null,
+    "stdout": "{\"complete_predecessor_inventory_and_all_child_masks_equal\": true, \"cases\": 142, \"states\": 167713, \"predecessors\": 598867, \"winning_multioccupied_inputs\": 437350, \"heavy_sources\": 1211093, \"child_tests\": 2538712, \"pure3_terminal_predecessors\": 809, \"failed_sources\": 0, \"scope\": \"Complete source-first challenge on precisely142 old graphs;116 symbolic proof separate; universal ASH* OPEN\", \"seconds\": 24.219000000011874}\r\n",
+    "stderr": "",
+    "code_sha256": "1ed56ed579cc3f765fa49801d9b4479fd1716857a1804ad4da67bb64d7a15e78"
+  }
+]

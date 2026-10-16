@@ -1,0 +1,20 @@
+{
+  "files": {
+    "sessions\\S014\\PLAN_AMENDMENT_13.md": "a3fcd001170e549dc5148a0605c174a0a787186cfa511592125fab3df21e967e",
+    "sessions\\S014\\PLAN_AMENDMENT_13.sha256": "b2d75dbbfc195c79cf0e5be8824b7eb95b0b10abfe700ba232bc8eed436783ac",
+    "evidence/S014/firstfires/inputs.json": "508424b9d57539e20ee616cf134bca9944a56b61825bfa5d948083ed33736d30",
+    "evidence/S014/firstfires/threshold_inputs.json": "55a4cb230d962df8b0a00e63a974ae69703c08a8b39857b6f22117010383b262",
+    "tools/s014_firstfires.py": "324f052ac8433f72d1e88f7df21018da6e12416ac069e987db6ce0cf28f78f37",
+    "tools/s014_firstfires_verify.py": "7153b68a846c9b7c7412e263fcc106df296752236053d813160546522a8f29ae",
+    "tools/s014_firstfires_run.py": "62a65858150ca9067325790e09fc15e9cc5822441dbbd2914b2f2dd0db19d268",
+    "tools/s014_boundary_threshold.py": "5c1b0bd168483a1546b26af2ab4fb48dc49243aaa3fa562ded1a0976b49760a6",
+    "tools/s014_boundary_threshold_verify.py": "a9cc5738716ac5e6893b447f6cca82ec0536213eec64f580f5d3681843df4667",
+    "tools/s014_boundary_witnesses.py": "750cfd4b47bd39c5e232e83aa6b666d56fa879558333f8ac03a8a6e3b42c5445",
+    "tools/s014_threshold.py": "db0748f75d1ed693302309c3bf6c047272a519882c969c099bba49f68fb63c57",
+    "tools/s014_threshold_verify.py": "ea4670f167cc29ca6b7fb0c64bc3b472fceee8db72e3dd207351fb42ede6f2c3",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "research/S014_ARBITRARY_BUFFER_JOIN.md": "815cd5ebcb263a3fe405ef9e22a0e9e648baaf8446b724600241d9aa949f0f61"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

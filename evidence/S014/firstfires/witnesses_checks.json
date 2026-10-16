@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_boundary_witnesses.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.2970000000059372,
+    "peak_working_set_bytes": 16551936,
+    "resource_failure": null,
+    "stdout": "{\"all_graphs\": 146, \"explicit_STACK_AS_witnesses\": 228, \"completed_CLEAR_boundaries\": 6, \"old_full_losing_layers_preserved\": true}\r\n",
+    "stderr": "",
+    "code_sha256": "750cfd4b47bd39c5e232e83aa6b666d56fa879558333f8ac03a8a6e3b42c5445"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_retract_produce.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.6090000000258442,
+    "peak_working_set_bytes": 14909440,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 31, \"trees\": 2279, \"crown_maxima\": [15, 16, 19], \"seconds\": 0.48399999999674037}\r\n",
+    "stderr": "",
+    "code_sha256": "d4caedc513cc000c123701bfe2cbb2754af083dc68d0af2073e18a7c60f6ab65"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_retract_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.5,
+    "peak_working_set_bytes": 18993152,
+    "resource_failure": null,
+    "stdout": "{\"graphs\": 31, \"isometric_trees\": 2279, \"ambient_edges_mapped\": 65648, \"all_full_subtree_sets_equal\": true, \"all_retractions_true_loopless_edge_maps\": true, \"all_earlier_TreeStack_root_scores_equal\": true, \"crown_maxima\": [15, 16, 19], \"crown_AS_lower_thresholds\": [16, 19, 22], \"scope\": \"Scoped bridge101 and actual stronger-selection obstruction102; universal ASH* OPEN\"}\r\n",
+    "stderr": "",
+    "code_sha256": "f54bb818a14a233ce0c7f53aeb19c10fafc0388b3af55e6d2cef2dce6174fe24"
+  }
+]

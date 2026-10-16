@@ -1,0 +1,23 @@
+{
+  "cases": [
+    {
+      "graph": "g6_0248",
+      "mass": 9,
+      "threshold": 15,
+      "critical": false,
+      "Q": 21,
+      "layer_Qmax": 51
+    },
+    {
+      "graph": "g6_0504",
+      "mass": 9,
+      "threshold": 13,
+      "critical": false,
+      "Q": 21,
+      "layer_Qmax": 51
+    }
+  ],
+  "complete_negative_states": 250,
+  "literal_winning_moves": 12,
+  "all_negative_closures_and_positive_histories_checked": true
+}

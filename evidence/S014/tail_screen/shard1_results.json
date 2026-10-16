@@ -1,0 +1,8573 @@
+[
+  {
+    "graph": "A0_0939",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 84
+  },
+  {
+    "graph": "A0_0940",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 65,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 64
+    },
+    "states": 789,
+    "memo_states": 1121
+  },
+  {
+    "graph": "A0_0941",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 41
+  },
+  {
+    "graph": "A0_0942",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_0943",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_0944",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_0945",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_0946",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0947",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 86
+  },
+  {
+    "graph": "A0_0948",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_0949",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_0950",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_0951",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 782,
+    "memo_states": 969
+  },
+  {
+    "graph": "A0_0952",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0953",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 108
+  },
+  {
+    "graph": "A0_0954",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_0955",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0956",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 28
+  },
+  {
+    "graph": "A0_0957",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 53
+  },
+  {
+    "graph": "A0_0958",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_0959",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_0960",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_0961",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_0962",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 28
+  },
+  {
+    "graph": "A0_0963",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_0964",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_0965",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_0966",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 126
+  },
+  {
+    "graph": "A0_0967",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_0968",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 104
+  },
+  {
+    "graph": "A0_0969",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0970",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 121
+  },
+  {
+    "graph": "A0_0971",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_0972",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 130
+  },
+  {
+    "graph": "A0_0973",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 80
+  },
+  {
+    "graph": "A0_0974",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_0975",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_0976",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 142
+  },
+  {
+    "graph": "A0_0977",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_0978",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_0979",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_0980",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_0981",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_0982",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_0983",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_0984",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_0985",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_0986",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0987",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_0988",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_0989",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 44
+  },
+  {
+    "graph": "A0_0990",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 42
+  },
+  {
+    "graph": "A0_0991",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 145
+  },
+  {
+    "graph": "A0_0992",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0993",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 57
+  },
+  {
+    "graph": "A0_0994",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_0995",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_0996",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1195,
+    "memo_states": 1911
+  },
+  {
+    "graph": "A0_0997",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_0998",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_0999",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1000",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 107
+  },
+  {
+    "graph": "A0_1001",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1002",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1003",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 90
+  },
+  {
+    "graph": "A0_1004",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 116
+  },
+  {
+    "graph": "A0_1005",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 62
+  },
+  {
+    "graph": "A0_1006",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 166
+  },
+  {
+    "graph": "A0_1007",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 40
+  },
+  {
+    "graph": "A0_1008",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1009",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 96
+  },
+  {
+    "graph": "A0_1010",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1011",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1012",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 410
+  },
+  {
+    "graph": "A0_1013",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 90
+  },
+  {
+    "graph": "A0_1014",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 228
+  },
+  {
+    "graph": "A0_1015",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1016",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 48
+  },
+  {
+    "graph": "A0_1017",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1018",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 164
+  },
+  {
+    "graph": "A0_1019",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 91
+  },
+  {
+    "graph": "A0_1020",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1021",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 133
+  },
+  {
+    "graph": "A0_1022",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 177
+  },
+  {
+    "graph": "A0_1023",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 138
+  },
+  {
+    "graph": "A0_1024",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1025",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1026",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1027",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 25
+  },
+  {
+    "graph": "A0_1028",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1029",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1030",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 110
+  },
+  {
+    "graph": "A0_1031",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 652,
+    "memo_states": 768
+  },
+  {
+    "graph": "A0_1032",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 108
+  },
+  {
+    "graph": "A0_1033",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1034",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 51
+  },
+  {
+    "graph": "A0_1035",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1036",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1037",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1038",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1039",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 42
+  },
+  {
+    "graph": "A0_1040",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1041",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1042",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 78
+  },
+  {
+    "graph": "A0_1043",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1044",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1045",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1046",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_1047",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 100,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 99
+    },
+    "states": 1442,
+    "memo_states": 1868
+  },
+  {
+    "graph": "A0_1048",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1049",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1050",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 226
+  },
+  {
+    "graph": "A0_1051",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 51
+  },
+  {
+    "graph": "A0_1052",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1053",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1054",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1055",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 127
+  },
+  {
+    "graph": "A0_1056",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 29
+  },
+  {
+    "graph": "A0_1057",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1058",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 100
+  },
+  {
+    "graph": "A0_1059",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1060",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1061",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1062",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1063",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 529,
+    "memo_states": 682
+  },
+  {
+    "graph": "A0_1064",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 135
+  },
+  {
+    "graph": "A0_1065",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 71
+  },
+  {
+    "graph": "A0_1066",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 52
+  },
+  {
+    "graph": "A0_1067",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1068",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1069",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 173
+  },
+  {
+    "graph": "A0_1070",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 71
+  },
+  {
+    "graph": "A0_1071",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 110
+  },
+  {
+    "graph": "A0_1072",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 102
+  },
+  {
+    "graph": "A0_1073",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 138
+  },
+  {
+    "graph": "A0_1074",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 288
+  },
+  {
+    "graph": "A0_1075",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 29
+  },
+  {
+    "graph": "A0_1076",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 87
+  },
+  {
+    "graph": "A0_1077",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1078",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 48
+  },
+  {
+    "graph": "A0_1079",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 81
+  },
+  {
+    "graph": "A0_1080",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1081",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 129
+  },
+  {
+    "graph": "A0_1082",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1083",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 118
+  },
+  {
+    "graph": "A0_1084",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 48
+  },
+  {
+    "graph": "A0_1085",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 91
+  },
+  {
+    "graph": "A0_1086",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1087",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 49
+  },
+  {
+    "graph": "A0_1088",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 87
+  },
+  {
+    "graph": "A0_1089",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 84
+  },
+  {
+    "graph": "A0_1090",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_1091",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 64
+  },
+  {
+    "graph": "A0_1092",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 166
+  },
+  {
+    "graph": "A0_1093",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1094",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 114
+  },
+  {
+    "graph": "A0_1095",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1096",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 161
+  },
+  {
+    "graph": "A0_1097",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 216
+  },
+  {
+    "graph": "A0_1098",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1099",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 140
+  },
+  {
+    "graph": "A0_1100",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1101",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1102",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1103",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 78
+  },
+  {
+    "graph": "A0_1104",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 131
+  },
+  {
+    "graph": "A0_1105",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 65,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 64
+    },
+    "states": 793,
+    "memo_states": 1220
+  },
+  {
+    "graph": "A0_1106",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 108
+  },
+  {
+    "graph": "A0_1107",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 47
+  },
+  {
+    "graph": "A0_1108",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1109",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 101
+  },
+  {
+    "graph": "A0_1110",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 148
+  },
+  {
+    "graph": "A0_1111",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 63
+  },
+  {
+    "graph": "A0_1112",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1113",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 47
+  },
+  {
+    "graph": "A0_1114",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1115",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1116",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 78
+  },
+  {
+    "graph": "A0_1117",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1118",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1119",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 131
+  },
+  {
+    "graph": "A0_1120",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 57
+  },
+  {
+    "graph": "A0_1121",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1122",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_1123",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 43
+  },
+  {
+    "graph": "A0_1124",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1125",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1126",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1127",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1128",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 155
+  },
+  {
+    "graph": "A0_1129",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1130",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 87
+  },
+  {
+    "graph": "A0_1131",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 37
+  },
+  {
+    "graph": "A0_1132",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 117
+  },
+  {
+    "graph": "A0_1133",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 121
+  },
+  {
+    "graph": "A0_1134",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1135",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1136",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1137",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 151
+  },
+  {
+    "graph": "A0_1138",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 62
+  },
+  {
+    "graph": "A0_1139",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1140",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1141",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 95
+  },
+  {
+    "graph": "A0_1142",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 102
+  },
+  {
+    "graph": "A0_1143",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1144",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1145",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 131,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 130
+    },
+    "states": 1573,
+    "memo_states": 2257
+  },
+  {
+    "graph": "A0_1146",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1147",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 88
+  },
+  {
+    "graph": "A0_1148",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_1149",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1150",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 60
+  },
+  {
+    "graph": "A0_1151",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 128
+  },
+  {
+    "graph": "A0_1152",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1153",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1154",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 106
+  },
+  {
+    "graph": "A0_1155",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 186
+  },
+  {
+    "graph": "A0_1156",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 125
+  },
+  {
+    "graph": "A0_1157",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1158",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 65,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 64
+    },
+    "states": 871,
+    "memo_states": 1156
+  },
+  {
+    "graph": "A0_1159",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1160",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1161",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1162",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1163",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1164",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 160
+  },
+  {
+    "graph": "A0_1165",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1166",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1167",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 95
+  },
+  {
+    "graph": "A0_1168",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1169",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1170",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 131
+  },
+  {
+    "graph": "A0_1171",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1172",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 78
+  },
+  {
+    "graph": "A0_1173",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1174",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1175",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1176",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1177",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1178",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1179",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 97
+  },
+  {
+    "graph": "A0_1180",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1181",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 25
+  },
+  {
+    "graph": "A0_1182",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1183",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 86
+  },
+  {
+    "graph": "A0_1184",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 115
+  },
+  {
+    "graph": "A0_1185",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1186",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1187",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 367
+  },
+  {
+    "graph": "A0_1188",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 128
+  },
+  {
+    "graph": "A0_1189",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 87
+  },
+  {
+    "graph": "A0_1190",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1191",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 150
+  },
+  {
+    "graph": "A0_1192",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 47,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 46
+    },
+    "states": 929,
+    "memo_states": 1255
+  },
+  {
+    "graph": "A0_1193",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1194",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1195",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 124
+  },
+  {
+    "graph": "A0_1196",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 111
+  },
+  {
+    "graph": "A0_1197",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 62
+  },
+  {
+    "graph": "A0_1198",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1199",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 84
+  },
+  {
+    "graph": "A0_1200",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 145
+  },
+  {
+    "graph": "A0_1201",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1202",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1203",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 147
+  },
+  {
+    "graph": "A0_1204",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1205",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 53
+  },
+  {
+    "graph": "A0_1206",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 97
+  },
+  {
+    "graph": "A0_1207",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 180
+  },
+  {
+    "graph": "A0_1208",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_1209",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1210",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1211",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 330
+  },
+  {
+    "graph": "A0_1212",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1213",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1214",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1215",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1216",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1217",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1218",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1219",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_1220",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1221",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 292
+  },
+  {
+    "graph": "A0_1222",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1223",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1224",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 182
+  },
+  {
+    "graph": "A0_1225",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1226",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1227",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1228",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1229",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 111
+  },
+  {
+    "graph": "A0_1230",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1231",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 102
+  },
+  {
+    "graph": "A0_1232",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1233",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1234",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1235",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1236",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 58
+  },
+  {
+    "graph": "A0_1237",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1238",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 153
+  },
+  {
+    "graph": "A0_1239",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 150
+  },
+  {
+    "graph": "A0_1240",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1241",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1242",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1243",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 169
+  },
+  {
+    "graph": "A0_1244",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_1245",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 88
+  },
+  {
+    "graph": "A0_1246",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 44
+  },
+  {
+    "graph": "A0_1247",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1248",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 72
+  },
+  {
+    "graph": "A0_1249",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 66
+  },
+  {
+    "graph": "A0_1250",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1251",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 51
+  },
+  {
+    "graph": "A0_1252",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1253",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1254",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1255",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1256",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 41
+  },
+  {
+    "graph": "A0_1257",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 46
+  },
+  {
+    "graph": "A0_1258",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 116
+  },
+  {
+    "graph": "A0_1259",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1260",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1261",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 43
+  },
+  {
+    "graph": "A0_1262",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 53
+  },
+  {
+    "graph": "A0_1263",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1264",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 125
+  },
+  {
+    "graph": "A0_1265",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 115
+  },
+  {
+    "graph": "A0_1266",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 97
+  },
+  {
+    "graph": "A0_1267",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1268",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1269",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1270",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1271",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1272",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 62
+  },
+  {
+    "graph": "A0_1273",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1274",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 16
+  },
+  {
+    "graph": "A0_1275",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 42
+  },
+  {
+    "graph": "A0_1276",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1277",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1278",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 63
+  },
+  {
+    "graph": "A0_1279",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 544,
+    "memo_states": 693
+  },
+  {
+    "graph": "A0_1280",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1281",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 165
+  },
+  {
+    "graph": "A0_1282",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1283",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1284",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 110
+  },
+  {
+    "graph": "A0_1285",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1286",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 66
+  },
+  {
+    "graph": "A0_1287",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 63
+  },
+  {
+    "graph": "A0_1288",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1289",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1290",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1291",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1292",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 68
+  },
+  {
+    "graph": "A0_1293",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 46
+  },
+  {
+    "graph": "A0_1294",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 41
+  },
+  {
+    "graph": "A0_1295",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 87
+  },
+  {
+    "graph": "A0_1296",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 151
+  },
+  {
+    "graph": "A0_1297",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 107
+  },
+  {
+    "graph": "A0_1298",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1299",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1300",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1301",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_1302",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1303",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 29
+  },
+  {
+    "graph": "A0_1304",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1305",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1306",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 331
+  },
+  {
+    "graph": "A0_1307",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 121
+  },
+  {
+    "graph": "A0_1308",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 47
+  },
+  {
+    "graph": "A0_1309",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1310",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1311",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 103
+  },
+  {
+    "graph": "A0_1312",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1313",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 161
+  },
+  {
+    "graph": "A0_1314",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 127
+  },
+  {
+    "graph": "A0_1315",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1316",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1317",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1318",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1319",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1320",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1321",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1322",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 280
+  },
+  {
+    "graph": "A0_1323",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1324",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 58
+  },
+  {
+    "graph": "A0_1325",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1326",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 37
+  },
+  {
+    "graph": "A0_1327",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 99,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 98
+    },
+    "states": 1512,
+    "memo_states": 1984
+  },
+  {
+    "graph": "A0_1328",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_1329",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1330",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 105
+  },
+  {
+    "graph": "A0_1331",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 17
+  },
+  {
+    "graph": "A0_1332",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1333",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 102
+  },
+  {
+    "graph": "A0_1334",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1335",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_1336",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1337",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1338",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 135
+  },
+  {
+    "graph": "A0_1339",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 61
+  },
+  {
+    "graph": "A0_1340",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1341",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 92
+  },
+  {
+    "graph": "A0_1342",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1343",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 347
+  },
+  {
+    "graph": "A0_1344",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_1345",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1346",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 133
+  },
+  {
+    "graph": "A0_1347",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 160
+  },
+  {
+    "graph": "A0_1348",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 52
+  },
+  {
+    "graph": "A0_1349",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1350",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 90
+  },
+  {
+    "graph": "A0_1351",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 86
+  },
+  {
+    "graph": "A0_1352",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 107
+  },
+  {
+    "graph": "A0_1353",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1354",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 96
+  },
+  {
+    "graph": "A0_1355",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 29
+  },
+  {
+    "graph": "A0_1356",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 129
+  },
+  {
+    "graph": "A0_1357",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 41
+  },
+  {
+    "graph": "A0_1358",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 87
+  },
+  {
+    "graph": "A0_1359",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 41
+  },
+  {
+    "graph": "A0_1360",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 95
+  },
+  {
+    "graph": "A0_1361",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1362",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 82
+  },
+  {
+    "graph": "A0_1363",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1364",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 149
+  },
+  {
+    "graph": "A0_1365",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1366",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1367",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1368",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 328
+  },
+  {
+    "graph": "A0_1369",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1370",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 134
+  },
+  {
+    "graph": "A0_1371",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1372",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1373",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1374",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1375",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 107
+  },
+  {
+    "graph": "A0_1376",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1377",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1378",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 106
+  },
+  {
+    "graph": "A0_1379",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1380",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1381",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1382",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1383",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1384",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1385",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 111
+  },
+  {
+    "graph": "A0_1386",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_1387",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1388",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1389",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1390",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1391",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1392",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1393",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 57
+  },
+  {
+    "graph": "A0_1394",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1395",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1396",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1397",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1398",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 110
+  },
+  {
+    "graph": "A0_1399",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_1400",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 186
+  },
+  {
+    "graph": "A0_1401",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 92
+  },
+  {
+    "graph": "A0_1402",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 148
+  },
+  {
+    "graph": "A0_1403",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1404",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 116
+  },
+  {
+    "graph": "A0_1405",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1406",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 91
+  },
+  {
+    "graph": "A0_1407",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 207
+  },
+  {
+    "graph": "A0_1408",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 160
+  },
+  {
+    "graph": "A0_1409",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 66
+  },
+  {
+    "graph": "A0_1410",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1411",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1412",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 54
+  },
+  {
+    "graph": "A0_1413",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_1414",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1415",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1416",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 46
+  },
+  {
+    "graph": "A0_1417",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1418",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 123
+  },
+  {
+    "graph": "A0_1419",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 46
+  },
+  {
+    "graph": "A0_1420",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 185
+  },
+  {
+    "graph": "A0_1421",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 140
+  },
+  {
+    "graph": "A0_1422",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 61
+  },
+  {
+    "graph": "A0_1423",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1424",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 134
+  },
+  {
+    "graph": "A0_1425",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 46
+  },
+  {
+    "graph": "A0_1426",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 103
+  },
+  {
+    "graph": "A0_1427",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 179
+  },
+  {
+    "graph": "A0_1428",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_1429",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1430",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1431",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 68
+  },
+  {
+    "graph": "A0_1432",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1433",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 148
+  },
+  {
+    "graph": "A0_1434",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1435",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1436",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1437",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 53
+  },
+  {
+    "graph": "A0_1438",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 62
+  },
+  {
+    "graph": "A0_1439",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_1440",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1441",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 542,
+    "memo_states": 697
+  },
+  {
+    "graph": "A0_1442",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 49
+  },
+  {
+    "graph": "A0_1443",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1444",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1445",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1446",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 204
+  },
+  {
+    "graph": "A0_1447",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1444,
+    "memo_states": 2080
+  },
+  {
+    "graph": "A0_1448",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1449",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1450",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1451",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 131
+  },
+  {
+    "graph": "A0_1452",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1453",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1454",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1455",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 126
+  },
+  {
+    "graph": "A0_1456",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 30
+  },
+  {
+    "graph": "A0_1457",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 115
+  },
+  {
+    "graph": "A0_1458",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 40
+  },
+  {
+    "graph": "A0_1459",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 134
+  },
+  {
+    "graph": "A0_1460",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 30
+  },
+  {
+    "graph": "A0_1461",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1462",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 72
+  },
+  {
+    "graph": "A0_1463",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 82
+  },
+  {
+    "graph": "A0_1464",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 123
+  },
+  {
+    "graph": "A0_1465",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1466",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1467",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1468",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1469",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1470",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1471",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1472",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1473",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 100,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 99
+    },
+    "states": 1191,
+    "memo_states": 1843
+  },
+  {
+    "graph": "A0_1474",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1475",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1476",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 130
+  },
+  {
+    "graph": "A0_1477",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 29
+  },
+  {
+    "graph": "A0_1478",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1479",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 96
+  },
+  {
+    "graph": "A0_1480",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 126
+  },
+  {
+    "graph": "A0_1481",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1482",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 71
+  },
+  {
+    "graph": "A0_1483",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1484",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 125
+  },
+  {
+    "graph": "A0_1485",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1486",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1487",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1488",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1489",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1490",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1491",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 47
+  },
+  {
+    "graph": "A0_1492",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 42
+  },
+  {
+    "graph": "A0_1493",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1494",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1495",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1496",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1497",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1498",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 54
+  },
+  {
+    "graph": "A0_1499",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 86
+  },
+  {
+    "graph": "A0_1500",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1501",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 91
+  },
+  {
+    "graph": "A0_1502",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1503",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1504",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 126
+  },
+  {
+    "graph": "A0_1505",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1506",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1507",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1508",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 110
+  },
+  {
+    "graph": "A0_1509",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1510",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1511",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 143
+  },
+  {
+    "graph": "A0_1512",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 139
+  },
+  {
+    "graph": "A0_1513",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 43
+  },
+  {
+    "graph": "A0_1514",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1515",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 104
+  },
+  {
+    "graph": "A0_1516",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1517",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1518",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 80
+  },
+  {
+    "graph": "A0_1519",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1520",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1521",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 261
+  },
+  {
+    "graph": "A0_1522",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 107
+  },
+  {
+    "graph": "A0_1523",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 372
+  },
+  {
+    "graph": "A0_1524",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 104
+  },
+  {
+    "graph": "A0_1525",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1526",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1527",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 51
+  },
+  {
+    "graph": "A0_1528",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 58
+  },
+  {
+    "graph": "A0_1529",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1530",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 105
+  },
+  {
+    "graph": "A0_1531",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 58
+  },
+  {
+    "graph": "A0_1532",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 51
+  },
+  {
+    "graph": "A0_1533",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1534",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 29
+  },
+  {
+    "graph": "A0_1535",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 134
+  },
+  {
+    "graph": "A0_1536",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1537",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 84
+  },
+  {
+    "graph": "A0_1538",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_1539",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 64
+  },
+  {
+    "graph": "A0_1540",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 103
+  },
+  {
+    "graph": "A0_1541",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1542",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 129,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 128
+    },
+    "states": 1518,
+    "memo_states": 2748
+  },
+  {
+    "graph": "A0_1543",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 78
+  },
+  {
+    "graph": "A0_1544",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 129
+  },
+  {
+    "graph": "A0_1545",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1546",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1547",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1548",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1549",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1550",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 66
+  },
+  {
+    "graph": "A0_1551",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1552",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1553",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 102,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 101
+    },
+    "states": 1443,
+    "memo_states": 1739
+  },
+  {
+    "graph": "A0_1554",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1555",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 71
+  },
+  {
+    "graph": "A0_1556",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 58
+  },
+  {
+    "graph": "A0_1557",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1558",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1559",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1560",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 47
+  },
+  {
+    "graph": "A0_1561",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1562",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1563",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 50
+  },
+  {
+    "graph": "A0_1564",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1565",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1566",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 116
+  },
+  {
+    "graph": "A0_1567",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 61
+  },
+  {
+    "graph": "A0_1568",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 71
+  },
+  {
+    "graph": "A0_1569",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1570",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_1571",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 184
+  },
+  {
+    "graph": "A0_1572",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1573",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1574",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1575",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_1576",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1577",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1578",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1579",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 60
+  },
+  {
+    "graph": "A0_1580",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1581",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 232,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 231
+    },
+    "states": 1979,
+    "memo_states": 3485
+  },
+  {
+    "graph": "A0_1582",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1583",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 113
+  },
+  {
+    "graph": "A0_1584",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1585",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 68
+  },
+  {
+    "graph": "A0_1586",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 44
+  },
+  {
+    "graph": "A0_1587",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 121
+  },
+  {
+    "graph": "A0_1588",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1589",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 111
+  },
+  {
+    "graph": "A0_1590",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 40
+  },
+  {
+    "graph": "A0_1591",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1592",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1593",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 60
+  },
+  {
+    "graph": "A0_1594",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 199
+  },
+  {
+    "graph": "A0_1595",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1596",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1597",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 159
+  },
+  {
+    "graph": "A0_1598",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_1599",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 95
+  },
+  {
+    "graph": "A0_1600",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 231
+  },
+  {
+    "graph": "A0_1601",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1602",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 65
+  },
+  {
+    "graph": "A0_1603",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1604",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 17
+  },
+  {
+    "graph": "A0_1605",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 80
+  },
+  {
+    "graph": "A0_1606",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1607",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 126
+  },
+  {
+    "graph": "A0_1608",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1609",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 63
+  },
+  {
+    "graph": "A0_1610",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1611",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 102,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 101
+    },
+    "states": 1027,
+    "memo_states": 1773
+  },
+  {
+    "graph": "A0_1612",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 166
+  },
+  {
+    "graph": "A0_1613",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 195
+  },
+  {
+    "graph": "A0_1614",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1615",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1616",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 128
+  },
+  {
+    "graph": "A0_1617",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1618",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1619",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1620",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1621",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 128
+  },
+  {
+    "graph": "A0_1622",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 115
+  },
+  {
+    "graph": "A0_1623",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1624",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1625",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1626",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1627",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 71,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 70
+    },
+    "states": 1261,
+    "memo_states": 2225
+  },
+  {
+    "graph": "A0_1628",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1629",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 37
+  },
+  {
+    "graph": "A0_1630",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 43
+  },
+  {
+    "graph": "A0_1631",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1632",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1633",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1634",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1635",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1636",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1637",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1638",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1639",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1640",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_1641",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 75
+  },
+  {
+    "graph": "A0_1642",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 84
+  },
+  {
+    "graph": "A0_1643",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1644",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1645",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 723,
+    "memo_states": 924
+  },
+  {
+    "graph": "A0_1646",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1647",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1648",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1649",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1650",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 185
+  },
+  {
+    "graph": "A0_1651",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1652",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 345
+  },
+  {
+    "graph": "A0_1653",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1654",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 88
+  },
+  {
+    "graph": "A0_1655",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1656",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1657",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1658",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1659",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1660",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1661",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1662",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1663",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 103
+  },
+  {
+    "graph": "A0_1664",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 52
+  },
+  {
+    "graph": "A0_1665",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1666",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 61
+  },
+  {
+    "graph": "A0_1667",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 107
+  },
+  {
+    "graph": "A0_1668",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 25
+  },
+  {
+    "graph": "A0_1669",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1670",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 56
+  },
+  {
+    "graph": "A0_1671",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1672",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 156
+  },
+  {
+    "graph": "A0_1673",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 114
+  },
+  {
+    "graph": "A0_1674",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1675",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1676",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1677",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 35,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 34
+    },
+    "states": 681,
+    "memo_states": 917
+  },
+  {
+    "graph": "A0_1678",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 116
+  },
+  {
+    "graph": "A0_1679",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1680",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 137
+  },
+  {
+    "graph": "A0_1681",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1682",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1683",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1684",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1685",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1686",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 100
+  },
+  {
+    "graph": "A0_1687",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1688",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 57
+  },
+  {
+    "graph": "A0_1689",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1690",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 71
+  },
+  {
+    "graph": "A0_1691",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 111
+  },
+  {
+    "graph": "A0_1692",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 113
+  },
+  {
+    "graph": "A0_1693",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1694",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1695",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1696",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1697",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 36
+  },
+  {
+    "graph": "A0_1698",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1699",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 112
+  },
+  {
+    "graph": "A0_1700",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1701",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1702",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1703",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 102,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 101
+    },
+    "states": 1173,
+    "memo_states": 1946
+  },
+  {
+    "graph": "A0_1704",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1705",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 130
+  },
+  {
+    "graph": "A0_1706",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1707",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1708",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1709",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1710",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 169
+  },
+  {
+    "graph": "A0_1711",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 113
+  },
+  {
+    "graph": "A0_1712",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1713",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1714",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1715",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 103
+  },
+  {
+    "graph": "A0_1716",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_1717",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1718",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1719",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1720",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1721",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 64
+  },
+  {
+    "graph": "A0_1722",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 72
+  },
+  {
+    "graph": "A0_1723",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1724",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1725",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 88
+  },
+  {
+    "graph": "A0_1726",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 68
+  },
+  {
+    "graph": "A0_1727",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 18
+  },
+  {
+    "graph": "A0_1728",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 49
+  },
+  {
+    "graph": "A0_1729",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1730",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1731",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_1732",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 59
+  },
+  {
+    "graph": "A0_1733",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 37
+  },
+  {
+    "graph": "A0_1734",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 356,
+    "AS_bad": {
+      "mass": 11,
+      "source": 1,
+      "mask": 99
+    },
+    "states": 2788,
+    "memo_states": 4524
+  },
+  {
+    "graph": "A0_1735",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 130
+  },
+  {
+    "graph": "A0_1736",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1737",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 65,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 64
+    },
+    "states": 996,
+    "memo_states": 1339
+  },
+  {
+    "graph": "A0_1738",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1739",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1740",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_1741",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1742",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 97
+  },
+  {
+    "graph": "A0_1743",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 78
+  },
+  {
+    "graph": "A0_1744",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1745",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 34
+  },
+  {
+    "graph": "A0_1746",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 126
+  },
+  {
+    "graph": "A0_1747",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1748",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1749",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1750",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1751",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 162
+  },
+  {
+    "graph": "A0_1752",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1753",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 65,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 64
+    },
+    "states": 789,
+    "memo_states": 1124
+  },
+  {
+    "graph": "A0_1754",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 77
+  },
+  {
+    "graph": "A0_1755",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 90
+  },
+  {
+    "graph": "A0_1756",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 153
+  },
+  {
+    "graph": "A0_1757",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 108
+  },
+  {
+    "graph": "A0_1758",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 44
+  },
+  {
+    "graph": "A0_1759",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 131
+  },
+  {
+    "graph": "A0_1760",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 47,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 46
+    },
+    "states": 907,
+    "memo_states": 1091
+  },
+  {
+    "graph": "A0_1761",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1762",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 24
+  },
+  {
+    "graph": "A0_1763",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1764",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1765",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1766",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 123
+  },
+  {
+    "graph": "A0_1767",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1768",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 31
+  },
+  {
+    "graph": "A0_1769",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1770",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1771",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 73
+  },
+  {
+    "graph": "A0_1772",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 127
+  },
+  {
+    "graph": "A0_1773",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1774",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1775",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1776",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1777",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1778",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 72
+  },
+  {
+    "graph": "A0_1779",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1780",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1781",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1782",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 145
+  },
+  {
+    "graph": "A0_1783",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1784",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1785",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 48
+  },
+  {
+    "graph": "A0_1786",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1787",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1788",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1789",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1790",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 210
+  },
+  {
+    "graph": "A0_1791",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1792",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1793",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 98
+  },
+  {
+    "graph": "A0_1794",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 85
+  },
+  {
+    "graph": "A0_1795",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 342
+  },
+  {
+    "graph": "A0_1796",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1797",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 83
+  },
+  {
+    "graph": "A0_1798",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1799",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 37
+  },
+  {
+    "graph": "A0_1800",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 35
+  },
+  {
+    "graph": "A0_1801",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 43
+  },
+  {
+    "graph": "A0_1802",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1803",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 160
+  },
+  {
+    "graph": "A0_1804",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1805",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1806",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 64
+  },
+  {
+    "graph": "A0_1807",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 45
+  },
+  {
+    "graph": "A0_1808",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 30
+  },
+  {
+    "graph": "A0_1809",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1810",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 32
+  },
+  {
+    "graph": "A0_1811",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 152
+  },
+  {
+    "graph": "A0_1812",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 114
+  },
+  {
+    "graph": "A0_1813",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 62
+  },
+  {
+    "graph": "A0_1814",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 68
+  },
+  {
+    "graph": "A0_1815",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1816",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1817",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 125
+  },
+  {
+    "graph": "A0_1818",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 70
+  },
+  {
+    "graph": "A0_1819",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1820",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 143,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 142
+    },
+    "states": 1805,
+    "memo_states": 2370
+  },
+  {
+    "graph": "A0_1821",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 39
+  },
+  {
+    "graph": "A0_1822",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 27
+  },
+  {
+    "graph": "A0_1823",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1824",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 52
+  },
+  {
+    "graph": "A0_1825",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 33
+  },
+  {
+    "graph": "A0_1826",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1827",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1828",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1829",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 97
+  },
+  {
+    "graph": "A0_1830",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 109
+  },
+  {
+    "graph": "A0_1831",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 43
+  },
+  {
+    "graph": "A0_1832",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1833",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 90
+  },
+  {
+    "graph": "A0_1834",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 122
+  },
+  {
+    "graph": "A0_1835",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1836",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 38
+  },
+  {
+    "graph": "A0_1837",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 200
+  },
+  {
+    "graph": "A0_1838",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1839",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 74
+  },
+  {
+    "graph": "A0_1840",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 69
+  },
+  {
+    "graph": "A0_1841",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 33,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 32
+    },
+    "states": 602,
+    "memo_states": 773
+  },
+  {
+    "graph": "A0_1842",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 96
+  },
+  {
+    "graph": "A0_1843",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 63
+  },
+  {
+    "graph": "A0_1844",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1845",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 81
+  },
+  {
+    "graph": "A0_1846",
+    "status": "AS_LOSER_FOUND",
+    "original_winning": false,
+    "AS_tested": 35,
+    "AS_bad": {
+      "mass": 11,
+      "source": 0,
+      "mask": 34
+    },
+    "states": 970,
+    "memo_states": 1178
+  },
+  {
+    "graph": "A0_1847",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1848",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 19
+  },
+  {
+    "graph": "A0_1849",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 53
+  },
+  {
+    "graph": "A0_1850",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1851",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 47
+  },
+  {
+    "graph": "A0_1852",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 67
+  },
+  {
+    "graph": "A0_1853",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1854",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 94
+  },
+  {
+    "graph": "A0_1855",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 79
+  },
+  {
+    "graph": "A0_1856",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 22
+  },
+  {
+    "graph": "A0_1857",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 93
+  },
+  {
+    "graph": "A0_1858",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 48
+  },
+  {
+    "graph": "A0_1859",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1860",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 214
+  },
+  {
+    "graph": "A0_1861",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 119
+  },
+  {
+    "graph": "A0_1862",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 89
+  },
+  {
+    "graph": "A0_1863",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 37
+  },
+  {
+    "graph": "A0_1864",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1865",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 23
+  },
+  {
+    "graph": "A0_1866",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 20
+  },
+  {
+    "graph": "A0_1867",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 132
+  },
+  {
+    "graph": "A0_1868",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1869",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 441
+  },
+  {
+    "graph": "A0_1870",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1871",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 55
+  },
+  {
+    "graph": "A0_1872",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 206
+  },
+  {
+    "graph": "A0_1873",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 58
+  },
+  {
+    "graph": "A0_1874",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 21
+  },
+  {
+    "graph": "A0_1875",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 76
+  },
+  {
+    "graph": "A0_1876",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 99
+  },
+  {
+    "graph": "A0_1877",
+    "status": "ORIGINAL_WIN",
+    "original_winning": true,
+    "AS_tested": 0,
+    "AS_bad": null,
+    "states": 10,
+    "memo_states": 193
+  }
+]

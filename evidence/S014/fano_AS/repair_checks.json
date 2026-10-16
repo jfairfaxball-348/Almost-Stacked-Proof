@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c065_produce_v2.py"
+    ],
+    "exit_code": 0,
+    "seconds": 5.828000000008615,
+    "peak_working_set_bytes": 84590592,
+    "resource_failure": null,
+    "stdout": "{\"status\": \"COMPLETE_POSITIVE_TABLE\", \"completed_masks\": 8192, \"nodes\": 344064, \"first_missing\": null, \"seconds\": 5.625, \"scope\": \"Positive witnesses only; missing witness does not prove loss\"}\r\n",
+    "stderr": "",
+    "code_sha256": "fe3a5dc87a922b025136a56124402d2ab867fee1075e223f6e821f0de8ce6298"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_c065_verify.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.514999999984866,
+    "peak_working_set_bytes": 33415168,
+    "resource_failure": null,
+    "stdout": "{\"graph\": \"FanoInc14\", \"n\": 14, \"group_size\": 336, \"all14_source_maps_verified\": true, \"nodes\": 344064, \"masks\": 8192, \"proper_partitions\": 788970, \"full_inequalities\": 66961563, \"every_attaining_node_and_lower_inequality_checked\": true, \"exact_binary_buffer_AS_oracle_certified\": true, \"exact_L_AS\": 29, \"scope\": \"Exact AS only, all sources/unbounded positive source count; no general threshold or universal ASH* conclusion\", \"seconds\": 3.375}\r\n",
+    "stderr": "",
+    "code_sha256": "dae3fde57d4bbe2a5dbef4ad2d08e87875276cfbbf52c04add5771a6a238f9b9"
+  }
+]

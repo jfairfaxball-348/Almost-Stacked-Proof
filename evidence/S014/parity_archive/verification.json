@@ -1,0 +1,283 @@
+{
+  "cases": 343,
+  "nonAS_critical_inputs": 1043,
+  "all_receiver_failures": 2,
+  "heavy_receiver_failures": 8,
+  "first_all_receiver_failures": [
+    {
+      "case": "A56",
+      "graph": "A6_0026",
+      "goal": "stack",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "threshold": 9,
+      "c": [
+        3,
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      "losing_sources": [],
+      "summary": "evidence/S005/A6_0026_stack.summary.json",
+      "certificate": "evidence/S005/A6_0026_stack.bin.xz"
+    },
+    {
+      "case": "A123",
+      "graph": "A6_0093",
+      "goal": "stack",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 9,
+      "c": [
+        3,
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      "losing_sources": [],
+      "summary": "evidence/S005/A6_0093_stack.summary.json",
+      "certificate": "evidence/S005/A6_0093_stack.bin.xz"
+    }
+  ],
+  "first_heavy_receiver_failures": [
+    {
+      "case": "A9",
+      "graph": "A5_0000",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 8,
+      "c": [
+        1,
+        3,
+        3,
+        0,
+        0
+      ],
+      "losing_sources": [
+        0
+      ],
+      "summary": "evidence/S005/A5_0000_stack.summary.json",
+      "certificate": "evidence/S005/A5_0000_stack.bin.xz"
+    },
+    {
+      "case": "A9",
+      "graph": "A5_0000",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 8,
+      "c": [
+        3,
+        0,
+        1,
+        0,
+        3
+      ],
+      "losing_sources": [
+        2
+      ],
+      "summary": "evidence/S005/A5_0000_stack.summary.json",
+      "certificate": "evidence/S005/A5_0000_stack.bin.xz"
+    },
+    {
+      "case": "A9",
+      "graph": "A5_0000",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 8,
+      "c": [
+        0,
+        3,
+        0,
+        1,
+        3
+      ],
+      "losing_sources": [
+        3
+      ],
+      "summary": "evidence/S005/A5_0000_stack.summary.json",
+      "certificate": "evidence/S005/A5_0000_stack.bin.xz"
+    },
+    {
+      "case": "A9",
+      "graph": "A5_0000",
+      "goal": "stack",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 8,
+      "c": [
+        3,
+        1,
+        0,
+        3,
+        0
+      ],
+      "losing_sources": [
+        1
+      ],
+      "summary": "evidence/S005/A5_0000_stack.summary.json",
+      "certificate": "evidence/S005/A5_0000_stack.bin.xz"
+    }
+  ],
+  "all_complete_generated_memberships_equal": true
+}

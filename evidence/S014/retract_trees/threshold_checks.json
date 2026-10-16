@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_retract_job.py",
+      "produce"
+    ],
+    "exit_code": 0,
+    "seconds": 1.1090000000258442,
+    "peak_working_set_bytes": 43757568,
+    "resource_failure": null,
+    "stdout": "crown5 produce complete\r\n",
+    "stderr": "",
+    "code_sha256": "9b2370355cd544a531da0b202784812c4d20c8f1c9415f1f80bdaf777bc7e08c"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_retract_job.py",
+      "verify"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8129999999946449,
+    "peak_working_set_bytes": 20967424,
+    "resource_failure": null,
+    "stdout": "crown5 verify complete\r\n",
+    "stderr": "",
+    "code_sha256": "9b2370355cd544a531da0b202784812c4d20c8f1c9415f1f80bdaf777bc7e08c"
+  }
+]

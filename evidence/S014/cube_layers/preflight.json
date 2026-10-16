@@ -1,0 +1,18 @@
+{
+  "files": {
+    "evidence/S014/cube_layers/inputs.json": "945346a77b052135483d6f22806befdfcf573051c2778c8b429e9dbf74834eae",
+    "sessions/S014/PLAN_AMENDMENT_63.md": "195e6ea2e2acafdc22eb20c431ca31368cbaf6af6ac580dd7440694cf7b1404c",
+    "sessions/S014/PLAN_AMENDMENT_63.sha256": "78e4e6a6fd069ac798d3fdbdd2fbfe55464845201129c3ab9804db77aaa3cbf9",
+    "research/S014_COMPLETE_ORBIT_LAYERS.md": "30e9155b4bb2a87464e66ca8ce9175f8b49d6c0f60ca42abb57412a124f5d1de",
+    "evidence/S014/cube_dag/verification_v2.json": "d61fc04f2d8318a4260e418550fa45ab9481735dd871d892e1131fcc56fe63cb",
+    "evidence/S014/cube_lower/verification.json": "73b17b385a81de4014794bf63b343c6960fb476a5d44178632b53145d9aac0d2",
+    "evidence/S014/cube_orbits/verification.json": "221ec7cc5add7bcb909d3517c0286f130064a48a35c848d9e15cd6698196b332",
+    "tools/s014_cube_layer.cs": "b0474927a7486e74a4af68fa870b896570727cb03f0239631effa40757727363",
+    "tools/s014_cube_layer_build.ps1": "281a44db3260e1436a192a90e3975f338f085e50963bc69667e093a61ba8b0a5",
+    "tools/s014_cube_layer_job.ps1": "b5b5d4ebe73b06d8dd6067a8d364e39b7642eb4a55661926f77ff3bd41292ac7",
+    "tools/s009_checks.py": "d554a9cd9dcf2497c7f74a66dde6992ac19afe18d26e12bddf19e3726be83fba",
+    "tools/s014_cube_layer_prepare.py": "1ad4c0a5a347956eb30fcd2ddedf63e22cefa74b98793d9a02bcdc3996fa6b4d",
+    "tools/s014_cube_layer_run.py": "6d6dd28f07a922569d6dc168275d3e8bf18e8c4d5608d92c6496fd6838df8a85",
+    "tools/s014_cube_layer_verify.py": "60062824d438df1e22129c9cc5412c2313e90ea36fb6bc8c36f150160bd0a0f3"
+  }
+}

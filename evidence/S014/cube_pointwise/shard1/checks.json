@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_pointwise_produce.py",
+      "1"
+    ],
+    "exit_code": 0,
+    "seconds": 43.76600000000326,
+    "peak_working_set_bytes": 225148928,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 1, \"status\": \"AGGREGATE_STATE_CAP_UNKNOWN\", \"selected_candidates\": 4891, \"completed\": 1301, \"winning\": 1300, \"unknown\": 1, \"cumulative_states\": 8000000, \"retained_partial_states\": 15757, \"potential\": null, \"seconds\": 43.28100000001723, \"scope\": \"Pointwise literal winners only; caps/suffix UNKNOWN, no full threshold\"}\r\n",
+    "stderr": "",
+    "code_sha256": "95c3aac8d0a2b0b059c49956099bd80b90f875a68c6e33ed816549ac8fd69f14"
+  },
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_pointwise_verify.py",
+      "1"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20300000000861473,
+    "peak_working_set_bytes": 22904832,
+    "resource_failure": null,
+    "stdout": "{\"shard\": 1, \"status\": \"AGGREGATE_STATE_CAP_UNKNOWN\", \"candidate_prefix_checked\": 1301, \"literal_full_input_winners\": 1300, \"literal_moves\": 37819, \"unknown\": 1, \"potential\": [], \"all_positive_histories_verified\": true, \"partial_states_retained_without_mathematical_promotion\": 15757, \"scope\": \"Only pointwise winners, unknown suffix explicit; negative potential needs separate full DAG replay, no full threshold\"}\r\n",
+    "stderr": "",
+    "code_sha256": "29288cc11b96d9a0c30d2d6c88ea659877067fcb3f2f25eeef6fb08eb357215e"
+  }
+]

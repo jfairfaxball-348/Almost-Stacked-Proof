@@ -1,0 +1,17 @@
+{
+  "both_controls_pass": true,
+  "controls": [
+    {
+      "dimension": 1,
+      "status": "EXACT_THRESHOLD",
+      "threshold": 3,
+      "last_verified_mass": 3
+    },
+    {
+      "dimension": 3,
+      "status": "EXACT_THRESHOLD",
+      "threshold": 15,
+      "last_verified_mass": 15
+    }
+  ]
+}

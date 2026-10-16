@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "tools/s014_cube_lower.py"
+    ],
+    "exit_code": 0,
+    "seconds": 25.5,
+    "peak_working_set_bytes": 83472384,
+    "resource_failure": null,
+    "stdout": "{\"exact_binary_buffer_AS_oracle_certified\": true, \"source\": 0, \"masks\": 32768, \"nodes\": 1572864, \"proper_unordered_partitions\": 7141686, \"full_inequalities\": 803538796, \"all_signed_residues_verified\": true, \"all_global_minima_equal\": true, \"exact_L_AS\": 30, \"scope\": \"Exact AS only on fixed Q4, all XOR sources; no general threshold or universal ASH* conclusion\", \"seconds\": 25.328000000008615}\r\n",
+    "stderr": "",
+    "code_sha256": "8b3ff9dea083a7310d09f7968dae5b9a42f2e856c3c8ba19d5f7f607bfbe9b2b"
+  }
+]

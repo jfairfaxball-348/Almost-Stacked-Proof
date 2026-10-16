@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_REGISTERED_CASES",
+  "candidates_checked": 9783,
+  "winning_inputs": 9783,
+  "unknown": 0,
+  "verified_states": 872261,
+  "literal_AS_anchors": 757,
+  "literal_moves": 7309,
+  "exact_AS_negative_anchors": 61941,
+  "ordinary_negative_states": 704843,
+  "triple_macros": 50270,
+  "verified_legal_dependencies": 7653737,
+  "potential": [],
+  "all_completed_answers_certified": true,
+  "scope": "Frozen general inputs only; potential requires fresh cold audit, winning samples prove no full threshold",
+  "seconds": 58.84299999999348
+}

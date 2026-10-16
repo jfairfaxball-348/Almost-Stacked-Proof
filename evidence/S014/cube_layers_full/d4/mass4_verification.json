@@ -1,0 +1,15 @@
+{
+  "group_size": 384,
+  "method": "REFINED_PREVIOUS_COMPLETE_LAYER",
+  "dimension": 4,
+  "n": 16,
+  "mass": 4,
+  "status": "COMPLETE_LAYER_VERIFIED",
+  "all_full_orbit_losing_sets_equal": true,
+  "loser_orbits": 36,
+  "checker_candidates": 0,
+  "canonical_first_parent_instances": 0,
+  "exact_AS_oracle_calls": 0,
+  "seconds": 0.046999999991385266,
+  "scope": "Full XOR-orbit layer only if equality flag true; no universal ASH* inference"
+}
