@@ -4301,6 +4301,16 @@
       "older_cube_caps": "Original57/60/61/63 attempt scopes remain capped; later complete Q4 threshold is separately certified",
       "Q5": "AS lower66/threshold lower67 only; exact threshold UNKNOWN",
       "buffers": "Six CLEAR threshold cutoffs remain UNKNOWN"
+    },
+    "integration_exception": {
+      "status": "OWNER_AUTHORIZED_ONE_ADMINISTRATIVE_CI_REPAIR",
+      "request": "sessions/S014/OWNER_CI_REPAIR.txt",
+      "sha256": "88ccdb0f42dadeebccb3378338aaaa80e0f46a7dc4e454e9c80acab21cedcbe6",
+      "original_research_commit": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+      "pull_request": 17,
+      "allowed_authored_commits": 2,
+      "force_push": false,
+      "scientific_changes": false
     }
   }
 }

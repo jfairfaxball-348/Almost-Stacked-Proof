@@ -38,6 +38,16 @@ def load(rel):
     return json.loads((ROOT / rel).read_text(encoding="utf-8"))
 
 def versioned_tool_source(path,digest):
+    # Frozen host paths are identities, not paths on the Linux checkout.
+    path=path.replace('\\','/')
+    if path.startswith('C:/Almost-Stacked-Proof/'):
+        path=path[len('C:/Almost-Stacked-Proof/'):]
+        assert '..' not in Path(path).parts
+    if path=='C:/Users/johnf/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe':
+        assert digest=='362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139'
+        assert (ROOT/'evidence/S014/external_tool_archive/LICENSE.txt').is_file()
+        return ROOT/'evidence/S014/external_tool_archive/pwsh.exe'
+    assert not re.match(r'^[A-Za-z]:',path), ('Unregistered external preflight source',path)
     # Exact historical filename collision; never a generic preflight bypass.
     if path=='tools/s014_split_verify.py' and digest=='de2b450e5aafe604b591df5c14eac04c3687bc46442d265ecc8c17bad4908f29':
         aliases=load('evidence/S014/tool_version_aliases.json')['aliases']

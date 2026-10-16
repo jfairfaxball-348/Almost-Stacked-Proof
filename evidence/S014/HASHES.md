@@ -28,6 +28,8 @@ Scope: every S014 session/evidence file recursively, all tools/s014* files, all 
 `bb2d6f6260c8690a62dc8393805a6f15aa8d680556d27eb732ddd6cc56c427eb` `evidence/S014/admin_recovery/closeout_validation_attribute_version_failure.json`
 `6b85360e8c677c92d2d18896bfd4af4cdee43d8a58451d5eec14e7fb1c6c101e` `evidence/S014/admin_recovery/closeout_validation_regex_shadow_failure.json`
 `f25d17d179b0c0ecd7a1554f96cf8b76669ca0a0dd3e420f42e4a8881fd21342` `evidence/S014/admin_recovery/closeout_validation_timeout.json`
+`5dce9d8e73fab99f66721b78be52391bdf761e0b80f2e2c83c2c3981230ae52e` `evidence/S014/admin_recovery/hosted_pr17_absolute_path_failure.log`
+`d2e3551e54818370ad121dabe756ec5a6494db7e66112ba24cbc266004a9e370` `evidence/S014/admin_recovery/hosted_pr17_failed_run.json`
 `a37013750a043b276986b7a67cc0f4d514d456ac5f08f05a7d10b17fe31edad5` `evidence/S014/admin_recovery/scope81_validation_memory_failure.json`
 `23d9e0cffdb93781f1d61d3247bfcbc48f7aa11c187860280665fdefc3a6b95c` `evidence/S014/admin_recovery/snapshot81_source_23d9e0cffdb93781f1d61d3247bfcbc48f7aa11c187860280665fdefc3a6b95c.py.txt`
 `41eed65676739be7b51d6a73f31683ee71d67260b5b4db1e873090f3ef37fa1f` `evidence/S014/aspaths.json.xz`
@@ -8501,6 +8503,8 @@ Scope: every S014 session/evidence file recursively, all tools/s014* files, all 
 `601751f1d43d831c54fda2e5e1ff344667451bbdbd059bec763c53128e385d53` `evidence/S014/even_extension_v2/preflight.json`
 `5b7d0a920bd0e0d390c88a1872dc24bf4be9198ce5f7ce1080c62ea14a64ad12` `evidence/S014/even_extension_v2/results.json`
 `543dc8b224dc2b3ffbe28dfe3a15b4b9916166bd813b5803f2f964eb9e3d8959` `evidence/S014/even_extension_v2/verification.json`
+`296604f12546653ed97726dc5fc2f3945d4cca1f07abd2589f531647177b06fc` `evidence/S014/external_tool_archive/LICENSE.txt`
+`362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139` `evidence/S014/external_tool_archive/pwsh.exe`
 `a4d32076a43d0c09c345b61be7cd160f418b76f21328de189126c6c1b96e4f03` `evidence/S014/fair_cegis/N10_M12/AS_loss_29665.bin.xz`
 `f72a517363f631a1e98d6bab4f3ed385b2ba7634e6585342ab78543e19a5436c` `evidence/S014/fair_cegis/N10_M12/AS_loss_30014.bin.xz`
 `fba62a2ead2bed3942708b3b1e12dacc4a3c1da3d31848645c2f963afbfa4a3e` `evidence/S014/fair_cegis/N10_M12/AS_loss_30510.bin.xz`
@@ -10522,6 +10526,7 @@ Scope: every S014 session/evidence file recursively, all tools/s014* files, all 
 `54300fdb1b5f9689e671f30a35a2d14959713f8670997d0cf6142bc794ee1502` `evidence/S014/frozen_validate_governance_54300fdb1b5f9689e671f30a35a2d14959713f8670997d0cf6142bc794ee1502.py.txt`
 `6814b9918ae76442a142108712c1f54ee00aebb92c47b61f62f0e280d1a648f4` `evidence/S014/frozen_validate_governance_6814b9918ae76442a142108712c1f54ee00aebb92c47b61f62f0e280d1a648f4.py.txt`
 `6a75c803722ee81818e5eb3abd64b1c5cc5ad018a270406afd40c1db697482fc` `evidence/S014/frozen_validate_governance_6a75c803722ee81818e5eb3abd64b1c5cc5ad018a270406afd40c1db697482fc.py.txt`
+`7c7359d419059cdf3bbe2af6a0cbfb1f64ea665914f9acacdf70bf03e30cd568` `evidence/S014/frozen_validate_governance_7c7359d419059cdf3bbe2af6a0cbfb1f64ea665914f9acacdf70bf03e30cd568.py.txt`
 `ba568af505a96e0c71e5eb2fb15c6065054fa4dcf9f5441e4ac8dbb1e83632f5` `evidence/S014/frozen_validate_governance_ba568af505a96e0c71e5eb2fb15c6065054fa4dcf9f5441e4ac8dbb1e83632f5.py.txt`
 `bfee4f4cf1093303282f85280a0187ecbf5cd758bac1cef5c1cf9a1653f9e7f6` `evidence/S014/frozen_validate_governance_bfee4f4cf1093303282f85280a0187ecbf5cd758bac1cef5c1cf9a1653f9e7f6.py.txt`
 `c6a1979ebab47f6721c30285791054e200e5d82c3e6a5b989974863a4784e52e` `evidence/S014/frozen_validate_governance_c6a1979ebab47f6721c30285791054e200e5d82c3e6a5b989974863a4784e52e.py.txt`
@@ -39286,6 +39291,7 @@ Scope: every S014 session/evidence file recursively, all tools/s014* files, all 
 `991ba87e8db3ac21e767c34b5e0db2ea088395de2935f37d56030b9b6f0deced` `evidence/S014/parity_archive/repair_preflight.json`
 `906f59b460d5afeea75e870d3b9f93ccf941fa73504d4d254306d6a9880ab740` `evidence/S014/parity_archive/results.json.xz`
 `e2c412eaeba839d6753ac33cb08d26bb2bb3ddb3d4e164a436391af4cca4000e` `evidence/S014/parity_archive/verification.json`
+`52e5a6aff73fb41b76d587950a91ea94d3cb679221a64cc595c891bced3c96ea` `evidence/S014/portability_validation.json`
 `63f79d1a6433b0c354e364cc26399d5b320d0d66b9cb85026cb15ea6c480b923` `evidence/S014/progress_checks.json`
 `5aaa13d7066447573e04093a5e25add47059943003ff62a639382cec9de7a46d` `evidence/S014/ray_inputs.json`
 `a3b29d186f5479ee5ef8da835353a4f49c540f69f6a9628156b6cc281a8eeb5b` `evidence/S014/ray_preflight.json`
@@ -50307,14 +50313,15 @@ Scope: every S014 session/evidence file recursively, all tools/s014* files, all 
 `aafd031e4ae88efddcbcb84d4806fee9ebaaab48396ddb3960b15c665a6d8020` `research/S014_TWO_PAIR_FUEL_SPANNING_WALKS.md`
 `078a4fb2c7a1cd6faf78f34e4603a78654fd073ca4f81b0f9f61d8500b9caad2` `research/S014_UNIQUE_MARKERS_AND_LEAF_ESCAPE.md`
 `6374c7e189f84f4280a8631a48feac1a27413ffb43a076015fd7bbbb0329cfdb` `research/S014_UNIVERSAL_RESEARCH.md`
-`42cc2be83914ae13d47f4be825c01f05a9da4dba56618c3e7ad47a2cdf2e7495` `sessions/S014/ADMIN_CLOSEOUT_VALIDATION.md`
+`63c0743f2a7daca88852f09a7b5baf37bd8174a39235d43b0d13c832e9c9d7cd` `sessions/S014/ADMIN_CLOSEOUT_VALIDATION.md`
 `ab218552d1821ab59e3db412b5075aaa1f154cefc751ee314ff0e3901848e3db` `sessions/S014/AUDIT.md`
 `53c979061ba5b2341457a6cdcaf5075aaabb091dd13a23c39af996d2613aa0ba` `sessions/S014/AUTHORISED_PROMPT.md`
 `aef889ed0317a212145a057059e1cb96e3db212dc8f2b4450f3481aa030c9b98` `sessions/S014/CHECKPOINT.md`
-`e3c8f000195dc19a28affc0e459c4ec6800fa4285dce3bc9f9d8434ab3431325` `sessions/S014/CLOSEOUT.md`
-`fe56fa52c270cc16ab7e1e70d907850221b4a09d8bf2b7aa5288eb05218269fe` `sessions/S014/FUTURE_S015.md`
+`f7315afe12c52c8d1d81f2d551ff49e1ea14c8427c5b48637072fa0e697cf359` `sessions/S014/CLOSEOUT.md`
+`6bb328158ac429f974883475ac8751f125c256220273a1fd3112a211db36f821` `sessions/S014/FUTURE_S015.md`
 `6bb457abf299bb9f83b6ece50c2d1bf3a1240c7449af2c090d0fe7f13748796a` `sessions/S014/INPUT.md`
 `91bda2f3393692fce3fd18aeb002d74a63beb0dee5af0ffb7cbceb44f79b249a` `sessions/S014/MILESTONES.md`
+`88ccdb0f42dadeebccb3378338aaaa80e0f46a7dc4e454e9c80acab21cedcbe6` `sessions/S014/OWNER_CI_REPAIR.txt`
 `e54e32cd6e0b39a42f55b36ea9b01122b999eeeb78774d32403e84874b691d4f` `sessions/S014/OWNER_CLOSEOUT.txt`
 `a4a9470f593e30c3040e3870b8cac9c0e70120ccc07a2d382b4bf78dbcffcbb0` `sessions/S014/OWNER_CONTINUATION_2.txt`
 `8dd8256054c0f72609944fc8ca5ca1fe402f9ce1f69e227ec5245ae0f02edb48` `sessions/S014/OWNER_CONTINUATION_3.txt`

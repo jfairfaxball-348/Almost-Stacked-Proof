@@ -1,0 +1,715 @@
+{
+  "run": {
+    "id": 38920341474,
+    "name": "Governance integrity",
+    "node_id": "WFR_kwLOVF-kW88AAAAJD9VH4g",
+    "head_branch": "session/S014-residual-universal-comparison",
+    "head_sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+    "path": ".github/workflows/governance.yml",
+    "display_title": "Close S014: structural STACK results with universal bridge OPEN",
+    "run_number": 33,
+    "event": "pull_request",
+    "status": "completed",
+    "conclusion": "failure",
+    "workflow_id": 382128184,
+    "check_suite_id": 105477208571,
+    "check_suite_node_id": "CS_kwDOVF-kW88AAAAYju55-w",
+    "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+    "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+    "pull_requests": [
+      {
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/pulls/17",
+        "id": 4890207106,
+        "number": 17,
+        "head": {
+          "ref": "session/S014-residual-universal-comparison",
+          "sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+          "repo": {
+            "id": 1415554139,
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof",
+            "name": "Almost-Stacked-Proof"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "8ea5db207a91ca917c3b94bc98b54ac65406e7a5",
+          "repo": {
+            "id": 1415554139,
+            "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof",
+            "name": "Almost-Stacked-Proof"
+          }
+        }
+      }
+    ],
+    "created_at": "2026-10-16T15:00:10Z",
+    "updated_at": "2026-10-16T15:03:54Z",
+    "actor": {
+      "login": "jfairfaxball-348",
+      "id": 294537967,
+      "node_id": "U_kgDOEY5K7w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jfairfaxball-348",
+      "html_url": "https://github.com/jfairfaxball-348",
+      "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+      "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+      "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+      "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+      "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "run_attempt": 1,
+    "referenced_workflows": [],
+    "run_started_at": "2026-10-16T15:00:10Z",
+    "triggering_actor": {
+      "login": "jfairfaxball-348",
+      "id": 294537967,
+      "node_id": "U_kgDOEY5K7w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jfairfaxball-348",
+      "html_url": "https://github.com/jfairfaxball-348",
+      "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+      "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+      "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+      "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+      "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "jobs_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/jobs",
+    "logs_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/logs",
+    "check_suite_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-suites/105477208571",
+    "artifacts_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/artifacts",
+    "cancel_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/cancel",
+    "rerun_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/rerun",
+    "previous_attempt_url": null,
+    "workflow_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/workflows/382128184",
+    "head_commit": {
+      "id": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+      "tree_id": "516ebc0fd0f723ab381f824eed60968ffdf703c2",
+      "message": "S014: close structural STACK research with universal bridge open",
+      "timestamp": "2026-10-16T14:58:28Z",
+      "author": {
+        "name": "John Fairfax-Ball",
+        "email": "jfairfaxball@gmail.com"
+      },
+      "committer": {
+        "name": "John Fairfax-Ball",
+        "email": "jfairfaxball@gmail.com"
+      }
+    },
+    "repository": {
+      "id": 1415554139,
+      "node_id": "R_kgDOVF-kWw",
+      "name": "Almost-Stacked-Proof",
+      "full_name": "jfairfaxball-348/Almost-Stacked-Proof",
+      "private": false,
+      "owner": {
+        "login": "jfairfaxball-348",
+        "id": 294537967,
+        "node_id": "U_kgDOEY5K7w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jfairfaxball-348",
+        "html_url": "https://github.com/jfairfaxball-348",
+        "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+        "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+        "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+        "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+        "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof",
+      "forks_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/forks",
+      "keys_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/teams",
+      "hooks_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/hooks",
+      "issue_events_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/events",
+      "assignees_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/tags",
+      "blobs_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/languages",
+      "stargazers_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/stargazers",
+      "contributors_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/contributors",
+      "subscribers_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/subscribers",
+      "subscription_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/subscription",
+      "commits_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/merges",
+      "archive_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/downloads",
+      "issues_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/labels{/name}",
+      "releases_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/deployments"
+    },
+    "head_repository": {
+      "id": 1415554139,
+      "node_id": "R_kgDOVF-kWw",
+      "name": "Almost-Stacked-Proof",
+      "full_name": "jfairfaxball-348/Almost-Stacked-Proof",
+      "private": false,
+      "owner": {
+        "login": "jfairfaxball-348",
+        "id": 294537967,
+        "node_id": "U_kgDOEY5K7w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jfairfaxball-348",
+        "html_url": "https://github.com/jfairfaxball-348",
+        "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+        "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+        "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+        "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+        "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof",
+      "forks_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/forks",
+      "keys_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/teams",
+      "hooks_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/hooks",
+      "issue_events_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/events",
+      "assignees_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/tags",
+      "blobs_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/languages",
+      "stargazers_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/stargazers",
+      "contributors_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/contributors",
+      "subscribers_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/subscribers",
+      "subscription_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/subscription",
+      "commits_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/merges",
+      "archive_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/downloads",
+      "issues_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/labels{/name}",
+      "releases_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/deployments"
+    }
+  },
+  "jobs": {
+    "total_count": 5,
+    "jobs": [
+      {
+        "id": 117038354858,
+        "run_id": 38920341474,
+        "workflow_name": "Governance integrity",
+        "head_branch": "session/S014-residual-universal-comparison",
+        "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVF-kW88AAAAbQAeRqg",
+        "head_sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/117038354858",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/job/117038354858",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-16T15:00:10Z",
+        "started_at": "2026-10-16T15:00:12Z",
+        "completed_at": "2026-10-16T15:01:57Z",
+        "name": "s005-replay (0)",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-16T15:00:13Z",
+            "completed_at": "2026-10-16T15:00:13Z"
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-16T15:00:13Z",
+            "completed_at": "2026-10-16T15:00:23Z"
+          },
+          {
+            "name": "Independent S005 complete losing-layer replay and winning-base check",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-10-16T15:00:23Z",
+            "completed_at": "2026-10-16T15:01:55Z"
+          },
+          {
+            "name": "S005 pure-pile theorem challenges and independent winning traces",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-10-16T15:01:55Z",
+            "completed_at": "2026-10-16T15:01:56Z"
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8,
+            "started_at": "2026-10-16T15:01:56Z",
+            "completed_at": "2026-10-16T15:01:56Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9,
+            "started_at": "2026-10-16T15:01:56Z",
+            "completed_at": "2026-10-16T15:01:56Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/117038354858",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000010828,
+        "runner_name": "GitHub Actions 1000010828",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      },
+      {
+        "id": 117038355178,
+        "run_id": 38920341474,
+        "workflow_name": "Governance integrity",
+        "head_branch": "session/S014-residual-universal-comparison",
+        "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVF-kW88AAAAbQAeS6g",
+        "head_sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/117038355178",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/job/117038355178",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-16T15:00:10Z",
+        "started_at": "2026-10-16T15:00:12Z",
+        "completed_at": "2026-10-16T15:00:38Z",
+        "name": "s005-replay (3)",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-16T15:00:13Z",
+            "completed_at": "2026-10-16T15:00:14Z"
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-16T15:00:14Z",
+            "completed_at": "2026-10-16T15:00:23Z"
+          },
+          {
+            "name": "Independent S005 complete losing-layer replay and winning-base check",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-10-16T15:00:23Z",
+            "completed_at": "2026-10-16T15:00:36Z"
+          },
+          {
+            "name": "S005 pure-pile theorem challenges and independent winning traces",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-10-16T15:00:36Z",
+            "completed_at": "2026-10-16T15:00:36Z"
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8,
+            "started_at": "2026-10-16T15:00:36Z",
+            "completed_at": "2026-10-16T15:00:36Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9,
+            "started_at": "2026-10-16T15:00:36Z",
+            "completed_at": "2026-10-16T15:00:36Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/117038355178",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000010826,
+        "runner_name": "GitHub Actions 1000010826",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      },
+      {
+        "id": 117038355276,
+        "run_id": 38920341474,
+        "workflow_name": "Governance integrity",
+        "head_branch": "session/S014-residual-universal-comparison",
+        "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVF-kW88AAAAbQAeTTA",
+        "head_sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/117038355276",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/job/117038355276",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-16T15:00:10Z",
+        "started_at": "2026-10-16T15:00:12Z",
+        "completed_at": "2026-10-16T15:02:31Z",
+        "name": "s005-replay (2)",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-16T15:00:13Z",
+            "completed_at": "2026-10-16T15:00:14Z"
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-16T15:00:14Z",
+            "completed_at": "2026-10-16T15:00:23Z"
+          },
+          {
+            "name": "Independent S005 complete losing-layer replay and winning-base check",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-10-16T15:00:23Z",
+            "completed_at": "2026-10-16T15:02:29Z"
+          },
+          {
+            "name": "S005 pure-pile theorem challenges and independent winning traces",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-10-16T15:02:29Z",
+            "completed_at": "2026-10-16T15:02:29Z"
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8,
+            "started_at": "2026-10-16T15:02:29Z",
+            "completed_at": "2026-10-16T15:02:29Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9,
+            "started_at": "2026-10-16T15:02:29Z",
+            "completed_at": "2026-10-16T15:02:29Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/117038355276",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000010827,
+        "runner_name": "GitHub Actions 1000010827",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      },
+      {
+        "id": 117038355334,
+        "run_id": 38920341474,
+        "workflow_name": "Governance integrity",
+        "head_branch": "session/S014-residual-universal-comparison",
+        "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVF-kW88AAAAbQAeThg",
+        "head_sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/117038355334",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/job/117038355334",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-16T15:00:10Z",
+        "started_at": "2026-10-16T15:00:13Z",
+        "completed_at": "2026-10-16T15:03:52Z",
+        "name": "s005-replay (1)",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-16T15:00:14Z",
+            "completed_at": "2026-10-16T15:00:14Z"
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-16T15:00:14Z",
+            "completed_at": "2026-10-16T15:00:30Z"
+          },
+          {
+            "name": "Independent S005 complete losing-layer replay and winning-base check",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-10-16T15:00:30Z",
+            "completed_at": "2026-10-16T15:03:49Z"
+          },
+          {
+            "name": "S005 pure-pile theorem challenges and independent winning traces",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-10-16T15:03:49Z",
+            "completed_at": "2026-10-16T15:03:49Z"
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8,
+            "started_at": "2026-10-16T15:03:49Z",
+            "completed_at": "2026-10-16T15:03:50Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9,
+            "started_at": "2026-10-16T15:03:50Z",
+            "completed_at": "2026-10-16T15:03:50Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/117038355334",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000010829,
+        "runner_name": "GitHub Actions 1000010829",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      },
+      {
+        "id": 117038355521,
+        "run_id": 38920341474,
+        "workflow_name": "Governance integrity",
+        "head_branch": "session/S014-residual-universal-comparison",
+        "run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVF-kW88AAAAbQAeUQQ",
+        "head_sha": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/actions/jobs/117038355521",
+        "html_url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/38920341474/job/117038355521",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-10-16T15:00:10Z",
+        "started_at": "2026-10-16T15:00:12Z",
+        "completed_at": "2026-10-16T15:00:47Z",
+        "name": "validate",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-16T15:00:13Z",
+            "completed_at": "2026-10-16T15:00:13Z"
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-16T15:00:13Z",
+            "completed_at": "2026-10-16T15:00:23Z"
+          },
+          {
+            "name": "Validate source/claim mirrors and phase statuses",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 3,
+            "started_at": "2026-10-16T15:00:23Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "Re-check S003 printed-ASH counterexample certificates (independent replay/closure checker)",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 4,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "Cold S004 printed audit, structural tests and AS independent-set witnesses",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 5,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "Independent complete S004 frontier replay and full winning-base comparison",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 6,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S006 exact rooted grammar, forests and complete bounded dual traversals",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 7,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S007 independent full triangle-tail layers and legal constructive traces",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 8,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S008 independent ancestry, universal symbolic inequalities and complete branch traces",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S009 exact excursions, independent closures and protected triangle credit",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 10,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S010 independent exact counts, critical root compatibility and full marked reflection",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 11,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S011 exact terminal transport, critical root types and CLEAR restrictions",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 12,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S012 reciprocal input languages, original-root escape and actual donor exceptions",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 13,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "S013 exact neighborhood exchange, global extrema and auxiliary route failures",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 14,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 28,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 29,
+            "started_at": "2026-10-16T15:00:46Z",
+            "completed_at": "2026-10-16T15:00:46Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Almost-Stacked-Proof/check-runs/117038355521",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000010830,
+        "runner_name": "GitHub Actions 1000010830",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      }
+    ]
+  }
+}

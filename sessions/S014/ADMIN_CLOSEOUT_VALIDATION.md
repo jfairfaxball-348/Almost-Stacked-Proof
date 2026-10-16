@@ -34,3 +34,16 @@ variable and retain all comparisons. Also resolve backslashes in the96 archived
 relative Windows formula arguments when hashing on Linux CI, without rewriting
 any log or relaxing expected digests. These administrative issues add no
 mathematical failure, proof or counterexample.
+
+Hosted PR17/run38920341474 found a further portability issue: some frozen
+preflights use the original absolute C:/Almost-Stacked-Proof source prefix.
+Resolve that exact prefix to the current checkout before checking the SAME expected
+digest. Three compiled-layer preflights also pin the original host's pwsh.exe;
+archive the identical301368byte executable at SHA256
+362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139
+with its included MIT license, and hash that exact archive on every platform.
+Unregistered external prefixes remain an error. The original preflights are
+unchanged. The actual failed hosted job log and initial validator source are
+preserved. No mathematical claim, source threshold, original run or phase changes.
+
+Owner-approved S014 integration exception,2026-10-16: after research commit44a8972616efddb3223e5d18d1dd101d731d56f7 and PR17, hosted governance found frozen absolute host paths. Owner explicitly answered `Allow one CI repair commit and finish closeout` (OWNER_CI_REPAIR.txt). This supersedes ONLY the one-commit integration count: one original research commit plus ONE administrative portability repair on the SAME branch/PR, ordinary non-force two-parent merge, no force push. It does not authorize another session, research campaign, phase, Lean, contact or publication. Frozen preflights and all expected digests remain unchanged; exact host-source prefixes and the MIT-licensed byte-identical preflight executable are resolved portably. Original failed hosted run is preserved; all four independent replay jobs passed. Full local repaired validation and final manifest recheck PASS before the repair is committed; actual repaired hosted/merge/main outcomes are recorded after creation in PR metadata.

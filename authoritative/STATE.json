@@ -273,7 +273,7 @@
     "prior_art_next_priority": "S009 deep primary-source originality/dependency investigation, then sustained universal ASH* research; no publication programme",
     "foundational_prior_art_assessment": "S009_SCOPED_COMPARISON_SEE_PRIMARY_REPORT_NO_PHASE2_PROMOTION"
   },
-  "owner_addendum": "Later explicit owner closeout request in sessions/S014/OWNER_CLOSEOUT.txt supersedes earlier keep-going direction solely for S014 closeout. No universal resolution or stage promotion.",
+  "owner_addendum": "Later explicit owner closeout request in sessions/S014/OWNER_CLOSEOUT.txt supersedes earlier keep-going direction solely for S014 closeout. No universal resolution or stage promotion. Owner separately authorized ONE administrative CI repair commit on the same branch/PR after hosted path-portability failure; scope unchanged.",
   "s009": {
     "prior_art": "research/S009_PRIOR_ART_AND_DEPENDENCY_AUDIT.md",
     "research": "research/S009_UNIVERSAL_RESEARCH.md",
@@ -420,7 +420,7 @@
     "session": "S015",
     "status": "FUTURE_UNEXECUTED",
     "path": "sessions/S014/FUTURE_S015.md",
-    "sha256": "fe56fa52c270cc16ab7e1e70d907850221b4a09d8bf2b7aa5288eb05218269fe"
+    "sha256": "6bb328158ac429f974883475ac8751f125c256220273a1fd3112a211db36f821"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -4269,6 +4269,16 @@
       "older_cube_caps": "Original57/60/61/63 attempt scopes remain capped; later complete Q4 threshold is separately certified",
       "Q5": "AS lower66/threshold lower67 only; exact threshold UNKNOWN",
       "buffers": "Six CLEAR threshold cutoffs remain UNKNOWN"
+    },
+    "integration_exception": {
+      "status": "OWNER_AUTHORIZED_ONE_ADMINISTRATIVE_CI_REPAIR",
+      "request": "sessions/S014/OWNER_CI_REPAIR.txt",
+      "sha256": "88ccdb0f42dadeebccb3378338aaaa80e0f46a7dc4e454e9c80acab21cedcbe6",
+      "original_research_commit": "44a8972616efddb3223e5d18d1dd101d731d56f7",
+      "pull_request": 17,
+      "allowed_authored_commits": 2,
+      "force_push": false,
+      "scientific_changes": false
     }
   }
 }

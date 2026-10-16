@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "validation/validate_governance.py"
+  ],
+  "exit_code": 0,
+  "seconds": 32.516000000000076,
+  "peak_working_set_bytes": 866271232,
+  "resource_failure": null,
+  "stdout": "Governance structure and mirrors: PASS (administrative only; no ASH or Lean verification).\r\nS003 evidence hashes: 20 files match.\r\nAuthor correspondence provenance and current future handoff: PASS (administrative only).\r\nS004 scope, complete certificate metadata and 65 hashes: PASS (no universal or Lean certification).\r\nS005 metadata, source scopes, 341 certificates and 722 hashes: PASS (universal ASH* OPEN).\r\nS006 mirrors, scope and 59 historical hashes: PASS (cold audit S007; universal ASH* OPEN).\r\nS007 scope and 72 historical hashes: PASS (cold audit S008; universal ASH* OPEN).\r\nS008 scopes and 70 immutable hashes: PASS (cold S009; universal ASH* OPEN).\r\nS009 primary/scopes/mirrors and 64 immutable hashes: PASS (universal OPEN; historical S010 handoff retained).\r\nS010 historical scopes and 75 immutable hashes: PASS (cold challenge S011 at stated scopes).\r\nS011 historical scopes and 82 immutable hashes: PASS (cold challenge S012 at stated scopes).\r\nS012 historical scopes and 90 immutable hashes: PASS (cold challenge S013 at stated scopes).\r\nS013 current scopes/mirrors and 130 immutable hashes: PASS; universal STACK/CLEAR OPEN.\r\nS014 bounded plans and initial metadata: PASS; independently hashing all preflight references.\r\nS014 all preflight references: PASS; validating preserved execution rows.\r\nS014 exact bounded summaries: PASS; independently hashing recursive final manifest.\r\nS014 CLOSED scopes/preflights/2081 successful bounded rows, 7 preserved failed attempts, 50893 immutable hashes: PASS; S015 FUTURE; universal STACK/CLEAR OPEN.\r\n",
+  "stderr": "",
+  "code_sha256": "11cc544d6e3581d3e049558fdfc4640159277eeccf589bf37000035f07d33e98",
+  "scope": "Administrative complete historical/S014 provenance validation, 1800s/2GiB; no new search or change to any mathematical run bound; file-backed unbuffered stdout/stderr."
+}
