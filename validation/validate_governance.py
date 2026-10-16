@@ -666,9 +666,23 @@ elif closed15:
     assert (ROOT/'sessions/S015/AUTHORISED_PROMPT.md').read_bytes()==future15
     prior15=dict(session='S015',status='FUTURE_UNEXECUTED',path='sessions/S014/FUTURE_S015.md',sha256=hashlib.sha256(future15).hexdigest())
     future16=(ROOT/'sessions/S015/FUTURE_S016.md').read_bytes()
-    assert next_prompt.encode()==future16
     assert future16.decode() in (ROOT/'sessions/S015/CLOSEOUT.md').read_text(encoding='utf-8')
-    assert state['next_session_handoff']==dict(session='S016',status='FUTURE_UNEXECUTED',path='sessions/S015/FUTURE_S016.md',sha256=hashlib.sha256(future16).hexdigest())
+    rev16_path=ROOT/'authoritative/HANDOFF_REVISION_S016.json'
+    if rev16_path.exists():
+        # Owner-directed administrative revision of the prospective S016 handoff; S015 bytes unchanged.
+        rev16=load('authoritative/HANDOFF_REVISION_S016.json')
+        assert rev16['schema']==1 and rev16['kind']=='OWNER_DIRECTED_FUTURE_HANDOFF_REVISION' and rev16['session']=='S016' and rev16['status']=='FUTURE_UNEXECUTED'
+        assert rev16['prior_prompt']=='sessions/S015/FUTURE_S016.md' and rev16['prior_sha256']==hashlib.sha256(future16).hexdigest()
+        revised16=(ROOT/rev16['current_prompt']).read_bytes(); request16=(ROOT/rev16['owner_request']).read_bytes()
+        assert hashlib.sha256(revised16).hexdigest()==rev16['current_sha256'] and hashlib.sha256(request16).hexdigest()==rev16['owner_request_sha256']
+        assert request16==b'Rewrite the next session to first recheck stack and then move on to clear if it survives.\n'
+        assert next_prompt.encode()==revised16 and state['handoff_revision_s016']==rev16
+        assert state['next_session_handoff']==dict(session='S016',status='FUTURE_UNEXECUTED',path=rev16['current_prompt'],sha256=rev16['current_sha256'])
+        for requirement in ['Gate 1','Gate 2','only if Gate 1 passes','do NOT proceed to CLEAR','critical ASH*-CLEAR']:
+            assert requirement in revised16.decode('utf-8'),requirement
+    else:
+        assert next_prompt.encode()==future16
+        assert state['next_session_handoff']==dict(session='S016',status='FUTURE_UNEXECUTED',path='sessions/S015/FUTURE_S016.md',sha256=hashlib.sha256(future16).hexdigest())
     assert state['consumed_prospective_handoff']==prior15 and state['active_session'] is None
     assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S017' in next_prompt
     assert (ROOT/'sessions/S014/OWNER_CLOSEOUT.txt').read_bytes()==b'Can you commit and close out this session\n'
