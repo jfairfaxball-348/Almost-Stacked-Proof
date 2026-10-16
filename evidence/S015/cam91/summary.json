@@ -1,0 +1,47 @@
+{
+ "campaign": "CAM-S015-91",
+ "rows": [
+  {
+   "graph": "PB_4_4_0_1",
+   "n": 9,
+   "L_all": 14,
+   "L_AS": 13,
+   "verdict": "ASH_FAIL",
+   "dual": true
+  },
+  {
+   "graph": "PB_4_4_1_1",
+   "n": 10,
+   "L_all": 22,
+   "L_AS": 22,
+   "verdict": "ASH_OK",
+   "dual": true
+  },
+  {
+   "graph": "PB_4_4_2_1",
+   "n": 11,
+   "L_all": 30,
+   "L_AS": 29,
+   "verdict": "ASH_FAIL",
+   "dual": true
+  },
+  {
+   "graph": "PB_4_4_3_1",
+   "n": 12,
+   "L_all": 46,
+   "L_AS": 46,
+   "verdict": "ASH_OK",
+   "dual": true
+  },
+  {
+   "graph": "PB_4_4_4_1",
+   "n": 13,
+   "L_all": 62,
+   "L_AS": 61,
+   "verdict": "ASH_FAIL",
+   "dual": false
+  }
+ ],
+ "unexecuted": 24,
+ "note": "PB_4_4_4_1 checker exceeded memory twice (rc 139): producer-only; remaining 24 listed graphs UNEXECUTED (operator stop, addendum 10c)"
+}

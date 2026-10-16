@@ -81,6 +81,10 @@ jobs:
           python3 tools/s013_residual_verify.py --check-only
           python3 tools/s013_synthesis.py --check-only
           python3 tools/s013_synthesis_verify.py --check-only
+      - name: S015 G9 critical ASH*-STACK counterexample certificate replay
+        run: |
+          python3 tools/s015_cert_check.py evidence/S015/counterexample/G9_certificate.json | tail -1 | grep -qx CERTIFICATE_OK
+          python3 tools/s015_cert_full15_check.py evidence/S015/counterexample/G9_mass15_all_winning.txt.xz | grep -q FULL15_OK
   s005-replay:
     runs-on: ubuntu-latest
     timeout-minutes: 40

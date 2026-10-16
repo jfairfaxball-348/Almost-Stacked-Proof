@@ -149,3 +149,13 @@ Per-proof access/attribution and exact equivalence uncertainty are scoped in pri
 - **SRC-0073** Minamikawa: Geodesic Property of Greedy Algorithms for Optimization Problems on Jump Systems and Delta-matroids - **STATEMENT_INSPECTED**. https://arxiv.org/pdf/2206.10439 - v1 Section2.1 p3 definition(J-EXC) and inc(x,y) inspected; algorithm/theorem proofs NOT inspected. Used only to state the axiom independently refuted for W_p in121. No PDF mirrored.
 
 S014 closeout: all source access statuses and scoped inspections retained; SRC-0073 is statement-only J-EXC definitions, not an applied algorithmic theorem. No worldwide priority or full-paper proof assurance inferred.
+
+## S015 final - critical ASH*-STACK counterexample G9 (2026-10-16)
+
+- **SRC-0074** S015 complete low-order atlas, critical shift lemmas and H2r/global-Q evidence - **PROOF_INSPECTED**. ../research/S015_UNIVERSAL_RESEARCH.md - 122-123 complete local proofs; CAM82-88 preregistered computations with dual compiled tools.
+
+- **SRC-0075** nauty and Traces 2.8.8 (B. D. McKay and A. Piperno), Debian package nauty: geng, listg, labelg, countg - **METADATA_ONLY**. https://pallini.di.uniroma1.it/ - Used only to enumerate connected graphs (counts match OEIS A001349) and decode/canonically label graph6; graph sets cross-checked with the S003 generator for orders 5-8.
+
+- **SRC-0076** lajossoukup/pebbling (source authors public atlas code), commit 701cdd93dd19869a9b90947edd6361efd81cfc1f, pebbling.py - **PROOF_INSPECTED**. https://github.com/lajossoukup/pebbling - pebbling.py read in full (225 lines) and executed read-only on G9 and family graphs in S015 CAM92 as an external checker; not mirrored; licence not checked; no contact with authors.
+
+S015: SRC-0001 version listing refreshed (v1 only); no PDF re-fetched or mirrored.

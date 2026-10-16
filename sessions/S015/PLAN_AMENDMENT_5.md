@@ -1,0 +1,3 @@
+# S015 amendment 5 - CAM-S015-86: descriptive statistics on complete critical layers
+
+2026-10-16, BEFORE execution. tools/s015_crit_stats.py (74aa7d8d21cd7dc8c7a4422488948f6a2d19b23ec545c773e8e12651f1f7a9b3) computes, by membership in byte-identical dual-compiled COMPLETE critical files of orders 3..9: whether every global-Q maximal critical loser is AS; H2r with receiver restricted to a largest heavy pile; H2r restricted to all-pairs transfer (k=0, r=c_s mod 2); distances between the two largest heavy sites. Descriptive finite evidence only; no new layer computation; 600 s per file (order-9 per chunk). Failures of the restricted forms refute only those restricted forms at that finite scope.

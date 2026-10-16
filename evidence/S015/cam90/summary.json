@@ -1,0 +1,113 @@
+{
+ "campaign": "CAM-S015-90",
+ "graphs": 559,
+ "ASH_OK_DUAL": 547,
+ "ASH_FAIL_DUAL": [
+  {
+   "graph": "X1_05b",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "X1_069",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "X1_11b",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "X1_144",
+   "n": 10,
+   "L_all": 15,
+   "L_AS": 14,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.1"
+  },
+  {
+   "graph": "X1_14d",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "X1_156",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "X1_15b",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "X1_192",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "0.0.1.0.0.5.0.8.0.0"
+  },
+  {
+   "graph": "F_4_4_1",
+   "n": 9,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "5.0.0.0.8.0.0.0.1"
+  },
+  {
+   "graph": "F_4_5_1",
+   "n": 10,
+   "L_all": 14,
+   "L_AS": 13,
+   "critical": 2,
+   "example_nonAS": "5.0.0.0.8.0.0.0.0.1"
+  },
+  {
+   "graph": "P_4_2",
+   "n": 11,
+   "L_all": 30,
+   "L_AS": 29,
+   "critical": 2,
+   "example_nonAS": "0.0.0.0.0.0.0.0.13.16.1"
+  },
+  {
+   "graph": "P_5_2",
+   "n": 13,
+   "L_all": 30,
+   "L_AS": 29,
+   "critical": 2,
+   "example_nonAS": "0.0.0.0.0.0.0.0.0.0.13.16.1"
+  }
+ ],
+ "UNKNOWN": [],
+ "crit_files_identical": true,
+ "hashes": {
+  "family.txt": "3c41c00e7a95a070013f0b5b89fb8c0e82b94b73921e9c80761674ce404f11ed",
+  "prod.txt": "1af65e41034ca40df004aaecd742a0457591b0dc44dfa242ecde7904e2fd3285",
+  "chk.txt": "4e1a46dbb27ca6cddfd1f8144bef758c925d3319a63a23adcff5f36ff8701a0b",
+  "crit_prod.txt": "2c293a6784867ca9cd7b5a82c8ac97773707ef4863219f36f3ad1d135c57cf0d",
+  "crit_chk.txt": "2c293a6784867ca9cd7b5a82c8ac97773707ef4863219f36f3ad1d135c57cf0d"
+ },
+ "scope": "finite listed family only; dual compiled (v4 producer, check_v3); no brute force except G9 (CAM89)"
+}

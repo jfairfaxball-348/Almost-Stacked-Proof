@@ -1,0 +1,109 @@
+{
+ "graph6": "HCQTaXi",
+ "n": 9,
+ "edges": [
+  [
+   0,
+   3
+  ],
+  [
+   0,
+   5
+  ],
+  [
+   0,
+   6
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   8
+  ],
+  [
+   2,
+   6
+  ],
+  [
+   2,
+   8
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   4,
+   8
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   6,
+   8
+  ]
+ ],
+ "critical_losers": [
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   5,
+   0,
+   8,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   8,
+   0,
+   5,
+   0
+  ]
+ ],
+ "stack": 15,
+ "L_all": 14,
+ "L_AS": 13,
+ "K1": true,
+ "K2": true,
+ "K3": true,
+ "K4": true,
+ "K1_evidence": "closed reachable sets 1974 states each (cert_check CERTIFICATE_OK); brute force; both compiled tools; Python layer validator; author code; human proof research/S015_G9_COUNTEREXAMPLE.md",
+ "K2_evidence": "490314 replayed winning sequences (FULL15_OK); brute force masses 15,16 zero losers; elementary monotonicity above n",
+ "K3_evidence": "2304 AS configurations at each of masses 14,15,16 replayed (6912)",
+ "K4_evidence": "brute force per-mass loser counts 2..14 all positive; AS losers at 13: 10",
+ "author_code_critical_AS": false,
+ "author_code": "lajossoukup/pebbling@701cdd93dd19869a9b90947edd6361efd81cfc1f pebbling.py (not mirrored), evidence/S015/cam92/author_check.txt",
+ "status": "COMPUTED_EXACT_MULTI_CHECKER; LEAN_PENDING; INDEPENDENT_COLD_RECHECK_PENDING",
+ "hashes": {
+  "G9_certificate.json": "4be8f6dd4c72e27b6886eb023fd0baae799688df4d04006b1ba77a2c08f03f4d",
+  "G9_mass15_all_winning.txt.xz": "c9c0f5ea959caa6eb0972c492754c540e3f61ae220e574bed49dd4d4e1ab1587",
+  "brute_truth_table.json": "8a49845d02fd5a9608fd40e650cfeeae4a312033b4564febf3578ff3c59d7043",
+  "brute_log.txt": "6ed7c1844a3e1fb9387cdd12bd033d1f6142cb0470ead2a632f92063c3214931",
+  "cert_check_log.txt": "95107d0e1ba6e77fa2fd5d14527c78d6c575b37d846150298bb7b5d9da6fac72",
+  "full15_check_log.txt": "07011c35ba16414cb351e30102412b8ccb0f21ca7c8b471ca4bd219ac89abd0f",
+  "python_layer_validator.txt": "0bf63b9338bc869052de6486db91f18f16bfbc1dda9fca4ae951ef46643d1d7b"
+ }
+}

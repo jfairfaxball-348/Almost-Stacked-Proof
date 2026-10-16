@@ -111,7 +111,7 @@
   },
   "critical_form": {
     "statement": "g(G) = least t0>=2 such that every AS configuration of every size t>=t0 is g-able; for n>=2 equivalent to an AS non-g-able configuration of size g(G)-1",
-    "status": "OPEN",
+    "status": "STACK_REFUTED_COMPUTED_G9_LEAN_AND_COLD_RECHECK_PENDING; CLEAR_OPEN",
     "tested_by_author_atlas_code": "lajossoukup/pebbling@701cdd93 is_critical_stacked_almost_stacked",
     "known_true": [
       "all trees (earlier TreeStack + October Thm5.2)",
@@ -4312,5 +4312,78 @@
       "force_push": false,
       "scientific_changes": false
     }
+  },
+  "s015": {
+    "status": "COMPLETED",
+    "universal_stack": "REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING",
+    "universal_clear": "OPEN",
+    "counterexample": {
+      "graph6": "HCQTaXi",
+      "n": 9,
+      "edges": "0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8",
+      "stack": 15,
+      "L_all": 14,
+      "L_AS": 13,
+      "critical_losers": [
+        "0.0.1.0.0.5.0.8.0",
+        "0.0.1.0.0.8.0.5.0"
+      ],
+      "evidence": "evidence/S015/counterexample",
+      "report": "research/S015_G9_COUNTEREXAMPLE.md",
+      "assurance": "COMPUTED_EXACT_MULTI_CHECKER_PLUS_HUMAN_PROOF_OF_K1; LEAN_PENDING; INDEPENDENT_COLD_RECHECK_PENDING"
+    },
+    "atlas_orders_2_8": {
+      "graphs": 12112,
+      "ash_ok_dual": 12112,
+      "evidence": "evidence/S015/cam82, evidence/S015/cam83"
+    },
+    "atlas_order_9": {
+      "graphs": 261080,
+      "ash_ok_dual": 261008,
+      "ash_fail": [
+        "HCQTaXi"
+      ],
+      "unknown_count": 71,
+      "evidence": "evidence/S015/cam85/summary.json"
+    },
+    "new_local_proofs": [
+      122,
+      123
+    ],
+    "cold_challenged_reused": [
+      111,
+      112,
+      113,
+      116
+    ],
+    "new_proof_assurance": "LOCAL_ADVERSARIAL_PASS_INDEPENDENT_REVIEW_PENDING",
+    "campaigns_registered": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "amendments": 12,
+    "h2r_and_globalQ": "HOLD_ON_ALL_ORDER_LE_8_CRITICAL_LAYERS; FALSE_UNIVERSALLY_BY_G9",
+    "claims_programme_proved": [
+      "CLM-0253",
+      "CLM-0255"
+    ],
+    "claims_computed": [
+      "CLM-0251",
+      "CLM-0252",
+      "CLM-0254",
+      "CLM-0256",
+      "CLM-0257"
+    ],
+    "author_contact": "NONE",
+    "formal_status": "NOT_STARTED"
   }
 }

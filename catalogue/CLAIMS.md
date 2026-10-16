@@ -378,3 +378,21 @@ Universal STACK/CLEAR OPEN; symbolic proof, finite computation, source and novel
 | CLM-0250 | COMPUTED_EXACT | CAM81 finite complete charge-sector exchange challenge on bipartite fixed graphs through order5:2490 residue/fuel groups,57060 membership queries,560 nontrivial ordered pair/source checks, all matched independently. Rescaled-sector M-convexity remains UNPROVED universally; direct unscaled W_p exchange stays false by121. | SRC-0072 |
 
 S014 final scope: owner-requested closeout; CLM-0129 through CLM-0250 retain their existing mathematical/finite statuses. Local proof assurance remains independent-review pending; universal STACK/CLEAR OPEN. No status is promoted by closeout.
+
+## S015 final - critical ASH*-STACK counterexample G9 (2026-10-16)
+
+| CLM-0251 | COMPUTED_EXACT | CAM82/83 complete STACK atlas: every connected graph of order 2..8 (995+11117 graphs, nauty-geng lists cross-checked with the S003 generator) has L_all=L_AS (critical ASH*-STACK holds); two separately written compiled loser-layer tools give byte-identical complete critical layers; orders<=7 also Python set-validated. Finite scope only. | SRC-0074,SRC-0075 |
+
+| CLM-0252 | COMPUTED_EXACT | CAM85 order-9 STACK atlas with dual compiled tools: order 9: 261080 graphs; ASH_OK dual 261008; ASH_FAIL 1 (HCQTaXi); UNKNOWN/uncompared 71. Exact completeness scope and any UNKNOWN graphs listed in evidence/S015/cam85/summary.json. | SRC-0074,SRC-0075 |
+
+| CLM-0253 | PROGRAMME_PROVED | S015-122/123 critical shift lemmas: for a largest STACK loser c on connected G (n>=3), every occupied v and w~v admit x in N(w)\{v} with c-e_v+e_x winning; every occupied v admits u~v with c-e_v+e_u winning; every heavy s and any x admit u~s with c+e_x-2e_s+e_u winning. Uses S014-116 only. Re-derives S014-117c. | SRC-0074,SRC-0072 |
+
+| CLM-0254 | COMPUTED_EXACT | G9 = graph6 HCQTaXi (edges 0-3,0-5,0-6,1-4,1-7,1-8,2-6,2-8,3-5,3-6,4-7,4-8,5-7,6-8): stack(G9)=15, the only mass-14 losers are (0,0,1,0,0,5,0,8,0) and its automorphic image, every AS configuration of mass 14 stacks; hence L_all=14>L_AS=13 and critical ASH*-STACK FAILS. Verified by two compiled tools, a bare-definition brute force over all configurations of masses 1..16, closed-set and 6912 AS winning-sequence certificates, 490314 replayed mass-15 winning sequences, a Python layer validator and the source authors own public atlas code (is_critical_stacked_almost_stacked False). LEAN_PENDING, INDEPENDENT_COLD_RECHECK_PENDING. | SRC-0074,SRC-0075,SRC-0076 |
+
+| CLM-0255 | PROGRAMME_PROVED | Human-readable proof that (0,0,1,0,0,5,0,8,0) is not stackable on G9: by S014-111/112/113 no subcubic boundary tree exists for c* or any c*+2e_q (branch-node counting around the unique parity marker at vertex 2 and label constraints of the fuel leaves). | SRC-0074,SRC-0071 |
+
+| CLM-0256 | COMPUTED_EXACT | CAM90/91 families around G9 (dual compiled where both tools completed; see summaries): 12 CAM90 graphs of orders 9-13 with L_AS<L_all, including F(4,5,1) and bridge-path P(4,2), P(5,2) (L_all=30, L_AS=29); CAM91 producer gives PB(4,4,l,1) failures at l=0,2,4 (L_all=14,30,62; L_AS one less) and successes at l=1,3. Infinite-family behaviour is a CONJECTURE only. | SRC-0074,SRC-0075 |
+
+| CLM-0257 | COMPUTED_EXACT | On every complete order<=8 critical layer (74121 non-AS critical inputs) S014 H2r holds (receiver can be a largest heavy pile) and every global-Q-maximal critical loser is AS; 11 even-heavy critical non-AS inputs, all of shape {4,5,1}. Both H2r and global-Q AS selection are FALSE universally because they would imply ASH* (CLM-0254). | SRC-0074 |
+
+S015 final scope: CLM-0251..0257 added; earlier claims keep their statuses (claims whose conclusion is ASH* only for restricted classes remain valid on those classes). No FORMALLY_CERTIFIED status is assigned.

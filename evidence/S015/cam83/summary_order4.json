@@ -1,0 +1,18 @@
+{
+ "graphs_listed": 6,
+ "chunks": {
+  "all": {
+   "crit_identical": true,
+   "crit_prod_sha256": "406a90b2896b09e064aab9b74b9caf8cfbd7d692a201c9395ffd88549e9d2629",
+   "crit_chk_sha256": "406a90b2896b09e064aab9b74b9caf8cfbd7d692a201c9395ffd88549e9d2629",
+   "prod_sha256": "60df783d8aa0ba0919c6b842acdc23288993388c6fe11189c8715913ed1fbca5",
+   "chk_sha256": "9ff1cc6294db840200b6ab4f8cbf7f567d807ae8659c95e2e9602445093adb2e"
+  }
+ },
+ "ASH_OK_DUAL": 6,
+ "UNKNOWN": [],
+ "ASH_FAIL": [],
+ "max_Lall": 14,
+ "max_Lall_graph": "CU",
+ "all_crit_identical": true
+}

@@ -1,0 +1,18 @@
+{
+ "graphs_listed": 853,
+ "chunks": {
+  "all": {
+   "crit_identical": true,
+   "crit_prod_sha256": "561e60cbf5928416bd311f56255d2d4f52abf927628ebdff8942794f33680896",
+   "crit_chk_sha256": "561e60cbf5928416bd311f56255d2d4f52abf927628ebdff8942794f33680896",
+   "prod_sha256": "14dd0d5abeb2f0765cfb542947d333a050bb1c3810c4486cc1db5e25aee1f2e1",
+   "chk_sha256": "6103255d7c75417569ef90f2110d7a7fbf009078b0186ab8315af0a4abfb3b8e"
+  }
+ },
+ "ASH_OK_DUAL": 853,
+ "UNKNOWN": [],
+ "ASH_FAIL": [],
+ "max_Lall": 126,
+ "max_Lall_graph": "FCQb?",
+ "all_crit_identical": true
+}
