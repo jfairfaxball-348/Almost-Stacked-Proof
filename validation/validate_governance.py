@@ -694,8 +694,24 @@ elif closed15:
     if closed16:
         future17=(ROOT/'sessions/S016/FUTURE_S017.md').read_bytes()
         assert future17.decode() in (ROOT/'sessions/S016/CLOSEOUT.md').read_text(encoding='utf-8')
-        assert next_prompt.encode()==future17 and state['consumed_prospective_handoff']==prior16
-        assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path='sessions/S016/FUTURE_S017.md',sha256=hashlib.sha256(future17).hexdigest())
+        assert state['consumed_prospective_handoff']==prior16
+        rev17_path=ROOT/'authoritative/HANDOFF_REVISION_S017.json'
+        if rev17_path.exists():
+            # Owner-directed administrative revision of the prospective S017 handoff; S016 bytes unchanged.
+            rev17=load('authoritative/HANDOFF_REVISION_S017.json')
+            assert rev17['schema']==1 and rev17['kind']=='OWNER_DIRECTED_FUTURE_HANDOFF_REVISION' and rev17['session']=='S017' and rev17['status']=='FUTURE_UNEXECUTED'
+            assert rev17['prior_prompt']=='sessions/S016/FUTURE_S017.md' and rev17['prior_sha256']==hashlib.sha256(future17).hexdigest()
+            revised17=(ROOT/rev17['current_prompt']).read_bytes(); request17=(ROOT/rev17['owner_request']).read_bytes()
+            assert hashlib.sha256(revised17).hexdigest()==rev17['current_sha256'] and hashlib.sha256(request17).hexdigest()==rev17['owner_request_sha256']
+            assert request17.startswith(b'Write the next session prompt as being a long ambitious session;\n') and b'palomar register' in request17
+            assert next_prompt.encode()==revised17 and state['handoff_revision_s017']==rev17
+            assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
+            for requirement in ['Milestone 1','cold re-check of the G9 CLEAR counterexample','Palomar','lean-toolchain','Freeze green modules','full `lake build`','BEGIN Lean formalisation']:
+                assert requirement in revised17.decode('utf-8'),requirement
+            assert state['phases']['3']['status']=='NOT_STARTED' and state['lean_status']=='NOT_STARTED'
+        else:
+            assert next_prompt.encode()==future17
+            assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path='sessions/S016/FUTURE_S017.md',sha256=hashlib.sha256(future17).hexdigest())
         assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S018' in next_prompt
         assert (ROOT/'sessions/S016/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
         assert not (ROOT/'sessions/S017').exists(), 'S017 remains unexecuted'

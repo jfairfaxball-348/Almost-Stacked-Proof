@@ -1,0 +1,9 @@
+Write the next session prompt as being a long ambitious session;
+
+Cold recheck the CLEAR counterexample. 
+
+Setup local lean environment to allow to begin formalisation. Check lean version being installed and make sure it aligns with requirments from the palomar register.
+
+Write plan to formalise. Be careful to be efficient with lean and lake build/runs. Lots of rechecking old lemmas and proofs that have been checked are costly. If someone is green it can be frozen and needs only to be checked if it is a dependency in another piece...and for the full final build.
+
+Begin the lean formalisation work as much as possible before context expires and it makes sense to close and handover to a new session.
