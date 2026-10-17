@@ -163,3 +163,9 @@ S015: SRC-0001 version listing refreshed (v1 only); no PDF re-fetched or mirrore
 - **SRC-0077** S016 G9 STACK cold re-check, CLEAR lemmas/transfer, G9 CLEAR counterexample and CLEAR atlases - **PROOF_INSPECTED**. ../research/S016_CLEAR.md - sessions/S016/GATE1_AUDIT.md; CAM-S016-01..06 preregistered with dual tools.
 
 S016: no source re-fetched; authors code not run.
+
+- **SRC-0078** Palomar registry submission policy (PalomarPolicy CONTRIBUTING.md) and minimum toolchain (PalomarSubmission toolchains.json) - **STATEMENT_INSPECTED**. https://github.com/PalomarRegistry/PalomarPolicy/blob/main/CONTRIBUTING.md - Read 2026-10-16T22:57Z (UTC) at PalomarPolicy HEAD 96b034cc31a72a63d4f4041911dce337a85c9a04 and PalomarSubmission HEAD d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44 (toolchains.json minimum v4.35.0-rc2). Requirements relied on are paraphrased in sessions/S017/PLAN_AMENDMENT_1.md section A; text not mirrored. Nothing submitted.
+
+- **SRC-0079** S017 G9 CLEAR cold re-check and Lean formalisation of the G9 STACK and CLEAR counterexamples - **PROOF_INSPECTED**. ../research/S017_LEAN.md - sessions/S017/CLEAR_RECHECK.md, sessions/S017/LEAN_RECORD.md, formal/ (Lean 4.35.0, Mathlib v4.35.0).
+
+S017: Palomar policy and toolchain minimum read (SRC-0078); no paper re-fetched; authors' code not run.

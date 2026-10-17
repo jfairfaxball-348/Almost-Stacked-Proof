@@ -1,0 +1,5 @@
+# S017 PLAN_AMENDMENT_2 - kernel replay of the formal project with leanchecker
+
+Written after the final staged build passed and before any replay run. Hash in PLAN_AMENDMENT_2.sha256.
+
+Scope: every module of formal/ (the 68 modules of the `AlmostStacked`, `Challenge` and `Solution` libraries as built), replayed one module at a time with the toolchain's `leanchecker` (Lean 4.35.0 distribution, `lake env leanchecker <Module>`), which re-adds the module's declarations to a kernel environment and re-checks them. This is a replay by the SAME kernel implementation (it guards against elaborator-side or environment-construction defects, not against kernel bugs); it is NOT an independent kernel (nanoda/lean4lean) and NOT Comparator. Caps: one process at a time, 12 GiB, 30 min per module; a cap or a crash is UNKNOWN and recorded, never a pass. Driver: tools/s017_leanchecker.sh (hashed below in evidence/S017/HASHES.md); log evidence/S017/leanchecker.txt with per-module exit code and wall time. Outcome: all modules exit 0 => record LEANCHECKER_REPLAY_PASS for the scope above; anything else => record the failure and leave the Lean status unchanged.

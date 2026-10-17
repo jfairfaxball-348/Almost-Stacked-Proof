@@ -111,7 +111,7 @@
   },
   "critical_form": {
     "statement": "g(G) = least t0>=2 such that every AS configuration of every size t>=t0 is g-able; for n>=2 equivalent to an AS non-g-able configuration of size g(G)-1",
-    "status": "STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING; CLEAR_REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING",
+    "status": "STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
     "tested_by_author_atlas_code": "lajossoukup/pebbling@701cdd93 is_critical_stacked_almost_stacked",
     "known_true": [
       "all trees (earlier TreeStack + October Thm5.2)",
@@ -4462,5 +4462,49 @@
     "author_code_clear": "NOT_RUN",
     "author_contact": "NONE",
     "formal_status": "NOT_STARTED"
+  },
+  "s017": {
+    "status": "COMPLETED",
+    "milestone1": "CLEAR_COLD_RECHECK_PASS",
+    "milestone1_checker": "tools/s017_g9_dense.lean (Lean 4 program, dense forward DP over all 2042975 configurations of masses 0..16)",
+    "milestone1_replays": "all S016 CLEAR checkers identical (one CRLF-only difference); 91/91 S016 hashes",
+    "universal_stack": "REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
+    "universal_clear": "REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
+    "lean": {
+      "status": "G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING",
+      "project": "formal/",
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "palomar_policy_read": "2026-10-16T22:57Z PalomarPolicy@96b034cc, PalomarSubmission@d4e41c1d minimum v4.35.0-rc2",
+      "compared_theorems": 25,
+      "frozen_modules": 67,
+      "axioms": "propext, Classical.choice, Quot.sound (subset) for every printed declaration",
+      "method": "verified exact losing-layer checker (layer_step) evaluated by decide +kernel on untrusted certificate layers, one module per layer",
+      "full_build": "staged build tools/s017_staged_build.sh PASS: 30 steps, final lake build 1201 jobs completed successfully (23 s replay); heavy checks 19-73 s each in isolation; peak lean private memory about 9.3 GB (single heavy check); see sessions/S017/LEAN_RECORD.md",
+      "leanchecker_replay": "67/67 non-root modules OK (same kernel)",
+      "pending": [
+        "Comparator run",
+        "independent-kernel check (lean4lean / leanexport+nanoda)",
+        "hosted Lean CI",
+        "fresh-session Lean cold re-check",
+        "formalization.yaml"
+      ]
+    },
+    "amendments": 2,
+    "protocol_deviations": [
+      "pre-amendment core-Lean kernel benchmark on G9 layers (pilot, not evidence)",
+      "two aborted full builds that thrashed the host (archived, not results)"
+    ],
+    "claims_computed": [
+      "CLM-0264"
+    ],
+    "claims_formal": [
+      "CLM-0265",
+      "CLM-0266",
+      "CLM-0267"
+    ],
+    "author_code_clear": "NOT_RUN",
+    "author_contact": "NONE",
+    "palomar": "NOT_SUBMITTED"
   }
 }

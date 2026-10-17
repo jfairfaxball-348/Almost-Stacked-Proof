@@ -123,3 +123,10 @@ Final governance/provenance validation and immutable hashes are required before 
 - `s015_h2r.py`, `s015_shift.py`, `s015_crit_stats.py`: membership analyses on complete critical layers.
 - `s015_cert_brute.py`, `s015_cert_make.py`, `s015_cert_check.py`, `s015_cert_full15.py`, `s015_cert_full15_check.py`: G9 brute force, certificates and replay verifiers (the two checkers run in hosted CI).
 - `s015_cert_generic.py`: brute-force classifier for small candidate graphs. `s015_family.py`, `s015_family2.py`: CAM90/91 graph lists. `s015_author_check.py`: wrapper running the source authors' public code (not mirrored). `s015_search.cpp`: registered heuristic search (not executed). `s015_run9.sh`, `s015_run00.sh`: order-9 drivers (binaries built from the sources above into a scratch directory).
+
+## S017 tools
+
+- `s017_g9_dense.lean`: Milestone 1 cold re-check (Lean 4 program, `lean --run`): dense forward DP over every configuration of masses 0..16 on G9, STACK and CLEAR.
+- `s017_gen_layers.py`: generates the untrusted Lean certificate data (formal/AlmostStacked/Data) and, with `--checks`, the per-layer check and chaining modules (formal/AlmostStacked/G9).
+- `s017_staged_build.sh`: memory-bounded build of formal/ (one heavy kernel check per Lake invocation, then `lake build`).
+- `s017_print_axioms.py`, `s017_lean_scan.py`, `s017_freeze.py`, `s017_challenge_bridge.py`: axiom printing, forbidden-placeholder/Palomar mechanical scan, frozen-module ledger, local Challenge/Solution stand-in check (not Comparator).
