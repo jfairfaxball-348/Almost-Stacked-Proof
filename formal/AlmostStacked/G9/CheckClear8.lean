@@ -1,6 +1,7 @@
 module
 
 public import AlmostStacked.G9.Graph
+public import AlmostStacked.G9.CheckClear7
 public import AlmostStacked.Data.G9Clear7
 public import AlmostStacked.Data.G9Clear8
 

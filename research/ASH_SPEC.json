@@ -4561,5 +4561,123 @@
     ],
     "palomar": "NOT_SUBMITTED",
     "author_contact": "NONE"
+  },
+  "s019": {
+    "status": "COMPLETED",
+    "submitted": false,
+    "owner_decisions_applied": "Apache-2.0; Claude and Codex named only in formalization.yaml automation.methods; novelty audits OWNER_WAIVED; author and maintainer John Fairfax-Ball",
+    "milestone2": "PLAIN_LAKE_BUILD_MEMORY_SAFE",
+    "plain_build": {
+      "run1": "check modules chained only: rc 0, 758 s, peak 17.9 GB total (criterion < 13 GB FAILED, kept)",
+      "run2": "check and data modules chained: rc 0, 653 s, peak 10.3 GB total, 9.3 GB per process (PASS)"
+    },
+    "exports_unchanged": "Challenge.export 5af8c78b..., Solution.export 855ba7b9... byte-identical to S018",
+    "comparator_research": "lake comparator unsandboxed, committed comparator.json: exit 0 (Your solution is okay!)",
+    "snapshot": {
+      "branch": "palomar/submission",
+      "commit": "34363e5222136c54b08e0c5550e2d49b9f23f5fd",
+      "tree": "c844821fd0da2da3016be939d3ef21ca52139d7a",
+      "orphan": true,
+      "files": 76,
+      "files_from_formal": 73,
+      "bytes": 877642,
+      "project_directory": ".",
+      "comparator_path": "comparator.json"
+    },
+    "fresh_clone": {
+      "palomar_mechanical_prechecks": "MECH_PASS 10/10 (Palomar's own functions at PalomarSubmission d4e41c1d)",
+      "build": "lake exe cache get 320 s; plain lake build rc 0, 677 s, peak 10.3 GB",
+      "exports": "byte-identical to S018",
+      "comparator": "exit 0 (Your solution is okay!), unsandboxed",
+      "kernels": {
+        "nanoda_t1": "ACCEPT",
+        "con-ron_j1_verified": "ACCEPT",
+        "lean4lean": "ACCEPT",
+        "leanchecker-paranoid": "ACCEPT",
+        "con-leche": "UNKNOWN_CAP"
+      }
+    },
+    "licence": {
+      "spdx": "Apache-2.0",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "location": "snapshot root only",
+      "palomar_licensee_detector": "NOT_RUN (no Ruby on host)"
+    },
+    "formalization_yaml": "final v0.4; upstream schema 0 errors; Palomar loader accepts",
+    "deviation_from_handoff": "author_endorsement other (authors were contacted 2026-10-13), not the handoff default not-contacted",
+    "amendments": 1,
+    "superseded_s017_hashes": {
+      "formal/AlmostStacked/Data/G9Clear10.lean": "1c7ef375327e676fa76c7fa75f7dba8304083d5d70e0022eb5dc4675c33022e5",
+      "formal/AlmostStacked/Data/G9Clear11.lean": "4ab1ea154184b45717f48b6972b6ac885b5e305e89025f66e120da7a65f7a07e",
+      "formal/AlmostStacked/Data/G9Clear12.lean": "623ef69457bb6e17531a16de2e9e9776125ec6e95de5f912f4a1cdd61847b547",
+      "formal/AlmostStacked/Data/G9Clear13.lean": "ad86bc369d9e8450aedfe1127c13ae63e464cedf83c560824cb374322f853907",
+      "formal/AlmostStacked/Data/G9Clear14.lean": "47fe0ee386408da3eeaceaeae6c399e97b42e03bf8dd73ee68fa825e6d5adb6e",
+      "formal/AlmostStacked/Data/G9Clear15.lean": "7e3b67129851ed1b5d26f6cfd153dd5a20e6757a5d612d5dc5b6d7747f1a5f82",
+      "formal/AlmostStacked/Data/G9Clear2.lean": "b84bb8d3dd0570fd9becd3ce2813d3874b2dcbeeb51b38ac31f71052b6394fbf",
+      "formal/AlmostStacked/Data/G9Clear3.lean": "15978549b757c47398f4fc2c326e13bf31f285cb8683c3f86f09cd47a1ac14f4",
+      "formal/AlmostStacked/Data/G9Clear4.lean": "32b893b8303717c9604f5991ce7db899aff9b26beca71ffa3c6a604a8c1afba6",
+      "formal/AlmostStacked/Data/G9Clear5.lean": "a19549507c8fb0cecc0897f37f02daacbbb0f341f11cd7dd5f2d126b702a73a7",
+      "formal/AlmostStacked/Data/G9Clear6.lean": "fcdb8346d0ebd9b0cdbc5c56943f2b64f6976b28da00edd50f35e70c4209086d",
+      "formal/AlmostStacked/Data/G9Clear7.lean": "934f718b56211ce613774d7e6b65a0693d562a3d21b39b4211faed1bff4cfc48",
+      "formal/AlmostStacked/Data/G9Clear8.lean": "967ca57ae352361eb293a5203c424e02ed0ec85f160c885dc85f1cacaf0c116f",
+      "formal/AlmostStacked/Data/G9Clear9.lean": "e33e5faa1ba4adbe93546bf53d614bde7f303766225bddd6d834039b6f4ee3f0",
+      "formal/AlmostStacked/Data/G9Stack10.lean": "297ed8986f271022650f53b9b87d8c067e5c488cc0f91dbf6471d621ca3684d7",
+      "formal/AlmostStacked/Data/G9Stack11.lean": "05c663fb35cb8fd0b04f899c0d9d287e88f3236e0d040ad88b5fb090fff66761",
+      "formal/AlmostStacked/Data/G9Stack12.lean": "c1eab833252988053e4a424a645642402ac6e5ca78a9ec3ab9e2f2421efd09c8",
+      "formal/AlmostStacked/Data/G9Stack13.lean": "462ad25704e625c074ba853e1938b1cb10a7d66bcf83145a5a8cd1c873840a9f",
+      "formal/AlmostStacked/Data/G9Stack14.lean": "e9bb0a72c78a2f452bb7c13f793c3945bb02e9a7f80afa409316e9740595939e",
+      "formal/AlmostStacked/Data/G9Stack15.lean": "e7891e370e4501b4e86bef881430dcb1f5270c673a9c27ab1290c8e7030b4e47",
+      "formal/AlmostStacked/Data/G9Stack3.lean": "d239931b2898f9c2c2e4d79db5153c9c5bd48d55a74c1e6c51c5037a6473fc03",
+      "formal/AlmostStacked/Data/G9Stack4.lean": "cca4dacf7a8bfcef1ea29bffef051bff348a844e618a8fa297f742801aab9ed5",
+      "formal/AlmostStacked/Data/G9Stack5.lean": "ac56fed507c4663d64fb059133f57b9e5f0b64aba0b5fd29f62751c90dc1ff29",
+      "formal/AlmostStacked/Data/G9Stack6.lean": "767621ce681809454e71c2ccd4eea5d751b742dbe49b23bfa2ae78c854f9c46e",
+      "formal/AlmostStacked/Data/G9Stack7.lean": "b4ac9c98bd068f0fe0682caad3e0c945def70a1e2ede1f8bf1a63612991958bc",
+      "formal/AlmostStacked/Data/G9Stack8.lean": "7bcdb94c50dfe2fe0aade985d6da31f755512980904325440f93192d223b3aae",
+      "formal/AlmostStacked/Data/G9Stack9.lean": "d411e6dfeb1f50898da3672c9b5bd67dd571bf2909da10acffb3d9e515fac16a",
+      "formal/AlmostStacked/G9/CheckClear10.lean": "0f1b582bf7b487ed6216de7a94999ab51510cb27b5fdb296660f8ccc3661022d",
+      "formal/AlmostStacked/G9/CheckClear11.lean": "28dd1e5b7ae1ea2e5ad434b961bc209d1948108707b40986681f2ce0a3d0977a",
+      "formal/AlmostStacked/G9/CheckClear12.lean": "3e36b33cd37e552a8221320b5fd3e6951b6b60afd528afa7c22702c67a683513",
+      "formal/AlmostStacked/G9/CheckClear13.lean": "c4095366a5ea7513019997bffd0b5e813e794b6ae31557903af818843f503616",
+      "formal/AlmostStacked/G9/CheckClear14.lean": "94fc9480612111fcc94d50c145630e8fb02f97e161a47f38af7e3ece03230963",
+      "formal/AlmostStacked/G9/CheckClear15.lean": "89a7af8058a843a7de12d7929579a28e9d501974ee91c897a2d51cd5ef59b988",
+      "formal/AlmostStacked/G9/CheckClear2.lean": "3dd92c0d2d617c9d16dbbd5e783d4a7ac94cc3d3132a3a11254559954d1f1e56",
+      "formal/AlmostStacked/G9/CheckClear3.lean": "277651713082139e5895be4aab9557ad2cf57d8688503da30df1922b1fcf7dba",
+      "formal/AlmostStacked/G9/CheckClear4.lean": "f01427f66246623e06f00ee949614ec9d29926980637ed0da2dad7fb684d631f",
+      "formal/AlmostStacked/G9/CheckClear5.lean": "e559799205d07671d2699caad98e79354525fd349ccf01c2e097912ca9330070",
+      "formal/AlmostStacked/G9/CheckClear6.lean": "0f825d7c1707adf7a7083263175a9f968eadccac30ddc57c5201f467866bbafc",
+      "formal/AlmostStacked/G9/CheckClear7.lean": "b06e82f7dc7edaf82d9e09e57430029858db820b49c5b5ef7b60f7f25f1b8a95",
+      "formal/AlmostStacked/G9/CheckClear8.lean": "0ed3ae9a9dec91bd248e5230b8e6a6c3344ab979894b7e375e6a8698f9183289",
+      "formal/AlmostStacked/G9/CheckClear9.lean": "a4bf38fe59a8978dba9ef88d9a5815ad799d601596a8d13399854b7f8fe7cdd7",
+      "formal/AlmostStacked/G9/CheckStack10.lean": "2729e2eeb21206145be21e604dc16fb3023a9af5e264ad27258487ad02dd1f5f",
+      "formal/AlmostStacked/G9/CheckStack11.lean": "6f2b4fa0b309a56bd105f22e1054c723217b725a8183075b354c8ff810868721",
+      "formal/AlmostStacked/G9/CheckStack12.lean": "3c5414526ec61120654335982f70cef0af6439607b6dbc7ddbce1bd9a6652061",
+      "formal/AlmostStacked/G9/CheckStack13.lean": "68851b48444ab7923ea0c0095a3f161e8717bdb6fe2daa583c79c004f82297a9",
+      "formal/AlmostStacked/G9/CheckStack14.lean": "059602caddc4ccf1f289c3297ba012c0bcb29bfac79725cb3c81acb4b632d585",
+      "formal/AlmostStacked/G9/CheckStack15.lean": "b9830dcf2103f68ba36937b2f9c5a68c1bbebc70b8a592d77ae67f7defc1f4c8",
+      "formal/AlmostStacked/G9/CheckStack3.lean": "ad0b6c77e72563e83a893c38f26c732be53dc67e5390a0c5d018beecb136ad46",
+      "formal/AlmostStacked/G9/CheckStack4.lean": "5309e2dc37c8d00e5dc5b69b4dfc8a4c9b23a3add3d0ff71aabfcb6fce6aa5d7",
+      "formal/AlmostStacked/G9/CheckStack5.lean": "d0effda55d7a1de48242561192d894b71ca69559ed858d1003ce340fa62922b7",
+      "formal/AlmostStacked/G9/CheckStack6.lean": "93b1b05854ead3024088ce61489870a5fb2f243b24058c96a412bb1c91cbc56e",
+      "formal/AlmostStacked/G9/CheckStack7.lean": "a5b8c930dd708b185a5c00f5f59180e55d4adcd39bfb8da114102d1034699d20",
+      "formal/AlmostStacked/G9/CheckStack8.lean": "ea9ec3c152e775bd72582a45da8e70ed72c79f8a09ca04be2102b77cfafa77c9",
+      "formal/AlmostStacked/G9/CheckStack9.lean": "61e4d49270d37142d1c0cd092a5d3fb94f9c7ea68335c163969cf206c2be860d"
+    },
+    "superseded_s018_hashes": {
+      "formal/FROZEN_MODULES.md": "fa88f43be4573e049a1dbc6862002da7435c94f72b7035b300040f0eb91e5a5c",
+      "formal/README.md": "bed0a392648acc4603c7567373de27edee87012dabef532bf3f9cb10f1747813",
+      "formal/formalization.yaml": "4d7a714a15d44e593d0a2398aa62f51177781e7d1e90318371cabc98d514a1a1"
+    },
+    "frozen_modules": 67,
+    "claims_formal": [
+      "CLM-0269"
+    ],
+    "not_done": [
+      "sandboxed (bwrap) comparator run",
+      "hosted Lean CI",
+      "Palomar licensee detector (no Ruby)"
+    ],
+    "palomar": "NOT_SUBMITTED_OWNER_UPLOADS",
+    "author_contact": "NONE"
   }
 }

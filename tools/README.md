@@ -136,3 +136,7 @@ Final governance/provenance validation and immutable hashes are required before 
 - `s018_export_diff.py`: first structural difference of one constant's type between two lean4export files (found F1).
 - `s018_memsample.ps1`, `s018_memcap.ps1`: memory sampling and the 12 GiB per-process cap (Windows PowerShell).
 - `s018_hashes.py`: writes evidence/S018/HASHES.md.
+- `s019_make_snapshot.py`: populates the Palomar submission snapshot from formal/ (byte-identical copies) plus LICENSE, README and .gitignore; prints the sha256 manifest.
+- `s019_snapshot_README.md`: the snapshot's README.md.
+- `s019_palomar_mech.py`: local Palomar mechanical pre-checks of a snapshot, calling PalomarSubmission's own functions (not a Palomar verification).
+- `s019_hashes.py`: writes evidence/S019/HASHES.md.

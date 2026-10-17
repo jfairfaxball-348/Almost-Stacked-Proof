@@ -1,0 +1,11 @@
+utc_start 2026-10-17T10:47:15Z
+lean Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+targets Quot Quot.mk Quot.lift Quot.ind AlmostStacked.G9_connected AlmostStacked.G9_not_bipartite AlmostStacked.G9_stack_14 AlmostStacked.cStar_not_AS AlmostStacked.cStarImage_not_AS AlmostStacked.G9_stack_large AlmostStacked.G9_stack_losers AlmostStacked.G9_stackNumber AlmostStacked.G9_stack_AS_threshold AlmostStacked.G9_stack_Lall AlmostStacked.G9_stack_LAS AlmostStacked.G9_not_ASHStarStack AlmostStacked.not_forall_ASHStarStack AlmostStacked.G9_clear_14 AlmostStacked.G9_clear_large AlmostStacked.G9_clear_losers AlmostStacked.G9_clearNumber AlmostStacked.G9_clear_AS_threshold AlmostStacked.G9_clear_Lall AlmostStacked.G9_clear_LAS AlmostStacked.G9_not_ASHStarClear AlmostStacked.not_forall_ASHStarClear AlmostStacked.clearable_stackable AlmostStacked.stackable_above AlmostStacked.clearable_above propext Quot.sound Classical.choice Nat.add Nat.sub Nat.mul Nat.pow Nat.gcd Nat.div Nat.mod Nat.beq Nat.ble Nat.land Nat.lor Nat.xor Nat.shiftLeft Nat.shiftRight String.ofList Char.ofNat List eagerReduce Nat String String.mk Char optParam autoParam semiOutParam outParam
+sha256 5af8c78b6ba1cc9e5b50676bf51094f56b9331c587cd385baa3900f771e1930e Challenge.export
+sha256 855ba7b9cf7a5e2557b3394d22ade3757eda04335f616ac5b0ab06f2cc628b3a Solution.export
+WARNING: Sandbox disabled, this run is not trustworthy.
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+comparator rc=0 wall_s=433 flags: 
+utc_end 2026-10-17T10:54:28Z

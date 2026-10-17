@@ -686,5 +686,13 @@
     "url": "../research/S018_LEAN_ASSURANCE.md",
     "access": "PROOF_INSPECTED",
     "note": "sessions/S018/LEAN_ASSURANCE.md, LEAN_COLD_RECHECK.md, SUBMISSION_PREP.md."
+  },
+  {
+    "id": "SRC-0082",
+    "type": "LOCAL_RESEARCH_OR_EVIDENCE",
+    "title": "S019 Palomar packaging: memory-safe build, submission snapshot, fresh-clone verification",
+    "url": "../sessions/S019/PACKAGING.md",
+    "access": "PROOF_INSPECTED",
+    "note": "Snapshot branch palomar/submission; evidence/S019."
   }
 ]
