@@ -2335,5 +2335,38 @@
       "SRC-0077"
     ],
     "claim": "CAM-S016-02: on G9 and the S015 CAM90/91 families, 17 graphs fail critical ASH*-CLEAR (dual), exactly the completed STACK failures; STACK and CLEAR verdicts coincide wherever both are known; 11 family graphs UNKNOWN at caps. CAM-S016-06: 69 of 71 S015 order-9 STACK UNKNOWN graphs ASH_OK by the producer (9 dual), 2 capped."
+  },
+  {
+    "id": "CLM-0264",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0079",
+      "SRC-0077"
+    ],
+    "claim": "S017 Milestone 1 independent cold re-check of CLM-0260 (G9 CLEAR): a new dense forward dynamic programme over all 2,042,975 configurations of masses 0..16 (Lean 4 program, rank-indexed arrays) reproduces K1c-K4c and K1-K4 exactly; every S016 CLEAR checker replayed with identical outputs (one CRLF-only difference), 91/91 S016 hashes; lemmas C1-C7 and T1-T3 re-checked line by line. Status COLD_RECHECK_PASS."
+  },
+  {
+    "id": "CLM-0265",
+    "status": "FORMALLY_CERTIFIED",
+    "sources": [
+      "SRC-0079"
+    ],
+    "claim": "Lean 4 kernel proof (local build; Lean 4.35.0, Mathlib v4.35.0; standard axioms only; no sorry/native_decide): for G9 = graph6 HCQTaXi, the size-14 non-stackable configurations are exactly (0,0,1,0,0,5,0,8,0) and its image, neither almost stacked; every configuration of size >=15 is stackable; IsStackNumber G9 15; the AS threshold is 14; L_all=14, L_AS=13; not ASHStarStack G9; hence critical ASH*-STACK fails for some connected graph. A same-kernel leanchecker replay of all modules passed; Comparator, an independent-kernel check, hosted Lean CI and a fresh-session Lean cold re-check are pending."
+  },
+  {
+    "id": "CLM-0266",
+    "status": "FORMALLY_CERTIFIED",
+    "sources": [
+      "SRC-0079"
+    ],
+    "claim": "Lean 4 kernel proof (local build, same pins and limits as CLM-0265): G9 is connected and not 2-colourable; the size-14 non-clearable configurations are exactly (0,0,1,0,0,5,0,8,0) and its image; every configuration of size >=15 is clearable; IsClearNumber G9 15; the AS threshold is 14; L_all=14, L_AS=13; not ASHStarClear G9; hence critical ASH*-CLEAR fails for some connected non-bipartite graph."
+  },
+  {
+    "id": "CLM-0267",
+    "status": "FORMALLY_CERTIFIED",
+    "sources": [
+      "SRC-0079"
+    ],
+    "claim": "Lean 4 kernel proof (local build): clearable implies stackable (T1) on every finite graph; monotonicity above the order (October Lemma 4.7 / S003 Lemma 2) for stacking and clearing on finite graphs without isolated vertices; soundness of the exact losing-layer checker (layer_step: order, soundness, candidate completeness C5 and terminal 0/1 checks imply exactness of the next layer)."
   }
 ]

@@ -58,24 +58,26 @@ def versioned_tool_source(path,digest):
 
 state = load("authoritative/STATE.json")
 active14 = state.get('active_session') is not None
-closed16 = state.get('last_completed_session') == 'S016'
-closed15 = state.get('last_completed_session') in ('S015', 'S016')
-closed14 = state.get('last_completed_session') in ('S014', 'S015', 'S016')
+closed17 = state.get('last_completed_session') == 'S017'
+closed16 = state.get('last_completed_session') in ('S016', 'S017')
+closed15 = state.get('last_completed_session') in ('S015', 'S016', 'S017')
+closed14 = state.get('last_completed_session') in ('S014', 'S015', 'S016', 'S017')
 executed14 = active14 or closed14
 if active14:
     assert state['active_session']['session']=='S014' and state['active_session']['status']=='IN_PROGRESS'
     assert state['active_session']['session_commit'] is None and state['active_session']['pull_request'] is None
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
-assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
-assert state["last_completed_session"] == ('S016' if closed16 else 'S015' if closed15 else 'S014' if closed14 else 'S013')
-assert state["recommended_next_session"] == ('S017' if closed16 else 'S016' if closed15 else 'S015' if closed14 else 'S014')
+assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
+assert state["last_completed_session"] == ('S017' if closed17 else 'S016' if closed16 else 'S015' if closed15 else 'S014' if closed14 else 'S013')
+assert state["recommended_next_session"] == ('S018' if closed17 else 'S017' if closed16 else 'S016' if closed15 else 'S015' if closed14 else 'S014')
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
 assert state["active_campaign"] is None
-assert state["counterexample_status"] == ("PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed16 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed15 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING")
-assert state["lean_status"] == "NOT_STARTED"
+assert state["counterexample_status"] == ("PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CRITICAL_CLEAR_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF" if closed17 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed16 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed15 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING")
+assert state["lean_status"] == ("IN_PROGRESS_G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "NOT_STARTED")
+assert state["phases"]["3"]["status"] == ("IN_PROGRESS" if closed17 else "NOT_STARTED")
 assert state["palomar_status"] == "NOT_SUBMITTED"
 assert state["arxiv_project_status"] == "NOT_SUBMITTED"
 assert len({c["id"] for c in claims}) == len(claims)
@@ -136,7 +138,7 @@ print("Author correspondence provenance and current future handoff: PASS (admini
 assert state["printed_form_phase1"]["status"] == "PASS"
 spec=load("research/ASH_SPEC.json")
 assert spec["literal_form"]["status"] == "FALSE_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING"
-assert spec["critical_form"]["status"] == ("STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING; CLEAR_REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "STACK_REFUTED_COMPUTED_G9_LEAN_AND_COLD_RECHECK_PENDING; CLEAR_OPEN" if closed15 else "OPEN")
+assert spec["critical_form"]["status"] == ("STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF" if closed17 else "STACK_REFUTED_G9_COLD_RECHECK_PASS_LEAN_PENDING; CLEAR_REFUTED_COMPUTED_G9_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "STACK_REFUTED_COMPUTED_G9_LEAN_AND_COLD_RECHECK_PENDING; CLEAR_OPEN" if closed15 else "OPEN")
 assert spec["s004"]["universal_stack"] == spec["s004"]["universal_clear"] == "OPEN"
 assert state["independent_atlas_n7"]["stack"] == {"complete":853,"total":853}
 assert state["independent_atlas_n7"]["clear"] == {"complete":809,"total":809}
@@ -694,7 +696,7 @@ elif closed15:
     if closed16:
         future17=(ROOT/'sessions/S016/FUTURE_S017.md').read_bytes()
         assert future17.decode() in (ROOT/'sessions/S016/CLOSEOUT.md').read_text(encoding='utf-8')
-        assert state['consumed_prospective_handoff']==prior16
+        assert closed17 or state['consumed_prospective_handoff']==prior16
         rev17_path=ROOT/'authoritative/HANDOFF_REVISION_S017.json'
         if rev17_path.exists():
             # Owner-directed administrative revision of the prospective S017 handoff; S016 bytes unchanged.
@@ -704,17 +706,32 @@ elif closed15:
             revised17=(ROOT/rev17['current_prompt']).read_bytes(); request17=(ROOT/rev17['owner_request']).read_bytes()
             assert hashlib.sha256(revised17).hexdigest()==rev17['current_sha256'] and hashlib.sha256(request17).hexdigest()==rev17['owner_request_sha256']
             assert request17.startswith(b'Write the next session prompt as being a long ambitious session;\n') and b'palomar register' in request17
-            assert next_prompt.encode()==revised17 and state['handoff_revision_s017']==rev17
-            assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
+            assert state['handoff_revision_s017']==rev17
+            if closed17:
+                # S017 executed the owner-revised prompt; its frozen copy is AUTHORISED_PROMPT.md.
+                assert (ROOT/'sessions/S017/AUTHORISED_PROMPT.md').read_bytes()==revised17
+                assert state['consumed_prospective_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
+            else:
+                assert next_prompt.encode()==revised17
+                assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
+                assert state['phases']['3']['status']=='NOT_STARTED' and state['lean_status']=='NOT_STARTED'
             for requirement in ['Milestone 1','cold re-check of the G9 CLEAR counterexample','Palomar','lean-toolchain','Freeze green modules','full `lake build`','BEGIN Lean formalisation']:
                 assert requirement in revised17.decode('utf-8'),requirement
-            assert state['phases']['3']['status']=='NOT_STARTED' and state['lean_status']=='NOT_STARTED'
         else:
+            assert not closed17
             assert next_prompt.encode()==future17
             assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path='sessions/S016/FUTURE_S017.md',sha256=hashlib.sha256(future17).hexdigest())
-        assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S018' in next_prompt
+        assert 'FUTURE, UNEXECUTED' in next_prompt and ('Stop before S019' if closed17 else 'Stop before S018') in next_prompt
         assert (ROOT/'sessions/S016/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
-        assert not (ROOT/'sessions/S017').exists(), 'S017 remains unexecuted'
+        if closed17:
+            future18=(ROOT/'sessions/S017/FUTURE_S018.md').read_bytes()
+            assert future18.decode() in (ROOT/'sessions/S017/CLOSEOUT.md').read_text(encoding='utf-8')
+            assert next_prompt.encode()==future18
+            assert state['next_session_handoff']==dict(session='S018',status='FUTURE_UNEXECUTED',path='sessions/S017/FUTURE_S018.md',sha256=hashlib.sha256(future18).hexdigest())
+            assert (ROOT/'sessions/S017/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
+            assert not (ROOT/'sessions/S018').exists(), 'S018 remains unexecuted'
+        else:
+            assert not (ROOT/'sessions/S017').exists(), 'S017 remains unexecuted'
     else:
         assert state['consumed_prospective_handoff']==prior15
         assert 'FUTURE, UNEXECUTED' in next_prompt and 'Stop before S017' in next_prompt
@@ -734,7 +751,7 @@ elif closed14:
     assert not (ROOT/'sessions/S015').exists(), 'S015 remains unexecuted'
 else:
     assert next_prompt.encode()==future14 and state['next_session_handoff']==prior14
-assert ('Stop before S018' if closed16 else 'Stop before S017' if closed15 else 'Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
+assert ('Stop before S019' if closed17 else 'Stop before S018' if closed16 else 'Stop before S017' if closed15 else 'Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
 assert (ROOT/'sessions/S013/OWNER_INVOCATION.txt').read_bytes()==b'Run the next session\n'
 assert (ROOT/'sessions/S013/OWNER_CONTINUATION.txt').read_bytes()==b'Continue\n'
 assert load('evidence/S013/environment.json')['invocation_sha256']==hashlib.sha256(b'Run the next session\n').hexdigest()
@@ -1078,3 +1095,46 @@ if closed16:
     required16|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S016*.md')}
     assert required16==checked16,(sorted(required16-checked16)[:5],sorted(checked16-required16)[:5])
     print(f'S016 CLOSED: G9 STACK cold re-check PASS, G9 CLEAR counterexample records, order<=9 CLEAR atlas and {len(checked16)} immutable hashes: PASS; Lean pending; CLEAR cold re-check S017 FUTURE.')
+
+if closed17:
+    s17=state['s017']
+    assert s17==spec['s017'] and s17['status']=='COMPLETED'
+    assert s17['milestone1']=='CLEAR_COLD_RECHECK_PASS' and s17['lean']['status']=='G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING'
+    for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,s17['amendments']+1)]:
+        assert sha256_file(ROOT/f'sessions/S017/{name}.md')==(ROOT/f'sessions/S017/{name}.sha256').read_text().split()[0],name
+    assert (ROOT/'formal/lean-toolchain').read_text()=='leanprover/lean4:v4.35.0\n'
+    assert '56a005855ea17e0b0958f73ec801ae140b0a1679' in (ROOT/'formal/lakefile.toml').read_text()
+    manifest=json.loads((ROOT/'formal/lake-manifest.json').read_text())
+    assert any(p['name']=='mathlib' and p['rev']=='56a005855ea17e0b0958f73ec801ae140b0a1679' for p in manifest['packages'])
+    comp=json.loads((ROOT/'formal/comparator.json').read_text())
+    assert comp['permitted_axioms']==['propext','Quot.sound','Classical.choice'] and len(comp['theorem_names'])==s17['lean']['compared_theorems']
+    # Forbidden placeholders and module headers in every formal source.
+    for p in (ROOT/'formal').rglob('*.lean'):
+        if '.lake' in p.parts: continue
+        code=re.sub(r'/-.*?-/','',p.read_text(encoding='utf-8'),flags=re.S)
+        code=re.sub(r'--[^\n]*','',code)
+        toks=set(re.findall(r'\b(sorry|admit|native_decide|axiom|ofReduceBool|implemented_by|extern)\b',code))
+        if p==ROOT/'formal/Challenge.lean': toks-={'sorry'}
+        assert not toks,(p,toks)
+        assert next((l for l in code.splitlines() if l.strip()),'').strip()=='module',p
+        assert len(p.read_text(encoding='utf-8').splitlines())<=10000,p
+    frozen=0
+    for line in (ROOT/'formal/FROZEN_MODULES.md').read_text(encoding='utf-8').splitlines():
+        m=re.match(r'\| `([A-Za-z.0-9]+)` \| `([0-9a-f]{64})` \|',line)
+        if m:
+            assert sha256_file(ROOT/'formal'/(m[1].replace('.','/')+'.lean'))==m[2],m[1];frozen+=1
+    assert frozen==s17['lean']['frozen_modules'],frozen
+    for c in claims:
+        if c['id'] in s17['claims_formal']:assert c['status']=='FORMALLY_CERTIFIED'
+        if c['id'] in s17['claims_computed']:assert c['status']=='COMPUTED_EXACT'
+    checked17=set()
+    for line in (ROOT/'evidence/S017/HASHES.md').read_text(encoding='utf-8').splitlines():
+        m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
+        if m:
+            assert sha256_file(ROOT/m[2])==m[1],m[2];checked17.add(m[2])
+    required17={p.relative_to(ROOT).as_posix() for folder in ['sessions/S017','evidence/S017'] for p in (ROOT/folder).rglob('*') if p.is_file() and p.name!='HASHES.md'}
+    required17|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s017*') if p.is_file()}
+    required17|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S017*.md')}
+    required17|={p.relative_to(ROOT).as_posix() for p in (ROOT/'formal').rglob('*') if p.is_file() and '.lake' not in p.relative_to(ROOT).parts}
+    assert required17==checked17,(sorted(required17-checked17)[:5],sorted(checked17-required17)[:5])
+    print(f'S017 CLOSED: G9 CLEAR cold re-check PASS, Lean G9 STACK+CLEAR local kernel proof, {frozen} frozen modules and {len(checked17)} immutable hashes: PASS; Comparator/independent replay pending; S018 FUTURE.')

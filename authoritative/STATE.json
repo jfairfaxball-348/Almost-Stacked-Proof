@@ -1,10 +1,10 @@
 {
   "project": "Almost-Stacked-Proof",
-  "as_of": "2026-10-16",
-  "last_completed_session": "S016",
-  "recommended_next_session": "S017",
+  "as_of": "2026-10-17",
+  "last_completed_session": "S017",
+  "recommended_next_session": "S018",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
-  "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING",
+  "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
   "active_campaign": null,
   "phases": {
@@ -15,7 +15,7 @@
     "1": {
       "name": "Primary-source exact statement and proof/counterexample research",
       "status": "IN_PROGRESS",
-      "note": "S016: critical ASH*-STACK refutation (G9) COLD_RECHECK_PASS; critical ASH*-CLEAR refuted by the same G9 at COMPUTED_EXACT level (cold re-check S017). Both clauses refuted; Lean (rule 7, Phase 3) owner-gated. Phase 1 stays IN_PROGRESS pending S017 cold re-check and an owner gate decision."
+      "note": "S017: critical ASH*-CLEAR refutation (G9) COLD_RECHECK_PASS; both clauses refuted, both cold-rechecked, both with local Lean kernel proofs (Comparator/independent replay pending). Phase 1 stays IN_PROGRESS pending an owner gate decision."
     },
     "2": {
       "name": "First prior-art / novelty audit",
@@ -23,7 +23,8 @@
     },
     "3": {
       "name": "Lean formalisation",
-      "status": "NOT_STARTED"
+      "status": "IN_PROGRESS",
+      "note": "Owner-authorised start before Phase 2 (S017 handoff revision 2026-10-16). formal/: G9 STACK and CLEAR refutations proved, local kernel build; Comparator, independent kernel replay, hosted Lean CI and Lean cold re-check pending (S018). NOT passed."
     },
     "4": {
       "name": "Final comprehensive novelty audit",
@@ -39,27 +40,28 @@
     }
   },
   "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
-  "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING",
-  "lean_status": "NOT_STARTED",
+  "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CRITICAL_CLEAR_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
+  "lean_status": "IN_PROGRESS_G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING",
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Independent fresh-session cold re-check of the G9 CLEAR counterexample with a newly written checker (S017)",
-    "Lean kernel proof of G9 STACK and CLEAR K1-K4 (AGENTS.md rule 7; Phase 3, owner-gated)",
-    "Owner Phase 1 gate decision after the S017 cold re-check",
+    "Comparator run, independent-kernel check and fresh-session Lean cold re-check of formal/ (S018); same-kernel leanchecker replay 67/67 OK in S017",
+    "Hosted Lean CI (Lean build local-only, UNVERIFIED on hosted runners)",
+    "Owner Phase 1 gate decision (both clauses refuted, cold-rechecked, local Lean proofs)",
+    "Phase 2 novelty audit (owner authorisation)",
     "Bipartite critical ASH*-STACK: no bipartite counterexample known; OPEN",
     "Infinite bridge-path family PB(4,4,2j,1) for STACK and CLEAR: CONJECTURE only",
     "Order-9 CLEAR: 53286 graphs producer-only; S015 order-9 STACK UNKNOWN list: 62 not dual-verified, 2 capped",
     "Independent review of local items 71-110, 114-115, 117-121 (pending)",
-    "No S017 execution, phases 2-6, Lean, contact or publication permission is implied by this closeout."
+    "No S018 execution, phase PASS, Palomar submission, publication or contact permission is implied by this closeout."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
   "headline_detail": {
     "printed_ASH_stack": "FALSE: P4 (0-1-2-3), every AS config of size 12 stackable, (1,0,2,9) not; stack(P4)=15. Certificate evidence/S003/cert_P4_stack_t12.json; S004 cold audit PASS, Lean pending",
     "printed_ASH_clear": "FALSE: bull graph (edges 0-4,1-3,2-3,2-4,3-4), every AS config of size 12 clearable, (1,9,0,2,0) not; clear=15. Certificate evidence/S003/cert_bull_clear_t12.json; S004 cold audit PASS, Lean pending",
-    "critical_form_ASHstar_stack": "FALSE; S016 Gate 1 independent cold re-check PASS (new Rust/Node checkers, all S015 checkers replayed, hand proof audited with repairs R1-R3); Lean pending. FALSE (S015, COMPUTED_EXACT multi-checker, Lean and independent cold re-check pending): G9=HCQTaXi has stack 15, only mass-14 losers (0,0,1,0,0,5,0,8,0) and image, every AS of mass 14 stacks; L_all=14>L_AS=13. All connected graphs of order <=8 satisfy the equality. Historical: OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison. S01487-88 add triplet-head certificate surgery and a bipartite signed barrier; arbitrary/residual smaller-donor loss preservation refuted, critical/global-Q weakening unproved.",
-    "critical_form_ASHstar_clear": "FALSE (S016, COMPUTED_EXACT multi-checker, cold re-check S017 and Lean pending): G9=HCQTaXi has clear 15, the only mass-14 non-clearable configurations are the two STACK critical losers (non-AS), every AS of mass 14 and every configuration of mass 15 clears; L_all=14>L_AS=13. All non-bipartite connected graphs of order <=8 satisfy the equality (dual). Historical: OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison.",
+    "critical_form_ASHstar_stack": "FALSE; Lean proof (S017, local kernel build, Comparator pending): G9=HCQTaXi has stack 15, only size-14 losers (0,0,1,0,0,5,0,8,0) and image, every AS of size 14 stacks; L_all=14>L_AS=13. FALSE; S016 Gate 1 independent cold re-check PASS (new Rust/Node checkers, all S015 checkers replayed, hand proof audited with repairs R1-R3); Lean pending. FALSE (S015, COMPUTED_EXACT multi-checker, Lean and independent cold re-check pending): G9=HCQTaXi has stack 15, only mass-14 losers (0,0,1,0,0,5,0,8,0) and image, every AS of mass 14 stacks; L_all=14>L_AS=13. All connected graphs of order <=8 satisfy the equality. Historical: OPEN universally; prior trees/complete multipartite/bound-saturation classes and complete n<=7 computation; S008 proves every triangle tail and common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison. S01487-88 add triplet-head certificate surgery and a bipartite signed barrier; arbitrary/residual smaller-donor loss preservation refuted, critical/global-Q weakening unproved.",
+    "critical_form_ASHstar_clear": "FALSE; S017 cold re-check PASS and Lean proof (local kernel build, Comparator pending). FALSE (S016, COMPUTED_EXACT multi-checker, cold re-check S017 and Lean pending): G9=HCQTaXi has clear 15, the only mass-14 non-clearable configurations are the two STACK critical losers (non-AS), every AS of mass 14 and every configuration of mass 15 clears; L_all=14>L_AS=13. All non-bipartite connected graphs of order <=8 satisfy the equality (dual). Historical: OPEN universally; eligible complete multipartite/bound-saturation classes and complete n<=7 computation; audited S007 triangle tails/conditional sharp-core paths; S008 common-root triangle leaf family; S010 exact counts/ports and scoped critical restrictions, global AS extremal bridge still OPEN; S011 exact terminal transport/root typing/critical restrictions, universal comparison still OPEN; S012 reciprocal input languages/donor identities/escape barriers, universal extremal comparison still OPEN; S013 exact minimal-open-neighborhood extremal restriction proved, residual universal comparison OPEN; S01471-84 prove Hall/causal path-cover necessity and full arbitrary-buffer join-class ASH*, not the unrestricted comparison.",
     "assurance": "S014 CLOSED at explicit owner request; local71-121 and81 bounded campaigns retain exact scopes. Universal STACK/CLEAR OPEN; independent human/kernel/priority assurance absent. Fresh full-DAG cold challenge FUTURE S015."
   },
   "correspondence": {
@@ -74,7 +76,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S017 strictly FUTURE_UNEXECUTED (owner-revised, long session): cold re-check of the G9 CLEAR counterexample; local Lean environment aligned with Palomar registry requirements; hashed formalisation plan with frozen-module build discipline; begin Lean formalisation (owner-authorised start of Phase 3 work, no phase PASS).",
+  "next_session_context": "S018 strictly FUTURE_UNEXECUTED: reproduce the S017 Lean build; Comparator and independent kernel replay; Lean cold re-check of the Challenge statements; submission preparation only (formalization.yaml draft), no submission.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -419,10 +421,10 @@
     }
   },
   "next_session_handoff": {
-    "session": "S017",
+    "session": "S018",
     "status": "FUTURE_UNEXECUTED",
-    "path": "authoritative/handoffs/S017_OWNER_REVISED_2026-10-16.md",
-    "sha256": "5416dd68f1b619925ce802b9d2f21c0a62fcee719be6fc1481eef96d68b9b7dc"
+    "path": "sessions/S017/FUTURE_S018.md",
+    "sha256": "7bcd98260cdca230404862fecdd053988a9e7e8b7df7705b84ccaca494fdcf24"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -514,10 +516,10 @@
   },
   "active_session": null,
   "consumed_prospective_handoff": {
-    "session": "S016",
+    "session": "S017",
     "status": "FUTURE_UNEXECUTED",
-    "path": "authoritative/handoffs/S016_OWNER_REVISED_2026-10-16.md",
-    "sha256": "dc5873f87931edc0a879631679c8afd7c3d6dc333bb6b2ce49d2fb36339991bd"
+    "path": "authoritative/handoffs/S017_OWNER_REVISED_2026-10-16.md",
+    "sha256": "5416dd68f1b619925ce802b9d2f21c0a62fcee719be6fc1481eef96d68b9b7dc"
   },
   "s014": {
     "status": "COMPLETED",
@@ -4465,5 +4467,49 @@
     "owner_authorization": "Owner asks S017 to set up a local Lean environment and begin Lean formalisation (Phase 3 work) before the Phase 2 novelty audit; owner-authorised revision of the rule-10 stage order. No phase PASS, Palomar submission/registration, publication or author contact is authorised.",
     "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S016 immutable files (including sessions/S016/FUTURE_S017.md and CLOSEOUT.md) preserved.",
     "closeout_addendum_for": "sessions/S016/CLOSEOUT.md"
+  },
+  "s017": {
+    "status": "COMPLETED",
+    "milestone1": "CLEAR_COLD_RECHECK_PASS",
+    "milestone1_checker": "tools/s017_g9_dense.lean (Lean 4 program, dense forward DP over all 2042975 configurations of masses 0..16)",
+    "milestone1_replays": "all S016 CLEAR checkers identical (one CRLF-only difference); 91/91 S016 hashes",
+    "universal_stack": "REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
+    "universal_clear": "REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
+    "lean": {
+      "status": "G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING",
+      "project": "formal/",
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "palomar_policy_read": "2026-10-16T22:57Z PalomarPolicy@96b034cc, PalomarSubmission@d4e41c1d minimum v4.35.0-rc2",
+      "compared_theorems": 25,
+      "frozen_modules": 67,
+      "axioms": "propext, Classical.choice, Quot.sound (subset) for every printed declaration",
+      "method": "verified exact losing-layer checker (layer_step) evaluated by decide +kernel on untrusted certificate layers, one module per layer",
+      "full_build": "staged build tools/s017_staged_build.sh PASS: 30 steps, final lake build 1201 jobs completed successfully (23 s replay); heavy checks 19-73 s each in isolation; peak lean private memory about 9.3 GB (single heavy check); see sessions/S017/LEAN_RECORD.md",
+      "leanchecker_replay": "67/67 non-root modules OK (same kernel)",
+      "pending": [
+        "Comparator run",
+        "independent-kernel check (lean4lean / leanexport+nanoda)",
+        "hosted Lean CI",
+        "fresh-session Lean cold re-check",
+        "formalization.yaml"
+      ]
+    },
+    "amendments": 2,
+    "protocol_deviations": [
+      "pre-amendment core-Lean kernel benchmark on G9 layers (pilot, not evidence)",
+      "two aborted full builds that thrashed the host (archived, not results)"
+    ],
+    "claims_computed": [
+      "CLM-0264"
+    ],
+    "claims_formal": [
+      "CLM-0265",
+      "CLM-0266",
+      "CLM-0267"
+    ],
+    "author_code_clear": "NOT_RUN",
+    "author_contact": "NONE",
+    "palomar": "NOT_SUBMITTED"
   }
 }

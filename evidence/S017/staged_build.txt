@@ -1,0 +1,31 @@
+step base rc=0 wall_s=10 targets: AlmostStacked.G9.Graph
+step checkStack2 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckStack2
+step checkStack3 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckStack3
+step checkStack4 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckStack4
+step checkStack5 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckStack5
+step checkStack6 rc=0 wall_s=24 targets: AlmostStacked.G9.CheckStack6
+step checkStack7 rc=0 wall_s=38 targets: AlmostStacked.G9.CheckStack7
+step checkStack8 rc=0 wall_s=62 targets: AlmostStacked.G9.CheckStack8
+step checkStack9 rc=0 wall_s=73 targets: AlmostStacked.G9.CheckStack9
+step checkStack10 rc=0 wall_s=57 targets: AlmostStacked.G9.CheckStack10
+step checkStack11 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckStack11
+step checkStack12 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckStack12
+step checkStack13 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckStack13
+step checkStack14 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckStack14
+step checkStack15 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckStack15
+step checkClear2 rc=0 wall_s=8 targets: AlmostStacked.G9.CheckClear2
+step checkClear3 rc=0 wall_s=10 targets: AlmostStacked.G9.CheckClear3
+step checkClear4 rc=0 wall_s=10 targets: AlmostStacked.G9.CheckClear4
+step checkClear5 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckClear5
+step checkClear6 rc=0 wall_s=19 targets: AlmostStacked.G9.CheckClear6
+step checkClear7 rc=0 wall_s=33 targets: AlmostStacked.G9.CheckClear7
+step checkClear8 rc=0 wall_s=54 targets: AlmostStacked.G9.CheckClear8
+step checkClear9 rc=0 wall_s=65 targets: AlmostStacked.G9.CheckClear9
+step checkClear10 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckClear10
+step checkClear11 rc=0 wall_s=28 targets: AlmostStacked.G9.CheckClear11
+step checkClear12 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckClear12
+step checkClear13 rc=0 wall_s=3 targets: AlmostStacked.G9.CheckClear13
+step checkClear14 rc=0 wall_s=2 targets: AlmostStacked.G9.CheckClear14
+step checkClear15 rc=0 wall_s=9 targets: AlmostStacked.G9.CheckClear15
+step full rc=0 wall_s=23 targets: 
+STAGED_BUILD_OK

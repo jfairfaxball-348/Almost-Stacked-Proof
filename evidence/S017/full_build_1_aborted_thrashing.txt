@@ -1,0 +1,44 @@
+✔ [1161/1201] Built AlmostStacked.Basic (6.6s)
+⚠ [1162/1201] Built Challenge (6.7s)
+warning: Challenge.lean:114:8: declaration uses `sorry`
+warning: Challenge.lean:116:8: declaration uses `sorry`
+warning: Challenge.lean:120:8: declaration uses `sorry`
+warning: Challenge.lean:123:8: declaration uses `sorry`
+warning: Challenge.lean:125:8: declaration uses `sorry`
+warning: Challenge.lean:127:8: declaration uses `sorry`
+warning: Challenge.lean:129:8: declaration uses `sorry`
+warning: Challenge.lean:132:8: declaration uses `sorry`
+warning: Challenge.lean:134:8: declaration uses `sorry`
+warning: Challenge.lean:138:8: declaration uses `sorry`
+warning: Challenge.lean:141:8: declaration uses `sorry`
+warning: Challenge.lean:145:8: declaration uses `sorry`
+warning: Challenge.lean:147:8: declaration uses `sorry`
+warning: Challenge.lean:152:8: declaration uses `sorry`
+warning: Challenge.lean:155:8: declaration uses `sorry`
+warning: Challenge.lean:157:8: declaration uses `sorry`
+warning: Challenge.lean:160:8: declaration uses `sorry`
+warning: Challenge.lean:162:8: declaration uses `sorry`
+warning: Challenge.lean:166:8: declaration uses `sorry`
+warning: Challenge.lean:169:8: declaration uses `sorry`
+warning: Challenge.lean:173:8: declaration uses `sorry`
+warning: Challenge.lean:175:8: declaration uses `sorry`
+warning: Challenge.lean:182:8: declaration uses `sorry`
+warning: Challenge.lean:186:8: declaration uses `sorry`
+warning: Challenge.lean:192:8: declaration uses `sorry`
+✔ [1164/1201] Built AlmostStacked.Encode (7.6s)
+✔ [1165/1201] Built AlmostStacked.Checker (6.5s)
+✔ [1166/1201] Built AlmostStacked.G9.Graph (7.4s)
+✔ [1167/1201] Built AlmostStacked.G9.CheckClear5 (27s)
+✔ [1168/1201] Built AlmostStacked.G9.CheckStack13 (13s)
+✔ [1169/1201] Built AlmostStacked.G9.CheckStack12 (121s)
+✔ [1170/1201] Built AlmostStacked.G9.CheckStack11 (70s)
+✔ [1171/1201] Built AlmostStacked.G9.CheckStack14 (260s)
+✔ [1172/1201] Built AlmostStacked.G9.CheckClear12 (260s)
+✔ [1173/1201] Built AlmostStacked.G9.CheckClear13 (260s)
+✔ [1174/1201] Built AlmostStacked.G9.CheckClear14 (260s)
+✔ [1175/1201] Built AlmostStacked.G9.CheckClear10 (261s)
+✔ [1176/1201] Built AlmostStacked.G9.CheckStack5 (16s)
+
+real	9m52.238s
+user	0m0.015s
+sys	0m0.000s

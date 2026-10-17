@@ -1,0 +1,62 @@
+⚠ [918/1011] Replayed AlmostStacked.Basic
+warning: AlmostStacked/Basic.lean:29:0: automatically included section variable(s) unused in theorem `AlmostStacked.stackable_iff_wins`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AlmostStacked/Basic.lean:35:0: automatically included section variable(s) unused in theorem `AlmostStacked.wins_iff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AlmostStacked/Basic.lean:57:0: automatically included section variable(s) unused in theorem `AlmostStacked.move_iff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AlmostStacked/Basic.lean:75:0: automatically included section variable(s) unused in theorem `AlmostStacked.le_size`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AlmostStacked/Basic.lean:119:0: automatically included section variable(s) unused in theorem `AlmostStacked.exists_two_le`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1140/1165] Built AlmostStacked.Data.G9Stack13 (6.8s)
+✔ [1141/1165] Built AlmostStacked.Data.G9Stack14 (6.8s)
+✔ [1142/1165] Built AlmostStacked.Data.G9Stack15 (6.9s)
+✔ [1143/1165] Built AlmostStacked.Data.G9Stack12 (7.1s)
+✔ [1144/1165] Built AlmostStacked.Data.G9Stack11 (7.1s)
+✔ [1145/1165] Built AlmostStacked.Data.G9Stack10 (7.6s)
+✔ [1146/1165] Built AlmostStacked.Data.G9Stack2 (8.3s)
+✔ [1147/1165] Built AlmostStacked.Data.G9Stack3 (8.3s)
+✔ [1148/1165] Built AlmostStacked.Data.G9Stack4 (8.3s)
+✔ [1149/1165] Built AlmostStacked.Data.G9Stack5 (8.3s)
+✔ [1150/1165] Built AlmostStacked.Data.G9Stack6 (8.3s)
+✔ [1151/1165] Built AlmostStacked.Data.G9Stack9 (8.4s)
+✔ [1152/1165] Built AlmostStacked.G9.CheckStack14 (13s)
+✔ [1153/1165] Built AlmostStacked.G9.CheckStack15 (13s)
+✔ [1154/1165] Built AlmostStacked.G9.CheckStack13 (15s)
+✔ [1155/1165] Built AlmostStacked.G9.CheckStack2 (20s)
+✔ [1156/1165] Built AlmostStacked.G9.CheckStack12 (24s)
+✔ [1157/1165] Built AlmostStacked.G9.CheckStack11 (68s)
+✔ [1158/1165] Built AlmostStacked.G9.CheckStack4 (75s)
+✔ [1159/1165] Built AlmostStacked.G9.CheckStack6 (75s)
+✔ [1160/1165] Built AlmostStacked.G9.CheckStack3 (75s)
+✔ [1161/1165] Built AlmostStacked.G9.CheckStack5 (75s)
+✔ [1162/1165] Built AlmostStacked.G9.CheckStack7 (75s)
+✔ [1163/1165] Built AlmostStacked.G9.CheckStack10 (147s)
+✔ [1164/1165] Built AlmostStacked.G9.CheckStack9 (163s)
+✔ [1165/1165] Built AlmostStacked.G9.StackLayers (13s)
+Build completed successfully (1165 jobs).
+
+real	3m7.885s
+user	0m0.000s
+sys	0m0.030s
