@@ -1,6 +1,6 @@
 # Lean formalisation (Phase 3 work begun in S017; Phase 3 NOT passed)
 
-Owner-authorised start of Phase 3 before the Phase 2 novelty audit (S017 handoff revision, 2026-10-16). Nothing here has been submitted to Palomar or anywhere else; no Comparator run has been made yet (a local stand-in check only, see below).
+Owner-authorised start of Phase 3 before the Phase 2 novelty audit (S017 handoff revision, 2026-10-16). Nothing here has been submitted to Palomar or anywhere else. A local, unsandboxed `lake comparator` run was made in S018 (see Assurance).
 
 ## What is proved
 
@@ -12,7 +12,7 @@ For the nine-vertex graph `G9` (graph6 `HCQTaXi`, edges 0-3, 0-5, 0-6, 1-4, 1-7,
 - `¬ ASHStarStack G9`, `¬ ASHStarClear G9`, and the universal negations: the critical ASH* fails for some connected graph (STACK) and for some connected non-bipartite graph (CLEAR);
 - general lemmas: clearable implies stackable (T1); monotonicity above the order (October Lemma 4.7 / S003 Lemma 2) for graphs without isolated vertices.
 
-The statements of record are the 25 theorems of `Challenge.lean` (listed in `comparator.json`). The earlier TreeStack result `stack(T) = estim(T)` (arXiv:2609.31811) is prior work and is not used or reproved; its Lean package is not reused.
+The statements of record are the 25 theorems of `Challenge.lean` (listed in `comparator.json`; three of them re-stated with the section universe in S018, finding F1). The earlier TreeStack result `stack(T) = estim(T)` (arXiv:2609.31811) is prior work and is not used or reproved; its Lean package is not reused.
 
 ## How
 
@@ -34,6 +34,13 @@ bash ../tools/s017_staged_build.sh   # one heavy kernel check at a time, then `l
 
 Measured costs and the frozen-module ledger: `sessions/S017/LEAN_RECORD.md`, `formal/FROZEN_MODULES.md`. The kernel checks are heavy: each of the larger layer checks takes about 20-80 s and commits up to about 10 GB, so a plain `lake build` (which runs them in parallel) can exhaust a 16 GB machine; the staged script builds them one at a time (about 15 minutes in total). Hosted CI does not build the Lean project (UNVERIFIED on hosted runners).
 
+## Assurance (S018, 2026-10-17; details sessions/S018/LEAN_ASSURANCE.md)
+
+- Clean re-build from an empty `.lake/build` with the staged script: PASS (829 s; 59 axiom prints standard; placeholder scan PASS; 67/67 frozen hashes match).
+- `lake comparator` of the pinned toolchain (the tool Palomar judges with), on `leanexport` exports with Palomar's target list, run with `--inadvisably-no-sandbox` because bwrap does not exist on Windows (not Palomar's sandboxed execution). Run 1 found F1: the three general lemmas of the S017 `Challenge.lean` had universe parameter `u_2` instead of `u_1` (a redundant `{V : Type*}` re-binding); fixed in `Challenge.lean` only. Run 2: statement comparison and axiom check PASS for all 25 names; Lean's kernel (`leanchecker --from-export`) accepts. The external kernels in that run were killed by the session's 12 GiB cap (UNKNOWN); standalone single-thread replays are recorded in sessions/S018/LEAN_ASSURANCE.md.
+- Statement cold re-check against research/ASH_SPEC.md: PASS after the F1 fix (sessions/S018/LEAN_COLD_RECHECK.md).
+- `formalization.yaml`: DRAFT, NOT SUBMITTED; owner fields and a repository licence are required first.
+
 ## Not done
 
-`leanchecker` replay of all 67 non-root modules passed (same kernel; sessions/S017/LEAN_RECORD.md). No Comparator run, no independent-kernel check (lean4lean / leanexport + nanoda), no `formalization.yaml`, no Palomar submission (owner-gated), no human-proof formalisation of the non-stackability of `cStar` (it comes from the certificate).
+No sandboxed (bwrap) Comparator run; no hosted Lean CI (UNVERIFIED on hosted runners); no Palomar submission (owner-gated); no human-proof formalisation of the non-stackability of `cStar` (it comes from the certificate).

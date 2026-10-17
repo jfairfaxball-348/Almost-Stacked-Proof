@@ -1,0 +1,20 @@
+== clearable_stackable
+kind thm thm
+A levelParams [('u_2',)]
+B levelParams [('u_1',)]
+FIRST_DIFF ('type.forallE.type.sort[1][1][0]', 'u_2', 'u_1')
+== stackable_above
+kind thm thm
+A levelParams [('u_2',)]
+B levelParams [('u_1',)]
+FIRST_DIFF ('type.forallE.type.sort[1][1][0]', 'u_2', 'u_1')
+== clearable_above
+kind thm thm
+A levelParams [('u_2',)]
+B levelParams [('u_1',)]
+FIRST_DIFF ('type.forallE.type.sort[1][1][0]', 'u_2', 'u_1')
+== G9_stack_14
+kind thm thm
+A levelParams []
+B levelParams []
+FIRST_DIFF None

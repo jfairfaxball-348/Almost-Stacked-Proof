@@ -179,17 +179,17 @@ theorem not_forall_ASHStarClear :
 /-! ## General lemmas -/
 
 /-- T1: clearable implies stackable. -/
-theorem clearable_stackable {V : Type*} [Fintype V] [DecidableEq V] (G : SimpleGraph V)
+theorem clearable_stackable (G : SimpleGraph V)
     (c : V → ℕ) (h : Clearable G c) : Stackable G c := sorry
 
 /-- Monotonicity above the order for stacking (October Lemma 4.7 / S003 Lemma 2). -/
-theorem stackable_above {V : Type*} [Fintype V] [DecidableEq V] (G : SimpleGraph V)
+theorem stackable_above (G : SimpleGraph V)
     (hiso : ∀ u, ∃ v, G.Adj u v) (t : ℕ) (ht : Fintype.card V ≤ t)
     (h : ∀ c : V → ℕ, size c = t → Stackable G c) :
     ∀ s, t ≤ s → ∀ c : V → ℕ, size c = s → Stackable G c := sorry
 
 /-- Monotonicity above the order for clearing (October Lemma 4.7 / S003 Lemma 2). -/
-theorem clearable_above {V : Type*} [Fintype V] [DecidableEq V] (G : SimpleGraph V)
+theorem clearable_above (G : SimpleGraph V)
     (hiso : ∀ u, ∃ v, G.Adj u v) (t : ℕ) (ht : Fintype.card V ≤ t)
     (h : ∀ c : V → ℕ, size c = t → Clearable G c) :
     ∀ s, t ≤ s → ∀ c : V → ℕ, size c = s → Clearable G c := sorry

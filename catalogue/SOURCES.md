@@ -169,3 +169,9 @@ S016: no source re-fetched; authors code not run.
 - **SRC-0079** S017 G9 CLEAR cold re-check and Lean formalisation of the G9 STACK and CLEAR counterexamples - **PROOF_INSPECTED**. ../research/S017_LEAN.md - sessions/S017/CLEAR_RECHECK.md, sessions/S017/LEAN_RECORD.md, formal/ (Lean 4.35.0, Mathlib v4.35.0).
 
 S017: Palomar policy and toolchain minimum read (SRC-0078); no paper re-fetched; authors' code not run.
+
+- **SRC-0080** Palomar submission pipeline (PalomarSubmission verify_submission.py, submission.yml, comparator declaration-closure note, formalization template) and lake comparator source (Lake/CLI/Check.lean, Lake/Check/Compare.lean at Lean v4.35.0) - **STATEMENT_INSPECTED**. https://github.com/PalomarRegistry/PalomarSubmission - Read 2026-10-17T06:19Z at PalomarSubmission d4e41c1d and PalomarPolicy 96b034cc; paraphrased in sessions/S018/PLAN.md; not mirrored. Nothing submitted.
+
+- **SRC-0081** S018 Lean assurance: build reproduction, Comparator, independent kernels, statement cold re-check, submission preparation - **PROOF_INSPECTED**. ../research/S018_LEAN_ASSURANCE.md - sessions/S018/LEAN_ASSURANCE.md, LEAN_COLD_RECHECK.md, SUBMISSION_PREP.md.
+
+S018: Palomar pipeline and toolchain comparator source read (SRC-0080); no paper re-fetched; authors' code not run.

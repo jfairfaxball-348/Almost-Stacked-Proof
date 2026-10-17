@@ -79,6 +79,13 @@ explicit un-freeze entry below. `validation/validate_governance.py` re-hashes ev
 evidence/S017/HASHES.md, and its definitions are checked byte-identical to `AlmostStacked/Defs.lean` by
 `tools/s017_challenge_bridge.py`.
 
+## S018 re-check
+
+S018 re-hashed all 67 rows after a clean re-build: 67/67 match (evidence/S018/frozen_rehash.txt). No module was
+un-frozen or added. `Challenge.lean` (not frozen) was changed in S018 to fix Comparator finding F1 (universe
+parameter name of three general lemmas; sessions/S018/PLAN_AMENDMENT_1.md); its S017 and S018 hashes are in
+evidence/S018/HASHES.md.
+
 ## Un-freeze entries
 
 None.
