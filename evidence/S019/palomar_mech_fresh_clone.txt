@@ -1,0 +1,11 @@
+PASS tree_size: 877642 bytes (cap 524288000)
+PASS compiled_artifacts: none
+PASS symlinks: none
+PASS preservable_checkout: no submodules / LFS
+PASS lean_sources: {"schema_version": 1, "module_required": true, "maximum_lines": 10000, "files_checked": 68}
+PASS formalization_yaml: name='The critical Almost Stacked Hypothesis fails on a nine-verte' license=Apache-2.0
+PASS licence: LICENSE Apache-2.0
+PASS comparator_json: 25 theorems, axioms ['Classical.choice', 'Quot.sound', 'propext']
+PASS challenge: 8659 bytes, 197 lines, imports Mathlib only
+PASS toolchain: leanprover/lean4:v4.35.0; mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679; single TOML lakefile; committed manifest
+MECH_PASS

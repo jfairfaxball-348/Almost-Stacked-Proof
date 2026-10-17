@@ -1,10 +1,8 @@
-# DRAFT (S018, 2026-10-17) - NOT SUBMITTED. formalization.yaml v0.4 shaped after the Palomar
-# policy read 2026-10-17T06:19Z (PalomarPolicy 96b034cc, PalomarSubmission d4e41c1d template
-# tests/fixtures/palomar-template-formalization.yaml). Every OWNER_TO_CONFIRM value must be
-# settled by the repository owner before any submission; submission itself needs separate
-# explicit owner authorisation. Blockers recorded in sessions/S018/SUBMISSION_PREP.md:
-# no repository LICENSE file yet; people fields; automation model names (kept out of
-# repository files by AGENTS.md rule 12 until the owner decides); Phase 2 novelty audit.
+# formalization.yaml v0.4 (S019 final, 2026-10-17). Shaped after the Palomar policy
+# (PalomarPolicy CONTRIBUTING.md) and template (PalomarSubmission
+# tests/fixtures/palomar-template-formalization.yaml); validated against the upstream schema
+# (sessions/S019/PACKAGING.md). Owner decisions 2026-10-17: licence Apache-2.0; AI systems
+# named in automation.methods; novelty audit waived by the owner.
 version: "v0.4"
 
 project:
@@ -18,41 +16,58 @@ project:
     Hypothesis, in its critical form, says that this number equals the least t0 >= 2
     such that every almost stacked configuration (one vertex arbitrary, every other
     vertex at most one pebble) of every size at least t0 is stackable (clearable). We
-    formalise, from first principles, a counterexample to both clauses: on the
-    nine-vertex graph G9 (graph6 HCQTaXi) the stacking and clearing numbers are 15, the
-    only non-stackable and non-clearable configurations of size 14 are
-    (0,0,1,0,0,5,0,8,0) and its automorphic image, neither almost stacked, while every
-    almost stacked configuration of size at least 14 is stackable and clearable. The
-    finite facts are proved by kernel evaluation of a verified exact losing-layer
-    checker on certificate data; general lemmas (clearable implies stackable;
-    monotonicity above the order) are proved by hand.
+    formalise a counterexample to both clauses: on the nine-vertex graph G9 (graph6
+    HCQTaXi) the stacking and clearing numbers are 15, the only non-stackable and
+    non-clearable configurations of size 14 are (0,0,1,0,0,5,0,8,0) and its automorphic
+    image, neither almost stacked, while every almost stacked configuration of size at
+    least 14 is stackable and clearable. Hence neither clause holds for all finite
+    connected (respectively connected non-bipartite) graphs. The finite facts are proved
+    by kernel evaluation (decide +kernel) of a verified exact losing-layer checker on
+    certificate data; general lemmas (clearable implies stackable; monotonicity above
+    the order) are proved by hand.
   authors:
-    - "OWNER_TO_CONFIRM"
-  license: "OWNER_TO_CONFIRM (no LICENSE file in the repository yet)"
+    - "John Fairfax-Ball"
+  license: "Apache-2.0"
   responsible_maintainers:
-    - "OWNER_TO_CONFIRM"
+    - "John Fairfax-Ball"
 
 classification:
   arxiv: [math.CO]
   msc2020: [05C57, 05C85]
 
 sources:
-  - title: "Counterexample to the critical Almost Stacked Hypothesis (stacking and clearing) on the graph HCQTaXi"
+  - title: "Counterexample on the graph HCQTaXi to the critical form of the Almost Stacked Hypothesis, for stacking and for clearing"
     type: original-proof
     relationship: other
-    note: "OWNER_TO_CONFIRM after the Phase 2 novelty audit (not yet run): first presentation in this repository (research/S015_G9_COUNTEREXAMPLE.md, research/S016_CLEAR.md)."
-  - title: "The Almost Stacked Hypothesis: A Conjectural Analogue of Sjostrand's Cover Pebbling Theorem"
+    note: >-
+      First presented in the research repository
+      https://github.com/jfairfaxball-348/Almost-Stacked-Proof (records S015-S016,
+      independently re-checked S016-S017). No novelty or prior-art audit was performed
+      (waived by the owner); no claim of worldwide priority is made.
+  - title: "The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem"
+    authors:
+      - "Tamás Csernák"
+      - "Lajos Soukup"
     id: "arXiv:2610.09650v1"
     type: paper
     location: "https://arxiv.org/abs/2610.09650"
     relationship: background
-    note: "States the Almost Stacked Hypothesis (Hypothesis 3.2); the critical form is the meaning reported by an author in correspondence. OWNER_TO_CONFIRM author list and endorsement field (author contact needs owner authorisation)."
+    note: >-
+      States the Almost Stacked Hypothesis (Hypothesis 3.2). The printed pointwise form is
+      false (separate counterexamples, not formalised here); the critical (monotone) form
+      formalised here is the meaning an author reported as intended, in correspondence of
+      2026-10-13 with the repository owner.
+    author_endorsement: other
   - title: "Stacking and clearing in graph pebbling"
+    authors:
+      - "Tamás Csernák"
+      - "Lajos Soukup"
     id: "arXiv:2604.22341v1"
     type: paper
     location: "https://arxiv.org/abs/2604.22341"
     relationship: background
-    note: "Defines stacking and clearing numbers; Hypothesis 9.1 is the same hypothesis. OWNER_TO_CONFIRM author list."
+    note: "Defines the stacking and clearing numbers; its Hypothesis 9.1 is the same hypothesis."
+    author_endorsement: other
 
 related_formalizations:
   - id: "https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1"
@@ -67,9 +82,9 @@ status:
     14 and largest almost stacked losing size 13, failure of the critical hypothesis for
     G9 and hence of its universal form over all finite connected (resp. connected
     non-bipartite) graphs; clearable implies stackable; monotonicity above the order.
-    Not formalised: the printed pointwise form of the hypothesis and its counterexamples
-    (P4, bull graph); any positive result; the human proof of non-stackability of the
-    critical loser (the certificate proves it).
+    Not formalised: the printed pointwise form of the hypothesis and its counterexamples;
+    any positive result; a human proof of the non-stackability of the critical loser (the
+    certificate proves it).
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: []
@@ -77,21 +92,40 @@ status:
 automation:
   methods:
     - method: agent
-      models: ["OWNER_TO_CONFIRM"]
-      framework: "OWNER_TO_CONFIRM"
-      tool_setup: "AI agent writing Lean, generators and checkers under a written session protocol; owner-directed sessions"
-      prompting_notes: "Numbered session handoffs in authoritative/ and sessions/."
-  spend_usd: "OWNER_TO_CONFIRM"
-  notes: "See sessions/S015-S018 records (computation, cold re-checks, Lean, Comparator)."
+      models: ["Claude", "Codex"]
+      framework: "Claude Code and Codex coding-agent environments"
+      tool_setup: >-
+        AI agents, directed by the owner through numbered research sessions, wrote the
+        Lean development, the certificate generator, independent checkers and the
+        cold re-checks; Lean 4 and Mathlib; local Lean kernel, lake comparator and the
+        bundled external kernels for assurance.
+      cost:
+        wall_time: "research sessions S001-S019, 2026-10-12 to 2026-10-17"
+        spend_usd: "not tracked"
+        hardware: "local workstation (16 GB RAM) and GitHub-hosted CI"
+      prompting_notes: "Owner-written session handoffs; full session records are in the research repository."
+  spend_usd: "not tracked"
+  notes: >-
+    The owner set the research direction and approved each session; AI agents carried out
+    the mathematics, computation and Lean work under a written protocol (preregistered
+    computations, dual independent checkers, fresh-session cold re-checks).
 
 fidelity:
-  divergences: "Critical (monotone) form ASH* rather than the printed pointwise form; see sessions/S018/LEAN_COLD_RECHECK.md."
+  divergences: >-
+    The critical (monotone) form of the hypothesis, reported by an author as the intended
+    meaning, rather than the printed pointwise form. Definitions follow the source
+    model (configurations as functions V -> N, moves along edges removing two pebbles and
+    adding one); the universal statements quantify over graphs on Fin n.
 
 review:
   status: "agent-reviewed"
   reviewers:
     - "none"
-  notes: "Fresh-session cold re-checks S016 (STACK) and S017 (CLEAR) of the computation; S018 statement cold re-check (sessions/S018/LEAN_COLD_RECHECK.md); local lake comparator (sessions/S018/LEAN_ASSURANCE.md). No human peer review."
+  notes: >-
+    Independent fresh-session cold re-checks of the computation (STACK and CLEAR) and of
+    the Lean statements against the specification; local lake comparator (statement and
+    axiom check) and replays by Lean's kernel, nanoda, con-ron, lean4lean and
+    leanchecker-paranoid. No human peer review.
 
 alignment:
   namespace: "AlmostStacked"
@@ -107,4 +141,4 @@ alignment:
       status: "proved (negation)"
       note: "Counterexample G9; see also AlmostStacked.G9_not_ASHStarClear."
 
-acknowledgements: "Lean 4 and Mathlib. Earlier tree stacking result (arXiv:2609.31811) credited as prior work."
+acknowledgements: "Lean 4 and Mathlib. The earlier tree stacking result (arXiv:2609.31811) is credited as prior work."

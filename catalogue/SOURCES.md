@@ -175,3 +175,7 @@ S017: Palomar policy and toolchain minimum read (SRC-0078); no paper re-fetched;
 - **SRC-0081** S018 Lean assurance: build reproduction, Comparator, independent kernels, statement cold re-check, submission preparation - **PROOF_INSPECTED**. ../research/S018_LEAN_ASSURANCE.md - sessions/S018/LEAN_ASSURANCE.md, LEAN_COLD_RECHECK.md, SUBMISSION_PREP.md.
 
 S018: Palomar pipeline and toolchain comparator source read (SRC-0080); no paper re-fetched; authors' code not run.
+
+- **SRC-0082** S019 Palomar packaging: memory-safe build, submission snapshot, fresh-clone verification - **PROOF_INSPECTED**. ../sessions/S019/PACKAGING.md - Snapshot branch palomar/submission; evidence/S019.
+
+S019: Palomar repositories re-pinned (unchanged); arXiv API author listings read; no paper re-fetched.

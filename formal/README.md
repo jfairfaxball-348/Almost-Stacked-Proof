@@ -29,18 +29,23 @@ The statements of record are the 25 theorems of `Challenge.lean` (listed in `com
 ```
 cd formal
 lake exe cache get
-bash ../tools/s017_staged_build.sh   # one heavy kernel check at a time, then `lake build`
+lake build   # since S019 the heavy checks are import-chained: one at a time
 ```
 
-Measured costs and the frozen-module ledger: `sessions/S017/LEAN_RECORD.md`, `formal/FROZEN_MODULES.md`. The kernel checks are heavy: each of the larger layer checks takes about 20-80 s and commits up to about 10 GB, so a plain `lake build` (which runs them in parallel) can exhaust a 16 GB machine; the staged script builds them one at a time (about 15 minutes in total). Hosted CI does not build the Lean project (UNVERIFIED on hosted runners).
+Measured costs and the frozen-module ledger: `sessions/S017/LEAN_RECORD.md`, `formal/FROZEN_MODULES.md`. The kernel checks are heavy: each of the larger layer checks takes about 20-80 s and commits up to about 10 GB, and before S019 a plain `lake build` ran them in parallel and could exhaust a 16 GB machine (the staged script tools/s017_staged_build.sh was the workaround); since S019 they are import-chained and a plain build takes about 11 minutes with peak about 10 GB. Hosted CI does not build the Lean project (UNVERIFIED on hosted runners).
 
 ## Assurance (S018, 2026-10-17; details sessions/S018/LEAN_ASSURANCE.md)
 
 - Clean re-build from an empty `.lake/build` with the staged script: PASS (829 s; 59 axiom prints standard; placeholder scan PASS; 67/67 frozen hashes match).
 - `lake comparator` of the pinned toolchain (the tool Palomar judges with), on `leanexport` exports with Palomar's target list, run with `--inadvisably-no-sandbox` because bwrap does not exist on Windows (not Palomar's sandboxed execution). Run 1 found F1: the three general lemmas of the S017 `Challenge.lean` had universe parameter `u_2` instead of `u_1` (a redundant `{V : Type*}` re-binding); fixed in `Challenge.lean` only. Run 2: statement comparison and axiom check PASS for all 25 names; Lean's kernel (`leanchecker --from-export`) accepts. The external kernels in that run were killed by the session's 12 GiB cap (UNKNOWN); standalone single-thread replays are recorded in sessions/S018/LEAN_ASSURANCE.md.
 - Statement cold re-check against research/ASH_SPEC.md: PASS after the F1 fix (sessions/S018/LEAN_COLD_RECHECK.md).
-- `formalization.yaml`: DRAFT, NOT SUBMITTED; owner fields and a repository licence are required first.
+- `formalization.yaml`: finalised in S019 (Apache-2.0, owner as author and maintainer, automation disclosure); NOT SUBMITTED.
+
+## Palomar packaging (S019, 2026-10-17; details sessions/S019/PACKAGING.md)
+
+- The 28 layer-check modules and, separately, the 28 certificate-data modules are each chained by one import line (un-freeze entries in FROZEN_MODULES.md), so a plain `lake build` runs one heavy kernel evaluation at a time: from clean, 653 s, peak about 10.3 GB on a 16 GB host. Exports and axioms are unchanged; unsandboxed `lake comparator` with the committed comparator.json exits 0.
+- The upload target is the orphan branch `palomar/submission` of this repository: a self-contained copy of this project at its root (byte-identical Lean files), with LICENSE (Apache-2.0), README.md and formalization.yaml. The research repository itself exceeds Palomar's 500 MiB limit and is not the submission.
 
 ## Not done
 
-No sandboxed (bwrap) Comparator run; no hosted Lean CI (UNVERIFIED on hosted runners); no Palomar submission (owner-gated); no human-proof formalisation of the non-stackability of `cStar` (it comes from the certificate).
+No sandboxed (bwrap) Comparator run; no hosted Lean CI (UNVERIFIED on hosted runners); no Palomar submission (the owner uploads the snapshot); no human-proof formalisation of the non-stackability of `cStar` (it comes from the certificate).

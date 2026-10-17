@@ -1,6 +1,7 @@
 module
 
 public import AlmostStacked.G9.Graph
+public import AlmostStacked.G9.CheckStack3
 public import AlmostStacked.Data.G9Stack3
 public import AlmostStacked.Data.G9Stack4
 
