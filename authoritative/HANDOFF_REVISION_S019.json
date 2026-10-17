@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
+  "session": "S019",
+  "status": "FUTURE_UNEXECUTED",
+  "date": "2026-10-17",
+  "base_main": "eff7ae1a7a30454d4da76137a43e78802cd20ce0",
+  "prior_prompt": "sessions/S018/FUTURE_S019.md",
+  "prior_sha256": "62cf817734a39bf022bc42d8dbdcf42b4deb434b349d0439441beb21e786cf42",
+  "current_prompt": "authoritative/handoffs/S019_OWNER_REVISED_2026-10-17.md",
+  "current_sha256": "d2518cdc346dba93aa5066a026d23eb0eec1f81a5e5e82a982dcec189f982c29",
+  "owner_request": "authoritative/handoffs/S019_OWNER_REQUEST_2026-10-17.txt",
+  "owner_request_sha256": "74833213c2fbebf1829786d3713ee62dc8ef8a47080eef7c50a9ffdf33988cdf",
+  "owner_decisions": {
+    "license": "Apache-2.0",
+    "automation_ai_names": "Claude and Codex may be named in formalization.yaml automation.methods (owner exception to AGENTS.md rule 12, limited to the Palomar metadata)",
+    "novelty_audit": "OWNER_WAIVED (Phase 2 and Phase 4); no novelty or priority claim follows",
+    "scope": "Only full Palomar packaging remains; the owner uploads the clean commit personally and dictates next steps after registration",
+    "authors_default": "John Fairfax-Ball (repository commit author) unless the invocation says otherwise"
+  },
+  "packaging_blockers_found": [
+    "B1 tracked tree about 736 MiB > Palomar 500 MiB cap",
+    "B2 non-module .lean files outside formal/",
+    "B3 compiled-artefact suffix files (producer.dll) in S014 evidence",
+    "B4 unstaged parallel lake build exceeds memory on Palomar's runner"
+  ],
+  "owner_authorization": "Packaging work and the decisions above only. No submission, registration, publication or author contact; no phase PASS except the owner-recorded waivers.",
+  "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S018 immutable files (including sessions/S018/FUTURE_S019.md and CLOSEOUT.md) preserved.",
+  "closeout_addendum_for": "sessions/S018/CLOSEOUT.md"
+}

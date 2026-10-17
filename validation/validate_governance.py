@@ -383,7 +383,7 @@ print(f'S008 scopes and {len(checked8)} immutable hashes: PASS (cold S009; unive
 assert state['s009']==spec['s009']
 assert state['s009']['universal_stack']==state['s009']['universal_clear']=='OPEN'
 assert state['s009']['cold_new_proofs']=='PASS_S010_AT_STATED_SCOPES' and state['s009']['formal_status']=='NOT_STARTED'
-assert state['phases']['2']['status']=='NOT_STARTED'
+assert state['phases']['2']['status']==('OWNER_WAIVED' if (ROOT/'authoritative/HANDOFF_REVISION_S019.json').exists() else 'NOT_STARTED')
 future10=(ROOT/'sessions/S009/FUTURE_S010.md').read_text(encoding='utf-8')
 assert future10==(ROOT/'sessions/S010/AUTHORISED_PROMPT.md').read_text(encoding='utf-8')
 assert future10 in (ROOT/'sessions/S009/CLOSEOUT.md').read_text(encoding='utf-8')
@@ -735,8 +735,24 @@ elif closed15:
                 assert (ROOT/'sessions/S018/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
                 future19=(ROOT/'sessions/S018/FUTURE_S019.md').read_bytes()
                 assert future19.decode() in (ROOT/'sessions/S018/CLOSEOUT.md').read_text(encoding='utf-8')
-                assert next_prompt.encode()==future19
-                assert state['next_session_handoff']==dict(session='S019',status='FUTURE_UNEXECUTED',path='sessions/S018/FUTURE_S019.md',sha256=hashlib.sha256(future19).hexdigest())
+                rev19_path=ROOT/'authoritative/HANDOFF_REVISION_S019.json'
+                if rev19_path.exists():
+                    # Owner-directed administrative revision of the prospective S019 handoff; S018 bytes unchanged.
+                    rev19=load('authoritative/HANDOFF_REVISION_S019.json')
+                    assert rev19['schema']==1 and rev19['kind']=='OWNER_DIRECTED_FUTURE_HANDOFF_REVISION' and rev19['session']=='S019' and rev19['status']=='FUTURE_UNEXECUTED'
+                    assert rev19['prior_prompt']=='sessions/S018/FUTURE_S019.md' and rev19['prior_sha256']==hashlib.sha256(future19).hexdigest()
+                    revised19=(ROOT/rev19['current_prompt']).read_bytes(); request19=(ROOT/rev19['owner_request']).read_bytes()
+                    assert hashlib.sha256(revised19).hexdigest()==rev19['current_sha256'] and hashlib.sha256(request19).hexdigest()==rev19['owner_request_sha256']
+                    assert request19.startswith(b'License can be apache, ai name can be claude and codex.') and b'Skip novelty audit' in request19 and b'palomar packing' in request19
+                    assert state['handoff_revision_s019']==rev19 and rev19['owner_decisions']['license']=='Apache-2.0'
+                    assert next_prompt.encode()==revised19
+                    assert state['next_session_handoff']==dict(session='S019',status='FUTURE_UNEXECUTED',path=rev19['current_prompt'],sha256=rev19['current_sha256'])
+                    assert state['phases']['2']['status']==state['phases']['4']['status']=='OWNER_WAIVED'
+                    for requirement in ['Apache-2.0','Claude','Codex','OWNER_WAIVED','500 MiB','module system','plain `lake build`','un-freeze','the owner uploads','No submission, registration, publication or contact']:
+                        assert requirement in revised19.decode('utf-8'),requirement
+                else:
+                    assert next_prompt.encode()==future19
+                    assert state['next_session_handoff']==dict(session='S019',status='FUTURE_UNEXECUTED',path='sessions/S018/FUTURE_S019.md',sha256=hashlib.sha256(future19).hexdigest())
                 assert not (ROOT/'sessions/S019').exists(), 'S019 remains unexecuted'
             else:
                 assert next_prompt.encode()==future18

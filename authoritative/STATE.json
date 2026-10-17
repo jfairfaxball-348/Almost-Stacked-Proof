@@ -19,7 +19,8 @@
     },
     "2": {
       "name": "First prior-art / novelty audit",
-      "status": "NOT_STARTED"
+      "status": "OWNER_WAIVED",
+      "note": "Owner decision 2026-10-17: novelty audit not needed (authoritative/handoffs/S019_OWNER_REQUEST_2026-10-17.txt). No novelty or priority claim."
     },
     "3": {
       "name": "Lean formalisation",
@@ -28,7 +29,8 @@
     },
     "4": {
       "name": "Final comprehensive novelty audit",
-      "status": "NOT_STARTED"
+      "status": "OWNER_WAIVED",
+      "note": "Owner decision 2026-10-17: novelty audit not needed (applies to the final comprehensive novelty audit as well). No novelty or priority claim."
     },
     "5": {
       "name": "Palomar verification and registration",
@@ -45,16 +47,14 @@
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
-    "Sandboxed Comparator run with exit 0 including external kernels (hosted Linux, S019); S018 local runs were unsandboxed",
-    "Hosted Lean CI (Lean build local-only, UNVERIFIED on hosted runners)",
-    "Owner Phase 1 gate decision (PASS proposed in sessions/S018/SUBMISSION_PREP.md)",
-    "Phase 2 novelty audit (owner authorisation)",
-    "Owner items before any Palomar submission: repository LICENSE, human author/maintainer fields, automation disclosure, result origin, layout (sessions/S018/SUBMISSION_PREP.md)",
-    "Bipartite critical ASH*-STACK: no bipartite counterexample known; OPEN",
-    "Infinite bridge-path family PB(4,4,2j,1) for STACK and CLEAR: CONJECTURE only",
-    "Order-9 CLEAR: 53286 graphs producer-only; S015 order-9 STACK UNKNOWN list: 62 not dual-verified, 2 capped",
-    "Independent review of local items 71-110, 114-115, 117-121 (pending)",
-    "No S019 execution, phase PASS, Palomar submission, publication or contact permission is implied by this closeout."
+    "S019 Palomar packaging: submission snapshot under 500 MiB with only the Lean project (B1-B3), memory-safe plain lake build (B4), final formalization.yaml, pre-upload verification",
+    "Owner uploads the clean snapshot commit to Palomar; next steps dictated by the owner after registration",
+    "Owner Phase 1 and Phase 3 gate decisions (proposals in sessions/S018/SUBMISSION_PREP.md)",
+    "Bipartite critical ASH*-STACK: no bipartite counterexample known; OPEN (not scheduled)",
+    "Infinite bridge-path family PB(4,4,2j,1) for STACK and CLEAR: CONJECTURE only (not scheduled)",
+    "Order-9 CLEAR: 53286 graphs producer-only; S015 order-9 STACK UNKNOWN list: 62 not dual-verified, 2 capped (not scheduled)",
+    "Independent review of local items 71-110, 114-115, 117-121 (pending, not scheduled)",
+    "No S019 execution, phase PASS, Palomar submission, publication or contact permission is implied by this revision."
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
@@ -77,7 +77,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S019 strictly FUTURE_UNEXECUTED: hosted Lean CI; sandboxed Comparator on Linux; owner-gated Phase 2 novelty audit and submission-preparation items only if authorised; no submission.",
+  "next_session_context": "S019 strictly FUTURE_UNEXECUTED (owner-revised 2026-10-17): full Palomar packaging only - clean submission snapshot (B1-B3), memory-safe plain lake build (B4), final formalization.yaml (Apache-2.0, Claude and Codex named, author John Fairfax-Ball by default), pre-upload verification; the owner uploads; no submission by the session.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -424,8 +424,8 @@
   "next_session_handoff": {
     "session": "S019",
     "status": "FUTURE_UNEXECUTED",
-    "path": "sessions/S018/FUTURE_S019.md",
-    "sha256": "62cf817734a39bf022bc42d8dbdcf42b4deb434b349d0439441beb21e786cf42"
+    "path": "authoritative/handoffs/S019_OWNER_REVISED_2026-10-17.md",
+    "sha256": "d2518cdc346dba93aa5066a026d23eb0eec1f81a5e5e82a982dcec189f982c29"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -4567,5 +4567,35 @@
     ],
     "palomar": "NOT_SUBMITTED",
     "author_contact": "NONE"
+  },
+  "handoff_revision_s019": {
+    "schema": 1,
+    "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
+    "session": "S019",
+    "status": "FUTURE_UNEXECUTED",
+    "date": "2026-10-17",
+    "base_main": "eff7ae1a7a30454d4da76137a43e78802cd20ce0",
+    "prior_prompt": "sessions/S018/FUTURE_S019.md",
+    "prior_sha256": "62cf817734a39bf022bc42d8dbdcf42b4deb434b349d0439441beb21e786cf42",
+    "current_prompt": "authoritative/handoffs/S019_OWNER_REVISED_2026-10-17.md",
+    "current_sha256": "d2518cdc346dba93aa5066a026d23eb0eec1f81a5e5e82a982dcec189f982c29",
+    "owner_request": "authoritative/handoffs/S019_OWNER_REQUEST_2026-10-17.txt",
+    "owner_request_sha256": "74833213c2fbebf1829786d3713ee62dc8ef8a47080eef7c50a9ffdf33988cdf",
+    "owner_decisions": {
+      "license": "Apache-2.0",
+      "automation_ai_names": "Claude and Codex may be named in formalization.yaml automation.methods (owner exception to AGENTS.md rule 12, limited to the Palomar metadata)",
+      "novelty_audit": "OWNER_WAIVED (Phase 2 and Phase 4); no novelty or priority claim follows",
+      "scope": "Only full Palomar packaging remains; the owner uploads the clean commit personally and dictates next steps after registration",
+      "authors_default": "John Fairfax-Ball (repository commit author) unless the invocation says otherwise"
+    },
+    "packaging_blockers_found": [
+      "B1 tracked tree about 736 MiB > Palomar 500 MiB cap",
+      "B2 non-module .lean files outside formal/",
+      "B3 compiled-artefact suffix files (producer.dll) in S014 evidence",
+      "B4 unstaged parallel lake build exceeds memory on Palomar's runner"
+    ],
+    "owner_authorization": "Packaging work and the decisions above only. No submission, registration, publication or author contact; no phase PASS except the owner-recorded waivers.",
+    "provenance": "Complete accessible owner request normalized UTF-8 LF; no transport-byte identity claimed. Administrative revision only, no numbered research session executed. S018 immutable files (including sessions/S018/FUTURE_S019.md and CLOSEOUT.md) preserved.",
+    "closeout_addendum_for": "sessions/S018/CLOSEOUT.md"
   }
 }
