@@ -4506,5 +4506,60 @@
     "author_code_clear": "NOT_RUN",
     "author_contact": "NONE",
     "palomar": "NOT_SUBMITTED"
+  },
+  "s018": {
+    "status": "COMPLETED",
+    "milestone1": "S017_BUILD_REPRODUCED",
+    "milestone1_detail": "clean staged build 829 s, 1201 jobs; 59 axiom prints standard; scan PASS; 67/67 frozen hashes",
+    "comparator": {
+      "tool": "lake comparator of leanprover/lean4:v4.35.0 (the tool Palomar judges with) on leanexport exports with Palomar's target list",
+      "sandbox": "DISABLED (--inadvisably-no-sandbox; no bwrap on the Windows host); recorded deviation",
+      "run1": "exit 1: statement mismatch clearable_stackable (finding F1, universe parameter u_2 vs u_1)",
+      "statement_and_axiom_check": "PASS_LOCAL_UNSANDBOXED",
+      "lean_kernel": "ACCEPT",
+      "external_kernels_in_comparator": "nanoda and con-ron killed by the 12 GiB cap at 4/2 threads: UNKNOWN",
+      "solution_export_sha256": "855ba7b9cf7a5e2557b3394d22ade3757eda04335f616ac5b0ab06f2cc628b3a",
+      "challenge_export_sha256": "5af8c78b6ba1cc9e5b50676bf51094f56b9331c587cd385baa3900f771e1930e"
+    },
+    "standalone_kernels": {
+      "nanoda_t1": "ACCEPT",
+      "con-ron_j1_verified": "ACCEPT",
+      "lean4lean": "ACCEPT",
+      "leanchecker-paranoid": "ACCEPT",
+      "con-leche": "UNKNOWN_CAP"
+    },
+    "finding_f1": "Challenge.lean general lemmas re-bound {V : Type*} inside a section with the same variable, giving universe u_2 vs the Solution's u_1; fixed in Challenge.lean (3 lines); no frozen module changed",
+    "milestone3": "LEAN_STATEMENT_COLD_RECHECK_PASS_AFTER_F1_FIX",
+    "milestone4": "FORMALIZATION_YAML_DRAFT_NOT_SUBMITTED_OWNER_ITEMS_PENDING",
+    "owner_items": [
+      "repository LICENSE file (blocker for submission)",
+      "human author/maintainer fields",
+      "automation disclosure vs AGENTS.md rule 12",
+      "original-proof origin pending Phase 2",
+      "layout: recommend keep formal/"
+    ],
+    "gate_proposals": [
+      "Phase 1 PASS for the critical-form refutation",
+      "authorise Phase 2 novelty audit",
+      "Phase 3 PASS after a sandboxed hosted Comparator run or explicit owner acceptance"
+    ],
+    "amendments": 2,
+    "superseded_s017_hashes": {
+      "formal/Challenge.lean": "bd546257f4f742b08feeca96431bc113f81712b0cb6525fe77e1bdd61cc21417",
+      "formal/FROZEN_MODULES.md": "3657d9637f23b0a60256d5a33f6dc41236d12faeeb26b7d6533ce94866eac0ba",
+      "formal/README.md": "f20c11f9d7135191c4ffb5b85a6fa6992e51c28d37eff7bbef9f7d92efc6f100"
+    },
+    "new_formal_files": [
+      "formal/formalization.yaml"
+    ],
+    "claims_formal": [
+      "CLM-0268"
+    ],
+    "protocol_deviations": [
+      "unsandboxed Comparator runs (no bwrap)",
+      "external kernels replayed standalone at one thread after the cap (PLAN_AMENDMENT_2), not inside a single comparator invocation"
+    ],
+    "palomar": "NOT_SUBMITTED",
+    "author_contact": "NONE"
   }
 }

@@ -1,0 +1,20 @@
+@AlmostStacked.clearable_stackable.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (c : V → ℕ), AlmostStacked.Clearable.{u_1} G c → AlmostStacked.Stackable.{u_1} G c
+@AlmostStacked.stackable_above.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V),
+  (∀ (u : V), ∃ v, SimpleGraph.Adj.{u_1} G u v) →
+    ∀ (t : ℕ),
+      LE.le.{0} (Fintype.card.{u_1} V) t →
+        (∀ (c : V → ℕ), Eq.{1} (AlmostStacked.size.{u_1} c) t → AlmostStacked.Stackable.{u_1} G c) →
+          ∀ (s : ℕ),
+            LE.le.{0} t s → ∀ (c : V → ℕ), Eq.{1} (AlmostStacked.size.{u_1} c) s → AlmostStacked.Stackable.{u_1} G c
+@AlmostStacked.clearable_above.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V),
+  (∀ (u : V), ∃ v, SimpleGraph.Adj.{u_1} G u v) →
+    ∀ (t : ℕ),
+      LE.le.{0} (Fintype.card.{u_1} V) t →
+        (∀ (c : V → ℕ), Eq.{1} (AlmostStacked.size.{u_1} c) t → AlmostStacked.Clearable.{u_1} G c) →
+          ∀ (s : ℕ),
+            LE.le.{0} t s → ∀ (c : V → ℕ), Eq.{1} (AlmostStacked.size.{u_1} c) s → AlmostStacked.Clearable.{u_1} G c
+def AlmostStacked.size.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → (V → ℕ) → ℕ :=
+fun {V} [Fintype.{u_1} V] c => ∑ v, c v

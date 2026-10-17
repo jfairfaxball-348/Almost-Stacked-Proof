@@ -1,0 +1,9 @@
+# S018 PLAN_AMENDMENT_1 - Comparator finding F1 and its fix
+
+Written after Comparator run 1 and before any re-run. Hash in PLAN_AMENDMENT_1.sha256.
+
+Finding F1 (Comparator run 1, 2026-10-17T06:39Z, `lake comparator` rc=1): "Challenge and solution theorem statement do not match: 'AlmostStacked.clearable_stackable'". Diagnosis (tools/s018_export_diff.py on the two exports; evidence/S018/f1_diagnosis.txt): the constant's level parameter is `u_2` in the Challenge export and `u_1` in the Solution export; everything else is equal up to that renaming. Cause: in formal/Challenge.lean the three general lemmas `clearable_stackable`, `stackable_above`, `clearable_above` re-bind `{V : Type*} [Fintype V] [DecidableEq V]` inside a section that already declares `variable {V : Type*} [Fintype V] [DecidableEq V]`, so `Type*` creates a second universe name; the Solution (AlmostStacked/Basic.lean, frozen) uses the section variables (`u_1`). The mismatch is a universe-parameter NAME only (no mathematical difference), but it is a genuine Comparator rejection, missed by the S017 stand-in bridge and by the first draft of the M3 review.
+
+Fix (Challenge.lean is the statement file, not frozen; the Solution side is frozen and unchanged): delete the redundant re-binding in those three lemmas so that they use the section variables, exactly as the Solution does. Diff: three lines. The S017 bytes of Challenge.lean (sha256 bd546257...1417) are superseded and recorded in evidence/S018/HASHES.md; the S017 hash record itself is not rewritten.
+
+Re-run procedure: `lake build Challenge` (targeted; no frozen module is affected because nothing imports Challenge), print axioms of Solution unchanged, scan, fresh exports of both modules into a new export directory, Comparator run 2 with the same configuration and caps as PLAN.md M2.2, then M2.3 (`--paranoid`) under the same caps. The M3 record is amended to state F1 explicitly.

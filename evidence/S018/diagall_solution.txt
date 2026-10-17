@@ -1,0 +1,36 @@
+@AlmostStacked.clearable_stackable.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (c : V → Nat) (h : @AlmostStacked.Clearable.{u_1} V inst inst_1 G c),
+  @AlmostStacked.Stackable.{u_1} V inst_1 G c
+def AlmostStacked.Clearable.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → (G : SimpleGraph.{u_1} V) → (c : V → Nat) → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V)
+    (c : V → Nat) =>
+  @Exists.{u_1 + 1} (V → Nat) fun (d : V → Nat) =>
+    And (@Relation.ReflTransGen.{u_1} (V → Nat) (@AlmostStacked.Move.{u_1} V inst_1 G) c d)
+      (@Eq.{1} Nat (@AlmostStacked.size.{u_1} V inst d) (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+def AlmostStacked.Stackable.{u_1} : {V : Type u_1} →
+  [DecidableEq.{u_1 + 1} V] → (G : SimpleGraph.{u_1} V) → (c : V → Nat) → Prop :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) (c : V → Nat) =>
+  @Exists.{u_1 + 1} (V → Nat) fun (d : V → Nat) =>
+    And (@Relation.ReflTransGen.{u_1} (V → Nat) (@AlmostStacked.Move.{u_1} V inst G) c d)
+      (@AlmostStacked.IsStacked.{u_1} V d)
+def AlmostStacked.Move.{u_1} : {V : Type u_1} →
+  [DecidableEq.{u_1 + 1} V] → (G : SimpleGraph.{u_1} V) → (c d : V → Nat) → Prop :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) (c d : V → Nat) =>
+  @Exists.{u_1 + 1} V fun (u : V) =>
+    @Exists.{u_1 + 1} V fun (v : V) =>
+      And (@SimpleGraph.Adj.{u_1} V G u v)
+        (And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) (c u))
+          (@Eq.{u_1 + 1} (V → Nat) d
+            (@Function.update.{u_1 + 1, 1} V (fun (a : V) => Nat) inst
+              (@Function.update.{u_1 + 1, 1} V (fun (a : V) => Nat) inst c u
+                (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) (c u)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+              v
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (c v)
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+def AlmostStacked.IsStacked.{u_1} : {V : Type u_1} → (c : V → Nat) → Prop :=
+fun {V : Type u_1} (c : V → Nat) =>
+  @Exists.{u_1 + 1} V fun (v : V) =>
+    ∀ (w : V),
+      Iff (@Ne.{1} Nat (c w) (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))) (@Eq.{u_1 + 1} V w v)

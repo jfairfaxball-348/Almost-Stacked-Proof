@@ -1,0 +1,110 @@
+# DRAFT (S018, 2026-10-17) - NOT SUBMITTED. formalization.yaml v0.4 shaped after the Palomar
+# policy read 2026-10-17T06:19Z (PalomarPolicy 96b034cc, PalomarSubmission d4e41c1d template
+# tests/fixtures/palomar-template-formalization.yaml). Every OWNER_TO_CONFIRM value must be
+# settled by the repository owner before any submission; submission itself needs separate
+# explicit owner authorisation. Blockers recorded in sessions/S018/SUBMISSION_PREP.md:
+# no repository LICENSE file yet; people fields; automation model names (kept out of
+# repository files by AGENTS.md rule 12 until the owner decides); Phase 2 novelty audit.
+version: "v0.4"
+
+project:
+  name: "The critical Almost Stacked Hypothesis fails on a nine-vertex graph"
+  description: >-
+    In graph pebbling, a move removes two pebbles from a vertex and adds one to a
+    neighbour; a configuration is stackable if moves can bring all pebbles onto one
+    vertex and clearable if moves can leave exactly one pebble. The stacking (clearing)
+    number of a connected (connected non-bipartite) graph is the least t >= 2 such that
+    every configuration of t pebbles is stackable (clearable). The Almost Stacked
+    Hypothesis, in its critical form, says that this number equals the least t0 >= 2
+    such that every almost stacked configuration (one vertex arbitrary, every other
+    vertex at most one pebble) of every size at least t0 is stackable (clearable). We
+    formalise, from first principles, a counterexample to both clauses: on the
+    nine-vertex graph G9 (graph6 HCQTaXi) the stacking and clearing numbers are 15, the
+    only non-stackable and non-clearable configurations of size 14 are
+    (0,0,1,0,0,5,0,8,0) and its automorphic image, neither almost stacked, while every
+    almost stacked configuration of size at least 14 is stackable and clearable. The
+    finite facts are proved by kernel evaluation of a verified exact losing-layer
+    checker on certificate data; general lemmas (clearable implies stackable;
+    monotonicity above the order) are proved by hand.
+  authors:
+    - "OWNER_TO_CONFIRM"
+  license: "OWNER_TO_CONFIRM (no LICENSE file in the repository yet)"
+  responsible_maintainers:
+    - "OWNER_TO_CONFIRM"
+
+classification:
+  arxiv: [math.CO]
+  msc2020: [05C57, 05C85]
+
+sources:
+  - title: "Counterexample to the critical Almost Stacked Hypothesis (stacking and clearing) on the graph HCQTaXi"
+    type: original-proof
+    relationship: other
+    note: "OWNER_TO_CONFIRM after the Phase 2 novelty audit (not yet run): first presentation in this repository (research/S015_G9_COUNTEREXAMPLE.md, research/S016_CLEAR.md)."
+  - title: "The Almost Stacked Hypothesis: A Conjectural Analogue of Sjostrand's Cover Pebbling Theorem"
+    id: "arXiv:2610.09650v1"
+    type: paper
+    location: "https://arxiv.org/abs/2610.09650"
+    relationship: background
+    note: "States the Almost Stacked Hypothesis (Hypothesis 3.2); the critical form is the meaning reported by an author in correspondence. OWNER_TO_CONFIRM author list and endorsement field (author contact needs owner authorisation)."
+  - title: "Stacking and clearing in graph pebbling"
+    id: "arXiv:2604.22341v1"
+    type: paper
+    location: "https://arxiv.org/abs/2604.22341"
+    relationship: background
+    note: "Defines stacking and clearing numbers; Hypothesis 9.1 is the same hypothesis. OWNER_TO_CONFIRM author list."
+
+related_formalizations:
+  - id: "https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000010&version=1"
+    relationship: independent
+    note: "Earlier result stack(T) = estim(T) for trees (arXiv:2609.31811), with its own Lean package; not used, not reproved here."
+
+status:
+  scope: >-
+    Formalised: G9 is connected and not 2-colourable; for stacking and clearing, the
+    exact size-14 loser characterisation, every size >= 15 winning, losers in every size
+    2..14, stack(G9) = clear(G9) = 15, almost stacked thresholds 14, largest losing size
+    14 and largest almost stacked losing size 13, failure of the critical hypothesis for
+    G9 and hence of its universal form over all finite connected (resp. connected
+    non-bipartite) graphs; clearable implies stackable; monotonicity above the order.
+    Not formalised: the printed pointwise form of the hypothesis and its counterexamples
+    (P4, bull graph); any positive result; the human proof of non-stackability of the
+    critical loser (the certificate proves it).
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: agent
+      models: ["OWNER_TO_CONFIRM"]
+      framework: "OWNER_TO_CONFIRM"
+      tool_setup: "AI agent writing Lean, generators and checkers under a written session protocol; owner-directed sessions"
+      prompting_notes: "Numbered session handoffs in authoritative/ and sessions/."
+  spend_usd: "OWNER_TO_CONFIRM"
+  notes: "See sessions/S015-S018 records (computation, cold re-checks, Lean, Comparator)."
+
+fidelity:
+  divergences: "Critical (monotone) form ASH* rather than the printed pointwise form; see sessions/S018/LEAN_COLD_RECHECK.md."
+
+review:
+  status: "agent-reviewed"
+  reviewers:
+    - "none"
+  notes: "Fresh-session cold re-checks S016 (STACK) and S017 (CLEAR) of the computation; S018 statement cold re-check (sessions/S018/LEAN_COLD_RECHECK.md); local lake comparator (sessions/S018/LEAN_ASSURANCE.md). No human peer review."
+
+alignment:
+  namespace: "AlmostStacked"
+  statements:
+    - source: "arXiv:2610.09650v1 Hypothesis 3.2 (critical form), stacking clause"
+      lean: "AlmostStacked.not_forall_ASHStarStack"
+      module: "AlmostStacked.Main"
+      status: "proved (negation)"
+      note: "Counterexample G9; see also AlmostStacked.G9_not_ASHStarStack."
+    - source: "arXiv:2610.09650v1 Hypothesis 3.2 (critical form), clearing clause"
+      lean: "AlmostStacked.not_forall_ASHStarClear"
+      module: "AlmostStacked.Main"
+      status: "proved (negation)"
+      note: "Counterexample G9; see also AlmostStacked.G9_not_ASHStarClear."
+
+acknowledgements: "Lean 4 and Mathlib. Earlier tree stacking result (arXiv:2609.31811) credited as prior work."

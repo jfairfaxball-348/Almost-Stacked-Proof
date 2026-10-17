@@ -130,3 +130,9 @@ Final governance/provenance validation and immutable hashes are required before 
 - `s017_gen_layers.py`: generates the untrusted Lean certificate data (formal/AlmostStacked/Data) and, with `--checks`, the per-layer check and chaining modules (formal/AlmostStacked/G9).
 - `s017_staged_build.sh`: memory-bounded build of formal/ (one heavy kernel check per Lake invocation, then `lake build`).
 - `s017_print_axioms.py`, `s017_lean_scan.py`, `s017_freeze.py`, `s017_challenge_bridge.py`: axiom printing, forbidden-placeholder/Palomar mechanical scan, frozen-module ledger, local Challenge/Solution stand-in check (not Comparator).
+- `s018_staged_build.sh`: copy of the S017 staged build writing logs to evidence/S018.
+- `s018_comparator.sh`: `leanexport` of Challenge and Solution with Palomar's target list, then `lake comparator --challenge-from-export --solution-from-export --inadvisably-no-sandbox` (sandbox off only because the host has no bwrap).
+- `s018_kernels.sh`: standalone sequential replays of the bundled external kernels (nanoda, con-ron, lean4lean, leanchecker-paranoid, con-leche) on one Solution export.
+- `s018_export_diff.py`: first structural difference of one constant's type between two lean4export files (found F1).
+- `s018_memsample.ps1`, `s018_memcap.ps1`: memory sampling and the 12 GiB per-process cap (Windows PowerShell).
+- `s018_hashes.py`: writes evidence/S018/HASHES.md.

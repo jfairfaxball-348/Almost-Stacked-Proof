@@ -58,25 +58,26 @@ def versioned_tool_source(path,digest):
 
 state = load("authoritative/STATE.json")
 active14 = state.get('active_session') is not None
-closed17 = state.get('last_completed_session') == 'S017'
-closed16 = state.get('last_completed_session') in ('S016', 'S017')
-closed15 = state.get('last_completed_session') in ('S015', 'S016', 'S017')
-closed14 = state.get('last_completed_session') in ('S014', 'S015', 'S016', 'S017')
+closed18 = state.get('last_completed_session') == 'S018'
+closed17 = state.get('last_completed_session') in ('S017', 'S018')
+closed16 = state.get('last_completed_session') in ('S016', 'S017', 'S018')
+closed15 = state.get('last_completed_session') in ('S015', 'S016', 'S017', 'S018')
+closed14 = state.get('last_completed_session') in ('S014', 'S015', 'S016', 'S017', 'S018')
 executed14 = active14 or closed14
 if active14:
     assert state['active_session']['session']=='S014' and state['active_session']['status']=='IN_PROGRESS'
     assert state['active_session']['session_commit'] is None and state['active_session']['pull_request'] is None
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
-assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
-assert state["last_completed_session"] == ('S017' if closed17 else 'S016' if closed16 else 'S015' if closed15 else 'S014' if closed14 else 'S013')
-assert state["recommended_next_session"] == ('S018' if closed17 else 'S017' if closed16 else 'S016' if closed15 else 'S015' if closed14 else 'S014')
+assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_COMPARATOR_STATEMENT_PASS_INDEPENDENT_KERNELS_RECORDED" if closed18 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
+assert state["last_completed_session"] == ('S018' if closed18 else 'S017' if closed17 else 'S016' if closed16 else 'S015' if closed15 else 'S014' if closed14 else 'S013')
+assert state["recommended_next_session"] == ('S019' if closed18 else 'S018' if closed17 else 'S017' if closed16 else 'S016' if closed15 else 'S015' if closed14 else 'S014')
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
 assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
 assert state["active_campaign"] is None
 assert state["counterexample_status"] == ("PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CRITICAL_CLEAR_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF" if closed17 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed16 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed15 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING")
-assert state["lean_status"] == ("IN_PROGRESS_G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "NOT_STARTED")
+assert state["lean_status"] == ("IN_PROGRESS_G9_LOCAL_COMPARATOR_STATEMENT_PASS_UNSANDBOXED_INDEPENDENT_KERNELS_RECORDED" if closed18 else "IN_PROGRESS_G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "NOT_STARTED")
 assert state["phases"]["3"]["status"] == ("IN_PROGRESS" if closed17 else "NOT_STARTED")
 assert state["palomar_status"] == "NOT_SUBMITTED"
 assert state["arxiv_project_status"] == "NOT_SUBMITTED"
@@ -710,7 +711,7 @@ elif closed15:
             if closed17:
                 # S017 executed the owner-revised prompt; its frozen copy is AUTHORISED_PROMPT.md.
                 assert (ROOT/'sessions/S017/AUTHORISED_PROMPT.md').read_bytes()==revised17
-                assert state['consumed_prospective_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
+                assert closed18 or state['consumed_prospective_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
             else:
                 assert next_prompt.encode()==revised17
                 assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path=rev17['current_prompt'],sha256=rev17['current_sha256'])
@@ -721,15 +722,26 @@ elif closed15:
             assert not closed17
             assert next_prompt.encode()==future17
             assert state['next_session_handoff']==dict(session='S017',status='FUTURE_UNEXECUTED',path='sessions/S016/FUTURE_S017.md',sha256=hashlib.sha256(future17).hexdigest())
-        assert 'FUTURE, UNEXECUTED' in next_prompt and ('Stop before S019' if closed17 else 'Stop before S018') in next_prompt
+        assert 'FUTURE, UNEXECUTED' in next_prompt and (('Stop before S020' if closed18 else 'Stop before S019') if closed17 else 'Stop before S018') in next_prompt
         assert (ROOT/'sessions/S016/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
         if closed17:
             future18=(ROOT/'sessions/S017/FUTURE_S018.md').read_bytes()
             assert future18.decode() in (ROOT/'sessions/S017/CLOSEOUT.md').read_text(encoding='utf-8')
-            assert next_prompt.encode()==future18
-            assert state['next_session_handoff']==dict(session='S018',status='FUTURE_UNEXECUTED',path='sessions/S017/FUTURE_S018.md',sha256=hashlib.sha256(future18).hexdigest())
             assert (ROOT/'sessions/S017/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
-            assert not (ROOT/'sessions/S018').exists(), 'S018 remains unexecuted'
+            if closed18:
+                # S018 executed the S017 prospective handoff unchanged; its frozen copy is AUTHORISED_PROMPT.md.
+                assert (ROOT/'sessions/S018/AUTHORISED_PROMPT.md').read_bytes()==future18
+                assert state['consumed_prospective_handoff']==dict(session='S018',status='FUTURE_UNEXECUTED',path='sessions/S017/FUTURE_S018.md',sha256=hashlib.sha256(future18).hexdigest())
+                assert (ROOT/'sessions/S018/OWNER_INVOCATION.txt').read_bytes()==b'run next session\n'
+                future19=(ROOT/'sessions/S018/FUTURE_S019.md').read_bytes()
+                assert future19.decode() in (ROOT/'sessions/S018/CLOSEOUT.md').read_text(encoding='utf-8')
+                assert next_prompt.encode()==future19
+                assert state['next_session_handoff']==dict(session='S019',status='FUTURE_UNEXECUTED',path='sessions/S018/FUTURE_S019.md',sha256=hashlib.sha256(future19).hexdigest())
+                assert not (ROOT/'sessions/S019').exists(), 'S019 remains unexecuted'
+            else:
+                assert next_prompt.encode()==future18
+                assert state['next_session_handoff']==dict(session='S018',status='FUTURE_UNEXECUTED',path='sessions/S017/FUTURE_S018.md',sha256=hashlib.sha256(future18).hexdigest())
+                assert not (ROOT/'sessions/S018').exists(), 'S018 remains unexecuted'
         else:
             assert not (ROOT/'sessions/S017').exists(), 'S017 remains unexecuted'
     else:
@@ -751,7 +763,7 @@ elif closed14:
     assert not (ROOT/'sessions/S015').exists(), 'S015 remains unexecuted'
 else:
     assert next_prompt.encode()==future14 and state['next_session_handoff']==prior14
-assert ('Stop before S019' if closed17 else 'Stop before S018' if closed16 else 'Stop before S017' if closed15 else 'Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
+assert ('Stop before S020' if closed18 else 'Stop before S019' if closed17 else 'Stop before S018' if closed16 else 'Stop before S017' if closed15 else 'Stop before S016' if closed14 else 'Stop before S015') in next_prompt and 'L_all(G) <= L_AS(G)' in next_prompt
 assert (ROOT/'sessions/S013/OWNER_INVOCATION.txt').read_bytes()==b'Run the next session\n'
 assert (ROOT/'sessions/S013/OWNER_CONTINUATION.txt').read_bytes()==b'Continue\n'
 assert load('evidence/S013/environment.json')['invocation_sha256']==hashlib.sha256(b'Run the next session\n').hexdigest()
@@ -1128,13 +1140,47 @@ if closed17:
         if c['id'] in s17['claims_formal']:assert c['status']=='FORMALLY_CERTIFIED'
         if c['id'] in s17['claims_computed']:assert c['status']=='COMPUTED_EXACT'
     checked17=set()
+    superseded17=state['s018']['superseded_s017_hashes'] if closed18 else {}
     for line in (ROOT/'evidence/S017/HASHES.md').read_text(encoding='utf-8').splitlines():
         m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
         if m:
-            assert sha256_file(ROOT/m[2])==m[1],m[2];checked17.add(m[2])
+            if m[2] in superseded17:
+                # S018 supersession: S017 bytes recorded; current bytes hashed in evidence/S018/HASHES.md.
+                assert superseded17[m[2]]==m[1],m[2]
+            else:
+                assert sha256_file(ROOT/m[2])==m[1],m[2]
+            checked17.add(m[2])
     required17={p.relative_to(ROOT).as_posix() for folder in ['sessions/S017','evidence/S017'] for p in (ROOT/folder).rglob('*') if p.is_file() and p.name!='HASHES.md'}
     required17|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s017*') if p.is_file()}
     required17|={p.relative_to(ROOT).as_posix() for p in (ROOT/'research').glob('S017*.md')}
     required17|={p.relative_to(ROOT).as_posix() for p in (ROOT/'formal').rglob('*') if p.is_file() and '.lake' not in p.relative_to(ROOT).parts}
+    if closed18: required17-=set(state['s018']['new_formal_files'])
     assert required17==checked17,(sorted(required17-checked17)[:5],sorted(checked17-required17)[:5])
     print(f'S017 CLOSED: G9 CLEAR cold re-check PASS, Lean G9 STACK+CLEAR local kernel proof, {frozen} frozen modules and {len(checked17)} immutable hashes: PASS; Comparator/independent replay pending; S018 FUTURE.')
+
+if closed18:
+    s18=state['s018']
+    assert s18==spec['s018'] and s18['status']=='COMPLETED'
+    assert s18['milestone1']=='S017_BUILD_REPRODUCED' and s18['milestone3']=='LEAN_STATEMENT_COLD_RECHECK_PASS_AFTER_F1_FIX'
+    assert s18['comparator']['statement_and_axiom_check']=='PASS_LOCAL_UNSANDBOXED' and s18['comparator']['lean_kernel']=='ACCEPT'
+    for name in ['PLAN']+[f'PLAN_AMENDMENT_{i}' for i in range(1,s18['amendments']+1)]:
+        assert sha256_file(ROOT/f'sessions/S018/{name}.md')==(ROOT/f'sessions/S018/{name}.sha256').read_text().split()[0],name
+    # S018 superseded S017-hashed formal files only through recorded entries, and froze nothing new.
+    for path,old in s18['superseded_s017_hashes'].items():
+        assert path.startswith('formal/') and sha256_file(ROOT/path)!=old,path
+    for path in s18['new_formal_files']:
+        assert (ROOT/path).is_file() and path.startswith('formal/'),path
+    assert '(no LICENSE file in the repository yet)' in (ROOT/'formal/formalization.yaml').read_text(encoding='utf-8') or (ROOT/'LICENSE').exists()
+    assert 'NOT SUBMITTED' in (ROOT/'formal/formalization.yaml').read_text(encoding='utf-8')
+    for c in claims:
+        if c['id'] in s18['claims_formal']:assert c['status']=='FORMALLY_CERTIFIED'
+    checked18=set()
+    for line in (ROOT/'evidence/S018/HASHES.md').read_text(encoding='utf-8').splitlines():
+        m=re.fullmatch(r'`([0-9a-f]{64})`\s+`([^`]+)`',line.strip())
+        if m:
+            assert sha256_file(ROOT/m[2])==m[1],m[2];checked18.add(m[2])
+    required18={p.relative_to(ROOT).as_posix() for folder in ['sessions/S018','evidence/S018'] for p in (ROOT/folder).rglob('*') if p.is_file() and p.name!='HASHES.md'}
+    required18|={p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s018*') if p.is_file()}
+    required18|=set(s18['superseded_s017_hashes'])|set(s18['new_formal_files'])
+    assert required18==checked18,(sorted(required18-checked18)[:5],sorted(checked18-required18)[:5])
+    print(f'S018 CLOSED: S017 Lean build reproduced, local lake comparator statement/axiom check PASS (unsandboxed), Lean kernel accept, external kernels recorded, statement cold re-check PASS after F1 fix, {len(checked18)} immutable hashes: PASS; S019 FUTURE.')
