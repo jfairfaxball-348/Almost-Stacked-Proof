@@ -5,6 +5,7 @@
 \usepackage{tikz,hyperref,float}
 \usetikzlibrary{arrows.meta,positioning,calc}
 \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black}
+\emergencystretch=3em
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
@@ -82,7 +83,7 @@ each layer \(2\le t\le14\) is nonempty, and
 \(w=(0,0,1,0,1,11,0,0,0)\) is an AS loser of mass \(13\).
 \end{proposition}
 \begin{proof}[Computer-assisted, Lean kernel-checked]
-The Lean development defines the legal-move reflexive-transitive reachability predicate and the separate STACK and CLEAR goals in \texttt{formal/AlmostStacked/Defs.lean}. Its \texttt{Checker.lean} proves that an encoded ordered losing-layer tree matches the mathematical losing predicate using the successor equation, ordered-tree membership, goal exclusion and a formally proved candidate-completeness condition. The data arrays are untrusted generated candidates. Each Boolean finite-layer condition is evaluated inside the Lean kernel with \texttt{decide +kernel}; the chain of layers \(2,\ldots,15\) is checked separately for STACK and CLEAR. The exact size-\(14\) characterisation, size-\(15\) emptiness, \(w\), and all lower-layer witnesses are proved in \texttt{formal/AlmostStacked/Main.lean}. No claim of hand enumeration is made.
+The Lean development defines the legal-move reflexive-transitive reachability predicate and the separate STACK and CLEAR goals in \path{formal/AlmostStacked/Defs.lean}. Its \texttt{Checker.lean} proves that an encoded ordered losing-layer tree matches the mathematical losing predicate using the successor equation, ordered-tree membership, goal exclusion and a formally proved candidate-completeness condition. The data arrays are untrusted generated candidates. Each Boolean finite-layer condition is evaluated inside the Lean kernel with \texttt{decide +kernel}; the chain of layers \(2,\ldots,15\) is checked separately for STACK and CLEAR. The exact size-\(14\) characterisation, size-\(15\) emptiness, \(w\), and all lower-layer witnesses are proved in \path{formal/AlmostStacked/Main.lean}. No claim of hand enumeration is made.
 \end{proof}
 \begin{table}[H]\centering\small
 \begin{tabular}{r rr@{\quad}r rr}\toprule
@@ -136,7 +137,7 @@ The formal target file \texttt{formal/Challenge.lean} specifies twenty-five resu
 \end{figure}
 An order-\(9\) witness does not prove uniqueness in the class of all order-\(9\) graphs, given outstanding independently unverified atlas cases. The suggested infinite bridge families remain conjectural. Novelty audits at two phases were waived by the owner, not passed; no global priority claim is made. The earlier tree stacking theorem \cite{TreeStack} is acknowledged as independent prior work.
 \section*{Availability, acknowledgements and declarations}
-Source: \url{https://github.com/jfairfaxball-348/Almost-Stacked-Proof}. Exact Lean submission snapshot (distinct from research main): \texttt{palomar/submission}, commit \texttt{34363e5222136c54b08e0c5550e2d49b9f23f5fd}. Palomar verification: \PalomarEntry. To regenerate diagrams and check graph integrity run \texttt{python3 figure\_check.py}; build commands and environment are in \texttt{paper/README.md}. No external registration, journal/arXiv submission or email is made here. The pebbling parameters and motivating conjecture are due to Tam\'as Csern\'ak and Lajos Soukup \cite{CSApril,CSOctober}. Computational, formal and drafting assistance was used; the named author remains responsible for the paper.
+Source: \url{https://github.com/jfairfaxball-348/Almost-Stacked-Proof}. Exact Lean submission snapshot (distinct from research main): \texttt{palomar/submission}, commit \texttt{34363e5222136c54}\allowbreak\texttt{b08e0c5550e2d49b9f23f5fd}. Palomar verification: \PalomarEntry. To regenerate diagrams and check graph integrity run \texttt{python3 figure\_check.py}; build commands and environment are in \texttt{paper/README.md}. No external registration, journal/arXiv submission or email is made here. The pebbling parameters and motivating conjecture are due to Tam\'as Csern\'ak and Lajos Soukup \cite{CSApril,CSOctober}. Computational, formal and drafting assistance was used; the named author remains responsible for the paper.
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}
