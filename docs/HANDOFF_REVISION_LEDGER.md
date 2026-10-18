@@ -33,3 +33,11 @@ Revision purpose: make S017 a long session that (1) cold re-checks the G9 CLEAR 
 | 2026-10-17 | S019 FUTURE/UNEXECUTED | authoritative/handoffs/S019_OWNER_REQUEST_2026-10-17.txt; SHA256 in authoritative/HANDOFF_REVISION_S019.json | authoritative/handoffs/S019_OWNER_REVISED_2026-10-17.md, identical to authoritative/NEXT_SESSION_PROMPT.md | Post-closeout prospective-handoff addendum to sessions/S018/CLOSEOUT.md; sessions/S018/FUTURE_S019.md, CLOSEOUT.md and the S018 immutable manifest unchanged; no research session, campaign, Lean build or stage executed |
 
 Revision purpose: owner decisions (licence Apache-2.0; Claude and Codex may be named in the Palomar automation metadata; novelty audit skipped) and re-scoping of S019 to full Palomar packaging only, ending in a clean commit that the owner uploads personally. The revision records four packaging blockers found while preparing it: tracked tree about 736 MiB versus Palomar's 500 MiB cap; non-module .lean files outside formal/; compiled-artefact suffix files in S014 evidence; and an unstaged parallel lake build that would exceed memory on Palomar's runner. Hence a dedicated submission snapshot (default: orphan branch palomar/submission) and a memory-safe plain build.
+
+## 2026-10-18 — S020 FUTURE/UNEXECUTED paper-writing revision
+
+| Date | Future session | Owner instruction and provenance | Superseding full prompt | Historical status |
+|---|---|---|---|---|
+| 2026-10-18 | S020 | `authoritative/handoffs/S020_OWNER_REQUEST_2026-10-18.md` (summary of owner chat instruction) | `authoritative/handoffs/S020_OWNER_REVISED_2026-10-18.md` = `authoritative/NEXT_SESSION_PROMPT.md` | S019 CLOSEOUT/FUTURE_S020 immutable; S020 remains FUTURE and UNEXECUTED; Palomar link pending; writing authorised, not submission |
+
+Owner decision: proceed with the manuscript despite stalled Palomar registration; main counterexample G9 receives a large exact early-page figure, its 14-pebble losing configuration an adjacent verified overlay, with at least two further useful vector diagrams. No fabricated registered result or authors' endorsement. Governor changes are administrative only; their PR/merge evidence resides in actual GitHub metadata.

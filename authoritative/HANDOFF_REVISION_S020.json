@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
+  "session": "S020",
+  "status": "FUTURE_UNEXECUTED",
+  "date": "2026-10-18",
+  "base_main": "5f0900c17995362155bff0e8aecd7fa67e0d8363",
+  "prior_prompt": "sessions/S019/FUTURE_S020.md",
+  "prior_sha256": "6ffec3bfaadded663cdd04c282f1d4b96b4bc23c4529276a6d755a717690cd3c",
+  "current_prompt": "authoritative/handoffs/S020_OWNER_REVISED_2026-10-18.md",
+  "current_sha256": "0234df30b7e16561e168f65fedb6441264822da211f6a941f5a95b30def1265e",
+  "owner_request": "authoritative/handoffs/S020_OWNER_REQUEST_2026-10-18.md",
+  "owner_request_sha256": "3f57f3a14c31e5cd2ca59f4a436cdb20695ac88d0e3e6388c652b58a3035605b",
+  "owner_decisions": {
+    "scope": "Full standalone LaTeX manuscript and exact prominent G9 figures in S020",
+    "palomar": "Registry stall owner-reported, acceptance unconfirmed, placeholder only",
+    "external_actions": "No Palomar submission by session, no journal/arXiv submission or author contact",
+    "historical": "S019 closeout, prior handoff and Palomar snapshot stay immutable"
+  },
+  "provenance": "Owner instruction summarized faithfully; not asserted verbatim. Administrative revision only, S020 not executed."
+}
