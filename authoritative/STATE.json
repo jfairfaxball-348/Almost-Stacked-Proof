@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-18",
-  "last_completed_session": "S020",
-  "recommended_next_session": "S021",
+  "last_completed_session": "S021",
+  "recommended_next_session": "S022",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_LEAN_PALOMAR_SNAPSHOT_READY_FOR_OWNER_UPLOAD",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -40,7 +40,7 @@
     "6": {
       "name": "Standalone arXiv manuscript and submission",
       "status": "OWNER_GATED",
-      "note": "S020 full draft in paper/main.tex and bibliography, four editable TikZ figures; six-page isolated local preview compiled, committed-source PDF parity PENDING S021, no arXiv/journal submission or final author approval."
+      "note": "S021 mathematical audit PASS at finite G9 scope, paper figure checker repair and hosted PDF workflow installed; actual hosted build, page audit and author signoff unobserved; release NO-GO."
     }
   },
   "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
@@ -49,14 +49,13 @@
   "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
+    "Exact committed-source manuscript PDF, BibTeX and all-page visual inspection pending actual workflow and author signoff (S022).",
     "Owner reports stalled Palomar registration; await owner-supplied outcome/verified entry before adding any registry link. Immutable Palomar snapshot remains 34363e5222136c54b08e0c5550e2d49b9f23f5fd.",
-    "S020 future paper-writing session authorised in handoff revision 2026-10-18; execute only on separate invocation, with prominent exact G9 figures and Palomar placeholder.",
     "Owner Phase 1 and Phase 3 gate decisions (proposals in sessions/S018/SUBMISSION_PREP.md)",
     "Bipartite critical ASH*-STACK: no bipartite counterexample known; OPEN (not scheduled)",
     "Infinite bridge-path family PB(4,4,2j,1) for STACK and CLEAR: CONJECTURE only (not scheduled)",
     "Order-9 CLEAR: 53286 graphs producer-only; S015 order-9 STACK UNKNOWN list: 62 not dual-verified, 2 capped (not scheduled)",
-    "Independent review of local items 71-110, 114-115, 117-121 (pending, not scheduled)",
-    "No S020 execution, phase PASS, Palomar submission by a session, publication or contact permission is implied by this closeout."
+    "Independent review of local items 71-110, 114-115, 117-121 (pending, not scheduled)"
   ],
   "owner_action_blockers": [],
   "governance_source": "Davenport-Counterexample-Hunt; adapted not copied blindly",
@@ -79,7 +78,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S021 FUTURE_UNEXECUTED: hostile independent audit and exact committed-source PDF build of the S020 paper; owner approval and publication gates pending.",
+  "next_session_context": "S022 strictly FUTURE_UNEXECUTED: inspect actual committed-source PDF build, every rendered page, complete author signoff; no submission.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",

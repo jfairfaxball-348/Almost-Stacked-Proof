@@ -1,0 +1,3 @@
+# S021 INPUT
+
+Owner invoked "Run next session", then "Continue". Work against merged S020 main a61662304df3d8cbd797a3de85ff1e379b42df7c; never run S022 now. Read AGENTS.md, STATE.json, SESSION_PROTOCOL, S020 CLOSEOUT and paper sources, Challenge/Checker/Main and distinct StackLayers/ClearLayers. Prior original April hypothesis, October ASH abstract and earlier TreeStack consulted. Immutable Palomar branch commit 34363e5222136c54b08e0c5550e2d49b9f23f5fd remains unmodified.
