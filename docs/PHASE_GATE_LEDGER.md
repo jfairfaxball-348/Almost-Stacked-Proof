@@ -117,3 +117,7 @@ Gate: no phase advanced by S019. Phases 2 and 4 OWNER_WAIVED (2026-10-17). Phase
 ## 2026-10-18 — Owner authorises paper drafting before Palomar completion (prospective S020 revision)
 
 The owner reports Palomar registration stalling and explicitly directs that S020 should draft the full paper with multiple verified G9-centric figures and a registry-link placeholder. This changes the ordering *for drafting only*: Phase 6 drafting authorised, **not** Phase 6 PASS or arXiv/journal submission. Phase 5 registry status unconfirmed; the S019 snapshot stays immutable. Phase 1/3 gate decisions still belong to the owner; Phase 2/4 remain OWNER_WAIVED. S020 is FUTURE/UNEXECUTED after this administrative revision. Source: `authoritative/handoffs/S020_OWNER_REQUEST_2026-10-18.md`.
+
+## S020 (2026-10-18) — owner-authorised manuscript drafting only
+
+Paper source, full mathematical exposition, four editable vector figures, bibliography and graph identity audit installed on research main via ordinary PR. This is *preparation*, not a phase-gate PASS. Full exact-GitHub-source PDF build and author editorial audit remain S021. Phases 1 and 3 await owner gate decisions; phases 2 and 4 remain OWNER_WAIVED (not audited); phase 5 unregistered/owner-gated; phase 6 draft only and no submission. The separate palomar/submission snapshot is immutable.

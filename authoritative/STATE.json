@@ -1,8 +1,8 @@
 {
   "project": "Almost-Stacked-Proof",
   "as_of": "2026-10-18",
-  "last_completed_session": "S019",
-  "recommended_next_session": "S020",
+  "last_completed_session": "S020",
+  "recommended_next_session": "S021",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
   "headline_status": "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_LEAN_PALOMAR_SNAPSHOT_READY_FOR_OWNER_UPLOAD",
   "tree_estim_result": "EXISTING_TREESTACK_RESULT_NOT_ASH_PROOF",
@@ -40,7 +40,7 @@
     "6": {
       "name": "Standalone arXiv manuscript and submission",
       "status": "OWNER_GATED",
-      "note": "2026-10-18 owner authorises preparing the standalone LaTeX paper and figures in S020, with Palomar link placeholder. Journal/arXiv submission, author contact and actual publication still owner-gated; drafting is not a Phase 6 PASS."
+      "note": "S020 full draft in paper/main.tex and bibliography, four editable TikZ figures; six-page isolated local preview compiled, committed-source PDF parity PENDING S021, no arXiv/journal submission or final author approval."
     }
   },
   "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
@@ -79,7 +79,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S020 FUTURE_UNEXECUTED — owner now authorises drafting the paper with a prominent early exact G9 figure, multiple reproducible vector figures and a Palomar-entry placeholder; registry outcome not confirmed; no submission/contact or S020 execution.",
+  "next_session_context": "S021 FUTURE_UNEXECUTED: hostile independent audit and exact committed-source PDF build of the S020 paper; owner approval and publication gates pending.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",
@@ -424,10 +424,9 @@
     }
   },
   "next_session_handoff": {
-    "session": "S020",
+    "session": "S021",
     "status": "FUTURE_UNEXECUTED",
-    "path": "authoritative/handoffs/S020_OWNER_REVISED_2026-10-18.md",
-    "sha256": "0234df30b7e16561e168f65fedb6441264822da211f6a941f5a95b30def1265e"
+    "path": "authoritative/NEXT_SESSION_PROMPT.md"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -4745,5 +4744,16 @@
       "historical": "S019 closeout, prior handoff and Palomar snapshot stay immutable"
     },
     "provenance": "Owner instruction summarized faithfully; not asserted verbatim. Administrative revision only, S020 not executed."
+  },
+  "s020": {
+    "status": "SOURCE_DRAFT_COMPLETED_NOT_RELEASED",
+    "entry_main": "f2e204ef0d5fb7473a64706cca1d16ad16e39d1f",
+    "paper": "paper/main.tex",
+    "figures": "four reproducible inline TikZ figures",
+    "compiled_from_exact_git_source": false,
+    "local_preview_pdf": "AVAILABLE_SEPARATELY_NOT_GIT_SOURCE_PARITY_VERIFIED",
+    "palomar": "PENDING_REGISTRATION",
+    "submission": "NOT_SUBMITTED",
+    "next_session": "S021"
   }
 }
