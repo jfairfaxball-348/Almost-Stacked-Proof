@@ -20,6 +20,6 @@ assert len(c)==9 and sum(c)==14 and len([x for x in c if x>=2])==2
 perm={0:1,1:0,2:2,3:4,4:3,5:7,6:8,7:5,8:6}
 assert {tuple(sorted((perm[u],perm[v]))) for u,v in edges} == edges
 assert tuple(c[perm[i]] for i in range(9))==image
-for phrase in ("5 pebbles","8 pebbles","1 pebble","mass \\(s","13: AS","14: all"):
+for phrase in ("5 pebbles","8 pebbles","1 pebble","size \\(s","13: AS","14: all"):
     assert phrase in s, phrase
 print("FIGURE_INTEGRITY_PASS: n=9 m=14 graph6=HCQTaXi c*=14 image=14 automorphism")

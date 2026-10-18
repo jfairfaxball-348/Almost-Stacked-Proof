@@ -1,0 +1,13 @@
+# S021 CLOSEOUT
+
+S021 independent graph/automorphism audit and both STACK/CLEAR 2..15 losing-layer enumerations PASS. Hostile source review found a real failed figure checker phrase; repaired and installed exact-commit TeX/BibTeX/PDF build infrastructure, full-page render artifacts, a standalone independent checker, explicit signoff and future S022 handoff.
+
+**Release NO-GO**: Hosted build logs and rendered pages have NOT yet been observed and visually signed off; source commit parity and final PDF layout remain pending. Never claim successful hosted CI, independent Lean rebuild, journal/arXiv upload, external correspondence or Palomar registration from these changes. Phase 1/3 owner pending, 2/4 OWNER_WAIVED, 5 OWNER_GATED, 6 DRAFT. Historical atlas UNKNOWNs and immutable Palomar snapshot preserved.
+
+## Complete future S022 prompt (unexecuted)
+
+# S022 — Exact-source PDF and author review (FUTURE, UNEXECUTED)
+
+Run only after fresh owner invocation, only S022. Pin live main and read AGENTS.md, STATE.json, protocols and S021 records. Confirm the exact source commit, merged PR and real GitHub Actions paper-audit result; do not infer a build PASS from its presence alone. Download exact-commit PDF, build log, bibliography, rendered images of every page and manifest. Independently run the two Python checkers and examine every rendered page for page breaks, overlapping annotations, figure graph fidelity, all four vector figures, table, citations, titles, bibliography and first G9 position (page 1 or start 2), with critical configuration graphic nearby. Correct and repeat PDF build until the actual committed source matches the visually inspected artifact. Recheck both STACK and CLEAR layer totals, precise critical versus printed ASH distinction, source-correspondence authority, prior TreeStack credit, remaining atlas UNKNOWNs and unproved infinite family. Package self-contained arXiv TeX/BibTeX/figure source plus PDF but do not submit. Palomar ID/link stays pending until actual verified registry record; never modify immutable palomar/submission at 34363e5222136c54b08e0c5550e2d49b9f23f5fd. Phase 2/4 OWNER_WAIVED, 1/3 awaiting owner, phase 5 OWNER_GATED. Complete author signoff with exact PDF and no unsupported novelty claim. Record S022 INPUT, PLAN, AUDIT, CLOSEOUT, one authored atomic commit, PR, non-force merge and full future S023. Do not execute S023 or contact anyone without owner authorisation.
+
+S021 correction: PR #28 initial hosted paper and governance jobs failed for the reasons in AUDIT.md; this replacement single-commit PR fixes both. Final CI/merge are observed separately, not assumed by this document.

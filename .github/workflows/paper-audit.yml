@@ -1,0 +1,56 @@
+name: Counterexample paper exact-source audit
+on:
+  pull_request:
+    paths: ["paper/**", ".github/workflows/paper-audit.yml"]
+  push:
+    branches: [main]
+    paths: ["paper/**", ".github/workflows/paper-audit.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install LaTeX and PDF utilities
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq latexmk texlive-latex-recommended texlive-latex-extra texlive-pictures texlive-fonts-recommended poppler-utils
+      - name: Check source and independent losing layers
+        run: |
+          python3 paper/figure_check.py
+          python3 paper/independent_layer_audit.py
+      - name: Build precisely this committed source
+        run: |
+          cd paper
+          latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+          test -s main.pdf
+          test -s main.bbl
+          if grep -Fq 'Overfull \hbox' main.log; then echo Overfull; exit 1; fi
+          if grep -Eq 'Citation .+ undefined|There were undefined references' main.log; then echo Undefined; exit 1; fi
+      - name: Render all pages and record source commit
+        run: |
+          mkdir -p paper/rendered
+          pages=$(pdfinfo paper/main.pdf | awk '/^Pages:/ {print $2}')
+          test "$pages" -gt 0
+          pdftoppm -r 130 -png paper/main.pdf paper/rendered/page
+          test "$(find paper/rendered -name 'page-*.png' | wc -l)" -eq "$pages"
+          pdftotext -layout paper/main.pdf paper/main.txt
+          git rev-parse HEAD > paper/BUILD_COMMIT.txt
+          sha256sum paper/main.tex paper/references.bib paper/main.pdf > paper/SHA256SUMS.txt
+          echo "Pages $pages from $(cat paper/BUILD_COMMIT.txt)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: manuscript-pdf-and-pages
+          path: |
+            paper/main.pdf
+            paper/main.bbl
+            paper/main.log
+            paper/main.txt
+            paper/BUILD_COMMIT.txt
+            paper/SHA256SUMS.txt
+            paper/rendered/*.png
+          retention-days: 30
