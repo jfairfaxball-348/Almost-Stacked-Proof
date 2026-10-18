@@ -46,7 +46,7 @@
   "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CRITICAL_CLEAR_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
   "lean_status": "G9_PALOMAR_SNAPSHOT_PREPARED_NOT_SUBMITTED",
-  "palomar_status": "REGISTRATION_UNCONFIRMED_OWNER_REPORTS_STALL",
+  "palomar_status": "NOT_SUBMITTED",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
     "Owner reports stalled Palomar registration; await owner-supplied outcome/verified entry before adding any registry link. Immutable Palomar snapshot remains 34363e5222136c54b08e0c5550e2d49b9f23f5fd.",
@@ -426,8 +426,8 @@
   "next_session_handoff": {
     "session": "S020",
     "status": "FUTURE_UNEXECUTED",
-    "path": "sessions/S019/FUTURE_S020.md",
-    "sha256": "6ffec3bfaadded663cdd04c282f1d4b96b4bc23c4529276a6d755a717690cd3c"
+    "path": "authoritative/handoffs/S020_OWNER_REVISED_2026-10-18.md",
+    "sha256": "0234df30b7e16561e168f65fedb6441264822da211f6a941f5a95b30def1265e"
   },
   "s013": {
     "research": "research/S013_UNIVERSAL_RESEARCH.md",
@@ -4724,5 +4724,26 @@
     "visuals": "Prominent verified G9 figure early; at least four useful exact vector figures",
     "publication": "No arXiv/journal submission or author contact authorised",
     "source": "authoritative/handoffs/S020_OWNER_REQUEST_2026-10-18.md"
+  },
+  "handoff_revision_s020": {
+    "schema": 1,
+    "kind": "OWNER_DIRECTED_FUTURE_HANDOFF_REVISION",
+    "session": "S020",
+    "status": "FUTURE_UNEXECUTED",
+    "date": "2026-10-18",
+    "base_main": "5f0900c17995362155bff0e8aecd7fa67e0d8363",
+    "prior_prompt": "sessions/S019/FUTURE_S020.md",
+    "prior_sha256": "6ffec3bfaadded663cdd04c282f1d4b96b4bc23c4529276a6d755a717690cd3c",
+    "current_prompt": "authoritative/handoffs/S020_OWNER_REVISED_2026-10-18.md",
+    "current_sha256": "0234df30b7e16561e168f65fedb6441264822da211f6a941f5a95b30def1265e",
+    "owner_request": "authoritative/handoffs/S020_OWNER_REQUEST_2026-10-18.md",
+    "owner_request_sha256": "3f57f3a14c31e5cd2ca59f4a436cdb20695ac88d0e3e6388c652b58a3035605b",
+    "owner_decisions": {
+      "scope": "Full standalone LaTeX manuscript and exact prominent G9 figures in S020",
+      "palomar": "Registry stall owner-reported, acceptance unconfirmed, placeholder only",
+      "external_actions": "No Palomar submission by session, no journal/arXiv submission or author contact",
+      "historical": "S019 closeout, prior handoff and Palomar snapshot stay immutable"
+    },
+    "provenance": "Owner instruction summarized faithfully; not asserted verbatim. Administrative revision only, S020 not executed."
   }
 }

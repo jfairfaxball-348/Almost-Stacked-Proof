@@ -753,8 +753,26 @@ elif closed15:
                         assert state['consumed_prospective_handoff']==dict(session='S019',status='FUTURE_UNEXECUTED',path=rev19['current_prompt'],sha256=rev19['current_sha256'])
                         future20=(ROOT/'sessions/S019/FUTURE_S020.md').read_bytes()
                         assert future20.decode() in (ROOT/'sessions/S019/CLOSEOUT.md').read_text(encoding='utf-8')
-                        assert next_prompt.encode()==future20 and b'owner will dictate' in future20
-                        assert state['next_session_handoff']==dict(session='S020',status='FUTURE_UNEXECUTED',path='sessions/S019/FUTURE_S020.md',sha256=hashlib.sha256(future20).hexdigest())
+                        rev20_path=ROOT/'authoritative/HANDOFF_REVISION_S020.json'
+                        if rev20_path.exists():
+                            # S020 handoff revised administratively by the owner; frozen S019 bytes unchanged.
+                            rev20=load('authoritative/HANDOFF_REVISION_S020.json')
+                            assert rev20['schema']==1 and rev20['kind']=='OWNER_DIRECTED_FUTURE_HANDOFF_REVISION'
+                            assert rev20['session']=='S020' and rev20['status']=='FUTURE_UNEXECUTED'
+                            assert rev20['prior_prompt']=='sessions/S019/FUTURE_S020.md'
+                            assert rev20['prior_sha256']==hashlib.sha256(future20).hexdigest()
+                            revised20=(ROOT/rev20['current_prompt']).read_bytes()
+                            request20=(ROOT/rev20['owner_request']).read_bytes()
+                            assert next_prompt.encode()==revised20
+                            assert rev20['current_sha256']==hashlib.sha256(revised20).hexdigest()
+                            assert rev20['owner_request_sha256']==hashlib.sha256(request20).hexdigest()
+                            assert state['handoff_revision_s020']==rev20
+                            assert state['next_session_handoff']==dict(session='S020',status='FUTURE_UNEXECUTED',path=rev20['current_prompt'],sha256=rev20['current_sha256'])
+                            assert 'G9' in next_prompt and 'Palomar' in next_prompt and 'page 1' in next_prompt
+                            assert 'S020' in request20.decode() and 'paper' in request20.decode()
+                        else:
+                            assert next_prompt.encode()==future20 and b'owner will dictate' in future20
+                            assert state['next_session_handoff']==dict(session='S020',status='FUTURE_UNEXECUTED',path='sessions/S019/FUTURE_S020.md',sha256=hashlib.sha256(future20).hexdigest())
                         assert not (ROOT/'sessions/S020').exists(), 'S020 remains unexecuted'
                     else:
                         assert next_prompt.encode()==revised19

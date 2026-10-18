@@ -1,6 +1,6 @@
 # S020 — Write the standalone counterexample paper (with prominent exact figures)
 
-**FUTURE / UNEXECUTED.** Owner-authorised prospective handoff, installed administratively on 2026-10-18 after S019. S019 is the last completed research session. Execute S020 only when the owner separately invokes the next session; do not execute S021 in S020.
+**FUTURE, UNEXECUTED.** Owner-authorised prospective handoff, installed administratively on 2026-10-18 after S019. S019 is the last completed research session. Execute S020 only when the owner separately invokes the next session; do not execute S021 in S020.
 
 ## Owner decision and changed release order
 
@@ -8,7 +8,7 @@ The owner reports that Palomar registration is stalling, and explicitly directs 
 
 ## Entry and evidence
 
-1. Read LIVE `main` and reconcile S019 PR #25, its actual merge commit and any intervening changes; read AGENTS.md, authoritative/{START_HERE.md,STATE.json}, docs/{SESSION_PROTOCOL.md,RELEASE_PROTOCOL.md,PHASE_GATE_LEDGER.md}, the decision, source, claim and session ledgers, research/ASH_SPEC.md, and sessions/S015–S019 research, audits, Lean assurance, packaging and closeouts. Check this S020 revision against the 2026-10-18 owner decision and confirm S020 not already executed.
+1. Read LIVE `main` and reconcile S019 PR #25, its actual merge commit and any intervening changes; read AGENTS.md, authoritative/{START_HERE.md,STATE.json}, docs/{SESSION_PROTOCOL.md,RELEASE_PROTOCOL.md,PHASE_GATE_LEDGER.md}, S014 local structural research when used, the decision, source, claim and session ledgers, research/ASH_SPEC.md, and sessions/S015–S019 research, audits, Lean assurance, packaging and closeouts. Check this S020 revision against the 2026-10-18 owner decision and confirm S020 not already executed.
 2. Pin the **separate, immutable** Palomar snapshot `palomar/submission` at `34363e5222136c54b08e0c5550e2d49b9f23f5fd`. Its local fresh-clone preflight passed; do not present it as a Palomar-registered or sandbox-verified record, do not rewrite it, and do not assume an entry ID. Research `main` S019 merge was `5f0900c17995362155bff0e8aecd7fa67e0d8363` at this revision; repin it live at execution.
 3. Create the S020 INPUT/PLAN/decisions and manuscript source tree on a research session branch. Preserve exact bibliographic attribution to Tamás Csernák and Lajos Soukup (arXiv:2610.09650, arXiv:2604.22341); independently check exact theorems/definitions against primary sources and Lean Challenge.lean before writing mathematical claims. Credit the earlier TreeStack paper (arXiv:2609.31811) only for its actual separate result. Owner is the sole named paper author unless the owner directs otherwise; do not fabricate endorsements, correspondence or priority.
 
@@ -22,7 +22,7 @@ Proposed working title: **A Nine-Vertex Counterexample to the Critical Almost St
 - Definitions: graphs, configurations, pebbling moves, stackable vs clearable, almost stacked, `stack(G)`, `clear(G)`, critical thresholds and `L_all` vs `L_AS` with explicit "every size >= t" distinction, admissibility/nonbipartiteness, and finite versus universal quantifiers.
 - Main theorem: graph `G9` on vertices 0..8, graph6 `HCQTaXi`, exactly the 14 undirected edges
   `03,05,06,14,17,18,26,28,35,36,47,48,57,68`.
-  Connected and nonbipartite. `stack(G9)=clear(G9)=15`, `L_all(G9)=14`, `L_AS(G9)=13`; the sole size-14 losers (for each of stacking and clearing) are `(0,0,1,0,0,5,0,8,0)` and its graph-automorphic image, **not** almost stacked. Thus the intended critical ASH* fails in both clauses.
+  Connected and nonbipartite. `stack(G9)=clear(G9)=15`, `L_all(G9)=14`, `L_AS(G9)=13`; the sole size-14 losers (for each of stacking and clearing) are `(0,0,1,0,0,5,0,8,0)` and its graph-automorphic image, **not** almost stacked. Thus the intended critical ASH* fails in both clauses; in particular the proposed universal inequality `L_all(G) <= L_AS(G)` is **false** and must not appear as an asserted theorem.
 - Proof: expose a readable mathematical explanation of why the critical configuration loses; distinguish a hand argument from any computational certificate. Give precise certified ingredients for upper bounds/all almost-stacked inputs, losing-layer recurrence, correctness proof, and how the Lean kernel checks untrusted finite data. For CLEAR, explain clearly what is independently verified and what follows from STACK; never skip a needed implication. Include fully specified computational completeness scopes and limitations, or move reproducibility/detail into an appendix.
 - Context and discussion: minimal counterexample order 9 only at the scopes actually verified; avoid asserting uniqueness among all order-9 graphs if a sweep has UNKNOWN/unverified cases. Distinguish conjectural infinite PB(4,4,2j,1) family from established finite examples. Separate the printed-form P4/bull examples from the flagship claim if mentioned. Cite exact existing results; no unverified novelty assertion.
 - Verification, declarations/acknowledgements, reproducible repository paths and references.
