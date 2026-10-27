@@ -1,6 +1,6 @@
 {
   "project": "Almost-Stacked-Proof",
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-27",
   "last_completed_session": "S021",
   "recommended_next_session": "S022",
   "headline_target": "Universal intended critical-form Almost Stacked Hypothesis (ASH*): unconditional proof OR certified counterexample, stacking and clearing separately; preserve printed-form counterexamples",
@@ -34,24 +34,23 @@
     },
     "5": {
       "name": "Palomar verification and registration",
-      "status": "OWNER_GATED",
-      "note": "S019 immutable submission snapshot palomar/submission@34363e5222136c54b08e0c5550e2d49b9f23f5fd ready; on 2026-10-18 owner reports Palomar registration stalling; no Palomar ID/acceptance independently confirmed. Does not block S020 manuscript writing."
+      "status": "PASS",
+      "note": "Palomar v1 independently verified in public registry: PALOMAR-2026-10-27-000023, published 2026-10-27T20:24:42Z, trust high, registered for both G9 STACK and CLEAR; archived registered source 358729c65c198db3a6a6973c666d3d9de4009bb7. Distinct S019 snapshot remains palomar/submission@34363e5222136c54b08e0c5550e2d49b9f23f5fd. No arXiv/journal submission authorised."
     },
     "6": {
       "name": "Standalone arXiv manuscript and submission",
       "status": "OWNER_GATED",
-      "note": "S021 mathematical audit PASS at finite G9 scope, paper figure checker repair and hosted PDF workflow installed; actual hosted build, page audit and author signoff unobserved; release NO-GO."
+      "note": "Palomar link incorporated 2026-10-27, editorial proof-workflow flowchart removed. Exact-source hosted PDF build, page audit and author signoff still required; release NO-GO pending these checks."
     }
   },
   "source_inspection": "S014 current October/April/earlier TreeStack/ordering digests unchanged; selected exact ordering, complete-bipartite8.4, Hamiltonian necessity October6.2/Aprilp27 and path-cover6.8 inspected. No worldwide priority/kernel assurance.",
   "counterexample_status": "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CRITICAL_CLEAR_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF",
-  "lean_status": "G9_PALOMAR_SNAPSHOT_PREPARED_NOT_SUBMITTED",
-  "palomar_status": "NOT_SUBMITTED",
+  "lean_status": "G9_BOTH_CLAUSES_PALOMAR_REGISTERED_V1",
+  "palomar_status": "REGISTERED_PALOMAR-2026-10-27-000023_V1",
   "arxiv_project_status": "NOT_SUBMITTED",
   "open_obligations": [
     "Initial S021 PR #28 workflow exposed TeX overfull boxes and a legacy validator capped at S019; repaired TeX line breaks and extended validator on replacement single-commit branch. Hosted recheck pending.",
     "Exact committed-source manuscript PDF, BibTeX and all-page visual inspection pending actual workflow and author signoff (S022).",
-    "Owner reports stalled Palomar registration; await owner-supplied outcome/verified entry before adding any registry link. Immutable Palomar snapshot remains 34363e5222136c54b08e0c5550e2d49b9f23f5fd.",
     "Owner Phase 1 and Phase 3 gate decisions (proposals in sessions/S018/SUBMISSION_PREP.md)",
     "Bipartite critical ASH*-STACK: no bipartite counterexample known; OPEN (not scheduled)",
     "Infinite bridge-path family PB(4,4,2j,1) for STACK and CLEAR: CONJECTURE only (not scheduled)",
@@ -79,7 +78,7 @@
     "archive": "outreach/2026-10-csernak-soukup/2026-10-13_AUTHOR_REPLY.md",
     "next_reply": "DRAFT_NOT_SENT"
   },
-  "next_session_context": "S022 strictly FUTURE_UNEXECUTED: inspect actual committed-source PDF build, every rendered page, complete author signoff; no submission.",
+  "next_session_context": "S022 strictly FUTURE_UNEXECUTED: inspect exact committed-source PDF, Palomar v1 citation, and every rendered page (three mathematical vector figures); complete author signoff; no submission.",
   "printed_form_phase1": {
     "status": "PASS",
     "evidence": "sessions/S004/AUDIT.md; tools/s004_cold.py; exact certificate replay",

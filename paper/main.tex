@@ -9,7 +9,7 @@
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
-\newcommand{\PalomarEntry}{\textsf{Registration pending; URL to be inserted after confirmation}}
+\newcommand{\PalomarEntry}{\href{https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-27-000023\&version=1}{\texttt{PALOMAR-2026-10-27-000023, v1}}}
 \newcommand{\Gcoords}{%
 \coordinate (v0) at (-2.8,0);\coordinate (v3) at (-.8,0);
 \coordinate (v5) at (-1.8,1.2);\coordinate (v6) at (-1.8,-1.2);
@@ -20,7 +20,7 @@
 \newcommand{\Gvertices}{\foreach \i in {0,1,2,3,4,5,6,7,8}{\node[draw,fill=white,circle,inner sep=0pt,minimum size=7mm,font=\small\bfseries] at (v\i) {\i};}}
 \title{A Nine-Vertex Counterexample to the Critical Almost Stacked Hypothesis}
 \author{John Fairfax-Ball}
-\date{18 October 2026 \quad Working draft, not submitted}
+\date{27 October 2026 \quad Preprint draft, not submitted}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -120,24 +120,11 @@ The graph is connected by inspection of its listed edges, and has the odd triang
 \end{tikzpicture}
 \caption{The sharp gap, identical for STACK and CLEAR: \(L_{\rm AS}=13<L_{\rm all}=14\). In contrast, the \emph{guaranteed thresholds} are respectively \(14\) (AS inputs) and \(15\) (all inputs).}\label{fig:gap}
 \end{figure}
-\section{Trust boundary and limitations}
-The formal target file \texttt{formal/Challenge.lean} specifies twenty-five results, including graph properties, the two mass-\(14\) characterisations, thresholds and both universal negations. The checked theorems use Lean 4.35.0 and Mathlib v4.35.0. Local build and kernel replays were recorded in S017--S019. The S019 fresh-clone test produced a successful plain build and unsandboxed comparator; several independent kernels accepted the export. This is not a hosted Palomar registration or a claim about sandboxed Palomar execution \cite{Repo}.
-\begin{figure}[H]\centering
-\begin{tikzpicture}[node distance=5mm and 6mm,>=Stealth, bx/.style={draw,rounded corners,text width=35mm,minimum height=10mm,align=center,font=\footnotesize}]
-\node[bx] (math) {Proved losing-layer recursion};
-\node[bx,right=of math] (checker) {Proved sound and complete checker};
-\node[bx,below=of math] (data) {Untrusted generated layers};
-\node[bx,right=of data] (lean) {Lean kernel checks\\STACK and CLEAR};
-\node[bx,below=of lean] (ind) {Local cold replays and independent kernels};
-\node[bx,left=of ind] (pal) {Palomar registry:\\pending};
-\draw[->] (math)--(checker);\draw[->](checker)--(lean);\draw[->](data)--(lean);
-\draw[->](lean)--(ind);\draw[->,dashed](ind)--(pal);
-\end{tikzpicture}
-\caption{Formal verification architecture. The dashed last step is pending; the Palomar service is not represented as having accepted the package.}\label{fig:verification}
-\end{figure}
-An order-\(9\) witness does not prove uniqueness in the class of all order-\(9\) graphs, given outstanding independently unverified atlas cases. The suggested infinite bridge families remain conjectural. Novelty audits at two phases were waived by the owner, not passed; no global priority claim is made. The earlier tree stacking theorem \cite{TreeStack} is acknowledged as independent prior work.
+\section{Formal verification and scope}
+The Lean development proves the relevant definitions and checker correctness, then uses kernel evaluation to certify the finite STACK and CLEAR losing layers on \(G_9\). The twenty-five formal targets, including both universal negations, are specified in \texttt{formal/Challenge.lean}. The result was registered in the Palomar Registry on 27 October 2026 as \PalomarEntry\ \cite{PalomarG9}; the registered record links the archived source and identifies its formal theorem names. This formal verification does not constitute a claim of uniqueness or priority.
+An order-\(9\) witness does not prove uniqueness in the class of all order-\(9\) graphs, given outstanding independently unverified atlas cases. The suggested infinite bridge families remain conjectural. The earlier tree stacking theorem \cite{TreeStack} is independent prior work.
 \section*{Availability, acknowledgements and declarations}
-Source: \url{https://github.com/jfairfaxball-348/Almost-Stacked-Proof}. Exact Lean submission snapshot (distinct from research main): \texttt{palomar/submission}, commit \texttt{34363e5222136c54}\allowbreak\texttt{b08e0c5550e2d49b9f23f5fd}. Palomar verification: \PalomarEntry. To regenerate diagrams and check graph integrity run \texttt{python3 figure\_check.py}; build commands and environment are in \texttt{paper/README.md}. No external registration, journal/arXiv submission or email is made here. The pebbling parameters and motivating conjecture are due to Tam\'as Csern\'ak and Lajos Soukup \cite{CSApril,CSOctober}. Computational, formal and drafting assistance was used; the named author remains responsible for the paper.
+Source: \url{https://github.com/jfairfaxball-348/Almost-Stacked-Proof}. Lean submission snapshot: \texttt{palomar/submission}, commit \texttt{34363e5222136c54}\allowbreak\texttt{b08e0c5550e2d49b9f23f5fd}. Independently archived registered source commit: \texttt{358729c65c198db3}\allowbreak\texttt{a6a6973c666d3d9de4009bb7}. Palomar record: \PalomarEntry. To regenerate diagrams and check graph integrity run \texttt{python3 figure\_check.py}; build commands and environment are in \texttt{paper/README.md}. No arXiv or journal submission has been made from this manuscript. The pebbling parameters and motivating conjecture are due to Tam\'as Csern\'ak and Lajos Soukup \cite{CSApril,CSOctober}. Computational, formal and drafting assistance was used; the named author remains responsible for the paper.
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}
