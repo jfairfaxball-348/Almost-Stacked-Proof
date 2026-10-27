@@ -26,6 +26,6 @@ lake build
 
 ## Provenance
 
-The research record (computations, independent cold re-checks, certificate generator `tools/s017_gen_layers.py`, assurance runs) is in https://github.com/jfairfaxball-348/Almost-Stacked-Proof; this snapshot's Lean files are byte-identical copies of its `formal/` directory at the commit named in that repository's session S019 record. An earlier, separate result, the stacking number of trees (arXiv:2609.31811), is credited prior work and is not used here.
+The research archive is in **a different Git history of this same repository**, not in this minimal orphan submission snapshot. The immutable research commit is [`5f0900c17995362155bff0e8aecd7fa67e0d8363`](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/commit/5f0900c17995362155bff0e8aecd7fa67e0d8363). **[PROVENANCE.md](PROVENANCE.md)** indexes direct commit-pinned links to the S015 discovery, S016/S017 independent computational re-checks, certificate generator, S018 Lean assurance, and S019 snapshot and comparator records. This snapshot's Lean files were copied byte-for-byte from the research repository's `formal/` tree during S019 (see [S019 packaging](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/5f0900c17995362155bff0e8aecd7fa67e0d8363/sessions/S019/PACKAGING.md)). No independent human peer review or worldwide novelty/priority claim is asserted. An earlier, separate result, the stacking number of trees (arXiv:2609.31811), is credited prior work and is not used here.
 
 Licence: Apache-2.0 (`LICENSE`).
