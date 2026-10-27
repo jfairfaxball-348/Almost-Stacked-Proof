@@ -121,3 +121,7 @@ The owner reports Palomar registration stalling and explicitly directs that S020
 ## S020 (2026-10-18) — owner-authorised manuscript drafting only
 
 Paper source, full mathematical exposition, four editable vector figures, bibliography and graph identity audit installed on research main via ordinary PR. This is *preparation*, not a phase-gate PASS. Full exact-GitHub-source PDF build and author editorial audit remain S021. Phases 1 and 3 await owner gate decisions; phases 2 and 4 remain OWNER_WAIVED (not audited); phase 5 unregistered/owner-gated; phase 6 draft only and no submission. The separate palomar/submission snapshot is immutable.
+
+## 27 October 2026 — Palomar registry confirmed (owner-directed editorial update; not S022)
+
+Public machine-readable registry entry **PALOMAR-2026-10-27-000023 v1**, published 2026-10-27T20:24:42Z, status `registered`, trust level `high`, independently inspected. This certifies G9 critical ASH*-STACK and ASH*-CLEAR formal results at the registered exact statement, not priority, uniqueness among order-nine graphs, or infinite-family generalisation. Registered source commit is `358729c65c198db3a6a6973c666d3d9de4009bb7`; earlier submission snapshot `34363e5222136c54b08e0c5550e2d49b9f23f5fd` is distinct and unchanged. Phase 5: **PASS**. Paper citation now updated, workflow-only boxed figure removed. Phase 6 remains release **NO-GO** until exact-source PDF build and all-page signoff; arXiv/journal submissions not authorised. Phase 1/3 owner signoff remains separate; phase 2/4 waiver remains in force.

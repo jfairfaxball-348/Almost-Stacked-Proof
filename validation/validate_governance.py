@@ -73,17 +73,25 @@ if active14:
     assert state['active_session']['session_commit'] is None and state['active_session']['pull_request'] is None
 claims = load("catalogue/claims.json")
 sources = load("catalogue/sources.json")
-assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_LEAN_PALOMAR_SNAPSHOT_READY_FOR_OWNER_UPLOAD" if closed19 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_COMPARATOR_STATEMENT_PASS_INDEPENDENT_KERNELS_RECORDED" if closed18 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
+assert state["headline_status"] == ("PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_PALOMAR_REGISTERED_V1" if closed21 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_LEAN_PALOMAR_SNAPSHOT_READY_FOR_OWNER_UPLOAD" if closed19 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_COMPARATOR_STATEMENT_PASS_INDEPENDENT_KERNELS_RECORDED" if closed18 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_AND_CLEAR_REFUTED_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COLD_RECHECK_PASS_LEAN_PENDING_CRITICAL_CLEAR_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING" if closed16 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_STACK_REFUTED_COMPUTED_COLD_RECHECK_AND_LEAN_PENDING_CRITICAL_CLEAR_OPEN" if closed15 else "PRINTED_ASH_REFUTED_COLD_AUDIT_PASS_CRITICAL_FORM_OPEN")
 assert state["last_completed_session"] == ('S021' if closed21 else 'S020' if closed20 else 'S019' if closed19 else 'S018' if closed18 else 'S017' if closed17 else 'S016' if closed16 else 'S015' if closed15 else 'S014' if closed14 else 'S013')
 assert state["recommended_next_session"] == ('S022' if closed21 else 'S021' if closed20 else 'S020' if closed19 else 'S019' if closed18 else 'S018' if closed17 else 'S017' if closed16 else 'S016' if closed15 else 'S015' if closed14 else 'S014')
 assert state["phases"]["0"]["status"] == "PASS"
 assert state["phases"]["1"]["status"] == "IN_PROGRESS"
-assert all(state["phases"][str(i)]["status"] != "PASS" for i in range(2, 7))
+assert all(state["phases"][str(i)]["status"] != "PASS" for i in (2, 3, 4, 6))
+# Phase 5 may be completed only after the exact public G9 Palomar registration.
+if state["phases"]["5"]["status"] == "PASS":
+    assert closed21 and state["as_of"] >= "2026-10-27"
+    assert "PALOMAR-2026-10-27-000023" in state["phases"]["5"]["note"]
+    assert "358729c65c198db3a6a6973c666d3d9de4009bb7" in state["phases"]["5"]["note"]
+    assert "34363e5222136c54b08e0c5550e2d49b9f23f5fd" in state["phases"]["5"]["note"]
+else:
+    assert state["phases"]["5"]["status"] == "OWNER_GATED"
 assert state["active_campaign"] is None
 assert state["counterexample_status"] == ("PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF; CRITICAL_CLEAR_G9_COLD_RECHECK_PASS_LEAN_LOCAL_KERNEL_PROOF" if closed17 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COLD_RECHECK_PASS_LEAN_PENDING; CRITICAL_CLEAR_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed16 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING; CRITICAL_STACK_G9_COMPUTED_MULTI_CHECKER_COLD_RECHECK_PENDING_LEAN_PENDING" if closed15 else "PRINTED_FORM_CERTIFIED_COLD_AUDIT_PASS_LEAN_PENDING")
-assert state["lean_status"] == ("G9_PALOMAR_SNAPSHOT_PREPARED_NOT_SUBMITTED" if closed19 else "IN_PROGRESS_G9_LOCAL_COMPARATOR_STATEMENT_PASS_UNSANDBOXED_INDEPENDENT_KERNELS_RECORDED" if closed18 else "IN_PROGRESS_G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "NOT_STARTED")
+assert state["lean_status"] == ("G9_BOTH_CLAUSES_PALOMAR_REGISTERED_V1" if closed21 else "G9_PALOMAR_SNAPSHOT_PREPARED_NOT_SUBMITTED" if closed19 else "IN_PROGRESS_G9_LOCAL_COMPARATOR_STATEMENT_PASS_UNSANDBOXED_INDEPENDENT_KERNELS_RECORDED" if closed18 else "IN_PROGRESS_G9_LOCAL_KERNEL_PROOF_COMPARATOR_PENDING" if closed17 else "NOT_STARTED")
 assert state["phases"]["3"]["status"] == ("IN_PROGRESS" if closed17 else "NOT_STARTED")
-assert state["palomar_status"] == "NOT_SUBMITTED"
+assert state["palomar_status"] == ("REGISTERED_PALOMAR-2026-10-27-000023_V1" if closed21 else "NOT_SUBMITTED")
 assert state["arxiv_project_status"] == "NOT_SUBMITTED"
 assert len({c["id"] for c in claims}) == len(claims)
 assert len({s["id"] for s in sources}) == len(sources)
@@ -1282,11 +1290,17 @@ if closed21:
     assert (ROOT/'sessions/S021/AUDIT.md').is_file()
     assert (ROOT/'sessions/S021/CLOSEOUT.md').is_file()
     future22=(ROOT/'sessions/S021/FUTURE_S022.md').read_text(encoding='utf-8')
-    assert next_prompt==future22
+    # Historical S021 handoff is immutable; later owner editorial direction may revise the live S022 prompt.
+    assert next_prompt==future22 or (
+        state["as_of"] >= "2026-10-27"
+        and next_prompt.startswith("# S022 — Exact-source PDF and author review (FUTURE, UNEXECUTED)")
+        and "Owner-directed editorial update, 27 October 2026" in next_prompt
+        and "PALOMAR-2026-10-27-000023" in next_prompt
+    )
     assert 'S022' in future22 and 'FUTURE, UNEXECUTED' in future22
     assert state['phases']['2']['status']==state['phases']['4']['status']=='OWNER_WAIVED'
-    assert state['phases']['5']['status']=='OWNER_GATED'
-    assert state['palomar_status']=='NOT_SUBMITTED'
+    assert state['phases']['5']['status']==('PASS' if state['as_of'] >= '2026-10-27' else 'OWNER_GATED')
+    assert state['palomar_status']==('REGISTERED_PALOMAR-2026-10-27-000023_V1' if state['as_of'] >= '2026-10-27' else 'NOT_SUBMITTED')
     assert (ROOT/'paper/independent_layer_audit.py').is_file()
     assert (ROOT/'paper/AUTHOR_SIGNOFF.md').is_file()
     print('S021 governance: current handoff checked and historical S001--S019 invariants retained: PASS')
