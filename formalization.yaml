@@ -1,4 +1,6 @@
-# formalization.yaml v0.4 (S019 final, 2026-10-17). Shaped after the Palomar policy
+# formalization.yaml v0.4 (S019 original, provenance links corrected 2026-10-27).
+# Submitted mathematical statements and Lean sources unchanged.
+# Shaped after the Palomar policy
 # (PalomarPolicy CONTRIBUTING.md) and template (PalomarSubmission
 # tests/fixtures/palomar-template-formalization.yaml); validated against the upstream schema
 # (sessions/S019/PACKAGING.md). Owner decisions 2026-10-17: licence Apache-2.0; AI systems
@@ -40,10 +42,19 @@ sources:
     type: original-proof
     relationship: other
     note: >-
-      First presented in the research repository
-      https://github.com/jfairfaxball-348/Almost-Stacked-Proof (records S015-S016,
-      independently re-checked S016-S017). No novelty or prior-art audit was performed
-      (waived by the owner); no claim of worldwide priority is made.
+      Research records (S015-S019) are pinned at the immutable research commit
+      https://github.com/jfairfaxball-348/Almost-Stacked-Proof/tree/5f0900c17995362155bff0e8aecd7fa67e0d8363.
+      This is the same public repository name as the submission, but a separate
+      main-line Git history: the intentionally minimal orphan submission snapshot
+      does not contain those research files. In that pinned revision, the initial
+      STACK record is research/S015_G9_COUNTEREXAMPLE.md, the CLEAR record is
+      research/S016_CLEAR.md, independent computational cold re-checks are
+      sessions/S016/GATE1_AUDIT.md and sessions/S017/CLEAR_RECHECK.md, and the
+      certificate generator is tools/s017_gen_layers.py. Immutable per-file links
+      and S018/S019 formal assurance records are indexed in this submission's
+      PROVENANCE.md. These records are not a claim of human peer review. No novelty
+      or prior-art audit was performed (waived by the owner); no worldwide
+      priority claim is made.
   - title: "The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem"
     authors:
       - "Tamás Csernák"
@@ -103,7 +114,10 @@ automation:
         wall_time: "research sessions S001-S019, 2026-10-12 to 2026-10-17"
         spend_usd: "not tracked"
         hardware: "local workstation (16 GB RAM) and GitHub-hosted CI"
-      prompting_notes: "Owner-written session handoffs; full session records are in the research repository."
+      prompting_notes: >-
+        Owner-written session handoffs. Full records are in the pinned research
+        revision 5f0900c17995362155bff0e8aecd7fa67e0d8363, indexed by PROVENANCE.md in this submission;
+        they are not present in this orphan submission snapshot.
   spend_usd: "not tracked"
   notes: >-
     The owner set the research direction and approved each session; AI agents carried out
@@ -122,10 +136,15 @@ review:
   reviewers:
     - "none"
   notes: >-
-    Independent fresh-session cold re-checks of the computation (STACK and CLEAR) and of
-    the Lean statements against the specification; local lake comparator (statement and
-    axiom check) and replays by Lean's kernel, nanoda, con-ron, lean4lean and
-    leanchecker-paranoid. No human peer review.
+    Agent/tool cold re-checks of STACK (sessions/S016/GATE1_AUDIT.md), CLEAR
+    (sessions/S017/CLEAR_RECHECK.md) and Lean statements
+    (sessions/S018/LEAN_COLD_RECHECK.md), all at the frozen research revision
+    5f0900c17995362155bff0e8aecd7fa67e0d8363. S019 packaging and
+    evidence/S019/comparator_fresh.txt record successful comparator verification;
+    evidence/S019/kernels_fresh.txt records nanoda, con-ron, lean4lean and
+    leanchecker-paranoid accepting, while con-leche was inconclusive under
+    the recorded memory cap. See the snapshot's PROVENANCE.md for immutable
+    per-file links. No human peer review.
 
 alignment:
   namespace: "AlmostStacked"
