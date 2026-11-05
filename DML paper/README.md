@@ -34,7 +34,7 @@ The `DML manuscript preparation audit` GitHub Actions workflow independently
 retrieves the official ZIP, checks required template settings, runs both
 verification scripts, builds PDF and bibliography from the exact committed
 source, renders PDF pages, and fails if the DML-template paper exceeds 8 pages.
-Do not claim a final build or PDF pass until its specific commit run completes.
+Verified after the official-format build: [CI run 42060980350](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/42060980350) PASS, 4 pages, no final undefined citations or overfull boxes. All four pages were independently rendered and visually inspected. The author still needs to approve contact details and submission.
 
 Official DML guidelines:
 https://www.dmlett.com/manuscript-preparation-and-its-submission/
