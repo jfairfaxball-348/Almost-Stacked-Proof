@@ -1,0 +1,27 @@
+# DML independent-style mathematical and editorial referee report — 5 November 2026
+
+## Scope and evidence
+Baseline main: `17eeb93898bdeab9fef323788c1ea6d9ff4bba8c`. Checked the DML text and bibliography, independent verifiers, original manuscript, Lean `Defs.lean`, `Checker.lean`, `G9/Graph.lean`, sample layer checks and published DML instructions. Internal assessment only; **not an external human referee report**.
+
+## Mathematical verdict
+**Full-space independent computation PASS.** An independently written bottom-up dynamic programme enumerated every weak composition through mass 15 and recomputed STACK and CLEAR winning predicates by all legal outgoing moves; it does not read the Lean certificates or candidate lists. G9 counts (masses 2–15) STACK = 36,128,383,930,1862,2887,3280,2510,1301,473,124,21,2,0; CLEAR = 36,137,384,932,1863,2887,3280,2510,1301,473,124,21,2,0. Exactly two mass-14 losers: (0,0,1,0,0,5,0,8,0) and its (5,7)-swap. Ten AS mass-13 losers in each game. P4 STACK and bull CLEAR pass the pointwise mass-12 checks (32 and 80 AS winners; four unrestricted losers); unrestricted counts at masses 12–15 are 4,2,2,0. Forward closures of the given losing vectors contain 50/96 states with no win.
+
+The recurrence correctly **excludes an already reached goal**; a version omitting that test is false for STACK. The full-space DP confirms the generated-layer candidate completeness on this graph without using it. The proof of monotonicity for masses ≥n uses nonisolated vertices; connectedness supplies that. The stacking-to-clearing transfer lemma requires a non-stackable mass L input, all-clearable mass L+1, and all-AS-clearable mass L, and is valid under its stated graph-class and L≥n assumptions. It establishes a threshold gap without assuming an unproved result.
+
+`Defs.lean` defines moves, size, goals, AS, exact threshold and critical quantified threshold in accordance with the paper. `G9/Graph.lean` specifies the same fourteen undirected edges, connectivity and triangle nonbipartiteness. `Checker.lean` proves a finite-layer step from soundness, candidate completeness, and terminal 0/1 cases, with the goal test built in; sample mass-14 and mass-15 certificate checks use `decide +kernel`. These are strong proof-certificate design features. The DML workflow does **not** independently cold-build the entire Lean archive; registration is historically recorded as Palomar PALOMAR-2026-10-27-000023 v1. No new Lean formalisation is warranted by observed arithmetic.
+
+## Originality and significance
+Original Csernák--Soukup papers arXiv:2604.22341 and arXiv:2610.09650 define the printed *least exact mass* formulation. The latter's Hypothesis 3.2 has exact wording. The elementary pointwise examples are secondary, not a claim to priority over author clarifications. The significant result is a concrete, counterintuitive nine-vertex obstruction to BOTH critical clauses with exhaustive reproducible and kernel-audited certificates. The original same-author counterexample preprint overlaps substantially; this paper is an adapted/explained version, not a wholly new mathematical discovery relative to that preprint.
+
+A contemporaneous targeted literature search did not find an independent published counterexample that supersedes the G9 result; a search is not conclusive evidence of priority. No uniqueness/minimality/infinite-family claim is supported. A genuine editorial risk is that the paper's mathematical novelty beyond the author's own preprint is low, although journal publication of a preprint-derived paper is customary subject to the journal's policy.
+
+## DML assessment
+DML explicitly welcomes nontrivial progress on existing conjectures, with an 8-page limit and required template. A concise 4-page computational counterexample is plausible for scope. Strengths: exact graph and configurations, universal finite checks rather than sample-only tests, reproducible scripts, transparent Lean checker architecture. Risks: editors may request more accessible explanation of the computational proof, independently runnable finite data, and clear provenance of the overlapping preprint. Ensure final PDF and all figures are visually checked on the exact final commit.
+
+## Editorial improvements
+Corrected unsupported attribution to a supposed publicly available original-author computational criterion; corrected graph-check instructions to reference the DML-specific script; included a separate full-state checker and graph6/TikZ integrity check in CI; explicit same-result arXiv overlap note and corrected build-doc wording.
+
+## Policy, signoff, and unresolved issues
+DML official rules: submit template PDF to `m.secretary@dmlett.com`; no simultaneous equivalent journal submission; declare all funding and competing interests. The site has no identified explicit AI-assisted-research prescription, nor an express arXiv exception. The existing substantial AI disclosure is retained. The owner must supply/approve an email address, verify affiliation, funding and competing interests, confirm no concurrent substantially similar *journal* submission, and approve the overlap disclosure in the submission email.
+
+**Internal assessment:** mathematically strong and suitable in principle; publication still depends on final-commit PDF/CI visual checking and owner signoff. Do not claim independent human refereeing, journal acceptance or absolute novelty.

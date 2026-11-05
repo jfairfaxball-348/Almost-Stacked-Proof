@@ -100,9 +100,8 @@ formulation. Success restricted to almost-stacked configurations need
 not be monotone in mass. The mathematically natural \emph{critical}
 formulation instead asks for an almost-stacked losing configuration at
 the final losing mass, or equivalently equality of the largest losing
-masses. This agrees with the original authors' publicly available
-computational criterion. We do not imply a published correction to
-their preprint.
+masses. This uses the largest-losing-layer interpretation of a threshold;
+we do not assert that the original authors have published a correction.
 
 We first give elementary finite counterexamples to the printed
 pointwise form. The principal contribution is a nine-vertex graph
@@ -125,7 +124,7 @@ Neither is almost stacked, hence both universal critical clauses ASH$^*$ are fal
 \begin{tikzpicture}[scale=1.12,every node/.style={transform shape}]
 \Gcoords\Gedges\Gvertices
 \end{tikzpicture}
-\caption{\(G_9\): its nine labelled vertices and exactly fourteen edges, with graph6 \texttt{HCQTaXi}. The diamond units have bridges \(5\)--\(7\) and \(6\)--\(8\); vertex \(2\) joins \(6\) and \(8\). Edge fidelity is mechanically checked by \texttt{figure\_check.py}.}\label{fig:g9}
+\caption{\(G_9\): its nine labelled vertices and exactly fourteen edges, with graph6 \texttt{HCQTaXi}. The diamond units have bridges \(5\)--\(7\) and \(6\)--\(8\); vertex \(2\) joins \(6\) and \(8\). The labelled edge list is checked against the graph6 encoding by a separate script.}\label{fig:g9}
 \end{figure}
 \section{Definitions and conventions}
 A configuration is a vector \(c:V(G)\to\mathbb{N}_0\) of total mass \(|c|=\sum_v c(v)\). One pebbling move \(u\to v\) requires an edge \(uv\) and \(c(u)\ge2\), replaces \(c\) by \(c-2e_u+e_v\), and lowers the mass by one. A configuration is \emph{stackable} if a finite sequence (possibly empty) ends with precisely one occupied vertex; it is \emph{clearable} if such a sequence ends with mass exactly one. Clearability implies stackability. The parameters \(\operatorname{stack}(G)\), for connected graphs with at least two vertices, and \(\operatorname{clear}(G)\), for connected non-bipartite graphs, are the least \(t\ge2\) for which \emph{every configuration of size exactly \(t\)} wins \cite{CSApril}.
@@ -221,9 +220,11 @@ each layer \(2\le t\le14\) is nonempty, and
 \end{proposition}
 \begin{proof}[Computer-assisted, Lean kernel-checked]
 The Lean development defines the legal-move reflexive-transitive reachability predicate and the separate STACK and CLEAR goals in \path{formal/AlmostStacked/Defs.lean}. Its \texttt{Checker.lean} proves that an encoded ordered losing-layer tree matches the mathematical losing predicate using the successor equation, ordered-tree membership, goal exclusion and a formally proved candidate-completeness condition. The data arrays are untrusted generated candidates.
-The independent, standalone integer checker
-\texttt{verify\_g9\_layers.py} reconstructs the same layers without
-using those arrays. Each Boolean finite-layer condition is evaluated inside the Lean kernel with \texttt{decide +kernel}; the chain of layers \(2,\ldots,15\) is checked separately for STACK and CLEAR. The exact size-\(14\) characterisation, size-\(15\) emptiness, \(w\), and all lower-layer witnesses are proved in \path{formal/AlmostStacked/Main.lean}. No claim of hand enumeration is made.
+The standalone integer checker \texttt{verify\_g9\_layers.py}
+reconstructs the same layers without using those arrays. A second
+checker, \texttt{verify\_all\_configurations.py}, instead evaluates
+\emph{every} weak composition of each mass directly, without the
+reverse-predecessor candidate recurrence. Each Boolean finite-layer condition is evaluated inside the Lean kernel with \texttt{decide +kernel}; the chain of layers \(2,\ldots,15\) is checked separately for STACK and CLEAR. The exact size-\(14\) characterisation, size-\(15\) emptiness, \(w\), and all lower-layer witnesses are proved in \path{formal/AlmostStacked/Main.lean}. No claim of hand enumeration is made.
 \end{proof}
 \begin{table}[H]\centering\small
 \begin{tabular}{r rr@{\quad}r rr}\toprule
@@ -279,7 +280,10 @@ mass-$15$ input and every almost-stacked mass-$14$ input clears.
 The Lean development proves the relevant definitions and checker correctness, then uses kernel evaluation to certify the finite STACK and CLEAR losing layers on \(G_9\). The twenty-five formal targets, including both universal negations, are specified in \texttt{formal/Challenge.lean}. The result was registered in the Palomar Registry on 27 October 2026 as \PalomarEntry\ \cite{PalomarG9}; the registered record links the archived source and identifies its formal theorem names. This formal verification does not constitute a claim of uniqueness or priority.
 An order-\(9\) witness does not prove uniqueness in the class of all order-\(9\) graphs, given outstanding independently unverified atlas cases. The suggested infinite bridge families remain conjectural. The earlier tree stacking theorem \cite{TreeStack} is independent prior work.
 \section*{Availability, acknowledgements and declarations}
-Source: \url{https://github.com/jfairfaxball-348/Almost-Stacked-Proof}. Frozen Lean submission snapshot: \texttt{palomar/submission} at commit \texttt{34363e522213}. The Palomar archive preserves the registered source commit \texttt{358729c65c19} (full commit identifiers are in \texttt{paper/README.md}). Palomar record: \PalomarEntry. To regenerate diagrams and check graph integrity run \texttt{python3 figure\_check.py}; build commands and environment are in \texttt{paper/README.md}. The pebbling parameters and motivating conjecture are due to Tam\'as Csern\'ak and Lajos Soukup \cite{CSApril,CSOctober}. AI was used substantially in the formalisation and manuscript creation. The named author remains responsible for the paper.
+A separate preprint manuscript containing the nine-vertex critical
+counterexample is in the arXiv process; the present manuscript gives
+additional pointwise examples and a journal-directed presentation of the
+same principal result. Source: \url{https://github.com/jfairfaxball-348/Almost-Stacked-Proof}. Frozen Lean submission snapshot: \texttt{palomar/submission} at commit \texttt{34363e522213}. The Palomar archive preserves the registered source commit \texttt{358729c65c19} (full commit identifiers are in \texttt{paper/README.md}). Palomar record: \PalomarEntry. To check the figures' graph data run \texttt{python3 "DML paper/verify\_figure.py"}; DML build commands are in \texttt{DML paper/README.md}. The pebbling parameters and motivating conjecture are due to Tam\'as Csern\'ak and Lajos Soukup \cite{CSApril,CSOctober}. AI was used substantially in the formalisation and manuscript creation. The named author remains responsible for the paper.
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}

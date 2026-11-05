@@ -25,6 +25,8 @@ jobs:
         run: |
           python3 'DML paper/verify_pointwise.py'
           python3 'DML paper/verify_g9_layers.py'
+          python3 'DML paper/verify_all_configurations.py'
+          python3 'DML paper/verify_figure.py'
       - name: Retrieve and describe official journal template
         run: |
           mkdir -p /tmp/dml-template
