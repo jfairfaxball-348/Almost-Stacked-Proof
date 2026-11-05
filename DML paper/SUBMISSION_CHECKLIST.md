@@ -6,10 +6,11 @@
 - [x] Preserve the Lean-verified G9 critical double counterexample
 - [x] Correct goal exclusion in STACK losing-layer recursion
 - [x] Add keywords and 2020 MSC
-- [ ] Integrate official DML LaTeX template (article class is provisional)
-- [ ] Build and visually inspect exact-commit PDF in mandatory template
+- [x] Integrate official DML LaTeX template settings and header (source ZIP verified)
+- [ ] Build exact-commit DML-template PDF and visually inspect all pages
 - [ ] Check at most eight pages in DML template
-- [ ] Independent maths/proof review and certificate correspondence check
+- [x] Independent exact finite mathematical checks for both small examples and G9 layers
+- [ ] Independent human maths/proof review and certificate correspondence check
 - [ ] Current novelty/prior-art audit of final exact manuscript
 - [ ] Confirm Csernak--Soukup preprint versions and citations
 - [ ] Author sign off contact/affiliation and declarations
