@@ -45,6 +45,7 @@
 
 \begin{document}
 \baselineskip=0.20in
+\noindent
 \makebox[\textwidth]{%
 \hglue-15pt
 \begin{minipage}{0.6cm}\vskip9pt\end{minipage}\vspace{-\parskip}
@@ -243,8 +244,36 @@ If \(G\) has \(n\) vertices and no isolated vertices and all configurations of m
 \begin{proof}
 If \(s>t\ge n\), the pigeonhole principle gives a vertex holding at least two pebbles. Move once along an incident edge; the resulting mass is \(s-1\). Descending induction finishes.
 \end{proof}
+\begin{lemma}[Stacking-to-clearing transfer]\label{lem:transfer}
+Let $G$ be connected and non-bipartite with $n$ vertices, and let $L\ge n$.
+Assume that some mass-$L$ configuration is not stackable,
+every mass-$(L+1)$ configuration is clearable, and every almost-stacked
+mass-$L$ configuration is clearable. Then
+\[
+\operatorname{stack}(G)=\operatorname{clear}(G)=L+1,
+\]
+and both critical Almost Stacked Hypotheses fail.
+\end{lemma}
+\begin{proof}
+Every clearable configuration is stackable, since a one-pebble
+configuration is already supported at one vertex. Thus a non-stackable
+mass-$L$ configuration loses in both games, while all configurations
+of mass $L+1$ win in both games. At each mass from $2$ through $n$
+there is a terminal $0$--$1$ losing configuration. The monotonicity
+lemma rules out an all-winning layer between $n$ and $L$, since such
+a layer would force every mass-$L$ input to win.
+Consequently both universal thresholds equal $L+1$.
+There is no almost-stacked loser at mass $L$ by assumption and none
+at any greater mass by monotonicity. Hence in each game its
+largest almost-stacked losing mass is strictly below $L$, while
+the largest unrestricted losing mass is $L$.
+\end{proof}
+
 \begin{proof}[Proof of Theorem~\ref{thm:main}]
 The graph is connected by inspection of its listed edges, and has the odd triangle \(0,3,5\). The certificate proposition gives all-size-\(15\) success; Lemma~\ref{lem:monotonic} propagates it above \(15\). The nonempty layers \(2,\ldots,14\) establish the least guaranteed exact threshold \(15\). At mass \(14\), the two losers both have two occupied vertices with at least two pebbles. Thus no AS input loses at \(14\); every larger input wins; and the specified AS input \(w\) loses at \(13\). Hence \(L_{\rm AS}=13\), \(L_{\rm all}=14\) for both games. This refutes the two critical universal clauses.
+Alternatively, Lemma~\ref{lem:transfer} isolates their common mechanism:
+a mass-$14$ STACK loser is automatically a CLEAR loser, while every
+mass-$15$ input and every almost-stacked mass-$14$ input clears.
 \end{proof}
 \section{Formal verification and scope}
 The Lean development proves the relevant definitions and checker correctness, then uses kernel evaluation to certify the finite STACK and CLEAR losing layers on \(G_9\). The twenty-five formal targets, including both universal negations, are specified in \texttt{formal/Challenge.lean}. The result was registered in the Palomar Registry on 27 October 2026 as \PalomarEntry\ \cite{PalomarG9}; the registered record links the archived source and identifies its formal theorem names. This formal verification does not constitute a claim of uniqueness or priority.
