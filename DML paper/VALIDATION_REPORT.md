@@ -66,3 +66,9 @@ https://www.dmlett.com/manuscript-preparation-and-its-submission/
   before another journal; posting to arXiv is not itself peer review.
 - The corresponding author's email and all declarations require signoff.
 - Manuscript remains NOT SUBMITTED.
+
+## Final DML-format PDF validation — 5 November 2026
+
+[GitHub Actions run 42060980350](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/42060980350) passed on source commit `d07ce11109d63b0f86c0bfdc4730a2ca5857b772`. It built the paper using the official DML formatting, verified the pointwise and nine-vertex graph exact layer recurrences, compiled references, generated four A4 pages, and found no overfull boxes or unresolved final citations. All four pages of the identical LaTeX source's [successful CI run 42060911551](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/42060911551) were rendered and visually inspected. The PDF SHA-256 was `6dc8542d765ff860b4787a077652d01cc73a1cee1e58f38f9f06d517279e1167`.
+
+This is a manuscript build audit, not independent human mathematical refereeing or an acceptance decision. Final author contact details, AI and other declarations, current novelty verification, arXiv/journal overlap policy and actual submission remain open.

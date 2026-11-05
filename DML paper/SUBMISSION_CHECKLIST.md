@@ -7,8 +7,8 @@
 - [x] Correct goal exclusion in STACK losing-layer recursion
 - [x] Add keywords and 2020 MSC
 - [x] Integrate official DML LaTeX template settings and header (source ZIP verified)
-- [ ] Build exact-commit DML-template PDF and visually inspect all pages
-- [ ] Check at most eight pages in DML template
+- [x] Build DML-template PDF on source commit d07ce111 and visually inspect all four pages
+- [x] Check journal-format page limit: 4 pages (maximum 8)
 - [x] Independent exact finite mathematical checks for both small examples and G9 layers
 - [ ] Independent human maths/proof review and certificate correspondence check
 - [ ] Current novelty/prior-art audit of final exact manuscript
