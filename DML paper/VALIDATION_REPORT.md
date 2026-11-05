@@ -72,3 +72,42 @@ https://www.dmlett.com/manuscript-preparation-and-its-submission/
 [GitHub Actions run 42060980350](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/42060980350) passed on source commit `d07ce11109d63b0f86c0bfdc4730a2ca5857b772`. It built the paper using the official DML formatting, verified the pointwise and nine-vertex graph exact layer recurrences, compiled references, generated four A4 pages, and found no overfull boxes or unresolved final citations. All four pages of the identical LaTeX source's [successful CI run 42060911551](https://github.com/jfairfaxball-348/Almost-Stacked-Proof/actions/runs/42060911551) were rendered and visually inspected. The PDF SHA-256 was `6dc8542d765ff860b4787a077652d01cc73a1cee1e58f38f9f06d517279e1167`.
 
 This is a manuscript build audit, not independent human mathematical refereeing or an acceptance decision. Final author contact details, AI and other declarations, current novelty verification, arXiv/journal overlap policy and actual submission remain open.
+
+
+## Fresh 5 November 2026 referee-style audit
+
+Pinned starting \`main\`: \`17eeb93898bdeab9fef323788c1ea6d9ff4bba8c\`.
+A new *full-configuration* integer dynamic programme, independent of the
+repository's reverse-candidate recurrence and Lean layer data, was executed.
+It enumerated all weak compositions at each mass, finding G9 STACK/CLEAR
+counts exactly as in the table above, two and only two mass-14 losers,
+none at mass 15, and ten AS mass-13 losers in each mode.
+For P4 STACK and bull CLEAR, it found 32/32 and 80/80 AS mass-12 winners,
+respectively, unrestricted losing counts 4,2,2,0 at masses 12–15.
+The pointwise losing-state forward closures were separately checked to have
+50 and 96 states and no goal state. No numerical defect was found.
+
+Source checked: Csernák--Soukup arXiv:2604.22341 and arXiv:2610.09650
+(including the printed pointwise Hypothesis 3.2); the latter explicitly
+describes a separate ASH hypothesis for connected/non-bipartite graphs.
+No verified later correction was located in the public source inspection.
+Search did not reveal another independent published G9 counterexample;
+absence of a web search result is *not* a novelty guarantee.
+
+Editorial fixes: removed an unsupported reference to the original authors'
+"public computational criterion", fixed the DML-specific figure-check path,
+added separate all-configurations and figure validators to CI, and explicitly
+stated that the original counterexample preprint substantially overlaps the
+DML paper. The DML official submission page confirms mandatory template,
+eight-page limit, PDF-by-email to m.secretary@dmlett.com, ≥3 keywords and MSC.
+DML ethics policy explicitly prohibits substantially similar simultaneous
+journal submission, requires funding and conflict-of-interest declarations,
+and contains no located arXiv-specific or AI-specific procedure.
+
+**Unresolved prior to submission:** author email and personal signoff; verify
+whether the original paper has been submitted to any journal (arXiv alone is
+not a journal submission), and confirm accurate funding/conflict declarations.
+DML's public wording does not clearly resolve prior arXiv posting. No journal
+editor was contacted. This is internal mathematical checking, NOT human
+external refereeing. Current-PR final PDF build/CI/visual inspection evidence
+must be added after observed completion; prior-passing runs do not suffice.

@@ -1,6 +1,6 @@
 # DML paper — combined counterexample manuscript
 
-**Status: DML-template manuscript in technical preflight; not submitted.**
+**Status: internal final referee audit; not submitted; author signoff required.**
 
 This directory is separate from the pre-existing `paper/` and the pending
 arXiv preprint. Neither the original paper nor any frozen Lean proof changed.
@@ -43,3 +43,29 @@ Remaining tasks include visually inspecting the rendered PDF, independent
 editorial scrutiny, final bibliography and novelty check, corresponding
 author contact details, declarations and arXiv overlap policy review.
 No journal contact or submission has been undertaken.
+
+
+## Final audit additions (5 November 2026)
+
+The DML manuscript also has \`verify_all_configurations.py\`, a **separate
+full-state dynamic programme** that enumerates every weak composition at every
+mass (rather than consuming the reverse-predecessor candidate generator).
+It checks both pointwise examples and all G9 layers to mass 15.
+Run \`python3 "DML paper/verify_figure.py"\` to check the exact TikZ
+edge source, graph6 encoding, automorphism and occupied labels.
+The DML CI executes both original scripts plus both new checks.
+
+The exact finite calculations have been independently recomputed from the
+pebbling moves. See \`REFEREE_REPORT.md\` and \`VALIDATION_REPORT.md\`.
+The prior source/Palomar record is preserved; the live Lean build is not
+rerun by the DML-only workflow. A final-source Actions PDF and visual inspection
+must be checked against **the final PR head**, not inferred from earlier runs.
+
+DML policy: <https://www.dmlett.com/publication-ethics/> prohibits
+concurrent journal submissions of substantially similar results and requires
+disclosure of funding and competing interests. The public DML rules do not
+expressly mention arXiv preprints or an AI-specific disclosure format. The
+substantially overlapping original counterexample preprint is already in the
+arXiv process; the author must disclose this when submitting, confirm no
+other journal is considering essentially the same manuscript, and approve
+contact/affiliation/funding/conflict wording. Do not invent any personal facts.
