@@ -1,0 +1,68 @@
+name: DML manuscript preparation audit
+on:
+  push:
+    paths:
+      - 'DML paper/**'
+      - '.github/workflows/dml-paper-audit.yml'
+  pull_request:
+    paths:
+      - 'DML paper/**'
+      - '.github/workflows/dml-paper-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  manuscript:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install TeX and PDF inspection tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq latexmk texlive-latex-recommended texlive-latex-extra texlive-pictures texlive-fonts-recommended poppler-utils unzip
+      - name: Check independent pointwise counterexamples
+        run: |
+          python3 'DML paper/verify_pointwise.py'
+      - name: Retrieve and describe official journal template
+        run: |
+          mkdir -p /tmp/dml-template
+          curl --fail --location --retry 2 --max-time 60 'https://www.dmlett.com/archive/DML-Template.zip' -o /tmp/DML-Template.zip
+          unzip -l /tmp/DML-Template.zip
+          unzip -q /tmp/DML-Template.zip -d /tmp/dml-template
+          echo '--- Official template source candidates ---'
+          find /tmp/dml-template -maxdepth 4 -type f | sort
+          echo '--- TeX preambles (first 65 lines each) ---'
+          find /tmp/dml-template -maxdepth 4 -type f \( -iname '*.tex' -o -iname '*.sty' -o -iname '*.cls' \) | sort | while IFS= read -r p; do
+            echo "TEMPLATE FILE: $p"
+            sed -n '1,65p' "$p"
+          done
+      - name: Build article-class preview (NOT official journal template)
+        run: |
+          cd 'DML paper'
+          latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+          test -s main.pdf
+          test -s main.bbl
+          pages=$(pdfinfo main.pdf | awk '/^Pages:/ {print $2}')
+          echo "ARTICLE_CLASS_PREVIEW_PAGES=$pages (not a DML page-count check)"
+          pdftotext -layout main.pdf main.txt
+          mkdir -p rendered
+          pdftoppm -r 100 -png main.pdf rendered/page
+          test "$(find rendered -name 'page-*.png' | wc -l)" -eq "$pages"
+          if grep -Eq 'Citation .* undefined|There were undefined references' main.log; then exit 1; fi
+          sha256sum main.tex references.bib main.pdf > SHA256SUMS.txt
+          git rev-parse HEAD > BUILD_COMMIT.txt
+      - name: Upload audit artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dml-article-preview-and-template-audit
+          path: |
+            DML paper/main.pdf
+            DML paper/main.log
+            DML paper/main.txt
+            DML paper/main.bbl
+            DML paper/SHA256SUMS.txt
+            DML paper/BUILD_COMMIT.txt
+            DML paper/rendered/*.png
+          retention-days: 30
