@@ -31,8 +31,8 @@ jobs:
           curl --fail --location --retry 2 --max-time 60 'https://www.dmlett.com/archive/DML-Template.zip' -o /tmp/DML-Template.zip
           unzip -l /tmp/DML-Template.zip
           unzip -q /tmp/DML-Template.zip -d /tmp/dml-template
-          grep -Fq '\\documentclass[10pt,a4paper]{article}' 'DML paper/main.tex'
-          grep -Fq '\\usepackage[margin=1.1cm]{geometry}' 'DML paper/main.tex'
+          grep -Fq '\documentclass[10pt,a4paper]{article}' 'DML paper/main.tex'
+          grep -Fq '\usepackage[margin=1.1cm]{geometry}' 'DML paper/main.tex'
           echo '--- Official template source candidates ---'
           find /tmp/dml-template -maxdepth 4 -type f | sort
           echo '--- TeX preambles (first 65 lines each) ---'
