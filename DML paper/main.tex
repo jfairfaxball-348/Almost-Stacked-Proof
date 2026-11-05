@@ -1,14 +1,38 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
+% DML 2026-01-04 official template layout, with math/figure packages
+% for the existing verified counterexample figures.
+\usepackage[margin=1.1cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd,cite,graphicx}
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\fontsize{12}{15}\bfseries}{\thesection}{1em.}{}
+\usepackage[labelfont=bf]{caption}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{conjecture}{Conjecture}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{counterexample}{Counter Example}[section]
+\newtheorem{observation}{Observation}[section]
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\allowdisplaybreaks[4]
+\let\oldbibliography\thebibliography
+\renewcommand{\thebibliography}[1]{%
+  \oldbibliography{#1}%
+  \setlength{\itemsep}{-2pt}%
+}
+\baselineskip=1.20in
 \usepackage[T1]{fontenc}
-\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,booktabs}
-\usepackage[margin=27mm]{geometry}
-\usepackage{tikz,hyperref,float}
+\usepackage{lmodern,microtype,booktabs,tikz,hyperref,float}
 \usetikzlibrary{arrows.meta,positioning,calc}
 \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black}
 \emergencystretch=3em
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{proposition}[theorem]{Proposition}
+
 \newcommand{\PalomarEntry}{\href{https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-27-000023\&version=1}{\texttt{PALOMAR-2026-10-27-000023, v1}}}
 \newcommand{\Gcoords}{%
 \coordinate (v0) at (-2.8,0);\coordinate (v3) at (-.8,0);
@@ -18,11 +42,31 @@
 \coordinate (v2) at (.9,-2.5);}
 \newcommand{\Gedges}{\foreach \a/\b in {0/3,0/5,0/6,1/4,1/7,1/8,2/6,2/8,3/5,3/6,4/7,4/8,5/7,6/8}{\draw[line width=.7pt] (v\a)--(v\b);}}
 \newcommand{\Gvertices}{\foreach \i in {0,1,2,3,4,5,6,7,8}{\node[draw,fill=white,circle,inner sep=0pt,minimum size=7mm,font=\small\bfseries] at (v\i) {\i};}}
-\title{Counterexamples to the Pointwise and Critical Almost Stacked Hypotheses}
-\author{John Fairfax-Ball\\{\small Independent researcher, United Kingdom}}
-\date{}
+
 \begin{document}
-\maketitle
+\baselineskip=0.20in
+\makebox[\textwidth]{%
+\hglue-15pt
+\begin{minipage}{0.6cm}\vskip9pt\end{minipage}\vspace{-\parskip}
+\begin{minipage}[t]{6cm}
+\footnotesize{ {\bf Discrete Mathematics Letters}\\
+\underline{www.dmlett.com}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{6.5cm}
+\normalsize {\it Discrete Math. Lett.} (manuscript under preparation)
+\end{minipage}}
+\vskip36pt
+\noindent
+{\large\bf Counterexamples to the Pointwise and Critical Almost Stacked Hypotheses}\\[3mm]
+\noindent
+John Fairfax-Ball\footnote{Corresponding author; email address to be confirmed before submission.}\\[2mm]
+\noindent
+\footnotesize\textit{Independent researcher, United Kingdom}\\[5mm]
+\setcounter{page}{1}\thispagestyle{empty}
+\baselineskip=0.20in
+\normalsize
+
 \begin{abstract}
 The Almost Stacked Hypothesis of Csern\'ak and Soukup has a printed
 pointwise formulation and a natural critical (largest-losing-layer)
@@ -33,13 +77,12 @@ Its stacking and clearing thresholds are $15$, but its only mass-$14$
 losers are two non-almost-stacked automorphic configurations.
 The decisive finite result has been certified using Lean and independently
 reproducible reachability computations.
-\end{abstract}
-
-\noindent\textbf{Keywords:} graph pebbling; stacking number; clearing number;
-counterexample; formal verification.
-
-\noindent\textbf{2020 Mathematics Subject Classification:}
+\par\medskip
+\noindent{\bf Keywords:} graph pebbling; stacking number; clearing number;
+counterexample; formal verification.\\[2mm]
+\noindent{\bf 2020 Mathematics Subject Classification:}
 05C57 (primary); 05C85 (secondary).
+\end{abstract}
 
 \section{Introduction}
 Csern\'ak and Soukup introduced the stacking and clearing numbers in
@@ -176,7 +219,10 @@ each layer \(2\le t\le14\) is nonempty, and
 \(w=(0,0,1,0,1,11,0,0,0)\) is an AS loser of mass \(13\).
 \end{proposition}
 \begin{proof}[Computer-assisted, Lean kernel-checked]
-The Lean development defines the legal-move reflexive-transitive reachability predicate and the separate STACK and CLEAR goals in \path{formal/AlmostStacked/Defs.lean}. Its \texttt{Checker.lean} proves that an encoded ordered losing-layer tree matches the mathematical losing predicate using the successor equation, ordered-tree membership, goal exclusion and a formally proved candidate-completeness condition. The data arrays are untrusted generated candidates. Each Boolean finite-layer condition is evaluated inside the Lean kernel with \texttt{decide +kernel}; the chain of layers \(2,\ldots,15\) is checked separately for STACK and CLEAR. The exact size-\(14\) characterisation, size-\(15\) emptiness, \(w\), and all lower-layer witnesses are proved in \path{formal/AlmostStacked/Main.lean}. No claim of hand enumeration is made.
+The Lean development defines the legal-move reflexive-transitive reachability predicate and the separate STACK and CLEAR goals in \path{formal/AlmostStacked/Defs.lean}. Its \texttt{Checker.lean} proves that an encoded ordered losing-layer tree matches the mathematical losing predicate using the successor equation, ordered-tree membership, goal exclusion and a formally proved candidate-completeness condition. The data arrays are untrusted generated candidates.
+The independent, standalone integer checker
+\texttt{verify\_g9\_layers.py} reconstructs the same layers without
+using those arrays. Each Boolean finite-layer condition is evaluated inside the Lean kernel with \texttt{decide +kernel}; the chain of layers \(2,\ldots,15\) is checked separately for STACK and CLEAR. The exact size-\(14\) characterisation, size-\(15\) emptiness, \(w\), and all lower-layer witnesses are proved in \path{formal/AlmostStacked/Main.lean}. No claim of hand enumeration is made.
 \end{proof}
 \begin{table}[H]\centering\small
 \begin{tabular}{r rr@{\quad}r rr}\toprule

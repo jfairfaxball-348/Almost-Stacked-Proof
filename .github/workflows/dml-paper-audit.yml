@@ -24,12 +24,15 @@ jobs:
       - name: Check independent pointwise counterexamples
         run: |
           python3 'DML paper/verify_pointwise.py'
+          python3 'DML paper/verify_g9_layers.py'
       - name: Retrieve and describe official journal template
         run: |
           mkdir -p /tmp/dml-template
           curl --fail --location --retry 2 --max-time 60 'https://www.dmlett.com/archive/DML-Template.zip' -o /tmp/DML-Template.zip
           unzip -l /tmp/DML-Template.zip
           unzip -q /tmp/DML-Template.zip -d /tmp/dml-template
+          grep -Fq '\\documentclass[10pt,a4paper]{article}' 'DML paper/main.tex'
+          grep -Fq '\\usepackage[margin=1.1cm]{geometry}' 'DML paper/main.tex'
           echo '--- Official template source candidates ---'
           find /tmp/dml-template -maxdepth 4 -type f | sort
           echo '--- TeX preambles (first 65 lines each) ---'
@@ -37,14 +40,14 @@ jobs:
             echo "TEMPLATE FILE: $p"
             sed -n '1,65p' "$p"
           done
-      - name: Build article-class preview (NOT official journal template)
+      - name: Build exact-source DML-formatted manuscript
         run: |
           cd 'DML paper'
           latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
           test -s main.pdf
           test -s main.bbl
           pages=$(pdfinfo main.pdf | awk '/^Pages:/ {print $2}')
-          echo "ARTICLE_CLASS_PREVIEW_PAGES=$pages (not a DML page-count check)"
+          echo "DML_FORMAT_PAGES=$pages"; if [ "$pages" -gt 8 ]; then echo "DML original paper exceeds eight-page limit"; exit 1; fi
           pdftotext -layout main.pdf main.txt
           mkdir -p rendered
           pdftoppm -r 100 -png main.pdf rendered/page
@@ -56,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: dml-article-preview-and-template-audit
+          name: dml-formatted-manuscript-pdf-and-pages
           path: |
             DML paper/main.pdf
             DML paper/main.log

@@ -1,38 +1,45 @@
 # DML paper — combined counterexample manuscript
 
-**Status: proposed journal manuscript; not submitted.**
-This directory is separate from the pre-existing paper/ and pending arXiv
-preprint. The existing source and formalisation are unchanged.
+**Status: DML-template manuscript in technical preflight; not submitted.**
+
+This directory is separate from the pre-existing `paper/` and the pending
+arXiv preprint. Neither the original paper nor any frozen Lean proof changed.
+
+The current `main.tex` applies the actual [DML official 2026-01-04 LaTeX
+template](https://www.dmlett.com/archive/DML-Template.zip): 10pt A4 article,
+1.1 cm margins, section headings, sectional theorem/caption numbering,
+bibliography spacing and journal header. Publication volume/page/acceptance
+metadata have **not** been invented. The contact footnote remains explicitly
+marked for author sign-off. The author's substantial AI-assistance disclosure
+is preserved.
 
 Files:
-- main.tex: full proposed article on pointwise and critical ASH.
-- references.bib: bibliography from the existing manuscript.
-- verify_pointwise.py: independent complete finite checks for P4 and bull.
-- SUBMISSION_CHECKLIST.md: publication-readiness gates.
+- `main.tex` — full DML-formatted proposed manuscript.
+- `references.bib` — source-linked bibliography.
+- `verify_pointwise.py` — exact independent P4/bull checks.
+- `verify_g9_layers.py` — exact independent G9 STACK/CLEAR layer check,
+  based on the explicit pebbling move, not Lean certificate arrays.
+- `VALIDATION_REPORT.md` — mathematics and publication-rule audit.
+- `SUBMISSION_CHECKLIST.md` — remaining gates.
 
-Principal theorem: one nine-vertex graph, graph6 HCQTaXi, disproves
-the intended critical ASH for both STACK and CLEAR, with certified
-losing layers and Palomar registry entry PALOMAR-2026-10-27-000023 v1.
-The simpler printed-form counterexamples are introductory, not the
-principal contribution. No uniqueness or infinite-family claim is made.
-
-A mathematical presentation defect in the older manuscript recurrence
-is corrected: STACK losing layers must exclude already stacked goals.
-The Lean proof itself is unchanged.
-
-From repository root, reproduce the small cases with:
+To run the mathematical verifiers:
     python3 "DML paper/verify_pointwise.py"
+    python3 "DML paper/verify_g9_layers.py"
 
-To compile a provisional article-class PDF, from this directory:
+To generate the manuscript PDF with TeX Live:
+    cd "DML paper"
     latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 
-DML REQUIRES ITS OWN TEMPLATE. This is not yet formatted in that template.
-The eight-page limit must be checked only after integrating it.
-Official requirements: https://www.dmlett.com/manuscript-preparation-and-its-submission/
+The `DML manuscript preparation audit` GitHub Actions workflow independently
+retrieves the official ZIP, checks required template settings, runs both
+verification scripts, builds PDF and bibliography from the exact committed
+source, renders PDF pages, and fails if the DML-template paper exceeds 8 pages.
+Do not claim a final build or PDF pass until its specific commit run completes.
 
-The next gates are: obtain official template, compile and visually inspect,
-independent mathematical review, current novelty check, author sign-off
-of affiliation/contact/funding/competing interests and accurate AI
-assistance disclosure, and confirm DML's rules about the existing or pending
-arXiv preprint and any substantially overlapping journal submission.
-No journal contact or manuscript submission has occurred.
+Official DML guidelines:
+https://www.dmlett.com/manuscript-preparation-and-its-submission/
+
+Remaining tasks include visually inspecting the rendered PDF, independent
+editorial scrutiny, final bibliography and novelty check, corresponding
+author contact details, declarations and arXiv overlap policy review.
+No journal contact or submission has been undertaken.
